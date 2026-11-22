@@ -1,0 +1,258 @@
+{
+ "n_final": 100,
+ "n_studied": 100,
+ "provisional": [
+  47,
+  48,
+  55,
+  69
+ ],
+ "runtime_all": {
+  "n": 98,
+  "median": 210.5,
+  "q1": 178.0,
+  "q3": 248.0,
+  "min": 109,
+  "max": 456,
+  "mean": 218.5
+ },
+ "runtime_le_180": 25,
+ "runtime_le_150": 6,
+ "runtime_ge_240": 31,
+ "runtime_album_bomb": {
+  "n": 55,
+  "median": 222,
+  "q1": 183.0,
+  "q3": 258.0,
+  "min": 152,
+  "max": 336,
+  "mean": 225.7
+ },
+ "runtime_not_bomb": {
+  "n": 43,
+  "median": 197,
+  "q1": 173.0,
+  "q3": 231.0,
+  "min": 109,
+  "max": 456,
+  "mean": 209.2
+ },
+ "runtime_climbers": {
+  "n": 11,
+  "median": 201,
+  "q1": 139.0,
+  "q3": 265.0,
+  "min": 123,
+  "max": 384,
+  "mean": 210.5
+ },
+ "runtime_debuts": {
+  "n": 87,
+  "median": 214,
+  "q1": 182.0,
+  "q3": 247.0,
+  "min": 109,
+  "max": 456,
+  "mean": 219.5
+ },
+ "runtime_drake": {
+  "n": 41,
+  "median": 239,
+  "q1": 189.5,
+  "q3": 260.5,
+  "min": 152,
+  "max": 456,
+  "mean": 235.9
+ },
+ "runtime_nondrake": {
+  "n": 57,
+  "median": 201,
+  "q1": 173.0,
+  "q3": 227.5,
+  "min": 109,
+  "max": 384,
+  "mean": 205.9
+ },
+ "felt_bpm": {
+  "n": 71,
+  "median": 74.0,
+  "q1": 69.0,
+  "q3": 85.0,
+  "min": 56.0,
+  "max": 133.0,
+  "mean": 78.7
+ },
+ "grid_bpm": {
+  "n": 76,
+  "median": 136.5,
+  "q1": 112.0,
+  "q3": 147.75,
+  "min": 80,
+  "max": 193,
+  "mean": 131.3
+ },
+ "felt_bands": {
+  "<65": 9,
+  "65-74": 28,
+  "75-84": 16,
+  "100-115": 10,
+  "85-99": 7,
+  ">115": 1
+ },
+ "tempo_status": {
+  "verifier_could_not_confirm": 22,
+  "missing": 23,
+  "feel_unresolved": 6,
+  "tempo_sweep": 24,
+  "corrected_by_verifier": 12,
+  "verified": 12,
+  "conflict": 1
+ },
+ "runtime_status": {
+  "verified": 53,
+  "corrected_by_verifier": 18,
+  "verifier_could_not_confirm": 26,
+  "tempo_sweep": 3
+ },
+ "style": {
+  "melodic_trap": 8,
+  "trap": 42,
+  "other": 11,
+  "west_coast_bounce": 6,
+  "boom_bap_or_verse_led": 8,
+  "country_rap": 1,
+  "pop_rap": 9,
+  "rnb_rap": 9,
+  "rage": 2,
+  "drill": 2,
+  "jersey_club": 1,
+  "dance_or_house_rap": 1
+ },
+ "opening": {
+  "unknown|unknown": 54,
+  "producer_tag|source": 1,
+  "instrumental|unconfirmed": 1,
+  "sample_or_interpolation|unconfirmed": 6,
+  "sample_or_interpolation|source": 10,
+  "rap_verse|unverified_recollection": 1,
+  "sung_intro|unverified_recollection": 2,
+  "sung_intro|unconfirmed": 1,
+  "rap_verse|source": 2,
+  "ad_lib_or_spoken_intro|unconfirmed": 3,
+  "sung_intro|source": 1,
+  "ad_lib_or_spoken_intro|source": 4,
+  "hook_or_chorus|unconfirmed": 2,
+  "rap_verse|unconfirmed": 2,
+  "hook_or_chorus|unverified_recollection": 1,
+  "sample_or_interpolation|unverified_recollection": 7,
+  "producer_tag|unconfirmed": 1,
+  "ad_lib_or_spoken_intro|unverified_recollection": 1
+ },
+ "hook_first": {
+  "unknown|unknown": 69,
+  "yes|source": 8,
+  "no|unverified_recollection": 8,
+  "no|source": 5,
+  "yes|unconfirmed": 3,
+  "no|unconfirmed": 3,
+  "yes|unverified_recollection": 4
+ },
+ "hook_status": {
+  "present_verified": 20,
+  "unknown": 42,
+  "present_unverified": 32,
+  "absent_unverified": 6
+ },
+ "beat_switch": {
+  "unknown|unknown": 64,
+  "yes|source": 10,
+  "yes|unconfirmed": 5,
+  "no|unverified_recollection": 18,
+  "yes|unverified_recollection": 3
+ },
+ "with_borrowing": 57,
+ "with_guests": 43,
+ "timestamps_known": {
+  "first_vocal": 0,
+  "first_hook": 0,
+  "beat_switch_time": 0
+ },
+ "with_sourced_delivery": 55,
+ "with_sourced_returns": 27,
+ "lead_artists": [
+  [
+   "Drake",
+   38
+  ],
+  [
+   "Kendrick Lamar",
+   12
+  ],
+  [
+   "Future",
+   9
+  ],
+  [
+   "Travis Scott",
+   4
+  ],
+  [
+   "Tyler",
+   3
+  ],
+  [
+   "Doja Cat",
+   3
+  ],
+  [
+   "Nicki Minaj",
+   3
+  ],
+  [
+   "Lil Baby",
+   3
+  ],
+  [
+   "Cardi B",
+   2
+  ],
+  [
+   "Playboi Carti",
+   2
+  ],
+  [
+   "21 Savage",
+   2
+  ],
+  [
+   "Jack Harlow",
+   2
+  ]
+ ],
+ "drake_any_credit": 41,
+ "album_bomb_songs": 55,
+ "debuts": 88,
+ "weeks_in_top10": {
+  "n": 100,
+  "median": 1.0,
+  "q1": 1.0,
+  "q3": 4.5,
+  "min": 1,
+  "max": 32,
+  "mean": 4.1
+ },
+ "one_week_top10": 59,
+ "boundary_next": [
+  "2021-09-18 #10 Love All \u2014 Drake Featuring JAY-Z",
+  "2021-09-11 #6 Hurricane \u2014 Kanye West",
+  "2021-09-11 #10 Jail \u2014 Kanye West",
+  "2021-08-28 #4 Rumors \u2014 Lizzo Featuring Cardi B",
+  "2021-08-07 #2 Industry Baby \u2014 Lil Nas X & Jack Harlow"
+ ],
+ "open_close_calls_before_cut": [
+  "2023-10-14 #5 3D \u2014 Jung Kook & Jack Harlow",
+  "2022-08-20 #10 Bad Decisions \u2014 benny blanco, BTS & Snoop Dogg"
+ ],
+ "cut": "2021-09-18 #9 TSU",
+ "span": "2021-09-18 to 2026-05-30"
+}

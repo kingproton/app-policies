@@ -1,5 +1,8 @@
 import json, re, sys, datetime
-D='/tmp/claude-0/-home-user-app-policies/08207d95-5f38-5913-acec-14c31ee115ad/scratchpad/data/'
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import WORK, REPO
+D = WORK
 charts=json.load(open(D+'all.json'))
 charts.sort(key=lambda c:c['date'])
 def norm(s):

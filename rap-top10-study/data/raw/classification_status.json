@@ -149,8 +149,8 @@
   "title": "Stateside",
   "artist": "PinkPantheress With Zara Larsson",
   "prior": "close",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Not searched. From memory, a pop/dance single by PinkPantheress and Zara Larsson, with no rap-chart classification expec",
+  "status": "not_rap",
+  "basis": "other_press: RTTNews (June 2026) reports it topped Billboard's Hot Dance/Pop Songs for 16 weeks; no sign of Hot Rap Songs (search-result summary). [targeted re-check]",
   "n_ev": 3
  },
  {
@@ -238,7 +238,7 @@
   "artist": "Doechii",
   "prior": "rap",
   "status": "not_rap",
-  "basis": "wikipedia_chart_table: Inferred not on Hot Rap Songs, which would put it on Hot R&B Songs (not rap). No search returned a direct Hot Rap Songs or Hot R&B Songs row for it. (1) Billboa",
+  "basis": "wikipedia_chart_table: Inferred: absent from the 2025 year-end Hot Rap Songs list, which ranks Doechii's smaller 'Denial Is a River' at No. 10, while 'Anxiety' was No. 39 on the 2025 year-end Hot 100. A targeted re-check (4 searches) found no direct Hot R&B Songs or Hot Rap Songs row; chart-history rows on unnamed charts conflict and may mix in the 2023 Sleepy Hallow track 'A N X I E T Y'. [targeted re-check]",
   "n_ev": 3
  },
  {
@@ -391,8 +391,8 @@
   "title": "Noid",
   "artist": "Tyler, The Creator",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified No search result covered Noid. The search budget ran out before a search aimed at it, and the one 2025 year-end Hot Rap ",
+  "status": "rap",
+  "basis": "other_press: A Billboard syndication says 'Noid' began at No. 6 on Hot Rap Songs and No. 43 on the Hot 100 (search-result summary). [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -479,8 +479,8 @@
   "title": "7 Minute Drill",
   "artist": "J. Cole",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Billboard's Hot 100 page for the week of April 20, 2024 confirms J. Cole's '7 Minute Drill' debuted at No. 6. A billboar",
+  "status": "rap",
+  "basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2024-04-20 lists it as a new entry (peak 2, 1 week) (search-result summary). [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -513,7 +513,7 @@
   "artist": "Future, Metro Boomin & Travis Scott",
   "prior": "rap",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Debuted at No. 6 on the Hot 100 dated April 6, 2024 (AceShowbiz and the Hot 100 fan wiki for that week). Wikipedia's cha",
+  "basis": "wikipedia_chart_table: Searched: only a Hot R&B/Hip-Hop Songs peak (No. 3) was found, which does not separate rap from R&B; album-mate 'Like That' was No. 1 on Hot Rap Songs. [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -524,7 +524,7 @@
   "artist": "Future & Metro Boomin",
   "prior": "rap",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Debuted at No. 8 on the Hot 100 dated April 6, 2024 (AceShowbiz and the fan wiki). Billboard's 'Like That' article says ",
+  "basis": "wikipedia_chart_table: Searched: Hot R&B/Hip-Hop Songs peak No. 5 and No. 79 on that chart's 2024 year-end list; no rap-chart row seen. [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -601,7 +601,7 @@
   "artist": "21 Savage, Travis Scott & Metro Boomin",
   "prior": "rap",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Billboard text says Travis Scott notched three Hot 100 top 10s as a featured act in 2024, including 21 Savage's 'Nee-Nah",
+  "basis": "wikipedia_chart_table: Searched: Hot R&B/Hip-Hop Songs peak No. 5 and Rhythmic No. 9; album-mate 'Redrum' was on Rap Streaming Songs (2024-02-17). [targeted re-check]",
   "n_ev": 5
  },
  {
@@ -711,7 +711,7 @@
   "artist": "Jung Kook & Jack Harlow",
   "prior": "close",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Not searched; the budget went to the critical Anxiety check. From memory, a pop single with no Hot Rap Songs or Hot R&B/",
+  "basis": "other_press: Searched: Hot 100 No. 5, Global 200 No. 1 and Digital Song Sales No. 1 found, but no genre-chart placement. A summary that put it on Hot Rap Songs was about 'Paint The Town Red' and was discarded. [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -755,7 +755,7 @@
   "artist": "Travis Scott Featuring Playboi Carti",
   "prior": "rap",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Billboard's Utopia and Artist 100 chart-beat coverage for the week of Aug. 12, 2023 reports 'Meltdown' at No. 3 and 'Fe!",
+  "basis": "billboard_chart_page: Searched: Rap Streaming Songs pages from Aug-Sep 2023 show other Utopia songs, but FE!N itself never appeared in a result. [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -864,8 +864,8 @@
   "title": "Calm Down",
   "artist": "Rema & Selena Gomez",
   "prior": "close",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Not searched. From memory, an Afrobeats/pop hit not placed on Hot Rap Songs. Whether it touched Hot R&B Songs is unknown",
+  "status": "not_rap",
+  "basis": "billboard_chart_page: No. 1 on Billboard's U.S. Afrobeats Songs for a record 58 weeks (Wikipedia; Rema's Afrobeats chart history); no sign of Hot Rap Songs (search-result summaries). [targeted re-check]",
   "n_ev": 2
  },
  {
@@ -974,8 +974,8 @@
   "title": "Privileged Rappers",
   "artist": "Drake & 21 Savage",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Billboard's report that all 16 Her Loss songs debuted on the Hot 100 (Yahoo syndication) gives 'Privileged Rappers' at N",
+  "status": "rap",
+  "basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 6; No. 7 on 2022-11-26 (search-result summaries). [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -996,8 +996,8 @@
   "title": "BackOutsideBoyz",
   "artist": "Drake",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Billboard (Yahoo syndication) reports that Drake's solo 'BackOutsideBoyz' debuted at No. 9 on the Hot 100 dated Nov. 19,",
+  "status": "rap",
+  "basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 7 (search-result summary, which called the page text jumbled). [targeted re-check]",
   "n_ev": 4
  },
  {
@@ -1085,7 +1085,7 @@
   "artist": "benny blanco, BTS & Snoop Dogg",
   "prior": "close",
   "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Not searched. From memory, a pop top 10 with no Hot Rap Songs placement expected, so likely not rap. Unverified.",
+  "basis": "wikipedia_chart_table: Searched: Wikipedia's chart table lists only Hot 100 (No. 10) and Pop Airplay (No. 26) for 2022; no genre-chart rows. [targeted re-check]",
   "n_ev": 2
  },
  {
@@ -1271,8 +1271,8 @@
   "title": "Enemy",
   "artist": "Imagine Dragons X JID",
   "prior": "close",
-  "status": "unverified",
-  "basis": "weak: model_knowledge_only unverified Not searched. From memory, a rock/alternative hit (Hot Rock & Alternative Songs) not placed on Hot Rap Songs, so likely ",
+  "status": "not_rap",
+  "basis": "billboard_article: Billboard reported it topped Rock Streaming Songs (Jan. 15, 2022 chart); Hot Rock & Alternative Songs peak 2 (Wikipedia); no sign of Hot Rap Songs. [targeted re-check]",
   "n_ev": 3
  },
  {
@@ -1382,7 +1382,7 @@
   "artist": "Drake Featuring Travis Scott",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Inferred; no page showing this title on a rap chart was retrieved. On Rap Streaming Songs dated 2021-09-18, Girls Want G",
+  "basis": "billboard_chart_page: Hot Rap Songs dated 2021-12-04: No. 13, peak No. 3 (search-result summary). [targeted re-check]",
   "n_ev": 1
  },
  {
@@ -1393,7 +1393,7 @@
   "artist": "Drake",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Inferred by the same reasoning as Fair Trade. Rap Streaming Songs dated 2021-09-18 had Papi's Home at No. 7 and TSU at N",
+  "basis": "billboard_chart_page: Rap Streaming Songs dated 2021-09-18: new entry at No. 4; No. 15 (peak 4, 5 weeks) on 2021-10-16 (search-result summaries). [targeted re-check]",
   "n_ev": 1
  },
  {
@@ -1415,7 +1415,7 @@
   "artist": "Drake Featuring Lil Durk & Giveon",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Inferred; no page showing this title on a rap chart was retrieved. It debuted at Hot 100 No. 7, above Papi's Home (No. 8",
+  "basis": "billboard_chart_page: Hot Rap Songs dated 2021-10-23: re-entry, peak 6, 4 weeks; Rap Streaming Songs peak 6 on 2021-09-18 (search-result summaries). [targeted re-check]",
   "n_ev": 1
  },
  {

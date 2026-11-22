@@ -1,5 +1,8 @@
 import json, re
-D='/tmp/claude-0/-home-user-app-policies/08207d95-5f38-5913-acec-14c31ee115ad/scratchpad/data/'
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import WORK, REPO
+D = WORK
 charts=sorted(json.load(open(D+'all.json')), key=lambda c:c['date'])
 def norm(s):
     s=s.lower().replace('&','and'); s=re.sub(r"[’'`\"]","",s); return re.sub(r"[^a-z0-9$!]+"," ",s).strip()

@@ -13,52 +13,65 @@
   "runtime_le_3min": "25/98",
   "runtime_ge_4min": "31/98",
   "felt": {
-   "n": 73,
+   "n": 70,
    "median": 74.0,
-   "q1": 69.0,
-   "q3": 85.5,
+   "q1": 69.75,
+   "q3": 85.25,
    "min": 56.0,
    "max": 133.0
   },
-  "feel_half_time": "53/73",
-  "feel_full_time": "20/73",
+  "feel_half_time": "51/70",
+  "feel_full_time": "19/70",
   "half_time_felt": {
-   "n": 53,
+   "n": 51,
    "median": 71.5,
-   "q1": 65.25,
-   "q3": 76.75,
+   "q1": 66.5,
+   "q3": 77.0,
    "min": 56.0,
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 20,
+   "n": 19,
    "median": 100.0,
-   "q1": 86.25,
+   "q1": 86.0,
    "q3": 105.0,
    "min": 80.0,
    "max": 133.0
   },
-  "full_time_bands": {
-   "95-115 (bounce/pop-rap)": 11,
-   "<95 (verse-led/boom-bap)": 8,
-   ">115 (club)": 1
-  },
-  "felt_half_60_85": "53/73",
-  "felt_full_95_115": "11/73",
-  "samples": "55/100",
-  "features": "43/100",
-  "hook_present_verified": 32,
-  "hook_present_unverified": 21,
+  "half_in_band_110_129": 8,
+  "felt_full_95_115": "10/70",
+  "tempo_listed_any": 85,
+  "borrow_documented": "57/100",
+  "borrow_credited": "55/100",
+  "borrow_not_reconfirmed_only": 3,
+  "second_vocalist_credit": "44/100",
+  "guest_documented_any": "43/100",
+  "hook_present_verified": 20,
+  "hook_present_unverified": 32,
   "hook_absent": 6,
-  "hook_unknown": 41,
-  "hook_first_yes_src": 11,
-  "hook_first_no_src": 8,
+  "hook_unknown": 42,
+  "hook_first_yes_src": 8,
+  "hook_first_yes_unc": 3,
   "hook_first_yes_rec": 4,
+  "hook_first_no_src": 5,
+  "hook_first_no_unc": 3,
   "hook_first_no_rec": 8,
-  "switch_yes_src": 15,
+  "opening_src": 18,
+  "opening_unc": 16,
+  "opening_rec": 12,
+  "opening_sample_src": 10,
+  "switch_yes_src": 10,
+  "switch_yes_unc": 5,
   "switch_yes_rec": 3,
   "switch_no_any": 18,
   "switch_unknown": 64,
+  "switch_assessed": 36,
+  "return_sourced_tracks": 27,
+  "return_beat": 14,
+  "return_voice": 9,
+  "return_register": 2,
+  "return_delivery": 2,
+  "return_none": 1,
   "style": {
    "melodic_trap": 8,
    "trap": 42,
@@ -113,26 +126,40 @@
    "min": 82.0,
    "max": 106.0
   },
-  "full_time_bands": {
-   "<95 (verse-led/boom-bap)": 1,
-   "95-115 (bounce/pop-rap)": 3
-  },
-  "felt_half_60_85": "5/9",
+  "half_in_band_110_129": 1,
   "felt_full_95_115": "3/9",
-  "samples": "9/12",
-  "features": "1/12",
-  "hook_present_verified": 6,
-  "hook_present_unverified": 5,
+  "tempo_listed_any": 10,
+  "borrow_documented": "9/12",
+  "borrow_credited": "9/12",
+  "borrow_not_reconfirmed_only": 1,
+  "second_vocalist_credit": "1/12",
+  "guest_documented_any": "1/12",
+  "hook_present_verified": 5,
+  "hook_present_unverified": 6,
   "hook_absent": 1,
   "hook_unknown": 0,
   "hook_first_yes_src": 2,
-  "hook_first_no_src": 3,
+  "hook_first_yes_unc": 0,
   "hook_first_yes_rec": 2,
+  "hook_first_no_src": 3,
+  "hook_first_no_unc": 0,
   "hook_first_no_rec": 0,
+  "opening_src": 5,
+  "opening_unc": 1,
+  "opening_rec": 3,
+  "opening_sample_src": 3,
   "switch_yes_src": 1,
+  "switch_yes_unc": 0,
   "switch_yes_rec": 0,
   "switch_no_any": 6,
   "switch_unknown": 5,
+  "switch_assessed": 7,
+  "return_sourced_tracks": 5,
+  "return_beat": 3,
+  "return_voice": 0,
+  "return_register": 0,
+  "return_delivery": 1,
+  "return_none": 1,
   "style": {
    "other": 2,
    "boom_bap_or_verse_led": 1,
@@ -157,52 +184,65 @@
   "runtime_le_3min": "21/87",
   "runtime_ge_4min": "28/87",
   "felt": {
-   "n": 64,
+   "n": 61,
    "median": 74.0,
-   "q1": 69.0,
-   "q3": 84.75,
+   "q1": 69.5,
+   "q3": 84.5,
    "min": 56.0,
    "max": 133.0
   },
-  "feel_half_time": "48/64",
-  "feel_full_time": "16/64",
+  "feel_half_time": "46/61",
+  "feel_full_time": "15/61",
   "half_time_felt": {
-   "n": 48,
-   "median": 71.5,
-   "q1": 65.75,
-   "q3": 76.875,
+   "n": 46,
+   "median": 71.75,
+   "q1": 67.625,
+   "q3": 77.125,
    "min": 56.0,
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 16,
-   "median": 98.25,
-   "q1": 86.25,
-   "q3": 104.75,
+   "n": 15,
+   "median": 100.0,
+   "q1": 86.0,
+   "q3": 105.0,
    "min": 80.0,
    "max": 133.0
   },
-  "full_time_bands": {
-   "95-115 (bounce/pop-rap)": 8,
-   "<95 (verse-led/boom-bap)": 7,
-   ">115 (club)": 1
-  },
-  "felt_half_60_85": "48/64",
-  "felt_full_95_115": "8/64",
-  "samples": "46/88",
-  "features": "42/88",
-  "hook_present_verified": 26,
-  "hook_present_unverified": 16,
+  "half_in_band_110_129": 7,
+  "felt_full_95_115": "7/61",
+  "tempo_listed_any": 75,
+  "borrow_documented": "48/88",
+  "borrow_credited": "46/88",
+  "borrow_not_reconfirmed_only": 2,
+  "second_vocalist_credit": "43/88",
+  "guest_documented_any": "42/88",
+  "hook_present_verified": 15,
+  "hook_present_unverified": 26,
   "hook_absent": 5,
-  "hook_unknown": 41,
-  "hook_first_yes_src": 9,
-  "hook_first_no_src": 5,
+  "hook_unknown": 42,
+  "hook_first_yes_src": 6,
+  "hook_first_yes_unc": 3,
   "hook_first_yes_rec": 2,
+  "hook_first_no_src": 2,
+  "hook_first_no_unc": 3,
   "hook_first_no_rec": 8,
-  "switch_yes_src": 14,
+  "opening_src": 13,
+  "opening_unc": 15,
+  "opening_rec": 9,
+  "opening_sample_src": 7,
+  "switch_yes_src": 9,
+  "switch_yes_unc": 5,
   "switch_yes_rec": 3,
   "switch_no_any": 12,
   "switch_unknown": 59,
+  "switch_assessed": 29,
+  "return_sourced_tracks": 22,
+  "return_beat": 11,
+  "return_voice": 9,
+  "return_register": 2,
+  "return_delivery": 1,
+  "return_none": 0,
   "style": {
    "melodic_trap": 7,
    "trap": 40,
@@ -231,51 +271,65 @@
   "runtime_le_3min": "13/55",
   "runtime_ge_4min": "21/55",
   "felt": {
-   "n": 45,
+   "n": 43,
    "median": 72.0,
-   "q1": 67.25,
-   "q3": 83.5,
-   "min": 56.0,
+   "q1": 68.0,
+   "q3": 83.0,
+   "min": 60.0,
    "max": 111.0
   },
-  "feel_half_time": "34/45",
-  "feel_full_time": "11/45",
+  "feel_half_time": "33/43",
+  "feel_full_time": "10/43",
   "half_time_felt": {
-   "n": 34,
+   "n": 33,
    "median": 70.0,
-   "q1": 65.0,
-   "q3": 74.25,
-   "min": 56.0,
+   "q1": 65.25,
+   "q3": 75.0,
+   "min": 60.0,
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 11,
-   "median": 92.0,
-   "q1": 86.0,
-   "q3": 102.0,
+   "n": 10,
+   "median": 91.5,
+   "q1": 85.0,
+   "q3": 102.5,
    "min": 80.0,
    "max": 111.0
   },
-  "full_time_bands": {
-   "95-115 (bounce/pop-rap)": 5,
-   "<95 (verse-led/boom-bap)": 6
-  },
-  "felt_half_60_85": "34/45",
-  "felt_full_95_115": "5/45",
-  "samples": "29/55",
-  "features": "26/55",
-  "hook_present_verified": 12,
-  "hook_present_unverified": 11,
+  "half_in_band_110_129": 6,
+  "felt_full_95_115": "4/43",
+  "tempo_listed_any": 51,
+  "borrow_documented": "32/55",
+  "borrow_credited": "31/55",
+  "borrow_not_reconfirmed_only": 2,
+  "second_vocalist_credit": "27/55",
+  "guest_documented_any": "26/55",
+  "hook_present_verified": 7,
+  "hook_present_unverified": 16,
   "hook_absent": 3,
   "hook_unknown": 29,
   "hook_first_yes_src": 4,
-  "hook_first_no_src": 1,
+  "hook_first_yes_unc": 0,
   "hook_first_yes_rec": 1,
+  "hook_first_no_src": 1,
+  "hook_first_no_unc": 0,
   "hook_first_no_rec": 5,
-  "switch_yes_src": 7,
+  "opening_src": 8,
+  "opening_unc": 6,
+  "opening_rec": 6,
+  "opening_sample_src": 5,
+  "switch_yes_src": 5,
+  "switch_yes_unc": 2,
   "switch_yes_rec": 3,
   "switch_no_any": 4,
   "switch_unknown": 41,
+  "switch_assessed": 14,
+  "return_sourced_tracks": 12,
+  "return_beat": 8,
+  "return_voice": 3,
+  "return_register": 1,
+  "return_delivery": 0,
+  "return_none": 0,
   "style": {
    "melodic_trap": 6,
    "trap": 25,
@@ -301,19 +355,19 @@
   "runtime_le_3min": "12/43",
   "runtime_ge_4min": "10/43",
   "felt": {
-   "n": 28,
-   "median": 78.75,
-   "q1": 71.625,
-   "q3": 96.5,
+   "n": 27,
+   "median": 80.0,
+   "q1": 72.0,
+   "q3": 100.0,
    "min": 56.0,
    "max": 133.0
   },
-  "feel_half_time": "19/28",
-  "feel_full_time": "9/28",
+  "feel_half_time": "18/27",
+  "feel_full_time": "9/27",
   "half_time_felt": {
-   "n": 19,
+   "n": 18,
    "median": 74.0,
-   "q1": 70.0,
+   "q1": 71.125,
    "q3": 80.0,
    "min": 56.0,
    "max": 86.0
@@ -326,27 +380,40 @@
    "min": 82.0,
    "max": 133.0
   },
-  "full_time_bands": {
-   "<95 (verse-led/boom-bap)": 2,
-   "95-115 (bounce/pop-rap)": 6,
-   ">115 (club)": 1
-  },
-  "felt_half_60_85": "19/28",
-  "felt_full_95_115": "6/28",
-  "samples": "26/45",
-  "features": "17/45",
-  "hook_present_verified": 20,
-  "hook_present_unverified": 10,
+  "half_in_band_110_129": 2,
+  "felt_full_95_115": "6/27",
+  "tempo_listed_any": 34,
+  "borrow_documented": "25/45",
+  "borrow_credited": "24/45",
+  "borrow_not_reconfirmed_only": 1,
+  "second_vocalist_credit": "17/45",
+  "guest_documented_any": "17/45",
+  "hook_present_verified": 13,
+  "hook_present_unverified": 16,
   "hook_absent": 3,
-  "hook_unknown": 12,
-  "hook_first_yes_src": 7,
-  "hook_first_no_src": 7,
+  "hook_unknown": 13,
+  "hook_first_yes_src": 4,
+  "hook_first_yes_unc": 3,
   "hook_first_yes_rec": 3,
+  "hook_first_no_src": 4,
+  "hook_first_no_unc": 3,
   "hook_first_no_rec": 3,
-  "switch_yes_src": 8,
+  "opening_src": 10,
+  "opening_unc": 10,
+  "opening_rec": 6,
+  "opening_sample_src": 5,
+  "switch_yes_src": 5,
+  "switch_yes_unc": 3,
   "switch_yes_rec": 0,
   "switch_no_any": 14,
   "switch_unknown": 23,
+  "switch_assessed": 22,
+  "return_sourced_tracks": 15,
+  "return_beat": 6,
+  "return_voice": 6,
+  "return_register": 1,
+  "return_delivery": 2,
+  "return_none": 1,
   "style": {
    "trap": 17,
    "other": 5,
@@ -375,15 +442,15 @@
   "runtime_le_3min": "7/41",
   "runtime_ge_4min": "20/41",
   "felt": {
-   "n": 29,
-   "median": 71.5,
-   "q1": 66.0,
-   "q3": 81.5,
+   "n": 28,
+   "median": 71.25,
+   "q1": 65.75,
+   "q3": 80.75,
    "min": 56.0,
    "max": 111.0
   },
-  "feel_half_time": "25/29",
-  "feel_full_time": "4/29",
+  "feel_half_time": "25/28",
+  "feel_full_time": "3/28",
   "half_time_felt": {
    "n": 25,
    "median": 70.0,
@@ -393,33 +460,47 @@
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 4,
-   "median": 91.75,
-   "q1": 81.75,
-   "q3": 107.375,
+   "n": 3,
+   "median": 87.0,
+   "q1": 80.0,
+   "q3": 111.0,
    "min": 80.0,
    "max": 111.0
   },
-  "full_time_bands": {
-   "95-115 (bounce/pop-rap)": 2,
-   "<95 (verse-led/boom-bap)": 2
-  },
-  "felt_half_60_85": "25/29",
-  "felt_full_95_115": "2/29",
-  "samples": "25/41",
-  "features": "17/41",
-  "hook_present_verified": 10,
-  "hook_present_unverified": 5,
+  "half_in_band_110_129": 5,
+  "felt_full_95_115": "1/28",
+  "tempo_listed_any": 37,
+  "borrow_documented": "28/41",
+  "borrow_credited": "27/41",
+  "borrow_not_reconfirmed_only": 1,
+  "second_vocalist_credit": "20/41",
+  "guest_documented_any": "17/41",
+  "hook_present_verified": 6,
+  "hook_present_unverified": 8,
   "hook_absent": 2,
-  "hook_unknown": 24,
-  "hook_first_yes_src": 5,
-  "hook_first_no_src": 1,
+  "hook_unknown": 25,
+  "hook_first_yes_src": 3,
+  "hook_first_yes_unc": 2,
   "hook_first_yes_rec": 1,
+  "hook_first_no_src": 1,
+  "hook_first_no_unc": 0,
   "hook_first_no_rec": 2,
-  "switch_yes_src": 10,
+  "opening_src": 5,
+  "opening_unc": 8,
+  "opening_rec": 2,
+  "opening_sample_src": 2,
+  "switch_yes_src": 6,
+  "switch_yes_unc": 4,
   "switch_yes_rec": 2,
   "switch_no_any": 2,
   "switch_unknown": 27,
+  "switch_assessed": 14,
+  "return_sourced_tracks": 9,
+  "return_beat": 8,
+  "return_voice": 1,
+  "return_register": 0,
+  "return_delivery": 0,
+  "return_none": 0,
   "style": {
    "melodic_trap": 5,
    "trap": 17,
@@ -446,21 +527,21 @@
   "runtime_le_3min": "18/57",
   "runtime_ge_4min": "11/57",
   "felt": {
-   "n": 44,
-   "median": 76.25,
-   "q1": 70.375,
-   "q3": 91.75,
-   "min": 56.0,
+   "n": 42,
+   "median": 78.75,
+   "q1": 71.5,
+   "q3": 94.0,
+   "min": 61.5,
    "max": 133.0
   },
-  "feel_half_time": "28/44",
-  "feel_full_time": "16/44",
+  "feel_half_time": "26/42",
+  "feel_full_time": "16/42",
   "half_time_felt": {
-   "n": 28,
-   "median": 72.0,
-   "q1": 66.0,
-   "q3": 74.75,
-   "min": 56.0,
+   "n": 26,
+   "median": 72.25,
+   "q1": 69.75,
+   "q3": 75.625,
+   "min": 61.5,
    "max": 86.0
   },
   "full_time_felt": {
@@ -471,27 +552,40 @@
    "min": 82.0,
    "max": 133.0
   },
-  "full_time_bands": {
-   "95-115 (bounce/pop-rap)": 9,
-   "<95 (verse-led/boom-bap)": 6,
-   ">115 (club)": 1
-  },
-  "felt_half_60_85": "28/44",
-  "felt_full_95_115": "9/44",
-  "samples": "30/59",
-  "features": "26/59",
-  "hook_present_verified": 22,
-  "hook_present_unverified": 16,
+  "half_in_band_110_129": 3,
+  "felt_full_95_115": "9/42",
+  "tempo_listed_any": 48,
+  "borrow_documented": "29/59",
+  "borrow_credited": "28/59",
+  "borrow_not_reconfirmed_only": 2,
+  "second_vocalist_credit": "24/59",
+  "guest_documented_any": "26/59",
+  "hook_present_verified": 14,
+  "hook_present_unverified": 24,
   "hook_absent": 4,
   "hook_unknown": 17,
-  "hook_first_yes_src": 6,
-  "hook_first_no_src": 7,
+  "hook_first_yes_src": 5,
+  "hook_first_yes_unc": 1,
   "hook_first_yes_rec": 3,
+  "hook_first_no_src": 4,
+  "hook_first_no_unc": 3,
   "hook_first_no_rec": 6,
-  "switch_yes_src": 5,
+  "opening_src": 13,
+  "opening_unc": 8,
+  "opening_rec": 10,
+  "opening_sample_src": 8,
+  "switch_yes_src": 4,
+  "switch_yes_unc": 1,
   "switch_yes_rec": 1,
   "switch_no_any": 16,
   "switch_unknown": 37,
+  "switch_assessed": 22,
+  "return_sourced_tracks": 18,
+  "return_beat": 6,
+  "return_voice": 8,
+  "return_register": 2,
+  "return_delivery": 2,
+  "return_none": 1,
   "style": {
    "other": 4,
    "country_rap": 1,
@@ -507,42 +601,72 @@
   }
  },
  "beat_switch_sourced": [
-  "National Treasures (time not documented)",
-  "Dust (time not documented)",
-  "What Did I Miss? (time not documented)",
-  "Gimme A Hug (time not documented)",
-  "TV Off (~2:00 (approximate: Wikipedia says 'around the two-minute mark' and Stereogum says 'halfway through'; not an exact timestamp))",
-  "Not Like Us (time not documented)",
-  "Euphoria (time not documented)",
-  "Family Matters (~0:15 (approximate; first switch only, per Sportskeeda))",
-  "7 Minute Drill (time not documented)",
-  "First Person Shooter (time not documented)",
-  "Meltdown (time not documented)",
-  "Superhero (Heroes & Villains) (time not documented)",
-  "Rich Flex (time not documented)",
-  "Jimmy Cooks (time not documented)",
-  "Champagne Poetry (time not documented)"
+  "National Treasures [Drake; album-bomb]",
+  "Dust [Drake; album-bomb]",
+  "TV Off [Kendrick Lamar; album-bomb]",
+  "Not Like Us [Kendrick Lamar]",
+  "Euphoria [Kendrick Lamar]",
+  "Family Matters [Drake]",
+  "Meltdown [Drake]",
+  "Superhero (Heroes & Villains) [Metro Boomin]",
+  "Rich Flex [Drake; album-bomb]",
+  "Jimmy Cooks [Drake; album-bomb]"
  ],
+ "beat_switch_unconfirmed": [
+  "What Did I Miss?",
+  "Gimme A Hug",
+  "7 Minute Drill",
+  "First Person Shooter",
+  "Champagne Poetry"
+ ],
+ "beat_switch_recollection": [
+  "Calling For You",
+  "United In Grief",
+  "Fair Trade"
+ ],
+ "beat_switch_times": [],
  "hookless": [
-  "Euphoria [absent_unverified]",
-  "7 Minute Drill [absent_unverified]",
-  "Hiss [absent_unverified]",
-  "Jimmy Cooks [absent_unverified]",
-  "United In Grief [absent_unverified]",
-  "Champagne Poetry [absent_unverified]"
+  "Euphoria [absent_unverified; style boom_bap_or_verse_led]",
+  "7 Minute Drill [absent_unverified; style boom_bap_or_verse_led]",
+  "Hiss [absent_unverified; style trap]",
+  "Jimmy Cooks [absent_unverified; style trap]",
+  "United In Grief [absent_unverified; style boom_bap_or_verse_led]",
+  "Champagne Poetry [absent_unverified; style boom_bap_or_verse_led]"
+ ],
+ "hook_present_sourced": [
+  "Janice STFU",
+  "Shabang",
+  "Nokia",
+  "TV Off",
+  "Luther",
+  "Man At The Garden",
+  "Sticky",
+  "St. Chroma",
+  "Houdini",
+  "Carnival",
+  "Lovin On Me",
+  "Paint The Town Red",
+  "Barbie World",
+  "Favorite Song",
+  "Just Wanna Rock",
+  "Rich Flex",
+  "Staying Alive",
+  "Wait For U",
+  "First Class",
+  "Super Gremlin"
  ],
  "hook_first_yes": [
   "Shabang [source]",
   "Luther [source]",
-  "St. Chroma [source]",
-  "Family Matters [source]",
+  "St. Chroma [unconfirmed]",
+  "Family Matters [unconfirmed]",
   "Carnival [source]",
   "Lovin On Me [unverified_recollection]",
   "Paint The Town Red [source]",
   "Players [unverified_recollection]",
   "Rich Flex [source]",
   "Vegas [unverified_recollection]",
-  "Staying Alive [source]",
+  "Staying Alive [unconfirmed]",
   "Wait For U [source]",
   "First Class [source]",
   "Super Gremlin [source]",
@@ -555,121 +679,74 @@
   "Not Like Us [unverified_recollection]",
   "Euphoria [source]",
   "7 Minute Drill [unverified_recollection]",
-  "Hiss [source]",
+  "Hiss [unconfirmed]",
   "Redrum [unverified_recollection]",
-  "Nee-nah [source]",
+  "Nee-nah [unconfirmed]",
   "First Person Shooter [unverified_recollection]",
   "Favorite Song [source]",
   "Jimmy Cooks [source]",
   "N95 [unverified_recollection]",
   "United In Grief [unverified_recollection]",
-  "Pushin P [source]",
+  "Pushin P [unconfirmed]",
   "Champagne Poetry [unverified_recollection]"
  ],
  "opening_sourced": [
-  "Shabang: producer_tag",
-  "Evil J0rdan: instrumental",
-  "Gimme A Hug: sample_or_interpolation",
-  "Squabble Up: sample_or_interpolation",
-  "Luther: sample_or_interpolation",
-  "Reincarnated: sung_intro",
-  "Sticky: rap_verse",
-  "St. Chroma: ad_lib_or_spoken_intro",
-  "Noid: ad_lib_or_spoken_intro",
-  "Houdini: sung_intro",
-  "Not Like Us: ad_lib_or_spoken_intro",
+  "Shabang: producer_tag [sweep]",
+  "Squabble Up: sample_or_interpolation [sweep]",
+  "Luther: sample_or_interpolation [sweep]",
+  "Sticky: rap_verse [sweep]",
+  "Houdini: sung_intro [sweep]",
+  "Not Like Us: ad_lib_or_spoken_intro [sweep]",
   "Euphoria: ad_lib_or_spoken_intro",
-  "Family Matters: hook_or_chorus",
-  "Like That: sample_or_interpolation",
-  "Carnival: sample_or_interpolation",
-  "Hiss: ad_lib_or_spoken_intro",
-  "Redrum: sample_or_interpolation",
-  "Nee-nah: rap_verse",
-  "IDGAF: sample_or_interpolation",
-  "Daylight: sample_or_interpolation",
-  "Paint The Town Red: sample_or_interpolation",
+  "Like That: sample_or_interpolation [sweep]",
+  "Carnival: sample_or_interpolation [sweep]",
+  "Redrum: sample_or_interpolation [sweep]",
+  "IDGAF: sample_or_interpolation [sweep]",
+  "Paint The Town Red: sample_or_interpolation [sweep]",
   "Favorite Song: sample_or_interpolation",
   "Rich Flex: ad_lib_or_spoken_intro",
+  "Jimmy Cooks: rap_verse [sweep]",
+  "Wait For U: sample_or_interpolation [sweep]",
+  "First Class: ad_lib_or_spoken_intro [sweep]",
+  "Super Gremlin: sample_or_interpolation [sweep]"
+ ],
+ "opening_unconfirmed": [
+  "Evil J0rdan: instrumental",
+  "Gimme A Hug: sample_or_interpolation",
+  "Reincarnated: sung_intro",
+  "St. Chroma: ad_lib_or_spoken_intro",
+  "Noid: ad_lib_or_spoken_intro",
+  "Family Matters: hook_or_chorus",
+  "Hiss: ad_lib_or_spoken_intro",
+  "Nee-nah: rap_verse",
+  "Daylight: sample_or_interpolation",
   "Tomorrow 2: producer_tag",
   "Staying Alive: hook_or_chorus",
-  "Jimmy Cooks: sample_or_interpolation",
-  "Wait For U: sample_or_interpolation",
-  "First Class: ad_lib_or_spoken_intro",
   "Pushin P: rap_verse",
-  "Super Gremlin: sample_or_interpolation",
   "Way 2 Sexy: sample_or_interpolation",
   "Fair Trade: sample_or_interpolation",
   "Champagne Poetry: sample_or_interpolation",
   "Papi's Home: sample_or_interpolation"
  ],
- "full_time_bounce": [
-  "National Treasures 96.5",
-  "2 Hard 4 The Radio 111",
-  "Squabble Up 104",
-  "TV Off 100",
-  "Hey Now 102",
-  "Not Like Us 101",
-  "Lovin On Me 105",
-  "Paint The Town Red 100",
-  "Players 105",
-  "First Class 107",
-  "Big Energy 106"
- ],
- "tempo_conflicts": [
-  "First Person Shooter",
-  "Just Wanna Rock"
- ],
- "borrow_types": {
-  "sample": [
-   53,
-   [
-    "2 Hard 4 The Radio",
-    "4X4",
-    "Agora Hills",
-    "Barbie World",
-    "California Breeze",
-    "Calling For You",
-    "Carnival",
-    "Champagne Poetry",
-    "Circo Loco",
-    "Evil J0rdan"
-   ]
-  ],
-  "interpolation": [
-   9,
-   [
-    "2 Hard 4 The Radio",
-    "Big Energy",
-    "Hey Now",
-    "Houdini",
-    "Reincarnated",
-    "Rich Flex",
-    "Staying Alive",
-    "TV Off",
-    "Way 2 Sexy"
-   ]
-  ],
-  "audio clip": [
-   5,
-   [
-    "Daylight",
-    "Redrum",
-    "Search & Rescue",
-    "TV Off",
-    "Vegas"
-   ]
-  ],
-  "self-reuse": [
-   2,
-   [
-    "Family Matters",
-    "Janice STFU"
-   ]
-  ]
+ "opening_sourced_types": {
+  "producer_tag": 1,
+  "sample_or_interpolation": 10,
+  "rap_verse": 2,
+  "sung_intro": 1,
+  "ad_lib_or_spoken_intro": 4
  },
- "uncredited_only": [
-  "Man At The Garden"
+ "sample_open_and_hook_first_src": [
+  "Luther",
+  "Carnival",
+  "Paint The Town Red",
+  "Wait For U",
+  "Super Gremlin"
  ],
+ "hook_first_src_drake": {
+  "yes": 3,
+  "no": 1
+ },
+ "sample_open_src_drake": 2,
  "half_time": [
   "Janice STFU 126/63",
   "Ran To Atlanta 140/70",
@@ -685,7 +762,6 @@
   "Type Shit 145/72.5",
   "Cinderella 130/65",
   "We Don't Trust You 124/62",
-  "Young Metro 112/56",
   "Carnival 148/74",
   "Hiss 167/83.5",
   "Redrum 172/86",
@@ -697,7 +773,6 @@
   "Fear Of Heights 154/77",
   "Meltdown 112/56",
   "FE!N 148/74",
-  "K-POP 122/61",
   "Fukumean 130/65",
   "Barbie World 144/72",
   "All My Life 143/71.5",
@@ -726,293 +801,439 @@
   "TSU 130/65"
  ],
  "full_time": [
-  "National Treasures 96/96.5",
-  "Make Them Cry 80/80",
-  "2 Hard 4 The Radio 111/111",
-  "Squabble Up 104/104",
-  "TV Off 100/100",
-  "Wacced Out Murals 82/82",
-  "Hey Now 102/102",
-  "Reincarnated 91/91",
-  "Man At The Garden 92/92",
-  "Noid 82/82",
-  "Not Like Us 101/101",
-  "7 Minute Drill 85/85",
-  "Lovin On Me 105/105",
-  "Paint The Town Red 100/100",
-  "Players 105/105",
-  "Super Freaky Girl 133/133",
-  "United In Grief 86/86",
-  "First Class 107/107",
-  "Big Energy 106/106",
-  "Champagne Poetry 87/87"
+  "Make Them Cry 80/80 [other]",
+  "2 Hard 4 The Radio 111/111 [west_coast_bounce]",
+  "Squabble Up 104/104 [west_coast_bounce]",
+  "TV Off 100/100 [west_coast_bounce]",
+  "Wacced Out Murals 82/82 [west_coast_bounce]",
+  "Hey Now 102/102 [west_coast_bounce]",
+  "Reincarnated 91/91 [boom_bap_or_verse_led]",
+  "Man At The Garden 92/92 [boom_bap_or_verse_led]",
+  "Noid 82/82 [other]",
+  "Not Like Us 101/101 [west_coast_bounce]",
+  "7 Minute Drill 85/85 [boom_bap_or_verse_led]",
+  "Lovin On Me 105/105 [pop_rap]",
+  "Paint The Town Red 100/100 [pop_rap]",
+  "Players 105/105 [pop_rap]",
+  "Super Freaky Girl 133/133 [pop_rap]",
+  "United In Grief 86/86 [boom_bap_or_verse_led]",
+  "First Class 107/107 [pop_rap]",
+  "Big Energy 106/106 [pop_rap]",
+  "Champagne Poetry 87/87 [boom_bap_or_verse_led]"
  ],
- "drill": [
-  "Barbie World",
-  "Princess Diana"
+ "half_band_110_129": [
+  "Janice STFU 126/63",
+  "We Don't Trust You 124/62",
+  "Agora Hills 123/61.5",
+  "Virginia Beach 120/60",
+  "Calling For You 121/60.5",
+  "Meltdown 112/56",
+  "Pussy & Millions 122/61",
+  "Puffin On Zootiez 125/62.5"
  ],
- "climbers_detail": [
-  {
-   "title": "Sticky",
-   "runtime": null,
-   "felt": 80.0,
-   "samples": [
-    "Young Buck - 'Get Buck'"
-   ],
-   "hook": "present_verified",
-   "hook_first": [
-    "no",
-    "source"
-   ],
-   "opening": [
-    "rap_verse",
-    "source"
-   ],
-   "weeks_top10": 1,
-   "peak": 10,
-   "climbed_from": 14,
-   "style": "other"
-  },
-  {
-   "title": "Noid",
-   "runtime": "4:44",
-   "felt": 82.0,
-   "samples": [
-    "Ngozi Family / Paul Ngozi - 'Nizakupanga Ngozi'"
-   ],
-   "hook": "present_unverified",
-   "hook_first": [
-    "unknown",
-    "unknown"
-   ],
-   "opening": [
-    "ad_lib_or_spoken_intro",
-    "source"
-   ],
-   "weeks_top10": 1,
-   "peak": 10,
-   "climbed_from": 43,
-   "style": "other"
-  },
-  {
-   "title": "Euphoria",
-   "runtime": "6:24",
-   "felt": 70.0,
-   "samples": [],
-   "hook": "absent_unverified",
-   "hook_first": [
-    "no",
-    "source"
-   ],
-   "opening": [
-    "ad_lib_or_spoken_intro",
-    "source"
-   ],
-   "weeks_top10": 1,
-   "peak": 3,
-   "climbed_from": 11,
-   "style": "boom_bap_or_verse_led"
-  },
-  {
-   "title": "Agora Hills",
-   "runtime": "4:25",
-   "felt": 61.5,
-   "samples": [
-    "Troop - 'All I Do Is Think of You' (1989 single; Songfacts dates it 1990), a song first recorded by The Jackson 5 in 1975"
-   ],
-   "hook": "present_verified",
-   "hook_first": [
-    "unknown",
-    "unknown"
-   ],
-   "opening": [
-    "unknown",
-    "unknown"
-   ],
-   "weeks_top10": 7,
-   "peak": 7,
-   "climbed_from": 35,
-   "style": "rnb_rap"
-  },
-  {
-   "title": "Paint The Town Red",
-   "runtime": "3:51",
-   "felt": 100.0,
-   "samples": [
-    "\"Walk On By\" by Dionne Warwick (1964; written by Burt Bacharach and Hal David)"
-   ],
-   "hook": "present_verified",
-   "hook_first": [
-    "yes",
-    "source"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "source"
-   ],
-   "weeks_top10": 20,
-   "peak": 1,
-   "climbed_from": 15,
-   "style": "pop_rap"
-  },
-  {
-   "title": "Fukumean",
-   "runtime": "2:05",
-   "felt": 65.0,
-   "samples": [],
-   "hook": "present_unverified",
-   "hook_first": [
-    "unknown",
-    "unknown"
-   ],
-   "opening": [
-    "unknown",
-    "unknown"
-   ],
-   "weeks_top10": 15,
-   "peak": 4,
-   "climbed_from": 12,
-   "style": "trap"
-  },
-  {
-   "title": "Favorite Song",
-   "runtime": "3:29",
-   "felt": null,
-   "samples": [
-    "\"You Might as Well\" by Tatiana Manaois (November 2022)"
-   ],
-   "hook": "present_verified",
-   "hook_first": [
-    "no",
-    "source"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "source"
-   ],
-   "weeks_top10": 9,
-   "peak": 5,
-   "climbed_from": 11,
-   "style": "rnb_rap"
-  },
-  {
-   "title": "Players",
-   "runtime": "2:19",
-   "felt": 105.0,
-   "samples": [
-    "\"The Message\" by Grandmaster Flash and the Furious Five (1982)"
-   ],
-   "hook": "present_unverified",
-   "hook_first": [
-    "yes",
-    "unverified_recollection"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "unverified_recollection"
-   ],
-   "weeks_top10": 3,
-   "peak": 9,
-   "climbed_from": 12,
-   "style": "pop_rap"
-  },
-  {
-   "title": "Just Wanna Rock",
-   "runtime": "2:03",
-   "felt": 150.0,
-   "samples": [],
-   "hook": "present_verified",
-   "hook_first": [
-    "unknown",
-    "unknown"
-   ],
-   "opening": [
-    "unknown",
-    "unknown"
-   ],
-   "weeks_top10": 1,
-   "peak": 10,
-   "climbed_from": 12,
-   "style": "jersey_club"
-  },
-  {
-   "title": "Vegas",
-   "runtime": "3:02",
-   "felt": null,
-   "samples": [
-    "'Hound Dog' (Jerry Leiber/Mike Stoller) as recorded by Shonka Dukureh, who plays Big Mama Thornton in the film. Thornton's original is dated 1952 by Billboard and 1953 by Hypebeast and The Fader."
-   ],
-   "hook": "present_unverified",
-   "hook_first": [
-    "yes",
-    "unverified_recollection"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "unverified_recollection"
-   ],
-   "weeks_top10": 1,
-   "peak": 10,
-   "climbed_from": 11,
-   "style": "trap"
-  },
-  {
-   "title": "Big Energy",
-   "runtime": "2:53",
-   "felt": 106.0,
-   "samples": [
-    "\"Genius of Love\" by Tom Tom Club (1981)"
-   ],
-   "hook": "present_unverified",
-   "hook_first": [
-    "unknown",
-    "unknown"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "unverified_recollection"
-   ],
-   "weeks_top10": 14,
-   "peak": 3,
-   "climbed_from": 11,
-   "style": "pop_rap"
-  },
-  {
-   "title": "Super Gremlin",
-   "runtime": "3:21",
-   "felt": 73.0,
-   "samples": [
-    "\"Errror (We Could Be Superstars)\" by How to Loot Brazil (2019)"
-   ],
-   "hook": "present_verified",
-   "hook_first": [
-    "yes",
-    "source"
-   ],
-   "opening": [
-    "sample_or_interpolation",
-    "source"
-   ],
-   "weeks_top10": 17,
-   "peak": 3,
-   "climbed_from": 16,
-   "style": "melodic_trap"
-  }
+ "half_time_drake": 25,
+ "full_time_kendrick": 8,
+ "tempo_excluded": [
+  "Shabang (half/full feel unresolved; listed 117)",
+  "National Treasures (half/full feel unresolved; listed 193)",
+  "Evil J0rdan (single unconfirmed listing; listed 76)",
+  "Gimme A Hug (single unconfirmed listing; listed 70)",
+  "Nokia (conflicting listings; listed 84, 105, 114)",
+  "Houdini (half/full feel unresolved; listed 125)",
+  "Young Metro (half/full feel unresolved; listed 111, 112, 112.1)",
+  "First Person Shooter (conflicting listings; listed 69, 122, 164)",
+  "K-POP (half/full feel unresolved; listed 121, 122)",
+  "Search & Rescue (low-confidence listing; listed 181)",
+  "Just Wanna Rock (half/full feel unresolved; listed 75)",
+  "Spin Bout U (conflicting listings; listed 108, 130)",
+  "Circo Loco (single unconfirmed listing; listed 104)",
+  "Forever (conflicting listings; listed 90, 107)",
+  "Jimmy Cooks (conflicting listings; listed 146, 162)"
  ],
- "voice_change_returns": [
-  "Cinderella",
-  "FE!N",
-  "Family Matters",
-  "Hiss",
-  "Like That",
-  "Nee-nah",
-  "Princess Diana",
-  "Pushin P",
+ "tempo_none_listed": [
+  "Whisper My Name",
+  "What Did I Miss?",
+  "Outside",
+  "All The Way",
   "Rather Lie",
-  "Reincarnated",
-  "St. Chroma",
-  "Way 2 Sexy"
+  "Enough (Miami)",
+  "Nee-nah",
+  "Favorite Song",
+  "Superhero (Heroes & Villains)",
+  "California Breeze",
+  "Real Spill",
+  "Vegas",
+  "Staying Alive",
+  "Sticky",
+  "Do We Have A Problem?"
  ],
+ "tempo_status": {
+  "verifier_could_not_confirm": 22,
+  "tempo_sweep": 24,
+  "corrected_by_verifier": 12,
+  "verified": 12
+ },
+ "feel_basis": {
+  "genre_convention_inference": 71
+ },
+ "outliers_removed": {
+  "Young Metro": [
+   128,
+   147
+  ],
+  "Paint The Town Red": [
+   165,
+   140
+  ],
+  "Meltdown": [
+   112
+  ],
+  "FE!N": [
+   179
+  ],
+  "Just Wanna Rock": [
+   122
+  ],
+  "Superhero (Heroes & Villains)": [
+   117
+  ],
+  "United In Grief": [
+   101,
+   130
+  ],
+  "712PM": [
+   172
+  ],
+  "I'm Dat N***a": [
+   182
+  ]
+ },
+ "style_tempo": {
+  "verse_led": {
+   "n_tagged": 8,
+   "n_tempo": 7,
+   "half": 2,
+   "felt": [
+    70.0,
+    81.0,
+    85.0,
+    86.0,
+    87.0,
+    91.0,
+    92.0
+   ],
+   "grid": [
+    85,
+    86,
+    87,
+    91,
+    92,
+    140,
+    162
+   ],
+   "in_130_170_felt_65_85": 2
+  },
+  "trap": {
+   "n_tagged": 50,
+   "n_tempo": 34,
+   "half": 34,
+   "felt": [
+    56.0,
+    60.5,
+    61.0,
+    62.0,
+    62.5,
+    63.0,
+    65.0,
+    65.0,
+    65.5,
+    66.5,
+    68.0,
+    70.0,
+    70.0,
+    70.0,
+    71.0,
+    71.5,
+    72.0,
+    72.0,
+    72.5,
+    73.0,
+    73.0,
+    73.5,
+    74.0,
+    76.5,
+    77.0,
+    77.5,
+    79.0,
+    80.0,
+    81.0,
+    83.0,
+    83.5,
+    84.0,
+    86.0,
+    87.0
+   ],
+   "grid": [
+    112,
+    121,
+    122,
+    124,
+    125,
+    126,
+    130,
+    130,
+    131,
+    133,
+    136,
+    140,
+    140,
+    140,
+    142,
+    143,
+    144,
+    144,
+    145,
+    146,
+    146,
+    147,
+    148,
+    153,
+    154,
+    155,
+    158,
+    160,
+    162,
+    166,
+    167,
+    168,
+    172,
+    174
+   ],
+   "in_130_170_felt_65_85": 26
+  },
+  "drill": {
+   "n_tagged": 2,
+   "n_tempo": 2,
+   "half": 2,
+   "felt": [
+    72.0,
+    74.0
+   ],
+   "grid": [
+    144,
+    148
+   ],
+   "in_130_170_felt_65_85": 2
+  },
+  "bounce": {
+   "n_tagged": 6,
+   "n_tempo": 6,
+   "half": 0,
+   "felt": [
+    82.0,
+    100.0,
+    101.0,
+    102.0,
+    104.0,
+    111.0
+   ],
+   "grid": [
+    82,
+    100,
+    101,
+    102,
+    104,
+    111
+   ],
+   "in_130_170_felt_65_85": 0
+  },
+  "pop_rap": {
+   "n_tagged": 9,
+   "n_tempo": 7,
+   "half": 1,
+   "felt": [
+    71.5,
+    100.0,
+    105.0,
+    105.0,
+    106.0,
+    107.0,
+    133.0
+   ],
+   "grid": [
+    100,
+    105,
+    105,
+    106,
+    107,
+    133,
+    143
+   ],
+   "in_130_170_felt_65_85": 1
+  }
+ },
+ "borrow_types": {
+  "sample": [
+   59,
+   46,
+   [
+    "2 Hard 4 The Radio",
+    "4X4",
+    "Agora Hills",
+    "Barbie World",
+    "California Breeze",
+    "Calling For You",
+    "Champagne Poetry",
+    "Circo Loco",
+    "Fair Trade",
+    "Favorite Song",
+    "First Class",
+    "First Person Shooter",
+    "Forever",
+    "Gimme A Hug",
+    "IDGAF",
+    "Jimmy Cooks",
+    "Like That",
+    "Lovin On Me",
+    "Luther",
+    "Major Distribution",
+    "Make Them Cry",
+    "Make Them Pay",
+    "National Treasures",
+    "Nee-nah",
+    "Noid",
+    "Nokia",
+    "Not Like Us",
+    "Outside",
+    "Paint The Town Red",
+    "Papi's Home",
+    "Players",
+    "Privileged Rappers",
+    "Redrum",
+    "Rich Flex",
+    "Spin Bout U",
+    "Squabble Up",
+    "Sticky",
+    "Super Freaky Girl",
+    "Super Gremlin",
+    "Superhero (Heroes & Villains)",
+    "TSU",
+    "TV Off",
+    "Vegas",
+    "Virginia Beach",
+    "Wait For U",
+    "Way 2 Sexy"
+   ]
+  ],
+  "interpolation": [
+   11,
+   11,
+   [
+    "2 Hard 4 The Radio",
+    "Big Energy",
+    "Hey Now",
+    "Houdini",
+    "Janice STFU",
+    "Man At The Garden",
+    "Reincarnated",
+    "Rich Flex",
+    "Staying Alive",
+    "TV Off",
+    "Way 2 Sexy"
+   ]
+  ],
+  "audio clip": [
+   3,
+   3,
+   [
+    "Daylight",
+    "Redrum",
+    "Search & Rescue"
+   ]
+  ],
+  "self-reuse": [
+   1,
+   1,
+   [
+    "Family Matters"
+   ]
+  ]
+ },
+ "borrow_not_reconfirmed_only": [
+  "Like That",
+  "Agora Hills",
+  "Sticky"
+ ],
+ "borrow_rejected": [
+  "Evil J0rdan: 'Popular' (The Weeknd, Playboi Carti & Madonna, 2023)",
+  "Carnival: Live 1983 US Festival performance of 'Iron Man' (performer n"
+ ],
+ "borrow_added_by_verifier": [
+  "Nokia",
+  "Nee-nah",
+  "TSU"
+ ],
+ "borrow_uncredited_only": [
+  "Man At The Garden",
+  "Family Matters"
+ ],
+ "borrow_none_documented": 43,
+ "return_types": {
+  "beat": [
+   "National Treasures",
+   "Dust",
+   "TV Off",
+   "Wacced Out Murals",
+   "Noid",
+   "Euphoria",
+   "Family Matters",
+   "IDGAF",
+   "Meltdown",
+   "Favorite Song",
+   "Rich Flex",
+   "Jimmy Cooks",
+   "Fair Trade"
+  ],
+  "register": [
+   "Rather Lie",
+   "Reincarnated"
+  ],
+  "none": [
+   "Sticky"
+  ],
+  "voice": [
+   "St. Chroma",
+   "Like That",
+   "Cinderella",
+   "Nee-nah",
+   "FE!N",
+   "Princess Diana",
+   "Pushin P",
+   "Way 2 Sexy"
+  ],
+  "delivery": [
+   "Hiss",
+   "Agora Hills"
+  ],
+  "beat+voice": [
+   "Superhero (Heroes & Villains)"
+  ]
+ },
+ "return_unconfirmed_tracks": [
+  "What Did I Miss?",
+  "Evil J0rdan",
+  "Gimme A Hug",
+  "7 Minute Drill",
+  "First Person Shooter",
+  "Champagne Poetry"
+ ],
+ "climber_return_types": {
+  "Sticky": "none",
+  "Noid": "beat",
+  "Euphoria": "beat",
+  "Agora Hills": "delivery",
+  "Favorite Song": "beat"
+ },
  "delivery_aspects": {
   "other": [
    47,
@@ -1024,7 +1245,39 @@
     "Champagne Poetry",
     "Cinderella",
     "Do We Have A Problem?",
-    "Euphoria"
+    "Euphoria",
+    "FE!N",
+    "Family Matters",
+    "First Class",
+    "Gimme A Hug",
+    "Hey Now",
+    "Hiss",
+    "IDGAF",
+    "Jimmy Cooks",
+    "Like That",
+    "Luther",
+    "Major Distribution",
+    "Make Them Pay",
+    "Man At The Garden",
+    "National Treasures",
+    "Nee-nah",
+    "Nokia",
+    "Outside",
+    "Pushin P",
+    "Ran To Atlanta",
+    "Redrum",
+    "Reincarnated",
+    "Shabang",
+    "Spin Bout U",
+    "St. Chroma",
+    "Sticky",
+    "Super Gremlin",
+    "Superhero (Heroes & Villains)",
+    "TV Off",
+    "Tomorrow 2",
+    "Wait For U",
+    "Way 2 Sexy",
+    "We Don't Trust You"
    ]
   ],
   "melodic_or_sung": [
@@ -1037,7 +1290,12 @@
     "Janice STFU",
     "Luther",
     "Pussy & Millions",
-    "Rather Lie"
+    "Rather Lie",
+    "Spin Bout U",
+    "St. Chroma",
+    "Staying Alive",
+    "Super Gremlin",
+    "Vegas"
    ]
   ],
   "conversational_or_spoken": [
@@ -1098,25 +1356,16 @@
   ]
  },
  "tracks_with_sourced_delivery": 55,
- "tracks_with_sourced_returns": 33,
  "timestamps": {
   "first_vocal": 0,
   "first_hook": 0,
-  "beat_switch_time": 2
+  "beat_switch_time": 0
  },
  "runtime_status": {
   "verified": 53,
   "corrected_by_verifier": 18,
-  "verifier_could_not_confirm": 26,
+  "verifier_could_not_confirm": 24,
   "tempo_sweep": 3
- },
- "tempo_status": {
-  "verifier_could_not_confirm": 25,
-  "missing": 23,
-  "tempo_sweep": 25,
-  "corrected_by_verifier": 12,
-  "verified": 13,
-  "conflict": 2
  },
  "shortest": [
   [
@@ -1170,21 +1419,340 @@
    "Family Matters"
   ]
  ],
- "sample_hook_examples": [
-  "Janice STFU: Lykke Li - 'I Follow Rivers' (2011; written by Lykke Li, Bj\u00f6rn Yttling, Rick Nowels)",
-  "Outside: The 'Triggerman' beat (classic bounce loop; Singles Jukebox spells it 'Triggaman')",
-  "Luther: 'If This World Were Mine' (written by Marvin Gaye), as performed by Luther Vandross & Cheryl Lynn",
-  "Houdini: Steve Miller Band - 'Abracadabra' (1982)",
-  "Family Matters: Drake - 'Push Ups' (2024)",
-  "Agora Hills: Troop - 'All I Do Is Think of You' (1989 single; Songfacts dates it 1990), a song first recorded by The Jackson 5 in 1975",
-  "Lovin On Me: Cadillac Dale - 'Whatever (Bass Soliloquy)' (1995; also spelled 'Whatever (Bass Solique)')",
-  "Calling For You: \"Calling 4 You (Freestyle)\" by Fridayy (2023)",
-  "Paint The Town Red: \"Walk On By\" by Dionne Warwick (1964; written by Burt Bacharach and Hal David)",
-  "Barbie World: \"Barbie Girl\" by Aqua (1997)",
-  "Favorite Song: \"You Might as Well\" by Tatiana Manaois (November 2022)",
-  "Players: \"The Message\" by Grandmaster Flash and the Furious Five (1982)",
-  "Rich Flex: 'Welcome to the Hive'; 'I Want You, Girl' (credited in Wikipedia's sample notes, per verifier)",
-  "Spin Bout U: \"Give Me Your Lovin\" by Oobie",
-  "Circo Loco: \"One More Time\" by Daft Punk"
+ "drill": [
+  "Barbie World",
+  "Princess Diana"
+ ],
+ "climbers_detail": [
+  {
+   "title": "Sticky",
+   "runtime": null,
+   "felt": 80.0,
+   "borrow": [
+    "Young Buck - 'Get Buck'"
+   ],
+   "hook": "present_verified",
+   "hook_first": [
+    "no",
+    "source"
+   ],
+   "opening": [
+    "rap_verse",
+    "source"
+   ],
+   "switch": [
+    "unknown",
+    "unknown"
+   ],
+   "weeks_top10": 1,
+   "total_weeks": 20,
+   "peak": 10,
+   "climbed_from": 14,
+   "style": "other",
+   "second_vocalist": true,
+   "guests": 3
+  },
+  {
+   "title": "Noid",
+   "runtime": "4:44",
+   "felt": 82.0,
+   "borrow": [
+    "Ngozi Family / Paul Ngozi - 'Nizakupanga"
+   ],
+   "hook": "present_unverified",
+   "hook_first": [
+    "unknown",
+    "unknown"
+   ],
+   "opening": [
+    "ad_lib_or_spoken_intro",
+    "unconfirmed"
+   ],
+   "switch": [
+    "unknown",
+    "unknown"
+   ],
+   "weeks_top10": 1,
+   "total_weeks": 5,
+   "peak": 10,
+   "climbed_from": 43,
+   "style": "other",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Euphoria",
+   "runtime": "6:24",
+   "felt": 70.0,
+   "borrow": [],
+   "hook": "absent_unverified",
+   "hook_first": [
+    "no",
+    "source"
+   ],
+   "opening": [
+    "ad_lib_or_spoken_intro",
+    "source"
+   ],
+   "switch": [
+    "yes",
+    "source"
+   ],
+   "weeks_top10": 1,
+   "total_weeks": 17,
+   "peak": 3,
+   "climbed_from": 11,
+   "style": "boom_bap_or_verse_led",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Agora Hills",
+   "runtime": "4:25",
+   "felt": 61.5,
+   "borrow": [
+    "Troop - 'All I Do Is Think of You' (1989"
+   ],
+   "hook": "present_unverified",
+   "hook_first": [
+    "unknown",
+    "unknown"
+   ],
+   "opening": [
+    "unknown",
+    "unknown"
+   ],
+   "switch": [
+    "unknown",
+    "unknown"
+   ],
+   "weeks_top10": 7,
+   "total_weeks": 39,
+   "peak": 7,
+   "climbed_from": 35,
+   "style": "rnb_rap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Paint The Town Red",
+   "runtime": "3:51",
+   "felt": 100.0,
+   "borrow": [
+    "\"Walk On By\" by Dionne Warwick (1964; wr"
+   ],
+   "hook": "present_verified",
+   "hook_first": [
+    "yes",
+    "source"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "source"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 20,
+   "total_weeks": 37,
+   "peak": 1,
+   "climbed_from": 15,
+   "style": "pop_rap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Fukumean",
+   "runtime": "2:05",
+   "felt": 65.0,
+   "borrow": [],
+   "hook": "present_unverified",
+   "hook_first": [
+    "unknown",
+    "unknown"
+   ],
+   "opening": [
+    "unknown",
+    "unknown"
+   ],
+   "switch": [
+    "unknown",
+    "unknown"
+   ],
+   "weeks_top10": 15,
+   "total_weeks": 32,
+   "peak": 4,
+   "climbed_from": 12,
+   "style": "trap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Favorite Song",
+   "runtime": "3:29",
+   "felt": null,
+   "borrow": [
+    "\"You Might as Well\" by Tatiana Manaois ("
+   ],
+   "hook": "present_verified",
+   "hook_first": [
+    "no",
+    "source"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "source"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 9,
+   "total_weeks": 27,
+   "peak": 5,
+   "climbed_from": 11,
+   "style": "rnb_rap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Players",
+   "runtime": "2:19",
+   "felt": 105.0,
+   "borrow": [
+    "\"The Message\" by Grandmaster Flash and t"
+   ],
+   "hook": "present_unverified",
+   "hook_first": [
+    "yes",
+    "unverified_recollection"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "unverified_recollection"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 3,
+   "total_weeks": 26,
+   "peak": 9,
+   "climbed_from": 12,
+   "style": "pop_rap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Just Wanna Rock",
+   "runtime": "2:03",
+   "felt": null,
+   "borrow": [],
+   "hook": "present_verified",
+   "hook_first": [
+    "unknown",
+    "unknown"
+   ],
+   "opening": [
+    "unknown",
+    "unknown"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 1,
+   "total_weeks": 32,
+   "peak": 10,
+   "climbed_from": 12,
+   "style": "jersey_club",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Vegas",
+   "runtime": "3:02",
+   "felt": null,
+   "borrow": [
+    "'Hound Dog' (Jerry Leiber/Mike Stoller) "
+   ],
+   "hook": "present_unverified",
+   "hook_first": [
+    "yes",
+    "unverified_recollection"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "unverified_recollection"
+   ],
+   "switch": [
+    "unknown",
+    "unknown"
+   ],
+   "weeks_top10": 1,
+   "total_weeks": 30,
+   "peak": 10,
+   "climbed_from": 11,
+   "style": "trap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Big Energy",
+   "runtime": "2:53",
+   "felt": 106.0,
+   "borrow": [
+    "\"Genius of Love\" by Tom Tom Club (1981)"
+   ],
+   "hook": "present_unverified",
+   "hook_first": [
+    "unknown",
+    "unknown"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "unverified_recollection"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 14,
+   "total_weeks": 51,
+   "peak": 3,
+   "climbed_from": 11,
+   "style": "pop_rap",
+   "second_vocalist": false,
+   "guests": 0
+  },
+  {
+   "title": "Super Gremlin",
+   "runtime": "3:21",
+   "felt": 73.0,
+   "borrow": [
+    "\"Errror (We Could Be Superstars)\" by How"
+   ],
+   "hook": "present_verified",
+   "hook_first": [
+    "yes",
+    "source"
+   ],
+   "opening": [
+    "sample_or_interpolation",
+    "source"
+   ],
+   "switch": [
+    "no",
+    "unverified_recollection"
+   ],
+   "weeks_top10": 17,
+   "total_weeks": 42,
+   "peak": 3,
+   "climbed_from": 16,
+   "style": "melodic_trap",
+   "second_vocalist": false,
+   "guests": 0
+  }
  ]
 }

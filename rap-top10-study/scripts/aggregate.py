@@ -1,14 +1,16 @@
 """Build the final reference list (first 100 rap songs by first top-10 week, then rank) and
 compute every count used in the findings. Writes CSV/JSON into the repo data folder and a stats JSON.
 Counts are always reported as k / n_assessed, where n_assessed excludes 'unknown'."""
-import json, csv, re, statistics, collections, os
-SP = '/tmp/claude-0/-home-user-app-policies/08207d95-5f38-5913-acec-14c31ee115ad/scratchpad/'
-REPO = '/home/user/app-policies/rap-top10-study/'
-cands = json.load(open(SP + 'data/to_verify.json'))
-status = {r['cid']: r for r in json.load(open(SP + 'data/classification_status.json'))}
-cm = {int(k): v for k, v in json.load(open(SP + 'data/chart_metrics.json')).items()}
-tracks = {int(k): v for k, v in json.load(open(SP + 'data/tracks_merged.json')).items()} if os.path.exists(SP + 'data/tracks_merged.json') else {}
-col = json.load(open(SP + 'data/collected.json'))
+import json, csv, re, statistics, collections, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import corrections as C
+from paths import WORK
+from paths import REPO
+cands = json.load(open(WORK + 'to_verify.json'))
+status = {r['cid']: r for r in json.load(open(WORK + 'classification_status.json'))}
+cm = {int(k): v for k, v in json.load(open(WORK + 'chart_metrics.json')).items()}
+tracks = {int(k): v for k, v in json.load(open(WORK + 'tracks_merged.json')).items()} if os.path.exists(WORK + 'tracks_merged.json') else {}
+col = json.load(open(WORK + 'collected.json'))
 
 # ---------- 1. final list ----------
 final, provisional_ids = [], []
@@ -83,20 +85,38 @@ with open(REPO + 'data/reference_100.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 
 # ---------- 5. measurements ----------
+NON_VOCAL = {'Metro Boomin'}
+def credit_names(a):
+    a = a.replace('Tyler, The Creator', 'Tyler The Creator').replace('¥$: ', '')
+    return [x.strip() for x in re.split(r' Featuring | With | & | X |, ', a) if x.strip()]
+def return_type(r, t):
+    if not any(d.get('basis') == 'source' for d in t.get('returns') or []):
+        return 'not re-confirmed' if any(d.get('basis') == 'unconfirmed' for d in t.get('returns') or []) else None
+    return C.RETURN_TYPES.get(r['cid'], 'uncoded')
 mrows = []
 for r in rows:
     t = tracks.get(r['cid']) or {}
+    sm = t.get('samples') or []
     mrows.append(dict(n=r['n'], title=r['title'], version_used=t.get('version_used'), runtime=t.get('runtime_mmss'), runtime_s=t.get('runtime_s'),
                       runtime_status=t.get('runtime_status'), grid_bpm=t.get('grid_bpm'), felt_bpm=t.get('felt_bpm'), feel_basis=t.get('feel_basis'),
-                      tempo_status=t.get('tempo_status'), tempo_listed='; '.join(f"{x.get('bpm')}" for x in (t.get('tempo_listed') or [])),
+                      tempo_status=t.get('tempo_status'), tempo_note=t.get('tempo_note'),
+                      tempo_listed='; '.join(f"{x.get('bpm')}" for x in (t.get('tempo_listed') or [])),
+                      tempo_outliers_removed='; '.join(f"{x.get('bpm')}" for x in (t.get('tempo_outliers_removed') or [])),
                       style=t.get('style_tag'), opening=t.get('opening_element'), opening_basis=t.get('opening_basis'),
-                      hook_first=t.get('hook_first'), hook_first_basis=t.get('hook_first_basis'), hook_status=t.get('hook_status'),
+                      hook_before_first_verse=t.get('hook_first'), hook_before_first_verse_basis=t.get('hook_first_basis'), hook_status=t.get('hook_status'),
                       first_vocal=t.get('first_lead_vocal_time'), first_hook=t.get('first_hook_time'),
                       beat_switch=t.get('beat_switch'), beat_switch_basis=t.get('beat_switch_basis'), beat_switch_time=t.get('beat_switch_time'),
-                      samples='; '.join(s.get('work', '') for s in (t.get('samples') or [])), n_features=len(t.get('features') or []),
+                      borrowings=' | '.join(f"{s.get('work', '')} [{s.get('borrow_type')}; {'credited' if s.get('credited', True) else 'uncredited'}; {s.get('status')}]" for s in sm),
+                      borrowing_documented=any(s.get('status') in ('confirmed', 'cited', 'not_reconfirmed') for s in sm),
+                      return_change_type=return_type(r, t),
+                      second_vocalist_credit=len([x for x in credit_names(r['artists']) if x not in NON_VOCAL]) >= 2,
+                      guests_documented=len(t.get('features') or []),
+                      album_bomb=r['album_bomb'], debut_in_top10=r['debut_in_top10'], climbed_from=r['climbed_from'],
+                      weeks_in_top10=r['weeks_in_top10'], total_weeks=r['total_weeks'],
                       sourced_delivery_obs=sum(1 for d in (t.get('delivery') or []) if d.get('basis') == 'source'),
                       sourced_return_changes=sum(1 for d in (t.get('returns') or []) if d.get('basis') == 'source'),
-                      flagged_claims=len(t.get('flagged') or []), verified=t.get('verified'), studied=bool(t)))
+                      verifier_flags=len(t.get('flagged') or []), verifier_rejections_applied='; '.join(t.get('verifier_applied') or []),
+                      verified=t.get('verified'), studied=bool(t)))
 with open(REPO + 'data/track_measurements.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=list(mrows[0].keys())); w.writeheader(); w.writerows(mrows)
 
@@ -129,9 +149,9 @@ def cnt(field, basis=None):
         v = r[field]; b = r[basis] if basis else None
         c[(v, b)] += 1
     return {f'{k[0]}|{k[1]}': v for k, v in c.items()}
-S['opening'] = cnt('opening', 'opening_basis'); S['hook_first'] = cnt('hook_first', 'hook_first_basis'); S['hook_status'] = dict(collections.Counter(r['hook_status'] for r in studied))
+S['opening'] = cnt('opening', 'opening_basis'); S['hook_first'] = cnt('hook_before_first_verse', 'hook_before_first_verse_basis'); S['hook_status'] = dict(collections.Counter(r['hook_status'] for r in studied))
 S['beat_switch'] = cnt('beat_switch', 'beat_switch_basis')
-S['with_samples'] = sum(1 for r in studied if r['samples']); S['with_features'] = sum(1 for r in studied if r['n_features'])
+S['with_borrowing'] = sum(1 for r in studied if r['borrowing_documented']); S['with_guests'] = sum(1 for r in studied if r['guests_documented'])
 S['timestamps_known'] = dict(first_vocal=sum(1 for r in studied if r['first_vocal']), first_hook=sum(1 for r in studied if r['first_hook']), beat_switch_time=sum(1 for r in studied if r['beat_switch_time']))
 S['with_sourced_delivery'] = sum(1 for r in studied if r['sourced_delivery_obs']); S['with_sourced_returns'] = sum(1 for r in studied if r['sourced_return_changes'])
 S['lead_artists'] = collections.Counter(r['lead_artist'] for r in rows).most_common(12)
@@ -143,6 +163,6 @@ S['boundary_next'] = [f"{o['first_top10']} #{o['rank']} {o['title']} — {o['art
 S['open_close_calls_before_cut'] = [f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" for o in open_close]
 S['cut'] = f"{final[-1]['first_top10']} #{final[-1]['rank']} {final[-1]['title']}"
 S['span'] = f"{final[-1]['first_top10']} to {final[0]['first_top10']}"
-json.dump(S, open(SP + 'data/stats.json', 'w'), indent=1, default=str)
-json.dump(rows, open(SP + 'data/final_rows.json', 'w'), indent=1)
+json.dump(S, open(WORK + 'stats.json', 'w'), indent=1, default=str)
+json.dump(rows, open(WORK + 'final_rows.json', 'w'), indent=1)
 for k, v in S.items(): print(k, '=>', v)

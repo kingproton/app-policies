@@ -1,7 +1,10 @@
 import json, re
-SP='/tmp/claude-0/-home-user-app-policies/08207d95-5f38-5913-acec-14c31ee115ad/scratchpad/'
-c=json.load(open(SP+'data/collected.json'))
-cands=json.load(open(SP+'data/to_verify.json'))
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import WORK, REPO
+import corrections as C
+c=json.load(open(WORK+'collected.json'))
+cands=json.load(open(WORK+'to_verify.json'))
 def n(s): return re.sub(r'[^a-z0-9]','',s.lower().replace('&','and'))
 # year-end Hot Rap Songs membership
 ye={}
@@ -32,8 +35,10 @@ for o in cands:
         else: stat='not_rap'; basis=neg[0]['evidence_type']+': '+neg[0]['evidence_summary'][:160]
     if stat=='unverified' and ev:
         basis='weak: '+ev[-1]['evidence_type']+' '+ev[-1]['hot_rap_songs']+' '+ev[-1]['evidence_summary'][:120]
+    ov=C.CLASSIFICATION_OVERRIDES.get(cid)
+    if ov: stat=ov['status']; basis=ov['evidence_type']+': '+ov['summary']+' [targeted re-check]'
     rows.append(dict(cid=cid,date=o['first_top10'],rank=o['rank'],title=o['title'],artist=o['artist'],prior=o['prior'],status=stat,basis=basis,n_ev=len(ev)))
-json.dump(rows,open(SP+'data/classification_status.json','w'),indent=1)
+json.dump(rows,open(WORK+'classification_status.json','w'),indent=1)
 k=0
 from collections import Counter
 print(Counter(r['status'] for r in rows))

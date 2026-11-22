@@ -29,18 +29,18 @@ Leave 1–4 kHz open in the melody so the voice has its own lane.
 
 | Block | Grid bars (144) | Grid count | Felt bars (72) | Felt count | Start | End |
 |---|---|---|---|---|---|---|
-| Intro — beat only, 808 filtered out | 1–4 | 4 | 1–2 | 2 | 0:00.0 | 0:06.7 |
+| Intro — beat with the 808 filtered out (A: title tag at 3.1 · B: pickup at 4.4½) | 1–4 | 4 | 1–2 | 2 | 0:00.0 | 0:06.7 |
 | Block 1 — **A:** Hook 1 · **B:** Verse 1a (cold image) | 5–20 | 16 | 3–10 | 8 | 0:06.7 | 0:33.3 |
 | Block 2 — **A:** Verse 1a · **B:** Hook 1 | 21–36 | 16 | 11–18 | 8 | 0:33.3 | 1:00.0 |
-| Verse 1b — pocket change (triplet run) | 37–44 | 8 | 19–22 | 4 | 1:00.0 | 1:13.3 |
+| Verse 1b — pocket change 1 (triplet run) | 37–44 | 8 | 19–22 | 4 | 1:00.0 | 1:13.3 |
 | Verse 1c — home pocket; ends on silence | 45–52 | 8 | 23–26 | 4 | 1:13.3 | 1:26.7 |
 | Hook 2 — title phrase doubled | 53–68 | 16 | 27–34 | 8 | 1:26.7 | 1:53.3 |
-| Verse 2 — 8 felt bars | 69–84 | 16 | 35–42 | 8 | 1:53.3 | 2:20.0 |
+| Verse 2 — home pocket, pocket change 2 at felt bars 39–40 | 69–84 | 16 | 35–42 | 8 | 1:53.3 | 2:20.0 |
 | Drop — full mix out | 85–86 | 2 | 43 | 1 | 2:20.0 | 2:23.3 |
 | Hook 3 — full stack, ad-lib answers | 87–102 | 16 | 44–51 | 8 | 2:23.3 | 2:50.0 |
 | Outro — beat rides out | 103–106 | 4 | 52–53 | 2 | 2:50.0 | 2:56.7 |
 
-Total length is **2:56.7**. That deliberately sits at the short end of the measured range. It is just under the 25th percentile of the assessed runtimes (Q1 = 2:58); the median is 3:30 (n = 98), pulled up by superstar album-bomb cuts at 3:42. Songs that were not album-bomb cuts sit at 3:17, and songs that climbed into the top 10 at 3:21 (see the findings, M-8). **[J]** A tight demo is easier to judge and easier to finish in one session.
+Total length is **2:56.7**. That deliberately sits at the short end of the measured range. It is just under the 25th percentile of the assessed runtimes (Q1 = 2:58). The median is 3:30 (n = 98): album-bomb cuts have a median of 3:42, other songs 3:17, and songs that climbed into the top 10 3:21 (see the findings, M-8). **[J]** A tight demo is easier to judge and easier to finish in one session.
 
 **Long version (3:23.3):** insert a 16-grid-bar Verse 2b (8 felt bars) after grid bar 84, then move the drop, Hook 3 and the outro back 16 grid bars:
 - drop: grid 101–102 (2:46.7–2:50.0);
@@ -54,32 +54,52 @@ Every event before grid bar 85 is unchanged.
 | Opening | Event | Grid bar.beat | Felt bar | Time |
 |---|---|---|---|---|
 | A | FIRST VOCAL — title phrase spoken dry, once | 3.1 | 2 | 0:03.3 |
+| B | FIRST VOCAL — verse pickup on the last 8th of the intro · punch P1 drops in at 4.4 (pre-roll from 3.1) | 4.4½ | 2 | 0:06.5 |
 | A | HOOK 1 downbeat (808 enters) | 5.1 | 3 | 0:06.7 |
-| B | FIRST VOCAL — verse pickup on the last 8th of the intro | 4.4½ | 2 | 0:06.5 |
+| both | Breath — end of felt bar 4 | 8.4 | 4 | 0:12.9 |
+| both | Breath — end of felt bar 6 | 12.4 | 6 | 0:19.6 |
+| B | Punch P1b — second half of the cold verse (pre-roll from 11.1, 0:16.7) | 13.1 | 7 | 0:20.0 |
+| both | Breath — end of felt bar 8 | 16.4 | 8 | 0:26.3 |
 | B | Title phrase first heard — last word of the cold verse, on the snare | 19.3 | 10 | 0:30.8 |
+| both | Breath — end of felt bar 10 | 20.4 | 10 | 0:32.9 |
 | B | HOOK 1 downbeat | 21.1 | 11 | 0:33.3 |
+| A | Verse 1a · punch P2 (pre-roll from 19.1) | 21.1 | 11 | 0:33.3 |
 | both | Breath B1 | 24.4 | 12 | 0:39.6 |
-| both | Breath B2 | 28.4 | 14 | 0:46.2 |
+| both | Breath B2 | 28.4 | 14 | 0:46.3 |
+| A | Punch P2b — second half of Verse 1a (pre-roll from 27.1, 0:43.3) | 29.1 | 15 | 0:46.7 |
 | both | Breath B3 | 32.4 | 16 | 0:52.9 |
 | both | Breath B4 — full breath before the run | 36.3½ | 18 | 0:59.4 |
-| both | **POCKET CHANGE** — triplet run starts · punch P3 | 37.1 | 19 | 1:00.0 |
-| both | Breath B5 — catch breath inside the run | 40.4 | 20 | 1:06.2 |
+| both | **POCKET CHANGE 1** — triplet run starts · punch P3 | 37.1 | 19 | 1:00.0 |
+| both | Breath B5 — catch breath inside the run | 40.4 | 20 | 1:06.3 |
 | both | Breath B6 — before the return | 44.4 | 22 | 1:12.9 |
 | both | Pocket returns home · punch P4 | 45.1 | 23 | 1:13.3 |
+| both | Breath — end of felt bar 24 | 48.4 | 24 | 1:19.6 |
 | both | Verse 1 punchline — last word on the snare | 51.3 | 26 | 1:24.2 |
-| both | **SILENCE** — vocal and 808 out, hats keep time (≈2.3 s) | 51.3½ → 52 end | 26 | 1:24.4 → 1:26.7 |
+| both | **SILENCE** — vocal and 808 out, hats keep time (≈2.3 s, to 1:26.7) | 51.3½ | 26 | 1:24.4 |
 | both | HOOK 2 downbeat · punch P5 (or paste the comped hook) | 53.1 | 27 | 1:26.7 |
+| both | Breath — hook answer bar | 56.4 | 28 | 1:32.9 |
+| both | Breath — hook answer bar | 60.4 | 30 | 1:39.6 |
+| both | Breath — hook answer bar | 64.4 | 32 | 1:46.3 |
+| both | Breath — before Verse 2 | 68.4 | 34 | 1:52.9 |
 | both | Verse 2 · punch P6 | 69.1 | 35 | 1:53.3 |
-| both | Verse 2 second half · punch P7 | 77.1 | 39 | 2:06.7 |
+| both | Breath | 72.4 | 36 | 1:59.6 |
+| both | Breath | 76.4 | 38 | 2:06.3 |
+| both | **POCKET CHANGE 2** — half-density 8ths, rhymes on the snare only · punch P7 | 77.1 | 39 | 2:06.7 |
+| both | Breath | 80.4 | 40 | 2:12.9 |
+| both | Pocket returns home | 81.1 | 41 | 2:13.3 |
+| both | Breath — before the drop | 84.4 | 42 | 2:19.6 |
 | both | Drop — full mix out for one felt bar | 85.1 | 43 | 2:20.0 |
 | both | HOOK 3 downbeat · punch P8 (paste + stack) | 87.1 | 44 | 2:23.3 |
+| both | Breath — hook answer bar | 90.4 | 45 | 2:29.6 |
+| both | Breath — hook answer bar | 94.4 | 47 | 2:36.3 |
+| both | Breath — hook answer bar | 98.4 | 49 | 2:42.9 |
 | both | End of song (end of felt bar 53) | 106 end | 53 | 2:56.7 |
 
-Punch points P1 and P2 are the two block starts: grid 5.1 (0:06.7) and 21.1 (0:33.3). Every punch uses a **one-felt-bar pre-roll**, so P1 rolls from grid 3.1 and P3 from 35.1.
+Punches go in **4-felt-bar units** (8 grid bars), each with a **one-felt-bar pre-roll**. Hooks are not punched: you track Hook 1 straight through and paste the comp into Hooks 2 and 3. So the verse punch points are P2, P2b, P3, P4 in Opening A and P1, P1b, P3, P4 in Opening B, then P6 and P7 in Verse 2. Breaths sit at the end of every second felt bar (grid beat 4), plus B4 and B5 around the triplet run.
 
 ## The two openings (same beat, same body after 1:00)
 
-The only difference is the order of the first two 16-grid-bar blocks. Everything from grid bar 37 (1:00.0) onward is identical. That makes this a clean A/B test, and you can keep both: one as the single edit, one as the album version.
+The openings differ only before grid bar 37: in the intro vocal (A: the dry title phrase at 3.1; B: the verse pickup at 4.4½) and in the order of the two 16-grid-bar blocks. Everything from grid bar 37 (1:00.0) onward is identical. That makes this a clean A/B test, and you can keep both: one as the single edit, one as the album version.
 
 ### Opening A — hook-first ("say the name before anything else")
 
@@ -129,10 +149,12 @@ home pocket:   x  .  x  x    X  .  x  x    x  .  x  x    X  .  -  -
                               ^rhyme                     ^last word, then air
 triplet run:   x x x x x x   x x x x x x   x x x x x x   x x x x x x
                (16th-note triplets at 72 = grid 8th-note triplets at 144, 7.2 syllables/s)
+half-density:  x  .  x  .    X  .  x  .    x  .  x  .    X  .  -  .
+                              ^rhyme                     ^rhyme, then air (2.1 syllables/s)
 ```
 
 - **Home pocket (verses 1a, 1c, 2):**
-  - About 4–5 syllables per second.
+  - About 3 syllables per second as drawn (10 of the 16 felt-16th slots). A fully packed 16th bar is 4.8 per second, against 7.2 for the triplet run.
   - Stressed rhyme syllables sit **on the snare (felt 2 and 4)** or the 16th after it.
   - Internal rhymes go on the "&" of 1 and 3.
   - The back half of felt beat 4 stays open every second bar, for a breath or an ad-lib.
@@ -141,6 +163,11 @@ triplet run:   x x x x x x   x x x x x x   x x x x x x   x x x x x x
   - Carry one rhyme family through all four bars. The density is the change, so don't change the subject at the same time.
   - No ad-libs inside the run.
   - At 1:13.3 (grid 45.1), drop back to the home pocket. The return is what makes the run audible.
+- **Half-density pocket (verse 2, grid 77–80, 2:06.7–2:13.3):**
+  - Two felt bars of 8th-note phrasing, about 2 syllables per second, with rhymes only on the snare.
+  - It is the opposite move to the triplet run: space instead of density. It suits a punchline you want heard, because the last word of felt bar 40 lands on the snare at grid 80.3 (2:12.5) with air behind it.
+  - No ad-libs in it. The space is the point.
+  - At 2:13.3 (grid 81.1), return to the home pocket for the last two felt bars before the drop.
 
 ## Where silence does more than an ad-lib: 1:24.4–1:26.7
 
@@ -157,17 +184,18 @@ A second, arrangement-level silence comes at **2:20.0–2:23.3** (grid 85–86):
 
 ## Punch plan for a one-session record (built for punch-in tracking)
 
-1. **Hook first:**
-   - Track it straight through, 3 passes. Comp one lead and one double, on the title phrase and end words only.
+1. **Recording order:**
+   - **Opening A:** hook first.
+   - **Opening B:** the cold verse first (P1, P1b), then the hook. The cold verse sets the voice for the whole song.
+2. **Hook:**
+   - Track Hook 1 straight through, 3 passes. Comp one lead and one double, on the title phrase and end words only.
    - Paste the comp into Hook 2 and Hook 3. Hook 3 gets the full stack: lead, double, ad-lib answers.
-2. **Verse 1:**
-   - Do two full passes for feel, then punch by block at P2/P3/P4, each with a one-felt-bar pre-roll.
+3. **Verse 1:**
+   - Do two full passes for feel, then punch in 4-felt-bar units, each with a one-felt-bar pre-roll: **P2, P2b, P3, P4** (Opening A) or **P1, P1b, P3, P4** (Opening B).
    - Never punch in the middle of an internal-rhyme chain. If one word in a chain is wrong, re-punch the whole felt bar.
-3. **Verse 2:** punch at P6/P7 the same way.
-4. **Opening tag:**
-   - **Opening A:** record the dry title-phrase line (grid 3.1) **last**, once your voice matches the hook take.
-   - **Opening B:** record the cold verse **first**, because it sets the voice for the whole song.
-5. **Ad-libs last.** Use only the gaps marked above, at most one per felt bar in the verses. None in the triplet run, and none in the 1:24 silence.
+4. **Verse 2:** punch at P6 and P7 the same way. P7 is also where pocket change 2 starts, so the punch catches the change cleanly.
+5. **Opening A tag:** record the dry title-phrase line (grid 3.1) **last**, once your voice matches the hook take.
+6. **Ad-libs last.** Use only the gaps marked above, at most one per felt bar in the verses. None in the triplet run, none in the half-density bars, and none in the 1:24 silence.
 
 Mic and consistency rules for punching:
 - Mark your floor position.

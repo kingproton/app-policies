@@ -1,5 +1,8 @@
 import json,re
-D='/tmp/claude-0/-home-user-app-policies/08207d95-5f38-5913-acec-14c31ee115ad/scratchpad/data/'
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import WORK, REPO
+D = WORK
 a=json.load(open(D+'arrivals.json'))
 a=[x for x in a if x[0]>='2021-01-01']
 # drop duplicate Carnival (artist credit change Kanye West -> Ye); first top-10 week is 2024-02-24
