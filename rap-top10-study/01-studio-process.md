@@ -57,7 +57,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Tempo alone doesn't separate the hits; it tells you which of the two felt-speed worlds you're writing in.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* in the data, 5 of the 7 verse-led-tagged songs with a tempo are full-time at felt 85–92; the two exceptions are half-time ("Euphoria" 140/70, "Make Them Pay" 162/81) [M-1]. Sparse midrange lets density read, because the hats aren't fighting you. [J]
-  - *Trap:* 26 of the 34 trap-tagged songs with a tempo sit at grid 130–170, felt 65–85 [M-1]. Cadence, repetition and space for ad-libs matter more than syllable count. [J]
+  - *Trap:* 26 of the 34 trap- or melodic-trap-tagged songs with a tempo sit at grid 130–170, felt 65–85 [M-1]. Cadence, repetition and space for ad-libs matter more than syllable count. [J]
   - *Drill:* the only two drill-tagged hits sit at grid 144 and 148 (felt 72 and 74). That's too few to call a pattern, so treat this as judgment: syncopated kicks and sliding 808s, lines that start as pickups *before* the downbeat, and space for the 808 slide. [J]
 
 ### 2 — Find the central phrase
@@ -153,7 +153,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 
 | Decision | Verse-led | Trap | Drill |
 |---|---|---|---|
-| Tempo / feel | Full-time, felt ~85–92 in the data (5 of 7 tagged songs; 2 half-time exceptions) [M-1]; aim ~85–100 [J] | Grid 130–170, felt 65–85 (26 of 34 tagged songs) [M-1] | Grid ~144–148, felt ~72–74; only 2 drill hits, so this is judgment [J] |
+| Tempo / feel | Full-time, felt ~85–92 in the data (5 of 7 tagged songs; 2 half-time exceptions) [M-1]; aim ~85–100 [J] | Grid 130–170, felt 65–85 (26 of 34 trap/melodic-trap songs) [M-1] | Grid ~144–148, felt ~72–74; only 2 drill hits, so this is judgment [J] |
 | Pocket | 16ths on the grid; rhymes on 2 & 4 plus internal [J] | Triplets and repeated cadences; room for ad-libs [J] | Pickups into the bar; staccato; rests around 808 slides [J] |
 | Central phrase | Refrain line, or no hook with a return anchor [J] | Chant or title repetition; hook or tag first [J] | Ad-lib/catchphrase identity plus a short hook [J] |
 | Opening | Sharpest image first [J] | Hook or tag first [J] | Tag or ad-lib, then pickup into the verse [J] |

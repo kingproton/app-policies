@@ -59,7 +59,8 @@ def link_for(cid):
     if b['evidence_type'] in ('model_knowledge_only', 'none'):
         return f"genre unverified ([page]({u}) confirms the Hot 100 position only)"
     lab = EVLAB.get(b['evidence_type'], b['evidence_type'])
-    if 'billboard.com' not in d: lab = SITE.get(d, d) + (' (reporting Billboard)' if b['evidence_type'] in ('billboard_article', 'billboard_chart_page', 'other_press') else '')
+    if 'billboard.com' in d: lab = 'Billboard chart page' if ('/charts/' in u or '/chart-history/' in u) else 'Billboard report'
+    else: lab = SITE.get(d, d) + (' (reporting Billboard)' if b['evidence_type'] in ('billboard_article', 'billboard_chart_page', 'other_press') else '')
     return f"[{lab}]({u})"
 
 

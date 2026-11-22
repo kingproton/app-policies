@@ -190,3 +190,9 @@ CLASSIFICATION_OVERRIDES = {
                       "2025 year-end Hot 100. A targeted re-check (4 searches) found no direct Hot R&B Songs or Hot Rap Songs row; chart-history rows on unnamed charts conflict "
                       "and may mix in the 2023 Sleepy Hallow track 'A N X I E T Y'.")),
 }
+
+# ---- 7. Independent re-check of the gap sweep's structure claims --------------------------
+# cid -> {field: verdict}; verdict 'confirmed' keeps S; anything else drops a sweep-sourced value to U
+# (hooks: present_verified -> present_unverified). Fields: opening_element, hook_before_first_verse,
+# has_hook_or_chorus, beat_switch. 'partly' entries are resolved by hand to confirmed / not_supported.
+SWEEP_VERDICTS = {}

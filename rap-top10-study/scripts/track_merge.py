@@ -141,6 +141,17 @@ for cid, rs in c['research'].items():
         rec['hook_device_sweep'] = ssw.get('hook_device'); rec['return_anchor_sweep'] = ssw.get('return_anchor')
         rec['opening_source_sweep'] = ssw.get('opening_source')
 
+    # ---- 4b. independent re-check of sweep-sourced structure claims
+    used = rec.get('structure_sweep_used') or []
+    for fld, verdict in C.SWEEP_VERDICTS.get(icid, {}).items():
+        if verdict == 'confirmed': continue
+        if fld == 'has_hook_or_chorus' and 'hook_status' in used and rec['hook_status'] == 'present_verified':
+            rec['hook_status'] = 'present_unverified'; applied.append(f'sweep hook->{verdict}')
+        for f2, vf, bf in (('opening_element', 'opening_element', 'opening_basis'), ('hook_before_first_verse', 'hook_first', 'hook_first_basis'), ('beat_switch', 'beat_switch', 'beat_switch_basis')):
+            if fld == f2 and vf in used and rec.get(bf) == 'source':
+                rec[bf] = 'unconfirmed'; applied.append(f'sweep {f2}->{verdict}')
+    rec['verifier_applied'] = applied
+
     # ---- 5a. tempo corrections
     removed = []
     keep = []
