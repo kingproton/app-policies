@@ -12,12 +12,12 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 
 ## Capability verdict
 
-**ACE WITH CONDITIONS** for the reference set and the process. The list is marked provisional, because 9 genre calls near the cut rest on indirect evidence (see `04-reference-list.md`, 4d). **SUPPORT ONLY** for listening-level measurements.
+**ACE WITH CONDITIONS** for the reference set and the process. The list is marked provisional, because 17 genre calls rest on indirect evidence: 5 inclusions and 12 exclusions ranked above the cut (see `04-reference-list.md`, 4d). **SUPPORT ONLY** for listening-level measurements.
 
 | Area | Status |
 |---|---|
 | Hot 100 ranks and first top-10 dates | Verified against every weekly chart since 1958, via the `mhollingshead/billboard-hot-100` mirror of billboard.com. No missing weeks in the window. |
-| Rap classification | Checked song by song against Billboard evidence: year-end Hot Rap Songs lists, same-week rap or R&B component charts, artist chart histories, Billboard chart reporting. 95 of the 100 have direct evidence. 4 rest on indirect evidence (†) and 1 on album-mates (‡). 4 exclusions above the cut rest on inference or indirect evidence. Most direct evidence was read from search-result summaries, because billboard.com could not be opened from this environment. |
+| Rap classification | Checked song by song against Billboard evidence: year-end Hot Rap Songs lists, same-week rap or R&B component charts, artist chart histories, Billboard chart reporting. 95 of the 100 have direct evidence. 4 rest on indirect evidence (†) and 1 on album-mates (‡). 12 exclusions above the cut rest on inference or indirect evidence; 6 of those rest on absence from all three year-end genre lists, which is strong but indirect. Most direct evidence was read from search-result summaries, because billboard.com could not be opened from this environment. |
 | Runtime, tempo, samples, credits | From published sources, cross-checked by an independent verifier per album or group. A claim the verifier could not support is kept as **U** and never counted as sourced. Coverage counts are given with every number. |
 | First-vocal entrance, hook timestamps, silence after punchlines, 808 and drum changes | **Not measured.** No audio was available and the lyric-timing hosts were blocked, so these are unknown unless a source documented them. `05-codex-handoff.md` closes this gap. |
 | Process, worked session, demo lyrics | Original work. Production judgment is labeled **[J]**. |
@@ -27,7 +27,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 - **Reference set:** first top-10 week per song, from the full weekly Hot 100 history.
   - 155 rap and possible-rap candidates were checked. 138 were resolved from chart evidence (109 rap, 29 not rap), and 17 are unverified: 4 counted in the 100 and marked †, 2 exclusions above the cut, and 11 below the cut, where they cannot change the list.
   - A targeted re-check of the 18 weakest calls settled 10 of them.
-  - A separate audit checked 209 songs pre-tagged non-rap and found none that Billboard classified as rap.
+  - 209 other top-10 songs were pre-tagged non-rap by artist and genre. A separate audit specifically checked 37 of them and flagged none as rap. It left 6 rap-adjacent songs not conclusively checked and did not search the rest, which are plainly non-rap (see 4c).
 - **Per-track study:** done album by album, with a hard search budget per agent.
   - Every claim carries a basis: **source** (cited page), **U** (cited, but the verifier could not find support), **unverified recollection**, or **unknown**. Only "source" counts as measured.
   - An independent verifier re-checked runtime, tempo, opening/hook claims, beat switches and samples for each group; its rejections are applied in `scripts/track_merge.py` from `scripts/corrections.py`.
@@ -42,7 +42,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 | `data/reference_100.csv` | The 100 songs: date, rank, genre tag, classification basis and sources, chart path (debut or climb, peak, weeks in top 10), album-bomb flag |
 | `data/track_measurements.csv` | Per-track measurements with basis codes, verifier status, borrowing type and status, return-change type, chart path, version notes |
 | `data/classification_evidence.csv` | All 155 candidates with final status and best evidence |
-| `data/raw/` | Frozen research data: `collected.json` (every research, verifier, sweep and classification record), `tracks_merged.json`, `classification_status.json`, `to_verify.json`, `chart_metrics.json`, `final_rows.json`, `stats.json`, `findings_stats.json` |
+| `data/raw/` | Frozen research data: `collected.json` (every research, verifier, sweep and classification record), `tracks_merged.json`, `classification_status.json`, `to_verify.json`, `chart_metrics.json`, `final_rows.json`, `stats.json`, `findings_stats.json`, plus the two re-check reports (`recheck_classification.md`, `recheck_sweep_claims.md`) |
 | `scripts/corrections.py` | Every hand-coded correction (verifier rejections, credit fixes, tempo outliers, classification overrides, return-change coding), each traceable to a verifier flag or a review issue |
 | `scripts/` | The scripts that rebuild the chart history, classify, merge, aggregate, render the tables and compute the bar map |
 

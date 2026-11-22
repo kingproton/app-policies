@@ -12,7 +12,8 @@ rows = json.load(open(WORK + 'final_rows.json'))
 T = {int(k): v for k, v in json.load(open(WORK + 'tracks_merged.json')).items()}
 R = [(r, T.get(r['cid'])) for r in rows]
 studied = [(r, t) for r, t in R if t]
-DOC = {'confirmed', 'cited', 'not_reconfirmed'}           # sample statuses that count as documented
+DOC = {'confirmed', 'cited'}                              # sample statuses that count as sourced
+DOC_U = DOC | {'not_reconfirmed'}                         # ... plus credits the verifier could not re-find (U)
 NON_VOCAL = {'Metro Boomin'}                                # credited producer-artists who do not take a verse or hook
 
 
@@ -43,6 +44,8 @@ def pair_ok(t): return bool(t.get('felt_bpm') and t.get('grid_bpm') and t.get('t
 
 
 def doc_samples(t): return [s for s in (t.get('samples') or []) if s.get('status') in DOC]
+def doc_samples_u(t): return [s for s in (t.get('samples') or []) if s.get('status') in DOC_U]
+def returning(r): return C.RETURNING.get(r['cid'], 'uncoded')
 
 
 def rtype(r, t):
@@ -79,7 +82,8 @@ for g, f in groups.items():
     ds = [(r, t) for r, t in S if doc_samples(t)]
     d['borrow_documented'] = f"{len(ds)}/{len(S)}"
     d['borrow_credited'] = f"{sum(1 for r, t in ds if any(s.get('credited', True) for s in doc_samples(t)))}/{len(S)}"
-    d['borrow_not_reconfirmed_only'] = sum(1 for r, t in ds if all(s['status'] == 'not_reconfirmed' for s in doc_samples(t)))
+    d['borrow_documented_u'] = f"{sum(1 for r, t in S if doc_samples_u(t))}/{len(S)}"
+    d['borrow_not_reconfirmed_only'] = sum(1 for r, t in S if doc_samples_u(t) and not doc_samples(t))
     d['second_vocalist_credit'] = f"{sum(1 for r, t in allg if second_vocalist(r))}/{len(allg)}"
     d['guest_documented_any'] = f"{sum(1 for r, t in S if t.get('features'))}/{len(S)}"
     hs = collections.Counter(t.get('hook_status') for r, t in S)
@@ -101,6 +105,13 @@ for g, f in groups.items():
     d['return_sourced_tracks'] = sum(rtc.values())
     d['return_beat'] = rtc.get('beat', 0) + rtc.get('beat+voice', 0); d['return_voice'] = rtc.get('voice', 0) + rtc.get('beat+voice', 0)
     d['return_register'] = rtc.get('register', 0); d['return_delivery'] = rtc.get('delivery', 0); d['return_none'] = rtc.get('none', 0)
+    rr = [(rtype(r, t), returning(r)) for r, t in S if rtype(r, t)]
+    d['return_oneway'] = sum(1 for ty, rt_ in rr if rt_ is False)
+    d['returning_total'] = sum(1 for ty, rt_ in rr if rt_ is True)
+    d['returning_voice'] = sum(1 for ty, rt_ in rr if rt_ is True and 'voice' in ty)
+    d['returning_beat'] = sum(1 for ty, rt_ in rr if rt_ is True and 'beat' in ty)
+    d['returning_register'] = sum(1 for ty, rt_ in rr if rt_ is True and ty == 'register')
+    d['returning_none'] = sum(1 for ty, rt_ in rr if rt_ is True and ty == 'none')
     d['style'] = dict(collections.Counter(t.get('style_tag') for r, t in S))
     OUT[g] = d
 
@@ -149,14 +160,17 @@ for lab, tags in (('verse_led', {'boom_bap_or_verse_led'}), ('trap', {'trap', 'm
                                    felt=sorted(t['felt_bpm'] for t in P), grid=sorted(t['grid_bpm'] for t in P),
                                    in_130_170_felt_65_85=sum(1 for t in P if 130 <= t['grid_bpm'] <= 170 and 65 <= t['felt_bpm'] <= 85))
 # borrowing
-bt = collections.Counter(); bt_tracks = collections.defaultdict(set)
+bt = collections.Counter(); bt_tracks = collections.defaultdict(set); bt_cred = collections.Counter()
 for r, t in studied:
     for sm in doc_samples(t):
-        bt[sm.get('borrow_type')] += 1; bt_tracks[sm.get('borrow_type')].add(r['title'])
-OUT['borrow_types'] = {k: (v, len(bt_tracks[k]), sorted(bt_tracks[k])) for k, v in bt.most_common()}
-OUT['borrow_not_reconfirmed_only'] = [r['title'] for r, t in studied if doc_samples(t) and all(s['status'] == 'not_reconfirmed' for s in doc_samples(t))]
+        bt[sm.get('borrow_type')] += 1; bt_tracks[sm.get('borrow_type')].add((r['cid'], r['title']))
+        if sm.get('credited', True): bt_cred[sm.get('borrow_type')] += 1
+OUT['borrow_types'] = {k: (v, len(bt_tracks[k]), sorted(x[1] for x in bt_tracks[k]), bt_cred[k]) for k, v in bt.most_common()}
+OUT['borrow_not_reconfirmed_only'] = [r['title'] for r, t in studied if doc_samples_u(t) and not doc_samples(t)]
+OUT['borrow_unconfirmed_credits'] = [f"{r['title']}: {s['work'][:50]}" for r, t in studied for s in t.get('samples') or [] if s.get('status') == 'not_reconfirmed']
 OUT['borrow_rejected'] = [f"{r['title']}: {s['work'][:60]}" for r, t in studied for s in t.get('samples') or [] if s.get('status') == 'rejected']
-OUT['borrow_added_by_verifier'] = [r['title'] for r, t in studied if any(s.get('status') == 'confirmed' and 'per verifier' in (s.get('how_used') or '') + (s.get('source') or '') for s in t.get('samples') or []) and r['cid'] in C.SAMPLE_ADD]
+OUT['borrow_added_by_verifier'] = [r['title'] for r, t in studied if r['cid'] in C.SAMPLE_ADD and any(s.get('status') == 'confirmed' and s.get('work') in {a['work'] for a in C.SAMPLE_ADD[r['cid']]} for s in t.get('samples') or [])]
+OUT['borrow_added_only_credit'] = [r['title'] for r, t in studied if r['cid'] in C.SAMPLE_ADD and {s['work'] for s in doc_samples(t)} <= {a['work'] for a in C.SAMPLE_ADD[r['cid']]}]
 OUT['borrow_uncredited_only'] = [r['title'] for r, t in studied if doc_samples(t) and not any(s.get('credited', True) for s in doc_samples(t))]
 OUT['borrow_none_documented'] = len([1 for r, t in studied if not doc_samples(t)])
 # returns
@@ -167,6 +181,11 @@ for r, t in studied:
 OUT['return_types'] = dict(rt_lists)
 OUT['return_unconfirmed_tracks'] = [r['title'] for r, t in studied if any(d.get('basis') == 'unconfirmed' for d in t.get('returns') or [])]
 OUT['climber_return_types'] = {r['title']: rtype(r, t) for r, t in studied if not r['debut_in_top10'] and rtype(r, t)}
+OUT['returning_lists'] = {k: [r['title'] for r, t in studied if rtype(r, t) and returning(r) is True and f(rtype(r, t))] for k, f in
+                          (('voice', lambda ty: 'voice' in ty), ('beat', lambda ty: 'beat' in ty), ('register', lambda ty: ty == 'register'), ('none', lambda ty: ty == 'none'))}
+OUT['oneway_list'] = [r['title'] for r, t in studied if rtype(r, t) and returning(r) is False]
+OUT['trap_return_split'] = dict(collections.Counter(x for r, t in studied if rtype(r, t) and t.get('style_tag') in ('trap', 'melodic_trap') for x in (['voice'] if 'voice' in rtype(r, t) else []) + (['beat'] if 'beat' in rtype(r, t) else [])))
+OUT['trap_return_tracks'] = sum(1 for r, t in studied if rtype(r, t) and t.get('style_tag') in ('trap', 'melodic_trap'))
 # delivery
 asp = collections.Counter(); asp_tracks = collections.defaultdict(set)
 for r, t in studied:

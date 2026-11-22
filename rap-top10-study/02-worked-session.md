@@ -9,7 +9,7 @@ An original bar map you can load into the DAW as markers. The beat, the bar map,
 | DAW tempo / meter | **144 BPM, 4/4** (the grid) |
 | Felt pulse | **72 BPM** (half-time): the snare lands on grid beat 3 of every grid bar, which is felt beats 2 and 4 |
 | 1 grid beat | 60 ÷ 144 = **0.4167 s** |
-| 1 grid bar | 4 × 0.4167 = **1.6667 s** |
+| 1 grid bar | 4 × 60 ÷ 144 = **1.6667 s** |
 | 1 felt bar (one written "rap bar") | 2 grid bars = **3.3333 s** |
 | Landmarks | 36 grid bars = 60.0 s exactly, so **grid bar 37 = 1:00.0**, **bar 73 = 2:00.0**, **bar 109 = 3:00.0** |
 | Formula | start time of grid bar *n*, beat *b* = (n − 1) × 1.6667 + (b − 1) × 0.4167 s |
@@ -76,7 +76,7 @@ Every event before grid bar 85 is unchanged.
 | both | Breath — end of felt bar 24 | 48.4 | 24 | 1:19.6 |
 | both | Verse 1 punchline — last word on the snare | 51.3 | 26 | 1:24.2 |
 | both | **SILENCE** — vocal and 808 out, hats keep time (≈2.3 s, to 1:26.7) | 51.3½ | 26 | 1:24.4 |
-| both | HOOK 2 downbeat · punch P5 (or paste the comped hook) | 53.1 | 27 | 1:26.7 |
+| both | HOOK 2 downbeat · paste point P5 (the comped Hook 1) | 53.1 | 27 | 1:26.7 |
 | both | Breath — hook answer bar | 56.4 | 28 | 1:32.9 |
 | both | Breath — hook answer bar | 60.4 | 30 | 1:39.6 |
 | both | Breath — hook answer bar | 64.4 | 32 | 1:46.3 |
@@ -89,13 +89,13 @@ Every event before grid bar 85 is unchanged.
 | both | Pocket returns home | 81.1 | 41 | 2:13.3 |
 | both | Breath — before the drop | 84.4 | 42 | 2:19.6 |
 | both | Drop — full mix out for one felt bar | 85.1 | 43 | 2:20.0 |
-| both | HOOK 3 downbeat · punch P8 (paste + stack) | 87.1 | 44 | 2:23.3 |
+| both | HOOK 3 downbeat · paste point P8 (comp + full stack) | 87.1 | 44 | 2:23.3 |
 | both | Breath — hook answer bar | 90.4 | 45 | 2:29.6 |
 | both | Breath — hook answer bar | 94.4 | 47 | 2:36.3 |
 | both | Breath — hook answer bar | 98.4 | 49 | 2:42.9 |
 | both | End of song (end of felt bar 53) | 106 end | 53 | 2:56.7 |
 
-Punches go in **4-felt-bar units** (8 grid bars), each with a **one-felt-bar pre-roll**. Hooks are not punched: you track Hook 1 straight through and paste the comp into Hooks 2 and 3. So the verse punch points are P2, P2b, P3, P4 in Opening A and P1, P1b, P3, P4 in Opening B, then P6 and P7 in Verse 2. Breaths sit at the end of every second felt bar (grid beat 4), plus B4 and B5 around the triplet run.
+Punches go in **4-felt-bar units** (8 grid bars), each with a **one-felt-bar pre-roll**. Hooks are not punched: you track Hook 1 straight through and paste the comp into Hooks 2 and 3. So the verse punch points are P2, P2b, P3, P4 in Opening A and P1, P1b, P3, P4 in Opening B, then P6 and P7 in Verse 2. Breaths sit at the end of every second felt bar (grid beat 4). B4 is the one exception: it moves half a grid beat earlier (36.3½) for a full breath before the run. B5 (40.4) is the catch breath inside it.
 
 ## The two openings (same beat, same body after 1:00)
 
@@ -192,7 +192,7 @@ A second, arrangement-level silence comes at **2:20.0–2:23.3** (grid 85–86):
    - Paste the comp into Hook 2 and Hook 3. Hook 3 gets the full stack: lead, double, ad-lib answers.
 3. **Verse 1:**
    - Do two full passes for feel, then punch in 4-felt-bar units, each with a one-felt-bar pre-roll: **P2, P2b, P3, P4** (Opening A) or **P1, P1b, P3, P4** (Opening B).
-   - Never punch in the middle of an internal-rhyme chain. If one word in a chain is wrong, re-punch the whole felt bar.
+   - Never punch in the middle of an internal-rhyme chain. If one word in a chain is wrong, re-punch the whole 4-felt-bar unit from its punch point.
 4. **Verse 2:** punch at P6 and P7 the same way. P7 is also where pocket change 2 starts, so the punch catches the change cleanly.
 5. **Opening A tag:** record the dry title-phrase line (grid 3.1) **last**, once your voice matches the hook take.
 6. **Ad-libs last.** Use only the gaps marked above, at most one per felt bar in the verses. None in the triplet run, none in the half-density bars, and none in the 1:24 silence.
@@ -201,7 +201,7 @@ Mic and consistency rules for punching:
 - Mark your floor position.
 - Keep the same distance and the same input gain all session.
 - Crossfade punches at breaths, not consonants (10–20 ms).
-- Re-punch a whole felt bar rather than a single word if the room tone or energy jumps.
+- Re-punch the whole 4-felt-bar unit rather than a single word if the room tone or energy jumps.
 
 ## Listening test: choose between Opening A and Opening B
 

@@ -5443,11 +5443,12 @@
     "timestamp": null
    },
    {
-    "aspect": "flow_switch",
+    "aspect": "other",
     "observation": "Over halfway through, the beat switches and Drake raps over a 'crashing piano beat'. The second half runs on a different producer's beat from the first half.",
     "basis": "source",
     "source": "https://en.wikipedia.org/wiki/Rich_Flex",
-    "timestamp": null
+    "timestamp": null,
+    "aspect_original": "flow_switch"
    }
   ],
   "returns": [
@@ -6082,10 +6083,10 @@
   "runtime_mmss": "3:57",
   "runtime_s": 237,
   "runtime_status": "verified",
-  "grid_bpm": null,
-  "felt_bpm": null,
-  "feel_basis": null,
-  "tempo_status": "missing",
+  "grid_bpm": 104,
+  "felt_bpm": 104.0,
+  "feel_basis": "genre_convention_inference",
+  "tempo_status": "verified",
   "tempo_listed": [
    {
     "bpm": 104,
@@ -7956,7 +7957,7 @@
    {
     "aspect": "silence_or_space",
     "observation": "Carti holds his vocal back for almost a minute while the synthesized build-up plays, so the record opens with a long no-rap stretch capped by a recognizable sample. The WebSearch summary did not say which review in the result set this came from.",
-    "basis": "source",
+    "basis": "unconfirmed",
     "source": "https://www.nme.com/reviews/album/playboi-carti-music-review-3846905/ | https://stereogum.com/2300444/premature-evaluation-playboi-carti-music/reviews/premature-evaluation | https://www.complex.com/music/a/dimassanfiorenzo/playboi-carti-music-album-review | https://au.rollingstone.com/music/music-album-reviews/playboi-carti-music-review-74007 | https://kvrx.org/blog/dj-picks/playboi-carti-album-review-music",
     "timestamp": null
    }
@@ -8032,6 +8033,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [
    "opening->unconfirmed",
+   "delivery->unconfirmed",
    "returns->unconfirmed"
   ],
   "tempo_outliers_removed": []

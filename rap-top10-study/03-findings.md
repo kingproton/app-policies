@@ -4,13 +4,13 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 **How to read the counts:**
 - Every count is **k / n assessed**. *n* leaves out tracks where the fact is **unknown**. Unknown never counts as "no".
-- A fact counts as *measured* only when a cited source supports it and the independent verifier did not reject it (**sourced**, S).
+- A fact counts as *measured* only when a cited source supports it and the independent verifier did not reject it, or, for a gap-sweep claim, a separate re-check confirmed it (**sourced**, S).
 - A claim the researcher cited but the verifier could not support is kept as **U** (not re-confirmed) and never counted as sourced. Unverified recollection (**R**) is shown separately and never used to rank a pattern.
 - **Production judgment is labeled [J]:** every "Try it" block and the final section.
 
 **What was assessed:**
 - All 100 songs were researched album by album or group by group, and an independent verifier re-checked each group. Later gap sweeps filled missing structure and tempo fields with their own citations. A separate pass re-checked all 41 of the sweep's structure claims; only the confirmed ones stay sourced (see the method notes).
-- Runtime is known for 98 of the 100. A published BPM exists for 85, and 70 have a resolved grid/felt reading that M-1 uses.
+- Runtime is known for 98 of the 100. A published BPM exists for 85, and 71 have a resolved grid/felt reading that M-1 uses.
 - Sourced opening and hook data exists for a minority: 14 openings, 7 hook-order answers and 20 hooks (see M-4, M-5 and the limits section).
 - Nobody listened to the recordings.
 
@@ -22,14 +22,15 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 | Median runtime | 3:30 (IQR 2:58–4:08; n=98) | 3:21 (IQR 2:19–4:25; n=11) | 3:34 (IQR 3:02–4:07; n=87) | 3:42 (IQR 3:03–4:18; n=55) | 3:17 (IQR 2:53–3:51; n=43) | 3:59 (IQR 3:10–4:20; n=41) | 3:21 (IQR 2:53–3:48; n=57) |
 | Runtime ≤ 3:00 | 25/98 | 4/11 | 21/87 | 13/55 | 12/43 | 7/41 | 18/57 |
 | Runtime ≥ 4:00 | 31/98 | 3/11 | 28/87 | 21/55 | 10/43 | 20/41 | 11/57 |
-| Median felt BPM (resolved tempo) | 74 (n=70) | 80 (n=9) | 74 (n=61) | 72 (n=43) | 80 (n=27) | 71.25 (n=28) | 78.75 (n=42) |
-| Half-time feel (grid ≈ 2× felt) [inferred] | 51/70 | 5/9 | 46/61 | 33/43 | 18/27 | 25/28 | 26/42 |
+| Median felt BPM (resolved tempo) | 74 (n=71) | 80 (n=9) | 74 (n=62) | 72.25 (n=44) | 80 (n=27) | 71.5 (n=29) | 78.75 (n=42) |
+| Half-time feel (grid ≈ 2× felt) [inferred] | 51/71 | 5/9 | 46/62 | 33/44 | 18/27 | 25/29 | 26/42 |
 |   of which grid 110–129 (feel ambiguous) | 8 | 1 | 7 | 6 | 2 | 5 | 3 |
 |   median felt, half-time | 71.5 | 70.0 | 71.75 | 70.0 | 74.0 | 70.0 | 72.25 |
-| Full-time feel [inferred] | 19/70 | 4/9 | 15/61 | 10/43 | 9/27 | 3/28 | 16/42 |
-|   of which 95–115 bounce/pop-rap | 10/70 | 3/9 | 7/61 | 4/43 | 6/27 | 1/28 | 9/42 |
-| Documented borrowing (sample, interpolation, clip, reuse) | 57/100 | 9/12 | 48/88 | 32/55 | 25/45 | 28/41 | 29/59 |
-|   with a credit | 55/100 | 9/12 | 46/88 | 31/55 | 24/45 | 27/41 | 28/59 |
+| Full-time feel [inferred] | 20/71 | 4/9 | 16/62 | 11/44 | 9/27 | 4/29 | 16/42 |
+|   of which 95–115 bounce/pop-rap | 11/71 | 3/9 | 8/62 | 5/44 | 6/27 | 2/29 | 9/42 |
+| Sourced borrowing (sample, interpolation, clip, reuse) | 54/100 | 8/12 | 46/88 | 30/55 | 24/45 | 27/41 | 27/59 |
+|   with a credit | 52/100 | 8/12 | 44/88 | 29/55 | 23/45 | 26/41 | 26/59 |
+|   incl. credits the verifier could not re-find (U) | 57/100 | 9/12 | 48/88 | 32/55 | 25/45 | 28/41 | 29/59 |
 | Second credited vocalist (Billboard credit) | 44/100 | 1/12 | 43/88 | 27/55 | 17/45 | 20/41 | 24/59 |
 | Hook present — sourced / unverified | 20 / 32 | 5 / 6 | 15 / 26 | 7 / 16 | 13 / 16 | 6 / 8 | 14 / 24 |
 | No conventional hook (unverified) | 6 | 1 | 5 | 3 | 3 | 2 | 4 |
@@ -40,7 +41,8 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 |   recollection yes / no | 4 / 8 | 2 / 0 | 2 / 8 | 1 / 5 | 3 / 3 | 1 / 2 | 3 / 6 |
 | Beat switch — sourced / U / recollection | 10 / 5 / 3 | 1 / 0 / 0 | 9 / 5 / 3 | 5 / 2 / 3 | 5 / 3 / 0 | 6 / 4 / 2 | 4 / 1 / 1 |
 | Beat switch unknown | 64 | 5 | 59 | 41 | 23 | 27 | 37 |
-| Sourced return change — beat or bed / new voice | 14 / 9 | 3 / 0 | 11 / 9 | 8 / 3 | 6 / 6 | 8 / 1 | 6 / 8 |
+| Sourced change between sections — beat or bed / new voice | 14 / 9 | 3 / 0 | 11 / 9 | 8 / 3 | 6 / 6 | 8 / 1 | 6 / 8 |
+|   in a section that comes back — new voice / bed | 8 / 4 | 0 / 2 | 8 / 2 | 3 / 1 | 5 / 3 | 1 / 2 | 7 / 2 |
 
 *Album-bomb* = a song that first entered the top 10 in the same chart week as at least two other songs by the same lead artist (an album-release week). *Climbed* = the song charted below the top 10 before first entering it. *U* = cited but not re-confirmed by the verifier.
 
@@ -50,24 +52,24 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 Ranked by how directly each one changes a writing, arrangement or delivery decision, weighted by how many songs back it.
 
-### M-1. Two felt-speed worlds: a half-time pocket near 70–77 felt, or full-time bounce near 100–107
+### M-1. Two felt-speed worlds: a half-time pocket (felt middle half 66.5–77) or full-time bounce (felt 100–111)
 
-- **Effect:** delivery and writing. The pocket sets how many syllables a bar holds and where rhymes land. Ranked first because it rests on the most songs (70) and it's the first decision in the session.
+- **Effect:** delivery and writing. The pocket sets how many syllables a bar holds and where rhymes land. Ranked first because it's the first decision in the session; it rests on 71 resolved tempos.
 - **Count:**
-  - **51/70** songs with a resolved tempo read as half-time (grid ≈ 2× felt): felt median **71.5 BPM**, middle half 66.5–77, on grids of about 112–174.
-  - **19/70** read as full-time: **10** at 100–111 (bounce/pop-rap), **8** slower cuts at 80–92, and **1** at 133 ("Super Freaky Girl").
+  - **51/71** songs with a resolved tempo read as half-time (grid ≈ 2× felt): felt median **71.5 BPM**, middle half 66.5–77, on grids of about 112–174.
+  - **20/71** read as full-time: **11** at 100–111 (10 bounce/pop-rap, plus the trap-tagged "Circo Loco" at 104), **8** slower cuts at 80–92, and **1** at 133 ("Super Freaky Girl").
   - **Every half/full call is an inference.** No source describes the felt pulse of any track, so felt values come from listed BPMs read by genre convention.
-  - **Ambiguous band:** 8 of the 51 half-time readings sit at grid 112–126, where a full-time reading is just as plausible. The verifier made that point about two similar songs ("Young Metro", "K-POP"), which are excluded. Without the 8, the split is 43 half-time / 19 full-time.
-- **Excluded (15 with a listing):**
+  - **Ambiguous band:** 8 of the 51 half-time readings sit at grid 112–126, where a full-time reading is just as plausible. The verifier made that point about two similar songs ("Young Metro", "K-POP"), which are excluded. Without the 8, the split is 43 half-time / 20 full-time.
+- **Excluded (14 with a listing):**
   - conflicting listings: "First Person Shooter", "Nokia", "Spin Bout U", "Forever", "Jimmy Cooks";
   - feel unresolved: "Shabang" (117), "National Treasures" (193), "Houdini" (125), "Young Metro" (112), "K-POP" (122), "Just Wanna Rock" (75);
-  - a single unconfirmed listing: "Evil J0rdan", "Gimme A Hug", "Circo Loco";
+  - a single listing found only by the verifier, which it could not confirm (research gave no tempo): "Evil J0rdan" (76, possibly the earlier version) and "Gimme A Hug" (70);
   - a low-confidence listing: "Search & Rescue".
   - No BPM listing was found for 15 more.
-- **Listing quality for the 70:** 12 confirmed by the verifier, 12 corrected, 22 it could not confirm, 24 from the tempo sweep only. Listings tied to another recording, or that could not be reproduced, were removed for 9 tracks.
+- **Listing quality for the 71:** 13 confirmed by the verifier, 12 corrected, 22 it could not confirm, 24 from the tempo sweep only. Listings tied to another recording, or that could not be reproduced, were removed for 9 tracks.
 - **Examples:**
   - *Half-time:* "Barbie World", "I'm Dat N***a" and "Privileged Rappers" at **144/72**, the worked session's grid. Also "Super Gremlin" 146/73, "Pushin P" 155/77.5, "Like That" 162/81, "Wait For U" 166/83.
-  - *Full-time bounce / pop-rap:* "TV Off" 100, "Paint The Town Red" 100, "Not Like Us" 101, "Hey Now" 102, "Squabble Up" 104, "Lovin On Me" 105, "First Class" 107.
+  - *Full-time bounce / pop-rap:* "TV Off" 100, "Paint The Town Red" 100, "Not Like Us" 101, "Hey Now" 102, "Squabble Up" 104, "Circo Loco" 104, "Lovin On Me" 105, "First Class" 107.
   - *Slower full-time:* "7 Minute Drill" 85, "United In Grief" 86, "Champagne Poetry" 87, "Reincarnated" 91, "Man At The Garden" 92 (all tagged verse-led).
 - **Try it [J]:**
   - Decide which world you're in *before* writing.
@@ -75,50 +77,55 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - In the half-time world, write lines that resolve on felt beats 2 and 4 (the snare), with room on the back half of beat 4. In the bounce world, more syllables fit per beat, so lean on internal rhyme.
 - **Exception:** "Super Freaky Girl" rides a fully felt pulse at about 133, built on a sample. A fast, fully felt pulse leaves less room per syllable. If your bars are dense it works against you; if your hook is a chant, it's an option. [J]
 - **Flags:**
-  - Drake-credited songs supply **25 of the 51** half-time readings (25/28 of Drake-credited songs vs 26/42 of the rest).
-  - Kendrick Lamar accounts for **8 of the 19** full-time readings.
+  - Drake-credited songs supply **25 of the 51** half-time readings (25/29 of Drake-credited songs vs 26/42 of the rest).
+  - Kendrick Lamar accounts for **8 of the 20** full-time readings.
   - Songs with a beat switch carry one listed tempo, which may describe only one section.
 
 ### M-2. Documented borrowing: a credited sample, interpolation or clip in about half the songs
 
-- **Effect:** writing (the central phrase or recognition device) and arrangement (what opens the song and what comes back). Ranked second because it is spread across artists and shapes both the hook and the opening (M-5).
+- **Effect:** writing (the central phrase or recognition device) and arrangement (what opens the song and what comes back). Ranked second because it shapes both the hook and the opening (M-5).
 - **Count:**
-  - **57/100** songs have at least one documented borrowing, **55** of them credited. The other 43 are unknown, not "no".
-  - Climbers **9/12**; debuts **48/88**.
-  - **By type:**
-    - samples: 59 credits on 46 songs;
-    - interpolations on 11 songs, e.g. Lykke Li's "I Follow Rivers" melody on "Janice STFU", D4L's "Scotty" on "Hey Now", the Bee Gees on "Staying Alive";
-    - dialogue clips on 3: "Daylight" (*Scarface*), "Search & Rescue" (Kim Kardashian), and "Redrum" (*The Shining*, not re-confirmed);
+  - **54/100** songs have at least one sourced borrowing, **52** of them credited. That rises to 57 if you count three songs whose only credits the verifier could not re-find ("Like That", "Agora Hills", Drake's "Sticky"). The rest are unknown, not "no".
+  - Climbers **8/12** (9/12 with the U credits); debuts **46/88** (48/88).
+  - **By type (sourced only):**
+    - samples: 54 entries on 44 songs, all credited;
+    - interpolations on 11 songs (10 credited), e.g. Lykke Li's "I Follow Rivers" melody on "Janice STFU", D4L's "Scotty" on "Hey Now", the Bee Gees on "Staying Alive";
+    - dialogue clips on 2: "Daylight" (*Scarface*) and "Search & Rescue" (Kim Kardashian); the *Shining* clip on "Redrum" is U;
     - one self-reuse: "Family Matters" reuses the "Push Ups" outro beat, uncredited.
   - Documented but uncredited only: "Man At The Garden" (Nas, "One Mic") and "Family Matters".
   - **The verifier's effect:**
     - It rejected two credits: "Popular" on "Evil J0rdan" (a fan wiki only) and the live "Iron Man" on "Carnival" (not confirmed in the streaming version measured).
-    - It added credits on "Nokia" (the Nokia ringtone), "Major Distribution" (Elijah Fox) and "Privileged Rappers" (the Isley Brothers).
-    - It could not re-find the only credits for "Like That", "Agora Hills" and Drake's "Sticky". Without those three, the count is 54/100.
+    - It supplied the only credits on "Nokia" (the Nokia ringtone), "Major Distribution" (Elijah Fox) and "Privileged Rappers" (the Isley Brothers), and added further credits on "Nee-nah" (Lenny Williams) and "TSU" (Justin Timberlake).
+    - It replaced unnamed samples with named credits on "Gimme A Hug" (Aaron Hall, Terrell Grice) and "Rich Flex" ("Welcome to the Hive", "I Want You, Girl").
+    - It could not re-find 6 credits, including the only ones for "Like That", "Agora Hills" and Drake's "Sticky".
 - **Examples where a source documents the borrowing's role:**
   - *It carries the hook:*
     - "Luther": Cheryl Lynn and Luther Vandross's "If This World Were Mine" carries the chorus (The Root).
     - "Super Gremlin": the How to Loot Brazil vocal returns in each chorus (Wikipedia).
-    - "Wait For U": Tems's "Higher" vocal opens the song and repeats through it as the refrain (Pulse).
+    - "Wait For U": Tems's "Higher" vocal opens the song and repeats through it as the refrain (Pulse, per the sweep re-check).
     - "First Class": the hook samples Fergie's "Glamorous" chorus (Capital XTRA).
     - "Houdini": the chorus interpolates "Abracadabra" (Stereogum).
     - "Lovin On Me": the hook is built on a Cadillac Dale sample (Billboard, via the gap sweep).
     - "TV Off": John Barry's "The Black Hole" is used for the chorus (Wikipedia's GNX page).
+    - "Barbie World": the chorus is built on the Aqua sample (per the sweep re-check).
   - *It is the first thing heard:* "Paint The Town Red" (the "Walk On By" phrase, per a lyric listing), "Luther", "Super Gremlin", "Wait For U", and "IDGAF" (Azimuth, "The Tunnel"; Urban Islandz).
-  - *Role undocumented:* "Big Energy" (Tom Tom Club), "Players" ("The Message"), "Barbie World" (Aqua), "Way 2 Sexy" (Right Said Fred), "Circo Loco" (Daft Punk).
+  - *It is the bed:* "Players" (the sampled "The Message" backing track; Wikipedia) and "Big Energy" (the borrowed "Genius of Love" groove; Songfacts).
+  - *Role undocumented:* "Way 2 Sexy" (Right Said Fred; the chorus interpolation is cited only to a karaoke-site description) and "Circo Loco" (Daft Punk).
 - **Try it [J]:**
   - As an independent artist, budget for clearance or build an *original* recognition device that works the same way.
   - Options: a motif you or your producer replay; a vocal chop of your own title phrase; or a regional sonic signature that's yours.
   - Put it in the first 4 grid bars and bring it back with every hook.
-- **Exception:** "Pushin P" has no borrowing documented (unknown, not "no"); sources describe a hook driven by its title catchphrase. A slogan people repeat can do a sample's job. [J]
-- **Flags:** borrowing is spread across artists: 28 of the 57 are Drake-credited, in line with Drake's share of the set (28/41 Drake-credited vs 29/59 others). Whether listeners already knew the borrowed record ("recognition") was not measured.
+- **Exception:** "Pushin P" has no borrowing documented (unknown, not "no"). Research describes its hook as the title catchphrase, but that is unverified; no cited source describes the hook. A slogan people repeat can do a sample's job. [J]
+- **Flags:**
+  - Drake-credited songs lean on it more: 27 of the 54 (50%) are Drake-credited, against Drake's 41% share of the set (27/41 = 66% of Drake-credited songs vs 27/59 = 46% of the rest). At this size the gap could be chance (Fisher exact p ≈ 0.07).
+  - Whether listeners already knew the borrowed record ("recognition") was not measured.
 
-### M-3. The 12 songs that *climbed* into the top 10 look different from the album-launch debuts
+### M-3. The 12 songs that *climbed* into the top 10 look different from the 88 that debuted there
 
 - **Effect:** arrangement (solo vs guests) and which patterns to weight. Ranked third because it's the only comparison inside the set that resembles an independent release, but it covers only 12 songs.
 - **Count:** 12/100 climbed in; 88 debuted directly. Compared with the debuts:
   - **A second credited vocalist:** **1/12** ("Sticky") vs **43/88**.
-  - **Documented borrowing:** **9/12** vs **48/88**.
+  - **Sourced borrowing:** **8/12** vs **46/88** (9/12 vs 48/88 counting credits the verifier could not re-find).
   - **Hooks:** all 12 were assessed: 5 sourced, 6 unverified, and 1 reported without a chorus ("Euphoria", recollection).
   - **Chart run:** median weeks in the top 10 **5** vs **1**; median total chart weeks **31** vs **14**.
 - **Examples:**
@@ -128,7 +135,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - "Big Energy": 14 weeks, from #11.
   - "Favorite Song": 9 weeks, from #11.
   - "Agora Hills": 7 weeks, from #35.
-- **Try it [J]:** if you want a comparison group for your demo, use these 12 rather than the album-launch debuts: mostly solo (11/12), and 9/12 with a documented borrowing. That describes 12 songs; it is not a way to climb.
+- **Try it [J]:** if you want a comparison group for your demo, use these 12 rather than the 88 direct debuts (55 of them album-bomb cuts): mostly solo (11/12), and 8/12 with a sourced borrowing. That describes 12 songs; it is not a way to climb.
 - **Exception:** "Euphoria" climbed (from #11) at **6:24**, with no conventional chorus reported (recollection, unverified). "Noid" jumped from #43 to #10 in the week its album-mate "St. Chroma" debuted at #7. Both climbs coincided with outside events, a public feud and an album release; the study can't say what drove them.
 - **Flags:**
   - **Small sample (12).**
@@ -175,28 +182,33 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - Whatever comes first, make it **identifiable within the first 4 grid bars**.
   - If your hook is built on a recognition device (M-2), open on the device.
   - If your record is a statement, open on your sharpest image and earn the hook. The worked session's Opening A and Opening B test exactly this choice.
-- **Exception:** "Houdini" opens on a Paul Rosenberg voicemail skit and a sung callback to "Without Me", and holds its "Abracadabra" chorus until after the first verse (Songfacts, Yahoo and HotNewHipHop, via search summaries). The first sounds tell you who it is, not what the hook is.
+- **Exception:** "Houdini" opens on a Paul Rosenberg voicemail skit and a sung callback to "Without Me" (Songfacts, Yahoo and HotNewHipHop, via search summaries). A further summary places its "Abracadabra" chorus after the verse section. The first sounds tell you who it is, not what the hook is. (Sweep re-check: `data/raw/recheck_sweep_claims.md`.)
 - **Flags:**
   - Seven hook-order answers can't support a rule either way. Drake-credited songs supply 1 of the 3 hook-first answers and 1 of the 4 verse-first.
   - 2 of the 7 sample openings are Drake-credited.
   - 11 of the 14 sourced openings and 5 of the 7 hook-order answers come from the gap sweep. Each was re-checked by a separate pass (see the method notes).
   - Treat this as directional. The audio handoff in file 05 measures it properly.
 
-### M-6. When a section returns, the documented change is more often in the beat than in the voice
+### M-6. Between sections, the documented change is usually a beat switch; when a section comes back, it's more often a new voice
 
 - **Effect:** arrangement, i.e. what changes at each block boundary. Ranked sixth.
 - **Count:**
-  - **27** songs have a sourced description of what changes when a section comes back. Six more have one the verifier did not re-confirm; all six are beat changes and are excluded.
+  - **27** songs have a sourced description of what changes between sections. Six more have one the verifier did not re-confirm; all six are beat changes and are excluded.
   - My coding of the 27:
-    - **beat or bed** change (a switch, a new sample or instrumental, drums entering): **14**;
+    - **beat or bed** change: **14**. **10** of these are one-way: a beat switch or an intro/outro hand-off, not a section coming back. Eight of the ten are M-7's sourced switches.
     - a **different person** takes the section: **9**;
     - the **same rapper changes register or character**: **2** ("Rather Lie", "Reincarnated");
     - a **spoken insert or break**: **2** ("Hiss", "Agora Hills");
     - **nothing specific**: **1** ("Sticky": chorus 2 repeats chorus 1's arrangement).
-  - "Superhero" counts as both beat and voice.
-  - For context, the Billboard credit names a second vocalist on **44/100** songs. A guest is available on almost half the songs, but only 9 descriptions say the returning section is carried by a new voice.
+  - "Superhero" counts as both beat and voice; its beat change is a one-way outro.
+  - **Only the 15 descriptions of a section that comes back** (a verse slot, a returning chorus, a returning sample):
+    - a **new voice: 8**;
+    - a **bed change: 4** ("Family Matters", "Favorite Song", "Fair Trade", "Noid");
+    - the **same rapper's register: 2**;
+    - **nothing specific: 1**.
+  - For context, the Billboard credit names a second vocalist on **44/100** songs.
 - **Examples:**
-  - *New voice:*
+  - *New voice in a returning section:*
     - "Pushin P": Gunna and Future trade lines inside one verse, then Young Thug closes (HotNewHipHop).
     - "Princess Diana": Nicki Minaj takes verse 2 *and* the chorus (Songfacts).
     - "FE!N": Playboi Carti's feature shifts the lead voice's register and timbre (Wikipedia).
@@ -204,19 +216,20 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - *Same rapper:*
     - "Rather Lie": Carti's second verse moves between high and low registers (Stereogum).
     - "Reincarnated": verse 3 switches perspective and voices characters (Wikipedia).
-  - *Beat or bed:*
-    - "Rich Flex": the beat is replaced, not varied (Billboard via AOL).
-    - "Noid": the guitar riff keeps going under new jazz harmonies (Hearing Things).
+  - *Bed change in a returning section:*
+    - "Family Matters": later verses move to a drill beat, then a downtempo one (Wikipedia).
     - "Fair Trade": the "Mountains" sample returns at the bridge and outro (Songfacts).
     - "Favorite Song": the opening sample bookends the record (Songfacts).
+  - *One-way switch:* "Rich Flex", where the beat is replaced, not varied (Billboard via AOL).
 - **Try it [J] (solo version):**
-  - Change the bed under verse 2: drop the melody, or add a counter-line.
-  - Or make verse 2 sound like a different speaker: lower your register, change your persona or point of view, or switch pockets.
+  - Make verse 2 sound like a different speaker: lower your register, change your persona or point of view, or switch pockets.
   - Or trade lines with your own double-tracked voice for four bars.
-- **Exception:** where the climbers' return changes are documented (5 of 12), they are in the beat or bed (3: "Noid", "Euphoria", "Favorite Song"), a spoken insert ("Agora Hills") or nothing specific ("Sticky"). None is a guest voice.
+  - Or change the bed under verse 2: drop the melody, or add a counter-line.
+- **Exception:** "Sticky" (Tyler, The Creator), a climber, brings its chorus back with nothing changed: chorus 2 repeats chorus 1's full hook arrangement (Hit Songs Deconstructed). If the hook carries the record, bringing it back unchanged is an option. [J]
 - **Flags:**
-  - The coding is mine, from the cited descriptions (`scripts/corrections.py`, `RETURN_TYPES`).
-  - 8 of the 14 beat changes are Drake-credited, against 1 of the 9 voice changes ("Way 2 Sexy").
+  - The coding is mine, from the cited descriptions (`scripts/corrections.py`: `RETURN_TYPES`, `RETURNING`).
+  - Drake-credited songs supply 6 of the 10 one-way beat changes but only 1 of the 8 returning-section voice changes ("Way 2 Sexy").
+  - Among the 12 trap and melodic-trap songs with a description, voice changes (6) and beat changes (5) are about even.
   - Fine-grained layer changes (808s, doubles, ad-libs) need stems.
 
 ### M-7. Full beat switches concentrate on Drake- and Kendrick Lamar-credited records
@@ -225,7 +238,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Count:**
   - A **sourced** beat switch in **10** of the 36 songs with any yes/no answer; unknown for 64.
   - **6** are Drake-credited ("National Treasures", "Dust", "Family Matters", "Meltdown", "Rich Flex", "Jimmy Cooks"). **3** are Kendrick Lamar's ("TV Off", "Not Like Us", "Euphoria"). **1** is Metro Boomin, Future & Chris Brown's ("Superhero").
-  - Album-bomb cuts and other songs show them at the same rate: **5/55 vs 5/45**. Three are feud singles ("Family Matters", "Not Like Us", "Euphoria").
+  - Album-bomb cuts and other songs each have **5** sourced switches, but switch status is unknown for 41 of the 55 album-bomb cuts and 23 of the 45 others (5 of 14 vs 5 of 22 with any yes/no answer), so their rates can't be compared. Three are feud singles ("Family Matters", "Not Like Us", "Euphoria").
   - **5 more** are cited by research but not re-confirmed (U): "What Did I Miss?", "Gimme A Hug", "7 Minute Drill", "First Person Shooter", "Champagne Poetry". Four of those are Drake-credited.
   - **3** more rest on recollection.
   - All 18 "no switch" answers are recollection, so the sourced count is a minimum.
@@ -259,19 +272,19 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - Build the demo between about 2:45 and 3:30.
   - Add a section only if it brings a new bed, a new voice or a new device (M-6, M-7).
 - **Exception:** "Family Matters" (7:36) and "Euphoria" (6:24) are long feud records whose sources describe several distinct sections (M-7).
-- **Flags:** the long tail is Drake album cuts and feud records.
+- **Flags:** the long tail is mostly Drake album cuts and feud records: 6 of the 7 songs at 5:00 or longer. The exception is Kendrick Lamar's *GNX* cut "Wacced Out Murals" (5:17).
 
 ### M-9. What sources say about delivery (thin, but specific)
 
 - **Effect:** delivery. Ranked last because the specific categories rest on 1–13 observations each.
-- **Count:** at least one sourced delivery observation for **55/100** tracks. Most are general. The specific ones:
+- **Count:** at least one sourced delivery observation for **54/100** tracks. Most are general. The specific ones:
   - melodic or sung delivery: 13;
   - spoken or conversational: 7;
   - ad-libs: 4;
   - doubles or stacks: 3;
-  - flow switch: 2;
   - phrase placement: 2;
-  - silence or space: 2 (neither about punchlines);
+  - flow switch: 1;
+  - silence or space: 1 ("Young Metro": the beat leaves room under the verses; not about punchlines);
   - density: 1.
 - **Examples:**
   - "Squabble Up": dense, technical bars that "play like second nature" (critic, via a search summary).
@@ -280,9 +293,9 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - "TV Off": the shouted producer's name is the transition cue at the switch (Wikipedia).
   - "Shabang": the guests appear only as ad-libs (Wikipedia).
 - **Try it [J]:** pick **one** delivery signature per song (a register, a character, a cue shout) and use it at the same structural point every time.
-- **Exception:** "Rich Flex" and "Rather Lie", the two sourced flow switches, change delivery mid-song instead of holding one signature.
+- **Exception:** "Rather Lie", whose second verse moves between high and low registers (Stereogum), changes delivery mid-song instead of holding one signature.
 - **Limits:** no source documents bar-by-bar phrase placement or the silence after punchlines. Those craft details are **unknown, not absent**.
-- **Flags:** ad-libs (4), doubles (3), flow switch (2), phrase placement (2) and silence (2) are too few to generalize.
+- **Flags:** ad-libs (4), doubles (3), phrase placement (2), flow switch (1) and silence (1) are too few to generalize.
 
 ---
 
@@ -307,9 +320,9 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 | First lead-vocal entrance (timestamp) | **Unknown for 100/100** | No audio access; lyric-timing hosts blocked; sources rarely state it. One album review of "Evil J0rdan" describes about a minute of build before the vocal, but the verifier tied the intro description to a different version, so it isn't used. |
 | First hook timestamp | **Unknown for 100/100** | Same |
 | Where phrases start/stop against the drums; where rhymes land | 2 descriptive observations | Requires listening or annotated transcriptions |
-| Silence after punchlines | **Unknown for 100/100** | The 2 "silence or space" notes describe an instrumental intro and beat space, not post-punchline gaps. Requires audio. |
-| Half- vs full-time feel | **Inferred for all 70** resolved tempos; none source-described | Requires listening (snare placement) |
-| Changes in drums / 808 / doubles / ad-libs on return | Sourced descriptions for 27 tracks, at beat-switch, bed or voice level | Fine-grained layer changes need stems |
+| Silence after punchlines | **Unknown for 100/100** | The one sourced "silence or space" note ("Young Metro") describes beat space, not a post-punchline gap; the "Evil J0rdan" intro note is U. Requires audio. |
+| Half- vs full-time feel | **Inferred for all 71** resolved tempos; none source-described | Requires listening (snare placement) |
+| Changes in drums / 808 / doubles / ad-libs on return | Sourced descriptions for 27 tracks (15 about a section that comes back), at beat-switch, bed or voice level | Fine-grained layer changes need stems |
 | Section lengths in bars | Not computed | Needs timestamps; would be bars = seconds × grid BPM ÷ 240 |
 
 `05-codex-handoff.md` defines how to measure every one of these from licensed audio, with acceptance checks.
@@ -329,8 +342,8 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 ## Definitions and method notes
 
 - **Basis ladder:**
-  - **S**: a cited source supports the claim and the verifier did not reject it, or a later sweep cited its own source.
-  - **U**: the researcher cited a source, but the verifier could not find support. Kept for transparency, never counted.
+  - **S**: a cited source supports the claim and the verifier did not reject it, or a later sweep cited its own source and the separate re-check confirmed it (or recoded it from its own sources).
+  - **U**: the researcher cited a source the verifier could not support, or the re-check did not confirm a sweep claim. Kept for transparency, never counted.
   - **R**: unverified recollection.
   - **?**: unknown.
   - The verifier's rejections are applied in `scripts/track_merge.py` from the list in `scripts/corrections.py`.
@@ -339,14 +352,15 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - Result: 29 confirmed, 9 partly supported, 2 not found, 1 contradicted. Only confirmed claims stay sourced; the rest are U.
   - Two exceptions are recodes the re-check's own sources support: "Houdini" opens on a voicemail skit, not a sung intro, and "Carnival" opens on a crowd chant recorded in the studio for the track, not a sample.
   - The re-check also noted where a description may come from a music-video edit (for example, "Not Like Us" has a video-only teaser); those descriptions are not used.
+  - Both re-check reports are in `data/raw/`: `recheck_sweep_claims.md` (structure claims) and `recheck_classification.md` (genre calls).
 - **Grid BPM:** the DAW tempo convention. **Felt BPM:** the rap-bar pulse. A half-time feel is coded when grid ≈ 2× felt. Published BPMs disagree by factors of two, and no source describes the feel of any track, so every felt value is a genre-convention inference.
 - **Hook-first** = the hook or chorus arrives before the first rap verse; a short spoken line, tag or sample intro may come before it. So "Rich Flex" (a 21 Savage/Young Nudy skit, then Drake's sung hook) is coded opening = spoken intro and hook-first = yes. It is not the same as "the first sound is the hook".
-- **Negatives are never sourced** in this data set. Every "no beat switch" and "no hook" is recollection or a weak source, so prevalence counts based on sourced "yes" answers are minimums.
+- **Negative answers are almost never sourced.** No "no beat switch" (18, all recollection) or "no hook" (6, all unverified) answer is sourced. Hook-first "no" is the exception, with 4 sourced answers ("Houdini", "Euphoria", "Favorite Song", "Jimmy Cooks"). Prevalence counts based on sourced "yes" answers are therefore minimums.
 - **Borrowings** are typed as sample, interpolation, dialogue clip or self-reuse.
-  - Status: confirmed or added by the verifier, cited by research (not flagged), not re-confirmed, or rejected.
-  - Rejected credits don't count.
+  - Status: confirmed or added by the verifier, cited by research (not flagged), named by research without a URL, not re-confirmed (U), or rejected.
+  - Only confirmed and cited credits count as sourced; U credits are reported separately; rejected credits don't count.
   - One cited review describes "Champagne Poetry"'s first half as a "Navajo"/"Michelle" loop; the credit for the "Michelle" vocal itself was not verified here.
-- **Return-change coding** (M-6) is mine, from the cited descriptions; the code for each song is in `scripts/corrections.py`.
+- **Return-change coding** (M-6) is mine, from the cited descriptions. Each song's code, and whether the change sits in a section that comes back or is a one-way switch, is in `scripts/corrections.py` (`RETURN_TYPES`, `RETURNING`).
 - **Second credited vocalist** = the Billboard credit names at least two vocalists. Producer-only credits such as Metro Boomin don't count. Research also logged uncredited guests (ad-libs, cameos) on some songs; those are in `data/track_measurements.csv` as `guests_documented`.
 - **Style tags** (trap, West Coast bounce, boom-bap/verse-led, pop-rap, R&B-rap, drill, Jersey club, rage) were assigned by the research agents from source descriptions and credits. They're descriptive, not Billboard categories. Counts: trap 42, other 11, pop-rap 9, R&B-rap 9, melodic trap 8, verse-led 8, West Coast bounce 6, rage 2, drill 2, and 1 each for country-rap, Jersey club and dance/house.
 - **Runtimes** come from Wikipedia infoboxes or album track listings for 95 tracks and from BPM-site listings for 3. Streaming services can differ by ±1 s.

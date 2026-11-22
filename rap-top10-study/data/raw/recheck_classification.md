@@ -1,0 +1,31 @@
+# Targeted genre re-check of the 18 weakest classification calls
+
+Independent agent report, run 2026-11-22. The agent used WebSearch only (54 of 60 allowed searches). Direct fetches of billboard.com and wikipedia.org were blocked, so **every quote is from a search-result summary, not a page read by eye**. "Direct" means the summary named the song, the chart and a position. Applied in `scripts/corrections.py` → `CLASSIFICATION_OVERRIDES`.
+
+| # | Song | Verdict | Evidence strength | Chart and position found | Quote (from search summary) | Source URL |
+|---|---|---|---|---|---|---|
+| 1 | Noid | rap | direct | Hot Rap Songs debut at No. 6 (week it was No. 43 on the Hot 100, chart dated 2024-11-02) | "Noid" begins at No. 6 on the Hot Rap Songs chart and at No. 43 on the all-genre Billboard Hot 100. | https://radiox.cms.socastsrm.com/?p=252637 |
+| 2 | 7 Minute Drill | rap | direct | Rap Streaming Songs 2024-04-20: new entry, peak 2, 1 week | "lists the song with a peak of 2 (LW - PEAK 2 WEEKS 1). That is the Rap Streaming Songs chart" | https://www.billboard.com/charts/rap-streaming-songs/2024-04-20/ |
+| 3 | Cinderella | unresolved | indirect | Only a Hot R&B/Hip-Hop Songs peak of 3; album-mate "Like That" No. 1 on Hot Rap Songs | "lists its peak on that chart at 3. That is the R&B/Hip-Hop chart, not Hot Rap Songs" | https://en.wikipedia.org/wiki/Cinderella_(Future,_Metro_Boomin_and_Travis_Scott_song) |
+| 4 | We Don't Trust You | unresolved | indirect | Hot R&B/Hip-Hop Songs peak 5; No. 79 on that chart's 2024 year-end list | "peaking at No. 5 on Billboard's US Hot R&B/Hip-Hop Songs chart, and at No. 79 on that chart's 2024 year-end ranking." | https://en.wikipedia.org/wiki/We_Don%27t_Trust_You_(song) |
+| 5 | Née-nah | unresolved | indirect | Hot R&B/Hip-Hop Songs peak 5, Rhythmic 9; album-mate "Redrum" on Rap Streaming Songs 2024-02-17 | "a peak of 5 on the US Hot R&B/Hip-Hop Songs chart and 9 on the Rhythmic chart." | https://wikiwand.com/en/Née-Nah ; https://www.billboard.com/charts/rap-streaming-songs/2024-02-17/ |
+| 6 | FE!N | unresolved | indirect | Album-mates on Rap Streaming Songs Aug–Sep 2023; FE!N itself never appeared in a snippet | "show other Travis Scott songs, such as "I Know ?" and "Sirens," but not "Fe!n"" | https://www.billboard.com/charts/rap-streaming-songs/2023-08-12/ |
+| 7 | Privileged Rappers | rap | direct | Rap Streaming Songs: debut No. 6 on 2022-11-19; No. 7 on 2022-11-26 | "entered at No. 6 as a new entry" | https://www.billboard.com/charts/rap-streaming-songs/2022-11-19/ |
+| 8 | BackOutsideBoyz | rap | direct (page text described as jumbled) | Rap Streaming Songs: new entry at No. 7 on 2022-11-19 | "lists "BackOutsideBoyz" by Drake as a new entry at No. 7, with a peak of 7 and one week on the chart." | https://www.billboard.com/charts/rap-streaming-songs/2022-11-19/ |
+| 9 | Reincarnated | unresolved | indirect | Hot 100 No. 8, Hot R&B/Hip-Hop Songs No. 6, no Hot Rap Songs row; album-mates on Hot Rap Songs / Rap Streaming Songs | "No. 6 on the US Hot R&B/Hip-Hop Songs chart. It does not list a Hot Rap Songs position." | https://en.wikipedia.org/wiki/Reincarnated_(song) ; https://www.billboard.com/charts/rap-song/2024-12-07/ |
+| 10 | Fair Trade | rap | direct | Hot Rap Songs 2021-12-04: No. 13, peak 3 | "at No. 13 in the week of December 4, 2021, with a peak of No. 3" | https://www.billboard.com/charts/rap-song/2021-12-04/ |
+| 11 | Champagne Poetry | rap | direct | Rap Streaming Songs: new entry at No. 4 on 2021-09-18 | "lists the song as a new entry at No. 4 (4 NEW)." | https://www.billboard.com/charts/rap-streaming-songs/2021-09-18/ |
+| 12 | In The Bible | rap | direct | Hot Rap Songs 2021-10-23: re-entry, peak 6, 4 weeks; Rap Streaming Songs peak 6 on 2021-09-18 | "lists the track with a peak of 6 and four weeks on the chart, marked as a re-entry." | https://www.billboard.com/charts/rap-song/2021-10-23/ |
+| 13 | Anxiety (Doechii) | unresolved | indirect (weak, conflicting) | No Hot R&B Songs or Hot Rap Songs position found; chart-history rows on unnamed charts conflict | "The closest match was the chart's March 22 edition, which had no Anxiety entry I could see." | https://www.billboard.com/charts/r-and-b-songs/2025-03-22/ |
+| 14 | Stateside | not_rap | direct (non-Billboard news source) | No. 1 on Hot Dance/Pop Songs for 16 weeks | "the song has topped the Hot Dance/Pop Songs chart for 16 weeks running." | https://www.rttnews.com/3661276/pinkpantheress-zara-larsson-s-stateside-climbs-to-no-1-on-billboard-s-pop-airplay-chart.aspx |
+| 15 | 3D | unresolved | indirect | Hot 100 No. 5, Global 200 No. 1, Digital Song Sales No. 1; no genre chart found | ""3D" opens at No. 1 on Digital Song Sales" | https://currently.att.yahoo.com/att/doja-cat-paint-town-red-171023820.html |
+| 16 | Calm Down | not_rap | direct | U.S. Afrobeats Songs No. 1 for a record 58 weeks | "It also led the U.S. Afrobeats Songs for a record-setting 58 weeks." | https://www.billboard.com/artist/Rema/chart-history/AFB |
+| 17 | Bad Decisions | unresolved | indirect | Wikipedia table has only Hot 100 (10) and Pop Airplay (26) | "lists a US Billboard Hot 100 peak of 10 and a US Pop Airplay (Billboard) peak of 26 for 2022" | https://en.wikipedia.org/wiki/Bad_Decisions_(Benny_Blanco,_BTS_and_Snoop_Dogg_song) |
+| 18 | Enemy | not_rap | direct | Rock Streaming Songs No. 1 (2022-01-15 chart); Hot Rock & Alternative Songs peak 2 | "Billboard reported that the song topped the Rock Streaming Songs chart on the Jan. 15 tally" | https://www.billboard.com/pro/imagine-dragons-j-i-d-s-enemy-crowns-rock-streaming-songs-chart/ |
+
+**Conflicts the agent reported**
+- **3D:** one summary put it on Hot R&B/Hip-Hop and Hot Rap Songs. A follow-up showed that sentence is about Doja Cat's "Paint the Town Red", so it was discarded.
+- **Anxiety:** chart-history rows on unnamed charts read two ways ("peak 3" vs "debut No. 3, peak No. 1"). The 2023 Sleepy Hallow track "A N X I E T Y" featuring Doechii also charted, so those rows may mix the two songs.
+- **BackOutsideBoyz:** the 2022-11-19 page text was described as jumbled. Summaries disagree on whether 2022-11-26 lists it, but both put it on Rap Streaming Songs.
+
+**Hot 100 dates and ranks:** nothing contradicted the study's list.

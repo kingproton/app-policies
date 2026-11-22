@@ -74,38 +74,38 @@
   "mean": 205.9
  },
  "felt_bpm": {
-  "n": 71,
+  "n": 72,
   "median": 74.0,
-  "q1": 69.0,
-  "q3": 85.0,
+  "q1": 69.25,
+  "q3": 85.75,
   "min": 56.0,
   "max": 133.0,
-  "mean": 78.7
+  "mean": 79.0
  },
  "grid_bpm": {
-  "n": 76,
-  "median": 136.5,
-  "q1": 112.0,
-  "q3": 147.75,
+  "n": 77,
+  "median": 136,
+  "q1": 111.5,
+  "q3": 147.5,
   "min": 80,
   "max": 193,
-  "mean": 131.3
+  "mean": 131.0
  },
  "felt_bands": {
   "<65": 9,
   "65-74": 28,
   "75-84": 16,
-  "100-115": 10,
+  "100-115": 11,
   "85-99": 7,
   ">115": 1
  },
  "tempo_status": {
   "verifier_could_not_confirm": 22,
-  "missing": 23,
+  "missing": 22,
   "feel_unresolved": 6,
   "tempo_sweep": 24,
   "corrected_by_verifier": 12,
-  "verified": 12,
+  "verified": 13,
   "conflict": 1
  },
  "runtime_status": {
@@ -177,7 +177,7 @@
   "first_hook": 0,
   "beat_switch_time": 0
  },
- "with_sourced_delivery": 55,
+ "with_sourced_delivery": 54,
  "with_sourced_returns": 27,
  "lead_artists": [
   [
@@ -245,7 +245,7 @@
  "boundary_next": [
   "2021-09-18 #10 Love All \u2014 Drake Featuring JAY-Z",
   "2021-09-11 #6 Hurricane \u2014 Kanye West",
-  "2021-09-11 #10 Jail \u2014 Kanye West",
+  "2021-09-11 #10 Jail \u2014 Kanye West (\u2020-grade evidence: no direct rap-chart listing)",
   "2021-08-28 #4 Rumors \u2014 Lizzo Featuring Cardi B",
   "2021-08-07 #2 Industry Baby \u2014 Lil Nas X & Jack Harlow"
  ],

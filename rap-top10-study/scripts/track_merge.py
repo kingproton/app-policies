@@ -67,7 +67,9 @@ for cid, rs in c['research'].items():
         listed += [dict(x, _by='verifier') for x in (v.get('tempo_values_found') or [])]
         ts = v.get('tempo_status')
         if ts == 'corrected' and v.get('grid_bpm'): g, f = v.get('grid_bpm'), v.get('felt_bpm'); t_status = 'corrected_by_verifier'
-        elif ts == 'confirmed': t_status = 'verified'
+        elif ts == 'confirmed':
+            t_status = 'verified'
+            if not g and v.get('grid_bpm'): g, f = v.get('grid_bpm'), v.get('felt_bpm')   # verifier confirmed a listing research lacked
         elif ts == 'conflict': t_status = 'conflict'
         elif ts == 'unverifiable': t_status = 'verifier_could_not_confirm'
     rec.update(grid_bpm=g, felt_bpm=f, feel_basis=r.get('feel_basis'), tempo_status=t_status, tempo_listed=listed, key=r.get('key'))
@@ -113,6 +115,12 @@ for cid, rs in c['research'].items():
                 if act == 'unknown': rec[vf], rec[bf] = 'unknown', 'unknown'
                 else: rec[bf] = 'unconfirmed'
                 applied.append(f'{fld}->{act}')
+    if icid in C.DELIVERY_UNCONFIRMED:
+        for d in rec['delivery']:
+            if d.get('basis') == 'source': d['basis'] = 'unconfirmed'
+        applied.append('delivery->unconfirmed')
+    for d in rec['delivery']:
+        if (icid, d.get('aspect')) in C.DELIVERY_RECODE: d['aspect_original'] = d['aspect']; d['aspect'] = C.DELIVERY_RECODE[(icid, d['aspect'])]
     if icid in C.RETURNS_UNCONFIRMED:
         for d in rec['returns']:
             if d.get('basis') == 'source': d['basis'] = 'unconfirmed'

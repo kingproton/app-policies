@@ -159,7 +159,7 @@ S['drake_any_credit'] = sum(1 for r in rows if 'Drake' in r['artists'])
 S['album_bomb_songs'] = sum(1 for r in rows if r['album_bomb']); S['debuts'] = sum(1 for r in rows if r['debut_in_top10'])
 S['weeks_in_top10'] = q([r['weeks_in_top10'] for r in rows])
 S['one_week_top10'] = sum(1 for r in rows if r['weeks_in_top10'] == 1)
-S['boundary_next'] = [f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" for o in boundary_next]
+S['boundary_next'] = [f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" + (' (†-grade evidence: no direct rap-chart listing)' if status[o['cid']]['status'] != 'rap' else '') for o in boundary_next]
 S['open_close_calls_before_cut'] = [f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" for o in open_close]
 S['cut'] = f"{final[-1]['first_top10']} #{final[-1]['rank']} {final[-1]['title']}"
 S['span'] = f"{final[-1]['first_top10']} to {final[0]['first_top10']}"

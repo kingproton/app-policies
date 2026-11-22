@@ -1,8 +1,8 @@
 # 5 — Handoff: measure the listening-dependent fields (Codex, local agent, or you)
 
 **Status of this study:** Claude could not listen to any recording. The cloud environment had no audio access, and its network policy blocked the lyric-timing and audio-preview hosts. As a result:
-- fields 1, 2, 3 and 5 below are **unknown for all 100 tracks**;
-- tempo has a published listing for 85 tracks, and 70 have a resolved grid/felt reading, but **every felt value is a genre-convention inference** (no source describes the feel);
+- fields 1 and 5, the hook timestamp in field 2 and the section times in field 3 are **unknown for all 100 tracks** (hook order in field 2 is sourced for only 7: 3 yes, 4 no);
+- tempo has a published listing for 85 tracks, and 71 have a resolved grid/felt reading, but **every felt value is a genre-convention inference** (no source describes the feel);
 - section-return changes (field 6) are described in text for 27 tracks (6 more were not re-confirmed by the verifier).
 
 This brief lets another system fill them **from the actual recordings** with an auditable method.

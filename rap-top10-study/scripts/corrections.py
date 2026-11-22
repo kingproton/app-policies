@@ -185,6 +185,8 @@ CLASSIFICATION_OVERRIDES = {
              summary="Searched: Hot 100 No. 5, Global 200 No. 1 and Digital Song Sales No. 1 found, but no genre-chart placement. A summary that put it on Hot Rap Songs was about 'Paint The Town Red' and was discarded."),
     99: dict(status='unverified', evidence_type='wikipedia_chart_table', confidence='low', source_url='https://en.wikipedia.org/wiki/Bad_Decisions_(Benny_Blanco,_BTS_and_Snoop_Dogg_song)',
              summary="Searched: Wikipedia's chart table lists only Hot 100 (No. 10) and Pop Airplay (No. 26) for 2022; no genre-chart rows."),
+    134: dict(status='unverified', evidence_type='billboard_article', confidence='low', source_url='',
+              summary="Only a Hot R&B/Hip-Hop Songs placement (No. 3 on the chart dated 2021-09-11) was found; that does not separate rap from R&B."),
     22: dict(status='not_rap', evidence_type='wikipedia_chart_table', confidence='medium', source_url='https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_2025',
              summary=("Inferred: absent from the 2025 year-end Hot Rap Songs list, which ranks Doechii's smaller 'Denial Is a River' at No. 10, while 'Anxiety' was No. 39 on the "
                       "2025 year-end Hot 100. A targeted re-check (4 searches) found no direct Hot R&B Songs or Hot Rap Songs row; chart-history rows on unnamed charts conflict "
@@ -211,3 +213,20 @@ SWEEP_RECODE = {
     38: ('opening_element', 'ad_lib_or_spoken_intro', "Re-check: a Paul Rosenberg voicemail skit opens the song, then the sung 'Without Me' callback (Songfacts, Yahoo, HotNewHipHop via search summaries)."),
     52: ('opening_element', 'chant', "Re-check: the song opens with a crowd chant by Inter Milan's Curva Nord ultras, recorded in the studio for the track (not a sample) and repeated throughout."),
 }
+
+# ---- 8. Final-review corrections -------------------------------------------------------------
+# Delivery notes describing the same intro the verifier tied to a different version.
+DELIVERY_UNCONFIRMED = {20}                      # Evil J0rdan
+# Delivery items recoded: (cid, aspect) -> aspect
+DELIVERY_RECODE = {(84, 'flow_switch'): 'other'}  # Rich Flex: the "flow switch" note describes the beat switch
+# Return-change records: True = the change sits in a section or element that comes back
+# (a verse slot, a returning chorus, a returning sample); False = a one-way switch or an
+# intro/outro hand-off; None = a spoken insert between sections.
+RETURNING = {9: False, 11: False, 28: False, 30: False, 40: False, 60: False, 68: False, 83: False, 84: False, 101: False,
+             36: True, 41: True, 75: True, 126: True,
+             35: True, 45: True, 47: True, 55: True, 69: True, 76: True, 118: True, 124: True,
+             21: True, 32: True, 34: True, 53: None, 56: None}
+# Exclusions above the cut that rest on inference rather than a direct non-rap listing.
+GENRE_INFERENCE_EXCLUSIONS = {1: 'Babydoll', 3: 'Nicole Kidman'}
+YEAREND_ABSENCE_EXCLUSIONS = {71: 'Seven', 80: "Boy's A Liar, Pt. 2", 104: 'I Like You (A Happier Song)',
+                              120: 'One Right Now', 121: 'Need To Know', 123: 'Thats What I Want'}

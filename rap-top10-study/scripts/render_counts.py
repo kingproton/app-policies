@@ -21,8 +21,9 @@ rows = [
     ('  median felt, half-time', lambda d: f"{d['half_time_felt'].get('median','?')}"),
     ('Full-time feel [inferred]', lambda d: d['feel_full_time']),
     ('  of which 95–115 bounce/pop-rap', lambda d: d['felt_full_95_115']),
-    ('Documented borrowing (sample, interpolation, clip, reuse)', lambda d: d['borrow_documented']),
+    ('Sourced borrowing (sample, interpolation, clip, reuse)', lambda d: d['borrow_documented']),
     ('  with a credit', lambda d: d['borrow_credited']),
+    ('  incl. credits the verifier could not re-find (U)', lambda d: d['borrow_documented_u']),
     ('Second credited vocalist (Billboard credit)', lambda d: d['second_vocalist_credit']),
     ('Hook present — sourced / unverified', lambda d: f"{d['hook_present_verified']} / {d['hook_present_unverified']}"),
     ('No conventional hook (unverified)', lambda d: str(d['hook_absent'])),
@@ -33,7 +34,8 @@ rows = [
     ('  recollection yes / no', lambda d: f"{d['hook_first_yes_rec']} / {d['hook_first_no_rec']}"),
     ('Beat switch — sourced / U / recollection', lambda d: f"{d['switch_yes_src']} / {d['switch_yes_unc']} / {d['switch_yes_rec']}"),
     ('Beat switch unknown', lambda d: str(d['switch_unknown'])),
-    ('Sourced return change — beat or bed / new voice', lambda d: f"{d['return_beat']} / {d['return_voice']}"),
+    ('Sourced change between sections — beat or bed / new voice', lambda d: f"{d['return_beat']} / {d['return_voice']}"),
+    ('  in a section that comes back — new voice / bed', lambda d: f"{d['returning_voice']} / {d['returning_beat']}"),
 ]
 out = ['| Measure | ' + ' | '.join(l for _, l in G) + ' |', '|---|' + '---|' * len(G)]
 for name, fn in rows:

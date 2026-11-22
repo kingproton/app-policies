@@ -1469,8 +1469,8 @@
   "title": "Jail",
   "artist": "Kanye West",
   "prior": "rap",
-  "status": "rap",
-  "basis": "billboard_article: Billboard's article on 'Hurricane' topping the R&B/Hip-Hop chart for Sept. 11, 2021 lists 'Jail' at No. 3 on Hot R&B/Hip",
+  "status": "unverified",
+  "basis": "billboard_article: Only a Hot R&B/Hip-Hop Songs placement (No. 3 on the chart dated 2021-09-11) was found; that does not separate rap from R&B. [targeted re-check]",
   "n_ev": 2
  },
  {

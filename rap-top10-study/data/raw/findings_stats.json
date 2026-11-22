@@ -13,15 +13,15 @@
   "runtime_le_3min": "25/98",
   "runtime_ge_4min": "31/98",
   "felt": {
-   "n": 70,
+   "n": 71,
    "median": 74.0,
-   "q1": 69.75,
-   "q3": 85.25,
+   "q1": 70.0,
+   "q3": 86.0,
    "min": 56.0,
    "max": 133.0
   },
-  "feel_half_time": "51/70",
-  "feel_full_time": "19/70",
+  "feel_half_time": "51/71",
+  "feel_full_time": "20/71",
   "half_time_felt": {
    "n": 51,
    "median": 71.5,
@@ -31,18 +31,19 @@
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 19,
-   "median": 100.0,
-   "q1": 86.0,
+   "n": 20,
+   "median": 100.5,
+   "q1": 86.25,
    "q3": 105.0,
    "min": 80.0,
    "max": 133.0
   },
   "half_in_band_110_129": 8,
-  "felt_full_95_115": "10/70",
+  "felt_full_95_115": "11/71",
   "tempo_listed_any": 85,
-  "borrow_documented": "57/100",
-  "borrow_credited": "55/100",
+  "borrow_documented": "54/100",
+  "borrow_credited": "52/100",
+  "borrow_documented_u": "57/100",
   "borrow_not_reconfirmed_only": 3,
   "second_vocalist_credit": "44/100",
   "guest_documented_any": "43/100",
@@ -72,6 +73,12 @@
   "return_register": 2,
   "return_delivery": 2,
   "return_none": 1,
+  "return_oneway": 10,
+  "returning_total": 15,
+  "returning_voice": 8,
+  "returning_beat": 4,
+  "returning_register": 2,
+  "returning_none": 1,
   "style": {
    "melodic_trap": 8,
    "trap": 42,
@@ -129,8 +136,9 @@
   "half_in_band_110_129": 1,
   "felt_full_95_115": "3/9",
   "tempo_listed_any": 10,
-  "borrow_documented": "9/12",
-  "borrow_credited": "9/12",
+  "borrow_documented": "8/12",
+  "borrow_credited": "8/12",
+  "borrow_documented_u": "9/12",
   "borrow_not_reconfirmed_only": 1,
   "second_vocalist_credit": "1/12",
   "guest_documented_any": "1/12",
@@ -160,6 +168,12 @@
   "return_register": 0,
   "return_delivery": 1,
   "return_none": 1,
+  "return_oneway": 1,
+  "returning_total": 3,
+  "returning_voice": 0,
+  "returning_beat": 2,
+  "returning_register": 0,
+  "returning_none": 1,
   "style": {
    "other": 2,
    "boom_bap_or_verse_led": 1,
@@ -184,15 +198,15 @@
   "runtime_le_3min": "21/87",
   "runtime_ge_4min": "28/87",
   "felt": {
-   "n": 61,
+   "n": 62,
    "median": 74.0,
-   "q1": 69.5,
-   "q3": 84.5,
+   "q1": 69.75,
+   "q3": 85.25,
    "min": 56.0,
    "max": 133.0
   },
-  "feel_half_time": "46/61",
-  "feel_full_time": "15/61",
+  "feel_half_time": "46/62",
+  "feel_full_time": "16/62",
   "half_time_felt": {
    "n": 46,
    "median": 71.75,
@@ -202,18 +216,19 @@
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 15,
-   "median": 100.0,
-   "q1": 86.0,
-   "q3": 105.0,
+   "n": 16,
+   "median": 100.5,
+   "q1": 86.25,
+   "q3": 104.75,
    "min": 80.0,
    "max": 133.0
   },
   "half_in_band_110_129": 7,
-  "felt_full_95_115": "7/61",
+  "felt_full_95_115": "8/62",
   "tempo_listed_any": 75,
-  "borrow_documented": "48/88",
-  "borrow_credited": "46/88",
+  "borrow_documented": "46/88",
+  "borrow_credited": "44/88",
+  "borrow_documented_u": "48/88",
   "borrow_not_reconfirmed_only": 2,
   "second_vocalist_credit": "43/88",
   "guest_documented_any": "42/88",
@@ -243,6 +258,12 @@
   "return_register": 2,
   "return_delivery": 1,
   "return_none": 0,
+  "return_oneway": 9,
+  "returning_total": 12,
+  "returning_voice": 8,
+  "returning_beat": 2,
+  "returning_register": 2,
+  "returning_none": 0,
   "style": {
    "melodic_trap": 7,
    "trap": 40,
@@ -271,15 +292,15 @@
   "runtime_le_3min": "13/55",
   "runtime_ge_4min": "21/55",
   "felt": {
-   "n": 43,
-   "median": 72.0,
-   "q1": 68.0,
-   "q3": 83.0,
+   "n": 44,
+   "median": 72.25,
+   "q1": 68.125,
+   "q3": 83.75,
    "min": 60.0,
    "max": 111.0
   },
-  "feel_half_time": "33/43",
-  "feel_full_time": "10/43",
+  "feel_half_time": "33/44",
+  "feel_full_time": "11/44",
   "half_time_felt": {
    "n": 33,
    "median": 70.0,
@@ -289,18 +310,19 @@
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 10,
-   "median": 91.5,
-   "q1": 85.0,
-   "q3": 102.5,
+   "n": 11,
+   "median": 92.0,
+   "q1": 86.0,
+   "q3": 104.0,
    "min": 80.0,
    "max": 111.0
   },
   "half_in_band_110_129": 6,
-  "felt_full_95_115": "4/43",
+  "felt_full_95_115": "5/44",
   "tempo_listed_any": 51,
-  "borrow_documented": "32/55",
-  "borrow_credited": "31/55",
+  "borrow_documented": "30/55",
+  "borrow_credited": "29/55",
+  "borrow_documented_u": "32/55",
   "borrow_not_reconfirmed_only": 2,
   "second_vocalist_credit": "27/55",
   "guest_documented_any": "26/55",
@@ -330,6 +352,12 @@
   "return_register": 1,
   "return_delivery": 0,
   "return_none": 0,
+  "return_oneway": 7,
+  "returning_total": 5,
+  "returning_voice": 3,
+  "returning_beat": 1,
+  "returning_register": 1,
+  "returning_none": 0,
   "style": {
    "melodic_trap": 6,
    "trap": 25,
@@ -383,8 +411,9 @@
   "half_in_band_110_129": 2,
   "felt_full_95_115": "6/27",
   "tempo_listed_any": 34,
-  "borrow_documented": "25/45",
-  "borrow_credited": "24/45",
+  "borrow_documented": "24/45",
+  "borrow_credited": "23/45",
+  "borrow_documented_u": "25/45",
   "borrow_not_reconfirmed_only": 1,
   "second_vocalist_credit": "17/45",
   "guest_documented_any": "17/45",
@@ -414,6 +443,12 @@
   "return_register": 1,
   "return_delivery": 2,
   "return_none": 1,
+  "return_oneway": 3,
+  "returning_total": 10,
+  "returning_voice": 5,
+  "returning_beat": 3,
+  "returning_register": 1,
+  "returning_none": 1,
   "style": {
    "trap": 17,
    "other": 5,
@@ -442,15 +477,15 @@
   "runtime_le_3min": "7/41",
   "runtime_ge_4min": "20/41",
   "felt": {
-   "n": 28,
-   "median": 71.25,
-   "q1": 65.75,
-   "q3": 80.75,
+   "n": 29,
+   "median": 71.5,
+   "q1": 66.0,
+   "q3": 81.5,
    "min": 56.0,
    "max": 111.0
   },
-  "feel_half_time": "25/28",
-  "feel_full_time": "3/28",
+  "feel_half_time": "25/29",
+  "feel_full_time": "4/29",
   "half_time_felt": {
    "n": 25,
    "median": 70.0,
@@ -460,18 +495,19 @@
    "max": 87.0
   },
   "full_time_felt": {
-   "n": 3,
-   "median": 87.0,
-   "q1": 80.0,
-   "q3": 111.0,
+   "n": 4,
+   "median": 95.5,
+   "q1": 81.75,
+   "q3": 109.25,
    "min": 80.0,
    "max": 111.0
   },
   "half_in_band_110_129": 5,
-  "felt_full_95_115": "1/28",
+  "felt_full_95_115": "2/29",
   "tempo_listed_any": 37,
-  "borrow_documented": "28/41",
-  "borrow_credited": "27/41",
+  "borrow_documented": "27/41",
+  "borrow_credited": "26/41",
+  "borrow_documented_u": "28/41",
   "borrow_not_reconfirmed_only": 1,
   "second_vocalist_credit": "20/41",
   "guest_documented_any": "17/41",
@@ -501,6 +537,12 @@
   "return_register": 0,
   "return_delivery": 0,
   "return_none": 0,
+  "return_oneway": 6,
+  "returning_total": 3,
+  "returning_voice": 1,
+  "returning_beat": 2,
+  "returning_register": 0,
+  "returning_none": 0,
   "style": {
    "melodic_trap": 5,
    "trap": 17,
@@ -555,8 +597,9 @@
   "half_in_band_110_129": 3,
   "felt_full_95_115": "9/42",
   "tempo_listed_any": 48,
-  "borrow_documented": "29/59",
-  "borrow_credited": "28/59",
+  "borrow_documented": "27/59",
+  "borrow_credited": "26/59",
+  "borrow_documented_u": "29/59",
   "borrow_not_reconfirmed_only": 2,
   "second_vocalist_credit": "24/59",
   "guest_documented_any": "26/59",
@@ -586,6 +629,12 @@
   "return_register": 2,
   "return_delivery": 2,
   "return_none": 1,
+  "return_oneway": 4,
+  "returning_total": 12,
+  "returning_voice": 7,
+  "returning_beat": 2,
+  "returning_register": 2,
+  "returning_none": 1,
   "style": {
    "other": 4,
    "country_rap": 1,
@@ -811,6 +860,7 @@
   "Lovin On Me 105/105 [pop_rap]",
   "Paint The Town Red 100/100 [pop_rap]",
   "Players 105/105 [pop_rap]",
+  "Circo Loco 104/104 [trap]",
   "Super Freaky Girl 133/133 [pop_rap]",
   "United In Grief 86/86 [boom_bap_or_verse_led]",
   "First Class 107/107 [pop_rap]",
@@ -842,7 +892,6 @@
   "Search & Rescue (low-confidence listing; listed 181)",
   "Just Wanna Rock (half/full feel unresolved; listed 75)",
   "Spin Bout U (conflicting listings; listed 108, 130)",
-  "Circo Loco (single unconfirmed listing; listed 104)",
   "Forever (conflicting listings; listed 90, 107)",
   "Jimmy Cooks (conflicting listings; listed 146, 162)"
  ],
@@ -867,10 +916,10 @@
   "verifier_could_not_confirm": 22,
   "tempo_sweep": 24,
   "corrected_by_verifier": 12,
-  "verified": 12
+  "verified": 13
  },
  "feel_basis": {
-  "genre_convention_inference": 71
+  "genre_convention_inference": 72
  },
  "outliers_removed": {
   "Young Metro": [
@@ -931,7 +980,7 @@
   },
   "trap": {
    "n_tagged": 50,
-   "n_tempo": 34,
+   "n_tempo": 35,
    "half": 34,
    "felt": [
     56.0,
@@ -967,9 +1016,11 @@
     83.5,
     84.0,
     86.0,
-    87.0
+    87.0,
+    104.0
    ],
    "grid": [
+    104,
     112,
     121,
     122,
@@ -1070,12 +1121,11 @@
  },
  "borrow_types": {
   "sample": [
-   59,
-   46,
+   54,
+   44,
    [
     "2 Hard 4 The Radio",
     "4X4",
-    "Agora Hills",
     "Barbie World",
     "California Breeze",
     "Calling For You",
@@ -1089,7 +1139,6 @@
     "Gimme A Hug",
     "IDGAF",
     "Jimmy Cooks",
-    "Like That",
     "Lovin On Me",
     "Luther",
     "Major Distribution",
@@ -1119,7 +1168,8 @@
     "Virginia Beach",
     "Wait For U",
     "Way 2 Sexy"
-   ]
+   ],
+   54
   ],
   "interpolation": [
    11,
@@ -1136,29 +1186,39 @@
     "Staying Alive",
     "TV Off",
     "Way 2 Sexy"
-   ]
+   ],
+   10
   ],
   "audio clip": [
-   3,
-   3,
+   2,
+   2,
    [
     "Daylight",
-    "Redrum",
     "Search & Rescue"
-   ]
+   ],
+   2
   ],
   "self-reuse": [
    1,
    1,
    [
     "Family Matters"
-   ]
+   ],
+   0
   ]
  },
  "borrow_not_reconfirmed_only": [
   "Like That",
   "Agora Hills",
   "Sticky"
+ ],
+ "borrow_unconfirmed_credits": [
+  "Like That: \"Everlasting Bass\" by Rodney-O & Joe Cooley (1986)",
+  "Like That: \"Eazy-Duz-It\" by Eazy-E (1989)",
+  "Redrum: The Shining (1980 film) - 'Here's Johnny!' scene",
+  "Agora Hills: Troop - 'All I Do Is Think of You' (1989 single; S",
+  "Calling For You: \"Shake It to the Ground\" by Blaqstarr and Rye Rye",
+  "Sticky: A track by RY X originally written for his 2022 al"
  ],
  "borrow_rejected": [
   "Evil J0rdan: 'Popular' (The Weeknd, Playboi Carti & Madonna, 2023)",
@@ -1167,13 +1227,20 @@
  "borrow_added_by_verifier": [
   "Nokia",
   "Nee-nah",
+  "Major Distribution",
+  "Privileged Rappers",
   "TSU"
+ ],
+ "borrow_added_only_credit": [
+  "Nokia",
+  "Major Distribution",
+  "Privileged Rappers"
  ],
  "borrow_uncredited_only": [
   "Man At The Garden",
   "Family Matters"
  ],
- "borrow_none_documented": 43,
+ "borrow_none_documented": 46,
  "return_types": {
   "beat": [
    "National Treasures",
@@ -1230,9 +1297,51 @@
   "Agora Hills": "delivery",
   "Favorite Song": "beat"
  },
+ "returning_lists": {
+  "voice": [
+   "St. Chroma",
+   "Like That",
+   "Cinderella",
+   "Nee-nah",
+   "FE!N",
+   "Princess Diana",
+   "Pushin P",
+   "Way 2 Sexy"
+  ],
+  "beat": [
+   "Noid",
+   "Family Matters",
+   "Favorite Song",
+   "Fair Trade"
+  ],
+  "register": [
+   "Rather Lie",
+   "Reincarnated"
+  ],
+  "none": [
+   "Sticky"
+  ]
+ },
+ "oneway_list": [
+  "National Treasures",
+  "Dust",
+  "TV Off",
+  "Wacced Out Murals",
+  "Euphoria",
+  "IDGAF",
+  "Meltdown",
+  "Superhero (Heroes & Villains)",
+  "Rich Flex",
+  "Jimmy Cooks"
+ ],
+ "trap_return_split": {
+  "voice": 6,
+  "beat": 5
+ },
+ "trap_return_tracks": 12,
  "delivery_aspects": {
   "other": [
-   47,
+   48,
    [
     "7 Minute Drill",
     "Agora Hills",
@@ -1263,6 +1372,7 @@
     "Ran To Atlanta",
     "Redrum",
     "Reincarnated",
+    "Rich Flex",
     "Shabang",
     "Spin Bout U",
     "St. Chroma",
@@ -1323,20 +1433,6 @@
     "Sticky"
    ]
   ],
-  "silence_or_space": [
-   2,
-   [
-    "Evil J0rdan",
-    "Young Metro"
-   ]
-  ],
-  "flow_switch": [
-   2,
-   [
-    "Rather Lie",
-    "Rich Flex"
-   ]
-  ],
   "phrase_placement": [
    2,
    [
@@ -1344,14 +1440,26 @@
     "Spin Bout U"
    ]
   ],
+  "flow_switch": [
+   1,
+   [
+    "Rather Lie"
+   ]
+  ],
   "density_or_speed": [
    1,
    [
     "Squabble Up"
    ]
+  ],
+  "silence_or_space": [
+   1,
+   [
+    "Young Metro"
+   ]
   ]
  },
- "tracks_with_sourced_delivery": 55,
+ "tracks_with_sourced_delivery": 54,
  "timestamps": {
   "first_vocal": 0,
   "first_hook": 0,
@@ -1506,9 +1614,7 @@
    "title": "Agora Hills",
    "runtime": "4:25",
    "felt": 61.5,
-   "borrow": [
-    "Troop - 'All I Do Is Think of You' (1989"
-   ],
+   "borrow": [],
    "hook": "present_unverified",
    "hook_first": [
     "unknown",
