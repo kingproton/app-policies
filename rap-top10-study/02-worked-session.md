@@ -40,7 +40,14 @@ Leave 1–4 kHz open in the melody so the voice has its own lane.
 | Hook 3 — full stack, ad-lib answers | 87–102 | 16 | 44–51 | 8 | 2:23.3 | 2:50.0 |
 | Outro — beat rides out | 103–106 | 4 | 52–53 | 2 | 2:50.0 | 2:56.7 |
 
-Total length is **2:56.7**. That is roughly the study's median runtime; see the findings for the measured distribution and how album-bomb cuts and singles differ.
+Total length is **2:56.7**. That deliberately sits at the short end of the measured range. It is about the 25th percentile of the assessed runtimes; the median is about 3:40, pulled up by superstar album-bomb cuts. Songs that were not album-bomb cuts and songs that climbed into the top 10 both sit nearer 3:27–3:29 (see the findings, M-2). **[J]** A tight demo is easier to judge and easier to finish in one session.
+
+**Long version (3:23.3):** insert a 16-grid-bar Verse 2b (8 felt bars) after grid bar 84, then move the drop, Hook 3 and the outro back 16 grid bars:
+- drop: grid 101–102 (2:46.7–2:50.0);
+- Hook 3: grid 103–118 (2:50.0–3:16.7);
+- outro: grid 119–122 (3:16.7–3:23.3).
+
+Every event before grid bar 85 is unchanged.
 
 ## Event map: first vocal, hook, pocket change, breaths, punches, silence
 
