@@ -17,7 +17,7 @@
   "runtime_s": 237,
   "runtime_status": "verified",
   "grid_bpm": 126,
-  "felt_bpm": 63,
+  "felt_bpm": 63.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -50,7 +50,9 @@
    {
     "work": "Lykke Li - 'I Follow Rivers' (2011; written by Lykke Li, Bj\u00f6rn Yttling, Rick Nowels)",
     "how_used": "Credited interpolation. The chorus melody of 'I Follow Rivers' is slowed down and given new lyrics by Drake. MuseScore says the new chorus runs on the progression F-Dm-Am-C.",
-    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album) ; https://musescore.com/news/?p=2722"
+    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album) ; https://musescore.com/news/?p=2722",
+    "borrow_type": "self-reuse",
+    "credited": true
    }
   ],
   "features": [],
@@ -187,7 +189,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -258,7 +260,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "research_only",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -324,8 +326,8 @@
   "runtime_mmss": "3:12",
   "runtime_s": 192,
   "runtime_status": "verified",
-  "grid_bpm": 167.1,
-  "felt_bpm": 83.55,
+  "grid_bpm": 167,
+  "felt_bpm": 83.5,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -469,7 +471,7 @@
   "runtime_s": 247,
   "runtime_status": "verified",
   "grid_bpm": 140,
-  "felt_bpm": 70,
+  "felt_bpm": 70.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -591,7 +593,7 @@
   "runtime_s": 173,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 107,
-  "felt_bpm": 107,
+  "felt_bpm": 107.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -638,7 +640,9 @@
    {
     "work": "\"Glamorous\" by Fergie feat. Ludacris (2006, prod. Polow da Don)",
     "how_used": "The chorus is sampled heavily over a soft piano bed. Co-producer Rog\u00e9t Chahayed says co-producer Angel L\u00f3pez (BabeTruth) chopped the sample and moved it to a different key.",
-    "source": "https://www.yahoo.com/entertainment/hitmaker-month-producer-rog-t-181844155.html"
+    "source": "https://www.yahoo.com/entertainment/hitmaker-month-producer-rog-t-181844155.html",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -748,7 +752,7 @@
   "runtime_s": 173,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 106,
-  "felt_bpm": 106,
+  "felt_bpm": 106.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -818,7 +822,9 @@
    {
     "work": "\"Genius of Love\" by Tom Tom Club (1981)",
     "how_used": "Heavily interpolated: the track borrows its groove (Songfacts). Adrian Belew, Chris Frantz, Steven Stanley and Tina Weymouth receive songwriting credit.",
-    "source": "https://en.wikipedia.org/wiki/Big_Energy"
+    "source": "https://en.wikipedia.org/wiki/Big_Energy",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [],
@@ -907,7 +913,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -1157,7 +1163,7 @@
   "runtime_s": 201,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 146,
-  "felt_bpm": 73,
+  "felt_bpm": 73.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -1197,7 +1203,9 @@
    {
     "work": "\"Errror (We Could Be Superstars)\" by How to Loot Brazil (2019)",
     "how_used": "Sampled for the beat. The sources do not say which element; Stereogum describes the beat as music-box pianos and slow blooms of bass.",
-    "source": "https://en.wikipedia.org/wiki/Super_Gremlin"
+    "source": "https://en.wikipedia.org/wiki/Super_Gremlin",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -1309,7 +1317,7 @@
   "runtime_s": 195,
   "runtime_status": "verified",
   "grid_bpm": 140,
-  "felt_bpm": 70,
+  "felt_bpm": 70.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -1405,7 +1413,7 @@
   "runtime_s": 220,
   "runtime_status": "verified",
   "grid_bpm": 140,
-  "felt_bpm": 70,
+  "felt_bpm": 70.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -1505,7 +1513,7 @@
   "runtime_s": 255,
   "runtime_status": "verified",
   "grid_bpm": 86,
-  "felt_bpm": 86,
+  "felt_bpm": 86.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -1652,7 +1660,7 @@
   "runtime_s": 190,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 166,
-  "felt_bpm": 83,
+  "felt_bpm": 83.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -1706,7 +1714,9 @@
    {
     "work": "\"Higher\" by Tems (from the EP For Broken Ears, 2020)",
     "how_used": "Vocal sample. It is why Tems is credited as featured artist and, as Tejiri Akpoghene, as songwriter. Which segment is used, whether it comes from the studio or a live recording, and how it is processed are all unverified.",
-    "source": "https://en.wikipedia.org/wiki/Wait_for_U"
+    "source": "https://en.wikipedia.org/wiki/Wait_for_U",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -2040,7 +2050,7 @@
   "runtime_s": 272,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 144,
-  "felt_bpm": 72,
+  "felt_bpm": 72.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -2137,7 +2147,7 @@
   "runtime_s": 247,
   "runtime_status": "verified",
   "grid_bpm": 122,
-  "felt_bpm": 61,
+  "felt_bpm": 61.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "conflict",
   "tempo_listed": [
@@ -2183,7 +2193,9 @@
    {
     "work": "\"Look Me In The Eyes\" by Joe Washington and Wash (1975)",
     "how_used": "Soul sample. Songfacts says the sampled portion comes from 1:05 of the original record (a timestamp in the source song, not in this track) and plays in the background throughout.",
-    "source": "https://www.songfacts.com/facts/drake/first-person-shooter"
+    "source": "https://www.songfacts.com/facts/drake/first-person-shooter",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -2318,7 +2330,9 @@
    {
     "work": "\"The Tunnel\" by Azimuth (1977)",
     "how_used": "Vocal sample heard at the very start; Norma Winstone and John Taylor get writing credits through it.",
-    "source": "https://www.songfacts.com/facts/drake/idgaf"
+    "source": "https://www.songfacts.com/facts/drake/idgaf",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -2434,7 +2448,7 @@
   "runtime_s": 251,
   "runtime_status": "verified",
   "grid_bpm": 120,
-  "felt_bpm": 60,
+  "felt_bpm": 60.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -2475,7 +2489,9 @@
    {
     "work": "\"Wiseman\" by Frank Ocean (unreleased loosie dating to 2012)",
     "how_used": "Prominent vocal sample (Wikipedia); Ocean gets a writing credit. Low-reliability pages say it opens and closes the track.",
-    "source": "https://en.wikipedia.org/wiki/Virginia_Beach_(song)"
+    "source": "https://en.wikipedia.org/wiki/Virginia_Beach_(song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -2582,17 +2598,23 @@
    {
     "work": "\"Calling 4 You (Freestyle)\" by Fridayy (2023)",
     "how_used": "Credited vocal sample",
-    "source": "https://en.wikipedia.org/wiki/Calling_for_You"
+    "source": "https://en.wikipedia.org/wiki/Calling_for_You",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "\"Livin Without You\" by Nohelani Cypriano",
     "how_used": "Listed sample; where it is used is not described",
-    "source": "https://cavac.at/cavacopedia/Calling%20for%20You"
+    "source": "https://cavac.at/cavacopedia/Calling%20for%20You",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "\"Shake It to the Ground\" by Blaqstarr and Rye Rye",
     "how_used": "Listed as an uncredited sample; Rye Rye publicly accused Drake of using her vocals. Where it is used is not described.",
-    "source": "https://blavity.com/rye-rye-accuses-drake-of-stealing-vocals"
+    "source": "https://blavity.com/rye-rye-accuses-drake-of-stealing-vocals",
+    "borrow_type": "sample",
+    "credited": false
    }
   ],
   "features": [
@@ -2715,7 +2737,9 @@
    {
     "work": "Scarface (1983 film), Tony Montana dialogue",
     "how_used": "Spoken-dialogue sample that opens the song",
-    "source": "https://www.Wikipedia.org/wiki/Daylight_(Drake_song)"
+    "source": "https://www.Wikipedia.org/wiki/Daylight_(Drake_song)",
+    "borrow_type": "audio clip",
+    "credited": true
    }
   ],
   "features": [
@@ -2794,7 +2818,7 @@
   "runtime_s": 155,
   "runtime_status": "verified",
   "grid_bpm": 154,
-  "felt_bpm": 77,
+  "felt_bpm": 77.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -2885,7 +2909,7 @@
   "runtime_s": 270,
   "runtime_status": "verified",
   "grid_bpm": 172,
-  "felt_bpm": 86,
+  "felt_bpm": 86.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -2926,12 +2950,16 @@
    {
     "work": "Elza Laranjeira - 'Serenata do Adeus'",
     "how_used": "Listed in Complex's sample rundown, and a review says the song 'leans on' it. Placement and treatment (chop, pitch, loop) are not described.",
-    "source": "https://www.complex.com/music/a/jaelaniturnerwilliams/all-the-samples-on-21-savage-american-dream"
+    "source": "https://www.complex.com/music/a/jaelaniturnerwilliams/all-the-samples-on-21-savage-american-dream",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "The Shining (1980 film) - 'Here's Johnny!' scene",
     "how_used": "Listed by Complex as a sampled film clip; the title is the film's reversed 'murder'. Placement is not described.",
-    "source": "https://www.complex.com/music/a/jaelaniturnerwilliams/all-the-samples-on-21-savage-american-dream"
+    "source": "https://www.complex.com/music/a/jaelaniturnerwilliams/all-the-samples-on-21-savage-american-dream",
+    "borrow_type": "audio clip",
+    "credited": true
    }
   ],
   "features": [],
@@ -3032,7 +3060,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "rap_verse",
@@ -3055,7 +3083,9 @@
    {
     "work": "Malcolm McLaren - 'About Her' (2004)",
     "how_used": "Last.fm calls it a 'prominent sample' and Complex lists it, but neither says how it is chopped or looped.",
-    "source": "https://www.last.fm/music/21+Savage/_/n%C3%A9e-nah/+wiki"
+    "source": "https://www.last.fm/music/21+Savage/_/n%C3%A9e-nah/+wiki",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -3216,7 +3246,9 @@
    {
     "work": "Troop - 'All I Do Is Think of You' (1989 single; Songfacts dates it 1990), a song first recorded by The Jackson 5 in 1975",
     "how_used": "The instrumental samples the song's introduction, so writers Michael Lovesmith and Brian Holland get credits.",
-    "source": "https://en.wikipedia.org/wiki/Agora_Hills"
+    "source": "https://en.wikipedia.org/wiki/Agora_Hills",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -3356,7 +3388,7 @@
   "runtime_s": 138,
   "runtime_status": "verified",
   "grid_bpm": 105,
-  "felt_bpm": 105,
+  "felt_bpm": 105.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -3395,7 +3427,9 @@
    {
     "work": "Cadillac Dale - 'Whatever (Bass Soliloquy)' (1995; also spelled 'Whatever (Bass Solique)')",
     "how_used": "Its chorus is repurposed as the hook, described as sped-up original vocals plus the bass line. Producer Sean Momberger says he found it on YouTube and first heard it as an R&B song.",
-    "source": "https://en.wikipedia.org/wiki/Lovin_on_Me"
+    "source": "https://en.wikipedia.org/wiki/Lovin_on_Me",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -3487,7 +3521,7 @@
   "runtime_s": 264,
   "runtime_status": "verified",
   "grid_bpm": 148,
-  "felt_bpm": 74,
+  "felt_bpm": 74.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -3526,7 +3560,9 @@
    {
     "work": "Live 1983 US Festival performance of 'Iron Man' (performer name truncated in the retrieved summary)",
     "how_used": "Wikipedia says an earlier version of the song used it. Its presence in the current streaming version is not confirmed.",
-    "source": "https://en.wikipedia.org/wiki/Carnival_(%C2%A5$_song)"
+    "source": "https://en.wikipedia.org/wiki/Carnival_(%C2%A5$_song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -3659,7 +3695,7 @@
   "runtime_s": 268,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 162,
-  "felt_bpm": 81,
+  "felt_bpm": 81.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -3699,12 +3735,16 @@
    {
     "work": "\"Everlasting Bass\" by Rodney-O & Joe Cooley (1986)",
     "how_used": "Wikipedia says the song's bass line contains samples of this record. The clearance was later disputed: Rodney-O sued Metro Boomin, Future and Kendrick Lamar on 2025-05-13 over unpaid royalties and improper clearance, and Complex reports him saying Metro approached him about clearing it.",
-    "source": "https://en.wikipedia.org/wiki/Like_That_(Future,_Metro_Boomin_and_Kendrick_Lamar_song)"
+    "source": "https://en.wikipedia.org/wiki/Like_That_(Future,_Metro_Boomin_and_Kendrick_Lamar_song)",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "\"Eazy-Duz-It\" by Eazy-E (1989)",
     "how_used": "Sampled. Wikipedia's description mentions a vocal sample by singer Michel'le. No source says which element is used or where it appears in the arrangement.",
-    "source": "https://en.wikipedia.org/wiki/Like_That_(Future,_Metro_Boomin_and_Kendrick_Lamar_song)"
+    "source": "https://en.wikipedia.org/wiki/Like_That_(Future,_Metro_Boomin_and_Kendrick_Lamar_song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -3945,7 +3985,7 @@
   "runtime_s": 170,
   "runtime_status": "verified",
   "grid_bpm": 130,
-  "felt_bpm": 65,
+  "felt_bpm": 65.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -4071,7 +4111,7 @@
   "runtime_s": 226,
   "runtime_status": "verified",
   "grid_bpm": 124,
-  "felt_bpm": 62,
+  "felt_bpm": 62.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -4172,7 +4212,7 @@
   "runtime_s": 157,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 104,
-  "felt_bpm": 104,
+  "felt_bpm": 104.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4206,7 +4246,9 @@
    {
     "work": "'When I Hear Music' by Debbie Deb (1984 freestyle record)",
     "how_used": "Credited sample that forms the track's core bed (reviews call the song a 'Debbie Deb flip')",
-    "source": "https://en.wikipedia.org/wiki/Squabble_Up"
+    "source": "https://en.wikipedia.org/wiki/Squabble_Up",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -4306,7 +4348,7 @@
   "runtime_s": 220,
   "runtime_status": "verified",
   "grid_bpm": 100,
-  "felt_bpm": 100,
+  "felt_bpm": 100.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4336,17 +4378,23 @@
    {
     "work": "'MacArthur Park' by Monk Higgins",
     "how_used": "Sampled (role in the beat not specified)",
-    "source": "https://en.wikipedia.org/wiki/TV_Off"
+    "source": "https://en.wikipedia.org/wiki/TV_Off",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "'The Black Hole \u2013 Overture' by John Barry (1979 film score)",
     "how_used": "Horn snippet sampled",
-    "source": "https://en.wikipedia.org/wiki/TV_Off"
+    "source": "https://en.wikipedia.org/wiki/TV_Off",
+    "borrow_type": "audio clip",
+    "credited": true
    },
    {
     "work": "'Kick in the Door' by The Notorious B.I.G.",
     "how_used": "Interpolated, per the Wikipedia album page; placement not stated",
-    "source": "https://en.wikipedia.org/wiki/GNX_(album)"
+    "source": "https://en.wikipedia.org/wiki/GNX_(album)",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [
@@ -4500,7 +4548,7 @@
   "runtime_s": 177,
   "runtime_status": "verified",
   "grid_bpm": 138,
-  "felt_bpm": 69,
+  "felt_bpm": 69.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4534,7 +4582,9 @@
    {
     "work": "'If This World Were Mine' (written by Marvin Gaye), as performed by Luther Vandross & Cheryl Lynn",
     "how_used": "Credited sample; the song title refers to Vandross",
-    "source": "https://en.wikipedia.org/wiki/GNX_(album)"
+    "source": "https://en.wikipedia.org/wiki/GNX_(album)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -4659,7 +4709,7 @@
   "runtime_s": 317,
   "runtime_status": "verified",
   "grid_bpm": 82,
-  "felt_bpm": 82,
+  "felt_bpm": 82.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4764,7 +4814,7 @@
   "runtime_s": 217,
   "runtime_status": "verified",
   "grid_bpm": 102,
-  "felt_bpm": 102,
+  "felt_bpm": 102.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4796,7 +4846,9 @@
    {
     "work": "'Scotty' by D4L (2005)",
     "how_used": "Interpolated; placement in the song not stated",
-    "source": "https://en.wikipedia.org/wiki/Hey_Now_(Kendrick_Lamar_song)"
+    "source": "https://en.wikipedia.org/wiki/Hey_Now_(Kendrick_Lamar_song)",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [
@@ -4887,7 +4939,7 @@
   "runtime_s": 275,
   "runtime_status": "verified",
   "grid_bpm": 91,
-  "felt_bpm": 91,
+  "felt_bpm": 91.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -4917,7 +4969,9 @@
    {
     "work": "'Made Niggaz' by 2Pac (Tupac Shakur), 1996",
     "how_used": "The track is built on its instrumental (sample); some reviews call it an interpolation",
-    "source": "https://en.wikipedia.org/wiki/Reincarnated_(song)"
+    "source": "https://en.wikipedia.org/wiki/Reincarnated_(song)",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [
@@ -5023,7 +5077,7 @@
   "runtime_s": 233,
   "runtime_status": "verified",
   "grid_bpm": 92,
-  "felt_bpm": 92,
+  "felt_bpm": 92.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -5056,7 +5110,9 @@
    {
     "work": "'One Mic' by Nas (from Stillmatic)",
     "how_used": "Interpolated without credit (per Wikipedia)",
-    "source": "https://en.wikipedia.org/wiki/Man_at_the_Garden"
+    "source": "https://en.wikipedia.org/wiki/Man_at_the_Garden",
+    "borrow_type": "interpolation",
+    "credited": false
    }
   ],
   "features": [],
@@ -5172,14 +5228,18 @@
   ],
   "samples": [
    {
-    "work": "Unidentified soundtrack excerpt (flipped by FnZ)",
-    "how_used": "FnZ turned a portion of a soundtrack into a 'spooky' sample that runs under the '21, can you do...' hook.",
-    "source": "https://www.aol.com/drake-21-savage-found-perfect-202259165.html"
+    "work": "'Welcome to the Hive'; 'I Want You, Girl' (credited in Wikipedia's sample notes, per verifier)",
+    "how_used": "Credited samples; the earlier 'unidentified soundtrack' attribution was contradicted by the verifier.",
+    "source": "https://en.wikipedia.org/wiki/Rich_Flex",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "A Megan Thee Stallion composition (credited writers Megan Thee Stallion, J. White Did It, Bobby Sessions); possibly 'Savage', which is an unverified inference",
     "how_used": "HotNewHipHop reports a writing credit for Megan Thee Stallion alongside J. White Did It and Bobby Sessions, and the search summary placed it under 'Rich Flex'. Which material is interpolated, and where, is not documented in the sources found.",
-    "source": "https://hotnewhiphop.com/447492-megan-thee-stallion-has-writing-credit-on-drakes-her-loss"
+    "source": "https://hotnewhiphop.com/447492-megan-thee-stallion-has-writing-credit-on-drakes-her-loss",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [],
@@ -5385,7 +5445,7 @@
   "runtime_s": 261,
   "runtime_status": "verified",
   "grid_bpm": 158,
-  "felt_bpm": 79,
+  "felt_bpm": 79.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -5470,7 +5530,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "conflict",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 108,
@@ -5510,7 +5570,9 @@
    {
     "work": "\"Give Me Your Lovin\" by Oobie",
     "how_used": "Described as a prominent sample (Wikipedia). Oobie is among the song's credited co-writers (songmeaningsandfacts). How it is chopped or pitched, and where it recurs, is not documented.",
-    "source": "https://en.wikipedia.org/wiki/Spin_Bout_U"
+    "source": "https://en.wikipedia.org/wiki/Spin_Bout_U",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -5601,7 +5663,7 @@
   "runtime_s": 242,
   "runtime_status": "verified",
   "grid_bpm": 122,
-  "felt_bpm": 61,
+  "felt_bpm": 61.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -5707,7 +5769,7 @@
   "runtime_s": 160,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 144,
-  "felt_bpm": 72,
+  "felt_bpm": 72.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -5797,7 +5859,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verified",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 104,
@@ -5837,7 +5899,9 @@
    {
     "work": "\"One More Time\" by Daft Punk",
     "how_used": "Sampled, per press coverage. How it is chopped, looped or pitched is not documented in the sources found.",
-    "source": "https://wegotthiscovered.com/music/what-song-does-drake-and-21-savages-track-circo-loco-sample-on-her-loss/"
+    "source": "https://wegotthiscovered.com/music/what-song-does-drake-and-21-savages-track-circo-loco-sample-on-her-loss/",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -5894,7 +5958,7 @@
   "runtime_s": 152,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 142,
-  "felt_bpm": 71,
+  "felt_bpm": 71.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -5984,7 +6048,7 @@
   "runtime_s": 246,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 112,
-  "felt_bpm": 56,
+  "felt_bpm": 56.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -6141,7 +6205,7 @@
   "runtime_s": 191,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 148,
-  "felt_bpm": 74,
+  "felt_bpm": 74.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -6288,7 +6352,7 @@
   "runtime_s": 185,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 122,
-  "felt_bpm": 61,
+  "felt_bpm": 61.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -6431,7 +6495,9 @@
    {
     "work": "2016 recording of the Tennessee State University marching band playing an instrumental",
     "how_used": "Credited as a sample on Wikipedia. The search result does not name the piece or say where in the track it is used.",
-    "source": "https://en.wikipedia.org/wiki/4x4_(song)"
+    "source": "https://en.wikipedia.org/wiki/4x4_(song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -6669,7 +6735,7 @@
   "runtime_mmss": "3:20",
   "runtime_s": 200,
   "runtime_status": "verified",
-  "grid_bpm": 96.5,
+  "grid_bpm": 96,
   "felt_bpm": 96.5,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "tempo_sweep",
@@ -6719,7 +6785,9 @@
    {
     "work": "Gregory Hines - 'This Is What I Believe' (written by Luther Vandross and John Anderson)",
     "how_used": "Credited sample. No source says where or how it is used.",
-    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)"
+    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -6817,7 +6885,7 @@
   "runtime_s": 307,
   "runtime_status": "verified",
   "grid_bpm": 80,
-  "felt_bpm": 80,
+  "felt_bpm": 80.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -6853,17 +6921,23 @@
    {
     "work": "Roger Ridley - 'Who Am I'",
     "how_used": "Credited sample; how it is used is not described",
-    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry"
+    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "Muchi - 'The Pressure Is on Me'",
     "how_used": "Credited sample; how it is used is not described",
-    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry"
+    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "Bobby Glenn - 'Sounds Like a Love Song'",
     "how_used": "Credited sample; how it is used is not described",
-    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry"
+    "source": "https://en.wikipedia.org/wiki/Make_Them_Cry",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -6925,7 +6999,7 @@
   "runtime_s": 189,
   "runtime_status": "verified",
   "grid_bpm": 138,
-  "felt_bpm": 69,
+  "felt_bpm": 69.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -7032,7 +7106,7 @@
   "runtime_s": 183,
   "runtime_status": "verified",
   "grid_bpm": 111,
-  "felt_bpm": 111,
+  "felt_bpm": 111.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -7062,12 +7136,16 @@
    {
     "work": "Mac Dre - '2 Hard 4 the Fuckin' Radio'",
     "how_used": "Credited interpolation. The song takes its title from the Mac Dre song; whether the interpolation forms the hook is not described.",
-    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)"
+    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)",
+    "borrow_type": "interpolation",
+    "credited": true
    },
    {
     "work": "SWV - 'That's What I Need'",
     "how_used": "Credited sample; how it is used is not described",
-    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)"
+    "source": "https://en.wikipedia.org/wiki/Iceman_(Drake_album)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -7130,7 +7208,7 @@
   "runtime_s": 301,
   "runtime_status": "verified",
   "grid_bpm": 162,
-  "felt_bpm": 81,
+  "felt_bpm": 81.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -7161,7 +7239,9 @@
    {
     "work": "Deniece Williams - 'Free'",
     "how_used": "Credited sample; how it is used is not described",
-    "source": "https://en.wikipedia.org/wiki/Make_Them_Pay"
+    "source": "https://en.wikipedia.org/wiki/Make_Them_Pay",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -7236,7 +7316,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -7349,7 +7429,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -7374,7 +7454,9 @@
    {
     "work": "The 'Triggerman' beat (classic bounce loop; Singles Jukebox spells it 'Triggaman')",
     "how_used": "Wikipedia says the song is built over a sample of the Triggerman beat. Singles Jukebox says the main selling point is Cardi's charisma over it.",
-    "source": "https://en.wikipedia.org/wiki/Outside_(Cardi_B_song)"
+    "source": "https://en.wikipedia.org/wiki/Outside_(Cardi_B_song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -7455,7 +7537,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -7554,7 +7636,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 76,
@@ -7583,7 +7665,9 @@
    {
     "work": "'Popular' (The Weeknd, Playboi Carti & Madonna, 2023)",
     "how_used": "Credited sample. A review says the almost minute-long instrumental build-up ends on a sample from 'Popular'.",
-    "source": "https://www.hotnewhiphop.com/894217-playboi-carti-music-album-credits-producers-guest-features-hip-hop-news | https://www.thefader.com/2025/03/14/playboi-carti-music-guests-producers"
+    "source": "https://www.hotnewhiphop.com/894217-playboi-carti-music-album-credits-producers-guest-features-hip-hop-news | https://www.thefader.com/2025/03/14/playboi-carti-music-guests-producers",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -7686,7 +7770,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -7846,7 +7930,9 @@
    {
     "work": "'Somebody That I Used to Know' (Gotye featuring Kimbra, 2011)",
     "how_used": "The beat is built around it. Doechii says she sampled the record to make the beat, and the 2025 release is a newly cleared version.",
-    "source": "https://routenote.com/radar/what-song-does-doechiis-anxiety-sample/"
+    "source": "https://routenote.com/radar/what-song-does-doechiis-anxiety-sample/",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -7968,7 +8054,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 70,
@@ -7999,7 +8085,9 @@
    {
     "work": "Unidentified gospel-style sample (not named in any retrieved source)",
     "how_used": "A review describes the first section as drumless, gospel-style sampling before the switch to brass and heavy 808s.",
-    "source": "https://www.stayfreeradioip.com/post/drake-gimme-a-hug-meaning-and-review | https://therideronline.com/entertainment/2025/02/new-drake-album-review/ | https://www.thefader.com/2025/02/14/drake-gimme-a-hug-kendrick-lamar-response-partynextdoor-sexy-songs-for-u-review"
+    "source": "https://www.stayfreeradioip.com/post/drake-gimme-a-hug-meaning-and-review | https://therideronline.com/entertainment/2025/02/new-drake-album-review/ | https://www.thefader.com/2025/02/14/drake-gimme-a-hug-kendrick-lamar-response-partynextdoor-sexy-songs-for-u-review",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -8105,7 +8193,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "conflict",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 84,
@@ -8256,7 +8344,7 @@
   "runtime_s": 231,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 100,
-  "felt_bpm": 100,
+  "felt_bpm": 100.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -8308,7 +8396,9 @@
    {
     "work": "\"Walk On By\" by Dionne Warwick (1964; written by Burt Bacharach and Hal David)",
     "how_used": "The sample supplies two hooks, one vocal and one instrumental, and its loop runs under the track (search summary of Primary Wave/Wikipedia)",
-    "source": "https://primarywave.com/doja-cats-paint-the-town-red-samples-burt-bacharachs-walk-on-by/"
+    "source": "https://primarywave.com/doja-cats-paint-the-town-red-samples-burt-bacharachs-walk-on-by/",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -8416,7 +8506,7 @@
   "runtime_s": 125,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 130,
-  "felt_bpm": 65,
+  "felt_bpm": 65.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -8534,7 +8624,7 @@
   "runtime_s": 109,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 144,
-  "felt_bpm": 72,
+  "felt_bpm": 72.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -8566,7 +8656,9 @@
    {
     "work": "\"Barbie Girl\" by Aqua (1997)",
     "how_used": "Heavily sampled; Aqua are credited as performers and co-writers (Wikipedia)",
-    "source": "https://en.wikipedia.org/wiki/Barbie_World"
+    "source": "https://en.wikipedia.org/wiki/Barbie_World",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -8787,7 +8879,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "sample_or_interpolation",
@@ -8813,7 +8905,9 @@
    {
     "work": "\"You Might as Well\" by Tatiana Manaois (November 2022)",
     "how_used": "A prominent sample (Wikipedia), heard at the beginning and at the end of the song (Songfacts). The source song is described as a gentle, acoustic-guitar-strewn ballad.",
-    "source": "https://www.songfacts.com/facts/toosii/favorite-song"
+    "source": "https://www.songfacts.com/facts/toosii/favorite-song",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -8916,7 +9010,7 @@
   "runtime_s": 172,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 148,
-  "felt_bpm": 74,
+  "felt_bpm": 74.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -9029,7 +9123,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 181,
@@ -9058,7 +9152,9 @@
    {
     "work": "Kim Kardashian talking about ex-husband Kanye West in the 2021 series finale of Keeping Up With the Kardashians",
     "how_used": "Her sampled speaking voice is part of the track. The sources found don't say where it sits.",
-    "source": "https://www.complex.com/music/drake-search-and-rescue-kim-kardashian-sample"
+    "source": "https://www.complex.com/music/drake-search-and-rescue-kim-kardashian-sample",
+    "borrow_type": "audio clip",
+    "credited": true
    }
   ],
   "features": [],
@@ -9114,7 +9210,7 @@
   "runtime_s": 139,
   "runtime_status": "tempo_sweep",
   "grid_bpm": 105,
-  "felt_bpm": 105,
+  "felt_bpm": 105.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -9163,7 +9259,9 @@
    {
     "work": "\"The Message\" by Grandmaster Flash and the Furious Five (1982)",
     "how_used": "The backing track is sampled; Melle Mel and Sylvia Robinson are credited as writers (Wikipedia)",
-    "source": "https://en.wikipedia.org/wiki/Players_(Coi_Leray_song)"
+    "source": "https://en.wikipedia.org/wiki/Players_(Coi_Leray_song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -9237,7 +9335,7 @@
   "runtime_s": 123,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 150,
-  "felt_bpm": 150,
+  "felt_bpm": 150.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "conflict",
   "tempo_listed": [
@@ -9400,7 +9498,9 @@
    {
     "work": "Steve Miller Band - 'Abracadabra' (1982)",
     "how_used": "Interpolation; Songfacts says the song is built on it. Whether any audio from the original recording is also sampled was not confirmed.",
-    "source": "https://www.songfacts.com/facts/eminem/houdini"
+    "source": "https://www.songfacts.com/facts/eminem/houdini",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [],
@@ -9494,7 +9594,7 @@
   "runtime_s": 273,
   "runtime_status": "verified",
   "grid_bpm": 101,
-  "felt_bpm": 101,
+  "felt_bpm": 101.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -9549,7 +9649,9 @@
    {
     "work": "Monk Higgins - 'I Believe to My Soul' (1968 recording of a 1961 Ray Charles composition)",
     "how_used": "Mustard flipped the recording and sped it up for a tense, urgent feel, then added bass, snare and finger snaps (per search summary of Songfacts/MusicRadar).",
-    "source": "https://www.songfacts.com/facts/kendrick-lamar/not-like-us"
+    "source": "https://www.songfacts.com/facts/kendrick-lamar/not-like-us",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -9672,7 +9774,7 @@
   "runtime_s": 384,
   "runtime_status": "verified",
   "grid_bpm": 140,
-  "felt_bpm": 70,
+  "felt_bpm": 70.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -9838,7 +9940,7 @@
   "runtime_s": 456,
   "runtime_status": "verified",
   "grid_bpm": 164,
-  "felt_bpm": 82,
+  "felt_bpm": 82.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -9886,7 +9988,9 @@
    {
     "work": "Drake - 'Push Ups' (2024)",
     "how_used": "Opening chorus taken from it (Sportskeeda); verse 1 reuses its outro beat (Wikipedia).",
-    "source": "https://en.wikipedia.org/wiki/Family_Matters_(Drake_song)"
+    "source": "https://en.wikipedia.org/wiki/Family_Matters_(Drake_song)",
+    "borrow_type": "self-reuse",
+    "credited": true
    }
   ],
   "features": [],
@@ -10012,7 +10116,7 @@
   "runtime_s": 212,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 85,
-  "felt_bpm": 85,
+  "felt_bpm": 85.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -10141,7 +10245,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -10226,7 +10330,7 @@
   "runtime_s": null,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 160,
-  "felt_bpm": 80,
+  "felt_bpm": 80.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -10269,7 +10373,9 @@
    {
     "work": "Young Buck - 'Get Buck'",
     "how_used": "Credited sample (Sportskeeda sample list, per search summary). Where it sits in the arrangement is not documented.",
-    "source": "https://www.sportskeeda.com/us/music/five-easter-eggs-tyler-creator-s-new-album-chromakopia"
+    "source": "https://www.sportskeeda.com/us/music/five-easter-eggs-tyler-creator-s-new-album-chromakopia",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -10412,7 +10518,7 @@
   "runtime_s": 284,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 82,
-  "felt_bpm": 82,
+  "felt_bpm": 82.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -10444,7 +10550,9 @@
    {
     "work": "Ngozi Family / Paul Ngozi - 'Nizakupanga Ngozi'",
     "how_used": "The track is built around this heavy-riffing 1970s Zamrock sample (The Fader). Paul 'Ngozi' Nyirongo is credited as a writer (Complex credits).",
-    "source": "https://www.thefader.com/2024/10/24/tyler-creator-noid-zamrock-sample"
+    "source": "https://www.thefader.com/2024/10/24/tyler-creator-noid-zamrock-sample",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -10555,7 +10663,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -10578,7 +10686,9 @@
    {
     "work": "'Gwen' by Coco O.",
     "how_used": "Wikipedia says the song is built around a sample of it. Which part is used, and how it is chopped or pitched, is not described.",
-    "source": "https://en.wikipedia.org/wiki/California_Breeze"
+    "source": "https://en.wikipedia.org/wiki/California_Breeze",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -10639,7 +10749,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -10715,7 +10825,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "sample_or_interpolation",
@@ -10740,7 +10850,9 @@
    {
     "work": "'Hound Dog' (Jerry Leiber/Mike Stoller) as recorded by Shonka Dukureh, who plays Big Mama Thornton in the film. Thornton's original is dated 1952 by Billboard and 1953 by Hypebeast and The Fader.",
     "how_used": "Wikipedia calls it a sample of Dukureh's recording. Billboard says her 'growly, rough' take on 'Hound Dog' 'bubbles up over the song's trap-like beat'. Some outlets call it an interpolation instead. Leiber and Stoller are credited.",
-    "source": "https://wikipedia.com/wiki/Vegas_(Doja_Cat_song) ; https://www.billboard.com/culture/tv-film/doja-cat-vegas-first-single-baz-luhrmann-elvis-1235063894"
+    "source": "https://wikipedia.com/wiki/Vegas_(Doja_Cat_song) ; https://www.billboard.com/culture/tv-film/doja-cat-vegas-first-single-baz-luhrmann-elvis-1235063894",
+    "borrow_type": "audio clip",
+    "credited": true
    }
   ],
   "features": [],
@@ -10826,7 +10938,7 @@
   "runtime_s": 209,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 160,
-  "felt_bpm": 80,
+  "felt_bpm": 80.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -10946,7 +11058,7 @@
   "runtime_s": 170,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 133,
-  "felt_bpm": 133,
+  "felt_bpm": 133.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verifier_could_not_confirm",
   "tempo_listed": [
@@ -10990,7 +11102,9 @@
    {
     "work": "'Super Freak' by Rick James (1981, Street Songs)",
     "how_used": "Sampled, with Rick James and Alonzo Miller credited as writers. Which elements (riff, bass, vocal) are lifted is not described in the sources retrieved.",
-    "source": "https://en.wikipedia.org/wiki/Super_Freaky_Girl"
+    "source": "https://en.wikipedia.org/wiki/Super_Freaky_Girl",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -11074,7 +11188,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "hook_or_chorus",
@@ -11101,7 +11215,9 @@
    {
     "work": "'Stayin' Alive' by the Bee Gees (1977)",
     "how_used": "Interpolated in the chorus, which Drake sings in Auto-Tune. The Gibb brothers are credited as lyricists.",
-    "source": "https://en.wikipedia.org/wiki/Staying_Alive_(song) ; https://www.songfacts.com/facts/dj-khaled/staying-alive"
+    "source": "https://en.wikipedia.org/wiki/Staying_Alive_(song) ; https://www.songfacts.com/facts/dj-khaled/staying-alive",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [
@@ -11201,7 +11317,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "conflict",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 162,
@@ -11233,12 +11349,16 @@
    {
     "work": "'Just Awaken Shaken' by Playa Fly (1999; written by Ibn Young)",
     "how_used": "A direct sample that opens the production: the first part of the beat, which Tay Keith says he did not make.",
-    "source": "https://wikiwand.com/EN/Jimmy_Cooks ; https://www.songfacts.com/facts/drake/jimmy-cooks (the search summary did not say which of the two)"
+    "source": "https://wikiwand.com/EN/Jimmy_Cooks ; https://www.songfacts.com/facts/drake/jimmy-cooks (the search summary did not say which of the two)",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "'You Were Gone' by Brook Benton (written by Al Goodman, Harry Ray, Walter Morris)",
     "how_used": "Listed as a sample credit. Where it is used is not described.",
-    "source": "https://www.wikiwand.com/en/articles/Honestly,_Nevermind"
+    "source": "https://www.wikiwand.com/en/articles/Honestly,_Nevermind",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -11376,7 +11496,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [],
   "key": null,
   "opening_element": "unknown",
@@ -11399,7 +11519,9 @@
    {
     "work": "A track by RY X originally written for his 2022 album Blood Moon (title not given in the sources retrieved)",
     "how_used": "RY X sent it to Gordo, who sampled it. Gordo says he started the beat by sampling and chopping an MP3 of the record.",
-    "source": "https://www.complex.com/music/carnage-shares-how-he-crafted-beat-for-drake-honestly-nevermind-cut-sticky ; https://www.hotnewhiphop.com/dj-carnage-explains-how-drakes-sticky-was-made-in-the-studio-watch-news.154409.html"
+    "source": "https://www.complex.com/music/carnage-shares-how-he-crafted-beat-for-drake-honestly-nevermind-cut-sticky ; https://www.hotnewhiphop.com/dj-carnage-explains-how-drakes-sticky-was-made-in-the-studio-watch-news.154409.html",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -11476,7 +11598,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "verifier_could_not_confirm",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 117,
@@ -11504,7 +11626,9 @@
    {
     "work": "'So Appalled' (Kanye West et al.; writers include Kanye West, Ernest Wilson, Mike Dean, Shawn Carter, Terrence Thornton, Cydell Young, Kaseem Dean, Robert Diggs)",
     "how_used": "Listed as a sample on the Heroes & Villains Wikipedia page. How and where it is used is not described.",
-    "source": "https://en.wikipedia.com/wiki/Heroes_%26_Villains"
+    "source": "https://en.wikipedia.com/wiki/Heroes_%26_Villains",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -11599,7 +11723,7 @@
   "runtime_s": 258,
   "runtime_status": "verifier_could_not_confirm",
   "grid_bpm": 136,
-  "felt_bpm": 68,
+  "felt_bpm": 68.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -11633,12 +11757,16 @@
    {
     "work": "Right Said Fred - 'I'm Too Sexy' (1991)",
     "how_used": "A direct sample opens the track, per review coverage relayed in a search summary. uDiscover also lists it as sampled.",
-    "source": "https://www.hotnewhiphop.com/703196-drake-way-2-sexy-song"
+    "source": "https://www.hotnewhiphop.com/703196-drake-way-2-sexy-song",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "Right Said Fred - 'I'm Too Sexy' (interpolation)",
     "how_used": "The chorus interpolates the original, with Future updating the boasts (Karaoke-Version's description).",
-    "source": "https://www.karaoke-version.com/mp3-backingtrack/future/way-2-sexy.html"
+    "source": "https://www.karaoke-version.com/mp3-backingtrack/future/way-2-sexy.html",
+    "borrow_type": "interpolation",
+    "credited": true
    }
   ],
   "features": [
@@ -11774,7 +11902,7 @@
   "runtime_s": 221,
   "runtime_status": "tempo_sweep",
   "grid_bpm": 174,
-  "felt_bpm": 87,
+  "felt_bpm": 87.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -11871,7 +11999,7 @@
   "runtime_s": 291,
   "runtime_status": "verified",
   "grid_bpm": 168,
-  "felt_bpm": 84,
+  "felt_bpm": 84.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -11907,7 +12035,9 @@
    {
     "work": "Charlotte Day Wilson - 'Mountains'",
     "how_used": "Heard at the beginning, the bridge and the outro (Songfacts). Hypebeast says it was altered to carry the drums and snares.",
-    "source": "https://www.songfacts.com/facts/drake/fair-trade"
+    "source": "https://www.songfacts.com/facts/drake/fair-trade",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -12004,7 +12134,7 @@
   "runtime_s": 336,
   "runtime_status": "verified",
   "grid_bpm": 87,
-  "felt_bpm": 87,
+  "felt_bpm": 87.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -12035,17 +12165,23 @@
    {
     "work": "Masego - 'Navajo'",
     "how_used": "The intro and first half are built on it. J.L.L.'s 2014 beat became 'Navajo' and then 'Champagne Poetry'.",
-    "source": "https://www.songfacts.com/facts/drake/champagne-poetry"
+    "source": "https://www.songfacts.com/facts/drake/champagne-poetry",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "'Michelle' (Lennon-McCartney), as heard inside 'Navajo'; which recording is disputed",
     "how_used": "Vocal source inside the Navajo loop, with Lennon and McCartney credited as writers. Songfacts says it is the Beatles' recording. Magnetic says it is The Singers Unlimited's version. A Rolling Stone update says closer listens suggest a 1972 cover rather than the Beatles.",
-    "source": "https://magneticmag.com/2022/08/champagne-poetry-sample/"
+    "source": "https://magneticmag.com/2022/08/champagne-poetry-sample/",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "Gabriel Hardeman Delegation - 'Until I Found the Lord (My Soul Couldn't Rest)' (1976)",
     "how_used": "Sampled, per Songfacts, and Gabriel Hardeman Jr. is a credited songwriter (Wikipedia). That it supplies the second-half choir is inference from the reviews' choir description.",
-    "source": "https://www.songfacts.com/facts/drake/champagne-poetry"
+    "source": "https://www.songfacts.com/facts/drake/champagne-poetry",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -12145,7 +12281,7 @@
   "runtime_s": 243,
   "runtime_status": "tempo_sweep",
   "grid_bpm": 146,
-  "felt_bpm": 73,
+  "felt_bpm": 73.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -12352,7 +12488,7 @@
   "runtime_s": 178,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 140,
-  "felt_bpm": 70,
+  "felt_bpm": 70.0,
   "feel_basis": "unknown",
   "tempo_status": "tempo_sweep",
   "tempo_listed": [
@@ -12388,7 +12524,9 @@
    {
     "work": "Montell Jordan - 'Daddy's Home'",
     "how_used": "Sampled at the opening of the track.",
-    "source": "https://www.udiscovermusic.com/?p=2645688"
+    "source": "https://www.udiscovermusic.com/?p=2645688",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -12464,7 +12602,7 @@
   "runtime_s": 308,
   "runtime_status": "corrected_by_verifier",
   "grid_bpm": 130,
-  "felt_bpm": 65,
+  "felt_bpm": 65.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -12505,12 +12643,16 @@
    {
     "work": "R. Kelly - 'Half on a Baby'",
     "how_used": "Its symphonic intro is sampled, which made R. Kelly a credited songwriter (Rolling Stone). 40 later clarified the credit.",
-    "source": "https://au.rollingstone.com/music/music-news/drake-r-kelly-sample-tsu-29647"
+    "source": "https://au.rollingstone.com/music/music-news/drake-r-kelly-sample-tsu-29647",
+    "borrow_type": "sample",
+    "credited": true
    },
    {
     "work": "*NSYNC - 'Sailing' (Christopher Cross song)",
     "how_used": "PLACEMENT UNVERIFIED: Rolling Stone reports this is sampled somewhere on the album. Assigning it to TSU is recollection only.",
-    "source": null
+    "source": null,
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [],
@@ -12583,7 +12725,7 @@
   "runtime_s": 197,
   "runtime_status": "verified",
   "grid_bpm": 150,
-  "felt_bpm": 75,
+  "felt_bpm": 75.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -12776,7 +12918,7 @@
   "runtime_s": 205,
   "runtime_status": "verified",
   "grid_bpm": 112,
-  "felt_bpm": 56,
+  "felt_bpm": 56.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [
@@ -12941,7 +13083,7 @@
   "grid_bpm": null,
   "felt_bpm": null,
   "feel_basis": "unknown",
-  "tempo_status": "conflict",
+  "tempo_status": "missing",
   "tempo_listed": [
    {
     "bpm": 107,
@@ -12979,7 +13121,9 @@
    {
     "work": "'Forever', an unreleased song by Vory and Fridayy",
     "how_used": "Its hook became this song's chorus (per Songfacts)",
-    "source": "https://www.songfacts.com/facts/lil-baby/forever"
+    "source": "https://www.songfacts.com/facts/lil-baby/forever",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -13052,7 +13196,7 @@
   "runtime_s": 228,
   "runtime_status": "verified",
   "grid_bpm": 92,
-  "felt_bpm": 92,
+  "felt_bpm": 92.0,
   "feel_basis": "unknown",
   "tempo_status": "corrected_by_verifier",
   "tempo_listed": [
@@ -13088,7 +13232,9 @@
    {
     "work": "'Life After Death (Intro)', The Notorious B.I.G.",
     "how_used": "Credited sample. The sources found don't say which element is used or where.",
-    "source": "https://en.wikipedia.org/wiki/Love_All_(song)"
+    "source": "https://en.wikipedia.org/wiki/Love_All_(song)",
+    "borrow_type": "sample",
+    "credited": true
    }
   ],
   "features": [
@@ -13175,7 +13321,7 @@
   "runtime_s": 243,
   "runtime_status": "verified",
   "grid_bpm": 160,
-  "felt_bpm": 80,
+  "felt_bpm": 80.0,
   "feel_basis": "genre_convention_inference",
   "tempo_status": "verified",
   "tempo_listed": [

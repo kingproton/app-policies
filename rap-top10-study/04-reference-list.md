@@ -126,7 +126,7 @@ Version = the original explicit album or single version unless noted. Basis code
 | 2 | Ran To Atlanta | 4:07 ✔ | 140 / 70 · | ? | ? | ? | ? | — | D, 2 wk |
 | 3 | Whisper My Name | 3:42 ✔ | ? | ? | ? | ? | ? | — | D, 2 wk |
 | 4 | Shabang | 3:08 ✔ | ? | producer tag (S) | yes (S) | yes (S) | ? | — | D, 3 wk |
-| 5 | National Treasures | 3:20 ✔ | 96.5 / 96.5 · | ? | ? | ? | yes (S) | Gregory Hines - 'This Is What I Believe' (written by Luther  | D, 1 wk |
+| 5 | National Treasures | 3:20 ✔ | 96 / 96.5 · | ? | ? | ? | yes (S) | Gregory Hines - 'This Is What I Believe' (written by Luther  | D, 1 wk |
 | 6 | Make Them Cry | 5:07 ✔ | 80 / 80 · | ? | ? | ? | ? | Roger Ridley - 'Who Am I'; Muchi - 'The Pressure Is on Me'; Bobby Glenn - 'Sounds Like a Love Song' | D, 1 wk |
 | 7 | Dust | 3:09 ✔ | 138 / 69 · | ? | ? | ? | yes (S) | — | D, 1 wk |
 | 8 | 2 Hard 4 The Radio | 3:03 ✔ | 111 / 111 · | ? | ? | ? | ? | Mac Dre - '2 Hard 4 the Fuckin' Radio'; SWV - 'That's What I Need' | D, 1 wk |
@@ -161,7 +161,7 @@ Version = the original explicit album or single version unless noted. Basis code
 | 37 | Young Metro | 3:25 ✔ | 112 / 56 ✔ | ? | ? | yes (R) | ? | — | D, 1 wk |
 | 38 | Enough (Miami) | 2:39 | ? | ? | ? | yes (S) | ? | — | D, 1 wk |
 | 39 | Carnival | 4:24 ✔ | 148 / 74 ✎ | sample or interpolation (S) | yes (S) | yes (S) | ? | Live 1983 US Festival performance of 'Iron Man' (performer n | D, 6 wk |
-| 40 | Hiss | 3:12 ✔ | 167.1 / 83.55 · | ad lib or spoken intro (S) | no (S) | none (R) | ? | — | D, 1 wk |
+| 40 | Hiss | 3:12 ✔ | 167 / 83.5 · | ad lib or spoken intro (S) | no (S) | none (R) | ? | — | D, 1 wk |
 | 41 | Redrum | 4:30 ✔ | 172 / 86 · | sample or interpolation (S) | no (R) | ? | ? | Elza Laranjeira - 'Serenata do Adeus'; The Shining (1980 film) - 'Here's Johnny!' scene | D, 3 wk |
 | 42 | Nee-nah | 3:40 ✎ | ? | rap verse (S) | no (S) | ? | ? | Malcolm McLaren - 'About Her' (2004) | D, 1 wk |
 | 43 | Agora Hills | 4:25 | 123 / 61.5 · | ? | ? | yes (S) | ? | Troop - 'All I Do Is Think of You' (1989 single; Songfacts d | C from #35, 7 wk |
@@ -185,7 +185,7 @@ Version = the original explicit album or single version unless noted. Basis code
 | 61 | Players | 2:19 | 105 / 105 · | sample or interpolation (R) | yes (R) | yes (R) | no (R) | "The Message" by Grandmaster Flash and the Furious Five (198 | C from #12, 3 wk |
 | 62 | Just Wanna Rock | 2:03 | 150 / 150 ⚠ | ? | ? | yes (S) | no (R) | — | C from #12, 1 wk |
 | 63 | Superhero (Heroes & Villains) | 3:02 ✔ | ? | ? | ? | ? | yes (S) | 'So Appalled' (Kanye West et al.; writers include Kanye West | D, 1 wk |
-| 64 | Rich Flex | 3:59 ✔ | 153 / 76.5 ✎ | ad lib or spoken intro (S) | yes (S) | yes (S) | yes (S) | Unidentified soundtrack excerpt (flipped by FnZ); A Megan Thee Stallion composition (credited writers Megan Th | D, 10 wk |
+| 64 | Rich Flex | 3:59 ✔ | 153 / 76.5 ✎ | ad lib or spoken intro (S) | yes (S) | yes (S) | yes (S) | 'Welcome to the Hive'; 'I Want You, Girl' (credited in Wikip; A Megan Thee Stallion composition (credited writers Megan Th | D, 10 wk |
 | 65 | Major Distribution | 2:50 ✔ | 131 / 65.5 ✎ | ? | ? | ? | ? | — | D, 2 wk |
 | 66 | On BS | 4:21 ✔ | 158 / 79 ✎ | ? | ? | ? | ? | — | D, 2 wk |
 | 67 | Spin Bout U | 3:34 ✔ | ? | ? | ? | yes (S) | ? | "Give Me Your Lovin" by Oobie | D, 2 wk |
@@ -291,4 +291,6 @@ Songs that reached the top 10 inside the window and were checked as possible rap
 - **#100 is TSU** (2021-09-18, #9). The next rap songs in line are 2021-09-18 #10 Love All — Drake Featuring JAY-Z; 2021-09-11 #6 Hurricane — Kanye West; 2021-09-11 #10 Jail — Kanye West; 2021-08-28 #4 Rumors — Lizzo Featuring Cardi B; 2021-08-07 #2 Industry Baby — Lil Nas X & Jack Harlow.
 - **Provisional (†):** #27 Noid; #32 7 Minute Drill; #35 Cinderella; #36 We Don't Trust You; #42 Nee-nah; #53 FE!N; #69 Privileged Rappers; #71 BackOutsideBoyz. Each is counted as rap from strong but indirect evidence: album-mates on rap charts, rap component charts, or Billboard rap chart-history pages. If any one is reclassified, every later song moves up one place, and the next song in line enters at #100.
 - **Unresolved close calls ranked above the cut** (treated as not rap on indirect evidence; if any were rap, #100 would drop out): 2026-03-14 #7 Stateside — PinkPantheress With Zara Larsson; 2023-10-14 #5 3D — Jung Kook & Jack Harlow; 2023-03-25 #8 Calm Down — Rema & Selena Gomez; 2022-08-20 #10 Bad Decisions — benny blanco, BTS & Snoop Dogg; 2022-03-26 #8 Enemy — Imagine Dragons X JID.
+- **Newest end.** No rap-classified song first reached the top 10 between the chart dated 2026-05-30 and the 2026-11-21 starting chart. The only rap-artist top-10 arrival in that span, "Solar Eclipse" (Drake & Don Toliver, first top 10 on 2026-10-17 at #5), is R&B-classified: Billboard reported it debuting at No. 1 on Hot R&B Songs.
+- **The cut splits one chart week, as the ordering rule requires.** *Certified Lover Boy* put nine songs in the top 10 on the chart dated 2021-09-18. Ties in a week are broken by position that week, so "TSU" (#9) is #100 and "Love All" (#10) is the first song outside the list.
 - **No missing chart weeks** were found in the weekly Hot 100 series for the window.

@@ -13,39 +13,39 @@
   "runtime_le_3min": "25/98",
   "runtime_ge_4min": "31/98",
   "felt": {
-   "n": 75,
-   "median": 74,
+   "n": 73,
+   "median": 74.0,
    "q1": 69.0,
-   "q3": 86.0,
-   "min": 56,
-   "max": 150
+   "q3": 85.5,
+   "min": 56.0,
+   "max": 133.0
   },
-  "feel_half_time": "54/75",
-  "feel_full_time": "21/75",
+  "feel_half_time": "53/73",
+  "feel_full_time": "20/73",
   "half_time_felt": {
-   "n": 54,
+   "n": 53,
    "median": 71.5,
-   "q1": 65.0,
-   "q3": 76.625,
-   "min": 56,
-   "max": 87
+   "q1": 65.25,
+   "q3": 76.75,
+   "min": 56.0,
+   "max": 87.0
   },
   "full_time_felt": {
-   "n": 21,
-   "median": 100,
-   "q1": 86.5,
-   "q3": 105.5,
-   "min": 80,
-   "max": 150
+   "n": 20,
+   "median": 100.0,
+   "q1": 86.25,
+   "q3": 105.0,
+   "min": 80.0,
+   "max": 133.0
   },
   "full_time_bands": {
    "95-115 (bounce/pop-rap)": 11,
    "<95 (verse-led/boom-bap)": 8,
-   ">115 (club)": 2
+   ">115 (club)": 1
   },
-  "felt_half_60_85": "54/75",
-  "felt_full_95_115": "11/75",
-  "samples": "56/100",
+  "felt_half_60_85": "53/73",
+  "felt_full_95_115": "11/73",
+  "samples": "55/100",
   "features": "43/100",
   "hook_present_verified": 32,
   "hook_present_unverified": 21,
@@ -88,38 +88,37 @@
   "runtime_le_3min": "4/11",
   "runtime_ge_4min": "3/11",
   "felt": {
-   "n": 10,
-   "median": 81.0,
-   "q1": 68.75,
-   "q3": 105.25,
+   "n": 9,
+   "median": 80.0,
+   "q1": 67.5,
+   "q3": 102.5,
    "min": 61.5,
-   "max": 150
+   "max": 106.0
   },
-  "feel_half_time": "5/10",
-  "feel_full_time": "5/10",
+  "feel_half_time": "5/9",
+  "feel_full_time": "4/9",
   "half_time_felt": {
    "n": 5,
-   "median": 70,
+   "median": 70.0,
    "q1": 63.25,
    "q3": 76.5,
    "min": 61.5,
-   "max": 80
+   "max": 80.0
   },
   "full_time_felt": {
-   "n": 5,
-   "median": 105,
-   "q1": 91.0,
-   "q3": 128.0,
-   "min": 82,
-   "max": 150
+   "n": 4,
+   "median": 102.5,
+   "q1": 86.5,
+   "q3": 105.75,
+   "min": 82.0,
+   "max": 106.0
   },
   "full_time_bands": {
    "<95 (verse-led/boom-bap)": 1,
-   "95-115 (bounce/pop-rap)": 3,
-   ">115 (club)": 1
+   "95-115 (bounce/pop-rap)": 3
   },
-  "felt_half_60_85": "5/10",
-  "felt_full_95_115": "3/10",
+  "felt_half_60_85": "5/9",
+  "felt_full_95_115": "3/9",
   "samples": "9/12",
   "features": "1/12",
   "hook_present_verified": 6,
@@ -158,39 +157,39 @@
   "runtime_le_3min": "21/87",
   "runtime_ge_4min": "28/87",
   "felt": {
-   "n": 65,
-   "median": 74,
-   "q1": 68.75,
-   "q3": 84.5,
-   "min": 56,
-   "max": 133
+   "n": 64,
+   "median": 74.0,
+   "q1": 69.0,
+   "q3": 84.75,
+   "min": 56.0,
+   "max": 133.0
   },
-  "feel_half_time": "49/65",
-  "feel_full_time": "16/65",
+  "feel_half_time": "48/64",
+  "feel_full_time": "16/64",
   "half_time_felt": {
-   "n": 49,
+   "n": 48,
    "median": 71.5,
-   "q1": 65.25,
-   "q3": 76.75,
-   "min": 56,
-   "max": 87
+   "q1": 65.75,
+   "q3": 76.875,
+   "min": 56.0,
+   "max": 87.0
   },
   "full_time_felt": {
    "n": 16,
    "median": 98.25,
    "q1": 86.25,
    "q3": 104.75,
-   "min": 80,
-   "max": 133
+   "min": 80.0,
+   "max": 133.0
   },
   "full_time_bands": {
    "95-115 (bounce/pop-rap)": 8,
    "<95 (verse-led/boom-bap)": 7,
    ">115 (club)": 1
   },
-  "felt_half_60_85": "49/65",
-  "felt_full_95_115": "8/65",
-  "samples": "47/88",
+  "felt_half_60_85": "48/64",
+  "felt_full_95_115": "8/64",
+  "samples": "46/88",
   "features": "42/88",
   "hook_present_verified": 26,
   "hook_present_unverified": 16,
@@ -232,38 +231,38 @@
   "runtime_le_3min": "13/55",
   "runtime_ge_4min": "21/55",
   "felt": {
-   "n": 46,
+   "n": 45,
    "median": 72.0,
-   "q1": 66.25,
-   "q3": 83.25,
-   "min": 56,
-   "max": 111
+   "q1": 67.25,
+   "q3": 83.5,
+   "min": 56.0,
+   "max": 111.0
   },
-  "feel_half_time": "35/46",
-  "feel_full_time": "11/46",
+  "feel_half_time": "34/45",
+  "feel_full_time": "11/45",
   "half_time_felt": {
-   "n": 35,
-   "median": 70,
+   "n": 34,
+   "median": 70.0,
    "q1": 65.0,
-   "q3": 73.5,
-   "min": 56,
-   "max": 87
+   "q3": 74.25,
+   "min": 56.0,
+   "max": 87.0
   },
   "full_time_felt": {
    "n": 11,
-   "median": 92,
+   "median": 92.0,
    "q1": 86.0,
    "q3": 102.0,
-   "min": 80,
-   "max": 111
+   "min": 80.0,
+   "max": 111.0
   },
   "full_time_bands": {
    "95-115 (bounce/pop-rap)": 5,
    "<95 (verse-led/boom-bap)": 6
   },
-  "felt_half_60_85": "35/46",
-  "felt_full_95_115": "5/46",
-  "samples": "30/55",
+  "felt_half_60_85": "34/45",
+  "felt_full_95_115": "5/45",
+  "samples": "29/55",
   "features": "26/55",
   "hook_present_verified": 12,
   "hook_present_unverified": 11,
@@ -302,38 +301,38 @@
   "runtime_le_3min": "12/43",
   "runtime_ge_4min": "10/43",
   "felt": {
-   "n": 29,
-   "median": 80,
-   "q1": 71.75,
-   "q3": 100.5,
-   "min": 56,
-   "max": 150
+   "n": 28,
+   "median": 78.75,
+   "q1": 71.625,
+   "q3": 96.5,
+   "min": 56.0,
+   "max": 133.0
   },
-  "feel_half_time": "19/29",
-  "feel_full_time": "10/29",
+  "feel_half_time": "19/28",
+  "feel_full_time": "9/28",
   "half_time_felt": {
    "n": 19,
-   "median": 74,
+   "median": 74.0,
    "q1": 70.0,
    "q3": 80.0,
-   "min": 56,
-   "max": 86
+   "min": 56.0,
+   "max": 86.0
   },
   "full_time_felt": {
-   "n": 10,
+   "n": 9,
    "median": 105.0,
-   "q1": 96.25,
-   "q3": 113.5,
-   "min": 82,
-   "max": 150
+   "q1": 92.5,
+   "q3": 106.5,
+   "min": 82.0,
+   "max": 133.0
   },
   "full_time_bands": {
    "<95 (verse-led/boom-bap)": 2,
    "95-115 (bounce/pop-rap)": 6,
-   ">115 (club)": 2
+   ">115 (club)": 1
   },
-  "felt_half_60_85": "19/29",
-  "felt_full_95_115": "6/29",
+  "felt_half_60_85": "19/28",
+  "felt_full_95_115": "6/28",
   "samples": "26/45",
   "features": "17/45",
   "hook_present_verified": 20,
@@ -376,37 +375,37 @@
   "runtime_le_3min": "7/41",
   "runtime_ge_4min": "20/41",
   "felt": {
-   "n": 30,
-   "median": 71.25,
-   "q1": 65.375,
-   "q3": 81.25,
-   "min": 56,
-   "max": 111
+   "n": 29,
+   "median": 71.5,
+   "q1": 66.0,
+   "q3": 81.5,
+   "min": 56.0,
+   "max": 111.0
   },
-  "feel_half_time": "26/30",
-  "feel_full_time": "4/30",
+  "feel_half_time": "25/29",
+  "feel_full_time": "4/29",
   "half_time_felt": {
-   "n": 26,
+   "n": 25,
    "median": 70.0,
-   "q1": 64.5,
-   "q3": 77.5,
-   "min": 56,
-   "max": 87
+   "q1": 65.25,
+   "q3": 78.0,
+   "min": 56.0,
+   "max": 87.0
   },
   "full_time_felt": {
    "n": 4,
    "median": 91.75,
    "q1": 81.75,
    "q3": 107.375,
-   "min": 80,
-   "max": 111
+   "min": 80.0,
+   "max": 111.0
   },
   "full_time_bands": {
    "95-115 (bounce/pop-rap)": 2,
    "<95 (verse-led/boom-bap)": 2
   },
-  "felt_half_60_85": "26/30",
-  "felt_full_95_115": "2/30",
+  "felt_half_60_85": "25/29",
+  "felt_full_95_115": "2/29",
   "samples": "25/41",
   "features": "17/41",
   "hook_present_verified": 10,
@@ -447,39 +446,39 @@
   "runtime_le_3min": "18/57",
   "runtime_ge_4min": "11/57",
   "felt": {
-   "n": 45,
-   "median": 77.5,
-   "q1": 70.75,
-   "q3": 96.0,
-   "min": 56,
-   "max": 150
+   "n": 44,
+   "median": 76.25,
+   "q1": 70.375,
+   "q3": 91.75,
+   "min": 56.0,
+   "max": 133.0
   },
-  "feel_half_time": "28/45",
-  "feel_full_time": "17/45",
+  "feel_half_time": "28/44",
+  "feel_full_time": "16/44",
   "half_time_felt": {
    "n": 28,
    "median": 72.0,
    "q1": 66.0,
    "q3": 74.75,
-   "min": 56,
-   "max": 86
+   "min": 56.0,
+   "max": 86.0
   },
   "full_time_felt": {
-   "n": 17,
-   "median": 101,
-   "q1": 88.5,
-   "q3": 105.5,
-   "min": 82,
-   "max": 150
+   "n": 16,
+   "median": 100.5,
+   "q1": 87.25,
+   "q3": 105.0,
+   "min": 82.0,
+   "max": 133.0
   },
   "full_time_bands": {
    "95-115 (bounce/pop-rap)": 9,
    "<95 (verse-led/boom-bap)": 6,
-   ">115 (club)": 2
+   ">115 (club)": 1
   },
-  "felt_half_60_85": "28/45",
-  "felt_full_95_115": "9/45",
-  "samples": "31/59",
+  "felt_half_60_85": "28/44",
+  "felt_full_95_115": "9/44",
+  "samples": "30/59",
   "features": "26/59",
   "hook_present_verified": 22,
   "hook_present_unverified": 16,
@@ -616,6 +615,61 @@
   "First Class 107",
   "Big Energy 106"
  ],
+ "tempo_conflicts": [
+  "First Person Shooter",
+  "Just Wanna Rock"
+ ],
+ "borrow_types": {
+  "sample": [
+   53,
+   [
+    "2 Hard 4 The Radio",
+    "4X4",
+    "Agora Hills",
+    "Barbie World",
+    "California Breeze",
+    "Calling For You",
+    "Carnival",
+    "Champagne Poetry",
+    "Circo Loco",
+    "Evil J0rdan"
+   ]
+  ],
+  "interpolation": [
+   9,
+   [
+    "2 Hard 4 The Radio",
+    "Big Energy",
+    "Hey Now",
+    "Houdini",
+    "Reincarnated",
+    "Rich Flex",
+    "Staying Alive",
+    "TV Off",
+    "Way 2 Sexy"
+   ]
+  ],
+  "audio clip": [
+   5,
+   [
+    "Daylight",
+    "Redrum",
+    "Search & Rescue",
+    "TV Off",
+    "Vegas"
+   ]
+  ],
+  "self-reuse": [
+   2,
+   [
+    "Family Matters",
+    "Janice STFU"
+   ]
+  ]
+ },
+ "uncredited_only": [
+  "Man At The Garden"
+ ],
  "half_time": [
   "Janice STFU 126/63",
   "Ran To Atlanta 140/70",
@@ -633,10 +687,9 @@
   "We Don't Trust You 124/62",
   "Young Metro 112/56",
   "Carnival 148/74",
-  "Hiss 167.1/83.55",
+  "Hiss 167/83.5",
   "Redrum 172/86",
   "Agora Hills 123/61.5",
-  "First Person Shooter 122/61",
   "IDGAF 137/68.5",
   "Virginia Beach 120/60",
   "Calling For You 121/60.5",
@@ -673,7 +726,7 @@
   "TSU 130/65"
  ],
  "full_time": [
-  "National Treasures 96.5/96.5",
+  "National Treasures 96/96.5",
   "Make Them Cry 80/80",
   "2 Hard 4 The Radio 111/111",
   "Squabble Up 104/104",
@@ -688,7 +741,6 @@
   "Lovin On Me 105/105",
   "Paint The Town Red 100/100",
   "Players 105/105",
-  "Just Wanna Rock 150/150",
   "Super Freaky Girl 133/133",
   "United In Grief 86/86",
   "First Class 107/107",
@@ -703,7 +755,7 @@
   {
    "title": "Sticky",
    "runtime": null,
-   "felt": 80,
+   "felt": 80.0,
    "samples": [
     "Young Buck - 'Get Buck'"
    ],
@@ -724,7 +776,7 @@
   {
    "title": "Noid",
    "runtime": "4:44",
-   "felt": 82,
+   "felt": 82.0,
    "samples": [
     "Ngozi Family / Paul Ngozi - 'Nizakupanga Ngozi'"
    ],
@@ -745,7 +797,7 @@
   {
    "title": "Euphoria",
    "runtime": "6:24",
-   "felt": 70,
+   "felt": 70.0,
    "samples": [],
    "hook": "absent_unverified",
    "hook_first": [
@@ -785,7 +837,7 @@
   {
    "title": "Paint The Town Red",
    "runtime": "3:51",
-   "felt": 100,
+   "felt": 100.0,
    "samples": [
     "\"Walk On By\" by Dionne Warwick (1964; written by Burt Bacharach and Hal David)"
    ],
@@ -806,7 +858,7 @@
   {
    "title": "Fukumean",
    "runtime": "2:05",
-   "felt": 65,
+   "felt": 65.0,
    "samples": [],
    "hook": "present_unverified",
    "hook_first": [
@@ -846,7 +898,7 @@
   {
    "title": "Players",
    "runtime": "2:19",
-   "felt": 105,
+   "felt": 105.0,
    "samples": [
     "\"The Message\" by Grandmaster Flash and the Furious Five (1982)"
    ],
@@ -867,7 +919,7 @@
   {
    "title": "Just Wanna Rock",
    "runtime": "2:03",
-   "felt": 150,
+   "felt": 150.0,
    "samples": [],
    "hook": "present_verified",
    "hook_first": [
@@ -907,7 +959,7 @@
   {
    "title": "Big Energy",
    "runtime": "2:53",
-   "felt": 106,
+   "felt": 106.0,
    "samples": [
     "\"Genius of Love\" by Tom Tom Club (1981)"
    ],
@@ -928,7 +980,7 @@
   {
    "title": "Super Gremlin",
    "runtime": "3:21",
-   "felt": 73,
+   "felt": 73.0,
    "samples": [
     "\"Errror (We Could Be Superstars)\" by How to Loot Brazil (2019)"
    ],
@@ -1059,11 +1111,12 @@
   "tempo_sweep": 3
  },
  "tempo_status": {
-  "verifier_could_not_confirm": 43,
+  "verifier_could_not_confirm": 25,
+  "missing": 23,
   "tempo_sweep": 25,
-  "conflict": 6,
   "corrected_by_verifier": 12,
-  "verified": 14
+  "verified": 13,
+  "conflict": 2
  },
  "shortest": [
   [
@@ -1130,7 +1183,7 @@
   "Barbie World: \"Barbie Girl\" by Aqua (1997)",
   "Favorite Song: \"You Might as Well\" by Tatiana Manaois (November 2022)",
   "Players: \"The Message\" by Grandmaster Flash and the Furious Five (1982)",
-  "Rich Flex: Unidentified soundtrack excerpt (flipped by FnZ)",
+  "Rich Flex: 'Welcome to the Hive'; 'I Want You, Girl' (credited in Wikipedia's sample notes, per verifier)",
   "Spin Bout U: \"Give Me Your Lovin\" by Oobie",
   "Circo Loco: \"One More Time\" by Daft Punk"
  ]

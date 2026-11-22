@@ -83,6 +83,8 @@ if prov:
     out.append('- **Provisional (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in prov) + '. Each is counted as rap from strong but indirect evidence: album-mates on rap charts, rap component charts, or Billboard rap chart-history pages. If any one is reclassified, every later song moves up one place, and the next song in line enters at #100.')
 if S.get('open_close_calls_before_cut'):
     out.append('- **Unresolved close calls ranked above the cut** (treated as not rap on indirect evidence; if any were rap, #100 would drop out): ' + '; '.join(S['open_close_calls_before_cut']) + '.')
+out.append('- **Newest end.** No rap-classified song first reached the top 10 between the chart dated 2026-05-30 and the 2026-11-21 starting chart. The only rap-artist top-10 arrival in that span, "Solar Eclipse" (Drake & Don Toliver, first top 10 on 2026-10-17 at #5), is R&B-classified: Billboard reported it debuting at No. 1 on Hot R&B Songs.')
+out.append('- **The cut splits one chart week, as the ordering rule requires.** *Certified Lover Boy* put nine songs in the top 10 on the chart dated 2021-09-18. Ties in a week are broken by position that week, so "TSU" (#9) is #100 and "Love All" (#10) is the first song outside the list.')
 out.append('- **No missing chart weeks** were found in the weekly Hot 100 series for the window.')
 open(REPO + '04-reference-list.md', 'w').write('\n'.join(out) + '\n')
 # evidence CSV

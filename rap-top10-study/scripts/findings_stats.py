@@ -25,18 +25,18 @@ for g, f in groups.items():
     S = [(r, t) for r, t in studied if f(r, t)]
     allg = [(r, t) for r, t in R if f(r, t)]
     rt = [t['runtime_s'] for r, t in S if t.get('runtime_s')]
-    felt = [t['felt_bpm'] for r, t in S if t.get('felt_bpm')]
+    felt = [t['felt_bpm'] for r, t in S if t.get('felt_bpm') and t.get('tempo_status') != 'conflict']
     d = {'n_songs': len(allg), 'n_studied': len(S)}
     q = qd(rt); d['runtime'] = {k: (mmss(v) if k not in ('n',) and v is not None else v) for k, v in q.items()}
     d['runtime_le_3min'] = f"{sum(1 for x in rt if x <= 180)}/{len(rt)}"; d['runtime_ge_4min'] = f"{sum(1 for x in rt if x >= 240)}/{len(rt)}"
     d['felt'] = qd(felt)
-    pairs = [(t['grid_bpm'], t['felt_bpm']) for r, t in S if t.get('felt_bpm') and t.get('grid_bpm')]
+    pairs = [(t['grid_bpm'], t['felt_bpm']) for r, t in S if t.get('felt_bpm') and t.get('grid_bpm') and t.get('tempo_status') != 'conflict']
     half = [f for g_, f in pairs if 1.8 <= g_ / f <= 2.2]; full = [f for g_, f in pairs if not (1.8 <= g_ / f <= 2.2)]
     d['feel_half_time'] = f"{len(half)}/{len(pairs)}"; d['feel_full_time'] = f"{len(full)}/{len(pairs)}"
     d['half_time_felt'] = qd(half); d['full_time_felt'] = qd(full)
     d['full_time_bands'] = dict(collections.Counter('<95 (verse-led/boom-bap)' if f < 95 else '95-115 (bounce/pop-rap)' if f <= 115 else '>115 (club)' for f in full))
     d['felt_half_60_85'] = f"{len(half)}/{len(pairs)}"; d['felt_full_95_115'] = f"{sum(1 for f in full if 95 <= f <= 115)}/{len(pairs)}"
-    smp_n = len(S); d['samples'] = f"{sum(1 for r, t in S if t.get('samples'))}/{smp_n}"
+    smp_n = len(S); d['samples'] = f"{sum(1 for r, t in S if any(sm.get('credited', True) for sm in (t.get('samples') or [])))}/{smp_n}"
     d['features'] = f"{sum(1 for r, t in S if t.get('features'))}/{smp_n}"
     hs = collections.Counter(t.get('hook_status') for r, t in S)
     d['hook_present_verified'] = hs.get('present_verified', 0); d['hook_present_unverified'] = hs.get('present_unverified', 0)
@@ -56,8 +56,15 @@ OUT['hook_first_yes'] = [f"{r['title']} [{t.get('hook_first_basis')}]" for r, t 
 OUT['hook_first_no'] = [f"{r['title']} [{t.get('hook_first_basis')}]" for r, t in studied if t.get('hook_first') == 'no']
 OUT['opening_sourced'] = [f"{r['title']}: {t.get('opening_element')}" for r, t in studied if t.get('opening_basis') == 'source' and t.get('opening_element') not in (None, 'unknown')]
 OUT['full_time_bounce'] = [f"{r['title']} {t['felt_bpm']:g}" for r, t in studied if t.get('felt_bpm') and 95 <= t['felt_bpm'] <= 115]
-OUT['half_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g}" for r, t in studied if t.get('felt_bpm') and t.get('grid_bpm') and 1.8 <= t['grid_bpm'] / t['felt_bpm'] <= 2.2]
-OUT['full_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g}" for r, t in studied if t.get('felt_bpm') and t.get('grid_bpm') and not (1.8 <= t['grid_bpm'] / t['felt_bpm'] <= 2.2)]
+OUT['tempo_conflicts'] = [r['title'] for r, t in studied if t.get('tempo_status') == 'conflict']
+bt = collections.Counter(); bt_tracks = collections.defaultdict(list)
+for r, t in studied:
+    for sm in (t.get('samples') or []):
+        if sm.get('credited', True): bt[sm.get('borrow_type')] += 1; bt_tracks[sm.get('borrow_type')].append(r['title'])
+OUT['borrow_types'] = {k: (v, sorted(set(bt_tracks[k]))[:10]) for k, v in bt.most_common()}
+OUT['uncredited_only'] = [r['title'] for r, t in studied if t.get('samples') and not any(sm.get('credited', True) for sm in t['samples'])]
+OUT['half_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g}" for r, t in studied if t.get('felt_bpm') and t.get('grid_bpm') and t.get('tempo_status') != 'conflict' and 1.8 <= t['grid_bpm'] / t['felt_bpm'] <= 2.2]
+OUT['full_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g}" for r, t in studied if t.get('felt_bpm') and t.get('grid_bpm') and t.get('tempo_status') != 'conflict' and not (1.8 <= t['grid_bpm'] / t['felt_bpm'] <= 2.2)]
 OUT['drill'] = [r['title'] for r, t in studied if t.get('style_tag') == 'drill']
 OUT['climbers_detail'] = [dict(title=r['title'], runtime=t.get('runtime_mmss') if t else None, felt=t.get('felt_bpm') if t else None, samples=[s.get('work') for s in (t.get('samples') or [])][:2] if t else None,
                               hook=t.get('hook_status') if t else None, hook_first=(t.get('hook_first'), t.get('hook_first_basis')) if t else None, opening=(t.get('opening_element'), t.get('opening_basis')) if t else None,

@@ -23,12 +23,12 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 | Median runtime | 3:30 (IQR 2:58–4:08; n=98) | 3:21 (IQR 2:19–4:25; n=11) | 3:34 (IQR 3:02–4:07; n=87) | 3:42 (IQR 3:03–4:18; n=55) | 3:17 (IQR 2:53–3:51; n=43) | 3:59 (IQR 3:10–4:20; n=41) | 3:21 (IQR 2:53–3:48; n=57) |
 | Runtime ≤ 3:00 | 25/98 | 4/11 | 21/87 | 13/55 | 12/43 | 7/41 | 18/57 |
 | Runtime ≥ 4:00 | 31/98 | 3/11 | 28/87 | 21/55 | 10/43 | 20/41 | 11/57 |
-| Median felt BPM | 74 (n=75) | 81 (n=10) | 74 (n=65) | 72 (n=46) | 80 (n=29) | 71.25 (n=30) | 77.5 (n=45) |
-| Half-time feel (grid ≈ 2× felt) | 54/75 | 5/10 | 49/65 | 35/46 | 19/29 | 26/30 | 28/45 |
-|   median felt, half-time | 71.5 | 70 | 71.5 | 70 | 74 | 70.0 | 72.0 |
-| Full-time feel | 21/75 | 5/10 | 16/65 | 11/46 | 10/29 | 4/30 | 17/45 |
-|   of which 95–115 bounce/pop-rap | 11/75 | 3/10 | 8/65 | 5/46 | 6/29 | 2/30 | 9/45 |
-| Documented sample / interpolation | 56/100 | 9/12 | 47/88 | 30/55 | 26/45 | 25/41 | 31/59 |
+| Median felt BPM | 74 (n=73) | 80 (n=9) | 74 (n=64) | 72 (n=45) | 78.75 (n=28) | 71.5 (n=29) | 76.25 (n=44) |
+| Half-time feel (grid ≈ 2× felt) | 53/73 | 5/9 | 48/64 | 34/45 | 19/28 | 25/29 | 28/44 |
+|   median felt, half-time | 71.5 | 70.0 | 71.5 | 70.0 | 74.0 | 70.0 | 72.0 |
+| Full-time feel | 20/73 | 4/9 | 16/64 | 11/45 | 9/28 | 4/29 | 16/44 |
+|   of which 95–115 bounce/pop-rap | 11/73 | 3/9 | 8/64 | 5/45 | 6/28 | 2/29 | 9/44 |
+| Documented sample / interpolation | 55/100 | 9/12 | 46/88 | 29/55 | 26/45 | 25/41 | 30/59 |
 | Credited featured artist | 43/100 | 1/12 | 42/88 | 26/55 | 17/45 | 17/41 | 26/59 |
 | Hook present — sourced / unverified | 32 / 21 | 6 / 5 | 26 / 16 | 12 / 11 | 20 / 10 | 10 / 5 | 22 / 16 |
 | No conventional hook (unverified) | 6 | 1 | 5 | 3 | 3 | 2 | 4 |
@@ -47,28 +47,32 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 ### M-1. Two felt-speed worlds: the half-time pocket around 70 felt, or full-time bounce around 100–107
 
 - **Count:**
-  - **53/75** tracks with a published tempo use a half-time feel (grid ≈ 2× felt), median felt **71.5 BPM** (IQR ≈ 65–77).
-  - **22/75** are full-time: **11** sit at 95–115 (bounce / pop-rap), **9** are verse-led beats below 95, and **2** are faster club tempos.
+  - **53/73** tracks with a usable published tempo use a half-time feel (grid ≈ 2× felt), median felt **71.5 BPM** (IQR ≈ 65–77).
+  - Two tracks whose tempo sources conflict are left out: "First Person Shooter" (it has a beat switch) and "Just Wanna Rock".
+  - **20/73** are full-time: **11** sit at 95–115 (bounce / pop-rap), **8** are verse-led beats below 95, and **1** is faster ("Super Freaky Girl", about 133).
 - **Examples:**
   - *Half-time:* "Barbie World", "I'm Dat N***a" and "Privileged Rappers" sit at **144/72**, the exact grid of the worked session. Also "Super Gremlin" 146/73, "Pushin P" 155/77.5, "Like That" 162/81, "Wait For U" 166/83.
   - *Full-time bounce:* "Not Like Us" 101, "TV Off" 100, "Hey Now" 102, "Squabble Up" 104, "Lovin On Me" 105, "First Class" 107, "Big Energy" 106.
-  - *Verse-led full-time:* "Wacced Out Murals" 82, "Reincarnated" 91, "7 Minute Drill" 85, "St. Chroma" 85, "Champagne Poetry" 87.
+  - *Verse-led full-time:* "Wacced Out Murals" 82, "Reincarnated" 91, "7 Minute Drill" 85, "Champagne Poetry" 87.
 - **Try it:**
   - Decide which world you're in *before* writing.
   - Clap 2 and 4 at the felt tempo and say your central phrase over it. If it only lands at one speed, that's your world.
   - In the half-time world, write lines that resolve on felt beats 2 and 4 (the snare), with room on the back half of beat 4. In the bounce world, more syllables fit per beat, so lean on internal rhyme.
 - **Exception that suggests a different choice:**
-  - "Just Wanna Rock" (Jersey club, about 150 full-time, 2:03) and "Super Freaky Girl" (sample at about 133) ride fast, fully felt pulses with very few words per bar.
+  - "Super Freaky Girl" (a sample at about 133) and "Just Wanna Rock" (Jersey club, listed around 150, though sources conflict; 2:03) ride fast, fully felt pulses with very few words per bar.
   - If your bars are dense, those tempos work against you. If your hook is a chant, they're an option.
 - **Flags:**
-  - The full-time group is concentrated: Kendrick Lamar accounts for **8 of 22** full-time tracks (four West Coast bounce cuts and four verse-led *GNX* and *Mr. Morale* cuts).
+  - The full-time group is concentrated: Kendrick Lamar accounts for **8 of 20** full-time tracks (four West Coast bounce cuts and four verse-led *GNX* and *Mr. Morale* cuts).
   - Tempo values come from published BPM listings, cross-checked across sites. Half/double-time readings are resolved by convention, so the felt values are inference where no source describes the feel.
+  - Songs with beat switches carry the single listed tempo, usually the opening section's. Values are rounded to the nearest BPM (felt to 0.5).
 
 ### M-2. Borrowed recognition: a sample or interpolation the listener half-knows
 
 - **Count:**
-  - A documented sample or interpolation in **56/100** songs.
+  - A credited, documented sample or interpolation in **55/100** songs.
   - Among the songs that **climbed** into the top 10: **9/12**.
+  - By type, the documented borrowings are mostly **samples** (53 entries), then **interpolations** (9, e.g. Lykke Li's melody on "Janice STFU", D4L's "Scotty" on "Hey Now"), **audio clips** of film or interview dialogue (5), and **self-reuse** (2, e.g. Drake reusing "Push Ups" on "Family Matters").
+  - "Man At The Garden" is not counted: it is reported only as an *uncredited* interpolation of Nas's "One Mic".
 - **Examples (the borrowed element is the hook or the first thing heard):**
   - "Paint The Town Red" — Dionne Warwick, "Walk On By"
   - "Big Energy" — Tom Tom Club, "Genius of Love"
@@ -94,7 +98,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 - **Count:** 12/100 climbed in; 88 debuted directly. Compared with the debuts:
   - **Guests:** credited feature in **1/12** climbers vs **42/88** debuts.
-  - **Samples:** documented sample in **9/12** vs **47/88**.
+  - **Samples:** credited sample or interpolation in **9/12** vs **46/88**.
   - **Staying power:** median weeks in the top 10 **5** vs **1**; median total chart weeks **31** vs **14**.
 - **Examples:**
   - "Paint The Town Red": 20 weeks in the top 10, climbed from #15.
@@ -120,7 +124,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 - **Count:**
   - A conventional hook is **sourced in 32** and present-but-unverified in 21.
-  - **No conventional hook** in **6** (from sources describing the structure; none confirmed by listening).
+  - **No conventional hook** reported for **6**. All six are unverified: weak sources or recollection, and none confirmed by listening.
   - Hook status is **unknown for 41**.
 - **The six no-hook songs:**
   - "Euphoria", "7 Minute Drill" and "Hiss" are diss records.
@@ -175,7 +179,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 ### M-7. Beat switches are an album-cut device
 
 - **Count:**
-  - A **sourced** beat switch in **15** tracks, plus 3 by recollection.
+  - A **sourced** beat switch in **15** tracks, plus 3 by recollection. That is a minimum, because no "no switch" answer is sourced.
   - Unknown for 64.
   - **10 of the 15 sourced** switches are on Drake-credited songs.
 - **Documented positions:**
@@ -269,5 +273,8 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 - **Grid BPM:** the DAW tempo convention; **felt BPM:** the rap-bar pulse. A half-time feel is coded when grid ≈ 2× felt. Published BPMs disagree by factors of two, so a felt value is a convention-based inference unless a source describes the feel.
 - **Style tags** (trap, West Coast bounce, boom-bap/verse-led, pop-rap, R&B-rap, drill, jersey club, rage) were assigned by the research agents from source descriptions and credits. They're descriptive, not Billboard categories.
-- **Hook-first** = the song's hook/chorus is heard before the first verse. Intros made of a sample, a tag or a spoken line count as "not hook-first" unless the hook itself comes first.
+- **Opening element** = the first thing heard. **Hook-first** = the hook/chorus arrives before the first rap verse; a short spoken line, tag or sample intro may come before it. So "Rich Flex" (a 21 Savage/Young Nudy skit, then Drake's sung hook) is coded opening = spoken intro and hook-first = yes.
+- **Negatives are never sourced** in this data set: every "no beat switch" and "no hook" is recollection or a weak source. Prevalence counts based on sourced "yes" answers are therefore minimums.
+- **Borrowings** are typed as sample, interpolation, audio clip or self-reuse. Only credited or sourced borrowings count toward M-2. The opening vocal loop of "Champagne Poetry" is widely reported to come from The Singers Unlimited's cover of "Michelle"; that was not verified here, and the table lists the Masego credit found by research.
+- **Runtimes** come from Wikipedia infoboxes or album track listings (one primary source per track). Streaming services can differ by ±1 s.
 - **Verification:** each album or group was re-checked by an independent agent with its own searches. In the reference table, ✔ = confirmed, ✎ = corrected, ⚠ = conflicting sources. Claims a verifier could not support were flagged and are not used as "sourced".

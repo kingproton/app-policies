@@ -97,6 +97,18 @@ for cid,rs in c['research'].items():
             rec['section_order'],rec['section_order_basis']=ssw['section_order'],ssw['section_order_basis']
         rec['structure_notes']=ssw.get('notable') or []
         rec['hook_device_sweep']=ssw.get('hook_device'); rec['return_anchor_sweep']=ssw.get('return_anchor')
+    # ---- critic-driven cleanups ----
+    if not rec.get('grid_bpm'): rec['tempo_status']='missing'; rec['felt_bpm']=None if not rec.get('felt_bpm') else rec['felt_bpm']
+    if rec.get('grid_bpm'): rec['grid_bpm']=round(float(rec['grid_bpm']))
+    if rec.get('felt_bpm'): rec['felt_bpm']=round(float(rec['felt_bpm'])*2)/2
+    if rec['title']=='Rich Flex':
+        rec['samples']=[{'work':"'Welcome to the Hive'; 'I Want You, Girl' (credited in Wikipedia's sample notes, per verifier)",'how_used':'Credited samples; the earlier \'unidentified soundtrack\' attribution was contradicted by the verifier.','source':'https://en.wikipedia.org/wiki/Rich_Flex'}]+[x for x in rec['samples'] if 'Megan' in (x.get('work') or '')]
+    for sm in rec['samples']:
+        hu=(sm.get('how_used') or '').lower()+' '+(sm.get('work') or '').lower()
+        sm['borrow_type']=('self-reuse' if ('own ' in hu or 'reuse' in hu or 'push ups' in hu) else
+                           'audio clip' if any(w in hu for w in ['film','talking','skit','speech','scene','monologue','interview']) else
+                           'interpolation' if 'interpol' in hu else 'sample')
+        sm['credited']=not any(w in hu for w in ['without credit','uncredited','not credited'])
     out[int(cid)]=rec
 json.dump(out,open(SP+'data/tracks_merged.json','w'),indent=1)
 print(len(out),'tracks merged;', sum(1 for x in out.values() if x['verified']),'with verification')
