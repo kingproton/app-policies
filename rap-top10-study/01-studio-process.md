@@ -164,5 +164,5 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 
 ## What this process cannot promise
 
-- **Superstar album launches dominate the reference set.** 87 of the 100 debuted directly in the top 10, 58 spent one week there, and Drake is lead artist on 37. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like, not what makes a song grow. The climbers subgroup is the better mirror for you ([M-3]).
+- **Superstar album launches dominate the reference set.** 88 of the 100 debuted directly in the top 10, 59 spent exactly one week there, and Drake is lead artist on 38. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like, not what makes a song grow. The climbers subgroup is the better mirror for you ([M-3]).
 - **Listening-level details are unknown for most tracks.** Exact first-vocal times, the silence after punchlines, and 808 changes came from text sources only. `05-codex-handoff.md` explains how to measure them from the audio.

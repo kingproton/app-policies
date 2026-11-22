@@ -29,11 +29,11 @@ COUNTS_TABLE_PLACEHOLDER
 
 - **Count:**
   - **53/75** tracks with a published tempo use a half-time feel (grid ≈ 2× felt), median felt **71.5 BPM** (IQR ≈ 65–77).
-  - **22/75** are full-time: **11** sit at 95–115 (bounce / pop-rap), most of the rest are verse-led beats below 95, and 2 are faster club tempos.
+  - **22/75** are full-time: **11** sit at 95–115 (bounce / pop-rap), **9** are verse-led beats below 95, and **2** are faster club tempos.
 - **Examples:**
   - *Half-time:* "Barbie World", "I'm Dat N***a" and "Privileged Rappers" sit at **144/72**, the exact grid of the worked session. Also "Super Gremlin" 146/73, "Pushin P" 155/77.5, "Like That" 162/81, "Wait For U" 166/83.
   - *Full-time bounce:* "Not Like Us" 101, "TV Off" 100, "Hey Now" 102, "Squabble Up" 104, "Lovin On Me" 105, "First Class" 107, "Big Energy" 106.
-  - *Verse-led full-time:* "Wacced Out Murals" 82, "Reincarnated" 91, "7 Minute Drill" 85, "Champagne Poetry" 87.
+  - *Verse-led full-time:* "Wacced Out Murals" 82, "Reincarnated" 91, "7 Minute Drill" 85, "St. Chroma" 85, "Champagne Poetry" 87.
 - **Try it:**
   - Decide which world you're in *before* writing.
   - Clap 2 and 4 at the felt tempo and say your central phrase over it. If it only lands at one speed, that's your world.
@@ -213,7 +213,7 @@ COUNTS_TABLE_PLACEHOLDER
 
 - **Chart pattern:**
   - **88/100** debuted in the top 10.
-  - **58/100** spent exactly one week there.
+  - **59/100** spent exactly one week there.
   - **55/100** are album-bomb cuts, and 35 of those 55 lasted one week.
 - **Artist concentration:**
   - **Drake** is lead artist on **38**.
