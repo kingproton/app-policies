@@ -80,7 +80,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **What the hits show:**
   - **[M-4]** Most assessed songs have a conventional hook.
   - **[M-4]** The documented exceptions are verse-led statement records, mostly diss or feud records, where the context did the hook's job.
-  - **[M-5]** What listeners hear first is more often a borrowed sound or a spoken frame than a rap verse. Hook-first and verse-first are split about evenly where it's documented.
+  - **[M-5]** What listeners hear first is usually a borrowed sound: 17 of the 34 sourced openings are a sample or interpolation. Where it's documented, hook-first slightly outnumbers verse-first (11 vs 8 sourced). When the hook *is* a sample, the hit opens on it ("Luther", "Wait For U", "Paint The Town Red", "Super Gremlin").
   - **[M-3]** The songs that **climbed** into the top 10, rather than debuting there, are the closest match to an independent release. They're mostly solo and built on a recognizable device.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* image-first is viable, but plan the return anchor. [M-4][J]

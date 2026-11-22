@@ -17,7 +17,26 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 ## Measured counts at a glance
 
-COUNTS_TABLE_PLACEHOLDER
+| Measure | All 100 | Climbed into top 10 | Debuted in top 10 | Album-bomb cuts | Not album-bomb | Drake credited | No Drake |
+|---|---|---|---|---|---|---|---|
+| Songs / studied | 100 / 100 | 12 / 12 | 88 / 88 | 55 / 55 | 45 / 45 | 41 / 41 | 59 / 59 |
+| Median runtime | 3:30 (IQR 2:58–4:08; n=98) | 3:21 (IQR 2:19–4:25; n=11) | 3:34 (IQR 3:02–4:07; n=87) | 3:42 (IQR 3:03–4:18; n=55) | 3:17 (IQR 2:53–3:51; n=43) | 3:59 (IQR 3:10–4:20; n=41) | 3:21 (IQR 2:53–3:48; n=57) |
+| Runtime ≤ 3:00 | 25/98 | 4/11 | 21/87 | 13/55 | 12/43 | 7/41 | 18/57 |
+| Runtime ≥ 4:00 | 31/98 | 3/11 | 28/87 | 21/55 | 10/43 | 20/41 | 11/57 |
+| Median felt BPM | 74 (n=75) | 81 (n=10) | 74 (n=65) | 72 (n=46) | 80 (n=29) | 71.25 (n=30) | 77.5 (n=45) |
+| Half-time feel (grid ≈ 2× felt) | 54/75 | 5/10 | 49/65 | 35/46 | 19/29 | 26/30 | 28/45 |
+|   median felt, half-time | 71.5 | 70 | 71.5 | 70 | 74 | 70.0 | 72.0 |
+| Full-time feel | 21/75 | 5/10 | 16/65 | 11/46 | 10/29 | 4/30 | 17/45 |
+|   of which 95–115 bounce/pop-rap | 11/75 | 3/10 | 8/65 | 5/46 | 6/29 | 2/30 | 9/45 |
+| Documented sample / interpolation | 56/100 | 9/12 | 47/88 | 30/55 | 26/45 | 25/41 | 31/59 |
+| Credited featured artist | 43/100 | 1/12 | 42/88 | 26/55 | 17/45 | 17/41 | 26/59 |
+| Hook present — sourced / unverified | 32 / 21 | 6 / 5 | 26 / 16 | 12 / 11 | 20 / 10 | 10 / 5 | 22 / 16 |
+| No conventional hook (unverified) | 6 | 1 | 5 | 3 | 3 | 2 | 4 |
+| Hook status unknown | 41 | 0 | 41 | 29 | 12 | 24 | 17 |
+| Opens on hook — sourced yes / no | 11 / 8 | 2 / 3 | 9 / 5 | 4 / 1 | 7 / 7 | 5 / 1 | 6 / 7 |
+| Opens on hook — recollection yes / no | 4 / 8 | 2 / 0 | 2 / 8 | 1 / 5 | 3 / 3 | 1 / 2 | 3 / 6 |
+| Beat switch — sourced / recollection | 15 / 3 | 1 / 0 | 14 / 3 | 7 / 3 | 8 / 0 | 10 / 2 | 5 / 1 |
+| Beat switch unknown | 64 | 5 | 59 | 41 | 23 | 27 | 37 |
 
 *Album-bomb* = a song that first entered the top 10 in the same chart week as at least two other songs by the same lead artist (an album-release week). *Climbed* = the song charted below the top 10 before first entering it.
 
@@ -100,41 +119,40 @@ COUNTS_TABLE_PLACEHOLDER
 ### M-4. Most hits have a hook; the documented no-hook hits are statement records
 
 - **Count:**
-  - A conventional hook is **sourced in 26** and present-but-unverified in 24.
-  - **No conventional hook** in **5** (all from sources describing the structure, none confirmed by listening).
-  - Hook status is **unknown for 45**.
-- **The five no-hook songs:**
+  - A conventional hook is **sourced in 32** and present-but-unverified in 21.
+  - **No conventional hook** in **6** (from sources describing the structure; none confirmed by listening).
+  - Hook status is **unknown for 41**.
+- **The six no-hook songs:**
   - "Euphoria", "7 Minute Drill" and "Hiss" are diss records.
   - "United In Grief" and "Champagne Poetry" are album openers.
+  - "Jimmy Cooks" is a two-part closer built on its beat switch.
   - "Hiss" uses a spoken intro and a spoken break between verses where a chorus would sit. "Euphoria" escalates through beat changes.
 - **Try it:**
   - If you go hookless, build a **return anchor**: a spoken frame that comes back, a beat change, or one line repeated as a refrain.
   - Make the record's context obvious: the target, the occasion, the stakes.
 - **Exception:** "Man At The Garden" turns one repeated claim into the whole structure, a *litany* hook. That's a middle path between chorus and no chorus.
-- **Flags:** three of the five are diss records. Two come from the same 2024 Kendrick Lamar–Drake–J. Cole feud ("Euphoria", "7 Minute Drill"); "Hiss" is a separate diss record.
+- **Flags:** three of the six are diss records. Two come from the same 2024 Kendrick Lamar–Drake–J. Cole feud ("Euphoria", "7 Minute Drill"); "Hiss" is a separate diss record.
 
-### M-5. What the listener hears first: more often a borrowed sound or a spoken frame than a rap verse; hook-first vs verse-first is split
+### M-5. What the listener hears first is usually a borrowed sound; when the hook *is* that sound, the song opens on it
 
-- **Count:** a sourced opening exists for **24** tracks:
-  - **12** open on a sample or interpolation;
-  - **6** on a spoken or ad-lib intro;
+- **Count:** a sourced opening exists for **34** tracks:
+  - **17** open on a sample or interpolation;
+  - **7** on a spoken or ad-lib intro;
   - **3** on a rap verse;
-  - **2** on the hook;
-  - **1** on a sung intro, and **1** on a producer tag ("Tomorrow 2").
-- **Does the song open with its hook?**
-  - Sourced: **6 yes / 6 no**.
-  - Unverified recollection adds 6 yes / 7 no.
-  - No first-vocal or first-hook **timestamp** was documented for any song.
-- **Examples:**
-  - *Sample-first:* "Super Gremlin", "Paint The Town Red", "Way 2 Sexy".
-  - *Spoken or sung frame:* "Hiss" (a spoken intro), "Rich Flex" (Drake's sung call to 21 Savage).
-  - *Hook-first:* "Family Matters" (a ~15 s opening chorus before the first beat switch), "Staying Alive".
-  - *Verse-first:* "Pushin P", where Gunna and Future trade lines inside one opening verse.
+  - **2** on the hook itself;
+  - **2** on a sung intro;
+  - **2** on a producer tag;
+  - **1** on an instrumental build.
+- **Does the song open with its hook?** Sourced for 19 tracks: **11 yes / 8 no**. Unverified recollection adds 4 yes / 8 no.
+- **Sample = hook = first sound:** 5 of the 11 sourced hook-first songs open directly on a sample that *is* the hook ("Luther", "Wait For U", "Paint The Town Red", "Super Gremlin", "Carnival"). "First Class" gets to its sampled chorus after a very brief spoken intro.
+- **Verse-first openings:** mostly diss or statement records ("Hiss", "Euphoria"), hand-off verses ("Pushin P"), or feature-led album cuts ("Nee-nah", "Sticky").
+- **Timestamps:** no first-vocal or first-hook timestamp was documented for any song.
 - **Try it:**
   - Whatever comes first, make it **identifiable within the first 4 grid bars**.
-  - Use a recognition device (M-2), a spoken line, or the title phrase. The worked session's two openings test exactly this choice.
+  - If your hook is built on a recognition device (M-2), open on the device.
+  - If your record is a statement, open on your sharpest image and earn the hook. The worked session's Opening A and Opening B test exactly this choice.
 - **Exception:** "Evil J0rdan" opens on an instrumental build. That only works when the beat itself is the recognizable element.
-- **Flags:** coverage is thin, so treat this as directional. The audio handoff in file 05 measures it properly.
+- **Flags:** coverage is partial: 34 sourced openings and 19 sourced hook-first answers out of 100. Treat the split as directional. The audio handoff in file 05 measures it properly.
 
 ### M-6. The main change when a section returns is a *new voice*
 
@@ -157,18 +175,19 @@ COUNTS_TABLE_PLACEHOLDER
 ### M-7. Beat switches are an album-cut device
 
 - **Count:**
-  - A **sourced** beat switch in **14** tracks, plus 3 by recollection.
-  - Unknown for 70.
-  - **10 of the 14 sourced** switches are on Drake-credited songs.
+  - A **sourced** beat switch in **15** tracks, plus 3 by recollection.
+  - Unknown for 64.
+  - **10 of the 15 sourced** switches are on Drake-credited songs.
 - **Documented positions:**
   - "TV Off": about **2:00**, cued by Kendrick shouting the producer's name as the part-2 percussion fades in.
   - "Family Matters": about **0:15**, after the opening chorus, with further switches for later verses.
+  - "Not Like Us": one source (The Root) says the sampled bed runs through the first half before the beat switches; no time given.
   - Others ("Meltdown", "First Person Shooter", "Rich Flex", "Jimmy Cooks", "7 Minute Drill") have no documented time.
 - **Try it:**
   - On a single, use the *small* version: a one-felt-bar drop or a vocal-only bar before the last hook.
   - Save a full beat switch for a statement record, or for verse 2 of a long song.
 - **Exception:** the climbers and pop-rap singles ("Lovin On Me", "First Class", "Big Energy") have no documented switch. They loop one bed and change the vocal layer instead.
-- **Flags:** **Dominated by Drake** (10/14 sourced switches are Drake-credited, including "Meltdown" with Travis Scott). The other four are Kendrick Lamar ("TV Off", "Euphoria"), J. Cole ("7 Minute Drill") and Metro Boomin/Future ("Superhero").
+- **Flags:** **Dominated by Drake** (10/15 sourced switches are Drake-credited, including "Meltdown" with Travis Scott). The other five are Kendrick Lamar ("TV Off", "Euphoria", "Not Like Us"), J. Cole ("7 Minute Drill") and Metro Boomin/Future ("Superhero").
 
 ### M-8. Runtime: album-bomb cuts run long; everything else sits nearer 3:15–3:25
 

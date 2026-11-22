@@ -1,0 +1,2639 @@
+{
+ "1": {
+  "cid": 1,
+  "title": "Babydoll",
+  "first_chart_week": "2026-02-21",
+  "first_top10": "2026-10-24",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 13,
+  "weeks_to_top10": 35,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 40,
+  "last_chart_week": "2026-11-21",
+  "artist_credits": [
+   "Dominic Fike"
+  ]
+ },
+ "2": {
+  "cid": 2,
+  "title": "Solar Eclipse",
+  "first_chart_week": "2026-10-17",
+  "first_top10": "2026-10-17",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2026-11-21",
+  "artist_credits": [
+   "Drake & Don Toliver"
+  ]
+ },
+ "3": {
+  "cid": 3,
+  "title": "Nicole Kidman",
+  "first_chart_week": "2026-09-19",
+  "first_top10": "2026-10-17",
+  "rank_first_top10": 9,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 4,
+  "peak": 6,
+  "weeks_in_top10": 6,
+  "total_weeks": 10,
+  "last_chart_week": "2026-11-21",
+  "artist_credits": [
+   "ADELA"
+  ]
+ },
+ "4": {
+  "cid": 4,
+  "title": "Boston",
+  "first_chart_week": "2026-04-18",
+  "first_top10": "2026-07-25",
+  "rank_first_top10": 6,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 14,
+  "peak": 2,
+  "weeks_in_top10": 18,
+  "total_weeks": 32,
+  "last_chart_week": "2026-11-21",
+  "artist_credits": [
+   "Stella Lefty"
+  ]
+ },
+ "5": {
+  "cid": 5,
+  "title": "Janice STFU",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 8,
+  "total_weeks": 26,
+  "last_chart_week": "2026-11-21",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "6": {
+  "cid": 6,
+  "title": "Ran To Atlanta",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 2,
+  "total_weeks": 16,
+  "last_chart_week": "2026-09-19",
+  "artist_credits": [
+   "Drake Featuring Future & Molly Santana"
+  ]
+ },
+ "7": {
+  "cid": 7,
+  "title": "Whisper My Name",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 2,
+  "total_weeks": 11,
+  "last_chart_week": "2026-08-08",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "8": {
+  "cid": 8,
+  "title": "Shabang",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 3,
+  "total_weeks": 20,
+  "last_chart_week": "2026-10-10",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "9": {
+  "cid": 9,
+  "title": "National Treasures",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2026-09-05",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "10": {
+  "cid": 10,
+  "title": "Make Them Cry",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2026-06-20",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "11": {
+  "cid": 11,
+  "title": "Dust",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2026-07-04",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "12": {
+  "cid": 12,
+  "title": "2 Hard 4 The Radio",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2026-08-29",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "13": {
+  "cid": 13,
+  "title": "Make Them Pay",
+  "first_chart_week": "2026-05-30",
+  "first_top10": "2026-05-30",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2026-07-04",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "14": {
+  "cid": 14,
+  "title": "Stateside",
+  "first_chart_week": "2026-01-17",
+  "first_top10": "2026-03-14",
+  "rank_first_top10": 7,
+  "debut_in_top10": false,
+  "climbed_from": 13,
+  "weeks_to_top10": 8,
+  "peak": 6,
+  "weeks_in_top10": 7,
+  "total_weeks": 31,
+  "last_chart_week": "2026-08-15",
+  "artist_credits": [
+   "PinkPantheress With Zara Larsson"
+  ]
+ },
+ "15": {
+  "cid": 15,
+  "title": "Folded",
+  "first_chart_week": "2025-06-28",
+  "first_top10": "2025-11-08",
+  "rank_first_top10": 7,
+  "debut_in_top10": false,
+  "climbed_from": 14,
+  "weeks_to_top10": 19,
+  "peak": 6,
+  "weeks_in_top10": 19,
+  "total_weeks": 52,
+  "last_chart_week": "2026-06-20",
+  "artist_credits": [
+   "Kehlani"
+  ]
+ },
+ "16": {
+  "cid": 16,
+  "title": "Mutt",
+  "first_chart_week": "2025-02-08",
+  "first_top10": "2025-11-01",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 18,
+  "weeks_to_top10": 37,
+  "peak": 6,
+  "weeks_in_top10": 8,
+  "total_weeks": 52,
+  "last_chart_week": "2026-02-14",
+  "artist_credits": [
+   "Leon Thomas"
+  ]
+ },
+ "17": {
+  "cid": 17,
+  "title": "What Did I Miss?",
+  "first_chart_week": "2025-07-19",
+  "first_top10": "2025-07-19",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 2,
+  "total_weeks": 19,
+  "last_chart_week": "2026-07-11",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "18": {
+  "cid": 18,
+  "title": "Outside",
+  "first_chart_week": "2025-07-05",
+  "first_top10": "2025-07-05",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 19,
+  "last_chart_week": "2025-11-08",
+  "artist_credits": [
+   "Cardi B"
+  ]
+ },
+ "19": {
+  "cid": 19,
+  "title": "All The Way",
+  "first_chart_week": "2025-04-19",
+  "first_top10": "2025-04-19",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 2,
+  "total_weeks": 27,
+  "last_chart_week": "2025-10-18",
+  "artist_credits": [
+   "BigXthaPlug Featuring Bailey Zimmerman"
+  ]
+ },
+ "20": {
+  "cid": 20,
+  "title": "Evil J0rdan",
+  "first_chart_week": "2025-03-29",
+  "first_top10": "2025-03-29",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2025-04-26",
+  "artist_credits": [
+   "Playboi Carti"
+  ]
+ },
+ "21": {
+  "cid": 21,
+  "title": "Rather Lie",
+  "first_chart_week": "2025-03-29",
+  "first_top10": "2025-03-29",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 23,
+  "last_chart_week": "2025-08-30",
+  "artist_credits": [
+   "Playboi Carti & The Weeknd"
+  ]
+ },
+ "22": {
+  "cid": 22,
+  "title": "Anxiety",
+  "first_chart_week": "2025-03-22",
+  "first_top10": "2025-03-29",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 13,
+  "weeks_to_top10": 1,
+  "peak": 9,
+  "weeks_in_top10": 4,
+  "total_weeks": 20,
+  "last_chart_week": "2025-08-02",
+  "artist_credits": [
+   "Doechii"
+  ]
+ },
+ "23": {
+  "cid": 23,
+  "title": "Gimme A Hug",
+  "first_chart_week": "2025-03-01",
+  "first_top10": "2025-03-01",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 11,
+  "last_chart_week": "2025-05-10",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "24": {
+  "cid": 24,
+  "title": "Nokia",
+  "first_chart_week": "2025-03-01",
+  "first_top10": "2025-03-01",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 13,
+  "total_weeks": 27,
+  "last_chart_week": "2025-08-30",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "25": {
+  "cid": 25,
+  "title": "30 For 30",
+  "first_chart_week": "2025-01-04",
+  "first_top10": "2025-02-22",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 22,
+  "weeks_to_top10": 7,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 36,
+  "last_chart_week": "2025-09-06",
+  "artist_credits": [
+   "SZA With Kendrick Lamar"
+  ]
+ },
+ "26": {
+  "cid": 26,
+  "title": "4X4",
+  "first_chart_week": "2025-02-08",
+  "first_top10": "2025-02-08",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2025-03-01",
+  "artist_credits": [
+   "Travis Scott"
+  ]
+ },
+ "27": {
+  "cid": 27,
+  "title": "Squabble Up",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 6,
+  "total_weeks": 30,
+  "last_chart_week": "2025-06-28",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "28": {
+  "cid": 28,
+  "title": "TV Off",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 9,
+  "total_weeks": 31,
+  "last_chart_week": "2025-07-05",
+  "artist_credits": [
+   "Kendrick Lamar Featuring Lefty Gunplay"
+  ]
+ },
+ "29": {
+  "cid": 29,
+  "title": "Luther",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 32,
+  "total_weeks": 46,
+  "last_chart_week": "2025-10-18",
+  "artist_credits": [
+   "Kendrick Lamar & SZA"
+  ]
+ },
+ "30": {
+  "cid": 30,
+  "title": "Wacced Out Murals",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 7,
+  "last_chart_week": "2025-02-22",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "31": {
+  "cid": 31,
+  "title": "Hey Now",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2025-03-08",
+  "artist_credits": [
+   "Kendrick Lamar Featuring Dody6"
+  ]
+ },
+ "32": {
+  "cid": 32,
+  "title": "Reincarnated",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2024-12-28",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "33": {
+  "cid": 33,
+  "title": "Man At The Garden",
+  "first_chart_week": "2024-12-07",
+  "first_top10": "2024-12-07",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2024-12-28",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "34": {
+  "cid": 34,
+  "title": "Sticky",
+  "first_chart_week": "2024-11-09",
+  "first_top10": "2024-11-16",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 14,
+  "weeks_to_top10": 1,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 20,
+  "last_chart_week": "2025-03-22",
+  "artist_credits": [
+   "Tyler, The Creator Featuring GloRilla, Sexyy Red & Lil Wayne"
+  ]
+ },
+ "35": {
+  "cid": 35,
+  "title": "St. Chroma",
+  "first_chart_week": "2024-11-09",
+  "first_top10": "2024-11-09",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 9,
+  "last_chart_week": "2025-01-11",
+  "artist_credits": [
+   "Tyler, The Creator Featuring Daniel Caesar"
+  ]
+ },
+ "36": {
+  "cid": 36,
+  "title": "Noid",
+  "first_chart_week": "2024-11-02",
+  "first_top10": "2024-11-09",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 43,
+  "weeks_to_top10": 1,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2024-11-30",
+  "artist_credits": [
+   "Tyler, The Creator"
+  ]
+ },
+ "37": {
+  "cid": 37,
+  "title": "Timeless",
+  "first_chart_week": "2024-10-12",
+  "first_top10": "2024-10-12",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 2,
+  "total_weeks": 41,
+  "last_chart_week": "2025-07-19",
+  "artist_credits": [
+   "The Weeknd & Playboi Carti"
+  ]
+ },
+ "38": {
+  "cid": 38,
+  "title": "Houdini",
+  "first_chart_week": "2024-06-15",
+  "first_top10": "2024-06-15",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 3,
+  "total_weeks": 20,
+  "last_chart_week": "2024-10-26",
+  "artist_credits": [
+   "Eminem"
+  ]
+ },
+ "39": {
+  "cid": 39,
+  "title": "Not Like Us",
+  "first_chart_week": "2024-05-18",
+  "first_top10": "2024-05-18",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 28,
+  "total_weeks": 53,
+  "last_chart_week": "2025-05-24",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "40": {
+  "cid": 40,
+  "title": "Euphoria",
+  "first_chart_week": "2024-05-11",
+  "first_top10": "2024-05-18",
+  "rank_first_top10": 3,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 1,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 17,
+  "last_chart_week": "2025-02-22",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "41": {
+  "cid": 41,
+  "title": "Family Matters",
+  "first_chart_week": "2024-05-18",
+  "first_top10": "2024-05-18",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2024-06-22",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "42": {
+  "cid": 42,
+  "title": "Million Dollar Baby",
+  "first_chart_week": "2024-05-11",
+  "first_top10": "2024-05-11",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 17,
+  "total_weeks": 33,
+  "last_chart_week": "2025-01-18",
+  "artist_credits": [
+   "Tommy Richman"
+  ]
+ },
+ "43": {
+  "cid": 43,
+  "title": "A Bar Song (Tipsy)",
+  "first_chart_week": "2024-04-27",
+  "first_top10": "2024-05-11",
+  "rank_first_top10": 3,
+  "debut_in_top10": false,
+  "climbed_from": 27,
+  "weeks_to_top10": 2,
+  "peak": 1,
+  "weeks_in_top10": 66,
+  "total_weeks": 77,
+  "last_chart_week": "2025-10-11",
+  "artist_credits": [
+   "Shaboozey"
+  ]
+ },
+ "44": {
+  "cid": 44,
+  "title": "7 Minute Drill",
+  "first_chart_week": "2024-04-20",
+  "first_top10": "2024-04-20",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 1,
+  "last_chart_week": "2024-04-20",
+  "artist_credits": [
+   "J. Cole"
+  ]
+ },
+ "45": {
+  "cid": 45,
+  "title": "Like That",
+  "first_chart_week": "2024-04-06",
+  "first_top10": "2024-04-06",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 7,
+  "total_weeks": 32,
+  "last_chart_week": "2025-02-22",
+  "artist_credits": [
+   "Future, Metro Boomin & Kendrick Lamar"
+  ]
+ },
+ "46": {
+  "cid": 46,
+  "title": "Type Shit",
+  "first_chart_week": "2024-04-06",
+  "first_top10": "2024-04-06",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 3,
+  "total_weeks": 20,
+  "last_chart_week": "2024-08-17",
+  "artist_credits": [
+   "Future, Metro Boomin, Travis Scott & Playboi Carti"
+  ]
+ },
+ "47": {
+  "cid": 47,
+  "title": "Cinderella",
+  "first_chart_week": "2024-04-06",
+  "first_top10": "2024-04-06",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 8,
+  "last_chart_week": "2024-05-25",
+  "artist_credits": [
+   "Future, Metro Boomin & Travis Scott"
+  ]
+ },
+ "48": {
+  "cid": 48,
+  "title": "We Don't Trust You",
+  "first_chart_week": "2024-04-06",
+  "first_top10": "2024-04-06",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2024-04-27",
+  "artist_credits": [
+   "Future & Metro Boomin"
+  ]
+ },
+ "49": {
+  "cid": 49,
+  "title": "Young Metro",
+  "first_chart_week": "2024-04-06",
+  "first_top10": "2024-04-06",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2024-04-27",
+  "artist_credits": [
+   "Future, Metro Boomin & The Weeknd"
+  ]
+ },
+ "50": {
+  "cid": 50,
+  "title": "Enough (Miami)",
+  "first_chart_week": "2024-03-30",
+  "first_top10": "2024-03-30",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2024-06-29",
+  "artist_credits": [
+   "Cardi B"
+  ]
+ },
+ "51": {
+  "cid": 51,
+  "title": "Act II: Date @ 8",
+  "first_chart_week": "2024-01-20",
+  "first_top10": "2024-03-23",
+  "rank_first_top10": 7,
+  "debut_in_top10": false,
+  "climbed_from": 61,
+  "weeks_to_top10": 9,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 20,
+  "last_chart_week": "2024-06-01",
+  "artist_credits": [
+   "4Batz",
+   "4Batz Featuring Drake"
+  ]
+ },
+ "52": {
+  "cid": 52,
+  "title": "Carnival",
+  "first_chart_week": "2024-02-24",
+  "first_top10": "2024-02-24",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 6,
+  "total_weeks": 19,
+  "last_chart_week": "2024-06-29",
+  "artist_credits": [
+   "\u00a5$: Kanye West & Ty Dolla $ign Featuring Rich The Kid & Playboi Carti",
+   "\u00a5$: Ye & Ty Dolla $ign Featuring Rich The Kid & Playboi Carti"
+  ]
+ },
+ "53": {
+  "cid": 53,
+  "title": "Hiss",
+  "first_chart_week": "2024-02-10",
+  "first_top10": "2024-02-10",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2024-03-16",
+  "artist_credits": [
+   "Megan Thee Stallion"
+  ]
+ },
+ "54": {
+  "cid": 54,
+  "title": "Redrum",
+  "first_chart_week": "2024-01-27",
+  "first_top10": "2024-01-27",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 3,
+  "total_weeks": 20,
+  "last_chart_week": "2024-06-08",
+  "artist_credits": [
+   "21 Savage"
+  ]
+ },
+ "55": {
+  "cid": 55,
+  "title": "Nee-nah",
+  "first_chart_week": "2024-01-27",
+  "first_top10": "2024-01-27",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 10,
+  "last_chart_week": "2024-03-30",
+  "artist_credits": [
+   "21 Savage, Travis Scott & Metro Boomin"
+  ]
+ },
+ "56": {
+  "cid": 56,
+  "title": "Agora Hills",
+  "first_chart_week": "2023-10-07",
+  "first_top10": "2024-01-13",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 35,
+  "weeks_to_top10": 14,
+  "peak": 7,
+  "weeks_in_top10": 7,
+  "total_weeks": 39,
+  "last_chart_week": "2024-06-29",
+  "artist_credits": [
+   "Doja Cat"
+  ]
+ },
+ "57": {
+  "cid": 57,
+  "title": "Water",
+  "first_chart_week": "2023-10-14",
+  "first_top10": "2023-12-02",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 15,
+  "weeks_to_top10": 7,
+  "peak": 7,
+  "weeks_in_top10": 3,
+  "total_weeks": 29,
+  "last_chart_week": "2024-04-27",
+  "artist_credits": [
+   "Tyla"
+  ]
+ },
+ "58": {
+  "cid": 58,
+  "title": "Lovin On Me",
+  "first_chart_week": "2023-11-25",
+  "first_top10": "2023-11-25",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 23,
+  "total_weeks": 38,
+  "last_chart_week": "2024-08-10",
+  "artist_credits": [
+   "Jack Harlow"
+  ]
+ },
+ "59": {
+  "cid": 59,
+  "title": "First Person Shooter",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 2,
+  "total_weeks": 20,
+  "last_chart_week": "2024-03-02",
+  "artist_credits": [
+   "Drake Featuring J. Cole"
+  ]
+ },
+ "60": {
+  "cid": 60,
+  "title": "IDGAF",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 3,
+  "total_weeks": 20,
+  "last_chart_week": "2024-03-02",
+  "artist_credits": [
+   "Drake Featuring Yeat"
+  ]
+ },
+ "61": {
+  "cid": 61,
+  "title": "Virginia Beach",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2024-02-03",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "62": {
+  "cid": 62,
+  "title": "Calling For You",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2023-12-02",
+  "artist_credits": [
+   "Drake Featuring 21 Savage"
+  ]
+ },
+ "63": {
+  "cid": 63,
+  "title": "Daylight",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2023-11-04",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "64": {
+  "cid": 64,
+  "title": "Fear Of Heights",
+  "first_chart_week": "2023-10-21",
+  "first_top10": "2023-10-21",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2023-11-04",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "65": {
+  "cid": 65,
+  "title": "3D",
+  "first_chart_week": "2023-10-14",
+  "first_top10": "2023-10-14",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 9,
+  "last_chart_week": "2023-12-16",
+  "artist_credits": [
+   "Jung Kook & Jack Harlow"
+  ]
+ },
+ "66": {
+  "cid": 66,
+  "title": "Slime You Out",
+  "first_chart_week": "2023-09-30",
+  "first_top10": "2023-09-30",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 2,
+  "total_weeks": 14,
+  "last_chart_week": "2024-01-20",
+  "artist_credits": [
+   "Drake Featuring SZA"
+  ]
+ },
+ "67": {
+  "cid": 67,
+  "title": "Paint The Town Red",
+  "first_chart_week": "2023-08-19",
+  "first_top10": "2023-09-02",
+  "rank_first_top10": 5,
+  "debut_in_top10": false,
+  "climbed_from": 15,
+  "weeks_to_top10": 2,
+  "peak": 1,
+  "weeks_in_top10": 20,
+  "total_weeks": 37,
+  "last_chart_week": "2024-04-27",
+  "artist_credits": [
+   "Doja Cat"
+  ]
+ },
+ "68": {
+  "cid": 68,
+  "title": "Meltdown",
+  "first_chart_week": "2023-08-12",
+  "first_top10": "2023-08-12",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 19,
+  "last_chart_week": "2023-12-16",
+  "artist_credits": [
+   "Travis Scott Featuring Drake"
+  ]
+ },
+ "69": {
+  "cid": 69,
+  "title": "FE!N",
+  "first_chart_week": "2023-08-12",
+  "first_top10": "2023-08-12",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 32,
+  "last_chart_week": "2024-06-22",
+  "artist_credits": [
+   "Travis Scott Featuring Playboi Carti"
+  ]
+ },
+ "70": {
+  "cid": 70,
+  "title": "K-POP",
+  "first_chart_week": "2023-08-05",
+  "first_top10": "2023-08-05",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 8,
+  "last_chart_week": "2023-09-23",
+  "artist_credits": [
+   "Travis Scott, Bad Bunny & The Weeknd"
+  ]
+ },
+ "71": {
+  "cid": 71,
+  "title": "Seven",
+  "first_chart_week": "2023-07-29",
+  "first_top10": "2023-07-29",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 2,
+  "total_weeks": 15,
+  "last_chart_week": "2023-11-25",
+  "artist_credits": [
+   "Jung Kook Featuring Latto"
+  ]
+ },
+ "72": {
+  "cid": 72,
+  "title": "Fukumean",
+  "first_chart_week": "2023-07-01",
+  "first_top10": "2023-07-15",
+  "rank_first_top10": 8,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 2,
+  "peak": 4,
+  "weeks_in_top10": 15,
+  "total_weeks": 32,
+  "last_chart_week": "2024-02-17",
+  "artist_credits": [
+   "Gunna"
+  ]
+ },
+ "73": {
+  "cid": 73,
+  "title": "Barbie World",
+  "first_chart_week": "2023-07-08",
+  "first_top10": "2023-07-08",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 6,
+  "total_weeks": 21,
+  "last_chart_week": "2023-11-25",
+  "artist_credits": [
+   "Nicki Minaj & Ice Spice With Aqua"
+  ]
+ },
+ "74": {
+  "cid": 74,
+  "title": "All My Life",
+  "first_chart_week": "2023-05-27",
+  "first_top10": "2023-05-27",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 10,
+  "total_weeks": 24,
+  "last_chart_week": "2023-11-04",
+  "artist_credits": [
+   "Lil Durk Featuring J. Cole"
+  ]
+ },
+ "75": {
+  "cid": 75,
+  "title": "Favorite Song",
+  "first_chart_week": "2023-03-04",
+  "first_top10": "2023-05-20",
+  "rank_first_top10": 8,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 11,
+  "peak": 5,
+  "weeks_in_top10": 9,
+  "total_weeks": 27,
+  "last_chart_week": "2023-09-02",
+  "artist_credits": [
+   "Toosii"
+  ]
+ },
+ "76": {
+  "cid": 76,
+  "title": "Princess Diana",
+  "first_chart_week": "2023-04-29",
+  "first_top10": "2023-04-29",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 20,
+  "last_chart_week": "2023-09-09",
+  "artist_credits": [
+   "Ice Spice & Nicki Minaj"
+  ]
+ },
+ "77": {
+  "cid": 77,
+  "title": "Search & Rescue",
+  "first_chart_week": "2023-04-22",
+  "first_top10": "2023-04-22",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 2,
+  "total_weeks": 20,
+  "last_chart_week": "2023-09-02",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "78": {
+  "cid": 78,
+  "title": "Players",
+  "first_chart_week": "2023-01-14",
+  "first_top10": "2023-04-01",
+  "rank_first_top10": 9,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 11,
+  "peak": 9,
+  "weeks_in_top10": 3,
+  "total_weeks": 26,
+  "last_chart_week": "2023-07-08",
+  "artist_credits": [
+   "Coi Leray"
+  ]
+ },
+ "79": {
+  "cid": 79,
+  "title": "Calm Down",
+  "first_chart_week": "2022-09-17",
+  "first_top10": "2023-03-25",
+  "rank_first_top10": 8,
+  "debut_in_top10": false,
+  "climbed_from": 19,
+  "weeks_to_top10": 27,
+  "peak": 3,
+  "weeks_in_top10": 27,
+  "total_weeks": 57,
+  "last_chart_week": "2023-10-14",
+  "artist_credits": [
+   "Rema & Selena Gomez"
+  ]
+ },
+ "80": {
+  "cid": 80,
+  "title": "Boy's A Liar, Pt. 2",
+  "first_chart_week": "2023-02-18",
+  "first_top10": "2023-02-25",
+  "rank_first_top10": 4,
+  "debut_in_top10": false,
+  "climbed_from": 14,
+  "weeks_to_top10": 1,
+  "peak": 3,
+  "weeks_in_top10": 12,
+  "total_weeks": 22,
+  "last_chart_week": "2023-07-15",
+  "artist_credits": [
+   "PinkPantheress & Ice Spice"
+  ]
+ },
+ "81": {
+  "cid": 81,
+  "title": "Just Wanna Rock",
+  "first_chart_week": "2022-10-29",
+  "first_top10": "2023-02-11",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 15,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 32,
+  "last_chart_week": "2023-06-03",
+  "artist_credits": [
+   "Lil Uzi Vert"
+  ]
+ },
+ "82": {
+  "cid": 82,
+  "title": "Creepin'",
+  "first_chart_week": "2022-12-17",
+  "first_top10": "2022-12-17",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 27,
+  "total_weeks": 47,
+  "last_chart_week": "2023-11-04",
+  "artist_credits": [
+   "Metro Boomin, The Weeknd & 21 Savage"
+  ]
+ },
+ "83": {
+  "cid": 83,
+  "title": "Superhero (Heroes & Villains)",
+  "first_chart_week": "2022-12-17",
+  "first_top10": "2022-12-17",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 24,
+  "last_chart_week": "2023-05-27",
+  "artist_credits": [
+   "Metro Boomin, Future & Chris Brown"
+  ]
+ },
+ "84": {
+  "cid": 84,
+  "title": "Rich Flex",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 10,
+  "total_weeks": 28,
+  "last_chart_week": "2023-05-27",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "85": {
+  "cid": 85,
+  "title": "Major Distribution",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 2,
+  "total_weeks": 7,
+  "last_chart_week": "2023-01-14",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "86": {
+  "cid": 86,
+  "title": "On BS",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 2,
+  "total_weeks": 8,
+  "last_chart_week": "2023-01-21",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "87": {
+  "cid": 87,
+  "title": "Spin Bout U",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 2,
+  "total_weeks": 29,
+  "last_chart_week": "2023-06-03",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "88": {
+  "cid": 88,
+  "title": "Pussy & Millions",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 7,
+  "last_chart_week": "2023-01-21",
+  "artist_credits": [
+   "Drake & 21 Savage Featuring Travis Scott"
+  ]
+ },
+ "89": {
+  "cid": 89,
+  "title": "Privileged Rappers",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2022-12-10",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "90": {
+  "cid": 90,
+  "title": "Circo Loco",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 13,
+  "last_chart_week": "2023-02-11",
+  "artist_credits": [
+   "Drake & 21 Savage"
+  ]
+ },
+ "91": {
+  "cid": 91,
+  "title": "BackOutsideBoyz",
+  "first_chart_week": "2022-11-19",
+  "first_top10": "2022-11-19",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2022-12-10",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "92": {
+  "cid": 92,
+  "title": "California Breeze",
+  "first_chart_week": "2022-10-29",
+  "first_top10": "2022-10-29",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2023-02-25",
+  "artist_credits": [
+   "Lil Baby"
+  ]
+ },
+ "93": {
+  "cid": 93,
+  "title": "Forever",
+  "first_chart_week": "2022-10-29",
+  "first_top10": "2022-10-29",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 20,
+  "last_chart_week": "2023-06-03",
+  "artist_credits": [
+   "Lil Baby Featuring Fridayy"
+  ]
+ },
+ "94": {
+  "cid": 94,
+  "title": "Real Spill",
+  "first_chart_week": "2022-10-29",
+  "first_top10": "2022-10-29",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2022-11-12",
+  "artist_credits": [
+   "Lil Baby"
+  ]
+ },
+ "95": {
+  "cid": 95,
+  "title": "Vegas",
+  "first_chart_week": "2022-06-18",
+  "first_top10": "2022-10-22",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 18,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 30,
+  "last_chart_week": "2023-02-04",
+  "artist_credits": [
+   "Doja Cat"
+  ]
+ },
+ "96": {
+  "cid": 96,
+  "title": "Tomorrow 2",
+  "first_chart_week": "2022-10-08",
+  "first_top10": "2022-10-08",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 22,
+  "last_chart_week": "2023-03-04",
+  "artist_credits": [
+   "GloRilla & Cardi B"
+  ]
+ },
+ "97": {
+  "cid": 97,
+  "title": "Super Freaky Girl",
+  "first_chart_week": "2022-08-27",
+  "first_top10": "2022-08-27",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 11,
+  "total_weeks": 25,
+  "last_chart_week": "2023-02-11",
+  "artist_credits": [
+   "Nicki Minaj"
+  ]
+ },
+ "98": {
+  "cid": 98,
+  "title": "Staying Alive",
+  "first_chart_week": "2022-08-20",
+  "first_top10": "2022-08-20",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2022-11-19",
+  "artist_credits": [
+   "DJ Khaled Featuring Drake & Lil Baby"
+  ]
+ },
+ "99": {
+  "cid": 99,
+  "title": "Bad Decisions",
+  "first_chart_week": "2022-08-20",
+  "first_top10": "2022-08-20",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2022-09-17",
+  "artist_credits": [
+   "benny blanco, BTS & Snoop Dogg"
+  ]
+ },
+ "100": {
+  "cid": 100,
+  "title": "Bad Habit",
+  "first_chart_week": "2022-07-16",
+  "first_top10": "2022-08-13",
+  "rank_first_top10": 7,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 4,
+  "peak": 1,
+  "weeks_in_top10": 18,
+  "total_weeks": 35,
+  "last_chart_week": "2023-03-11",
+  "artist_credits": [
+   "Steve Lacy"
+  ]
+ },
+ "101": {
+  "cid": 101,
+  "title": "Jimmy Cooks",
+  "first_chart_week": "2022-07-02",
+  "first_top10": "2022-07-02",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 5,
+  "total_weeks": 25,
+  "last_chart_week": "2023-01-14",
+  "artist_credits": [
+   "Drake Featuring 21 Savage"
+  ]
+ },
+ "102": {
+  "cid": 102,
+  "title": "Sticky",
+  "first_chart_week": "2022-07-02",
+  "first_top10": "2022-07-02",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 13,
+  "last_chart_week": "2022-09-24",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "103": {
+  "cid": 103,
+  "title": "Falling Back",
+  "first_chart_week": "2022-07-02",
+  "first_top10": "2022-07-02",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 2,
+  "last_chart_week": "2022-07-09",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "104": {
+  "cid": 104,
+  "title": "I Like You (A Happier Song)",
+  "first_chart_week": "2022-06-18",
+  "first_top10": "2022-06-18",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 13,
+  "total_weeks": 36,
+  "last_chart_week": "2023-03-11",
+  "artist_credits": [
+   "Post Malone Featuring Doja Cat"
+  ]
+ },
+ "105": {
+  "cid": 105,
+  "title": "N95",
+  "first_chart_week": "2022-05-28",
+  "first_top10": "2022-05-28",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2022-07-02",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "106": {
+  "cid": 106,
+  "title": "Die Hard",
+  "first_chart_week": "2022-05-28",
+  "first_top10": "2022-05-28",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2022-06-25",
+  "artist_credits": [
+   "Kendrick Lamar, Blxst & Amanda Reifer"
+  ]
+ },
+ "107": {
+  "cid": 107,
+  "title": "Silent Hill",
+  "first_chart_week": "2022-05-28",
+  "first_top10": "2022-05-28",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 11,
+  "last_chart_week": "2022-08-06",
+  "artist_credits": [
+   "Kendrick Lamar & Kodak Black"
+  ]
+ },
+ "108": {
+  "cid": 108,
+  "title": "United In Grief",
+  "first_chart_week": "2022-05-28",
+  "first_top10": "2022-05-28",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 2,
+  "last_chart_week": "2022-06-04",
+  "artist_credits": [
+   "Kendrick Lamar"
+  ]
+ },
+ "109": {
+  "cid": 109,
+  "title": "Wait For U",
+  "first_chart_week": "2022-05-14",
+  "first_top10": "2022-05-14",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 20,
+  "total_weeks": 41,
+  "last_chart_week": "2023-03-11",
+  "artist_credits": [
+   "Future Featuring Drake & Tems"
+  ]
+ },
+ "110": {
+  "cid": 110,
+  "title": "Puffin On Zootiez",
+  "first_chart_week": "2022-05-14",
+  "first_top10": "2022-05-14",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 19,
+  "last_chart_week": "2022-09-17",
+  "artist_credits": [
+   "Future"
+  ]
+ },
+ "111": {
+  "cid": 111,
+  "title": "712PM",
+  "first_chart_week": "2022-05-14",
+  "first_top10": "2022-05-14",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2022-05-28",
+  "artist_credits": [
+   "Future"
+  ]
+ },
+ "112": {
+  "cid": 112,
+  "title": "I'm Dat N***a",
+  "first_chart_week": "2022-05-14",
+  "first_top10": "2022-05-14",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 2,
+  "last_chart_week": "2022-05-21",
+  "artist_credits": [
+   "Future"
+  ]
+ },
+ "113": {
+  "cid": 113,
+  "title": "First Class",
+  "first_chart_week": "2022-04-23",
+  "first_top10": "2022-04-23",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 18,
+  "total_weeks": 28,
+  "last_chart_week": "2022-10-29",
+  "artist_credits": [
+   "Jack Harlow"
+  ]
+ },
+ "114": {
+  "cid": 114,
+  "title": "Big Energy",
+  "first_chart_week": "2021-11-06",
+  "first_top10": "2022-04-09",
+  "rank_first_top10": 3,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 22,
+  "peak": 3,
+  "weeks_in_top10": 14,
+  "total_weeks": 51,
+  "last_chart_week": "2022-10-22",
+  "artist_credits": [
+   "Latto"
+  ]
+ },
+ "115": {
+  "cid": 115,
+  "title": "Woman",
+  "first_chart_week": "2021-07-10",
+  "first_top10": "2022-04-02",
+  "rank_first_top10": 9,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 33,
+  "peak": 7,
+  "weeks_in_top10": 6,
+  "total_weeks": 52,
+  "last_chart_week": "2022-08-06",
+  "artist_credits": [
+   "Doja Cat"
+  ]
+ },
+ "116": {
+  "cid": 116,
+  "title": "Enemy",
+  "first_chart_week": "2021-12-04",
+  "first_top10": "2022-03-26",
+  "rank_first_top10": 8,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 16,
+  "peak": 5,
+  "weeks_in_top10": 8,
+  "total_weeks": 36,
+  "last_chart_week": "2022-08-06",
+  "artist_credits": [
+   "Imagine Dragons X JID"
+  ]
+ },
+ "117": {
+  "cid": 117,
+  "title": "Do We Have A Problem?",
+  "first_chart_week": "2022-02-19",
+  "first_top10": "2022-02-19",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 1,
+  "total_weeks": 13,
+  "last_chart_week": "2022-05-14",
+  "artist_credits": [
+   "Nicki Minaj X Lil Baby"
+  ]
+ },
+ "118": {
+  "cid": 118,
+  "title": "Pushin P",
+  "first_chart_week": "2022-01-22",
+  "first_top10": "2022-01-22",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 5,
+  "total_weeks": 20,
+  "last_chart_week": "2022-06-04",
+  "artist_credits": [
+   "Gunna & Future Featuring Young Thug"
+  ]
+ },
+ "119": {
+  "cid": 119,
+  "title": "Super Gremlin",
+  "first_chart_week": "2021-11-20",
+  "first_top10": "2022-01-15",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 16,
+  "weeks_to_top10": 8,
+  "peak": 3,
+  "weeks_in_top10": 17,
+  "total_weeks": 42,
+  "last_chart_week": "2022-09-03",
+  "artist_credits": [
+   "Kodak Black"
+  ]
+ },
+ "120": {
+  "cid": 120,
+  "title": "One Right Now",
+  "first_chart_week": "2021-11-20",
+  "first_top10": "2021-11-20",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 27,
+  "last_chart_week": "2022-06-18",
+  "artist_credits": [
+   "Post Malone & The Weeknd"
+  ]
+ },
+ "121": {
+  "cid": 121,
+  "title": "Need To Know",
+  "first_chart_week": "2021-06-26",
+  "first_top10": "2021-11-06",
+  "rank_first_top10": 9,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 19,
+  "peak": 8,
+  "weeks_in_top10": 9,
+  "total_weeks": 48,
+  "last_chart_week": "2022-05-21",
+  "artist_credits": [
+   "Doja Cat"
+  ]
+ },
+ "122": {
+  "cid": 122,
+  "title": "Essence",
+  "first_chart_week": "2021-07-17",
+  "first_top10": "2021-10-16",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 11,
+  "weeks_to_top10": 13,
+  "peak": 9,
+  "weeks_in_top10": 2,
+  "total_weeks": 35,
+  "last_chart_week": "2022-03-19",
+  "artist_credits": [
+   "Wizkid Featuring Justin Bieber & Tems"
+  ]
+ },
+ "123": {
+  "cid": 123,
+  "title": "Thats What I Want",
+  "first_chart_week": "2021-10-02",
+  "first_top10": "2021-10-02",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 9,
+  "total_weeks": 45,
+  "last_chart_week": "2022-08-06",
+  "artist_credits": [
+   "Lil Nas X"
+  ]
+ },
+ "124": {
+  "cid": 124,
+  "title": "Way 2 Sexy",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 9,
+  "total_weeks": 20,
+  "last_chart_week": "2022-01-29",
+  "artist_credits": [
+   "Drake Featuring Future & Young Thug"
+  ]
+ },
+ "125": {
+  "cid": 125,
+  "title": "Girls Want Girls",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 2,
+  "total_weeks": 20,
+  "last_chart_week": "2022-01-29",
+  "artist_credits": [
+   "Drake Featuring Lil Baby"
+  ]
+ },
+ "126": {
+  "cid": 126,
+  "title": "Fair Trade",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 17,
+  "last_chart_week": "2022-02-19",
+  "artist_credits": [
+   "Drake Featuring Travis Scott"
+  ]
+ },
+ "127": {
+  "cid": 127,
+  "title": "Champagne Poetry",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 7,
+  "last_chart_week": "2021-10-30",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "128": {
+  "cid": 128,
+  "title": "Knife Talk",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 5,
+  "total_weeks": 29,
+  "last_chart_week": "2022-04-02",
+  "artist_credits": [
+   "Drake Featuring 21 Savage & Project Pat"
+  ]
+ },
+ "129": {
+  "cid": 129,
+  "title": "In The Bible",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 8,
+  "last_chart_week": "2021-11-06",
+  "artist_credits": [
+   "Drake Featuring Lil Durk & Giveon"
+  ]
+ },
+ "130": {
+  "cid": 130,
+  "title": "Papi's Home",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 4,
+  "last_chart_week": "2021-10-09",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "131": {
+  "cid": 131,
+  "title": "TSU",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 9,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 9,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2021-10-16",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "132": {
+  "cid": 132,
+  "title": "Love All",
+  "first_chart_week": "2021-09-18",
+  "first_top10": "2021-09-18",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2021-10-16",
+  "artist_credits": [
+   "Drake Featuring JAY-Z"
+  ]
+ },
+ "133": {
+  "cid": 133,
+  "title": "Hurricane",
+  "first_chart_week": "2021-09-11",
+  "first_top10": "2021-09-11",
+  "rank_first_top10": 6,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 6,
+  "weeks_in_top10": 1,
+  "total_weeks": 11,
+  "last_chart_week": "2021-11-20",
+  "artist_credits": [
+   "Kanye West"
+  ]
+ },
+ "134": {
+  "cid": 134,
+  "title": "Jail",
+  "first_chart_week": "2021-09-11",
+  "first_top10": "2021-09-11",
+  "rank_first_top10": 10,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2021-09-25",
+  "artist_credits": [
+   "Kanye West"
+  ]
+ },
+ "135": {
+  "cid": 135,
+  "title": "Rumors",
+  "first_chart_week": "2021-08-28",
+  "first_top10": "2021-08-28",
+  "rank_first_top10": 4,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 4,
+  "weeks_in_top10": 1,
+  "total_weeks": 7,
+  "last_chart_week": "2021-10-09",
+  "artist_credits": [
+   "Lizzo Featuring Cardi B"
+  ]
+ },
+ "136": {
+  "cid": 136,
+  "title": "Industry Baby",
+  "first_chart_week": "2021-08-07",
+  "first_top10": "2021-08-07",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 21,
+  "total_weeks": 42,
+  "last_chart_week": "2022-05-21",
+  "artist_credits": [
+   "Lil Nas X & Jack Harlow"
+  ]
+ },
+ "137": {
+  "cid": 137,
+  "title": "Stay",
+  "first_chart_week": "2021-07-24",
+  "first_top10": "2021-07-24",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 44,
+  "total_weeks": 63,
+  "last_chart_week": "2022-10-01",
+  "artist_credits": [
+   "The Kid LAROI & Justin Bieber"
+  ]
+ },
+ "138": {
+  "cid": 138,
+  "title": "my.life",
+  "first_chart_week": "2021-05-29",
+  "first_top10": "2021-05-29",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 1,
+  "total_weeks": 14,
+  "last_chart_week": "2021-08-28",
+  "artist_credits": [
+   "J. Cole, 21 Savage & Morray"
+  ]
+ },
+ "139": {
+  "cid": 139,
+  "title": "amari",
+  "first_chart_week": "2021-05-29",
+  "first_top10": "2021-05-29",
+  "rank_first_top10": 5,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 5,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2021-06-12",
+  "artist_credits": [
+   "J. Cole"
+  ]
+ },
+ "140": {
+  "cid": 140,
+  "title": "pride.is.the.devil",
+  "first_chart_week": "2021-05-29",
+  "first_top10": "2021-05-29",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 7,
+  "weeks_in_top10": 1,
+  "total_weeks": 6,
+  "last_chart_week": "2021-07-03",
+  "artist_credits": [
+   "J. Cole & Lil Baby"
+  ]
+ },
+ "141": {
+  "cid": 141,
+  "title": "95.south",
+  "first_chart_week": "2021-05-29",
+  "first_top10": "2021-05-29",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2021-06-12",
+  "artist_credits": [
+   "J. Cole"
+  ]
+ },
+ "142": {
+  "cid": 142,
+  "title": "interlude",
+  "first_chart_week": "2021-05-22",
+  "first_top10": "2021-05-22",
+  "rank_first_top10": 8,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 8,
+  "weeks_in_top10": 1,
+  "total_weeks": 3,
+  "last_chart_week": "2021-06-05",
+  "artist_credits": [
+   "J. Cole"
+  ]
+ },
+ "143": {
+  "cid": 143,
+  "title": "Without You",
+  "first_chart_week": "2020-12-19",
+  "first_top10": "2021-05-15",
+  "rank_first_top10": 8,
+  "debut_in_top10": false,
+  "climbed_from": 23,
+  "weeks_to_top10": 21,
+  "peak": 8,
+  "weeks_in_top10": 2,
+  "total_weeks": 38,
+  "last_chart_week": "2021-09-04",
+  "artist_credits": [
+   "The Kid LAROI"
+  ]
+ },
+ "144": {
+  "cid": 144,
+  "title": "Rapstar",
+  "first_chart_week": "2021-04-24",
+  "first_top10": "2021-04-24",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 5,
+  "total_weeks": 20,
+  "last_chart_week": "2021-09-04",
+  "artist_credits": [
+   "Polo G"
+  ]
+ },
+ "145": {
+  "cid": 145,
+  "title": "Kiss Me More",
+  "first_chart_week": "2021-04-24",
+  "first_top10": "2021-04-24",
+  "rank_first_top10": 7,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 27,
+  "total_weeks": 43,
+  "last_chart_week": "2022-02-19",
+  "artist_credits": [
+   "Doja Cat Featuring SZA"
+  ]
+ },
+ "146": {
+  "cid": 146,
+  "title": "Astronaut In The Ocean",
+  "first_chart_week": "2021-02-27",
+  "first_top10": "2021-04-17",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 12,
+  "weeks_to_top10": 7,
+  "peak": 6,
+  "weeks_in_top10": 11,
+  "total_weeks": 28,
+  "last_chart_week": "2021-09-04",
+  "artist_credits": [
+   "Masked Wolf"
+  ]
+ },
+ "147": {
+  "cid": 147,
+  "title": "Montero (Call Me By Your Name)",
+  "first_chart_week": "2021-04-10",
+  "first_top10": "2021-04-10",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 20,
+  "total_weeks": 35,
+  "last_chart_week": "2022-01-15",
+  "artist_credits": [
+   "Lil Nas X"
+  ]
+ },
+ "148": {
+  "cid": 148,
+  "title": "Peaches",
+  "first_chart_week": "2021-04-03",
+  "first_top10": "2021-04-03",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 16,
+  "total_weeks": 30,
+  "last_chart_week": "2021-10-23",
+  "artist_credits": [
+   "Justin Bieber Featuring Daniel Caesar & Giveon"
+  ]
+ },
+ "149": {
+  "cid": 149,
+  "title": "What's Next",
+  "first_chart_week": "2021-03-20",
+  "first_top10": "2021-03-20",
+  "rank_first_top10": 1,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 3,
+  "total_weeks": 16,
+  "last_chart_week": "2021-07-17",
+  "artist_credits": [
+   "Drake"
+  ]
+ },
+ "150": {
+  "cid": 150,
+  "title": "Wants And Needs",
+  "first_chart_week": "2021-03-20",
+  "first_top10": "2021-03-20",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 2,
+  "weeks_in_top10": 2,
+  "total_weeks": 21,
+  "last_chart_week": "2021-08-07",
+  "artist_credits": [
+   "Drake Featuring Lil Baby"
+  ]
+ },
+ "151": {
+  "cid": 151,
+  "title": "Lemon Pepper Freestyle",
+  "first_chart_week": "2021-03-20",
+  "first_top10": "2021-03-20",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 1,
+  "total_weeks": 5,
+  "last_chart_week": "2021-04-17",
+  "artist_credits": [
+   "Drake Featuring Rick Ross"
+  ]
+ },
+ "152": {
+  "cid": 152,
+  "title": "Calling My Phone",
+  "first_chart_week": "2021-02-27",
+  "first_top10": "2021-02-27",
+  "rank_first_top10": 3,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 3,
+  "weeks_in_top10": 3,
+  "total_weeks": 22,
+  "last_chart_week": "2021-07-24",
+  "artist_credits": [
+   "Lil Tjay Featuring 6LACK"
+  ]
+ },
+ "153": {
+  "cid": 153,
+  "title": "Up",
+  "first_chart_week": "2021-02-20",
+  "first_top10": "2021-02-20",
+  "rank_first_top10": 2,
+  "debut_in_top10": true,
+  "climbed_from": null,
+  "weeks_to_top10": 0,
+  "peak": 1,
+  "weeks_in_top10": 12,
+  "total_weeks": 20,
+  "last_chart_week": "2021-07-03",
+  "artist_credits": [
+   "Cardi B"
+  ]
+ },
+ "154": {
+  "cid": 154,
+  "title": "What You Know Bout Love",
+  "first_chart_week": "2020-07-18",
+  "first_top10": "2021-02-20",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 13,
+  "weeks_to_top10": 22,
+  "peak": 9,
+  "weeks_in_top10": 4,
+  "total_weeks": 42,
+  "last_chart_week": "2021-07-03",
+  "artist_credits": [
+   "Pop Smoke"
+  ]
+ },
+ "155": {
+  "cid": 155,
+  "title": "Whoopty",
+  "first_chart_week": "2020-11-21",
+  "first_top10": "2021-02-13",
+  "rank_first_top10": 10,
+  "debut_in_top10": false,
+  "climbed_from": 16,
+  "weeks_to_top10": 12,
+  "peak": 10,
+  "weeks_in_top10": 1,
+  "total_weeks": 22,
+  "last_chart_week": "2021-04-17",
+  "artist_credits": [
+   "CJ"
+  ]
+ }
+}
