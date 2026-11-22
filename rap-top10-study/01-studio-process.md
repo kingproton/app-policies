@@ -19,12 +19,12 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 |---|---|---|---|---|
 | 0 | **Set up** | Set the DAW grid tempo; write the felt tempo next to it. Drop markers every 8 felt bars. Mark the mic position on the floor. | Click and loop line up; markers land on downbeats. | Re-detect the tempo from the loop's kick. Halve or double until the snare falls on felt beats 2 and 4. |
 | 1 | **Beat + pocket** | Loop 8 bars. Rap an old 4-bar passage three ways: laid back, on top, double-time. Keep the beat whose drums leave a hole where your last word lands. [M-1][J] | Does your stressed syllable sit on or just after the snare? Is there a gap at the end of every second felt bar? | Ask for a one-beat 808 mute at the end of every 2nd felt bar, or start your lines a 16th later. |
-| 2 | **Central phrase** | Write 10 candidates of ≤4 words. Keep the one that is a *picture*, fits in one breath, and puts an open vowel on a strong beat. Say it 8× over the loop. [M-3][J] | Could a stranger repeat it after one listen on a phone speaker? Does it still mean something on the 8th pass? | Cut a word; move the stress onto the downbeat or snare; swap a closed vowel for an open one. |
-| 3 | **Hook-first or verse-first** | Single or short-form: get the title phrase into the first ~5 s. Statement record: open on your sharpest image, then give a return anchor by ~0:30. [M-4][M-7][J] | At 0:15, does a cold listener know the title or one image? | Move a dry, 1-felt-bar version of the title phrase into the intro. |
+| 2 | **Central phrase** | Write 10 candidates of ≤4 words. Keep the one that is a *picture*, fits in one breath, and puts an open vowel on a strong beat. Say it 8× over the loop. [M-2][J] | Could a stranger repeat it after one listen on a phone speaker? Does it still mean something on the 8th pass? | Cut a word; move the stress onto the downbeat or snare; swap a closed vowel for an open one. |
+| 3 | **Hook-first or verse-first** | Single or short-form: get the title phrase into the first ~5 s. Statement record: open on your sharpest image, then give a return anchor by ~0:30. [M-4][M-5][M-3][J] | At 0:15, does a cold listener know the title or one image? | Move a dry, 1-felt-bar version of the title phrase into the intro. |
 | 4 | **Verse** | Write in 4-felt-bar units: set-up, set-up, turn, payoff. The last word is the punch. Make one pocket change per 8 felt bars. [M-6][J] | Do the internal rhymes blur at speed? Does every 4th bar pay off? Can you hear the pocket change? | Drop one internal rhyme from any crowded bar; give the punchline a felt beat of air. |
-| 5 | **Transitions** | Give every block boundary exactly **one** audible change: drum drop, 808 cut, filter, beat switch, or a new voice. Save the biggest one for before the last hook. [M-5][M-6] | "Same beat for three minutes" fatigue around 1:30. Does each hook arrival lift? | Mute the drums for the last felt bar before Hook 2; drop the full mix for one felt bar before Hook 3. |
+| 5 | **Transitions** | Give every block boundary exactly **one** audible change: drum drop, 808 cut, filter, beat switch, or a new voice. Save the biggest one for before the last hook. [M-7][M-6] | "Same beat for three minutes" fatigue around 1:30. Does each hook arrival lift? | Mute the drums for the last felt bar before Hook 2; drop the full mix for one felt bar before Hook 3. |
 | 6 | **Punch the lead** | Track the hook first and comp it. Do two full verse passes for feel, then punch in 4-felt-bar units at breath points with a one-felt-bar pre-roll. Never punch mid-rhyme-chain. [J] | Energy, mic distance and room tone match across punches; breaths are intact; no clipped first consonants. | Re-punch the whole 4-bar unit, not the single word. Crossfade at breaths (10–20 ms). |
-| 7 | **Ad-libs + doubles** | Ad-libs only in the gap after a last word, at most 1 per felt bar in verses. Double the title phrase and the hook end-words. Full stacks only on the final hook. [M-6][J] | Does any ad-lib land on a rhyme or punchline? Do the doubles smear consonants? | Delete or move the ad-lib to the next gap. Pan ad-libs 30–60%, sitting 6–10 dB under the lead. |
+| 7 | **Ad-libs + doubles** | Ad-libs only in the gap after a last word, at most 1 per felt bar in verses. Double the title phrase and the hook end-words. Full stacks only on the final hook. [M-9][J] | Does any ad-lib land on a rhyme or punchline? Do the doubles smear consonants? | Delete or move the ad-lib to the next gap. Pan ad-libs 30–60%, sitting 6–10 dB under the lead. |
 | 8 | **Rough mix check** | Check on a phone speaker, in mono and in the car. Bounce versions loudness-matched. [J] | Every word clear at low volume; the title phrase is the clearest word in the song; the 808 isn't masking 100–250 Hz of your voice. | HPF the vocal at 80–100 Hz; dip 2–4 kHz in the beat under the lead; de-ess; ride the punchline +1 dB. |
 | ✓ | **Demo done when** | One bounce passes the 0:15 test (title or image recalled) and the 1:00 test (hook said back). | | Re-run the A/B opening test in `02-worked-session.md`. |
 
@@ -56,7 +56,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* sparse midrange, felt ~85–100 with no half-time. Density reads because the hats aren't fighting you. [J]
   - *Trap:* grid 130–170 (felt 65–85). Cadence, repetition and space for ad-libs matter more than syllable count. [M-1][J]
-  - *Drill:* grid ~140–146, syncopated kicks and sliding 808s. Lines start as pickups *before* the downbeat, and the 808 slide needs its own space. The drill sample here is tiny (see the M-8 flag), so this is judgment. [J]
+  - *Drill:* grid ~140–146, syncopated kicks and sliding 808s. Lines start as pickups *before* the downbeat, and the 808 slide needs its own space. The drill sample here is tiny (see the M-10 flag), so this is judgment. [J]
 
 ### 2 — Find the central phrase
 - **Action:**
@@ -66,8 +66,8 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Listen for:** whether a stranger could repeat it after one phone-speaker listen, and whether it still means something on the eighth pass.
 - **One fix:** cut a word; move the stress to the downbeat; swap a closed-vowel ending for an open one; or attach it to a sonic signature that comes back with it (a chant, a tag, a sample stab).
 - **What the hits show:**
-  - **[M-3]** A majority of the assessed songs lean on borrowed recognition: a sample or interpolation of a known record.
-  - **[M-3]** Others lean on a repeated chant or litany, where one repeated claim *is* the structure.
+  - **[M-2]** A majority of the assessed songs lean on borrowed recognition: a sample or interpolation of a known record.
+  - **[M-4]** Others lean on a repeated chant or litany, where one repeated claim *is* the structure.
   - **[J]** For you, clearance cost makes an *original* signature the practical version: a replayed motif, a vocal chop of your own phrase, a consistent tag.
 
 ### 3 — Decide: open with the hook or the verse
@@ -80,7 +80,8 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **What the hits show:**
   - **[M-4]** Most assessed songs have a conventional hook.
   - **[M-4]** The documented exceptions are verse-led statement records, mostly diss or feud records, where the context did the hook's job.
-  - **[M-7]** The songs that **climbed** into the top 10, rather than debuting there, are the closest match to an independent release. Their opening and hook data is broken out separately in the findings.
+  - **[M-5]** What listeners hear first is more often a borrowed sound or a spoken frame than a rap verse. Hook-first and verse-first are split about evenly where it's documented.
+  - **[M-3]** The songs that **climbed** into the top 10, rather than debuting there, are the closest match to an independent release. They're mostly solo and built on a recognizable device.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* image-first is viable, but plan the return anchor. [M-4][J]
   - *Trap:* hook-first or tag-first is the default. [J]
@@ -113,7 +114,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Mute the drums for the last felt bar before Hook 2.
   - Drop the full mix for one felt bar before Hook 3.
   - On a verse-led record, switch the beat for verse 2.
-- **What the hits show [M-5]:**
+- **What the hits show [M-7]:**
   - Beat switches and two-part beds are documented on a meaningful share of the assessed songs. They cluster in superstar album cuts: Drake, Travis Scott, Kendrick Lamar.
   - Treat a full beat switch as an *album-cut* tool. A one-bar drop is the single-sized version. [J]
 
@@ -138,7 +139,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Leave at least one spot where **silence** answers the punchline instead of an ad-lib.
 - **Listen for:** any ad-lib stepping on a rhyme or punchline, and doubles smearing consonants.
 - **One fix:** delete or move the ad-lib to the next gap. Pan ad-libs 30–60% L/R, 6–10 dB under the lead.
-- **What the hits show [M-6]:** where sources describe ad-libs, they carry identity or comedy, and guests sometimes appear *only* as ad-libs. Placement inside the bar is undocumented: unknown, not measured. **[J]** for the placement rules.
+- **What the hits show [M-9]:** where sources describe ad-libs, they carry identity or comedy, and guests sometimes appear *only* as ad-libs. Placement inside the bar is undocumented: unknown, not measured. **[J]** for the placement rules.
 
 ### 8 — Check the rough mix
 - **Action:** check on a phone speaker, in mono, and in the car. Bounce loudness-matched versions for A/B (around −12 to −10 LUFS integrated is fine for a demo; this is not mastering).
@@ -151,17 +152,17 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 
 | Decision | Verse-led | Trap | Drill |
 |---|---|---|---|
-| Tempo / feel | Felt ≈ grid, ~85–110 (bounce lives at ~100–110) [M-1] | Grid 130–170, felt 65–85 [M-1] | Grid ~140–146, felt ~70–73 [J; tiny sample, M-8] |
+| Tempo / feel | Felt ≈ grid, ~85–110 (bounce lives at ~100–110) [M-1] | Grid 130–170, felt 65–85 [M-1] | Grid ~140–146, felt ~70–73 [J; tiny sample, M-10] |
 | Pocket | 16ths on the grid; rhymes on 2 & 4 plus internal | Triplets and repeated cadences; room for ad-libs | Pickups into the bar; staccato; rests around 808 slides |
 | Central phrase | Refrain line, or no hook with a return anchor [M-4] | Chant or title repetition; hook or tag first | Ad-lib/catchphrase identity plus a short hook |
 | Opening | Sharpest image first | Hook or tag first | Tag or ad-lib, then pickup into the verse |
 | Verse length | 16–24+ felt bars | 8–16 felt bars | 12–16 felt bars |
-| Main change on return | Beat switch or new bed [M-5] | Voice change, 808/drum drop [M-6] | 808 pattern/slide change, drum drop [J] |
+| Main change on return | Beat switch or new bed [M-7] | Voice change, 808/drum drop [M-6] | 808 pattern/slide change, drum drop [J] |
 | Punching | Longer takes (8 felt bars) to keep momentum | Short punches are fine (cadences repeat) | Punch by phrase *including* the pickup |
 | Ad-libs | Sparse; protect the bars | Frequent; call-and-response | Signature ad-libs in the gaps |
 | Rough-mix risk | Midrange clutter hiding words | 808 masking the voice at low volume | 808 slides fighting the vocal low-mids |
 
 ## What this process cannot promise
 
-- **Superstar album launches dominate the reference set.** 87 of the 100 debuted directly in the top 10, 58 spent one week there, and Drake is lead artist on 37. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like, not what makes a song grow. The climbers subgroup is the better mirror for you ([M-7]).
+- **Superstar album launches dominate the reference set.** 87 of the 100 debuted directly in the top 10, 58 spent one week there, and Drake is lead artist on 37. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like, not what makes a song grow. The climbers subgroup is the better mirror for you ([M-3]).
 - **Listening-level details are unknown for most tracks.** Exact first-vocal times, the silence after punchlines, and 808 changes came from text sources only. `05-codex-handoff.md` explains how to measure them from the audio.
