@@ -59,7 +59,7 @@ return_changes,method_notes,checked_by_hand
 Measure these first. Each one is a place where the text-based study had to infer or could not confirm.
 
 1. **Half- vs full-time feel (M-1).** Every felt value is inferred. Settle the 8 half-time readings at grid 112–126 first ("Janice STFU", "We Don't Trust You", "Agora Hills", "Virginia Beach", "Calling For You", "Meltdown", "Pussy & Millions", "Puffin On Zootiez"). Then settle the tracks marked `feel_unresolved` ("Shabang", "National Treasures", "Houdini", "Young Metro", "K-POP", "Just Wanna Rock").
-2. **Openings and hook order (M-5).** Only 18 openings and 13 hook-order answers are sourced; 16 openings and 6 hook-order answers are marked **U** (cited, but the verifier could not re-find support).
+2. **Openings and hook order (M-5).** Only 14 openings and 7 hook-order answers are sourced; 20 openings and 12 hook-order answers are marked **U** (cited, but a verifier could not confirm them).
 3. **Beat switches (M-7).** Confirm or reject the 5 **U** switches ("What Did I Miss?", "Gimme A Hug", "7 Minute Drill", "First Person Shooter", "Champagne Poetry") and the 3 recollection-only ones ("Calling For You", "United In Grief", "Fair Trade"). All 18 "no switch" answers are recollection.
 4. **Hooks (M-4).** 32 "hook present" answers and all 6 "no hook" answers are unverified.
 

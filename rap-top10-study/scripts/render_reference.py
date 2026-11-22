@@ -117,7 +117,7 @@ TST = {'verified': ' ✔', 'corrected_by_verifier': ' ✎', 'verifier_could_not_
 RTS = {'verified': ' ✔', 'corrected_by_verifier': ' ✎', 'verifier_could_not_confirm': ' ◦', 'tempo_sweep': ' ♪'}
 HK = {'present_verified': 'yes (S)', 'present_unverified': 'yes (R)', 'absent_verified': 'none (S)', 'absent_unverified': 'none (R)'}
 OPN = {'sample_or_interpolation': 'sample/interp.', 'ad_lib_or_spoken_intro': 'spoken/ad-lib intro', 'hook_or_chorus': 'hook', 'rap_verse': 'rap verse',
-       'sung_intro': 'sung intro', 'producer_tag': 'producer tag', 'instrumental': 'instrumental'}
+       'sung_intro': 'sung intro', 'producer_tag': 'producer tag', 'instrumental': 'instrumental', 'chant': 'crowd chant'}
 BT = {'sample': 's', 'interpolation': 'i', 'audio clip': 'c', 'self-reuse': 'r'}
 SM = {'confirmed': ' ✓', 'not_reconfirmed': ' U', 'rejected': ' ✗', 'cited': '', 'uncited': ' (no URL)'}
 NON_VOCAL = {'Metro Boomin'}

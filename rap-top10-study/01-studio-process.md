@@ -82,7 +82,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **One fix:** put a one-felt-bar, dry version of the title phrase into the intro (see Opening A in the worked session).
 - **What the hits show:**
   - **[M-4]** Where it was assessed, nearly every hit has a hook (52 of 58; only 20 of those are sourced). The six reported without a conventional hook, all unverified, are three diss records, two album openers and one two-part closer.
-  - **[M-5]** Only 18 openings are sourced. The most common first sound among them is a sample, interpolation or recorded chant (10 of 18). Where the order is sourced, the hook arrives before the first verse in 8 songs and after it in 5, too few to call a rule.
+  - **[M-5]** Only 14 openings are sourced, and half of them (7) open on a sample or interpolation. The hook-versus-verse order is sourced for just 7 songs (3 hook first, 4 verse first), too few to call a rule either way.
   - **[M-3]** The 12 songs that climbed into the top 10 are closer to an independent release than the album-launch debuts. They're mostly solo (11 of 12) and mostly built on a documented borrowing (9 of 12), but it's a small, uncontrolled group.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* image-first is viable, but plan the return anchor. Four of the six reported no-hook hits are tagged verse-led. [J]

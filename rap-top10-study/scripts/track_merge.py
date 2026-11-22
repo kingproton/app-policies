@@ -150,6 +150,9 @@ for cid, rs in c['research'].items():
         for f2, vf, bf in (('opening_element', 'opening_element', 'opening_basis'), ('hook_before_first_verse', 'hook_first', 'hook_first_basis'), ('beat_switch', 'beat_switch', 'beat_switch_basis')):
             if fld == f2 and vf in used and rec.get(bf) == 'source':
                 rec[bf] = 'unconfirmed'; applied.append(f'sweep {f2}->{verdict}')
+    if icid in C.SWEEP_RECODE:
+        fld, val, note = C.SWEEP_RECODE[icid]
+        rec[fld], rec['opening_basis'], rec['opening_note'] = val, 'source', note; applied.append(f'sweep {fld} recoded to {val}')
     rec['verifier_applied'] = applied
 
     # ---- 5a. tempo corrections

@@ -195,4 +195,19 @@ CLASSIFICATION_OVERRIDES = {
 # cid -> {field: verdict}; verdict 'confirmed' keeps S; anything else drops a sweep-sourced value to U
 # (hooks: present_verified -> present_unverified). Fields: opening_element, hook_before_first_verse,
 # has_hook_or_chorus, beat_switch. 'partly' entries are resolved by hand to confirmed / not_supported.
-SWEEP_VERDICTS = {}
+SWEEP_VERDICTS = {
+    8:   {'hook_before_first_verse': 'partly'},     # Shabang: opener is the line later used as the hook; order vs verse 1 not shown
+    27:  {'opening_element': 'partly'},             # Squabble Up: Debbie Deb sample "near the beginning", not shown as first sound
+    29:  {'hook_before_first_verse': 'partly'},     # Luther: sampled chorus first; the song's own hook vs verse 1 not placed
+    34:  {'opening_element': 'not_found', 'hook_before_first_verse': 'not_found'},  # Sticky: lyric sites conflict
+    45:  {'opening_element': 'partly'},             # Like That: the Songfacts intro line describes 'Eazy-Duz-It', not this song
+    52:  {'hook_before_first_verse': 'partly'},     # Carnival: no source gives the chorus vs first-verse order
+    109: {'hook_before_first_verse': 'partly'},     # Wait For U: Tems refrain precedes verse 1, but a lyric page labels it intro
+    113: {'opening_element': 'partly'},             # First Class: a brief sung "Mm" or the chorus; nothing supports "spoken"
+    119: {'hook_before_first_verse': 'partly'},     # Super Gremlin: sampled vocal first; no chorus shown before verse 1
+}
+# Recodes where the re-check's own sources support a different value (kept as sourced, with the note).
+SWEEP_RECODE = {
+    38: ('opening_element', 'ad_lib_or_spoken_intro', "Re-check: a Paul Rosenberg voicemail skit opens the song, then the sung 'Without Me' callback (Songfacts, Yahoo, HotNewHipHop via search summaries)."),
+    52: ('opening_element', 'chant', "Re-check: the song opens with a crowd chant by Inter Milan's Curva Nord ultras, recorded in the studio for the track (not a sample) and repeated throughout."),
+}

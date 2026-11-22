@@ -135,7 +135,7 @@ Style = the research agents' descriptive tag from source descriptions (not a Bil
 | 1 | Janice STFU | 3:57 ✔ | 126 / 63 ◦ | ? | ? | yes (S) | ? | — | Lykke Li - 'I Follow Rivers' (2011; written by Lykke Li, Björn… [i] | no | D · 8 wk · 26 tot · AB |
 | 2 | Ran To Atlanta | 4:07 ✔ | 140 / 70 ◦ | ? | ? | ? | ? | — | — | yes | D · 2 wk · 16 tot · AB |
 | 3 | Whisper My Name | 3:42 ✔ | ? | ? | ? | ? | ? | — | — | no | D · 2 wk · 11 tot · AB |
-| 4 | Shabang | 3:08 ✔ | 117 / unresolved | producer tag (S) | yes (S) | yes (S) | ? | — | — | no | D · 3 wk · 20 tot · AB |
+| 4 | Shabang | 3:08 ✔ | 117 / unresolved | producer tag (S) | yes (U) | yes (S) | ? | — | — | no | D · 3 wk · 20 tot · AB |
 | 5 | National Treasures | 3:20 ✔ | 193 / unresolved | ? | ? | ? | yes (S) | beat | Gregory Hines - 'This Is What I Believe' (written by Luther Vandross… [s] | no | D · 1 wk · 14 tot · AB |
 | 6 | Make Them Cry | 5:07 ✔ | 80 / 80 · | ? | ? | ? | ? | — | Roger Ridley - 'Who Am I' [s]; Muchi - 'The Pressure Is on Me' [s]; Bobby Glenn - 'Sounds Like a Love Song' [s] | no | D · 1 wk · 4 tot · AB |
 | 7 | Dust | 3:09 ✔ | 138 / 69 ◦ | ? | ? | ? | yes (S) | beat | — | no | D · 1 wk · 6 tot · AB |
@@ -149,28 +149,28 @@ Style = the research agents' descriptive tag from source descriptions (not a Bil
 | 15 | Gimme A Hug | 3:13 ✎ | listed 70 (not used) | sample/interp. (U) | ? | ? | yes (U) | beat (U) | Aaron Hall - 'I Miss You' (1993) [s ✓]; Terrell Grice - 'Sing' [s ✓] | no | D · 1 wk · 11 tot |
 | 16 | Nokia | 4:01 ✎ | listed 84, 105, 114 (not used) | ? | ? | yes (S) | ? | — | The Nokia ringtone (in the synths) [s ✓] | no | D · 13 wk · 27 tot |
 | 17 | 4X4 | 3:11 ✔ | 143 / 71.5 · | ? | ? | ? | ? | — | 2016 recording of the Tennessee State University marching band… [s] | no | D · 1 wk · 4 tot |
-| 18 | Squabble Up | 2:37 ◦ | 104 / 104 ◦ | sample/interp. (S) | ? | yes (R) | ? | — | 'When I Hear Music' by Debbie Deb (1984 freestyle record) [s] | no | D · 6 wk · 30 tot · AB |
+| 18 | Squabble Up | 2:37 ◦ | 104 / 104 ◦ | sample/interp. (U) | ? | yes (R) | ? | — | 'When I Hear Music' by Debbie Deb (1984 freestyle record) [s] | no | D · 6 wk · 30 tot · AB |
 | 19 | TV Off | 3:40 ✔ | 100 / 100 ◦ | rap verse (R) | no (R) | yes (S) | yes (S) | beat | 'MacArthur Park' by Monk Higgins [s]; 'The Black Hole – Overture' by John Barry (1979 film score) [s]; 'Kick in the Door' by The Notorious B.I.G. [i] | yes | D · 9 wk · 31 tot · AB |
-| 20 | Luther | 2:57 ✔ | 138 / 69 ◦ | sample/interp. (S) | yes (S) | yes (S) | no (R) | — | 'If This World Were Mine' (written by Marvin Gaye), as performed by… [s] | yes | D · 32 wk · 46 tot · AB |
+| 20 | Luther | 2:57 ✔ | 138 / 69 ◦ | sample/interp. (S) | yes (U) | yes (S) | no (R) | — | 'If This World Were Mine' (written by Marvin Gaye), as performed by… [s] | yes | D · 32 wk · 46 tot · AB |
 | 21 | Wacced Out Murals | 5:17 ✔ | 82 / 82 ◦ | sung intro (R) | ? | ? | ? | beat | — | no | D · 1 wk · 7 tot · AB |
 | 22 | Hey Now | 3:37 ✔ | 102 / 102 ◦ | ? | ? | yes (R) | ? | — | 'Scotty' by D4L (2005) [i] | yes | D · 1 wk · 14 tot · AB |
 | 23 | Reincarnated | 4:35 ✔ | 91 / 91 ◦ | sung intro (U) | ? | ? | ? | register | 'Made Niggaz' by 2Pac (Tupac Shakur), 1996 [i] | no | D · 1 wk · 4 tot · AB |
 | 24 | Man At The Garden | 3:53 ✔ | 92 / 92 ◦ | ? | ? | yes (S) | ? | — | 'One Mic' by Nas (from Stillmatic) [i (u)] | no | D · 1 wk · 4 tot · AB |
-| 25 | Sticky | ? | 160 / 80 · | rap verse (S) | no (S) | yes (S) | ? | none specific | Young Buck - 'Get Buck' [s] | yes | C from #14 · 1 wk · 20 tot |
+| 25 | Sticky | ? | 160 / 80 · | rap verse (U) | no (U) | yes (S) | ? | none specific | Young Buck - 'Get Buck' [s] | yes | C from #14 · 1 wk · 20 tot |
 | 26 | St. Chroma | 3:17 ✔ | 150 / 75 ✎ | spoken/ad-lib intro (U) | yes (U) | yes (S) | ? | voice | — | yes | D · 1 wk · 9 tot |
 | 27 | Noid | 4:44 ◦ | 82 / 82 ◦ | spoken/ad-lib intro (U) | ? | yes (R) | ? | beat | Ngozi Family / Paul Ngozi - 'Nizakupanga Ngozi' [s] | no | C from #43 · 1 wk · 5 tot |
-| 28 | Houdini | 3:47 ◦ | 125 / unresolved | sung intro (S) | no (S) | yes (S) | no (R) | — | Steve Miller Band - 'Abracadabra' (1982) [i] | no | D · 3 wk · 20 tot |
+| 28 | Houdini | 3:47 ◦ | 125 / unresolved | spoken/ad-lib intro (S) | no (S) | yes (S) | no (R) | — | Steve Miller Band - 'Abracadabra' (1982) [i] | no | D · 3 wk · 20 tot |
 | 29 | Not Like Us | 4:33 ✔ | 101 / 101 ✔ | spoken/ad-lib intro (S) | no (R) | yes (R) | yes (S) | — | Monk Higgins - 'I Believe to My Soul' (1968 recording of a 1961 Ray… [s] | no | D · 28 wk · 53 tot |
 | 30 | Euphoria | 6:24 ✔ | 140 / 70 ◦ | spoken/ad-lib intro (S) | no (S) | none (R) | yes (S) | beat | — | no | C from #11 · 1 wk · 17 tot |
 | 31 | Family Matters | 7:36 ✔ | 164 / 82 · | hook (U) | yes (U) | ? | yes (S) | beat | Drake - 'Push Ups' (2024) [r (u)] | no | D · 1 wk · 6 tot |
 | 32 | 7 Minute Drill | 3:32 ✎ | 85 / 85 · | ? | no (R) | none (R) | yes (U) | beat (U) | — | no | D · 1 wk · 1 tot |
-| 33 | Like That | 4:28 ✎ | 162 / 81 ✔ | sample/interp. (S) | ? | yes (R) | no (R) | voice | "Everlasting Bass" by Rodney-O & Joe Cooley (1986) [s U]; "Eazy-Duz-It" by Eazy-E (1989) [s U] | yes | D · 7 wk · 32 tot · AB |
+| 33 | Like That | 4:28 ✎ | 162 / 81 ✔ | sample/interp. (U) | ? | yes (R) | no (R) | voice | "Everlasting Bass" by Rodney-O & Joe Cooley (1986) [s U]; "Eazy-Duz-It" by Eazy-E (1989) [s U] | yes | D · 7 wk · 32 tot · AB |
 | 34 | Type Shit | 3:48 ✔ | 145 / 72.5 ✔ | ? | ? | yes (R) | ? | — | — | yes | D · 3 wk · 20 tot · AB |
 | 35 | Cinderella | 2:50 ✔ | 130 / 65 · | ? | ? | ? | ? | voice | — | yes | D · 1 wk · 8 tot · AB |
 | 36 | We Don't Trust You | 3:46 ✔ | 124 / 62 ✎ | ? | ? | ? | ? | — | — | no | D · 1 wk · 4 tot · AB |
 | 37 | Young Metro | 3:25 ✔ | 112 / unresolved | ? | ? | yes (R) | ? | — | — | yes | D · 1 wk · 4 tot · AB |
 | 38 | Enough (Miami) | 2:39 ◦ | ? | ? | ? | yes (R) | ? | — | — | no | D · 1 wk · 14 tot |
-| 39 | Carnival | 4:24 ✔ | 148 / 74 ✎ | sample/interp. (S) | yes (S) | yes (S) | ? | — | Live 1983 US Festival performance of 'Iron Man' (performer name… [s ✗] | yes | D · 6 wk · 19 tot |
+| 39 | Carnival | 4:24 ✔ | 148 / 74 ✎ | crowd chant (S) | yes (U) | yes (S) | ? | — | Live 1983 US Festival performance of 'Iron Man' (performer name… [s ✗] | yes | D · 6 wk · 19 tot |
 | 40 | Hiss | 3:12 ✔ | 167 / 83.5 ◦ | spoken/ad-lib intro (U) | no (U) | none (R) | ? | delivery | — | no | D · 1 wk · 6 tot |
 | 41 | Redrum | 4:30 ✔ | 172 / 86 · | sample/interp. (S) | no (R) | ? | ? | — | Elza Laranjeira - 'Serenata do Adeus' [s ✓]; The Shining (1980 film) - 'Here's Johnny!' scene [c U] | no | D · 3 wk · 20 tot |
 | 42 | Nee-nah | 3:40 ✎ | ? | rap verse (U) | no (U) | ? | ? | voice | Malcolm McLaren - 'About Her' (2004) [s]; Lenny Williams - ''Cause I Love You' [s ✓] | yes | D · 1 wk · 10 tot |
@@ -215,15 +215,15 @@ Style = the research agents' descriptive tag from source descriptions (not a Bil
 | 81 | N95 | 3:15 ✔ | 140 / 70 ✔ | spoken/ad-lib intro (R) | no (R) | yes (R) | ? | — | — | no | D · 1 wk · 6 tot · AB |
 | 82 | Silent Hill | 3:40 ✔ | 140 / 70 ✔ | ? | ? | yes (R) | ? | — | — | yes | D · 1 wk · 11 tot · AB |
 | 83 | United In Grief | 4:15 ✔ | 86 / 86 ◦ | sung intro (R) | no (R) | none (R) | yes (R) | — | — | no | D · 1 wk · 2 tot · AB |
-| 84 | Wait For U | 3:10 ✎ | 166 / 83 ✔ | sample/interp. (S) | yes (S) | yes (S) | no (R) | — | 'Higher' by Tems [s] | yes | D · 20 wk · 41 tot · AB |
+| 84 | Wait For U | 3:10 ✎ | 166 / 83 ✔ | sample/interp. (S) | yes (U) | yes (S) | no (R) | — | 'Higher' by Tems [s] | yes | D · 20 wk · 41 tot · AB |
 | 85 | Puffin On Zootiez | 2:53 ✎ | 125 / 62.5 ✔ | ? | ? | ? | ? | — | — | no | D · 1 wk · 19 tot · AB |
 | 86 | 712PM | 2:53 ✔ | 147 / 73.5 ✔ | ? | ? | ? | ? | — | — | no | D · 1 wk · 3 tot · AB |
 | 87 | I'm Dat N***a | 4:32 ✎ | 144 / 72 ✔ | ? | ? | ? | ? | — | — | no | D · 1 wk · 2 tot · AB |
-| 88 | First Class | 2:53 ◦ | 107 / 107 ✎ | spoken/ad-lib intro (S) | yes (S) | yes (S) | no (R) | — | "Glamorous" by Fergie feat. Ludacris (2006, prod. Polow da Don) [s] | no | D · 18 wk · 28 tot |
+| 88 | First Class | 2:53 ◦ | 107 / 107 ✎ | spoken/ad-lib intro (U) | yes (S) | yes (S) | no (R) | — | "Glamorous" by Fergie feat. Ludacris (2006, prod. Polow da Don) [s] | no | D · 18 wk · 28 tot |
 | 89 | Big Energy | 2:53 ✎ | 106 / 106 ✔ | sample/interp. (R) | ? | yes (R) | no (R) | — | "Genius of Love" by Tom Tom Club (1981) [i] | no | C from #11 · 14 wk · 51 tot |
 | 90 | Do We Have A Problem? | 3:27 ◦ | ? | ? | ? | ? | ? | — | — | yes | D · 1 wk · 13 tot |
 | 91 | Pushin P | 2:16 ✔ | 155 / 77.5 ✔ | rap verse (U) | no (U) | yes (R) | no (R) | voice | — | yes | D · 5 wk · 20 tot |
-| 92 | Super Gremlin | 3:21 ◦ | 146 / 73 ◦ | sample/interp. (S) | yes (S) | yes (S) | no (R) | — | "Errror (We Could Be Superstars)" by How to Loot Brazil (2019) [s] | no | C from #16 · 17 wk · 42 tot |
+| 92 | Super Gremlin | 3:21 ◦ | 146 / 73 ◦ | sample/interp. (S) | yes (U) | yes (S) | no (R) | — | "Errror (We Could Be Superstars)" by How to Loot Brazil (2019) [s] | no | C from #16 · 17 wk · 42 tot |
 | 93 | Way 2 Sexy | 4:18 ◦ | 136 / 68 · | sample/interp. (U) | yes (R) | yes (R) | no (R) | voice | Right Said Fred - 'I'm Too Sexy' (1991) [s]; Right Said Fred - 'I'm Too Sexy' (interpolation) [i] | yes | D · 9 wk · 20 tot · AB |
 | 94 | Girls Want Girls | 3:41 ♪ | 174 / 87 · | ? | ? | yes (R) | ? | — | — | yes | D · 2 wk · 20 tot · AB |
 | 95 | Fair Trade | 4:51 ✔ | 168 / 84 · | sample/interp. (U) | ? | yes (R) | yes (R) | beat | Charlotte Day Wilson - 'Mountains' [s] | yes | D · 1 wk · 17 tot · AB |

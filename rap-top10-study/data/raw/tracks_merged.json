@@ -639,7 +639,7 @@
   ],
   "key": "G minor (Hooktheory chorus transcription only; unconfirmed)",
   "opening_element": "ad_lib_or_spoken_intro",
-  "opening_basis": "source",
+  "opening_basis": "unconfirmed",
   "hook_first": "yes",
   "hook_first_basis": "source",
   "hook_status": "present_verified",
@@ -733,7 +733,8 @@
   "verified": true,
   "research_run": "S1_chunk1",
   "verifier_applied": [
-   "hook_status->present_unverified"
+   "hook_status->present_unverified",
+   "sweep opening_element->partly"
   ],
   "structure_sweep_used": [
    "opening_element",
@@ -1222,7 +1223,7 @@
   "opening_element": "sample_or_interpolation",
   "opening_basis": "source",
   "hook_first": "yes",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "no",
   "beat_switch_basis": "unverified_recollection",
@@ -1314,7 +1315,8 @@
   "verified": true,
   "research_run": "S1_chunk1",
   "verifier_applied": [
-   "hook_status->present_unverified"
+   "hook_status->present_unverified",
+   "sweep hook_before_first_verse->partly"
   ],
   "structure_sweep_used": [
    "opening_element",
@@ -1746,7 +1748,7 @@
   "opening_element": "sample_or_interpolation",
   "opening_basis": "source",
   "hook_first": "yes",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "no",
   "beat_switch_basis": "unverified_recollection",
@@ -1872,7 +1874,9 @@
   "verify_confidence": "medium",
   "verified": true,
   "research_run": "S1_chunk1",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep hook_before_first_verse->partly"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_first",
@@ -3663,10 +3667,10 @@
    }
   ],
   "key": null,
-  "opening_element": "sample_or_interpolation",
+  "opening_element": "chant",
   "opening_basis": "source",
   "hook_first": "yes",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "unknown",
   "beat_switch_basis": "unknown",
@@ -3778,7 +3782,10 @@
   "verify_confidence": "medium",
   "verified": true,
   "research_run": "S2_chunk1",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep hook_before_first_verse->partly",
+   "sweep opening_element recoded to chant"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_first"
@@ -3808,6 +3815,7 @@
   "hook_device_sweep": "Chant: a football crowd chant by Curva Nord Milano with 'ooohhh' crowd vocals, around a chorus Billboard calls viral and X-rated",
   "return_anchor_sweep": "The Curva Nord crowd chant",
   "opening_source_sweep": "https://www.wikiwand.com/en/articles/Carnival_(%C2%A5$_song)",
+  "opening_note": "Re-check: the song opens with a crowd chant by Inter Milan's Curva Nord ultras, recorded in the studio for the track (not a sample) and repeated throughout.",
   "tempo_outliers_removed": []
  },
  "45": {
@@ -3846,7 +3854,7 @@
   ],
   "key": "C# minor (karaoke-version listing, which says it matches the original; single source)",
   "opening_element": "sample_or_interpolation",
-  "opening_basis": "source",
+  "opening_basis": "unconfirmed",
   "hook_first": "unknown",
   "hook_first_basis": "unknown",
   "hook_status": "present_unverified",
@@ -3957,7 +3965,9 @@
   "verify_confidence": "medium",
   "verified": true,
   "research_run": "S1_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep opening_element->partly"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "beat_switch"
@@ -4369,7 +4379,7 @@
   ],
   "key": "C major (Tunebat, Camelot 8B; Musicstax agrees)",
   "opening_element": "sample_or_interpolation",
-  "opening_basis": "source",
+  "opening_basis": "unconfirmed",
   "hook_first": "unknown",
   "hook_first_basis": "unknown",
   "hook_status": "present_unverified",
@@ -4448,7 +4458,9 @@
   "verify_confidence": "low",
   "verified": true,
   "research_run": "S1_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep opening_element->partly"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_status"
@@ -4716,7 +4728,7 @@
   "opening_element": "sample_or_interpolation",
   "opening_basis": "source",
   "hook_first": "yes",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "no",
   "beat_switch_basis": "unverified_recollection",
@@ -4813,7 +4825,9 @@
   "verify_confidence": "low",
   "verified": true,
   "research_run": "S1_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep hook_before_first_verse->partly"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_first",
@@ -6814,7 +6828,7 @@
   "opening_element": "producer_tag",
   "opening_basis": "source",
   "hook_first": "yes",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "unknown",
   "beat_switch_basis": "unknown",
@@ -6908,7 +6922,9 @@
   "verify_confidence": "low",
   "verified": true,
   "research_run": "S2_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep hook_before_first_verse->partly"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_first",
@@ -9831,7 +9847,7 @@
    }
   ],
   "key": "A minor (Klangio only; unconfirmed)",
-  "opening_element": "sung_intro",
+  "opening_element": "ad_lib_or_spoken_intro",
   "opening_basis": "source",
   "hook_first": "no",
   "hook_first_basis": "source",
@@ -9905,7 +9921,9 @@
   "verify_confidence": "low",
   "verified": true,
   "research_run": "S3_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep opening_element recoded to ad_lib_or_spoken_intro"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "hook_first",
@@ -9937,6 +9955,7 @@
   "hook_device_sweep": "Interpolation of the Steve Miller Band's 'Abracadabra' chorus, with the beat also built on that sample",
   "return_anchor_sweep": "The 'Abracadabra'-interpolated chorus",
   "opening_source_sweep": "https://www.aol.com/eminem-releases-single-houdini-referencing-041517439.html",
+  "opening_note": "Re-check: a Paul Rosenberg voicemail skit opens the song, then the sung 'Without Me' callback (Songfacts, Yahoo, HotNewHipHop via search summaries).",
   "tempo_outliers_removed": [],
   "tempo_note": "One listed value; the verifier left the half/double-time reading unresolved."
  },
@@ -10737,9 +10756,9 @@
   ],
   "key": null,
   "opening_element": "rap_verse",
-  "opening_basis": "source",
+  "opening_basis": "unconfirmed",
   "hook_first": "no",
-  "hook_first_basis": "source",
+  "hook_first_basis": "unconfirmed",
   "hook_status": "present_verified",
   "beat_switch": "unknown",
   "beat_switch_basis": "unknown",
@@ -10858,7 +10877,9 @@
   "verified": true,
   "research_run": "S3_chunk2",
   "verifier_applied": [
-   "hook_status->present_unverified"
+   "hook_status->present_unverified",
+   "sweep opening_element->not_found",
+   "sweep hook_before_first_verse->not_found"
   ],
   "structure_sweep_used": [
    "opening_element",

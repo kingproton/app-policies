@@ -9,9 +9,9 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 - **Production judgment is labeled [J]:** every "Try it" block and the final section.
 
 **What was assessed:**
-- All 100 songs were researched album by album or group by group, and an independent verifier re-checked each group. Later gap sweeps filled missing structure and tempo fields with their own citations. A separate pass re-checked the sweep's structure claims (see the method notes).
+- All 100 songs were researched album by album or group by group, and an independent verifier re-checked each group. Later gap sweeps filled missing structure and tempo fields with their own citations. A separate pass re-checked all 41 of the sweep's structure claims; only the confirmed ones stay sourced (see the method notes).
 - Runtime is known for 98 of the 100. A published BPM exists for 85, and 70 have a resolved grid/felt reading that M-1 uses.
-- Sourced opening and hook data exists for a minority: 18 openings, 13 hook-order answers and 20 hooks (see M-4, M-5 and the limits section).
+- Sourced opening and hook data exists for a minority: 14 openings, 7 hook-order answers and 20 hooks (see M-4, M-5 and the limits section).
 - Nobody listened to the recordings.
 
 ## Measured counts at a glance
@@ -34,9 +34,9 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 | Hook present — sourced / unverified | 20 / 32 | 5 / 6 | 15 / 26 | 7 / 16 | 13 / 16 | 6 / 8 | 14 / 24 |
 | No conventional hook (unverified) | 6 | 1 | 5 | 3 | 3 | 2 | 4 |
 | Hook status unknown | 42 | 0 | 42 | 29 | 13 | 25 | 17 |
-| Sourced opening / of which a sample | 18 / 10 | 5 / 3 | 13 / 7 | 8 / 5 | 10 / 5 | 5 / 2 | 13 / 8 |
-| Hook before first verse — sourced yes / no | 8 / 5 | 2 / 3 | 6 / 2 | 4 / 1 | 4 / 4 | 3 / 1 | 5 / 4 |
-|   not re-confirmed (U) yes / no | 3 / 3 | 0 / 0 | 3 / 3 | 0 / 0 | 3 / 3 | 2 / 0 | 1 / 3 |
+| Sourced opening / of which a sample | 14 / 7 | 4 / 3 | 10 / 4 | 6 / 3 | 8 / 4 | 5 / 2 | 9 / 5 |
+| Hook before first verse — sourced yes / no | 3 / 4 | 1 / 2 | 2 / 2 | 1 / 1 | 2 / 3 | 1 / 1 | 2 / 3 |
+|   not re-confirmed (U) yes / no | 8 / 4 | 1 / 1 | 7 / 3 | 3 / 0 | 5 / 4 | 4 / 0 | 4 / 4 |
 |   recollection yes / no | 4 / 8 | 2 / 0 | 2 / 8 | 1 / 5 | 3 / 3 | 1 / 2 | 3 / 6 |
 | Beat switch — sourced / U / recollection | 10 / 5 / 3 | 1 / 0 / 0 | 9 / 5 / 3 | 5 / 2 / 3 | 5 / 3 / 0 | 6 / 4 / 2 | 4 / 1 / 1 |
 | Beat switch unknown | 64 | 5 | 59 | 41 | 23 | 27 | 37 |
@@ -99,7 +99,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - *It carries the hook:*
     - "Luther": Cheryl Lynn and Luther Vandross's "If This World Were Mine" carries the chorus (The Root).
     - "Super Gremlin": the How to Loot Brazil vocal returns in each chorus (Wikipedia).
-    - "Wait For U": Tems's "Higher" vocal opens the song and recurs throughout (American Songwriter).
+    - "Wait For U": Tems's "Higher" vocal opens the song and repeats through it as the refrain (Pulse).
     - "First Class": the hook samples Fergie's "Glamorous" chorus (Capital XTRA).
     - "Houdini": the chorus interpolates "Abracadabra" (Stereogum).
     - "Lovin On Me": the hook is built on a Cadillac Dale sample (Billboard, via the gap sweep).
@@ -154,31 +154,33 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Exception:** in "Man At The Garden", the phrase "I deserve it all" repeats throughout as a litany-style refrain (Wikipedia). That's a middle path between chorus and no chorus.
 - **Flags:** three of the six are diss records, and two of those come from the same 2024 Kendrick Lamar–Drake–J. Cole feud ("Euphoria", "7 Minute Drill"). Every "no hook" answer is unverified.
 
-### M-5. What the listener hears first: a borrowed sound in 10 of the 18 sourced openings
+### M-5. What the listener hears first: a sample or interpolation in half of the 14 sourced openings
 
-- **Effect:** arrangement, the first 5–15 seconds. Ranked fifth because only 18 openings and 13 hook-order answers are sourced.
+- **Effect:** arrangement, the first 5–15 seconds. Ranked fifth because only 14 openings and 7 hook-order answers are sourced.
 - **Count:**
-  - **Sourced openings: 18.**
-    - **10** a sample, interpolation or recorded chant;
-    - **4** a spoken or ad-lib intro;
-    - **2** a rap verse;
-    - **1** a producer tag;
-    - **1** a sung intro.
-  - Another 16 openings are cited by research but not re-confirmed (U), and 12 rest on recollection.
-  - **Hook before the first verse** (hook-first), sourced for 13: **8 yes / 5 no**. U: 3 yes / 3 no. Recollection: 4 yes / 8 no.
-  - **Sample first, hook before the verse:** "Luther", "Carnival" (a recorded Inter Milan crowd chant), "Paint The Town Red", "Wait For U" and "Super Gremlin" open on documented borrowed material and reach the hook before the first verse. For "Luther", "Super Gremlin" and "Wait For U", a cited source says the borrowed vocal returns in the chorus or throughout.
-  - **Sourced verse-first (5):** "Sticky" (Tyler opens with his own verse), "Houdini" (a sung intro, then the verse), "Euphoria", "Favorite Song" and "Jimmy Cooks".
+  - **Sourced openings: 14.**
+    - **7** a sample or interpolation;
+    - **4** a spoken or ad-lib intro (including "Houdini"'s voicemail skit);
+    - **1** a studio-recorded crowd chant ("Carnival");
+    - **1** a rap verse ("Jimmy Cooks");
+    - **1** a producer tag ("Shabang").
+  - Another 20 openings are cited but not re-confirmed (U), and 12 rest on recollection.
+  - **Hook before the first verse** (hook-first) is sourced for only **7** songs:
+    - **3 yes**: "Paint The Town Red", "Rich Flex", "First Class";
+    - **4 no**: "Houdini", "Euphoria", "Favorite Song", "Jimmy Cooks".
+  - Not re-confirmed: 8 yes / 4 no. Recollection: 4 yes / 8 no.
+  - **Sample first, then the hook before the verse:** only "Paint The Town Red" has both sourced. For "Luther", "Wait For U" and "Super Gremlin", a cited source says the borrowed vocal that opens the song returns in the chorus or throughout. Whether a chorus *section* comes before the first verse is not confirmed (U).
   - **Timestamps:** no first-vocal or first-hook time was documented for any song.
 - **Try it [J]:**
   - Whatever comes first, make it **identifiable within the first 4 grid bars**.
   - If your hook is built on a recognition device (M-2), open on the device.
   - If your record is a statement, open on your sharpest image and earn the hook. The worked session's Opening A and Opening B test exactly this choice.
-- **Exception:** "Houdini" opens on a sung callback to "Without Me" and holds its "Abracadabra" chorus until after the first verse (AOL; Stereogum). The first sound reminds you who it is, not what the hook is.
+- **Exception:** "Houdini" opens on a Paul Rosenberg voicemail skit and a sung callback to "Without Me", and holds its "Abracadabra" chorus until after the first verse (Songfacts, Yahoo and HotNewHipHop, via search summaries). The first sounds tell you who it is, not what the hook is.
 - **Flags:**
-  - Drake-credited songs supply 3 of the 8 sourced hook-first answers and 1 of the 5 verse-first. Without them the split is 5 vs 4.
-  - 2 of the 10 sample openings are Drake-credited.
-  - Most sourced openings (15 of 18) and hook-order answers (11 of 13) come from the gap sweep, not the first research pass (see the method notes).
-  - Treat the split as directional. The audio handoff in file 05 measures it properly.
+  - Seven hook-order answers can't support a rule either way. Drake-credited songs supply 1 of the 3 hook-first answers and 1 of the 4 verse-first.
+  - 2 of the 7 sample openings are Drake-credited.
+  - 11 of the 14 sourced openings and 5 of the 7 hook-order answers come from the gap sweep. Each was re-checked by a separate pass (see the method notes).
+  - Treat this as directional. The audio handoff in file 05 measures it properly.
 
 ### M-6. When a section returns, the documented change is more often in the beat than in the voice
 
@@ -237,7 +239,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - On a single, use the *small* version: a one-felt-bar drop or a vocal-only bar before the last hook.
   - Save a full beat switch for a statement or feud record, or for verse 2 of a long song.
 - **Exception:** "Euphoria" is the only climber with a documented switch. For "Lovin On Me", "First Class" and "Big Energy", "no switch" is recollection, so what changes on return there is undocumented.
-- **Flags:** **Drake 6 of 10, Kendrick Lamar 3 of 10.** Two of the 10 ("Not Like Us", "Jimmy Cooks") were sourced by the gap sweep.
+- **Flags:** **Drake 6 of 10, Kendrick Lamar 3 of 10.** Two of the 10 ("Not Like Us", "Jimmy Cooks") were sourced by the gap sweep; the re-check confirmed both.
 
 ### M-8. Runtime: album-bomb cuts run long; other songs sit nearer 3:15–3:25
 
@@ -332,7 +334,11 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - **R**: unverified recollection.
   - **?**: unknown.
   - The verifier's rejections are applied in `scripts/track_merge.py` from the list in `scripts/corrections.py`.
-- **Gap sweeps** ran after the verifier to fill missing fields. Their structure claims carry their own citations. They supply 15 of the 18 sourced openings, 11 of the 13 sourced hook-order answers, 13 of the 20 sourced hooks and 2 of the 10 sourced beat switches, and a separate pass re-checked them against the cited pages.
+- **Gap sweeps** ran after the verifier to fill missing fields, and their structure claims carry their own citations. They supply 11 of the 14 sourced openings, 5 of the 7 sourced hook-order answers, 13 of the 20 sourced hooks and 2 of the 10 sourced beat switches.
+  - A separate pass re-checked all 41 sweep structure claims against search summaries of the cited pages, since the pages themselves could not be opened from this environment.
+  - Result: 29 confirmed, 9 partly supported, 2 not found, 1 contradicted. Only confirmed claims stay sourced; the rest are U.
+  - Two exceptions are recodes the re-check's own sources support: "Houdini" opens on a voicemail skit, not a sung intro, and "Carnival" opens on a crowd chant recorded in the studio for the track, not a sample.
+  - The re-check also noted where a description may come from a music-video edit (for example, "Not Like Us" has a video-only teaser); those descriptions are not used.
 - **Grid BPM:** the DAW tempo convention. **Felt BPM:** the rap-bar pulse. A half-time feel is coded when grid ≈ 2× felt. Published BPMs disagree by factors of two, and no source describes the feel of any track, so every felt value is a genre-convention inference.
 - **Hook-first** = the hook or chorus arrives before the first rap verse; a short spoken line, tag or sample intro may come before it. So "Rich Flex" (a 21 Savage/Young Nudy skit, then Drake's sung hook) is coded opening = spoken intro and hook-first = yes. It is not the same as "the first sound is the hook".
 - **Negatives are never sourced** in this data set. Every "no beat switch" and "no hook" is recollection or a weak source, so prevalence counts based on sourced "yes" answers are minimums.

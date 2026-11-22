@@ -31,7 +31,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 - **Per-track study:** done album by album, with a hard search budget per agent.
   - Every claim carries a basis: **source** (cited page), **U** (cited, but the verifier could not find support), **unverified recollection**, or **unknown**. Only "source" counts as measured.
   - An independent verifier re-checked runtime, tempo, opening/hook claims, beat switches and samples for each group; its rejections are applied in `scripts/track_merge.py` from `scripts/corrections.py`.
-  - Later gap sweeps filled missing fields with their own citations, and a separate pass re-checked those claims.
+  - Later gap sweeps filled missing fields with their own citations. A separate pass re-checked all 41 sweep structure claims: 29 confirmed; the rest were dropped to U, except two corrected codes.
 - **Tempo:** listed BPMs often disagree by a factor of two, so both readings are kept. The grid BPM uses the DAW convention; the felt BPM is the rap-bar pulse (half of grid for half-time trap). No source describes the felt pulse of any track, so every felt value is a genre-convention inference (labeled in the data).
 - **Environment limits:** the cloud environment's network policy blocked billboard.com, Wikipedia, lyric-timing and audio hosts for direct fetching, and an allowlist change was rejected. Search ran server-side, under a cap of 200 searches per turn, so the work ran in budgeted batches.
 
