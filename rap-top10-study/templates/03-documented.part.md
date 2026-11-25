@@ -97,7 +97,7 @@
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |
 | Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level; a documented beat or bed change on {{ fs('all','return_beat') }} tracks (M-11) | Needs the full recording or stems |
-| Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for {{ fs('all','return_sourced_tracks') }} tracks in table 4c (M-11) | — |
+| Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for {{ fs('all','return_sourced_tracks') - fs('all','return_none') }} tracks in table 4c (M-11), and {{ fs('all','return_none') }} more is coded as naming no specific change | — |
 | A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means the record was read and no returning block was accepted ({{ nohook_basis('A') }} where both readings agree, {{ nohook_basis('J') }} where a second reader ruled); "no matching record" means there was no usable record | — |
 
 `05-measurement-method.md` says how each measured row was produced and checked.

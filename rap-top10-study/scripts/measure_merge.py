@@ -134,6 +134,8 @@ def lyric_block(cid):
         if b['has_hook'] and b['first_hook_s'] is not None:
             b['hook_before_first_verse'] = not any(s['label'] == 'verse' and s['start_s'] < b['first_hook_s'] - 1.0 for s in sec)
         main = [s['start_s'] for s in sec if s['label'] in ('verse', 'hook')]
+        # the ruled first hook counts too, where the reader's map labels it otherwise (#37 Young Metro: the ruling takes the title chant at 0:01)
+        if b['has_hook'] and b['first_hook_s'] is not None: main.append(b['first_hook_s'])
         b['intro_len_s'] = min(main) if main else None
     # second, separate run of the read and ruling (consistency check only: it never changes a value)
     if cid in LR2 and basis in ('A', 'J'):

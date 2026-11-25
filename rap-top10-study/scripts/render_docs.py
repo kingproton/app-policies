@@ -270,6 +270,11 @@ def po(kind, key): return (MS_ALL['page_origins'].get(kind) or {}).get(key, 0)
 def cs(key): return MS_ALL['claims_summary'][key]
 def fsa(key): return FS['all'][key]
 def sw_recollection(): return FS['all']['switch_no_any'] + FS['all']['switch_yes_rec']
+def ret_sum():
+    """Return-change types: say how many songs have both a beat and a voice change, and check the parts add up. Prints the clause or nothing."""
+    a = FS['all']; both = a['return_beat'] + a['return_voice'] + a['return_register'] + a['return_delivery'] - (a['return_sourced_tracks'] - a['return_none'])
+    if both < 0: raise KeyError('return-change types do not add up')
+    return '' if both == 0 else f" ({both} song{'s' if both > 1 else ''} with both a beat and a voice change)"
 def sw_unconfirmed_only(title):
     """Guard: exactly one song holds a 'yes' that no page or cited source confirmed, and it is this one. Prints nothing."""
     v = [r['title'] for r in rows if (T.get(r['cid']) or {}).get('beat_switch') == 'yes' and T[r['cid']].get('beat_switch_basis') == 'unconfirmed']
@@ -277,12 +282,15 @@ def sw_unconfirmed_only(title):
     if bs_n() + FS['all']['switch_unknown'] + sw_recollection() + 1 != len(rows): raise KeyError('beat-switch counts do not add up to the list')
     return ''
 def UNMEASURED(): return ('where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; '
-                          'and what the drums, the 808, the melody and the vocal stack do when a section returns')
+                          'what the drums, the 808, the melody and the vocal stack do when a section returns; and which of those changes is audible enough to matter')
 def ex5(title):
     """M-5 example: first hook time, then first hook and first verse lengths in felt bars. Refuses a track that is not basis A with a clear felt tempo."""
     l = _l(title); f = _f(title)
     if l['basis'] != 'A' or f['basis'] != 'M': raise KeyError(f'{title!r} is not a both-readings-agree, clear-tempo example')
-    return f"\"{title}\" ({hook(title)}; {bars(title, 'first_hook_len')} / {bars(title, 'first_verse_len')})"
+    b = _t(title)[1]['m']['bars']
+    if not b.get('hook_lens') or b.get('first_hook_len') is None or abs(b['hook_lens'][0] - b['first_hook_len']) > 0.5:
+        raise KeyError(f'{title!r}: the two first-hook lengths (tables 4b and 4b-2) disagree')
+    return f"\"{title}\" ({hook(title)}; {bars(title, 'hook_lens')} / {bars(title, 'first_verse_len')})"
 def isverse3():
     """Guard for the M-4 exception sentence: the three named records are exactly the maps whose first section is a verse."""
     want = {'"Gimme A Hug"', '"Man At The Garden"', '"Sticky (Drake)"'}

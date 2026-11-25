@@ -36868,7 +36868,7 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "hook_before_first_verse": true,
-    "intro_len_s": 17.05,
+    "intro_len_s": 0.58,
     "second_run": {
      "status": "compared",
      "same": {
@@ -36946,7 +36946,7 @@
      4.0,
      4.9
     ],
-    "intro_len": 3.98,
+    "intro_len": 0.14,
     "first_line": 0.14,
     "first_hook": 0.14,
     "first_hook_len": 7.86,

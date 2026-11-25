@@ -177,5 +177,5 @@ Counts are from the style-tagged groups: trap or melodic trap {{ g('style_trap',
 ## What this process cannot promise
 
 - **Superstar album launches dominate the reference set.** {{ ST['debuts'] }} of the 100 debuted directly in the top 10, {{ ST['one_week_top10'] }} spent exactly one week there, and Drake is lead artist on {{ ST['lead_artists'][0][1] }}. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like. The {{ g('climbers','n_songs') }} climbers are a closer but small, uncontrolled comparison ([M-8]).
-- **Some listening-level details are still unknown.** Timing, section sizes, density and felt tempo are now measured (`05-measurement-method.md`). Not measured: {{ UNMEASURED() }}. Line-level lyric timing and 30-second clips cannot show them.
+- **Some listening-level details are still unknown.** Timing, section sizes, density and felt tempo are now measured (`05-measurement-method.md`). Not measured: {{ UNMEASURED() }}. Line-level lyric timing and 30-second clips cannot show them, and nobody listened to the recordings.
 - **A clip is one section and a lyric record is one transcription.** Each measured number has a basis code in `04-reference-list.md`, table 4b. Lean on the medians, not on any single track.

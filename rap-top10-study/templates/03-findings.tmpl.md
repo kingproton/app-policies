@@ -119,7 +119,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - **Verses per song:** two in {{ sm('all','n_verses','2') }}, three in {{ sm('all','n_verses','3') }}, four or more in {{ sm('all','n_verses','4') }}, one in {{ sm('all','n_verses','1') }}, none in {{ sm('all','n_verses','0') }} ("Carnival", whose record has no verse lines).
   - **Hook occurrences:** two in {{ g('all','hook_count').get('2',0) }} tracks, three in {{ g('all','hook_count').get('3',0) }}, four or more in {{ g('all','hook_count').get('4',0) + g('all','hook_count').get('5+',0) }}.
   - A bridge appears in {{ g('all','has_bridge') }}, a pre-hook in {{ g('all','has_pre_hook') }} and a post-hook in {{ g('all','has_post_hook') }}. The record ends on an outro in {{ sm('all','ends_on','outro') }} maps, on the hook or post-hook in {{ sm('all','ends_on','hook') + sm('all','ends_on','post_hook') }} and on a verse in {{ sm('all','ends_on','verse') }}.
-- **Examples (first hook start; first hook / first verse in felt bars, from tables 4b and 4b-2):**
+- **Examples (first hook start from table 4b; first hook / first verse in felt bars, from the section map in table 4b-2):**
   - *Four-bar hook:* {{ ex5('Pussy & Millions') }}, {{ ex5('Whisper My Name') }}.
   - *Eight-bar hook, eight-bar verse:* {{ ex5('4X4') }}, {{ ex5('Princess Diana') }}, {{ ex5('Puffin On Zootiez') }}.
   - *Twelve-bar verse:* {{ ex5('All My Life') }}, {{ ex5('Spin Bout U') }}.

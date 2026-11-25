@@ -14,7 +14,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 - **Lyric timing and structure:** 98 tracks have a time-synced lyric record whose length matches the track within 3 seconds. Each record was read twice, by a repetition detector and by an independent AI reader; where the two disagreed, a second AI reader ruled. No person read them. Timing basis: 58 agreed (A), 40 ruled (J). 2 tracks had no matching record ("Staying Alive" and "I'm Dat N***a").
 - **A second run as a check.** The whole reading and ruling was run a second time by separate AI agents. For the 94 tracks it also resolved, it agrees on whether there is a hook in 94/94, on the first line within one second in 94/94, on the first hook within 2.5 seconds in 83/87, and on hook-before-first-verse in 85/87. Softer labels agree less often: the number of verses in 83/94, the kind of first line in 86/94, the hook-on-return label in 80/87. The second run never changes a value; table 4b-2 marks each track.
 - **Timestamps** are crowd-synced line times. Where two or more matching records exist (97 tracks), their first-line times agree within one second for 75/97. Treat every timestamp below as good to about a second, not to the frame.
-- **Not measured:** where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; and what the drums, the 808, the melody and the vocal stack do when a section returns. Line-level lyric timing and a 30-second clip cannot show them, and nobody listened. They stay unknown.
+- **Not measured:** where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; what the drums, the 808, the melody and the vocal stack do when a section returns; and which of those changes is audible enough to matter. Line-level lyric timing and a 30-second clip cannot show them, and nobody listened. They stay unknown.
 
 ## Measured counts at a glance
 
@@ -35,7 +35,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 |   hook before the first verse | 48/91 | 8/11 | 40/80 | 22/50 | 26/41 | 16/37 | 32/54 | 20/45 | 3/6 |
 |   first return anchor — median time | 0:15 (IQR 0:05–0:58; n=92) | 0:10 (IQR 0:01–0:14; n=11) | 0:23 (IQR 0:07–1:03; n=81) | 0:37 (IQR 0:11–1:07; n=51) | 0:12 (IQR 0:04–0:36; n=41) | 0:33 (IQR 0:07–1:06; n=38) | 0:14 (IQR 0:04–0:47; n=54) | 0:23 (IQR 0:03–1:00; n=45) | 0:42 (IQR 0:02–1:46; n=6) |
 |   hook occurrences: 2 / 3 / 4+ | 43 / 42 / 6 | 4 / 5 / 2 | 39 / 37 / 4 | 28 / 21 / 1 | 15 / 21 / 5 | 24 / 11 / 2 | 19 / 31 / 4 | 25 / 16 / 4 | 4 / 2 / 0 |
-| **Section lengths** — intro (felt bars) | 4.4 (IQR 3.8–8.1; n=83) | 4.4 (IQR 3.8–7.9; n=10) | 4.4 (IQR 3.8–8.2; n=73) | 4.7 (IQR 3.8–8.2; n=47) | 4.2 (IQR 3.7–7.7; n=36) | 5.2 (IQR 3.6–9.0; n=34) | 4.3 (IQR 3.8–7.8; n=49) | 4.1 (IQR 3.8–8.0; n=42) | 6.0 (IQR 1.6–8.1; n=4) |
+| **Section lengths** — intro (felt bars) | 4.4 (IQR 3.8–8.1; n=83) | 4.4 (IQR 3.8–7.9; n=10) | 4.4 (IQR 3.7–8.2; n=73) | 4.7 (IQR 3.8–8.2; n=47) | 4.2 (IQR 3.7–7.7; n=36) | 5.2 (IQR 3.6–9.0; n=34) | 4.3 (IQR 3.7–7.8; n=49) | 4.1 (IQR 3.5–8.0; n=42) | 6.0 (IQR 1.6–8.1; n=4) |
 |   first hook (felt bars) | 7.5 (IQR 4.0–8.1; n=79) | 7.5 (IQR 5.1–8.2; n=10) | 7.5 (IQR 4.0–8.1; n=69) | 6.2 (IQR 4.0–8.1; n=44) | 7.6 (IQR 3.9–8.1; n=35) | 4.3 (IQR 3.8–8.1; n=32) | 7.6 (IQR 4.1–8.1; n=47) | 6.0 (IQR 4.0–8.0; n=41) | 7.6 (n=3) |
 |   first verse (felt bars) | 11.9 (IQR 8.0–16.2; n=82) | 9.3 (IQR 7.5–14.5; n=10) | 12.0 (IQR 8.0–17.8; n=72) | 11.9 (IQR 8.0–15.9; n=47) | 11.9 (IQR 8.0–17.1; n=35) | 10.0 (IQR 8.0–15.8; n=34) | 12.2 (IQR 8.0–19.0; n=48) | 10.0 (IQR 8.0–15.9; n=41) | 24.1 (IQR 18.5–29.0; n=4) |
 |   verse 2 shorter / similar / longer than verse 1 | 23 / 28 / 40 (of 91) | 2 / 7 / 1 (of 10) | 21 / 21 / 39 (of 81) | 12 / 15 / 24 (of 51) | 11 / 13 / 16 (of 40) | 9 / 8 / 21 (of 38) | 14 / 20 / 19 (of 53) | 6 / 15 / 23 (of 44) | 4 / 1 / 3 (of 8) |
@@ -128,7 +128,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - The first lyric line starts at a median **1.4 seconds**: within 5 seconds in 74/98 tracks and after 15 seconds in 7/98.
   - **What that first line is** (the AI reader's call, from the text alone): an ad-lib or vocalization in 35, a sample or another voice in 22, spoken in 12, sung in 9, a rap line in 9, unclear in 11.
   - The first section in the map is an intro in 81 of 98 section maps, the hook in 13, a verse in 3 and a pre-hook in 1.
-  - **Intro length** (the time before the first hook or verse): median 14 seconds, or **4.4 felt bars** (middle half 3.8–8.1). About four bars (3 to 5) in 30 tracks and about eight (7 to 9) in 17; under three in 15, five to seven in 8, nine or more in 13 (of 83 with a resolved felt tempo).
+  - **Intro length** (the time before the first hook or verse): median 14 seconds, or **4.4 felt bars** (middle half 3.8–8.1). About four bars (3 to 5) in 29 tracks and about eight (7 to 9) in 17; under three in 16, five to seven in 8, nine or more in 13 (of 83 with a resolved felt tempo).
 - **Examples:** "Evil J0rdan" waits until 0:54 for its first line; "Real Spill" until 0:12; "Redrum" until 0:24. "Not Like Us", "Houdini" and "Carnival" have a voice inside the first second.
 - **Try it [J]:** treat the intro as four felt bars (eight on your 144 grid) with one identity sound in it: a tag, an ad-lib, a chopped phrase. Enter with the lead on bar five. If the record needs more runway, take eight and nothing in between.
 - **Exception:** in 3 section maps the first transcribed line is already a verse line ("Gimme A Hug", "Man At The Garden", "Sticky (Drake)"). These are not cold opens: in the record used, that line comes at 0:28, 0:32 and 0:27, so each has a long opening that the lyric record does not show. The matching records for "Gimme A Hug" differ on that time by 60 seconds, so treat it as a late entry, not as a measured time. 13 maps start on the hook. [J]
@@ -143,7 +143,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - **Verses per song:** two in 50, three in 29, four or more in 12, one in 6, none in 1 ("Carnival", whose record has no verse lines).
   - **Hook occurrences:** two in 43 tracks, three in 42, four or more in 6.
   - A bridge appears in 15/98, a pre-hook in 16/98 and a post-hook in 22/98. The record ends on an outro in 54 maps, on the hook or post-hook in 37 and on a verse in 7.
-- **Examples (first hook start; first hook / first verse in felt bars, from tables 4b and 4b-2):**
+- **Examples (first hook start from table 4b; first hook / first verse in felt bars, from the section map in table 4b-2):**
   - *Four-bar hook:* "Pussy & Millions" (0:01; 4 / 8), "Whisper My Name" (1:21; 3.9 / 15.6).
   - *Eight-bar hook, eight-bar verse:* "4X4" (0:14; 8 / 8.2), "Princess Diana" (0:13; 8 / 8), "Puffin On Zootiez" (0:15; 8 / 8).
   - *Twelve-bar verse:* "All My Life" (0:20; 8 / 12), "Spin Bout U" (0:58; 8.3 / 12).
@@ -266,7 +266,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - A page does not always use the words "beat switch". A described change of instrumental partway through is counted: a different sample bed in the second half of "First Person Shooter", a shift into harder production on "Dust", a move into new synths for the outro of "Superhero".
   - **14** of the 18 are Drake-credited and **2** are Kendrick Lamar's.
   - The Billboard credit names a **second vocalist** on **44/100** songs: 1/12 of the climbers and 43/88 of the debuts.
-  - From the earlier search-based pass, 27 songs have a cited description of what changes between sections: a beat or bed change in 14, a new voice in 9. Where the change sits in a section that comes back, it is a new voice in 8 and a bed change in 4.
+  - From the earlier search-based pass, 26 songs have a cited description of what changes between sections (one more is coded as naming no specific change): a beat or bed change in 14, a new voice in 9, a register change in 2 and a delivery change in 2 (1 song with both a beat and a voice change). Where the change sits in a section that comes back, it is a new voice in 8 and a bed change in 4.
 - **Where the switch falls, as pages describe it:** "TV Off" splits into two parts around the two-minute mark; "Daylight" switches two minutes in; "Champagne Poetry" and "What Did I Miss?" switch about halfway; "Rich Flex" switches over halfway through; "Gimme A Hug" has two switches and "Meltdown" three; "Family Matters" changes beat between its verses.
 - **Try it [J]:**
   - On a single, use the *small* version: a one-felt-bar drop or a vocal-only bar before the last hook.
@@ -340,7 +340,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |
 | Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level; a documented beat or bed change on 14 tracks (M-11) | Needs the full recording or stems |
-| Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for 27 tracks in table 4c (M-11) | — |
+| Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for 26 tracks in table 4c (M-11), and 1 more is coded as naming no specific change | — |
 | A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means the record was read and no returning block was accepted (6 where both readings agree, 1 where a second reader ruled); "no matching record" means there was no usable record | — |
 
 `05-measurement-method.md` says how each measured row was produced and checked.
