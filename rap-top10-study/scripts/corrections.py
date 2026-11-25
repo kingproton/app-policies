@@ -320,3 +320,8 @@ PAGE_SAMPLE_ADD = {
     40: [("Get 'Em High", "Kanye West - 'Get 'Em High' (2004), a line interpolated at the end", 'interpolation', None)],
     93: [('God Did', "DJ Khaled - 'God Did' and Drake - 'Chicago Freestyle'", 'interpolation', None)],
 }
+
+# ---- 11. Lyric records the AI reader flagged as incomplete: cid -> note shown under table 4b ------------------
+LYRIC_RECORD_NOTES = {
+    52: "the record transcribes only the hook; the rap verses are missing, so the verse columns are blank and the gaps in it are not breaks",   # Carnival
+}

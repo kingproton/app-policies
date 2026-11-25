@@ -173,6 +173,10 @@ for r in rows:
     out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {fe} | {l['first_line_s']:.1f} s | {fh} | {l['hook_count'] if l['has_hook'] else '—'} | {sb(l.get('first_hook_len_s') if l['has_hook'] else None, b.get('first_hook_len'))} | "
                f"{sb(l.get('first_verse_len_s'), b.get('first_verse_len'))} | {l['verse_words_per_s'] if l.get('verse_words_per_s') else '—'} | {l['basis']} |")
 
+_rn = [(r['n'], r['title'], C.LYRIC_RECORD_NOTES[r['cid']]) for r in rows if r['cid'] in C.LYRIC_RECORD_NOTES]
+if _rn:
+    out.append('\n**Record notes.** Lyric records the reader flagged as incomplete:')
+    for n_, title_, note_ in _rn: out.append(f"- #{n_} {title_}: {note_}.")
 # ---------------- 4c documented
 out.append('\n## 4c. Per-track documented facts\n')
 out.append('**Legend.**')

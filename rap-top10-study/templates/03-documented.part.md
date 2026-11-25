@@ -24,10 +24,22 @@
 - **Count:** in **{{ g('all','no_hook') }}** tracks no block of lyric comes back as a hook: {{ titles('no_hook_list') }}.
   - {{ num(g('style_verse_led','no_hook')) }} of the {{ num(g('all','no_hook')) }} carry the verse-led tag, and {{ num(g('drake_credit','no_hook')) }} are Drake-credited.
   - Their runtimes run from {{ no_hook_rt_min() }} to {{ no_hook_rt_max() }}.
+- **What comes back instead, song by song** (the lyric-record column is the AI reader's description of the record; the page column is page text, basis P):
+
+| Song | In the lyric record | On the pages |
+|---|---|---|
+| "Make Them Cry"{{ nohook('Make Them Cry') }} | One continuous rap; only short ad-lib tags repeat, at both ends{{ rnote('Make Them Cry','ad-lib tags at both ends') }} | One word is repeated in the intro and again in the outro, bookending the song{{ need('Make Them Cry','opening','repeated in the intro') }} |
+| "Evil J0rdan"{{ nohook('Evil J0rdan') }} | One verse after a {{ fl('Evil J0rdan') }} wait; nothing returns{{ rnote('Evil J0rdan','one continuous rap verse') }} | A long intro built on a sample links it to the album track before it{{ need('Evil J0rdan','structure','Popular') }} |
+| "Reincarnated"{{ nohook('Reincarnated') }} | Three verses; verses 1 and 2 end on the title word{{ rnote('Reincarnated','end on the title word') }} | Three verses and no chorus; a sung Spanish intro by another singer; the third verse changes speaker{{ need('Reincarnated','structure','no chorus') }}{{ needv('Reincarnated','opening','Spanish') }}{{ needv('Reincarnated','return_1','third verse') }} |
+| "Euphoria"{{ nohook('Euphoria') }} | Three verse parts; one line recurs once{{ rnote('Euphoria','a single line recurs') }} | The beat is the landmark: a soft start, then it picks up, and the instrumental grows more aggressive{{ needv('Euphoria','return_1','picks up') }}{{ needv('Euphoria','return_2','aggressive') }} |
+| "Hiss"{{ nohook('Hiss') }} | Three verses separated by ad-lib breaks{{ rnote('Hiss','ad-lib breaks') }} | A spoken-word intro, and a second spoken break between the first and second verse{{ needv('Hiss','return_1','spoken word') }} |
+| "Calling For You"{{ nohook('Calling For You') }} | No section returns; a one-off refrain passage, a sung title chant and a long skit{{ rnote('Calling For You','No section returns') }}{{ rnote('Calling For You','skit') }} | A sample "anchors the song"; a skit of about 90 seconds sits halfway through{{ needv('Calling For You','hook_description','anchors') }}{{ need('Calling For You','structure','skit') }} |
+| "Papi's Home"{{ nohook("Papi's Home") }} | One verse framed by a sampled intro and outro{{ rnote("Papi's Home",'framed by a sampled intro and outro') }} | The sample is used in the intro and again in the outro; one verse only{{ need("Papi's Home",'structure','outro as well as the intro') }}{{ need("Papi's Home",'structure','only one verse') }} |
+
 - **Try it [J]:**
   - If you go hookless, build a **return anchor**: a spoken frame that comes back, a beat change, or one line repeated as a refrain.
   - Make the record's context obvious: the target, the occasion, the stakes.
-- **Exception:** "Man At The Garden" sits between the two shapes: one short line recurs through the verses as a litany before a chant block arrives at {{ hook('Man At The Garden') }}. [J]
+- **Exception:** "Man At The Garden" sits between the two shapes: one short line recurs through the verses as a litany before a chant block arrives at {{ hook('Man At The Garden') }}.{{ rnote('Man At The Garden','refrain line') }} [J]
 - **Flags:** "no hook" here means no *lyric* block returns. A wordless or instrumental refrain would not show in a lyric record. Two of these are diss records ("Euphoria", "Hiss"){{ nohook('Euphoria') }}{{ nohook('Hiss') }}, so part of this shape belongs to one kind of record.
 
 ### M-10. Runtime: album-bomb cuts run long; other songs sit nearer 3:15–3:20

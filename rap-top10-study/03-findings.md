@@ -167,7 +167,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - **By type:** samples on 51 songs; interpolations on 17; dialogue or spoken clips on 4; self-reuse on 1.
   - The page check added a borrowing that was not on file for 11 entries, among them "Real Spill" (Sade), "Knife Talk" (a Project Pat verse), "712PM" and "Fear Of Heights".
 - **Where a page says what the borrowing does:**
-  - *It opens the record:* "Make Them Pay", "Luther", "Redrum", "IDGAF", "Virginia Beach", "Daylight", "Paint The Town Red", "Favorite Song", "Real Spill".
+  - *It opens the record:* "Make Them Pay", "Luther", "IDGAF", "Virginia Beach", "Daylight", "Paint The Town Red", "Real Spill", "Super Freaky Girl", "Super Gremlin".
   - *It carries the hook:* "Janice STFU" (the chorus interpolates Lykke Li's "I Follow Rivers"), "Staying Alive" (the chorus interpolates the Bee Gees), "Super Gremlin" (the sampled vocal is heard at the start and in the choruses), "Forever" (the chorus came from an existing Vory and Fridayy hook).
 - **Try it [J]:**
   - As an independent artist, budget for clearance or build an *original* recognition device that works the same way.
@@ -203,6 +203,18 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Count:** in **7/98** tracks no block of lyric comes back as a hook: "Make Them Cry", "Evil J0rdan", "Reincarnated", "Euphoria", "Hiss", "Calling For You", "Papi's Home".
   - 2 of the 7 carry the verse-led tag, and 3 are Drake-credited.
   - Their runtimes run from 2:59 to 6:24.
+- **What comes back instead, song by song** (the lyric-record column is the AI reader's description of the record; the page column is page text, basis P):
+
+| Song | In the lyric record | On the pages |
+|---|---|---|
+| "Make Them Cry" | One continuous rap; only short ad-lib tags repeat, at both ends | One word is repeated in the intro and again in the outro, bookending the song |
+| "Evil J0rdan" | One verse after a 0:54 wait; nothing returns | A long intro built on a sample links it to the album track before it |
+| "Reincarnated" | Three verses; verses 1 and 2 end on the title word | Three verses and no chorus; a sung Spanish intro by another singer; the third verse changes speaker |
+| "Euphoria" | Three verse parts; one line recurs once | The beat is the landmark: a soft start, then it picks up, and the instrumental grows more aggressive |
+| "Hiss" | Three verses separated by ad-lib breaks | A spoken-word intro, and a second spoken break between the first and second verse |
+| "Calling For You" | No section returns; a one-off refrain passage, a sung title chant and a long skit | A sample "anchors the song"; a skit of about 90 seconds sits halfway through |
+| "Papi's Home" | One verse framed by a sampled intro and outro | The sample is used in the intro and again in the outro; one verse only |
+
 - **Try it [J]:**
   - If you go hookless, build a **return anchor**: a spoken frame that comes back, a beat change, or one line repeated as a refrain.
   - Make the record's context obvious: the target, the occasion, the stakes.

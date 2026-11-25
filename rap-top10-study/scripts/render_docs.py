@@ -166,8 +166,8 @@ def _op(): return [(r, T[r['cid']]) for r in rows if (T.get(r['cid']) or {}).get
 def op_n(): return len(_op())
 def op_page_n(): return sum(1 for r, t in _op() if t.get('opening_basis') == 'page')
 def op_kind(k): return sum(1 for r, t in _op() if t.get('opening_element') == k)
-def op_titles(k, limit=None):
-    v = [f'"{_disp(r)}"' for r, t in _op() if t.get('opening_element') == k]
+def op_titles(k, limit=None, basis=None):
+    v = [f'"{_disp(r)}"' for r, t in _op() if t.get('opening_element') == k and (basis is None or t.get('opening_basis') == basis)]
     return ', '.join(v if limit is None else v[:limit])
 def proc_total(): return MS_ALL['process']['statements']
 def proc_tracks(): return MS_ALL['process']['tracks']
@@ -225,6 +225,10 @@ def noborrow(title):
     return ''
 def added(title):
     if not any(x.startswith(title + ':') for x in FS['borrow_page_added']): raise KeyError(f'no page-added borrowing for {title!r}')
+    return ''
+def rnote(title, words):
+    """Guard: the AI reader's stored note on this track's lyric record contains these words."""
+    if words.lower() not in (_l(title).get('reviewer_note') or '').lower(): raise KeyError(f'reader note for {title!r} does not contain {words!r}')
     return ''
 def bs_climbers(): return sum(1 for r, t in _sw() if not r['debut_in_top10'])
 def read_twice(): return sm('all', 'lyric_basis', 'A') + sm('all', 'lyric_basis', 'J')

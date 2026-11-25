@@ -237,6 +237,9 @@ Measured on 2026-11-25 from three sources by signal analysis and by reading lyri
 | 99 | Papi's Home | 2:59 | 140 / 70 (M) | 1.4 s | none | — | — | 68 s / 19.9 bars | 2.68 | A |
 | 100 | TSU | 5:09 | 130 / 65 (L) | 0.1 s | 1:02 (11) | 3 | 30 s / 8.2 bars | 26 s / 7.1 bars | 2.67 | A |
 
+**Record notes.** Lyric records the reader flagged as incomplete:
+- #39 Carnival: the record transcribes only the hook; the rap verses are missing, so the verse columns are blank and the gaps in it are not breaks.
+
 ## 4c. Per-track documented facts
 
 **Legend.**
