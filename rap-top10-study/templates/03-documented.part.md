@@ -118,7 +118,7 @@
 
 - **Basis codes for measured values** are in table 4b: feel **M / L / I / ?**; lyric timing **A / J / G / X**. Definitions are in `05-measurement-method.md`.
 - **Basis ladder for documented facts:**
-  - **P**: after the skeptic's check, the saved Wikipedia or Songfacts page text states the fact or names the work, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted; this includes {{ cs('skeptic_downgraded') }} verdicts the skeptic downgraded from supported), on a new page statement, or on a claim recoded to what the page states ({{ po('opening','recoded') }} opening). `05-measurement-method.md` gives the split.
+  - **P**: after the skeptic's check, the saved Wikipedia or Songfacts page text states the fact or names the work, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted; this includes verdicts the skeptic downgraded from supported), on a new page statement, or on a claim recoded to what the page states ({{ po('opening','recoded') }} opening). `05-measurement-method.md` gives the split.
   - **S**: a cited source supports the claim and the earlier verifier did not reject it. These were read through web-search summaries.
   - **U**: cited but not confirmed, or contradicted by page text. Kept for transparency, never counted.
   - **R**: unverified recollection. Never counted.

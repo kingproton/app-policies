@@ -127,6 +127,8 @@ def lyric_block(cid):
         dur = [(sct['label'], (sec[i + 1]['start_s'] if i + 1 < len(sec) else end) - sct['start_s']) for i, sct in enumerate(sec)]
         b['verse_lens_s'] = [round(d, 1) for lab, d in dur if lab == 'verse' and d > 0]
         b['hook_lens_s'] = [round(d, 1) for lab, d in dur if lab == 'hook' and d > 0]
+        b['_verse_lens_raw_s'] = [d for lab, d in dur if lab == 'verse' and d > 0]        # unrounded, for the bar counts
+        b['_hook_lens_raw_s'] = [d for lab, d in dur if lab == 'hook' and d > 0]
         b['n_verses'] = len(b['verse_lens_s']); b['section_labels'] = ' '.join({'intro': 'I', 'verse': 'V', 'pre_hook': 'p', 'hook': 'H', 'post_hook': 'q', 'bridge': 'B', 'outro': 'O', 'other': 'x'}[sct['label']] for sct in sec)
         b['has_bridge'] = any(sct['label'] == 'bridge' for sct in sec); b['has_pre_hook'] = any(sct['label'] == 'pre_hook' for sct in sec); b['has_post_hook'] = any(sct['label'] == 'post_hook' for sct in sec)
         b['ends_on'] = sec[-1]['label'] if sec else None
@@ -259,7 +261,8 @@ for cid, t in T.items():
                          hook_sylls_per_beat=None if not ly.get('hook_sylls_per_s') else round(ly['hook_sylls_per_s'] * beat, 2),
                          verse_line_beats=None if not ly.get('verse_median_line_gap_s') else round(ly['verse_median_line_gap_s'] / beat, 2))
         m['bars'] = dict(bar_s=round(bar, 3),
-                         verse_lens=[round(x / bar, 1) for x in (ly.get('verse_lens_s') or [])], hook_lens=[round(x / bar, 1) for x in (ly.get('hook_lens_s') or [])],
+                         verse_lens=[round(x / bar, 1) for x in (ly.get('_verse_lens_raw_s') or ly.get('verse_lens_s') or [])],
+                         hook_lens=[round(x / bar, 1) for x in (ly.get('_hook_lens_raw_s') or ly.get('hook_lens_s') or [])],
                          intro_len=None if ly.get('intro_len_s') is None else round(ly['intro_len_s'] / bar, 2),
                          first_line=round(ly['first_line_s'] / bar, 2),
                          first_hook=None if ly['first_hook_s'] is None else round(ly['first_hook_s'] / bar, 2),

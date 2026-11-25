@@ -107,6 +107,7 @@ for g, f in groups.items():
     d['return_sourced_tracks'] = sum(rtc.values())
     d['return_beat'] = rtc.get('beat', 0) + rtc.get('beat+voice', 0); d['return_voice'] = rtc.get('voice', 0) + rtc.get('beat+voice', 0)
     d['return_register'] = rtc.get('register', 0); d['return_delivery'] = rtc.get('delivery', 0); d['return_none'] = rtc.get('none', 0)
+    d['return_beat_voice'] = rtc.get('beat+voice', 0)
     rr = [(rtype(r, t), returning(r)) for r, t in S if rtype(r, t)]
     d['return_oneway'] = sum(1 for ty, rt_ in rr if rt_ is False)
     d['returning_total'] = sum(1 for ty, rt_ in rr if rt_ is True)

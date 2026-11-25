@@ -54,6 +54,7 @@ def clean_ev(t):
     t = re.sub(r"(?<=[.!?]) [^.]*(?:mutually exclusive|never shares? a song|excludes Hot Rap Songs)[^.]*\.", '', t)
     t = re.sub(r"(?:(?<=[.!?]) |^)(?:My memory|my memory)[^.]*\.", '', t)
     t = t.replace("makes it R&B, which rules out Hot Rap Songs", "makes it R&B under this study's working rule")
+    t = re.sub(r"\bas R&B, not rap\b", "as R&B", t)
     return t.strip()
 
 
@@ -62,6 +63,7 @@ def mmss(s):
     if s is None: return '?'
     s = int(round(s)); return f"{s // 60}:{s % 60:02d}"
 def plural(n, one, many): return one if n == 1 else many
+def hu(x): return int(x + 0.5) if x >= 0 else -int(-x + 0.5)      # round half up, the same way in every table
 
 
 def table_link(st):
@@ -177,20 +179,20 @@ for r in rows:
     if not _ruled(l) or not l['has_hook']: continue
     mh = [sct['start_s'] for sct in (l.get('sections') or []) if sct['label'] == 'hook']
     if not mh or abs(mh[0] - l['first_hook_s']) > 2.5 or len(mh) != l['hook_count']: _mapdiff.append((r, l, mh))
-def _shown_differ(r):
-    l = _lyr(r); b = (((T.get(r['cid']) or {}).get('m') or {}).get('bars') or {})
+def _len_differ(r):
+    """The two first-hook lengths differ by half a second or more (unrounded values)."""
+    l = _lyr(r)
     if not (_ruled(l) and l['has_hook'] and l.get('first_hook_len_s') and l.get('hook_lens_s')): return False
-    if b.get('first_hook_len') and b.get('hook_lens'): return f"{b['first_hook_len']:.1f}" != f"{float(b['hook_lens'][0]):.1f}"
-    return round(l['first_hook_len_s']) != round(l['hook_lens_s'][0])
-_lendiff = [r for r in rows if _shown_differ(r)]
+    return abs(l['first_hook_len_s'] - (l.get('_hook_lens_raw_s') or l['hook_lens_s'])[0]) >= 0.5
+_lendiff = [r for r in rows if _len_differ(r)]
 _nohookdens = [r for r in rows if _ruled(_lyr(r)) and _lyr(r)['has_hook'] and not _lyr(r).get('hook_words_per_s')]
 _noverse = [r for r in rows if _ruled(_lyr(r)) and not _lyr(r).get('verse_lens_s')]
 def _nl(v): return ', '.join(f"#{r['n']}" for r in v)
 out.append("- **First hook:** time of the first line of the ruled hook (the main recurring section), with the number of lyric lines before it. *none* = no returning block was accepted as the hook; a short tag can still come back (see the return anchor in table 4b-2). **Hooks** = how many times it occurs.")
-out.append(f"- **Hook length** = the ruled first hook from its first line to the end of its last line, as marked in the reading (or the detector's block length). **Verse 1 length** = the first verse section of the reader's map, to the start of the next section. Both are in seconds, and in bars of four felt beats where the felt tempo is resolved (double the bar count on a doubled DAW grid). Table 4b-2 measures every hook as a map section instead, to the start of the next section, so it also takes in any gap before that section; its first hook length differs from the value shown in this column on {len(_lendiff)} tracks ({_nl(_lendiff)}).")
+out.append(f"- **Hook length** = the ruled first hook from its first line to the end of its last line, as marked in the reading (or the detector's block length). **Verse 1 length** = the first verse section of the reader's map, to the start of the next section. Both are in seconds, and in bars of four felt beats where the felt tempo is resolved (double the bar count on a doubled DAW grid). Table 4b-2 measures every hook as a map section instead, to the start of the next section, so it also takes in any gap before that section; its first hook length differs from this column by half a second or more on {len(_lendiff)} tracks ({_nl(_lendiff)}); on the others the difference is smaller, and the printed values can still differ in the last digit.")
 out.append("- **Verse w/s:** words per second across verse sections (section boundaries from the repetition detector).")
 out.append("- **Timing basis:** **A** = the repetition detector and an independent AI read of the same lyric record agree; **J** = they disagreed and a second AI reader ruled; **G** = detector only; **X** = unresolved (not counted); G and X do not occur in this table. **no matching record** = no LRCLIB time-synced record within 3 seconds of the track length (#78, #87). Lyric timestamps are crowd-synced; treat them as good to about one second.")
-out.append("- **—** = not measured or not applicable: no clip, no lyric record, " + (f"no verse section in the record ({_nl(_noverse)}), " if _noverse else '') + "or no recurring section.\n")
+out.append("- **—** = not measured or not applicable: no clip, no lyric record, " + (f"no verse section in the record ({_nl(_noverse)}), " if _noverse else '') + "or, in the Hooks and Hook length columns, no ruled hook.\n")
 out.append('| # | Title | Runtime | Grid / felt BPM | First line | First hook (lines before) | Hooks | Hook length | Verse 1 length | Verse w/s | Timing basis |')
 out.append('|---|---|---|---|---|---|---|---|---|---|---|')
 for r in rows:
@@ -202,7 +204,7 @@ for r in rows:
     elif f['basis'] == '?': fe = f"{hb(f['grid_bpm'])} / {hb(min(f['estimate_bpm'], f['other_reading_bpm']))} or {hb(max(f['estimate_bpm'], f['other_reading_bpm']))} (?)"
     else: fe = f"{hb(f['grid_bpm'])} / {hb(f['felt_bpm'])} ({f['basis']})"
     if not l: out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {fe} | — | — | — | — | — | — | no matching record |"); continue
-    def sb(sec, bars): return '—' if not sec else (f"{sec:.0f} s" + (f" / {bars:.1f} bars" if bars else ''))
+    def sb(sec, bars): return '—' if not sec else (f"{hu(sec)} s" + (f" / {bars:.1f} bars" if bars else ''))
     fh = 'none' if not l['has_hook'] else f"{mmss(l['first_hook_s'])} ({l['lines_before_hook']})"
     out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {fe} | {l['first_line_s']:.1f} s | {fh} | {l['hook_count'] if l['has_hook'] else '—'} | {sb(l.get('first_hook_len_s') if l['has_hook'] else None, b.get('first_hook_len'))} | "
                f"{sb(l.get('first_verse_len_s'), b.get('first_verse_len'))} | {l['verse_words_per_s'] if l.get('verse_words_per_s') else '—'} | {l['basis']} |")
@@ -244,7 +246,7 @@ for r in rows:
     def lens(key):
         if b.get(key): return ' · '.join(f"{v:g}" for v in b[key]) + ' bars'
         v = l.get(key + '_s') or []
-        return (' · '.join(f"{y:.0f}" for y in v) + ' s') if v else '—'
+        return (' · '.join(f"{hu(y)}" for y in v) + ' s') if v else '—'
     dens = (f"{l['verse_sylls_per_s']:.1f}" if l.get('verse_sylls_per_s') else '—') + ' · ' + (f"{l['hook_words_per_s']:.1f}" if (l['has_hook'] and l.get('hook_words_per_s')) else '—')
     out.append(f"| {r['n']} | {esc(r['title'])} | {KIND.get(l.get('first_line_kind'), '—')} | {anchor} | {hbv} | {intro} | {order} | {lens('verse_lens')} | {lens('hook_lens') if l['has_hook'] else '—'} | "
                f"{RET.get(l.get('hook_return'), '—') if l['has_hook'] else '—'} | {dens} | {l.get('second_run_code') or '—'} |")
@@ -327,6 +329,14 @@ _xnote = (f"{len(_xmiss)} crossover-tagged songs were not pre-flagged and are no
 out.append("Every candidate in the window that was flagged as a close genre call before checking, whether it ended up included or left out, plus every other candidate that was left out. This is the pre-check flag, not the \"Rap — crossover\" tag in 4a, which is assigned from credits and style tags: " + _xnote + " **Included** = Billboard classified it as rap. **Excluded (non-rap chart)** = Billboard charts it on Hot R&B Songs or an R&B-only component chart (the working rule in the header). **Excluded (year-end lists)** = deduced from year-end lists read directly: the song is on a year-end Hot R&B/Hip-Hop or Hot 100 list at a rank where a rap title would also make the 50-title year-end Hot Rap Songs list, and it is not there. **Excluded (indirect)** and **(unresolved)** rest on weaker evidence, including a listing on a country, rock or dance chart with no rap-chart row found, and are carried into 4e. Evidence that begins *Search summary* was read in a web-search summary of the page named; the page itself was not opened.\n")
 out.append('| First top-10 | Rank | Title | Artists | Decision | Evidence |')
 out.append('|---|---|---|---|---|---|')
+def ev_display(o):
+    """Evidence text for an excluded candidate, as 4d and 4e show it: cleaned, labelled by how its source was read."""
+    st = status[o['cid']]; b = ev_best(o['cid']) or {}
+    t = clean_ev(b.get('evidence_summary') or st['basis'])      # the Decision column and the header give the R&B / rap split as this study's working rule
+    if o['cid'] in C.EVIDENCE_DISPLAY: t = C.EVIDENCE_DISPLAY[o['cid']]
+    elif st.get('tier') == 'summary' and not re.search(r'search summar|search-result|search results|read directly|recollection', t, re.I): t = 'Search summary (page not opened): ' + t
+    if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): t = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', t).strip()
+    return t
 DEC = {'direct': 'Excluded (non-rap chart)', 'yearend': 'Excluded (year-end lists)', 'indirect': 'Excluded (indirect)', 'unresolved': 'Excluded (unresolved)'}
 for o in in_window:
     if not (o['prior'] == 'close' or o['cid'] not in final_ids): continue
@@ -335,11 +345,7 @@ for o in in_window:
     elif st['status'] == 'rap': dec = 'Rap, but outside the 100'; ev = genre_evidence(o['cid'])
     else:
         dec = DEC[grade[o['cid']]]
-        full_ = b.get('evidence_summary') or st['basis']
-        full_ = clean_ev(full_)      # the Decision column and the header give the R&B / rap split as this study's working rule
-        if o['cid'] in C.EVIDENCE_DISPLAY: full_ = C.EVIDENCE_DISPLAY[o['cid']]
-        elif st.get('tier') == 'summary' and not re.search(r'search summar|search-result|search results|read directly|recollection', full_, re.I): full_ = 'Search summary (page not opened): ' + full_
-        if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): full_ = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', full_).strip()
+        full_ = ev_display(o)
         tn = table_note(o)
         lk = ''
         if b.get('source_urls'):
@@ -370,10 +376,10 @@ _fut = ['\"' + x['title'] + '\"' for x in _dc['songs'] if 'Future_singles_discog
 out.append('\n## 4e. Boundary and open items\n')
 out.append(f"- **#100 is {rows[-1]['title']}** ({rows[-1]['first_top10']}, #{rows[-1]['rank']}). The next rap songs in line are " + '; '.join(S['boundary_next'][:5]) + '.')
 if summ:
-    out.append('- **Included on search-summary evidence (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in summ) + ". For each, a web-search summary of a Billboard chart page or report places the song on Rap Streaming Songs, Rap Airplay or Hot Rap Songs (rows in `data/classification_evidence.csv`), and Wikipedia gives a Hot R&B/Hip-Hop Songs peak, but no table with a rap column lists it and the Billboard page itself was not opened. Two collaborators' tables show a dash in the rap column: Future's for \"Ran To Atlanta\" and Quavo's for \"Shabang\". A dash is not evidence. Across the " + f"{_dc['tables_with_rap_column']} discography tables with a rap column, {len(_dc['songs'])} songs show a dash in one table and a numbered Hot Rap Songs peak in another (`data/measured/discography_dash_conflicts.json`), {len(_fut)} of them in Future's table ({', '.join(_fut)})" + ", so those dashes are treated as unfilled cells. If any of these is not rap, every later song moves up one place and \"Love All\" enters at #100.")
+    out.append('- **Included on search-summary evidence (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in summ) + ". For each, a web-search summary of a Billboard chart page or report places the song on Rap Streaming Songs, Rap Airplay or Hot Rap Songs (rows in `data/classification_evidence.csv`), and Wikipedia gives a Hot R&B/Hip-Hop Songs peak, but no table read gives it a rap peak and the Billboard page itself was not opened. Two collaborators' tables show only a dash in the rap column, which is not evidence: Future's for \"Ran To Atlanta\" and Quavo's for \"Shabang\". A dash is not evidence. Across the " + f"{_dc['tables_with_rap_column']} discography tables with a rap column, {len(_dc['songs'])} songs show a dash in one table and a numbered Hot Rap Songs peak in another (`data/measured/discography_dash_conflicts.json`), {len(_fut)} of them in Future's table ({', '.join(_fut)})" + ", so those dashes are treated as unfilled cells. If any of these is not rap, every later song moves up one place and \"Love All\" enters at #100.")
 if soft:
     def why(o):
-        b = clean_ev((ev_best(o['cid']) or {}).get('evidence_summary') or status[o['cid']]['basis'])
+        b = ev_display(o)
         return short(b, 170) + (f" Tables: {table_note(o)}." if table_note(o) else '')
     out.append('- **Excluded on indirect or unresolved evidence, ranked above the cut** (if any is rap, it enters at its date and rank, and #100 drops out): ' + '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']} ({why(o)})" for o in soft) + '.')
 if yend:

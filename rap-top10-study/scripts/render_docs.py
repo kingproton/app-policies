@@ -288,6 +288,8 @@ def summ_dash():
     if any(g.get('discog_rap_peak') is not None for g in v): raise KeyError('a summary-tier song now has a table rap peak')
     return sum(1 for g in v if g.get('discog_rap_dash_pages'))
 def rec_titles(): return ' and '.join(f'"{x}"' for x in cs('contradicted_recoded_titles'))
+def mismatch_tail():
+    return 'The other mismatches are not explained.' if MS_ALL['pulse_vs_listings'].get('disagree_matches_removed_outlier') else 'Those mismatches are not explained.'
 def pulse_removed_clause():
     v = MS_ALL['pulse_vs_listings'].get('disagree_matches_removed_outlier') or []
     if not v: return ''
@@ -301,7 +303,7 @@ def leaned_clause():
 def ret_sum():
     """Return-change types: say how many songs have both a beat and a voice change, and check the parts add up. Prints the clause or nothing."""
     a = FS['all']; both = a['return_beat'] + a['return_voice'] + a['return_register'] + a['return_delivery'] - (a['return_sourced_tracks'] - a['return_none'])
-    if both < 0: raise KeyError('return-change types do not add up')
+    if both != a.get('return_beat_voice', -1): raise KeyError('the return-change overlap is not only beat plus voice; reword the sentence')
     return '' if both == 0 else f" ({both} song{'s' if both > 1 else ''} with both a beat and a voice change)"
 def sw_unconfirmed_only(title):
     """Guard: exactly one song holds a 'yes' that no page or cited source confirmed, and it is this one. Prints nothing."""
@@ -318,7 +320,7 @@ def ex5(title):
     b = _t(title)[1]['m']['bars']
     if not b.get('hook_lens') or b.get('first_hook_len') is None or abs(b['hook_lens'][0] - b['first_hook_len']) > 0.5:
         raise KeyError(f'{title!r}: the two first-hook lengths (tables 4b and 4b-2) disagree')
-    return f"\"{title}\" ({hook(title)}; {bars(title, 'hook_lens')} / {bars(title, 'first_verse_len')})"
+    return f"\"{title}\" ({hook(title)}; {bars(title, 'hook_lens')} / {bars(title, 'verse_lens')})"
 def isverse3():
     """Guard for the M-4 exception sentence: the three named records are exactly the maps whose first section is a verse."""
     want = {'"Gimme A Hug"', '"Man At The Garden"', '"Sticky (Drake)"'}
