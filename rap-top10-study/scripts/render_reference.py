@@ -284,6 +284,8 @@ for o in in_window:
         dec = DEC[grade[o['cid']]]
         full_ = b.get('evidence_summary') or st['basis']
         full_ = full_.replace('visible)', 'in the summary)')
+        # a research agent's gloss, not something a page was read to say (the R&B / rap split is this study's working rule)
+        full_ = full_.replace(", the R&B half of Hot R&B/Hip-Hop Songs (Hot Rap Songs is the rap half)", "")
         if o['cid'] in C.EVIDENCE_DISPLAY: full_ = C.EVIDENCE_DISPLAY[o['cid']]
         elif st.get('tier') == 'summary' and not re.search(r'search summar|search-result|search results|read directly|recollection', full_, re.I): full_ = 'Search summary (page not opened): ' + full_
         if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): full_ = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', full_).strip()
