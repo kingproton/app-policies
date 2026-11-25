@@ -43,3 +43,50 @@ for name, fn in rows:
 os.makedirs(os.path.dirname(OUTF), exist_ok=True)
 open(OUTF, 'w').write('\n'.join(out) + '\n')
 print('\n'.join(out))
+
+
+# ---------------- measured table (runtime, lyric timing, section map, riding the beat, felt tempo)
+MS = json.load(open(WORK + 'measured_stats.json'))['groups']
+OUTM = os.environ.get('STUDY_OUT_MEASURED', WORK + 'measured_table.md')
+def iq(d, unit='', f='{}'):
+    if not d or not d.get('n'): return '?'
+    if 'q1' in d: return f"{f.format(d['median'])}{unit} (IQR {f.format(d['q1'])}–{f.format(d['q3'])}; n={d['n']})"
+    return f"{f.format(d['median'])}{unit} (n={d['n']})"
+def cls(d, key):
+    c = d.get(key) or {}
+    return f"{c.get('slow', 0)} / {c.get('mid', 0)} / {c.get('fast', 0)}"
+mrows = [
+    ('Songs', lambda d: str(d['n_songs'])),
+    ('Median runtime', lambda d: iq(d['runtime'])),
+    ('Runtime ≤ 3:00 / ≥ 4:00', lambda d: f"{d['runtime_le_3min']} / {d['runtime_ge_4min']}"),
+    ('**Felt tempo** — clips with a clear backbeat', lambda d: f"{(d['feel_basis'] or {}).get('M', 0)}/{d['n_clip']}"),
+    ('  median felt BPM (clear)', lambda d: iq({k: (v if k == 'n' else round(float(v) * 2) / 2) for k, v in d['felt_clear'].items()}, f='{:g}')),
+    ('  slow (under 90) / mid (90–119) / fast (120+), clear', lambda d: cls(d, 'feel_class_clear')),
+    ('  same split, all resolved readings', lambda d: cls(d, 'feel_class_all_resolved')),
+    ('**First lyric line** — median time', lambda d: iq(d['first_line'], ' s', '{:.1f}')),
+    ('  within 5 s / after 15 s', lambda d: f"{d['first_line_le_5s']} / {d['first_line_gt_15s']}"),
+    ('**Recurring hook** present', lambda d: d['has_hook']),
+    ('  first hook — median time', lambda d: iq(d['first_hook'])),
+    ('  first hook by 0:30 / by 1:00 (of all assessed)', lambda d: f"{d['first_hook_le_30s']} / {d['first_hook_le_60s']}"),
+    ('  hook before the first verse', lambda d: d['hook_before_first_verse']),
+    ('  first return anchor — median time', lambda d: iq(d['first_anchor'])),
+    ('  hook occurrences: 2 / 3 / 4+', lambda d: f"{d['hook_count'].get('2', 0)} / {d['hook_count'].get('3', 0)} / {d['hook_count'].get('4', 0) + d['hook_count'].get('5+', 0)}"),
+    ('**Section lengths** — intro (felt bars)', lambda d: iq(d['intro_len_bars'], f='{:.1f}')),
+    ('  first hook (felt bars)', lambda d: iq(d['hook1_len_bars_map'], f='{:.1f}')),
+    ('  first verse (felt bars)', lambda d: iq(d['first_verse_len_bars'], f='{:.1f}')),
+    ('  verse 2 shorter / similar / longer than verse 1', lambda d: f"{d['verse2_shorter'].split('/')[0]} / {d['verse2_similar'].split('/')[0]} / {d['verse2_longer'].split('/')[0]} (of {d['verse2_longer'].split('/')[1]})"),
+    ('  last hook longer than the first (by 25%+)', lambda d: d['last_hook_longer']),
+    ('**Riding the beat** — verse syllables per second', lambda d: iq(d['verse_sylls_per_s'], f='{:.1f}')),
+    ('  verse syllables per felt beat', lambda d: iq(d['verse_sylls_per_beat'], f='{:.1f}')),
+    ('  verse denser than hook (words per second)', lambda d: d['verse_denser_than_hook']),
+]
+GM = G + [('style_trap', 'Trap-tagged'), ('style_verse_led', 'Verse-led-tagged')]
+outm = ['| Measure | ' + ' | '.join(l for _, l in GM) + ' |', '|---|' + '---|' * len(GM)]
+for name, fn in mrows:
+    cells = []
+    for g, _ in GM:
+        try: cells.append(fn(MS[g]))
+        except Exception as e: cells.append('?')
+    outm.append(f'| {name} | ' + ' | '.join(cells) + ' |')
+open(OUTM, 'w').write('\n'.join(outm) + '\n')
+print('\n'.join(outm))

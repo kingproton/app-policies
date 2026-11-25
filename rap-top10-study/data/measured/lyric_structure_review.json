@@ -1,0 +1,6104 @@
+{
+"18": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 18,
+"record_ok": true,
+"first_line_s": 2.43,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 12.92,
+"first_hook_end_s": 37.12,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+12.92,
+84.43,
+156.88
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.43
+},
+{
+"label": "hook",
+"start_s": 12.92
+},
+{
+"label": "verse",
+"start_s": 37.12
+},
+{
+"label": "hook",
+"start_s": 84.43
+},
+{
+"label": "verse",
+"start_s": 109.28
+},
+{
+"label": "hook",
+"start_s": 156.88
+},
+{
+"label": "outro",
+"start_s": 181.16
+}
+],
+"confidence": "high",
+"note": "Hook taken as the full 8-line block (its title call-and-response half starts at 24.88); the intro's title couplet (4.08) comes back once, inside verse 2 at 127.11."
+}
+},
+"19": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 19,
+"record_ok": true,
+"first_line_s": 8.98,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 8.98,
+"first_hook_end_s": 35.51,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+8.98,
+77.83,
+134.89
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "hook",
+"start_s": 8.98
+},
+{
+"label": "verse",
+"start_s": 35.51
+},
+{
+"label": "hook",
+"start_s": 77.83
+},
+{
+"label": "verse",
+"start_s": 106.35
+},
+{
+"label": "hook",
+"start_s": 134.89
+}
+],
+"confidence": "high",
+"note": "The 8-line sung chorus is the first text and returns word for word after each rap verse; the file has no rows before 8.98, so any instrumental intro is unmeasured."
+}
+},
+"20": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 20,
+"record_ok": true,
+"first_line_s": 53.64,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 53.64
+},
+{
+"label": "verse",
+"start_s": 72.34
+},
+{
+"label": "outro",
+"start_s": 158.61
+}
+],
+"confidence": "high",
+"note": "No block recurs: one continuous rap verse (72.34 to 158.61) follows a single sampled intro line; the 54 s before the first text and the 25 s after the last carry no lyrics."
+}
+},
+"21": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 21,
+"record_ok": true,
+"first_line_s": 5.91,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 5.91,
+"first_hook_end_s": 26.66,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+5.91,
+84.82,
+164.25
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 5.91
+},
+{
+"label": "post_hook",
+"start_s": 26.66
+},
+{
+"label": "verse",
+"start_s": 42.42
+},
+{
+"label": "hook",
+"start_s": 84.82
+},
+{
+"label": "post_hook",
+"start_s": 106.16
+},
+{
+"label": "verse",
+"start_s": 110.79
+},
+{
+"label": "bridge",
+"start_s": 152.63
+},
+{
+"label": "hook",
+"start_s": 164.25
+},
+{
+"label": "post_hook",
+"start_s": 185.23
+}
+],
+"confidence": "high",
+"note": "Hook = the sung 6-line chorus (only tags differ on returns); the title chant after it (26.66, 106.16 cut to 2 lines, 185.23) is post_hook, and counting it would end the first hook at 42.42."
+}
+},
+"23": {
+"status": "adjudicated",
+"why": [
+"whether a recurring hook exists"
+],
+"reviewer": {
+"cid": 23,
+"record_ok": true,
+"first_line_s": 27.66,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 136.14,
+"first_hook_end_s": 139.37,
+"lines_before_first_hook": 35,
+"hook_starts_s": [
+136.14,
+147.92
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "verse",
+"start_s": 27.66
+},
+{
+"label": "verse",
+"start_s": 87.99
+},
+{
+"label": "verse",
+"start_s": 115.25
+},
+{
+"label": "hook",
+"start_s": 136.14
+},
+{
+"label": "verse",
+"start_s": 139.37
+},
+{
+"label": "hook",
+"start_s": 147.92
+},
+{
+"label": "verse",
+"start_s": 153.49
+},
+{
+"label": "outro",
+"start_s": 168.14
+}
+],
+"confidence": "low",
+"note": "Marginal hook: no chorus, only the title chant late in the song's last section (phrase first said at the end of the 132.92 row), back once 12 s later; arguably a no-hook track."
+},
+"ruling": {
+"cid": 23,
+"resolution": "reviewer_right",
+"first_line_s": 27.66,
+"has_recurring_hook": true,
+"first_hook_s": 136.14,
+"lines_before_first_hook": 35,
+"hook_starts_s": [
+136.14,
+147.92
+],
+"reason": "Row 35 (136.14) is the title phrase chanted four times in one line, and after four different lines it returns at 147.92-149.33 (once, then three times), which meets the definition's chant clause; the algorithm missed it because no whole row repeats verbatim. It is marginal and low confidence: one return, last section only, the phrase is first heard at the tail of the 132.92 row whose opening words never recur, and the other repeated phrases there are parenthetical background ad-libs."
+}
+},
+"24": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 24,
+"record_ok": true,
+"first_line_s": 0.09,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 0.09,
+"first_hook_end_s": 34.83,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.09,
+65.05
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 0.09
+},
+{
+"label": "verse",
+"start_s": 34.83
+},
+{
+"label": "hook",
+"start_s": 65.05
+},
+{
+"label": "other",
+"start_s": 98.74
+},
+{
+"label": "post_hook",
+"start_s": 113.54
+},
+{
+"label": "post_hook",
+"start_s": 131.72
+},
+{
+"label": "verse",
+"start_s": 149.86
+},
+{
+"label": "post_hook",
+"start_s": 186.09
+},
+{
+"label": "post_hook",
+"start_s": 204.08
+},
+{
+"label": "outro",
+"start_s": 222.35
+}
+],
+"confidence": "medium",
+"note": "Two-part song: hook = opening phone chant + roll call (voice may be the producer's; return drops 2 chant …'s own chorus recurs more and is labeled post_hook; outro = untexted tail."
+}
+},
+"26": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 26,
+"record_ok": true,
+"first_line_s": 2.51,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 13.83,
+"first_hook_end_s": 40.56,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+13.83,
+67.92,
+134.85
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.51
+},
+{
+"label": "hook",
+"start_s": 13.83
+},
+{
+"label": "verse",
+"start_s": 40.56
+},
+{
+"label": "hook",
+"start_s": 67.92
+},
+{
+"label": "verse",
+"start_s": 94.5
+},
+{
+"label": "hook",
+"start_s": 134.85
+},
+{
+"label": "outro",
+"start_s": 161.26
+}
+],
+"confidence": "high",
+"note": "The 7-line hook returns twice with only ad-lib and one-word changes; lyric rows stop at the 161.26 gap marker, so the last 30 s of the record is an untexted outro."
+}
+},
+"27": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 27,
+"record_ok": true,
+"first_line_s": 0.21,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 37.23,
+"first_hook_end_s": 47.65,
+"lines_before_first_hook": 14,
+"hook_starts_s": [
+37.23,
+64.58,
+138.86
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.21
+},
+{
+"label": "verse",
+"start_s": 10.05
+},
+{
+"label": "other",
+"start_s": 18.8
+},
+{
+"label": "verse",
+"start_s": 28.06
+},
+{
+"label": "hook",
+"start_s": 37.23
+},
+{
+"label": "verse",
+"start_s": 47.65
+},
+{
+"label": "hook",
+"start_s": 64.58
+},
+{
+"label": "post_hook",
+"start_s": 74.08
+},
+{
+"label": "bridge",
+"start_s": 83.82
+},
+{
+"label": "verse",
+"start_s": 101.71
+},
+{
+"label": "hook",
+"start_s": 138.86
+},
+{
+"label": "post_hook",
+"start_s": 148.02
+}
+],
+"confidence": "high",
+"note": "Hook = 4-line chorus (3rd return differs by one word, maybe a transcription slip); the title chant follows only hooks 2 and 3 (74.08, 148.02) and is post_hook; the 18.80 couplet reads as a sample."
+}
+},
+"28": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 28,
+"record_ok": true,
+"first_line_s": 4.97,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 10.95,
+"first_hook_end_s": 30.37,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+10.95,
+49.13,
+106.99
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 4.97
+},
+{
+"label": "hook",
+"start_s": 10.95
+},
+{
+"label": "verse",
+"start_s": 30.37
+},
+{
+"label": "hook",
+"start_s": 49.13
+},
+{
+"label": "verse",
+"start_s": 68.07
+},
+{
+"label": "hook",
+"start_s": 106.99
+},
+{
+"label": "other",
+"start_s": 117.24
+},
+{
+"label": "post_hook",
+"start_s": 129.58
+},
+{
+"label": "verse",
+"start_s": 143.74
+},
+{
+"label": "post_hook",
+"start_s": 186.44
+},
+{
+"label": "outro",
+"start_s": 200.05
+}
+],
+"confidence": "medium",
+"note": "Two-part song: hook = part 1's 8-line chorus (2nd return identical, 3rd is its first 4 lines); the title-phrase chorus of part 2 (129.58, 186.44) recurs less and is labeled post_hook."
+},
+"ruling": {
+"cid": 28,
+"resolution": "reviewer_right",
+"first_line_s": 4.97,
+"has_recurring_hook": true,
+"first_hook_s": 10.95,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+10.95,
+49.13,
+106.99
+],
+"reason": "Rows 2-9 (from 10.95) return verbatim at 49.13 and as their first four lines at 106.99, three occurrences against two for the title-phrase block (129.58, 186.44), and the two rows before 10.95 never return, so the part-1 chorus is the block that recurs most and the part-2 block is a post_hook. Reading A's 124.84 start is a …'s name, a tag the definition excludes; the definition's two tests do split here (most recurrences vs title phrase), which is the remaining caveat."
+}
+},
+"29": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 29,
+"record_ok": true,
+"first_line_s": 10.11,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 53.79,
+"first_hook_end_s": 69,
+"lines_before_first_hook": 12,
+"hook_starts_s": [
+53.79,
+104.19,
+154.9
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 10.11
+},
+{
+"label": "verse",
+"start_s": 12.55
+},
+{
+"label": "hook",
+"start_s": 53.79
+},
+{
+"label": "post_hook",
+"start_s": 69.56
+},
+{
+"label": "verse",
+"start_s": 83.06
+},
+{
+"label": "hook",
+"start_s": 104.19
+},
+{
+"label": "post_hook",
+"start_s": 119.93
+},
+{
+"label": "verse",
+"start_s": 133.47
+},
+{
+"label": "hook",
+"start_s": 154.9
+},
+{
+"label": "outro",
+"start_s": 167.6
+}
+],
+"confidence": "medium",
+"note": "Hook = the 4-line block that recurs most (last return is 2 lines); the 3-line block after it (69.56, 119.93) is post_hook but may be the chorus proper; verse 1 repeats its first 4 lines at 33.40."
+}
+},
+"5": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 5,
+"record_ok": true,
+"first_line_s": 0.22,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 15.1,
+"first_hook_end_s": 44.15,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+15.1,
+76.02
+],
+"hook_return": "new_lyrics",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.22
+},
+{
+"label": "hook",
+"start_s": 15.1
+},
+{
+"label": "verse",
+"start_s": 44.15
+},
+{
+"label": "hook",
+"start_s": 76.02
+},
+{
+"label": "verse",
+"start_s": 105.12
+},
+{
+"label": "verse",
+"start_s": 165.15
+},
+{
+"label": "outro",
+"start_s": 203.66
+}
+],
+"confidence": "high",
+"note": "Opens with four lyric lines (rap or sung not clear from text); title phrase is only a one-line tag at 74.17 and 203.66; the second hook pass keeps 5 of 8 lines and rewrites 3."
+},
+"ruling": {
+"cid": 5,
+"resolution": "reviewer_right",
+"first_line_s": 0.22,
+"has_recurring_hook": true,
+"first_hook_s": 15.1,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+15.1,
+76.02
+],
+"reason": "The eight-row block that opens at 15.10 returns at 76.02 with its first two rows word-for-word (5 of 8 rows identical), while the four rows before it never recur. 28.92 is only the block's fifth row, a later identical pair that the algorithm latched onto."
+}
+},
+"6": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 6,
+"record_ok": true,
+"first_line_s": 1.98,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 28.32,
+"first_hook_end_s": 54.11,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+28.32,
+94.72
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.98
+},
+{
+"label": "hook",
+"start_s": 28.32
+},
+{
+"label": "verse",
+"start_s": 54.11
+},
+{
+"label": "hook",
+"start_s": 94.72
+},
+{
+"label": "verse",
+"start_s": 119.58
+},
+{
+"label": "verse",
+"start_s": 162.2
+},
+{
+"label": "post_hook",
+"start_s": 192.99
+},
+{
+"label": "verse",
+"start_s": 206.34
+},
+{
+"label": "post_hook",
+"start_s": 226.5
+}
+],
+"confidence": "high",
+"note": "Hook timed from its recurring one-phrase pickup (28.32, 94.72), first full line at 29.82 and 95.92; the back half has its own two-word chant (192.99, 226.50), mapped as post_hook."
+},
+"ruling": {
+"cid": 6,
+"resolution": "reviewer_right",
+"first_line_s": 1.98,
+"has_recurring_hook": true,
+"first_hook_s": 28.32,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+28.32,
+94.72
+],
+"reason": "The four-word pickup row at 28.32 recurs exactly at 94.72, both times directly ahead of the same first full hook line (29.82 / 95.92), so under the lead-in rule it belongs to the hook; 31.84 is just the first stand-alone response row inside the block. Excluding the pickup would give 29.82 with 10 lines before, never 31.84."
+}
+},
+"7": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 7,
+"record_ok": true,
+"first_line_s": 11.07,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 81.26,
+"first_hook_end_s": 96.42,
+"lines_before_first_hook": 31,
+"hook_starts_s": [
+81.26,
+166.42
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 11.07
+},
+{
+"label": "verse",
+"start_s": 20.79
+},
+{
+"label": "hook",
+"start_s": 81.26
+},
+{
+"label": "post_hook",
+"start_s": 96.42
+},
+{
+"label": "verse",
+"start_s": 118.55
+},
+{
+"label": "hook",
+"start_s": 166.42
+},
+{
+"label": "post_hook",
+"start_s": 181.67
+}
+],
+"confidence": "high",
+"note": "Hook is the eight-line block (81.26, 166.42); the title chant after each pass (96.42, 181.67) is mapped as post_hook, and three lead-in lines from 76.18 that preview the title stay in the verse."
+}
+},
+"8": {
+"status": "adjudicated",
+"why": [
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 8,
+"record_ok": true,
+"first_line_s": 4.15,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 13.12,
+"first_hook_end_s": 29.03,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+13.12,
+107.23
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 4.15
+},
+{
+"label": "hook",
+"start_s": 13.12
+},
+{
+"label": "verse",
+"start_s": 29.68
+},
+{
+"label": "other",
+"start_s": 94.88
+},
+{
+"label": "hook",
+"start_s": 107.23
+},
+{
+"label": "outro",
+"start_s": 130.06
+}
+],
+"confidence": "high",
+"note": "Hook's first line is a …'s two opening lines, then add new lyrics, and are not counted as returns."
+},
+"ruling": {
+"cid": 8,
+"resolution": "reviewer_right",
+"first_line_s": 4.15,
+"has_recurring_hook": true,
+"first_hook_s": 13.12,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+13.12,
+107.23
+],
+"reason": "The eight-row block at 13.12 returns in full only at 107.23. The stanzas at 130.06 and 146.46 share with it just the title word inside a different shout-out row plus one near-copied row with a changed rhyme word, then run five and three new rows, so fewer than two hook lines return in substantially the same form."
+}
+},
+"9": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 9,
+"record_ok": true,
+"first_line_s": 2.56,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 101.84,
+"first_hook_end_s": 112.45,
+"lines_before_first_hook": 45,
+"hook_starts_s": [
+101.84,
+160.64
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.56
+},
+{
+"label": "verse",
+"start_s": 23.01
+},
+{
+"label": "hook",
+"start_s": 101.84
+},
+{
+"label": "verse",
+"start_s": 112.45
+},
+{
+"label": "hook",
+"start_s": 160.64
+},
+{
+"label": "outro",
+"start_s": 174.66
+}
+],
+"confidence": "low",
+"note": "Weak hook: the only recurring block is three lines that open the second half (101.84) and are reprised at 160.64 ahead of an ad-lib outro; the title phrase occurs just once, at 23.01."
+}
+},
+"10": {
+"status": "adjudicated",
+"why": [
+"whether a recurring hook exists"
+],
+"reviewer": {
+"cid": 10,
+"record_ok": true,
+"first_line_s": 1.86,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.86
+},
+{
+"label": "verse",
+"start_s": 14.85
+},
+{
+"label": "verse",
+"start_s": 129.45
+},
+{
+"label": "verse",
+"start_s": 191.71
+},
+{
+"label": "verse",
+"start_s": 227.57
+},
+{
+"label": "outro",
+"start_s": 292.26
+}
+],
+"confidence": "high",
+"note": "No recurring block: one continuous rap from 14.85 to 287.62 with only ad-lib tags at both ends; the verse splits are judged from pauses and rhyme changes."
+},
+"ruling": {
+"cid": 10,
+"resolution": "reviewer_right",
+"first_line_s": 1.86,
+"has_recurring_hook": false,
+"first_hook_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"reason": "The only repeating text is one-word ad-lib tags (1.86, 4.99, 9.63, then 292.26, 295.29), which the definition excludes. The 82 rows from 14.85 to 287.62 are one rap with no repeated row or block beyond a one-word ad-lib at 129.45."
+}
+},
+"11": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 11,
+"record_ok": true,
+"first_line_s": 5.8,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 67.14,
+"first_hook_end_s": 78.43,
+"lines_before_first_hook": 17,
+"hook_starts_s": [
+67.14,
+121.37,
+162.31
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 5.8
+},
+{
+"label": "verse",
+"start_s": 32.79
+},
+{
+"label": "hook",
+"start_s": 67.14
+},
+{
+"label": "verse",
+"start_s": 78.43
+},
+{
+"label": "hook",
+"start_s": 121.37
+},
+{
+"label": "verse",
+"start_s": 135.36
+},
+{
+"label": "hook",
+"start_s": 162.31
+},
+{
+"label": "outro",
+"start_s": 173.52
+}
+],
+"confidence": "high",
+"note": "A short repeated tag follows every hook pass (80.56, 136.55, 173.52) and is mapped as verse pickup or outro; counted into the hook, the first pass would end at 83.45, not 78.43."
+}
+},
+"12": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 12,
+"record_ok": true,
+"first_line_s": 1.38,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 54.83,
+"first_hook_end_s": 88.82,
+"lines_before_first_hook": 20,
+"hook_starts_s": [
+54.83,
+142.38
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.38
+},
+{
+"label": "verse",
+"start_s": 18.86
+},
+{
+"label": "hook",
+"start_s": 54.83
+},
+{
+"label": "other",
+"start_s": 88.82
+},
+{
+"label": "verse",
+"start_s": 99.8
+},
+{
+"label": "hook",
+"start_s": 142.38
+}
+],
+"confidence": "medium",
+"note": "Hook taken as the whole recurring block from 54.83; its title line first lands at 71.36 and is chanted four times; timestamps sit on a 0.5 s grid and the two hook passes are not stamped alike."
+}
+},
+"13": {
+"status": "adjudicated",
+"why": [
+"whether a recurring hook exists",
+"first line time"
+],
+"reviewer": {
+"cid": 13,
+"record_ok": true,
+"first_line_s": 2.09,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 2.09,
+"first_hook_end_s": 24.66,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+2.09,
+251.38
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 2.09
+},
+{
+"label": "verse",
+"start_s": 24.66
+},
+{
+"label": "verse",
+"start_s": 111.35
+},
+{
+"label": "verse",
+"start_s": 175.63
+},
+{
+"label": "hook",
+"start_s": 251.38
+}
+],
+"confidence": "medium",
+"note": "Hook is a chant, probably a sample, that only bookends one long verse: intro from 2.09 (its full line first at 6.14) and outro from 251.38, with no chorus in between."
+},
+"ruling": {
+"cid": 13,
+"resolution": "reviewer_right",
+"first_line_s": 2.09,
+"has_recurring_hook": true,
+"first_hook_s": 2.09,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+2.09,
+251.38
+],
+"reason": "Row 0 at 2.09 has non-empty text (the chant word in parentheses), so it is the first line and the chant's first row. The five-word chant line stands at 6.14, 9.20 and 20.40 and comes back at 251.38 and 269.47 with the same one-word echoes, meeting the one-line-chant definition even though it only bookends a single long verse."
+}
+},
+"17": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 17,
+"record_ok": true,
+"first_line_s": 3.59,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 22.56,
+"first_hook_end_s": 34.21,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+22.56,
+83.87
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "pre_hook",
+"start_s": 3.59
+},
+{
+"label": "hook",
+"start_s": 22.56
+},
+{
+"label": "verse",
+"start_s": 34.21
+},
+{
+"label": "pre_hook",
+"start_s": 65.03
+},
+{
+"label": "hook",
+"start_s": 83.87
+},
+{
+"label": "other",
+"start_s": 95.62
+},
+{
+"label": "verse",
+"start_s": 111.46
+},
+{
+"label": "other",
+"start_s": 142.49
+},
+{
+"label": "outro",
+"start_s": 155.86
+}
+],
+"confidence": "medium",
+"note": "Opening 4-line block (3.59, 65.03) recurs without the title phrase, so it is pre_hook and the title chant the hook; if merged, the hook opens the song at 3.59; outro (155.86) reworks the title line."
+},
+"ruling": {
+"cid": 17,
+"resolution": "reviewer_right",
+"first_line_s": 3.59,
+"has_recurring_hook": true,
+"first_hook_s": 22.56,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+22.56,
+83.87
+],
+"reason": "Two blocks recur: the four-row opening (3.59, 65.03) and the title line chanted four times (22.56, 83.87); the definition gives the hook to the title-carrying block and labels the other pre_hook, so four lines precede it (merging them would give 3.59). The rows near 142 are ad-libs only, and the outro at 155.86 has the title line once on its own amid new lyrics."
+}
+},
+"30": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 30,
+"record_ok": true,
+"first_line_s": 1.47,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 70.14,
+"first_hook_end_s": 95.02,
+"lines_before_first_hook": 19,
+"hook_starts_s": [
+70.14,
+186.96
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.47
+},
+{
+"label": "verse",
+"start_s": 23.84
+},
+{
+"label": "hook",
+"start_s": 70.14
+},
+{
+"label": "other",
+"start_s": 95.02
+},
+{
+"label": "verse",
+"start_s": 102.33
+},
+{
+"label": "hook",
+"start_s": 186.96
+},
+{
+"label": "verse",
+"start_s": 210.6
+}
+],
+"confidence": "high",
+"note": "Spanish sung intro by an uncredited vocalist and a 2-line Spanish interlude at 95.02 after hook 1; the 2nd hook rewords the end of its last line; timed lyrics stop at 301.26 of 317 s."
+}
+},
+"31": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 31,
+"record_ok": true,
+"first_line_s": 4.47,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 19.26,
+"first_hook_end_s": 28.62,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+19.26,
+66.36
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 4.47
+},
+{
+"label": "hook",
+"start_s": 19.26
+},
+{
+"label": "verse",
+"start_s": 28.62
+},
+{
+"label": "pre_hook",
+"start_s": 56.78
+},
+{
+"label": "hook",
+"start_s": 66.36
+},
+{
+"label": "post_hook",
+"start_s": 75.74
+},
+{
+"label": "verse",
+"start_s": 85.12
+},
+{
+"label": "post_hook",
+"start_s": 123.14
+},
+{
+"label": "bridge",
+"start_s": 131.84
+},
+{
+"label": "other",
+"start_s": 141.77
+},
+{
+"label": "verse",
+"start_s": 159.81
+}
+],
+"confidence": "medium",
+"note": "Hook is the 4-line block that opens on the title phrase; the bare title chant (56.78, 75.74, 123.14) recurs more and is labelled pre/post_hook; stanzas at 85.12 and 113.26 reuse only the opener."
+}
+},
+"32": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 32,
+"record_ok": true,
+"first_line_s": 0.23,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.23
+},
+{
+"label": "verse",
+"start_s": 20.64
+},
+{
+"label": "verse",
+"start_s": 94.48
+},
+{
+"label": "verse",
+"start_s": 146.52
+}
+],
+"confidence": "high",
+"note": "No chorus, three narrative verses; the last rows of verses 1 and 2 (80.53, 134.37) end on the title word, a one-word tag rather than a hook; the two Spanish intro lines are sung by another vocalist."
+}
+},
+"33": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 33,
+"record_ok": true,
+"first_line_s": 32.29,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 75.02,
+"first_hook_end_s": 94.99,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+75.02,
+139.76,
+212.77
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "verse",
+"start_s": 32.29
+},
+{
+"label": "hook",
+"start_s": 75.02
+},
+{
+"label": "verse",
+"start_s": 94.99
+},
+{
+"label": "hook",
+"start_s": 139.76
+},
+{
+"label": "verse",
+"start_s": 157.72
+},
+{
+"label": "hook",
+"start_s": 212.77
+}
+],
+"confidence": "medium",
+"note": "The 4-word refrain line first lands at 35.56 and ends each 3-line unit of verses 1-2; the hook is timed as its standalone chant block, whose last return is two lines; no text before 32.29."
+},
+"ruling": {
+"cid": 33,
+"resolution": "reviewer_right",
+"first_line_s": 32.29,
+"has_recurring_hook": true,
+"first_hook_s": 75.02,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+75.02,
+139.76,
+212.77
+],
+"reason": "Row 23 (72.34) closes verse 1's eighth couplet-plus-refrain unit, landing 1.60 s after its couplet as the other in-verse refrains do (1.6-2.4 s); the standalone refrain chant begins at row 24 (75.02) and its two-row core returns at 139.76 and at 212.77, where no refrain row precedes it. The single in-verse refrain lines (first at 35.56) are one-line returns, not hook occurrences, so 24 rows precede the hook."
+}
+},
+"34": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 34,
+"record_ok": true,
+"first_line_s": 11.31,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 23.95,
+"first_hook_end_s": 35.75,
+"lines_before_first_hook": 5,
+"hook_starts_s": [
+23.95,
+47.87,
+71.86,
+95.51,
+119.78,
+144.12
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 11.31
+},
+{
+"label": "verse",
+"start_s": 12.44
+},
+{
+"label": "hook",
+"start_s": 23.95
+},
+{
+"label": "verse",
+"start_s": 35.75
+},
+{
+"label": "hook",
+"start_s": 47.87
+},
+{
+"label": "verse",
+"start_s": 60.89
+},
+{
+"label": "hook",
+"start_s": 71.86
+},
+{
+"label": "verse",
+"start_s": 84.1
+},
+{
+"label": "hook",
+"start_s": 95.51
+},
+{
+"label": "verse",
+"start_s": 108.11
+},
+{
+"label": "hook",
+"start_s": 119.78
+},
+{
+"label": "verse",
+"start_s": 132.04
+},
+{
+"label": "hook",
+"start_s": 144.12
+},
+{
+"label": "post_hook",
+"start_s": 153.45
+},
+{
+"label": "verse",
+"start_s": 167.59
+},
+{
+"label": "post_hook",
+"start_s": 218.57
+},
+{
+"label": "outro",
+"start_s": 243.35
+}
+],
+"confidence": "high",
+"note": "Hook is four chanted title-word lines after each 4-line verse; a second chant (mop line carrying the title word) at 156.18 x4 and 218.57 x8 is labelled post_hook and left out of hook_starts_s."
+},
+"ruling": {
+"cid": 34,
+"resolution": "reviewer_right",
+"first_line_s": 11.31,
+"has_recurring_hook": true,
+"first_hook_s": 23.95,
+"lines_before_first_hook": 5,
+"hook_starts_s": [
+23.95,
+47.87,
+71.86,
+95.51,
+119.78,
+144.12
+],
+"reason": "Rows 5-8 (23.95-32.79) are four chanted title-word lines that come back in the same four-bar slot after every four-line verse (47.87, 71.86, 95.51, 119.78, and 144.12, whose first row keeps only the title word), so the hook starts at 23.95 after five rows; the algorithm matched only the shortened form from 71.86. The mop chant (156.18, 218.57) is a separate recurring block that first appears right after a complete hook, so it stays post_hook and out of the list."
+}
+},
+"35": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 35,
+"record_ok": true,
+"first_line_s": 0.68,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 87.34,
+"first_hook_end_s": 114.28,
+"lines_before_first_hook": 29,
+"hook_starts_s": [
+87.34,
+176.73
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.68
+},
+{
+"label": "verse",
+"start_s": 38.28
+},
+{
+"label": "hook",
+"start_s": 87.34
+},
+{
+"label": "post_hook",
+"start_s": 114.28
+},
+{
+"label": "verse",
+"start_s": 138.62
+},
+{
+"label": "other",
+"start_s": 165.18
+},
+{
+"label": "hook",
+"start_s": 176.73
+}
+],
+"confidence": "medium",
+"note": "Sung chorus is taken as the hook; the album-title chant at 11.56 (loosely reprised at 114.28) also recurs, labelled intro/post_hook; last hook is one row short; the opening speech is another voice."
+},
+"ruling": {
+"cid": 35,
+"resolution": "reviewer_right",
+"first_line_s": 0.68,
+"has_recurring_hook": true,
+"first_hook_s": 87.34,
+"lines_before_first_hook": 29,
+"hook_starts_s": [
+87.34,
+176.73
+],
+"reason": "The only multi-line block whose words return near-verbatim is the sung chorus, rows 29-34 from 87.34 and rows 51-55 from 176.73, each time closing a verse cycle; the one-word album-title chant at 11.56 comes back only as four sparse rows (two inside ad-libs) from 114.28, directly after the first chorus, so it is intro/post_hook rather than the hook. The algorithm's four occurrences mix the two blocks; 29 rows precede 87.34."
+}
+},
+"36": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 36,
+"record_ok": true,
+"first_line_s": 0.3,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 41.5,
+"first_hook_end_s": 54.05,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+41.5,
+108.1
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.3
+},
+{
+"label": "verse",
+"start_s": 14.45
+},
+{
+"label": "hook",
+"start_s": 41.5
+},
+{
+"label": "post_hook",
+"start_s": 54.05
+},
+{
+"label": "verse",
+"start_s": 80.47
+},
+{
+"label": "hook",
+"start_s": 108.1
+},
+{
+"label": "post_hook",
+"start_s": 120.47
+},
+{
+"label": "bridge",
+"start_s": 163.34
+},
+{
+"label": "other",
+"start_s": 174.7
+},
+{
+"label": "bridge",
+"start_s": 185.74
+},
+{
+"label": "verse",
+"start_s": 208.95
+},
+{
+"label": "outro",
+"start_s": 261.44
+}
+],
+"confidence": "high",
+"note": "Hook is the sampled non-English chorus (4 rows), back at 108.10 with different ad-libs; later refrains (185.74, reprised 261.44) are separate blocks; end marker 287.00 exceeds the 284.0 s duration."
+}
+},
+"38": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 38,
+"record_ok": true,
+"first_line_s": 0.01,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 59.27,
+"first_hook_end_s": 74.56,
+"lines_before_first_hook": 27,
+"hook_starts_s": [
+59.27,
+119.7,
+210.38
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.01
+},
+{
+"label": "verse",
+"start_s": 28.99
+},
+{
+"label": "hook",
+"start_s": 59.27
+},
+{
+"label": "verse",
+"start_s": 74.56
+},
+{
+"label": "hook",
+"start_s": 119.7
+},
+{
+"label": "bridge",
+"start_s": 135.31
+},
+{
+"label": "verse",
+"start_s": 149.76
+},
+{
+"label": "hook",
+"start_s": 210.38
+}
+],
+"confidence": "high",
+"note": "Intro is a voicemail skit plus a comeback chant from 7.10 that never returns; the differing lead-in line before each hook is excluded; the only change on return is one trailing ad-lib on hook 2."
+}
+},
+"39": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 39,
+"record_ok": true,
+"first_line_s": 0.08,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 74.54,
+"first_hook_end_s": 83.02,
+"lines_before_first_hook": 27,
+"hook_starts_s": [
+74.54,
+164.88
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.08
+},
+{
+"label": "verse",
+"start_s": 7.39
+},
+{
+"label": "hook",
+"start_s": 74.54
+},
+{
+"label": "verse",
+"start_s": 83.02
+},
+{
+"label": "hook",
+"start_s": 164.88
+},
+{
+"label": "verse",
+"start_s": 173.99
+},
+{
+"label": "bridge",
+"start_s": 218.23
+},
+{
+"label": "outro",
+"start_s": 243.77
+}
+],
+"confidence": "high",
+"note": "Hook is a two-row title chant with the phrase three times per row; chants from 221.16 repeat only inside the bridge/outro and are not counted; verse 1 has a double-length row gap at 23.81-28.69."
+}
+},
+"40": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 40,
+"record_ok": true,
+"first_line_s": 2.04,
+"first_line_kind": "unclear",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.04
+},
+{
+"label": "verse",
+"start_s": 7.58
+},
+{
+"label": "other",
+"start_s": 56.85
+},
+{
+"label": "verse",
+"start_s": 71.66
+},
+{
+"label": "verse",
+"start_s": 232.93
+},
+{
+"label": "outro",
+"start_s": 371.47
+}
+],
+"confidence": "high",
+"note": "No hook, three verse parts; first row (2.04) is only the title word, where from memory the audio is a reversed sample, so the first real line is 7.58; a single line recurs at 191.70 and 246.39."
+}
+},
+"41": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 41,
+"record_ok": true,
+"first_line_s": 0.19,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 12.5,
+"first_hook_end_s": 25.25,
+"lines_before_first_hook": 6,
+"hook_starts_s": [
+12.5,
+150.13
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.19
+},
+{
+"label": "verse",
+"start_s": 3.02
+},
+{
+"label": "hook",
+"start_s": 12.5
+},
+{
+"label": "verse",
+"start_s": 25.25
+},
+{
+"label": "bridge",
+"start_s": 116.03
+},
+{
+"label": "verse",
+"start_s": 128.47
+},
+{
+"label": "hook",
+"start_s": 150.13
+},
+{
+"label": "other",
+"start_s": 165.53
+},
+{
+"label": "verse",
+"start_s": 176.29
+},
+{
+"label": "verse",
+"start_s": 322.86
+},
+{
+"label": "outro",
+"start_s": 437.95
+}
+],
+"confidence": "medium",
+"note": "Three-part diss track, almost all verse; the only repeated block is a 4-line refrain bookending part 1 (12.5 and 150.13 s), last line cut off on return; parts 2-3 have no hook."
+}
+},
+"44": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 44,
+"record_ok": true,
+"first_line_s": 2.51,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 11.56,
+"first_hook_end_s": 33.56,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+11.56,
+90.06
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.51
+},
+{
+"label": "hook",
+"start_s": 11.56
+},
+{
+"label": "verse",
+"start_s": 33.56
+},
+{
+"label": "hook",
+"start_s": 90.06
+},
+{
+"label": "other",
+"start_s": 111.52
+},
+{
+"label": "verse",
+"start_s": 125.3
+},
+{
+"label": "outro",
+"start_s": 198.93
+}
+],
+"confidence": "high",
+"note": "No separate chorus: the hook is the first 8 lines of verse 1, reprised (last line cut off) at 90.06 s just before the beat switch; the second half from 125.3 s has no hook."
+}
+},
+"45": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 45,
+"record_ok": true,
+"first_line_s": 8.38,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 88.45,
+"first_hook_end_s": 113.38,
+"lines_before_first_hook": 26,
+"hook_starts_s": [
+88.45,
+171.89,
+219.18
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 8.38
+},
+{
+"label": "verse",
+"start_s": 17.54
+},
+{
+"label": "hook",
+"start_s": 88.45
+},
+{
+"label": "verse",
+"start_s": 113.38
+},
+{
+"label": "hook",
+"start_s": 171.89
+},
+{
+"label": "other",
+"start_s": 195.77
+},
+{
+"label": "hook",
+"start_s": 219.18
+},
+{
+"label": "verse",
+"start_s": 242.78
+}
+],
+"confidence": "high",
+"note": "The hook's last line is a sampled voice line (109.38 s) that returns with it each time, so it is counted inside the hook; a 23 s lyric-free break precedes the third hook."
+}
+},
+"46": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 46,
+"record_ok": true,
+"first_line_s": 1.13,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 3.21,
+"first_hook_end_s": 22.55,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+3.21,
+185.35
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.13
+},
+{
+"label": "hook",
+"start_s": 3.21
+},
+{
+"label": "verse",
+"start_s": 22.55
+},
+{
+"label": "verse",
+"start_s": 69.39
+},
+{
+"label": "verse",
+"start_s": 119.13
+},
+{
+"label": "hook",
+"start_s": 185.35
+},
+{
+"label": "outro",
+"start_s": 205.36
+}
+],
+"confidence": "medium",
+"note": "Hook = the six opening lines that return verbatim at 185.35 s; the opening chorus may really run eight lines (to 29.38 s), which text cannot settle; chant lines inside verse 2 are not a hook."
+}
+},
+"47": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 47,
+"record_ok": true,
+"first_line_s": 2.74,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 28.59,
+"first_hook_end_s": 43.33,
+"lines_before_first_hook": 8,
+"hook_starts_s": [
+28.59,
+69.11,
+131.89
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.74
+},
+{
+"label": "hook",
+"start_s": 28.59
+},
+{
+"label": "verse",
+"start_s": 43.33
+},
+{
+"label": "hook",
+"start_s": 69.11
+},
+{
+"label": "verse",
+"start_s": 87.71
+},
+{
+"label": "hook",
+"start_s": 131.89
+},
+{
+"label": "outro",
+"start_s": 147.44
+}
+],
+"confidence": "medium",
+"note": "Intro (2.74-17.5 s) already chants the hook's first two lines (verbatim at 15.64 s) before spoken chatter; first_hook_s is the first full 8-line hook at 28.59 s."
+},
+"ruling": {
+"cid": 47,
+"resolution": "reviewer_right",
+"first_line_s": 2.74,
+"has_recurring_hook": true,
+"first_hook_s": 28.59,
+"lines_before_first_hook": 8,
+"hook_starts_s": [
+28.59,
+69.11,
+131.89
+],
+"reason": "The eight-line block carrying the title word first runs in full at 28.59 s and returns intact at 69.11 and 131.89 s. Rows 0-5 only chant loose variants of its first two lines (the verbatim pair is at 15.64 s) and break off into a gap and two spoken rows, so the opening is an intro tease, not an occurrence of the block."
+}
+},
+"48": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 48,
+"record_ok": true,
+"first_line_s": 1.46,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 98.83,
+"first_hook_end_s": 123.06,
+"lines_before_first_hook": 30,
+"hook_starts_s": [
+98.83,
+176.72
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.46
+},
+{
+"label": "verse",
+"start_s": 40.15
+},
+{
+"label": "hook",
+"start_s": 98.83
+},
+{
+"label": "verse",
+"start_s": 123.06
+},
+{
+"label": "hook",
+"start_s": 176.72
+},
+{
+"label": "outro",
+"start_s": 204.92
+}
+],
+"confidence": "medium",
+"note": "Two blocks recur: the title chant (98.83, 176.72 s) is taken as the hook, while the 'written all over you' chant bookends the song (1.46, 32.34, 216.83 s) as intro and outro."
+},
+"ruling": {
+"cid": 48,
+"resolution": "reviewer_right",
+"first_line_s": 1.46,
+"has_recurring_hook": true,
+"first_hook_s": 98.83,
+"lines_before_first_hook": 30,
+"hook_starts_s": [
+98.83,
+176.72
+],
+"reason": "Two chants recur: the 'written all over you' one appears only in the intro (1.46 and 32.34 s, both before the first verse) and the outro (216.83 s), while the title chant follows each verse at 98.83 and 176.72 s and fills about twice the time. The title-phrase block is therefore the main recurring section, with 30 text rows before it."
+}
+},
+"49": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines",
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 49,
+"record_ok": true,
+"first_line_s": 0.58,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 17.05,
+"first_hook_end_s": 34.32,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+17.05,
+171.34
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.58
+},
+{
+"label": "hook",
+"start_s": 17.05
+},
+{
+"label": "verse",
+"start_s": 34.32
+},
+{
+"label": "bridge",
+"start_s": 72.05
+},
+{
+"label": "other",
+"start_s": 94.64
+},
+{
+"label": "verse",
+"start_s": 102.7
+},
+{
+"label": "other",
+"start_s": 145.8
+},
+{
+"label": "bridge",
+"start_s": 154.29
+},
+{
+"label": "hook",
+"start_s": 171.34
+},
+{
+"label": "outro",
+"start_s": 192.16
+}
+],
+"confidence": "medium",
+"note": "Title chant (0.58, 94.64, 145.8 s) is ad-lib plus producer tag, so not counted as the hook; hook is the 8-line rap block opening verse 1, which returns once at 171.34 s."
+},
+"ruling": {
+"cid": 49,
+"resolution": "both_wrong_corrected",
+"first_line_s": 0.58,
+"has_recurring_hook": true,
+"first_hook_s": 0.58,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.58,
+94.64,
+145.8
+],
+"reason": "The two-line title chant opens the file at 0.58 s and returns at 94.64 and 145.80 s, so it both recurs most and carries the title phrase, while the reviewer's block is the opening …'s hook and start are right, but its fourth occurrence near 166 s is only a repeated ad-lib."
+}
+},
+"50": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 50,
+"record_ok": true,
+"first_line_s": 1.21,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 40.99,
+"first_hook_end_s": 68.54,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+40.99,
+123.68
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.21
+},
+{
+"label": "verse",
+"start_s": 13.73
+},
+{
+"label": "pre_hook",
+"start_s": 34.71
+},
+{
+"label": "hook",
+"start_s": 40.99
+},
+{
+"label": "verse",
+"start_s": 68.54
+},
+{
+"label": "pre_hook",
+"start_s": 117.54
+},
+{
+"label": "hook",
+"start_s": 123.68
+}
+],
+"confidence": "high",
+"note": "Four-line pre-hook (34.71, 117.54 s) leads into the hook, a 4-line block sung twice back to back (second pass at 54.89 and 137.79 s), counted as one occurrence each time."
+},
+"ruling": {
+"cid": 50,
+"resolution": "reviewer_right",
+"first_line_s": 1.21,
+"has_recurring_hook": true,
+"first_hook_s": 40.99,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+40.99,
+123.68
+],
+"reason": "The hook is the four-line block with the title word starting at 40.99 s, sung twice back to back and returning at 123.68 s; the four short rows before it (34.71 and 117.54 s) are a separate recurring pre-hook that the back-to-back repeat leaves out. The algorithm's 36.46 s is that pre-hook's second row, where the wording of the two passes first matches."
+}
+},
+"52": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 52,
+"record_ok": true,
+"first_line_s": 0.19,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 0.19,
+"first_hook_end_s": 12.93,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.19,
+64.83,
+148.93,
+239.83
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "hook",
+"start_s": 0.19
+},
+{
+"label": "other",
+"start_s": 12.93
+},
+{
+"label": "hook",
+"start_s": 64.83
+},
+{
+"label": "other",
+"start_s": 77.48
+},
+{
+"label": "hook",
+"start_s": 148.93
+},
+{
+"label": "other",
+"start_s": 162.08
+},
+{
+"label": "hook",
+"start_s": 239.83
+},
+{
+"label": "outro",
+"start_s": 252.77
+}
+],
+"confidence": "medium",
+"note": "File transcribes only the hook, a group chant (from memory a choir, not the credited rappers); the rap verses that fill the 52-78 s gaps are absent, so gaps are mapped as other."
+}
+},
+"53": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 53,
+"record_ok": true,
+"first_line_s": 0.21,
+"first_line_kind": "spoken",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.21
+},
+{
+"label": "verse",
+"start_s": 17.48
+},
+{
+"label": "verse",
+"start_s": 86.12
+},
+{
+"label": "verse",
+"start_s": 166.9
+},
+{
+"label": "outro",
+"start_s": 187.13
+}
+],
+"confidence": "high",
+"note": "No recurring hook: spoken intro and producer tags, then three rap verses separated only by ad-lib breaks at 85.26 and 166.01 s; no block of lines repeats."
+}
+},
+"54": {
+"status": "disputed_no_ruling",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 54,
+"record_ok": true,
+"first_line_s": 23.98,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 56.42,
+"first_hook_end_s": 78.1,
+"lines_before_first_hook": 8,
+"hook_starts_s": [
+56.42,
+145.57,
+223.74
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 23.98
+},
+{
+"label": "hook",
+"start_s": 56.42
+},
+{
+"label": "verse",
+"start_s": 78.1
+},
+{
+"label": "hook",
+"start_s": 145.57
+},
+{
+"label": "verse",
+"start_s": 167.47
+},
+{
+"label": "hook",
+"start_s": 223.74
+},
+{
+"label": "outro",
+"start_s": 247.57
+}
+],
+"confidence": "high",
+"note": "First text (23.98 s) is a Portuguese-language sung sample; the artist enters with a one-off lead-in at 53.80 s, then the hook at 56.42 s; the outro from 247.57 s is spoken film dialogue."
+}
+},
+"55": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 55,
+"record_ok": true,
+"first_line_s": 5.1,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 92.41,
+"first_hook_end_s": 116.32,
+"lines_before_first_hook": 28,
+"hook_starts_s": [
+92.41,
+185.49
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 5.1
+},
+{
+"label": "verse",
+"start_s": 34.4
+},
+{
+"label": "hook",
+"start_s": 92.41
+},
+{
+"label": "verse",
+"start_s": 116.32
+},
+{
+"label": "hook",
+"start_s": 185.49
+}
+],
+"confidence": "medium",
+"note": "Hook is 21 Savage's 8-line block, first heard …'s intro and verse; it returns only once, as the closing reprise (one ad-lib dropped), more bookend than chorus."
+}
+},
+"56": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 56,
+"record_ok": true,
+"first_line_s": 0.1,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 14.28,
+"first_hook_end_s": 47.14,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+14.28,
+108.05,
+201.87
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.1
+},
+{
+"label": "hook",
+"start_s": 14.28
+},
+{
+"label": "post_hook",
+"start_s": 47.14
+},
+{
+"label": "other",
+"start_s": 54.25
+},
+{
+"label": "verse",
+"start_s": 61.68
+},
+{
+"label": "other",
+"start_s": 101.74
+},
+{
+"label": "hook",
+"start_s": 108.05
+},
+{
+"label": "post_hook",
+"start_s": 140.41
+},
+{
+"label": "other",
+"start_s": 150.54
+},
+{
+"label": "verse",
+"start_s": 155.23
+},
+{
+"label": "other",
+"start_s": 195.26
+},
+{
+"label": "hook",
+"start_s": 201.87
+},
+{
+"label": "post_hook",
+"start_s": 233.91
+},
+{
+"label": "outro",
+"start_s": 247.47
+}
+],
+"confidence": "high",
+"note": "A 2-line tag follows every hook and is kept apart as post_hook (first at 47.14 s; counting it, the first hook ends at 54.25 s); short spoken phone-call asides separate the sections."
+}
+},
+"58": {
+"status": "disputed_no_ruling",
+"why": [
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 58,
+"record_ok": true,
+"first_line_s": 0,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 0,
+"first_hook_end_s": 8.72,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0,
+18.49,
+45.83,
+64.03,
+100.47,
+118.87,
+127.93
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 0
+},
+{
+"label": "pre_hook",
+"start_s": 8.72
+},
+{
+"label": "hook",
+"start_s": 18.49
+},
+{
+"label": "verse",
+"start_s": 27.27
+},
+{
+"label": "hook",
+"start_s": 45.83
+},
+{
+"label": "pre_hook",
+"start_s": 54.52
+},
+{
+"label": "hook",
+"start_s": 64.03
+},
+{
+"label": "verse",
+"start_s": 72.97
+},
+{
+"label": "hook",
+"start_s": 100.47
+},
+{
+"label": "pre_hook",
+"start_s": 109.35
+},
+{
+"label": "hook",
+"start_s": 118.87
+},
+{
+"label": "hook",
+"start_s": 127.93
+}
+],
+"confidence": "medium",
+"note": "Hook is the sampled title refrain, the first text at 0.00 s, which also loops under the rapped block; if that rapped block plus refrain is read as the chorus, it starts at 8.72 s instead."
+}
+},
+"59": {
+"status": "disputed_no_ruling",
+"why": [
+"first hook time",
+"first line time"
+],
+"reviewer": {
+"cid": 59,
+"record_ok": true,
+"first_line_s": 2.1,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 22.94,
+"first_hook_end_s": 32.87,
+"lines_before_first_hook": 12,
+"hook_starts_s": [
+22.94,
+57.32
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.1
+},
+{
+"label": "verse",
+"start_s": 3.86
+},
+{
+"label": "hook",
+"start_s": 22.94
+},
+{
+"label": "verse",
+"start_s": 32.87
+},
+{
+"label": "hook",
+"start_s": 57.32
+},
+{
+"label": "verse",
+"start_s": 64.26
+},
+{
+"label": "other",
+"start_s": 145.24
+},
+{
+"label": "verse",
+"start_s": 154.77
+}
+],
+"confidence": "medium",
+"note": "Hook is a brief 2-line call-and-response chant heard only twice, both before 65 s (9.9 s long, then 6.9 s, so the first start stamp may be early); no section returns after the beat switch near 145 s."
+}
+},
+"60": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 60,
+"record_ok": true,
+"first_line_s": 11.85,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 92.17,
+"first_hook_end_s": 106.47,
+"lines_before_first_hook": 16,
+"hook_starts_s": [
+92.17,
+148.41,
+218.62
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 11.85
+},
+{
+"label": "pre_hook",
+"start_s": 65.03
+},
+{
+"label": "other",
+"start_s": 80.78
+},
+{
+"label": "hook",
+"start_s": 92.17
+},
+{
+"label": "verse",
+"start_s": 106.47
+},
+{
+"label": "hook",
+"start_s": 148.41
+},
+{
+"label": "verse",
+"start_s": 162.5
+},
+{
+"label": "pre_hook",
+"start_s": 201.88
+},
+{
+"label": "hook",
+"start_s": 218.62
+}
+],
+"confidence": "high",
+"note": "About 53 s of sung sample (11.85-65.03 s) precede any artist vocal; a second block recurs as a pre-hook (65.03 and 201.88 s, longer the second time); the hook proper first lands at 92.17 s."
+}
+},
+"61": {
+"status": "disputed_no_ruling",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 61,
+"record_ok": true,
+"first_line_s": 15.12,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 51.85,
+"first_hook_end_s": 85.46,
+"lines_before_first_hook": 10,
+"hook_starts_s": [
+51.85,
+117.87
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 15.12
+},
+{
+"label": "hook",
+"start_s": 51.85
+},
+{
+"label": "verse",
+"start_s": 85.46
+},
+{
+"label": "hook",
+"start_s": 117.87
+},
+{
+"label": "other",
+"start_s": 150.86
+},
+{
+"label": "verse",
+"start_s": 162.48
+},
+{
+"label": "outro",
+"start_s": 220.42
+}
+],
+"confidence": "high",
+"note": "A sung sample opens the track (15.12 s) and closes it (220.42 s); spoken talk runs from 26.54 s up to the sung hook, which is heard only twice and never after the second verse."
+}
+},
+"62": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 62,
+"record_ok": true,
+"first_line_s": 2.62,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.62
+},
+{
+"label": "verse",
+"start_s": 4.67
+},
+{
+"label": "other",
+"start_s": 19.98
+},
+{
+"label": "verse",
+"start_s": 54.81
+},
+{
+"label": "bridge",
+"start_s": 78.76
+},
+{
+"label": "other",
+"start_s": 112.8
+},
+{
+"label": "verse",
+"start_s": 199.13
+}
+],
+"confidence": "medium",
+"note": "No section returns, so no hook under the study rule; hook-like one-offs are a 'one-of-one' refrain passage (19.98-54.81 s) and the sung title-phrase chant (78.76-95.37 s); skit 112.80-195.38 s."
+}
+},
+"63": {
+"status": "disputed_no_ruling",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 63,
+"record_ok": true,
+"first_line_s": 0.61,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 56.17,
+"first_hook_end_s": 70.08,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+56.17,
+111.14
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.61
+},
+{
+"label": "verse",
+"start_s": 29.05
+},
+{
+"label": "pre_hook",
+"start_s": 49.94
+},
+{
+"label": "hook",
+"start_s": 56.17
+},
+{
+"label": "verse",
+"start_s": 70.08
+},
+{
+"label": "pre_hook",
+"start_s": 103.96
+},
+{
+"label": "hook",
+"start_s": 111.14
+},
+{
+"label": "outro",
+"start_s": 124.88
+}
+],
+"confidence": "high",
+"note": "Opens with about 24 s of spoken film dialogue; the hook is the title chant, cued each time by a recurring 4-line pre-hook (49.94 and 103.96 s); the coda from 124.88 s repeats its own 4-line block."
+}
+},
+"64": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 64,
+"record_ok": true,
+"first_line_s": 1.06,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 44.05,
+"first_hook_end_s": 57.26,
+"lines_before_first_hook": 14,
+"hook_starts_s": [
+44.05,
+127.54
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.06
+},
+{
+"label": "verse",
+"start_s": 3.12
+},
+{
+"label": "other",
+"start_s": 39.78
+},
+{
+"label": "hook",
+"start_s": 44.05
+},
+{
+"label": "verse",
+"start_s": 57.26
+},
+{
+"label": "hook",
+"start_s": 127.54
+}
+],
+"confidence": "high",
+"note": "The hook's first row (44.05 s) is an ad-lib chant that returns with it, so its first lyric line is at 46.30 s; the hook is heard only twice, after the opening verse and at the very end."
+}
+},
+"67": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 67,
+"record_ok": true,
+"first_line_s": 0.06,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 18.73,
+"first_hook_end_s": 38.59,
+"lines_before_first_hook": 5,
+"hook_starts_s": [
+18.73,
+95.61,
+172.69
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.06
+},
+{
+"label": "hook",
+"start_s": 18.73
+},
+{
+"label": "post_hook",
+"start_s": 38.59
+},
+{
+"label": "verse",
+"start_s": 57.59
+},
+{
+"label": "hook",
+"start_s": 95.61
+},
+{
+"label": "post_hook",
+"start_s": 115.32
+},
+{
+"label": "verse",
+"start_s": 133.78
+},
+{
+"label": "hook",
+"start_s": 172.69
+},
+{
+"label": "post_hook",
+"start_s": 192.26
+},
+{
+"label": "outro",
+"start_s": 210.56
+}
+],
+"confidence": "high",
+"note": "Intro/outro are the looped sample refrain; each hook states the 4-line title block twice (2nd pass 29.00), then a recurring post_hook block; last hook adds a one-word lead-in."
+},
+"ruling": {
+"cid": 67,
+"resolution": "reviewer_right",
+"first_line_s": 0.06,
+"has_recurring_hook": true,
+"first_hook_s": 18.73,
+"lines_before_first_hook": 5,
+"hook_starts_s": [
+18.73,
+95.61,
+172.69
+],
+"reason": "Rows 0-4 are the looped sample refrain, which returns only as the outro (from 210.56) and as a parenthetical tag; the four-row block carrying the title phrase starts at row 5 (18.73) and returns at 95.61 and 172.69, so it is the hook and five non-empty rows precede it."
+}
+},
+"68": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 68,
+"record_ok": true,
+"first_line_s": 2.27,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 90.76,
+"first_hook_end_s": 95.91,
+"lines_before_first_hook": 31,
+"hook_starts_s": [
+90.76,
+124.18,
+152.58,
+187.99,
+213.59
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.27
+},
+{
+"label": "verse",
+"start_s": 17.62
+},
+{
+"label": "hook",
+"start_s": 90.76
+},
+{
+"label": "verse",
+"start_s": 95.91
+},
+{
+"label": "hook",
+"start_s": 124.18
+},
+{
+"label": "verse",
+"start_s": 128.59
+},
+{
+"label": "hook",
+"start_s": 152.58
+},
+{
+"label": "verse",
+"start_s": 164.03
+},
+{
+"label": "hook",
+"start_s": 187.99
+},
+{
+"label": "verse",
+"start_s": 191.04
+},
+{
+"label": "hook",
+"start_s": 213.59
+}
+],
+"confidence": "medium",
+"note": "Chant hook is a single row at 90.76, 124.18 (cut off) and 187.99 (mid-verse); the full four-row block arrives only at 152.58 and 213.59, the alternative first-hook reading."
+},
+"ruling": {
+"cid": 68,
+"resolution": "reviewer_right",
+"first_line_s": 2.27,
+"has_recurring_hook": true,
+"first_hook_s": 90.76,
+"lines_before_first_hook": 31,
+"hook_starts_s": [
+90.76,
+124.18,
+152.58,
+187.99,
+213.59
+],
+"reason": "Row 31 (90.76) states the chant question twice, a question the file sets as a row of its own at 162.77 and 222.46, so the chant line is already repeated there, and its words return cut off at 124.18, as four-row blocks at 152.58 and 213.59, and in one mid-verse row at 187.99. Reading A's 152.58 is only the first multi-row block; a count limited to multi-row blocks would be [152.58, 213.59]."
+}
+},
+"69": {
+"status": "adjudicated",
+"why": [
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 69,
+"record_ok": true,
+"first_line_s": 9.32,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 22.69,
+"first_hook_end_s": 36.98,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+22.69,
+74.4,
+129.35,
+168.38,
+184.75
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 9.32
+},
+{
+"label": "hook",
+"start_s": 22.69
+},
+{
+"label": "verse",
+"start_s": 36.98
+},
+{
+"label": "pre_hook",
+"start_s": 64.02
+},
+{
+"label": "hook",
+"start_s": 74.4
+},
+{
+"label": "other",
+"start_s": 90.72
+},
+{
+"label": "verse",
+"start_s": 110.31
+},
+{
+"label": "hook",
+"start_s": 129.35
+},
+{
+"label": "verse",
+"start_s": 139.24
+},
+{
+"label": "hook",
+"start_s": 168.38
+},
+{
+"label": "verse",
+"start_s": 171.54
+},
+{
+"label": "hook",
+"start_s": 184.75
+}
+],
+"confidence": "high",
+"note": "One-word title chant: 4 rows at first, 5 at 74.40, 3 at 129.35; the starts at 168.38 and 184.75 are single-row returns (3 and 6 repeats) that a stricter count would drop."
+},
+"ruling": {
+"cid": 69,
+"resolution": "algorithm_right",
+"first_line_s": 9.32,
+"has_recurring_hook": true,
+"first_hook_s": 22.69,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+22.69,
+74.4,
+129.35
+],
+"reason": "First line, first hook (rows 4-7 from 22.69) and the four rows before it are not in dispute; the returns at 168.38 and 184.75 are each one row of the title chant (3 and 6 repeats) set against a four-row first occurrence, so they are one-line partial returns and fall below the two-or-more-lines threshold in the hook_starts definition, as the reviewer's own note concedes. Multi-row returns occur only at 74.40 (5 rows) and 129.35 (3 rows)."
+}
+},
+"70": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 70,
+"record_ok": true,
+"first_line_s": 0.07,
+"first_line_kind": "unclear",
+"has_recurring_hook": true,
+"first_hook_s": 86.78,
+"first_hook_end_s": 106.96,
+"lines_before_first_hook": 26,
+"hook_starts_s": [
+86.78,
+167.01
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.07
+},
+{
+"label": "verse",
+"start_s": 8.19
+},
+{
+"label": "verse",
+"start_s": 41.62
+},
+{
+"label": "hook",
+"start_s": 86.78
+},
+{
+"label": "other",
+"start_s": 106.96
+},
+{
+"label": "verse",
+"start_s": 119.05
+},
+{
+"label": "hook",
+"start_s": 167.01
+}
+],
+"confidence": "high",
+"note": "Hook arrives only after two full verses and returns once with different ad-libs; the one-word echo row at 103.55 is counted inside the first hook; first line is an isolated intro phrase."
+}
+},
+"72": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 72,
+"record_ok": true,
+"first_line_s": 10.91,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 14.16,
+"first_hook_end_s": 36.38,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+14.16,
+88.27
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 10.91
+},
+{
+"label": "hook",
+"start_s": 14.16
+},
+{
+"label": "verse",
+"start_s": 36.38
+},
+{
+"label": "hook",
+"start_s": 88.27
+},
+{
+"label": "outro",
+"start_s": 110.24
+}
+],
+"confidence": "high",
+"note": "Hook lines return verbatim; the hook's last row (29.32) is …'s opening title line."
+},
+"ruling": {
+"cid": 72,
+"resolution": "reviewer_right",
+"first_line_s": 10.91,
+"has_recurring_hook": true,
+"first_hook_s": 14.16,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+14.16,
+88.27
+],
+"reason": "Row 0 (10.91) is a parenthesised producer tag with non-empty text, so it is the first line and one row precedes the hook's opening title line at 14.16. The block returns verbatim only at 88.27; the rows at 36.38, 110.24 and 117.57 reuse just the title line with ad-libs, so they are not counted."
+}
+},
+"73": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 73,
+"record_ok": true,
+"first_line_s": 0.35,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 3.06,
+"first_hook_end_s": 17.69,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+3.06,
+43.12,
+83.19
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.35
+},
+{
+"label": "hook",
+"start_s": 3.06
+},
+{
+"label": "verse",
+"start_s": 17.69
+},
+{
+"label": "hook",
+"start_s": 43.12
+},
+{
+"label": "verse",
+"start_s": 56.45
+},
+{
+"label": "hook",
+"start_s": 83.19
+},
+{
+"label": "outro",
+"start_s": 96.2
+}
+],
+"confidence": "high",
+"note": "First text is a sample of the featured group plus a producer tag; the 8-line hook returns verbatim twice; the outro from 96.20 is the sampled original chorus."
+}
+},
+"74": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 74,
+"record_ok": true,
+"first_line_s": 0.7,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 20.4,
+"first_hook_end_s": 47.3,
+"lines_before_first_hook": 6,
+"hook_starts_s": [
+20.4,
+87.44,
+181.53
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.7
+},
+{
+"label": "hook",
+"start_s": 20.4
+},
+{
+"label": "verse",
+"start_s": 47.3
+},
+{
+"label": "hook",
+"start_s": 87.44
+},
+{
+"label": "verse",
+"start_s": 113.09
+},
+{
+"label": "hook",
+"start_s": 181.53
+}
+],
+"confidence": "high",
+"note": "Six-line intro by the featured rapper (melodic delivery, so rap versus sung is a judgement call) precedes the hook; the 8-row hook returns verbatim after each verse."
+}
+},
+"75": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 75,
+"record_ok": true,
+"first_line_s": 0.96,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 30.7,
+"first_hook_end_s": 50.04,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+30.7,
+99.84,
+148.94
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.96
+},
+{
+"label": "hook",
+"start_s": 30.7
+},
+{
+"label": "verse",
+"start_s": 50.04
+},
+{
+"label": "pre_hook",
+"start_s": 82.97
+},
+{
+"label": "hook",
+"start_s": 99.84
+},
+{
+"label": "verse",
+"start_s": 117.27
+},
+{
+"label": "pre_hook",
+"start_s": 132.83
+},
+{
+"label": "hook",
+"start_s": 148.94
+},
+{
+"label": "outro",
+"start_s": 167.51
+}
+],
+"confidence": "medium",
+"note": "First hook row (30.70) opens with a lead-in word and lasts 5.0 s against 2.1-2.5 s on returns, so the hook words likely start later; sampled intro returns as the outro (167.51)."
+},
+"ruling": {
+"cid": 75,
+"resolution": "reviewer_right",
+"first_line_s": 0.96,
+"has_recurring_hook": true,
+"first_hook_s": 30.7,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+30.7,
+99.84,
+148.94
+],
+"reason": "The seven-row block carrying the title phrase starts at row 7 (30.70) and returns verbatim at 99.84 and 148.94, whereas the block that opens the file (Reading A's hook) returns only once, as the outro at 167.51, and the block at 82.97/132.83 is a pre-hook. Row 7 has a one-word lead-in and lasts 5.0 s against about 2 s on returns, so the hook words probably begin slightly after 30.70, but the file gives no later time."
+}
+},
+"76": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 76,
+"record_ok": true,
+"first_line_s": 1.61,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 13.25,
+"first_hook_end_s": 39.25,
+"lines_before_first_hook": 6,
+"hook_starts_s": [
+13.25,
+65.1,
+130.03
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.61
+},
+{
+"label": "hook",
+"start_s": 13.25
+},
+{
+"label": "verse",
+"start_s": 39.25
+},
+{
+"label": "hook",
+"start_s": 65.1
+},
+{
+"label": "verse",
+"start_s": 91.04
+},
+{
+"label": "hook",
+"start_s": 130.03
+},
+{
+"label": "outro",
+"start_s": 156.12
+}
+],
+"confidence": "high",
+"note": "Each hook is the 8-line block rapped twice (2nd pass 26.29); only ad-libs differ on returns; the guest verse reuses the hook's first line at 117.25 with new words, not counted."
+}
+},
+"77": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines",
+"first line time"
+],
+"reviewer": {
+"cid": 77,
+"record_ok": true,
+"first_line_s": 0.22,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 35.9,
+"first_hook_end_s": 65.07,
+"lines_before_first_hook": 12,
+"hook_starts_s": [
+35.9,
+138.66,
+234.6
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.22
+},
+{
+"label": "pre_hook",
+"start_s": 8.67
+},
+{
+"label": "hook",
+"start_s": 35.9
+},
+{
+"label": "other",
+"start_s": 65.07
+},
+{
+"label": "verse",
+"start_s": 77.02
+},
+{
+"label": "pre_hook",
+"start_s": 111.38
+},
+{
+"label": "hook",
+"start_s": 138.66
+},
+{
+"label": "verse",
+"start_s": 178.74
+},
+{
+"label": "pre_hook",
+"start_s": 207.11
+},
+{
+"label": "hook",
+"start_s": 234.6
+}
+],
+"confidence": "medium",
+"note": "Hook chosen is the 4-line 'rescue' block, stated twice per occurrence (2nd pass 49.52; three passes at 138.66); the 8-line block that opens the song at 8.67 also recurs, labelled pre_hook."
+},
+"ruling": {
+"cid": 77,
+"resolution": "reviewer_right",
+"first_line_s": 0.22,
+"has_recurring_hook": true,
+"first_hook_s": 35.9,
+"lines_before_first_hook": 12,
+"hook_starts_s": [
+35.9,
+138.66,
+234.6
+],
+"reason": "Row 0 (0.22) has non-empty text, so it is the first line. Two blocks recur: the eight-row block from 8.67 (3 times) and the four-row block with the title word from 35.90 (7 passes across 3 sections); by the definition's tie-break the latter is the hook and the former the pre-hook, leaving 12 non-empty rows before it."
+}
+},
+"78": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 78,
+"record_ok": true,
+"first_line_s": 9.98,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 9.98,
+"first_hook_end_s": 27.63,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+9.98,
+64.79,
+119.52
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 9.98
+},
+{
+"label": "verse",
+"start_s": 27.63
+},
+{
+"label": "pre_hook",
+"start_s": 45.87
+},
+{
+"label": "hook",
+"start_s": 64.79
+},
+{
+"label": "verse",
+"start_s": 81.65
+},
+{
+"label": "pre_hook",
+"start_s": 100.76
+},
+{
+"label": "hook",
+"start_s": 119.52
+}
+],
+"confidence": "high",
+"note": "Hook is the first text and carries the title phrase; a second block that recurs (45.87, 100.76) is labelled pre_hook; later hooks swap one word and the third adds a spoken aside."
+}
+},
+"81": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 81,
+"record_ok": true,
+"first_line_s": 0.63,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 0.63,
+"first_hook_end_s": 9.33,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.63,
+35.47
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "hook",
+"start_s": 0.63
+},
+{
+"label": "pre_hook",
+"start_s": 17.23
+},
+{
+"label": "hook",
+"start_s": 35.47
+},
+{
+"label": "verse",
+"start_s": 48.35
+},
+{
+"label": "pre_hook",
+"start_s": 68.48
+},
+{
+"label": "outro",
+"start_s": 84.89
+}
+],
+"confidence": "medium",
+"note": "Sparse club track: the title refrain opens it (0.63 is its vocal riff, title words at 3.60) and returns longer at 35.47; the chant block at 17.23 and 68.48 is the other candidate for the hook."
+},
+"ruling": {
+"cid": 81,
+"resolution": "reviewer_right",
+"first_line_s": 0.63,
+"has_recurring_hook": true,
+"first_hook_s": 0.63,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.63,
+35.47
+],
+"reason": "The title-phrase refrain that opens the file (0.63-5.72) returns extended at 35.47-45.93, and its opening vocal riff reappears inside those lines (39.66, 45.93), so the riff belongs to the hook rather than being a one-off lead-in. The block at 17.23/68.48 that the algorithm chose recurs just as often (twice) but never carries the title phrase, so by the tie-break it is the pre-hook."
+}
+},
+"83": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 83,
+"record_ok": true,
+"first_line_s": 4.52,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 34.62,
+"first_hook_end_s": 65.64,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+34.62,
+100.47
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 4.52
+},
+{
+"label": "verse",
+"start_s": 24.81
+},
+{
+"label": "hook",
+"start_s": 34.62
+},
+{
+"label": "verse",
+"start_s": 65.64
+},
+{
+"label": "hook",
+"start_s": 100.47
+},
+{
+"label": "other",
+"start_s": 134.53
+},
+{
+"label": "outro",
+"start_s": 144.26
+}
+],
+"confidence": "medium",
+"note": "The only block that recurs is a 15-line verse-like passage (34.62, 100.47), taken as the hook; the word superhero appears only in three intro lines (8.53-16.72) that never return."
+},
+"ruling": {
+"cid": 83,
+"resolution": "reviewer_right",
+"first_line_s": 4.52,
+"has_recurring_hook": true,
+"first_hook_s": 34.62,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+34.62,
+100.47
+],
+"reason": "Row 0 at 4.52 is a non-empty (parenthesised producer-tag) row, so it is the first line by definition, and all nine rows before 34.62 are non-empty; the algorithm's 8.5 s and 7 come from skipping the two parenthesised rows. The 15-line block at 34.62 returns word for word at 100.47 and is the only block in the file that recurs, a verse-like passage rather than a title chorus."
+}
+},
+"84": {
+"status": "adjudicated",
+"why": [
+"whether a recurring hook exists"
+],
+"reviewer": {
+"cid": 84,
+"record_ok": true,
+"first_line_s": 0.35,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 137.73,
+"first_hook_end_s": 143.65,
+"lines_before_first_hook": 43,
+"hook_starts_s": [
+137.73,
+218.83
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.35
+},
+{
+"label": "other",
+"start_s": 31.88
+},
+{
+"label": "verse",
+"start_s": 56.51
+},
+{
+"label": "bridge",
+"start_s": 105.41
+},
+{
+"label": "hook",
+"start_s": 137.73
+},
+{
+"label": "verse",
+"start_s": 143.65
+},
+{
+"label": "hook",
+"start_s": 218.83
+},
+{
+"label": "outro",
+"start_s": 234.28
+}
+],
+"confidence": "low",
+"note": "No conventional chorus: the title-phrase refrain at 31.88-56.51 occurs once, and the only block that returns is a late two-line chant (137.73, back at 218.83), reported here as the hook."
+},
+"ruling": {
+"cid": 84,
+"resolution": "reviewer_right",
+"first_line_s": 0.35,
+"has_recurring_hook": true,
+"first_hook_s": 137.73,
+"lines_before_first_hook": 43,
+"hook_starts_s": [
+137.73,
+218.83
+],
+"reason": "A block does recur: a one-line chant delivered twice at 137.73-140.56 comes back three times at 218.83-225.01 in parenthesised rows with slightly changed wording, which the exact-match algorithm missed, while the title-phrase passage at 31.88-55.05 occurs only once and so cannot be the hook under the definition. The chant is a late verse-bookend rather than a conventional chorus, so this hook timing is low confidence."
+}
+},
+"85": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 85,
+"record_ok": true,
+"first_line_s": 1.19,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 64.48,
+"first_hook_end_s": 79.4,
+"lines_before_first_hook": 20,
+"hook_starts_s": [
+64.48,
+130.44
+],
+"hook_return": "new_lyrics",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.19
+},
+{
+"label": "verse",
+"start_s": 35.41
+},
+{
+"label": "hook",
+"start_s": 64.48
+},
+{
+"label": "post_hook",
+"start_s": 79.4
+},
+{
+"label": "verse",
+"start_s": 94.43
+},
+{
+"label": "hook",
+"start_s": 130.44
+},
+{
+"label": "post_hook",
+"start_s": 137.9
+}
+],
+"confidence": "medium",
+"note": "Title-phrase chorus (64.48) returns at 130.44 as 4 lines, only the first two echoing the original; the chant after it (79.40, 137.90) returns unchanged and is labelled post_hook."
+},
+"ruling": {
+"cid": 85,
+"resolution": "reviewer_right",
+"first_line_s": 1.19,
+"has_recurring_hook": true,
+"first_hook_s": 64.48,
+"lines_before_first_hook": 20,
+"hook_starts_s": [
+64.48,
+130.44
+],
+"reason": "The six-line title-phrase block at 64.48 comes back at 130.44 with its first two lines intact apart from a swapped name, a partial return of two lines followed by two new ones, which the algorithm missed because the words change. The chant at 79.40/137.90 recurs equally often but follows that block both times and lacks the title phrase, so it is the post-hook; 20 non-empty rows precede 64.48."
+}
+},
+"86": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 86,
+"record_ok": true,
+"first_line_s": 7.75,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 97.05,
+"first_hook_end_s": 121.17,
+"lines_before_first_hook": 30,
+"hook_starts_s": [
+97.05,
+171.23
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 7.75
+},
+{
+"label": "verse",
+"start_s": 11.55
+},
+{
+"label": "verse",
+"start_s": 37.66
+},
+{
+"label": "verse",
+"start_s": 61.05
+},
+{
+"label": "hook",
+"start_s": 97.05
+},
+{
+"label": "verse",
+"start_s": 121.17
+},
+{
+"label": "hook",
+"start_s": 171.23
+},
+{
+"label": "outro",
+"start_s": 194.83
+}
+],
+"confidence": "high",
+"note": "Hook is a title chant first heard at 97.05 after three verses; some line stamps in and around it are uneven (120.78/121.17, 179.86/180.39), so its end time is approximate."
+}
+},
+"87": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 87,
+"record_ok": true,
+"first_line_s": 0.13,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 58.47,
+"first_hook_end_s": 88.99,
+"lines_before_first_hook": 23,
+"hook_starts_s": [
+58.47,
+162.33
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.13
+},
+{
+"label": "verse",
+"start_s": 14.05
+},
+{
+"label": "hook",
+"start_s": 58.47
+},
+{
+"label": "verse",
+"start_s": 88.99
+},
+{
+"label": "hook",
+"start_s": 162.33
+},
+{
+"label": "outro",
+"start_s": 192.03
+}
+],
+"confidence": "high",
+"note": "Hook arrives at 58.47 after a 20-line verse and returns once word for word; the hook text lacks the title phrase; the outro from 192.03 reads like a sampled vocal."
+}
+},
+"88": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 88,
+"record_ok": true,
+"first_line_s": 1.26,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 1.26,
+"first_hook_end_s": 17.09,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+1.26,
+95.54,
+190.18
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 1.26
+},
+{
+"label": "post_hook",
+"start_s": 17.09
+},
+{
+"label": "verse",
+"start_s": 33.24
+},
+{
+"label": "verse",
+"start_s": 64.79
+},
+{
+"label": "hook",
+"start_s": 95.54
+},
+{
+"label": "post_hook",
+"start_s": 111.44
+},
+{
+"label": "verse",
+"start_s": 126.86
+},
+{
+"label": "hook",
+"start_s": 190.18
+},
+{
+"label": "post_hook",
+"start_s": 205.8
+}
+],
+"confidence": "high",
+"note": "Hook opens the song; the chant that always follows it (17.09, 111.44, 205.80) is labelled post_hook, so counting it as part of the hook would move the first hook end to 33.24."
+}
+},
+"89": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 89,
+"record_ok": true,
+"first_line_s": 0.62,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 29.25,
+"first_hook_end_s": 53.01,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+29.25,
+109.62
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.62
+},
+{
+"label": "verse",
+"start_s": 3.13
+},
+{
+"label": "hook",
+"start_s": 29.25
+},
+{
+"label": "verse",
+"start_s": 55.95
+},
+{
+"label": "hook",
+"start_s": 109.62
+}
+],
+"confidence": "high",
+"note": "Hook start excludes a vocalised lead-in at 26.88 whose counterpart at 107.59 has different words; the stanza at 79.92 echoes only the hook's opening line and is not counted as a return."
+}
+},
+"90": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 90,
+"record_ok": true,
+"first_line_s": 16.99,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 36.78,
+"first_hook_end_s": 41.51,
+"lines_before_first_hook": 9,
+"hook_starts_s": [
+36.78,
+92.58
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 16.99
+},
+{
+"label": "verse",
+"start_s": 18.38
+},
+{
+"label": "hook",
+"start_s": 36.78
+},
+{
+"label": "verse",
+"start_s": 41.51
+},
+{
+"label": "hook",
+"start_s": 92.58
+},
+{
+"label": "verse",
+"start_s": 103.25
+},
+{
+"label": "outro",
+"start_s": 146.17
+}
+],
+"confidence": "medium",
+"note": "Hook is a short three-line chant (36.78, longer at 92.58); the sampled phrase heard from 16.99 recurs as a tag and fills the outro (146.17) but is not counted as the hook."
+}
+},
+"91": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 91,
+"record_ok": true,
+"first_line_s": 3.03,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 3.03,
+"first_hook_end_s": 23.3,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+3.03,
+57.18,
+131.74
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "hook",
+"start_s": 3.03
+},
+{
+"label": "verse",
+"start_s": 23.3
+},
+{
+"label": "hook",
+"start_s": 57.18
+},
+{
+"label": "verse",
+"start_s": 78.34
+},
+{
+"label": "hook",
+"start_s": 131.74
+}
+],
+"confidence": "high",
+"note": "Hook is the first text; a one-line lead-in precedes hooks 2 and 3 (54.74, 129.05) but not hook 1, so it stays in the verses; hook passes differ only in ad-libs."
+}
+},
+"92": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 92,
+"record_ok": true,
+"first_line_s": 5.77,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 71.92,
+"first_hook_end_s": 94.75,
+"lines_before_first_hook": 27,
+"hook_starts_s": [
+71.92,
+131.25
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 5.77
+},
+{
+"label": "verse",
+"start_s": 12.03
+},
+{
+"label": "hook",
+"start_s": 71.92
+},
+{
+"label": "verse",
+"start_s": 94.75
+},
+{
+"label": "hook",
+"start_s": 131.25
+},
+{
+"label": "outro",
+"start_s": 154.13
+}
+],
+"confidence": "high",
+"note": "First text reads as a sampled intro line (not verified); the nine-row hook returns once with the same words and is followed by an outro with new words at 154.13."
+}
+},
+"93": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 93,
+"record_ok": true,
+"first_line_s": 1.3,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 1.3,
+"first_hook_end_s": 21.91,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+1.3,
+83.54,
+143.11
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "hook",
+"start_s": 1.3
+},
+{
+"label": "verse",
+"start_s": 24.14
+},
+{
+"label": "hook",
+"start_s": 83.54
+},
+{
+"label": "verse",
+"start_s": 107.43
+},
+{
+"label": "hook",
+"start_s": 143.11
+}
+],
+"confidence": "medium",
+"note": "Song opens on the sung hook; the first stamp looks about 1.3 s late (rows 0 and 1 are 0.53 s apart versus about 1.8 s in later hooks), so the hook probably starts near 0 s."
+}
+},
+"94": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 94,
+"record_ok": true,
+"first_line_s": 11.59,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 73.25,
+"first_hook_end_s": 98.07,
+"lines_before_first_hook": 33,
+"hook_starts_s": [
+73.25,
+146.73
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 11.59
+},
+{
+"label": "verse",
+"start_s": 23.57
+},
+{
+"label": "hook",
+"start_s": 73.25
+},
+{
+"label": "verse",
+"start_s": 98.07
+},
+{
+"label": "hook",
+"start_s": 146.73
+},
+{
+"label": "outro",
+"start_s": 171.18
+}
+],
+"confidence": "high",
+"note": "Rows are short line fragments (about 1.6 s each in verse 1), so the 33 rows before the hook overstate the line count; the parenthesised intro and outro text reads as a sampled record."
+},
+"ruling": {
+"cid": 94,
+"resolution": "reviewer_right",
+"first_line_s": 11.59,
+"has_recurring_hook": true,
+"first_hook_s": 73.25,
+"lines_before_first_hook": 33,
+"hook_starts_s": [
+73.25,
+146.73
+],
+"reason": "Row 0 at 11.59 s carries non-empty (parenthesised, sample-like) text, so by the definition it is the first line, and it and row 1 count toward the 33 non-empty rows (idx 0-32) before the hook. The 12-row block opening at 73.25 s returns row for row at 146.73 s and nothing else in the file recurs."
+}
+},
+"95": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 95,
+"record_ok": true,
+"first_line_s": 0.85,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 18.39,
+"first_hook_end_s": 36.61,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+18.39,
+72.18,
+126.17,
+144.02
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.85
+},
+{
+"label": "hook",
+"start_s": 18.39
+},
+{
+"label": "verse",
+"start_s": 36.61
+},
+{
+"label": "hook",
+"start_s": 72.18
+},
+{
+"label": "verse",
+"start_s": 90.05
+},
+{
+"label": "hook",
+"start_s": 126.17
+},
+{
+"label": "hook",
+"start_s": 144.02
+},
+{
+"label": "outro",
+"start_s": 162.53
+}
+],
+"confidence": "high",
+"note": "Hook is timed from the row that opens every pass (18.39); a sampled pickup phrase leads in at 16.79; the intro chant returns as the outro at 162.53; the last hook runs twice back to back."
+},
+"ruling": {
+"cid": 95,
+"resolution": "reviewer_right",
+"first_line_s": 0.85,
+"has_recurring_hook": true,
+"first_hook_s": 18.39,
+"lines_before_first_hook": 7,
+"hook_starts_s": [
+18.39,
+72.18,
+126.17,
+144.02
+],
+"reason": "The opening chant (rows 0-5) comes back only once, as the outro at 162.53 s, while the five-row block opening at 18.39 s recurs four times (18.39, 72.18, 126.17, 144.02), so that block is the hook and seven non-empty rows precede it. The pickup row at 16.79 s is not the opener of each pass: it is merged into the preceding verse row before passes 2 and 3 and also closes the outro chant at 178.49 s with no hook after it."
+}
+},
+"96": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 96,
+"record_ok": true,
+"first_line_s": 0.62,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 95.75,
+"first_hook_end_s": 107.92,
+"lines_before_first_hook": 31,
+"hook_starts_s": [
+95.75,
+167.76,
+179.78
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.62
+},
+{
+"label": "verse",
+"start_s": 11.38
+},
+{
+"label": "hook",
+"start_s": 95.75
+},
+{
+"label": "verse",
+"start_s": 107.92
+},
+{
+"label": "hook",
+"start_s": 167.76
+},
+{
+"label": "hook",
+"start_s": 179.78
+}
+],
+"confidence": "high",
+"note": "Hook is the title-word block (passes differ by one ad-lib); the opening couplet at 2.95 returns inside verse 1 at 35.94; verse 2 has four new lines on the title word at 119.97, not counted."
+},
+"ruling": {
+"cid": 96,
+"resolution": "reviewer_right",
+"first_line_s": 0.62,
+"has_recurring_hook": true,
+"first_hook_s": 95.75,
+"lines_before_first_hook": 31,
+"hook_starts_s": [
+95.75,
+167.76,
+179.78
+],
+"reason": "Row 0 at 0.62 s is a non-empty parenthesised tag row, so it is the first line and makes 31 non-empty rows (idx 0-30) before the four-line title-word block at 95.75 s. That block returns at 167.76 s and again back to back at 179.78 s (one ad-lib differs); the opening couplet at 2.95 s recurs only once (35.94 s) and the lines at 119.97 s share only the end word."
+}
+},
+"97": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 97,
+"record_ok": true,
+"first_line_s": 0.6,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 11.43,
+"first_hook_end_s": 25.55,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+11.43,
+76.13,
+141.19
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.6
+},
+{
+"label": "hook",
+"start_s": 11.43
+},
+{
+"label": "post_hook",
+"start_s": 25.55
+},
+{
+"label": "verse",
+"start_s": 40.05
+},
+{
+"label": "hook",
+"start_s": 76.13
+},
+{
+"label": "post_hook",
+"start_s": 90.47
+},
+{
+"label": "verse",
+"start_s": 105.1
+},
+{
+"label": "bridge",
+"start_s": 134.69
+},
+{
+"label": "hook",
+"start_s": 141.19
+},
+{
+"label": "post_hook",
+"start_s": 155.35
+}
+],
+"confidence": "high",
+"note": "Hook is the four-line rap block; the spelled chant after every pass is labelled post_hook (25.55, 90.47, 155.35); counted together, the first chorus would end at 40.05 instead of 25.55."
+}
+},
+"101": {
+"status": "adjudicated",
+"why": [
+"how many times the hook occurs"
+],
+"reviewer": {
+"cid": 101,
+"record_ok": true,
+"first_line_s": 0.15,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 75.96,
+"first_hook_end_s": 88.28,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+75.96,
+88.28,
+101.58,
+193.08
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.15
+},
+{
+"label": "verse",
+"start_s": 14.33
+},
+{
+"label": "hook",
+"start_s": 75.96
+},
+{
+"label": "hook",
+"start_s": 88.28
+},
+{
+"label": "hook",
+"start_s": 101.58
+},
+{
+"label": "other",
+"start_s": 109.52
+},
+{
+"label": "verse",
+"start_s": 114.93
+},
+{
+"label": "hook",
+"start_s": 193.08
+},
+{
+"label": "outro",
+"start_s": 204.59
+}
+],
+"confidence": "medium",
+"note": "Refrain runs three passes back to back from 75.96 to 109.52 (second has partly new lines, third is cut to three lines), then returns after the second verse at 193.08 with a chant tail."
+},
+"ruling": {
+"cid": 101,
+"resolution": "reviewer_right",
+"first_line_s": 0.15,
+"has_recurring_hook": true,
+"first_hook_s": 75.96,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+75.96,
+88.28,
+101.58,
+193.08
+],
+"reason": "The hook's opening line starts a pass at 75.96, 88.28, 101.58 and 193.08 s: the 88.28 pass keeps two of the four hook lines around two new ones, the 101.58 pass repeats the first three verbatim before a transition line at 109.52, and 193.08 repeats all four plus a chant tail, so with partial returns of two or more lines counted there are four occurrences, not two. Rows idx 0-23 are all non-empty (two are parenthesised), giving 24 lines before the hook."
+}
+},
+"102": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 102,
+"record_ok": true,
+"first_line_s": 27.48,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 55.02,
+"first_hook_end_s": 69.74,
+"lines_before_first_hook": 14,
+"hook_starts_s": [
+55.02,
+97.09,
+166.96
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "verse",
+"start_s": 27.48
+},
+{
+"label": "hook",
+"start_s": 55.02
+},
+{
+"label": "verse",
+"start_s": 69.74
+},
+{
+"label": "pre_hook",
+"start_s": 93.65
+},
+{
+"label": "hook",
+"start_s": 97.09
+},
+{
+"label": "verse",
+"start_s": 113.24
+},
+{
+"label": "pre_hook",
+"start_s": 163.6
+},
+{
+"label": "hook",
+"start_s": 166.96
+},
+{
+"label": "outro",
+"start_s": 168.58
+}
+],
+"confidence": "medium",
+"note": "Only one full title chant (55.02 to 69.74); later returns are a single title line closing verses 2 and 3 after a repeated couplet (93.65, 163.60); file stops at 171.77 of 243.2 s."
+}
+},
+"105": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 105,
+"record_ok": true,
+"first_line_s": 0.05,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 55.04,
+"first_hook_end_s": 69.05,
+"lines_before_first_hook": 18,
+"hook_starts_s": [
+55.04,
+96.04
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.05
+},
+{
+"label": "verse",
+"start_s": 14.16
+},
+{
+"label": "hook",
+"start_s": 55.04
+},
+{
+"label": "verse",
+"start_s": 69.05
+},
+{
+"label": "hook",
+"start_s": 96.04
+},
+{
+"label": "bridge",
+"start_s": 109.71
+},
+{
+"label": "verse",
+"start_s": 122.43
+},
+{
+"label": "outro",
+"start_s": 152.14
+}
+],
+"confidence": "high",
+"note": "The five-row hook comes twice, both before 110 s; the closing section at 152.14 reuses the hook's ad-lib phrase with new lines and is not counted as a hook return."
+}
+},
+"107": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 107,
+"record_ok": true,
+"first_line_s": 0.05,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 30.68,
+"first_hook_end_s": 43.76,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+30.68,
+72.04,
+181.68
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.05
+},
+{
+"label": "hook",
+"start_s": 30.68
+},
+{
+"label": "verse",
+"start_s": 43.76
+},
+{
+"label": "bridge",
+"start_s": 57.48
+},
+{
+"label": "hook",
+"start_s": 72.04
+},
+{
+"label": "post_hook",
+"start_s": 84.35
+},
+{
+"label": "verse",
+"start_s": 96.61
+},
+{
+"label": "verse",
+"start_s": 111.32
+},
+{
+"label": "hook",
+"start_s": 181.68
+},
+{
+"label": "post_hook",
+"start_s": 193.95
+}
+],
+"confidence": "high",
+"note": "Hook returns with one added word. A separate 4-line 'stressed out' block follows hooks 2 and 3 (84.35, 193.95) as post_hook. Sung intro, then a 17 s textless gap before the first hook."
+}
+},
+"108": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 108,
+"record_ok": true,
+"first_line_s": 0.33,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 109.45,
+"first_hook_end_s": 122.72,
+"lines_before_first_hook": 42,
+"hook_starts_s": [
+109.45,
+153.49,
+204.73
+],
+"hook_return": "extended",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.33
+},
+{
+"label": "verse",
+"start_s": 25.76
+},
+{
+"label": "verse",
+"start_s": 36.84
+},
+{
+"label": "pre_hook",
+"start_s": 95.58
+},
+{
+"label": "hook",
+"start_s": 109.45
+},
+{
+"label": "verse",
+"start_s": 124.96
+},
+{
+"label": "hook",
+"start_s": 153.49
+},
+{
+"label": "pre_hook",
+"start_s": 168.97
+},
+{
+"label": "verse",
+"start_s": 182.96
+},
+{
+"label": "hook",
+"start_s": 204.73
+}
+],
+"confidence": "medium",
+"note": "Hook is the short 'grieve different' refrain (extended on its last return); an 8-line block also repeats (95.58, 168.97), labelled pre_hook. Opening singer is a guest voice per memory, not file."
+},
+"ruling": {
+"cid": 108,
+"resolution": "reviewer_right",
+"first_line_s": 0.33,
+"has_recurring_hook": true,
+"first_hook_s": 109.45,
+"lines_before_first_hook": 42,
+"hook_starts_s": [
+109.45,
+153.49,
+204.73
+],
+"reason": "The short 'grieve different' refrain recurs three times (109.45, 153.49, 204.73) and carries the title idea, while the 8-line block at 95.58 recurs only once (168.97) and there runs straight into 12 new verse lines, so it is a repeated verse opening rather than the hook. Row 34 is a gap marker, leaving 42 non-empty rows before 109.45; the last return starts at 204.73, with the same ~7.3 s spacing to the second refrain line as in the earlier occurrences."
+}
+},
+"109": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 109,
+"record_ok": true,
+"first_line_s": 0.05,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 36.06,
+"first_hook_end_s": 75.48,
+"lines_before_first_hook": 11,
+"hook_starts_s": [
+36.06,
+126.21
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.05
+},
+{
+"label": "verse",
+"start_s": 22.47
+},
+{
+"label": "hook",
+"start_s": 36.06
+},
+{
+"label": "verse",
+"start_s": 78.75
+},
+{
+"label": "hook",
+"start_s": 126.21
+},
+{
+"label": "outro",
+"start_s": 175.09
+}
+],
+"confidence": "medium",
+"note": "The sampled Tems lines carrying the title open (0.05) and close (175.09) the track and sit under the hook as backing; not counted as hook occurrences. First voice is that sample (Tems is credited)."
+}
+},
+"110": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 110,
+"record_ok": true,
+"first_line_s": 1.52,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 14.96,
+"first_hook_end_s": 45.61,
+"lines_before_first_hook": 5,
+"hook_starts_s": [
+14.96,
+76.33,
+137.12
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.52
+},
+{
+"label": "hook",
+"start_s": 14.96
+},
+{
+"label": "verse",
+"start_s": 45.61
+},
+{
+"label": "hook",
+"start_s": 76.33
+},
+{
+"label": "verse",
+"start_s": 107.09
+},
+{
+"label": "hook",
+"start_s": 137.12
+}
+],
+"confidence": "high",
+"note": "16-line hook repeats word-for-word three times; the only text difference is an echo ad-lib on the final line. Intro (1.52) is a warm-up on the hook's opening words, not counted as hook."
+}
+},
+"111": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 111,
+"record_ok": true,
+"first_line_s": 10.41,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 13.63,
+"first_hook_end_s": 40.52,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+13.63,
+157.38
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 10.41
+},
+{
+"label": "hook",
+"start_s": 13.63
+},
+{
+"label": "post_hook",
+"start_s": 42.59
+},
+{
+"label": "verse",
+"start_s": 65.52
+},
+{
+"label": "pre_hook",
+"start_s": 134
+},
+{
+"label": "hook",
+"start_s": 157.38
+}
+],
+"confidence": "medium",
+"note": "Two blocks recur once each: the opening 8 lines (taken as hook; only 4 return, at 157.38) and a 7-line block at 42.59 that repeats verbatim at 134.00 and could be read as the hook instead."
+},
+"ruling": {
+"cid": 111,
+"resolution": "reviewer_right",
+"first_line_s": 10.41,
+"has_recurring_hook": true,
+"first_hook_s": 13.63,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+13.63,
+157.38
+],
+"reason": "Rows 0 and 1 (10.41 and 12.09) carry non-empty parenthetical text, so by definition the first line is 10.41 and two rows precede the opening 8-line block at 13.63, which returns as a 4-line partial at 157.38. The 7 lines repeated at 42.59 and 134.00 open the verse and run on into it without a break, so 134 is a verse-opening reprise leading into the final hook, not a hook return (neither block holds the title, so the hook choice stays a judgment call)."
+}
+},
+"113": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 113,
+"record_ok": true,
+"first_line_s": 2.44,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 4.07,
+"first_hook_end_s": 42.68,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+4.07,
+75.93,
+129.73
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 2.44
+},
+{
+"label": "hook",
+"start_s": 4.07
+},
+{
+"label": "verse",
+"start_s": 42.68
+},
+{
+"label": "hook",
+"start_s": 75.93
+},
+{
+"label": "verse",
+"start_s": 95.42
+},
+{
+"label": "hook",
+"start_s": 129.73
+}
+],
+"confidence": "high",
+"note": "The 4-line hook is sung twice in the first and last hook sections (second pass at 22.13 and 147.79) and once at 75.93; each section is counted as one occurrence, hence 'shortened'."
+}
+},
+"114": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 114,
+"record_ok": true,
+"first_line_s": 0.91,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 9.99,
+"first_hook_end_s": 28.59,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+9.99,
+64.11,
+127.63
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.91
+},
+{
+"label": "hook",
+"start_s": 9.99
+},
+{
+"label": "verse",
+"start_s": 28.59
+},
+{
+"label": "pre_hook",
+"start_s": 54.04
+},
+{
+"label": "hook",
+"start_s": 64.11
+},
+{
+"label": "post_hook",
+"start_s": 82.25
+},
+{
+"label": "verse",
+"start_s": 100.39
+},
+{
+"label": "pre_hook",
+"start_s": 117.68
+},
+{
+"label": "hook",
+"start_s": 127.63
+},
+{
+"label": "post_hook",
+"start_s": 145.72
+}
+],
+"confidence": "high",
+"note": "The title chant opens the track (0.91) as intro and returns as a 4-line post-hook at 82.25 and 145.72; the hook is the 8-line block from 9.99. Lyrics are a clean edit."
+},
+"ruling": {
+"cid": 114,
+"resolution": "reviewer_right",
+"first_line_s": 0.91,
+"has_recurring_hook": true,
+"first_hook_s": 9.99,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+9.99,
+64.11,
+127.63
+],
+"reason": "The 8-line block at 9.99 returns verbatim at 64.11 and 127.63, each time led in by the 4-line 'count of three'passage and followed by the …'s later occurrences (54, 118) are the starts of that lead-in passage, where two of four lines change."
+}
+},
+"117": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 117,
+"record_ok": true,
+"first_line_s": 0.92,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 10.23,
+"first_hook_end_s": 24.96,
+"lines_before_first_hook": 2,
+"hook_starts_s": [
+10.23,
+74.37,
+140.07
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.92
+},
+{
+"label": "hook",
+"start_s": 10.23
+},
+{
+"label": "verse",
+"start_s": 24.96
+},
+{
+"label": "hook",
+"start_s": 74.37
+},
+{
+"label": "verse",
+"start_s": 89.88
+},
+{
+"label": "hook",
+"start_s": 140.07
+},
+{
+"label": "verse",
+"start_s": 154.16
+}
+],
+"confidence": "high",
+"note": "Hook words are identical each time; only the trailing ad-lib on its last line changes. From 154.16 the track is a third verse (about 50 s) and ends without a final hook."
+}
+},
+"118": {
+"status": "adjudicated",
+"why": [
+"first line time"
+],
+"reviewer": {
+"cid": 118,
+"record_ok": true,
+"first_line_s": 1.48,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 55.75,
+"first_hook_end_s": 67.43,
+"lines_before_first_hook": 19,
+"hook_starts_s": [
+55.75,
+74.28,
+112.72
+],
+"hook_return": "shortened",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.48
+},
+{
+"label": "verse",
+"start_s": 12.76
+},
+{
+"label": "verse",
+"start_s": 29.09
+},
+{
+"label": "hook",
+"start_s": 55.75
+},
+{
+"label": "verse",
+"start_s": 67.43
+},
+{
+"label": "hook",
+"start_s": 74.28
+},
+{
+"label": "verse",
+"start_s": 80.74
+},
+{
+"label": "hook",
+"start_s": 112.72
+}
+],
+"confidence": "medium",
+"note": "Hook is the title chant, first as a block at 55.75; the phrase also appears in the intro and inside verse lines. Return at 74.28 is a single row (half length). Verse timing is loose in places."
+},
+"ruling": {
+"cid": 118,
+"resolution": "reviewer_right",
+"first_line_s": 1.48,
+"has_recurring_hook": true,
+"first_hook_s": 55.75,
+"lines_before_first_hook": 19,
+"hook_starts_s": [
+55.75,
+74.28,
+112.72
+],
+"reason": "Row 0 at 1.48 is a non-empty producer-tag row, which the definition counts as the first line, so 19 non-empty rows precede the chant block at 55.75. The chant returns at 74.28 as a single row holding two lines' worth of the phrase (same ~6.5 s span as the first two hook rows) and at 112.72 as a full four-row block; the title phrase in the intro and inside verse lines is not that block."
+}
+},
+"119": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 119,
+"record_ok": true,
+"first_line_s": 0.93,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 54.06,
+"first_hook_end_s": 79.15,
+"lines_before_first_hook": 26,
+"hook_starts_s": [
+54.06,
+119.79
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.93
+},
+{
+"label": "verse",
+"start_s": 26.62
+},
+{
+"label": "hook",
+"start_s": 54.06
+},
+{
+"label": "post_hook",
+"start_s": 79.15
+},
+{
+"label": "verse",
+"start_s": 92.41
+},
+{
+"label": "hook",
+"start_s": 119.79
+},
+{
+"label": "post_hook",
+"start_s": 144.93
+},
+{
+"label": "outro",
+"start_s": 159.26
+}
+],
+"confidence": "medium",
+"note": "Hook is sung twice per section (2nd pass adds lines), then a rapped tail recurs as post_hook. Intro and outro sing a differently worded 'superstars' passage, not counted as hook; voice unclear."
+},
+"ruling": {
+"cid": 119,
+"resolution": "reviewer_right",
+"first_line_s": 0.93,
+"has_recurring_hook": true,
+"first_hook_s": 54.06,
+"lines_before_first_hook": 26,
+"hook_starts_s": [
+54.06,
+119.79
+],
+"reason": "The four-line block at 54.06 is sung twice per section and the whole section returns verbatim at 119.79, while the passage at 14.50 recurs only once, as the outro at 159.26, and shares just its opening 'superstars' line with the hook. The line at 52.75 is a lead-in that is missing before the 119.79 return, so the hook starts at 54.06 with 26 non-empty rows before it."
+}
+},
+"134": {
+"status": "adjudicated",
+"why": [
+"first hook time"
+],
+"reviewer": {
+"cid": 134,
+"record_ok": true,
+"first_line_s": 3.53,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 69.58,
+"first_hook_end_s": 87.98,
+"lines_before_first_hook": 13,
+"hook_starts_s": [
+69.58,
+139.45,
+226.37
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 3.53
+},
+{
+"label": "verse",
+"start_s": 17.54
+},
+{
+"label": "pre_hook",
+"start_s": 53.46
+},
+{
+"label": "hook",
+"start_s": 69.58
+},
+{
+"label": "verse",
+"start_s": 87.98
+},
+{
+"label": "pre_hook",
+"start_s": 123.47
+},
+{
+"label": "hook",
+"start_s": 139.45
+},
+{
+"label": "verse",
+"start_s": 157.46
+},
+{
+"label": "hook",
+"start_s": 226.37
+},
+{
+"label": "outro",
+"start_s": 242.34
+}
+],
+"confidence": "high",
+"note": "Hook = 4-line block from 69.58; lead-in at 66.25 recurs at 136.11 but not before the last return; lone hook line at 115.90 not counted; no lines after 242.34 of a 297.0 s record."
+},
+"ruling": {
+"cid": 134,
+"resolution": "reviewer_right",
+"first_line_s": 3.53,
+"has_recurring_hook": true,
+"first_hook_s": 69.58,
+"lines_before_first_hook": 13,
+"hook_starts_s": [
+69.58,
+139.45,
+226.37
+],
+"reason": "The four-row block from row 13 (title line three times, then a closing line) recurs identically at 139.45 and 226.37 (3 occurrences), while the block Reading A picked at 53.46 occurs only twice (53.46, 123.47) and is absent from the final return, so by the two-block rule it is the pre-hook. The lead-in row at 66.25 comes back only with that pre-hook (136.11) and not before 226.37, and the hook line at 115.90 is a lone single row, so 69.58 with 13 prior non-empty rows (idx 0-12) stands."
+}
+},
+"124": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 124,
+"record_ok": true,
+"first_line_s": 0.08,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 14.37,
+"first_hook_end_s": 42.93,
+"lines_before_first_hook": 4,
+"hook_starts_s": [
+14.37,
+85.13,
+159.2
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.08
+},
+{
+"label": "hook",
+"start_s": 14.37
+},
+{
+"label": "verse",
+"start_s": 42.93
+},
+{
+"label": "hook",
+"start_s": 85.13
+},
+{
+"label": "verse",
+"start_s": 113.32
+},
+{
+"label": "hook",
+"start_s": 159.2
+},
+{
+"label": "verse",
+"start_s": 187.67
+},
+{
+"label": "outro",
+"start_s": 237.67
+}
+],
+"confidence": "high",
+"note": "Opens with four lines that look like the sampled 1991 lyric; hook counted from its recurring lead-in at 14.37 (first full hook line 17.65); outro at 237.67 reprises verse-2 lines, not the hook."
+}
+},
+"125": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 125,
+"record_ok": true,
+"first_line_s": 1.66,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 12.11,
+"first_hook_end_s": 34.42,
+"lines_before_first_hook": 3,
+"hook_starts_s": [
+12.11,
+89.77,
+177.99
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.66
+},
+{
+"label": "hook",
+"start_s": 12.11
+},
+{
+"label": "verse",
+"start_s": 34.42
+},
+{
+"label": "pre_hook",
+"start_s": 76.64
+},
+{
+"label": "hook",
+"start_s": 89.77
+},
+{
+"label": "verse",
+"start_s": 110.11
+},
+{
+"label": "pre_hook",
+"start_s": 165.06
+},
+{
+"label": "hook",
+"start_s": 177.99
+},
+{
+"label": "outro",
+"start_s": 200.14
+}
+],
+"confidence": "high",
+"note": "Verse 1 echoes the hook at 53.76 (title line only) and 67.09 (one line verbatim, one reworded); neither is counted as a hook return; the block at 76.64 and 165.06 is labelled pre_hook."
+}
+},
+"126": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 126,
+"record_ok": true,
+"first_line_s": 0.06,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 46.22,
+"first_hook_end_s": 68.23,
+"lines_before_first_hook": 18,
+"hook_starts_s": [
+46.22,
+114.87,
+229.04
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.06
+},
+{
+"label": "verse",
+"start_s": 12.48
+},
+{
+"label": "hook",
+"start_s": 46.22
+},
+{
+"label": "verse",
+"start_s": 68.23
+},
+{
+"label": "hook",
+"start_s": 114.87
+},
+{
+"label": "post_hook",
+"start_s": 136.91
+},
+{
+"label": "verse",
+"start_s": 147.19
+},
+{
+"label": "hook",
+"start_s": 229.04
+},
+{
+"label": "post_hook",
+"start_s": 251.42
+},
+{
+"label": "outro",
+"start_s": 262.28
+}
+],
+"confidence": "high",
+"note": "Opening block looks like a sampled vocal refrain, labelled intro then post_hook when it returns (136.91, 251.42); the title hook's one-line lead-in at 43.87 never returns, so it is not counted."
+},
+"ruling": {
+"cid": 126,
+"resolution": "reviewer_right",
+"first_line_s": 0.06,
+"has_recurring_hook": true,
+"first_hook_s": 46.22,
+"lines_before_first_hook": 18,
+"hook_starts_s": [
+46.22,
+114.87,
+229.04
+],
+"reason": "Two blocks each recur three times: the 4-row opening block (0.06, 136.91, 251.42) and the 7-row block at 46.22, 114.87 and 229.04; only the latter carries the title phrase (rows at 54.01 and 65.72), so by the tiebreak it is the hook and the opening block is intro/post_hook. The one-row lead-in at 43.87 occurs nowhere else in the file, so the hook starts at row 18, with 18 non-empty rows before it."
+}
+},
+"127": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 127,
+"record_ok": true,
+"first_line_s": 0.03,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": true,
+"first_hook_s": 0.03,
+"first_hook_end_s": 14.65,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0.03,
+64.84
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "hook",
+"start_s": 0.03
+},
+{
+"label": "verse",
+"start_s": 14.65
+},
+{
+"label": "hook",
+"start_s": 64.84
+},
+{
+"label": "verse",
+"start_s": 76.81
+},
+{
+"label": "bridge",
+"start_s": 118.39
+},
+{
+"label": "other",
+"start_s": 141.64
+},
+{
+"label": "verse",
+"start_s": 166.31
+},
+{
+"label": "outro",
+"start_s": 286.65
+}
+],
+"confidence": "low",
+"note": "The only recurring block is the looped vocal sample (0.03, 64.84), counted as the hook by the text rule; from memory the song has no chorus by the artist, only verses over that sample."
+}
+},
+"128": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 128,
+"record_ok": true,
+"first_line_s": 0.27,
+"first_line_kind": "rap",
+"has_recurring_hook": true,
+"first_hook_s": 118.77,
+"first_hook_end_s": 144.54,
+"lines_before_first_hook": 32,
+"hook_starts_s": [
+118.77,
+197.89
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.27
+},
+{
+"label": "verse",
+"start_s": 32.81
+},
+{
+"label": "verse",
+"start_s": 65.73
+},
+{
+"label": "hook",
+"start_s": 118.77
+},
+{
+"label": "verse",
+"start_s": 144.54
+},
+{
+"label": "other",
+"start_s": 188.42
+},
+{
+"label": "hook",
+"start_s": 197.89
+}
+],
+"confidence": "high",
+"note": "Hook is a one-line chant repeated 8 times and arrives late (118.77) after 32 lines; the first 8 lines look like a guest's intro verse; expletives are dashed out in this file."
+}
+},
+"129": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 129,
+"record_ok": true,
+"first_line_s": 13.39,
+"first_line_kind": "adlib_or_vocalization",
+"has_recurring_hook": true,
+"first_hook_s": 13.39,
+"first_hook_end_s": 41.27,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+13.39,
+86.95,
+161.15
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "hook",
+"start_s": 13.39
+},
+{
+"label": "verse",
+"start_s": 41.27
+},
+{
+"label": "hook",
+"start_s": 86.95
+},
+{
+"label": "verse",
+"start_s": 113.52
+},
+{
+"label": "other",
+"start_s": 150.48
+},
+{
+"label": "hook",
+"start_s": 161.15
+},
+{
+"label": "bridge",
+"start_s": 200.6
+},
+{
+"label": "outro",
+"start_s": 227.4
+}
+],
+"confidence": "high",
+"note": "Hook counted from its recurring one-word lead-in at 13.39 (first full lyric line 16.66); that lead-in also opens the guest verse at 113.52; the sung closing section from 200.60 is not the hook."
+}
+},
+"130": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 130,
+"record_ok": true,
+"first_line_s": 1.4,
+"first_line_kind": "sample_or_other_voice",
+"has_recurring_hook": false,
+"first_hook_s": null,
+"first_hook_end_s": null,
+"lines_before_first_hook": null,
+"hook_starts_s": [],
+"hook_return": "not_applicable",
+"sections": [
+{
+"label": "intro",
+"start_s": 1.4
+},
+{
+"label": "verse",
+"start_s": 30.41
+},
+{
+"label": "other",
+"start_s": 98.61
+},
+{
+"label": "outro",
+"start_s": 123.59
+}
+],
+"confidence": "medium",
+"note": "No recurring hook: one verse (30.41 to 98.61) framed by a sampled intro and outro with talk over them; the sampled title-like chant repeats only inside the outro (from 137.29)."
+}
+},
+"131": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 131,
+"record_ok": true,
+"first_line_s": 0.06,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 62.09,
+"first_hook_end_s": 92.18,
+"lines_before_first_hook": 11,
+"hook_starts_s": [
+62.09,
+118.26,
+176.92
+],
+"hook_return": "minor_variation",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.06
+},
+{
+"label": "hook",
+"start_s": 62.09
+},
+{
+"label": "verse",
+"start_s": 92.18
+},
+{
+"label": "hook",
+"start_s": 118.26
+},
+{
+"label": "verse",
+"start_s": 147.62
+},
+{
+"label": "hook",
+"start_s": 176.92
+},
+{
+"label": "post_hook",
+"start_s": 206.84
+},
+{
+"label": "verse",
+"start_s": 230.77
+},
+{
+"label": "post_hook",
+"start_s": 255.22
+}
+],
+"confidence": "high",
+"note": "The 11 lines before the hook are all a spoken DJ-style shout-out intro, likely another voice; a second refrain at 206.84 returns varied at 255.22 and is labelled post_hook."
+}
+},
+"132": {
+"status": "agree",
+"why": [],
+"reviewer": {
+"cid": 132,
+"record_ok": true,
+"first_line_s": 0.04,
+"first_line_kind": "spoken",
+"has_recurring_hook": true,
+"first_hook_s": 10.98,
+"first_hook_end_s": 42.33,
+"lines_before_first_hook": 1,
+"hook_starts_s": [
+10.98,
+84.04,
+178.1
+],
+"hook_return": "identical",
+"sections": [
+{
+"label": "intro",
+"start_s": 0.04
+},
+{
+"label": "hook",
+"start_s": 10.98
+},
+{
+"label": "verse",
+"start_s": 42.33
+},
+{
+"label": "hook",
+"start_s": 84.04
+},
+{
+"label": "verse",
+"start_s": 116.57
+},
+{
+"label": "hook",
+"start_s": 178.1
+}
+],
+"confidence": "high",
+"note": "Each hook is 8 lines plus a reprise of its first 3 (31.94 in the first), counted as one occurrence; verse 1 reuses single hook lines (42.33, 55.28, 73.60); the first row is a spoken tag."
+}
+},
+"133": {
+"status": "adjudicated",
+"why": [
+"first hook time",
+"whether the hook comes within the first three lines"
+],
+"reviewer": {
+"cid": 133,
+"record_ok": true,
+"first_line_s": 1.69,
+"first_line_kind": "sung",
+"has_recurring_hook": true,
+"first_hook_s": 1.69,
+"first_hook_end_s": 46.22,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+1.69,
+193.85
+],
+"hook_return": "new_lyrics",
+"sections": [
+{
+"label": "hook",
+"start_s": 1.69
+},
+{
+"label": "verse",
+"start_s": 46.22
+},
+{
+"label": "bridge",
+"start_s": 86.28
+},
+{
+"label": "verse",
+"start_s": 121.34
+},
+{
+"label": "hook",
+"start_s": 193.85
+}
+],
+"confidence": "medium",
+"note": "Sung hook opens the song; its only return (193.85) keeps the 8-line form and key phrases but is verbatim only in its last two lines; the 86.28 refrain on the hook's last line is not counted."
+},
+"ruling": {
+"cid": 133,
+"resolution": "reviewer_right",
+"first_line_s": 1.69,
+"has_recurring_hook": true,
+"first_hook_s": 1.69,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+1.69,
+193.85
+],
+"reason": "Rows 0-7 (from 1.69) and rows 51-58 (from 193.85) are parallel 8-row blocks with matching ~6 s row spacing, anchor phrases kept in the same positions in four of the six rewritten rows, and a verbatim two-row tail, so the opening block is the hook returning with changed words; the algorithm's 37.69/229.46 is only that …'s last line, so it is not an occurrence; caveat: about half the words (32 of 65) survive the return and the title word never appears in the file."
+}
+}
+}

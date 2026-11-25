@@ -1,12 +1,7 @@
 {
  "n_final": 100,
  "n_studied": 100,
- "provisional": [
-  47,
-  48,
-  55,
-  69
- ],
+ "provisional": [],
  "runtime_all": {
   "n": 98,
   "median": 210.5,
@@ -129,33 +124,39 @@
   "dance_or_house_rap": 1
  },
  "opening": {
-  "unknown|unknown": 54,
+  "unknown|unknown": 43,
   "producer_tag|source": 1,
+  "ad_lib_or_spoken_intro|page": 8,
+  "sample_or_interpolation|page": 14,
+  "instrumental|page": 1,
   "instrumental|unconfirmed": 1,
-  "sample_or_interpolation|unconfirmed": 8,
+  "sample_or_interpolation|unconfirmed": 5,
+  "hook_or_chorus|page": 3,
   "rap_verse|unverified_recollection": 1,
-  "sample_or_interpolation|source": 7,
-  "sung_intro|unverified_recollection": 2,
-  "sung_intro|unconfirmed": 1,
+  "sung_intro|page": 3,
   "rap_verse|unconfirmed": 3,
-  "ad_lib_or_spoken_intro|unconfirmed": 4,
-  "ad_lib_or_spoken_intro|source": 4,
-  "hook_or_chorus|unconfirmed": 2,
-  "chant|source": 1,
+  "ad_lib_or_spoken_intro|unconfirmed": 3,
+  "ad_lib_or_spoken_intro|source": 1,
+  "chant|page": 1,
+  "sample_or_interpolation|source": 3,
   "hook_or_chorus|unverified_recollection": 1,
-  "sample_or_interpolation|unverified_recollection": 7,
+  "sample_or_interpolation|unverified_recollection": 3,
+  "rap_verse|page": 1,
   "producer_tag|unconfirmed": 1,
   "rap_verse|source": 1,
-  "ad_lib_or_spoken_intro|unverified_recollection": 1
+  "ad_lib_or_spoken_intro|unverified_recollection": 1,
+  "sung_intro|unverified_recollection": 1
  },
  "hook_first": {
   "unknown|unknown": 69,
-  "yes|unconfirmed": 8,
-  "no|unverified_recollection": 8,
+  "yes|unconfirmed": 7,
+  "no|unverified_recollection": 7,
   "no|unconfirmed": 4,
   "no|source": 4,
+  "no|page": 1,
   "yes|unverified_recollection": 4,
-  "yes|source": 3
+  "yes|source": 3,
+  "yes|page": 1
  },
  "hook_status": {
   "present_verified": 20,
@@ -164,13 +165,13 @@
   "absent_unverified": 6
  },
  "beat_switch": {
-  "unknown|unknown": 64,
-  "yes|source": 10,
-  "yes|unconfirmed": 5,
+  "unknown|unknown": 60,
+  "yes|page": 18,
   "no|unverified_recollection": 18,
+  "yes|source": 1,
   "yes|unverified_recollection": 3
  },
- "with_borrowing": 57,
+ "with_borrowing": 66,
  "with_guests": 43,
  "timestamps_known": {
   "first_vocal": 0,
@@ -245,14 +246,11 @@
  "boundary_next": [
   "2021-09-18 #10 Love All \u2014 Drake Featuring JAY-Z",
   "2021-09-11 #6 Hurricane \u2014 Kanye West",
-  "2021-09-11 #10 Jail \u2014 Kanye West (\u2020-grade evidence: no direct rap-chart listing)",
+  "2021-09-11 #10 Jail \u2014 Kanye West",
   "2021-08-28 #4 Rumors \u2014 Lizzo Featuring Cardi B",
   "2021-08-07 #2 Industry Baby \u2014 Lil Nas X & Jack Harlow"
  ],
- "open_close_calls_before_cut": [
-  "2023-10-14 #5 3D \u2014 Jung Kook & Jack Harlow",
-  "2022-08-20 #10 Bad Decisions \u2014 benny blanco, BTS & Snoop Dogg"
- ],
+ "open_close_calls_before_cut": [],
  "cut": "2021-09-18 #9 TSU",
  "span": "2021-09-18 to 2026-05-30"
 }

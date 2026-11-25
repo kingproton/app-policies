@@ -14,6 +14,23 @@ for y in c['yearend']:
             for e in L['entries']:
                 ye.setdefault(n(e['title']),[]).append((L['year'],e.get('rank'),e.get('artist',''),L.get('source_url','')))
 STRONG={'billboard_chart_page','billboard_article','wikipedia_chart_table','other_press'}
+# Tables read directly (data/measured/genre_tables.json): full year-end Hot Rap Songs lists and the Hot Rap Songs
+# peak column of artist discography tables, both on Wikipedia. A number in either is direct chart evidence.
+GT={}
+gt_path=REPO+'data/measured/genre_tables.json'
+if os.path.exists(gt_path):
+    for g in json.load(open(gt_path)): GT[(g['date'],g['rank'])]=g
+def table_evidence(o):
+    g=GT.get((o['first_top10'],o['rank'])) or {}
+    if g.get('ye_rap'):
+        yr,rk=sorted(g['ye_rap'],key=lambda x:x[1])[0]
+        return 'rap',f"Year-End Hot Rap Songs {yr} #{rk}",g
+    if g.get('discog_rap_peak'):
+        lead=n(o['artist'].replace('¥$: ','').split(' Featuring ')[0].split(' & ')[0].split(',')[0].split(' X ')[0].split(' With ')[0])[:5]
+        pages=sorted(g['discog_rap_pages'],key=lambda p:(lead not in n(p),p))
+        page=pages[0].replace('_',' ').replace('%2C',',')
+        return 'rap',f"Hot Rap Songs peak No. {g['discog_rap_peak']} (Wikipedia table: {page})",g
+    return None,None,g
 rows=[]
 for o in cands:
     cid=o['cid']; ev=c['classify'].get(str(cid),[])
@@ -37,7 +54,20 @@ for o in cands:
         basis='weak: '+ev[-1]['evidence_type']+' '+ev[-1]['hot_rap_songs']+' '+ev[-1]['evidence_summary'][:120]
     ov=C.CLASSIFICATION_OVERRIDES.get(cid)
     if ov: stat=ov['status']; basis=ov['evidence_type']+': '+ov['summary']+' [targeted re-check]'
-    rows.append(dict(cid=cid,date=o['first_top10'],rank=o['rank'],title=o['title'],artist=o['artist'],prior=o['prior'],status=stat,basis=basis,n_ev=len(ev)))
+    # evidence tier: table = a chart figure read directly from a table; summary = Billboard pages known only through
+    # web-search summaries; indirect = everything else
+    tstat,tbasis,g=table_evidence(o)
+    prev=basis
+    if tstat=='rap':
+        stat='rap'; basis=tbasis; tier='table'
+    elif stat=='rap': tier='summary'
+    elif stat=='not_rap': tier='table' if cid in C.NONRAP_TABLE_EVIDENCE else ('summary' if (ov or {}).get('confidence') in ('high','medium') or any(e in STRONG for e in [x['evidence_type'] for x in good]) else 'indirect')
+    else: tier='none'
+    rows.append(dict(cid=cid,date=o['first_top10'],rank=o['rank'],title=o['title'],artist=o['artist'],prior=o['prior'],status=stat,basis=basis,n_ev=len(ev),tier=tier,
+                     earlier_basis=prev if prev!=basis else '',
+                     ye_rap=g.get('ye_rap') or [],ye_rbhh=g.get('ye_rbhh') or [],ye_hot100=g.get('ye_hot100') or [],discog_rap_peak=g.get('discog_rap_peak'),
+                     discog_rap_pages=g.get('discog_rap_pages') or [],discog_rap_dash_pages=g.get('discog_rap_dash_pages') or [],discog_rbhh=g.get('discog_rbhh') or [],
+                     discog_rbhh_dash=g.get('discog_rbhh_dash') or [],wiki_genre_charts=g.get('wiki_genre_charts') or []))
 json.dump(rows,open(WORK+'classification_status.json','w'),indent=1)
 k=0
 from collections import Counter

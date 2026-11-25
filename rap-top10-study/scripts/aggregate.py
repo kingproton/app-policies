@@ -60,6 +60,8 @@ def class_source(cid):
     if st['basis'].startswith('Year-End'):
         yr = re.search(r'(\d{4})', st['basis']).group(1)
         url = f'https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_{yr}'
+    elif st['basis'].startswith('Hot Rap Songs peak'):
+        url = 'https://en.wikipedia.org/wiki/' + re.search(r'Wikipedia table: (.*)\)', st['basis']).group(1).replace(' ', '_')
     return st['basis'][:140], url
 
 # ---------- 3. album-bomb flag ----------
@@ -76,7 +78,7 @@ for i, o in enumerate(final, 1):
     basis, url = class_source(o['cid'])
     rows.append(dict(n=i, cid=o['cid'], title=o['title'], artists=o['artist'], first_top10=o['first_top10'], rank=o['rank'],
                      genre_tag=genre_tag(o, t), classification=status[o['cid']]['status'] if o['cid'] not in provisional_ids else 'rap (provisional — unverified)',
-                     classification_basis=basis, classification_source=url,
+                     classification_basis=basis, classification_source=url, evidence_tier=status[o['cid']].get('tier'),
                      chart_source=f"https://www.billboard.com/charts/hot-100/{o['first_top10']}/",
                      debut_in_top10=m['debut_in_top10'], climbed_from=m['climbed_from'], peak=m['peak'], weeks_in_top10=m['weeks_in_top10'],
                      total_weeks=m['total_weeks'], album_bomb=album_bomb(o), lead_artist=lead(o['artist'])))
@@ -90,9 +92,22 @@ def credit_names(a):
     a = a.replace('Tyler, The Creator', 'Tyler The Creator').replace('¥$: ', '')
     return [x.strip() for x in re.split(r' Featuring | With | & | X |, ', a) if x.strip()]
 def return_type(r, t):
-    if not any(d.get('basis') == 'source' for d in t.get('returns') or []):
+    if not any(d.get('basis') in ('source', 'page') for d in t.get('returns') or []):
         return 'not re-confirmed' if any(d.get('basis') == 'unconfirmed' for d in t.get('returns') or []) else None
     return C.RETURN_TYPES.get(r['cid'], 'uncoded')
+def measured_cols(t):
+    m = (t or {}).get('m') or {}; l = m.get('lyr') or {}; f = m.get('feel') or {}; b = m.get('bars') or {}
+    return dict(m_runtime_s=m.get('runtime_s'), m_runtime_edition=m.get('runtime_edition'),
+                m_catalog_track=m.get('runtime_track'), m_catalog_collection=m.get('runtime_collection'), m_catalog_release_date=m.get('runtime_release_date'),
+                m_pulse_bpm=f.get('pulse_bpm'), m_felt_bpm=f.get('felt_bpm'), m_feel_basis=f.get('basis'), m_feel_other_reading_bpm=f.get('other_reading_bpm') if f.get('felt_bpm') == f.get('estimate_bpm') else f.get('estimate_bpm'),
+                m_feel_score=f.get('score'), m_feel_margin=f.get('margin'),
+                m_lyric_record=l.get('record_id'), m_lyric_basis=l.get('basis'), m_first_line_s=l.get('first_line_s'), m_first_line_kind=l.get('first_line_kind'),
+                m_has_hook=l.get('has_hook'), m_first_hook_s=l.get('first_hook_s'), m_lines_before_hook=l.get('lines_before_hook'), m_hook_first=l.get('hook_first'),
+                m_hook_count=l.get('hook_count'), m_hook_starts_s=' '.join(f'{x:g}' for x in (l.get('hook_starts') or [])), m_first_hook_len_s=l.get('first_hook_len_s'),
+                m_first_verse_len_s=l.get('first_verse_len_s'), m_hook_return=l.get('hook_return'),
+                m_verse_words_per_s=l.get('verse_words_per_s'), m_hook_words_per_s=l.get('hook_words_per_s'), m_verse_sylls_per_s=l.get('verse_sylls_per_s'),
+                m_longest_lyric_gap_s=l.get('longest_gap_s'), m_longest_lyric_gap_at_s=l.get('longest_gap_at_s'),
+                m_bar_s=b.get('bar_s'), m_first_hook_bars=b.get('first_hook'), m_first_hook_len_bars=b.get('first_hook_len'), m_first_verse_len_bars=b.get('first_verse_len'))
 mrows = []
 for r in rows:
     t = tracks.get(r['cid']) or {}
@@ -106,17 +121,17 @@ for r in rows:
                       hook_before_first_verse=t.get('hook_first'), hook_before_first_verse_basis=t.get('hook_first_basis'), hook_status=t.get('hook_status'),
                       first_vocal=t.get('first_lead_vocal_time'), first_hook=t.get('first_hook_time'),
                       beat_switch=t.get('beat_switch'), beat_switch_basis=t.get('beat_switch_basis'), beat_switch_time=t.get('beat_switch_time'),
-                      borrowings=' | '.join(f"{s.get('work', '')} [{s.get('borrow_type')}; {'credited' if s.get('credited', True) else 'uncredited'}; {s.get('status')}]" for s in sm),
-                      borrowing_documented=any(s.get('status') in ('confirmed', 'cited', 'not_reconfirmed') for s in sm),
+                      borrowings=' | '.join(f"{s.get('work', '')} [{s.get('borrow_type')}; {'credited' if s.get('credited', True) is True else ('uncredited' if s.get('credited', True) is False else 'credit not stated')}; {s.get('status')}]" for s in sm),
+                      borrowing_documented=any(s.get('status') in ('confirmed', 'cited', 'page', 'not_reconfirmed') for s in sm),
                       return_change_type=return_type(r, t),
                       second_vocalist_credit=len([x for x in credit_names(r['artists']) if x not in NON_VOCAL]) >= 2,
                       guests_documented=len(t.get('features') or []),
                       album_bomb=r['album_bomb'], debut_in_top10=r['debut_in_top10'], climbed_from=r['climbed_from'],
                       weeks_in_top10=r['weeks_in_top10'], total_weeks=r['total_weeks'],
-                      sourced_delivery_obs=sum(1 for d in (t.get('delivery') or []) if d.get('basis') == 'source'),
-                      sourced_return_changes=sum(1 for d in (t.get('returns') or []) if d.get('basis') == 'source'),
+                      sourced_delivery_obs=sum(1 for d in (t.get('delivery') or []) if d.get('basis') in ('source', 'page')),
+                      sourced_return_changes=sum(1 for d in (t.get('returns') or []) if d.get('basis') in ('source', 'page')),
                       verifier_flags=len(t.get('flagged') or []), verifier_rejections_applied='; '.join(t.get('verifier_applied') or []),
-                      verified=t.get('verified'), studied=bool(t)))
+                      verified=t.get('verified'), studied=bool(t), **measured_cols(t)))
 with open(REPO + 'data/track_measurements.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=list(mrows[0].keys())); w.writeheader(); w.writerows(mrows)
 

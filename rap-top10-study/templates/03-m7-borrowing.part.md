@@ -1,0 +1,20 @@
+### M-7. Documented borrowing: a sample, interpolation or clip on {{ num(fs('all','borrow_documented')) }} of the 100
+
+- **Effect:** writing (the central phrase or recognition device) and arrangement (what opens the song and what comes back). Ranked seventh because it rests on what pages document, not on a measurement; it shapes both the hook and the opening.
+- **Count:**
+  - **{{ fs('all','borrow_documented') }}** songs have at least one documented borrowing. For **{{ num(fs('all','borrow_page')) }}** of them the saved Wikipedia or Songfacts page states it (P); the others rest on a cited source read through a search summary (S). The remaining songs are unknown, not "no".
+  - Climbers **{{ fs('climbers','borrow_documented') }}**; debuts **{{ fs('debuts','borrow_documented') }}**.
+  - **By type:** samples on {{ bt('sample', 1) }} songs; interpolations on {{ bt('interpolation', 1) }}; dialogue or spoken clips on {{ bt('audio clip', 1) }}; self-reuse on {{ bt('self-reuse', 1) }}.
+  - The page check added a borrowing that was not on file for {{ len(fsx('borrow_page_added')) }} entries, among them "Real Spill" (Sade), "Knife Talk" (a Project Pat verse), "712PM" and "Fear Of Heights".{{ added('Real Spill') }}{{ added('Knife Talk') }}{{ added('712PM') }}{{ added('Fear Of Heights') }}
+- **Where a page says what the borrowing does:**
+  - *It opens the record:* {{ op_titles('sample_or_interpolation', 9) }}.
+  - *It carries the hook:* "Janice STFU" (the chorus interpolates Lykke Li's "I Follow Rivers"){{ needv('Janice STFU','borrow_1','chorus') }}, "Staying Alive" (the chorus interpolates the Bee Gees){{ needv('Staying Alive','opening','chorus') }}, "Super Gremlin" (the sampled vocal is heard at the start and in the choruses){{ needv('Super Gremlin','opening','choruses') }}, "Forever" (the chorus came from an existing Vory and Fridayy hook){{ needv('Forever','borrow_1','chorus') }}.
+- **Try it [J]:**
+  - As an independent artist, budget for clearance or build an *original* recognition device that works the same way.
+  - Options: a motif you or your producer replay; a vocal chop of your own title phrase; or a regional sonic signature that's yours.
+  - Put it in the intro and bring it back with every hook.
+- **Exception:** "Pushin P" has no borrowing documented (unknown, not "no"){{ noborrow('Pushin P') }}, and its hook is a title chant that first arrives as a block at {{ hook('Pushin P') }}. A slogan people repeat can do a sample's job. [J]
+- **Flags:**
+  - Drake-credited songs: **{{ fs('drake_credit','borrow_documented') }}**; the rest: **{{ fs('no_drake','borrow_documented') }}**.
+  - Whether listeners already knew the borrowed record ("recognition") was not measured.
+  - Credit status is known only where a page states it; a credit "not stated" in table 4c is not a claim that the use was uncleared.

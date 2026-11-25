@@ -7,8 +7,21 @@
   "artist": "Dominic Fike",
   "prior": "close",
   "status": "not_rap",
-  "basis": "other_press: Hot 100: Stereogum says 'Babydoll' 'rises to a new peak of #10' and calls it Fike's first top 10. Ratings Game Music (2026-10-19) says he earned his first Hot 1",
-  "n_ev": 1
+  "basis": "wikipedia_chart_table: The song's Wikipedia chart table lists Hot Rock & Alternative Songs (peak No. 2) and no rap or R&B/hip-hop chart (table read directly); search summaries of Billboard's weekly Hot Rock & Alternative Songs pages agree. [targeted re-check]",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Rock & Alt"
+  ]
  },
  {
   "cid": 2,
@@ -19,7 +32,24 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Two Billboard pieces, 'Chart Highlights for Oct. 17, 2026' and the chart-beat story 'Drake Breaks Record for Most No. 1 Albums on R&B/Hip-Hop Chart' (also on Ya",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Don_Toliver_discography"
+  ],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 3,
@@ -29,8 +59,19 @@
   "artist": "ADELA",
   "prior": "close",
   "status": "not_rap",
-  "basis": "other_press: InMusicBlog covers the same Hot 100 week as Solar Eclipse's No. 5 debut and Taylor Swift's 'Patient Zero' second week at No. 1, which is the 2026-10-17 chart. I",
-  "n_ev": 1
+  "basis": "billboard_article: Indirect: a Billboard Chart Beat headline calls it one of the year's fastest-rising pop hits (headline seen in search results; the article was not opened). Seven searches found no text placing it on Hot Rap Songs, Rap Streaming Songs, Rap Airplay or Hot R&B/Hip-Hop Songs, and its Wikipedia chart table lists no genre chart. [targeted re-check]",
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 4,
@@ -41,7 +82,18 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "other_press: This is a country song. The Music Universe and American Songwriter report that 'Boston' reached No. 1 at country radio, the fastest debut single by a solo femal",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 5,
@@ -52,7 +104,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_article: Billboard's second-week story (billboard.com/lists/drake-janice-stfu-hot-100-number-one-second-week) says the song 'adds",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 6,
@@ -63,7 +128,24 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard's component charts classify it as rap. The 2026-05-30 Rap Streaming Songs page lists it as a new entry with a ",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Future_singles_discography"
+  ],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 7,
@@ -74,7 +156,20 @@
   "prior": "close",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart, a component chart that lists only rap-classified songs, has it debuting at No. 3 ",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 8,
@@ -85,7 +180,24 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: I did not see the Hot Rap Songs page itself, so this is inferred from Billboard's component charts. Billboard's Rap Stre",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Quavo_discography"
+  ],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 9,
@@ -96,7 +208,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs (a rap-only component chart) dated 2026-05-30 lists 'National Treasures' as a new entry at",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 10,
@@ -107,7 +232,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2026-06-06 shows 'Make Them Cry' at No. 13: last week 6, peak 6, 2 weeks on chart. S",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 11,
@@ -118,7 +256,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2026-06-13 lists 'Dust' with debut chart date 05/30/26, debut position 12 and peak 7",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 12,
@@ -129,7 +280,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard's Rap Airplay chart dated 2026-05-30 shows it as a new entry at No. 16 (URL billboard.com/charts/hot-rap-track",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 13,
@@ -140,7 +304,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2026-05-30 lists 'Make Them Pay' as a new entry at No. 9. It is No. 8 on 2026-06-06.",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 14,
@@ -151,7 +328,20 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "other_press: RTTNews (June 2026) reports it topped Billboard's Hot Dance/Pop Songs for 16 weeks; no sign of Hot Rap Songs (search-result summary). [targeted re-check]",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Dance/Pop"
+  ]
  },
  {
   "cid": 15,
@@ -162,7 +352,32 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's Hot R&B Songs page dated 2025-11-29 lists 'Folded' at No. 2, with a peak of No. 1 and 23 weeks on the chart. It had been on Hot R&B Songs continuous",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2025,
+    23
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    98
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 16,
@@ -173,7 +388,28 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's Hot R&B Songs page dated 2025-11-01, its first Hot 100 top-10 week, shows 'Mutt' at No. 1 in its 56th week. The 2025-11-08 page shows it at No. 2 (l",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2025,
+    6
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    22
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 17,
@@ -183,8 +419,31 @@
   "artist": "Drake",
   "prior": "rap",
   "status": "rap",
-  "basis": "wikipedia_chart_table: Wikipedia's 'Billboard Year-End Hot Rap Songs of 2025' table lists 'What Did I Miss?' (Drake) at No. 15. The search summ",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #15",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "wikipedia_chart_table: Wikipedia's 'Billboard Year-End Hot Rap Songs of 2025' table lists 'What Did I Miss?' (Drake) at No. 15. The search summ",
+  "ye_rap": [
+   [
+    2025,
+    15
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    28
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 18,
@@ -194,8 +453,35 @@
   "artist": "Cardi B",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: The search summary of Billboard's weekly 2025 Hot Rap Songs pages says Cardi B's 'Outside' peaked at No. 2 on Hot Rap So",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #17",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: The search summary of Billboard's weekly 2025 Hot Rap Songs pages says Cardi B's 'Outside' peaked at No. 2 on Hot Rap So",
+  "ye_rap": [
+   [
+    2025,
+    17
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    31
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Cardi_B_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 19,
@@ -206,7 +492,30 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #6",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    6
+   ]
+  ],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2025,
+    33
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Country"
+  ]
  },
  {
   "cid": 20,
@@ -216,8 +525,35 @@
   "artist": "Playboi Carti",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2025-03-29, a rap-only Hot Rap Songs component, lists 'Evil J0rdan' at No. 1",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #27",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2025-03-29, a rap-only Hot Rap Songs component, lists 'Evil J0rdan' at No. 1",
+  "ye_rap": [
+   [
+    2025,
+    27
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    44
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Playboi_Carti_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 21,
@@ -228,7 +564,39 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #11",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    11
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    18
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    91
+   ]
+  ],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Playboi_Carti_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 22,
@@ -238,8 +606,33 @@
   "artist": "Doechii",
   "prior": "rap",
   "status": "not_rap",
-  "basis": "wikipedia_chart_table: Inferred: absent from the 2025 year-end Hot Rap Songs list, which ranks Doechii's smaller 'Denial Is a River' at No. 10, while 'Anxiety' was No. 39 on the 2025 year-end Hot 100. A targeted re-check (4 searches) found no direct Hot R&B Songs or Hot Rap Songs row; chart-history rows on unnamed charts conflict and may mix in the 2023 Sleepy Hallow track 'A N X I E T Y'. [targeted re-check]",
-  "n_ev": 3
+  "basis": "wikipedia_chart_table: Year-end deduction from lists read directly: 'Anxiety' is No. 13 on the 2025 year-end Hot R&B/Hip-Hop Songs list and No. 39 on the 2025 year-end Hot 100, but is not among the 50 titles on the 2025 year-end Hot Rap Songs list, where a rap title of that size would rank near the top ten. Doechii's discography table has no rap column. No weekly Hot R&B Songs or Hot Rap Songs row was read. [targeted re-check]",
+  "n_ev": 3,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2025,
+    13
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    39
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 23,
@@ -249,8 +642,31 @@
   "artist": "Drake",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard reports 'Gimme a Hug' debuted at No. 6 and 'Nokia' at No. 10 on the Hot 100 dated 2025-03-01, with 24.5M and 2",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #22",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard reports 'Gimme a Hug' debuted at No. 6 and 'Nokia' at No. 10 on the Hot 100 dated 2025-03-01, with 24.5M and 2",
+  "ye_rap": [
+   [
+    2025,
+    22
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    30
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 24,
@@ -261,7 +677,35 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #5",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    5
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    8
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    24
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 25,
@@ -272,7 +716,34 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Billboard reports, relayed by The Source and Hot 105, that '30 for 30' (from SOS Deluxe: Lana) debuted at No. 1 on Hot R&B Songs, SZA's seventh No. 1 there. It ",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2025,
+    4
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    21
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 26,
@@ -282,8 +753,35 @@
   "artist": "Travis Scott",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: Billboard's coverage of the 4X4 debut says the song launched at No. 1 on both Hot R&B/Hip-Hop Songs and Hot Rap Songs in",
-  "n_ev": 4
+  "basis": "Year-End Hot Rap Songs 2025 #30",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Billboard's coverage of the 4X4 debut says the song launched at No. 1 on both Hot R&B/Hip-Hop Songs and Hot Rap Songs in",
+  "ye_rap": [
+   [
+    2025,
+    30
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    53
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 27,
@@ -294,7 +792,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #4",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    4
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    7
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    20
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 28,
@@ -305,7 +835,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #2",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    2
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    2
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    15
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 29,
@@ -316,7 +878,39 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #1",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    1
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    1
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    2
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 30,
@@ -326,8 +920,35 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "wikipedia_chart_table: Listed at No. 24 on Wikipedia's Billboard Year-End Hot Rap Songs of 2025. Same-week status is inferred from that classif",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #24",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "wikipedia_chart_table: Listed at No. 24 on Wikipedia's Billboard Year-End Hot Rap Songs of 2025. Same-week status is inferred from that classif",
+  "ye_rap": [
+   [
+    2025,
+    24
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    35
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 4,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 31,
@@ -338,7 +959,34 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #14",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    14
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    24
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 32,
@@ -348,8 +996,35 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Inferred; I found no direct listing. On the 2024-12-07 Hot Rap Songs page, 'Man At The Garden' (Hot 100 No. 9) is a new ",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #32",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Inferred; I found no direct listing. On the 2024-12-07 Hot Rap Songs page, 'Man At The Garden' (Hot 100 No. 9) is a new ",
+  "ye_rap": [
+   [
+    2025,
+    32
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    61
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 6,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 33,
@@ -359,8 +1034,35 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: The Billboard Hot Rap Songs page dated 2024-12-07 lists 'Man At The Garden' as a new entry with peak No. 7 and 1 week on",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2025 #39",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: The Billboard Hot Rap Songs page dated 2024-12-07 lists 'Man At The Garden' as a new entry with peak No. 7 and 1 week on",
+  "ye_rap": [
+   [
+    2025,
+    39
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    67
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 7,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   7
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 34,
@@ -371,7 +1073,40 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2025 #7",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2025,
+    7
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    9
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    41
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "GloRilla_discography",
+   "Lil_Wayne_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 35,
@@ -381,8 +1116,35 @@
   "artist": "Tyler, The Creator Featuring Daniel Caesar",
   "prior": "close",
   "status": "rap",
-  "basis": "wikipedia_chart_table: A search summary of a Wikipedia 2024 number-ones table lists 'St. Chroma' (Tyler, the Creator featuring Daniel Caesar) a",
-  "n_ev": 2
+  "basis": "Year-End Hot Rap Songs 2025 #25",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "wikipedia_chart_table: A search summary of a Wikipedia 2024 number-ones table lists 'St. Chroma' (Tyler, the Creator featuring Daniel Caesar) a",
+  "ye_rap": [
+   [
+    2025,
+    25
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    32
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Tyler%2C_the_Creator_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 36,
@@ -392,8 +1154,31 @@
   "artist": "Tyler, The Creator",
   "prior": "rap",
   "status": "rap",
-  "basis": "other_press: A Billboard syndication says 'Noid' began at No. 6 on Hot Rap Songs and No. 43 on the Hot 100 (search-result summary). [targeted re-check]",
-  "n_ev": 4
+  "basis": "Year-End Hot Rap Songs 2025 #44",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "other_press: A Billboard syndication says 'Noid' began at No. 6 on Hot Rap Songs and No. 43 on the Hot 100 (search-result summary). [targeted re-check]",
+  "ye_rap": [
+   [
+    2025,
+    44
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2025,
+    76
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 37,
@@ -404,7 +1189,38 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "other_press: Hypebeast and Rated R&B, reporting Billboard, say 'Timeless' debuted at No. 1 on Hot R&B Songs (and on Hot R&B/Hip-Hop Songs and Streaming Songs) on the chart d",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    93
+   ],
+   [
+    2025,
+    3
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2025,
+    16
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Playboi_Carti_discography"
+  ],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 38,
@@ -415,7 +1231,35 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #9",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    9
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    13
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    39
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 39,
@@ -425,8 +1269,52 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2025 #3",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2024 #1",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2025 #3",
+  "ye_rap": [
+   [
+    2024,
+    1
+   ],
+   [
+    2025,
+    3
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    1
+   ],
+   [
+    2025,
+    5
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    6
+   ],
+   [
+    2025,
+    17
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 40,
@@ -437,7 +1325,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #18",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    18
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    22
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    66
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 41,
@@ -447,8 +1367,31 @@
   "artist": "Drake",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: Billboard says the top six songs on Hot Rap Songs dated 2024-05-18 all came from the Drake-Kendrick feud, with Not Like ",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2024 #45",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Billboard says the top six songs on Hot Rap Songs dated 2024-05-18 all came from the Drake-Kendrick feud, with Not Like ",
+  "ye_rap": [
+   [
+    2024,
+    45
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    57
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 42,
@@ -459,7 +1402,34 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: The Billboard Hot R&B Songs page dated 2024-08-24 shows 'Million Dollar Baby' at No. 1 (last week 1, peak 1, 16 weeks). Counting back 16 weeks gives a first wee",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    3
+   ],
+   [
+    2025,
+    51
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    8
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 43,
@@ -470,7 +1440,29 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "wikipedia_chart_table: Inferred absence. The top three on the 2024 year-end Hot Rap Songs list (Wikipedia) are Not Like Us, Lovin On Me and Like That. 'A Bar Song' was a bigger Hot 10",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2024,
+    2
+   ],
+   [
+    2025,
+    3
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Country"
+  ]
  },
  {
   "cid": 44,
@@ -480,8 +1472,25 @@
   "artist": "J. Cole",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2024-04-20 lists it as a new entry (peak 2, 1 week) (search-result summary). [targeted re-check]",
-  "n_ev": 4
+  "basis": "Hot Rap Songs peak No. 2 (Wikipedia table: J. Cole discography)",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2024-04-20 lists it as a new entry (peak 2, 1 week) (search-result summary). [targeted re-check]",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "J._Cole_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 45,
@@ -492,7 +1501,41 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #3",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    3
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    4
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    14
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Kendrick_Lamar_singles_discography",
+   "Metro_Boomin_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 46,
@@ -503,7 +1546,42 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #12",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    12
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    15
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    51
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Metro_Boomin_discography",
+   "Playboi_Carti_discography",
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 47,
@@ -512,9 +1590,38 @@
   "title": "Cinderella",
   "artist": "Future, Metro Boomin & Travis Scott",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "wikipedia_chart_table: Searched: only a Hot R&B/Hip-Hop Songs peak (No. 3) was found, which does not separate rap from R&B; album-mate 'Like That' was No. 1 on Hot Rap Songs. [targeted re-check]",
-  "n_ev": 4
+  "status": "rap",
+  "basis": "Year-End Hot Rap Songs 2024 #41",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "weak: model_knowledge_only unverified Debuted at No. 6 on the Hot 100 dated April 6, 2024 (AceShowbiz and the Hot 100 fan wiki for that week). Wikipedia's cha",
+  "ye_rap": [
+   [
+    2024,
+    41
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    41
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Metro_Boomin_discography",
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 48,
@@ -523,9 +1630,32 @@
   "title": "We Don't Trust You",
   "artist": "Future & Metro Boomin",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "wikipedia_chart_table: Searched: Hot R&B/Hip-Hop Songs peak No. 5 and No. 79 on that chart's 2024 year-end list; no rap-chart row seen. [targeted re-check]",
-  "n_ev": 4
+  "status": "rap",
+  "basis": "Hot Rap Songs peak No. 5 (Wikipedia table: Future singles discography)",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "weak: model_knowledge_only unverified Debuted at No. 8 on the Hot 100 dated April 6, 2024 (AceShowbiz and the fan wiki). Billboard's 'Like That' article says ",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    79
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Metro_Boomin_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 49,
@@ -535,8 +1665,31 @@
   "artist": "Future, Metro Boomin & The Weeknd",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Two separate lines of evidence point to rap. (1) Billboard's 'rap' chart-history page for Future lists the We Don't Trus",
-  "n_ev": 2
+  "basis": "Hot Rap Songs peak No. 6 (Wikipedia table: Future singles discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Two separate lines of evidence point to rap. (1) Billboard's 'rap' chart-history page for Future lists the We Don't Trus",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    74
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 6,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Metro_Boomin_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 50,
@@ -546,8 +1699,35 @@
   "artist": "Cardi B",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: The Billboard Hot Rap Songs page dated 2024-03-30 lists 'Enough (Miami)' by Cardi B as a new entry at No. 3 (peak 3, 1 w",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2024 #35",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: The Billboard Hot Rap Songs page dated 2024-03-30 lists 'Enough (Miami)' by Cardi B as a new entry at No. 3 (peak 3, 1 w",
+  "ye_rap": [
+   [
+    2024,
+    35
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    46
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Cardi_B_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 51,
@@ -558,7 +1738,30 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: The Billboard Hot R&B Songs page dated 2024-06-22 lists 'Act II: Date @ 8' (4Batz featuring Drake) with peak No. 1 and 25 weeks on the chart. That means it was ",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    23
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    80
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 52,
@@ -568,8 +1771,29 @@
   "artist": "\u00a5$: Kanye West & Ty Dolla $ign Featuring Rich The Kid & Playboi Carti",
   "prior": "rap",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2024 #8",
-  "n_ev": 1
+  "basis": "Hot Rap Songs peak No. 1 (Wikipedia table: Kanye West singles discography)",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2024 #8",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kanye_West_singles_discography",
+   "Playboi_Carti_discography",
+   "Ty_Dolla_Sign_discography"
+  ],
+  "discog_rap_dash_pages": [
+   "Rich_the_Kid_discography"
+  ],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 53,
@@ -579,8 +1803,33 @@
   "artist": "Megan Thee Stallion",
   "prior": "rap",
   "status": "rap",
-  "basis": "other_press: Press reports of Billboard's chart (NBC News, Hypebeast, Stereogum, The Fader, Complex) and the Wikipedia song article s",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2024 #49",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "other_press: Press reports of Billboard's chart (NBC News, Hypebeast, Stereogum, The Fader, Complex) and the Wikipedia song article s",
+  "ye_rap": [
+   [
+    2024,
+    49
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    62
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 54,
@@ -591,7 +1840,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #7",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    7
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    11
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    42
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 55,
@@ -600,9 +1881,38 @@
   "title": "Nee-nah",
   "artist": "21 Savage, Travis Scott & Metro Boomin",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "wikipedia_chart_table: Searched: Hot R&B/Hip-Hop Songs peak No. 5 and Rhythmic No. 9; album-mate 'Redrum' was on Rap Streaming Songs (2024-02-17). [targeted re-check]",
-  "n_ev": 5
+  "status": "rap",
+  "basis": "Year-End Hot Rap Songs 2024 #48",
+  "n_ev": 5,
+  "tier": "table",
+  "earlier_basis": "weak: model_knowledge_only unverified Billboard text says Travis Scott notched three Hot 100 top 10s as a featured act in 2024, including 21 Savage's 'Nee-Nah",
+  "ye_rap": [
+   [
+    2024,
+    48
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    65
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 4,
+  "discog_rap_pages": [
+   "21_Savage_discography",
+   "Metro_Boomin_discography",
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 56,
@@ -613,7 +1923,37 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #4",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    4
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    7
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    17
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 57,
@@ -624,7 +1964,31 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Billboard classifies 'Water' as R&B, not rap. Billboard Chart Beat reports it reaching the Hot R&B/Hip-Hop Songs top 10 on the chart dated 2023-11-04 (12-8), an",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2024,
+    9
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    24
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Afrobeats",
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 58,
@@ -635,7 +1999,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #2",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    2
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    2
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    5
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Jack_Harlow_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 59,
@@ -646,7 +2042,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #16",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    16
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    19
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    61
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "J._Cole_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 60,
@@ -657,7 +2085,37 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #21",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2024,
+    21
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    27
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    83
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 61,
@@ -667,8 +2125,31 @@
   "artist": "Drake",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Virginia Beach' as new at No. 3. It is No. 4 on 2023-10-28, with d",
-  "n_ev": 3
+  "basis": "Year-End Hot Rap Songs 2024 #42",
+  "n_ev": 3,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Virginia Beach' as new at No. 3. It is No. 4 on 2023-10-28, with d",
+  "ye_rap": [
+   [
+    2024,
+    42
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2024,
+    50
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 62,
@@ -678,8 +2159,25 @@
   "artist": "Drake Featuring 21 Savage",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Calling For You' (Drake feat. 21 Savage) as a new entry at No. 4, ",
-  "n_ev": 2
+  "basis": "Hot Rap Songs peak No. 5 (Wikipedia table: 21 Savage discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Calling For You' (Drake feat. 21 Savage) as a new entry at No. 4, ",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 63,
@@ -690,7 +2188,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Daylight' as new at No. 5. It is No. 9 on 2023-10-28. Being on a r",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 64,
@@ -701,7 +2212,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2023-10-21 lists 'Fear Of Heights' as new at No. 6. It is No. 14 on 2023-10-28, last",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 65,
@@ -710,9 +2234,24 @@
   "title": "3D",
   "artist": "Jung Kook & Jack Harlow",
   "prior": "close",
-  "status": "unverified",
-  "basis": "other_press: Searched: Hot 100 No. 5, Global 200 No. 1 and Digital Song Sales No. 1 found, but no genre-chart placement. A summary that put it on Hot Rap Songs was about 'Paint The Town Red' and was discarded. [targeted re-check]",
-  "n_ev": 4
+  "status": "not_rap",
+  "basis": "wikipedia_chart_table: Jack Harlow's discography table gives '3D' a Hot 100 peak of 5 and a dash in both the Hot R&B/Hip-Hop Songs and Hot Rap Songs columns (table read directly). A dash alone can be an editor's omission, so this is indirect; no rap-chart listing was found by eight searches either. [targeted re-check]",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Jack_Harlow_discography"
+  ],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Jack_Harlow_discography"
+  ],
+  "wiki_genre_charts": []
  },
  {
   "cid": 66,
@@ -723,7 +2262,29 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Billboard's debut article, reproduced in a forum post, and Music Times both report that 'Slime You Out' debuted at No. 1 on the Hot 100 (chart dated 2023-09-30)",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2023,
+    62
+   ],
+   [
+    2024,
+    58
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 67,
@@ -734,7 +2295,49 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2024 #5",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    11
+   ],
+   [
+    2024,
+    5
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    20
+   ],
+   [
+    2024,
+    8
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    52
+   ],
+   [
+    2024,
+    21
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 68,
@@ -745,7 +2348,43 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #17",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    17
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    32
+   ],
+   [
+    2024,
+    85
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    97
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 69,
@@ -754,9 +2393,50 @@
   "title": "FE!N",
   "artist": "Travis Scott Featuring Playboi Carti",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "billboard_chart_page: Searched: Rap Streaming Songs pages from Aug-Sep 2023 show other Utopia songs, but FE!N itself never appeared in a result. [targeted re-check]",
-  "n_ev": 4
+  "status": "rap",
+  "basis": "Year-End Hot Rap Songs 2024 #32",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "weak: model_knowledge_only unverified Billboard's Utopia and Artist 100 chart-beat coverage for the week of Aug. 12, 2023 reports 'Meltdown' at No. 3 and 'Fe!",
+  "ye_rap": [
+   [
+    2023,
+    41
+   ],
+   [
+    2024,
+    32
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    54
+   ],
+   [
+    2024,
+    33
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2024,
+    97
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Playboi_Carti_discography",
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 70,
@@ -766,8 +2446,35 @@
   "artist": "Travis Scott, Bad Bunny & The Weeknd",
   "prior": "close",
   "status": "rap",
-  "basis": "other_press: A Billboard-style chart report syndicated on a radio-station site says 'K-Pop' debuted at No. 7 on the Hot 100 and No. 2",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2023 #35",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "other_press: A Billboard-style chart report syndicated on a radio-station site says 'K-Pop' debuted at No. 7 on the Hot 100 and No. 2",
+  "ye_rap": [
+   [
+    2023,
+    35
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    58
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 71,
@@ -778,7 +2485,27 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: It is absent from Billboard's 2023 year-end Hot Rap Songs, Hot R&B/Hip-Hop Songs and Hot R&B Songs pages. On the same pages Latto's 'Put It On Da Floor Again' s",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2023,
+    82
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Latto_discography"
+  ],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Latto_discography"
+  ],
+  "wiki_genre_charts": []
  },
  {
   "cid": 72,
@@ -788,8 +2515,52 @@
   "artist": "Gunna",
   "prior": "rap",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2024 #23",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2023 #4",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2024 #23",
+  "ye_rap": [
+   [
+    2023,
+    4
+   ],
+   [
+    2024,
+    23
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    10
+   ],
+   [
+    2024,
+    31
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    31
+   ],
+   [
+    2024,
+    85
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Gunna_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 73,
@@ -800,7 +2571,48 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #9",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    9
+   ],
+   [
+    2024,
+    46
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    18
+   ],
+   [
+    2024,
+    68
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    46
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Nicki_Minaj_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2,
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 74,
@@ -811,7 +2623,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #3",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    3
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    8
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    25
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "J._Cole_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 75,
@@ -822,7 +2666,33 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #2",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    2
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    6
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    21
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 76,
@@ -833,7 +2703,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #13",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    13
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    23
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    69
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Nicki_Minaj_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 77,
@@ -844,7 +2746,35 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #8",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    8
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    15
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    45
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 78,
@@ -855,7 +2785,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #5",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    5
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    11
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    33
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Coi_Leray_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 79,
@@ -866,7 +2828,25 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: No. 1 on Billboard's U.S. Afrobeats Songs for a record 58 weeks (Wikipedia; Rema's Afrobeats chart history); no sign of Hot Rap Songs (search-result summaries). [targeted re-check]",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2023,
+    6
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Afrobeats"
+  ]
  },
  {
   "cid": 80,
@@ -877,7 +2857,23 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's 2023 year-end Hot Rap Songs lists Ice Spice's 'Princess Diana' (No. 13), 'In Ha Mood' (No. 32) and 'Deli' (No. 45), but not 'Boy's A Liar, Pt. 2'. I",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2023,
+    20
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 81,
@@ -888,7 +2884,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #6",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    6
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    13
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    28
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Lil_Uzi_Vert_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 82,
@@ -899,7 +2927,35 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Billboard chart-beat coverage of the 12/17/22 charts says 'Creepin'' premiered at No. 1 on Hot R&B/Hip-Hop Songs and on Hot R&B Songs. Hot R&B Songs and Hot Rap",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2023,
+    2
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    5
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "21_Savage_discography",
+   "Metro_Boomin_discography"
+  ],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 83,
@@ -910,7 +2966,40 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #7",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    7
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    14
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    38
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Metro_Boomin_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 84,
@@ -921,7 +3010,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #1",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    1
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    5
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    14
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 85,
@@ -932,7 +3053,34 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #27",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    27
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    43
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 86,
@@ -943,7 +3091,34 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #23",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    23
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    34
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 87,
@@ -954,7 +3129,39 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #10",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    10
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    19
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    43
+   ]
+  ],
+  "discog_rap_peak": 4,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 88,
@@ -965,7 +3172,35 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #25",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    25
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    41
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "21_Savage_discography",
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 89,
@@ -975,8 +3210,33 @@
   "artist": "Drake & 21 Savage",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 6; No. 7 on 2022-11-26 (search-result summaries). [targeted re-check]",
-  "n_ev": 4
+  "basis": "Year-End Hot Rap Songs 2023 #43",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 6; No. 7 on 2022-11-26 (search-result summaries). [targeted re-check]",
+  "ye_rap": [
+   [
+    2023,
+    43
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    75
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 6,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 90,
@@ -987,7 +3247,34 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #22",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2023,
+    22
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    37
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 7,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   7
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 91,
@@ -997,8 +3284,31 @@
   "artist": "Drake",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 7 (search-result summary, which called the page text jumbled). [targeted re-check]",
-  "n_ev": 4
+  "basis": "Year-End Hot Rap Songs 2023 #46",
+  "n_ev": 4,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Rap Streaming Songs dated 2022-11-19: new entry at No. 7 (search-result summary, which called the page text jumbled). [targeted re-check]",
+  "ye_rap": [
+   [
+    2023,
+    46
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    79
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 92,
@@ -1008,8 +3318,35 @@
   "artist": "Lil Baby",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: A Billboard article about Murda Beatz topping the Rap Producers chart says 'California Breeze' entered Hot Rap Songs at ",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2023 #42",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_article: A Billboard article about Murda Beatz topping the Rap Producers chart says 'California Breeze' entered Hot Rap Songs at ",
+  "ye_rap": [
+   [
+    2023,
+    42
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    61
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Lil_Baby_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 93,
@@ -1019,8 +3356,39 @@
   "artist": "Lil Baby Featuring Fridayy",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's 2023 year-end Hot Rap Songs ranks 'Forever' (Lil Baby featuring Fridayy) at No. 37. It is No. 55 on the 2023",
-  "n_ev": 2
+  "basis": "Year-End Hot Rap Songs 2023 #37",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's 2023 year-end Hot Rap Songs ranks 'Forever' (Lil Baby featuring Fridayy) at No. 37. It is No. 55 on the 2023",
+  "ye_rap": [
+   [
+    2023,
+    37
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2023,
+    55
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Drake_singles_discography",
+   "Kanye_West_singles_discography",
+   "Lil_Baby_discography",
+   "Lil_Wayne_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2,
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 94,
@@ -1030,8 +3398,25 @@
   "artist": "Lil Baby",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: Billboard reports 'Real Spill' debuted at No. 3 on Hot Rap Songs on the chart dated 10/29/22. Its No. 10 Hot 100 debut i",
-  "n_ev": 1
+  "basis": "Hot Rap Songs peak No. 4 (Wikipedia table: Lil Baby discography)",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Billboard reports 'Real Spill' debuted at No. 3 on Hot Rap Songs on the chart dated 10/29/22. Its No. 10 Hot 100 debut i",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 4,
+  "discog_rap_pages": [
+   "Lil_Baby_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 95,
@@ -1041,8 +3426,37 @@
   "artist": "Doja Cat",
   "prior": "close",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2023 #15",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2022 #7",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2023 #15",
+  "ye_rap": [
+   [
+    2022,
+    7
+   ],
+   [
+    2023,
+    15
+   ]
+  ],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2022,
+    47
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Doja_Cat_discography"
+  ],
+  "wiki_genre_charts": [
+   "Rap"
+  ]
  },
  {
   "cid": 96,
@@ -1053,7 +3467,47 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2023 #12",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    38
+   ],
+   [
+    2023,
+    12
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    66
+   ],
+   [
+    2023,
+    21
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2023,
+    70
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Cardi_B_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 97,
@@ -1063,8 +3517,52 @@
   "artist": "Nicki Minaj",
   "prior": "rap",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2023 #14",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2022 #11",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2023 #14",
+  "ye_rap": [
+   [
+    2022,
+    11
+   ],
+   [
+    2023,
+    14
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    15
+   ],
+   [
+    2023,
+    26
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    56
+   ],
+   [
+    2023,
+    79
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Nicki_Minaj_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 98,
@@ -1074,8 +3572,33 @@
   "artist": "DJ Khaled Featuring Drake & Lil Baby",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: A Billboard Pro article on the chart dated Aug. 20, 2022 says 'Staying Alive' debuted at No. 5 on the Hot 100, No. 3 on ",
-  "n_ev": 2
+  "basis": "Year-End Hot Rap Songs 2022 #24",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_article: A Billboard Pro article on the chart dated Aug. 20, 2022 says 'Staying Alive' debuted at No. 5 on the Hot 100, No. 3 on ",
+  "ye_rap": [
+   [
+    2022,
+    24
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    33
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 99,
@@ -1084,9 +3607,22 @@
   "title": "Bad Decisions",
   "artist": "benny blanco, BTS & Snoop Dogg",
   "prior": "close",
-  "status": "unverified",
-  "basis": "wikipedia_chart_table: Searched: Wikipedia's chart table lists only Hot 100 (No. 10) and Pop Airplay (No. 26) for 2022; no genre-chart rows. [targeted re-check]",
-  "n_ev": 2
+  "status": "not_rap",
+  "basis": "wikipedia_chart_table: Snoop Dogg's singles discography gives 'Bad Decisions' a Hot 100 peak of 10 and a dash in the Hot R&B/Hip-Hop Songs column (table read directly). Search summaries of Billboard's Hot Rap Songs chart dated 2022-08-20 show a top five without it, though every title in that top five ranked below it on the Hot 100 that week. [targeted re-check]",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Snoop_Dogg_singles_discography"
+  ],
+  "wiki_genre_charts": []
  },
  {
   "cid": 100,
@@ -1097,7 +3633,39 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: A search summary of the Billboard Hot R&B Songs page dated 11/19/22 lists 'Bad Habit'. The position it gave looked garbled, but being listed there makes it R&B,",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2022,
+    7
+   ],
+   [
+    2023,
+    17
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    28
+   ],
+   [
+    2023,
+    39
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop",
+   "Rock & Alt"
+  ]
  },
  {
   "cid": 101,
@@ -1108,7 +3676,47 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #6",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    6
+   ],
+   [
+    2023,
+    47
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    8
+   ],
+   [
+    2023,
+    84
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    33
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 102,
@@ -1119,7 +3727,30 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #19",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    19
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    26
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 103,
@@ -1130,7 +3761,21 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: The Billboard R&B Streaming Songs page dated 7/2/22 shows 'Falling Back' as a new entry at No. 1 (peak 1, 1 week). That chart is R&B-only, so it cannot have bee",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Dance/Electronic",
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 104,
@@ -1141,7 +3786,29 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's 2022 year-end Hot Rap Songs (top 49 visible), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs (through No. 49) do not list it. Its whole ru",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2022,
+    26
+   ],
+   [
+    2023,
+    75
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Doja_Cat_discography"
+  ],
+  "wiki_genre_charts": []
  },
  {
   "cid": 105,
@@ -1151,8 +3818,35 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Hot 100 #3 debut on the chart dated 2022-05-28 is confirmed by outlets citing Billboard. It also debuted at No. 1 on Bil",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2022 #41",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Hot 100 #3 debut on the chart dated 2022-05-28 is confirmed by outlets citing Billboard. It also debuted at No. 1 on Bil",
+  "ye_rap": [
+   [
+    2022,
+    41
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    55
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 106,
@@ -1163,7 +3857,29 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's Hot R&B Songs chart dated 2022-05-28 has 'Die Hard' (Kendrick Lamar, Blxst & Amanda Reifer) debuting at No. 1. It was Lamar's first Hot R&B Songs le",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2022,
+    48
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rbhh": [
+   4
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 107,
@@ -1173,8 +3889,36 @@
   "artist": "Kendrick Lamar & Kodak Black",
   "prior": "rap",
   "status": "rap",
-  "basis": "wikipedia_chart_table: Wikipedia's 'Billboard Year-End Hot Rap Songs of 2022' lists 'Silent Hill' (Kendrick Lamar and Kodak Black) at No. 31, s",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2022 #31",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "wikipedia_chart_table: Wikipedia's 'Billboard Year-End Hot Rap Songs of 2022' lists 'Silent Hill' (Kendrick Lamar and Kodak Black) at No. 31, s",
+  "ye_rap": [
+   [
+    2022,
+    31
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    51
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 4,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography",
+   "Kodak_Black_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 108,
@@ -1184,8 +3928,23 @@
   "artist": "Kendrick Lamar",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2022-05-28 lists 'United In Grief' as a new entry at No. 4 (peak 4), and the",
-  "n_ev": 1
+  "basis": "Hot Rap Songs peak No. 5 (Wikipedia table: Kendrick Lamar singles discography)",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's Rap Streaming Songs chart dated 2022-05-28 lists 'United In Grief' as a new entry at No. 4 (peak 4), and the",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "Kendrick_Lamar_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 109,
@@ -1196,7 +3955,43 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #2",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    2
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    2
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    11
+   ],
+   [
+    2023,
+    83
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Future_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 110,
@@ -1207,7 +4002,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #16",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    16
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    19
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    84
+   ]
+  ],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Future_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 111,
@@ -1217,8 +4044,30 @@
   "artist": "Future",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard Rap Streaming Songs (a rap-only component chart) dated 2022-05-14 lists '712PM' as a new entry at No. 4, so Bi",
-  "n_ev": 2
+  "basis": "Hot Rap Songs peak No. 5 (Wikipedia table: Future singles discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard Rap Streaming Songs (a rap-only component chart) dated 2022-05-14 lists '712PM' as a new entry at No. 4, so Bi",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2022,
+    93
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 5,
+  "discog_rap_pages": [
+   "Future_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   5
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 112,
@@ -1228,8 +4077,23 @@
   "artist": "Future",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2022-05-14 lists it at No. 5 with 1 week on the chart and a peak of 5, which is a de",
-  "n_ev": 2
+  "basis": "Hot Rap Songs peak No. 6 (Wikipedia table: Future singles discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2022-05-14 lists it at No. 5 with 1 week on the chart and a peak of 5, which is a de",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 6,
+  "discog_rap_pages": [
+   "Future_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 113,
@@ -1240,7 +4104,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #1",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    1
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    1
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    6
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Jack_Harlow_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 114,
@@ -1251,7 +4147,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #3",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    3
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    3
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    7
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Latto_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 115,
@@ -1262,7 +4190,36 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard's chart pages put 'Woman' on Hot R&B Songs, the R&B half of Hot R&B/Hip-Hop Songs (Hot Rap Songs is the rap half). It was No. 10 on 2022-01-22 and No.",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2021,
+    69
+   ],
+   [
+    2022,
+    9
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    21
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 116,
@@ -1273,7 +4230,27 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_article: Billboard reported it topped Rock Streaming Songs (Jan. 15, 2022 chart); Hot Rock & Alternative Songs peak 2 (Wikipedia); no sign of Hot Rap Songs. [targeted re-check]",
-  "n_ev": 3
+  "n_ev": 3,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2022,
+    15
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "JID_discography"
+  ],
+  "wiki_genre_charts": [
+   "Rock & Alt"
+  ]
  },
  {
   "cid": 117,
@@ -1283,8 +4260,36 @@
   "artist": "Nicki Minaj X Lil Baby",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_article: Chart text that reads like Billboard's, surfaced by search, says the song debuted at No. 1 on Hot R&B/Hip-Hop Songs and ",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2022 #29",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Chart text that reads like Billboard's, surfaced by search, says the song debuted at No. 1 on Hot R&B/Hip-Hop Songs and ",
+  "ye_rap": [
+   [
+    2022,
+    29
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    30
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Lil_Baby_discography",
+   "Nicki_Minaj_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 118,
@@ -1295,7 +4300,40 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #9",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    9
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    13
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    48
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Gunna_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 119,
@@ -1306,7 +4344,39 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #4",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2022,
+    4
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2022,
+    5
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2022,
+    9
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kodak_Black_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 120,
@@ -1317,7 +4387,23 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: It is absent from Billboard's 2022 year-end Hot Rap Songs (top 49 visible), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs (through No. 49). It debute",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2022,
+    30
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 121,
@@ -1328,7 +4414,29 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: It is absent from Billboard's 2022 year-end Hot Rap Songs (top 49 visible), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs (through No. 49). Its top-1",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2021,
+    46
+   ],
+   [
+    2022,
+    18
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [
+   "Doja_Cat_discography"
+  ],
+  "wiki_genre_charts": []
  },
  {
   "cid": 122,
@@ -1339,7 +4447,41 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: Billboard R&B Streaming Songs dated 2021-10-30 lists 'Essence' (Wizkid feat. Tems) at No. 1 with 16 weeks on the chart. Wikipedia's Hot R&B Songs article (per t",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2021,
+    28
+   ],
+   [
+    2022,
+    35
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2021,
+    60
+   ],
+   [
+    2022,
+    64
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Afrobeats",
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 123,
@@ -1350,7 +4492,23 @@
   "prior": "close",
   "status": "not_rap",
   "basis": "billboard_chart_page: It is absent from Billboard's 2022 year-end Hot Rap Songs (top 49 visible), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs (through No. 49). Most of i",
-  "n_ev": 2
+  "n_ev": 2,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [
+   [
+    2022,
+    14
+   ]
+  ],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 124,
@@ -1361,7 +4519,48 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #13",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2021,
+    14
+   ],
+   [
+    2022,
+    13
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    19
+   ],
+   [
+    2022,
+    21
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2021,
+    48
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Future_singles_discography",
+   "Young_Thug_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 125,
@@ -1372,7 +4571,42 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #17",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2021,
+    27
+   ],
+   [
+    2022,
+    17
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    40
+   ],
+   [
+    2022,
+    24
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "Lil_Baby_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 126,
@@ -1382,8 +4616,39 @@
   "artist": "Drake Featuring Travis Scott",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Hot Rap Songs dated 2021-12-04: No. 13, peak No. 3 (search-result summary). [targeted re-check]",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2021 #32",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Hot Rap Songs dated 2021-12-04: No. 13, peak No. 3 (search-result summary). [targeted re-check]",
+  "ye_rap": [
+   [
+    2021,
+    32
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    47
+   ],
+   [
+    2022,
+    84
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Travis_Scott_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 127,
@@ -1393,8 +4658,31 @@
   "artist": "Drake",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_chart_page: Rap Streaming Songs dated 2021-09-18: new entry at No. 4; No. 15 (peak 4, 5 weeks) on 2021-10-16 (search-result summaries). [targeted re-check]",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2021 #47",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Rap Streaming Songs dated 2021-09-18: new entry at No. 4; No. 15 (peak 4, 5 weeks) on 2021-10-16 (search-result summaries). [targeted re-check]",
+  "ye_rap": [
+   [
+    2021,
+    47
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    68
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 128,
@@ -1405,7 +4693,53 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2022 #12",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "",
+  "ye_rap": [
+   [
+    2021,
+    26
+   ],
+   [
+    2022,
+    12
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    37
+   ],
+   [
+    2022,
+    17
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2021,
+    86
+   ],
+   [
+    2022,
+    60
+   ]
+  ],
+  "discog_rap_peak": 2,
+  "discog_rap_pages": [
+   "21_Savage_discography"
+  ],
+  "discog_rap_dash_pages": [
+   "Metro_Boomin_production_discography"
+  ],
+  "discog_rbhh": [
+   2
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 129,
@@ -1416,7 +4750,27 @@
   "prior": "close",
   "status": "rap",
   "basis": "billboard_chart_page: Hot Rap Songs dated 2021-10-23: re-entry, peak 6, 4 weeks; Rap Streaming Songs peak 6 on 2021-09-18 (search-result summaries). [targeted re-check]",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2021,
+    81
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   6
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 130,
@@ -1427,7 +4781,20 @@
   "prior": "rap",
   "status": "rap",
   "basis": "billboard_chart_page: Billboard Rap Streaming Songs dated 2021-09-18 lists 'Papi's Home' as a new entry at No. 7: a same-week rap classificati",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 131,
@@ -1438,7 +4805,25 @@
   "prior": "close",
   "status": "rap",
   "basis": "billboard_chart_page: Two separate searches show Billboard Rap Streaming Songs dated 2021-09-18 with 'TSU' debuting at No. 8. Wikipedia gives ",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2021,
+    91
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 132,
@@ -1448,8 +4833,30 @@
   "artist": "Drake Featuring JAY-Z",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's 'rap' chart-history page for JAY-Z lists 'Love All' (Drake featuring JAY-Z) with a 9/18/21 date. The layout ",
-  "n_ev": 2
+  "basis": "Hot Rap Songs peak No. 9 (Wikipedia table: Jay-Z singles discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's 'rap' chart-history page for JAY-Z lists 'Love All' (Drake featuring JAY-Z) with a 9/18/21 date. The layout ",
+  "ye_rap": [],
+  "ye_rbhh": [
+   [
+    2021,
+    92
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 9,
+  "discog_rap_pages": [
+   "Jay-Z_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   9
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 133,
@@ -1459,8 +4866,37 @@
   "artist": "Kanye West",
   "prior": "rap",
   "status": "rap",
-  "basis": "billboard_chart_page: Billboard's Hot Rap Songs page dated 2021-10-23 lists 'Hurricane' at No. 10, with a peak of No. 1 and 7 weeks on the cha",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2021 #38",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "billboard_chart_page: Billboard's Hot Rap Songs page dated 2021-10-23 lists 'Hurricane' at No. 10, with a peak of No. 1 and 7 weeks on the cha",
+  "ye_rap": [
+   [
+    2021,
+    38
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    55
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Kanye_West_singles_discography",
+   "Lil_Baby_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Christian",
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 134,
@@ -1469,9 +4905,28 @@
   "title": "Jail",
   "artist": "Kanye West",
   "prior": "rap",
-  "status": "unverified",
-  "basis": "billboard_article: Only a Hot R&B/Hip-Hop Songs placement (No. 3 on the chart dated 2021-09-11) was found; that does not separate rap from R&B. [targeted re-check]",
-  "n_ev": 2
+  "status": "rap",
+  "basis": "Hot Rap Songs peak No. 3 (Wikipedia table: Kanye West singles discography)",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Billboard's article on 'Hurricane' topping the R&B/Hip-Hop chart for Sept. 11, 2021 lists 'Jail' at No. 3 on Hot R&B/Hip",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": 3,
+  "discog_rap_pages": [
+   "Jay-Z_singles_discography",
+   "Kanye_West_singles_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   3
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "Christian",
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 135,
@@ -1481,8 +4936,33 @@
   "artist": "Lizzo Featuring Cardi B",
   "prior": "close",
   "status": "rap",
-  "basis": "billboard_article: Billboard's chart-beat article 'No Rumors: Lizzo & Cardi B Debut at No. 1 on Hot R&B/Hip-Hop Songs Chart' says the song ",
-  "n_ev": 2
+  "basis": "Year-End Hot Rap Songs 2021 #48",
+  "n_ev": 2,
+  "tier": "table",
+  "earlier_basis": "billboard_article: Billboard's chart-beat article 'No Rumors: Lizzo & Cardi B Debut at No. 1 on Hot R&B/Hip-Hop Songs Chart' says the song ",
+  "ye_rap": [
+   [
+    2021,
+    48
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    72
+   ]
+  ],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 136,
@@ -1492,8 +4972,52 @@
   "artist": "Lil Nas X & Jack Harlow",
   "prior": "close",
   "status": "rap",
-  "basis": "Year-End Hot Rap Songs 2022 #5",
-  "n_ev": 1
+  "basis": "Year-End Hot Rap Songs 2021 #4",
+  "n_ev": 1,
+  "tier": "table",
+  "earlier_basis": "Year-End Hot Rap Songs 2022 #5",
+  "ye_rap": [
+   [
+    2021,
+    4
+   ],
+   [
+    2022,
+    5
+   ]
+  ],
+  "ye_rbhh": [
+   [
+    2021,
+    6
+   ],
+   [
+    2022,
+    6
+   ]
+  ],
+  "ye_hot100": [
+   [
+    2021,
+    24
+   ],
+   [
+    2022,
+    16
+   ]
+  ],
+  "discog_rap_peak": 1,
+  "discog_rap_pages": [
+   "Jack_Harlow_discography"
+  ],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [
+   1
+  ],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": [
+   "R&B/Hip-Hop"
+  ]
  },
  {
   "cid": 137,
@@ -1504,7 +5028,18 @@
   "prior": "close",
   "status": "unverified",
   "basis": "weak: other_press not_charted Indirect evidence only. On the Hot 100 dated 2021-09-18, the only non-CLB song in the top 10 sat at No. 6; from memory t",
-  "n_ev": 1
+  "n_ev": 1,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 138,
@@ -1515,7 +5050,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 139,
@@ -1526,7 +5072,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 140,
@@ -1537,7 +5094,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 141,
@@ -1548,7 +5116,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 142,
@@ -1559,7 +5138,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 143,
@@ -1570,7 +5160,18 @@
   "prior": "close",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 144,
@@ -1581,7 +5182,18 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #5",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 145,
@@ -1592,7 +5204,18 @@
   "prior": "close",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 146,
@@ -1603,7 +5226,18 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #2",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 147,
@@ -1614,7 +5248,18 @@
   "prior": "close",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 148,
@@ -1625,7 +5270,18 @@
   "prior": "close",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 149,
@@ -1636,7 +5292,18 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #25",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 150,
@@ -1647,7 +5314,18 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #9",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 151,
@@ -1658,7 +5336,18 @@
   "prior": "rap",
   "status": "unverified",
   "basis": "",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "none",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 152,
@@ -1669,7 +5358,18 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #6",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 153,
@@ -1680,7 +5380,18 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #3",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 154,
@@ -1691,7 +5402,18 @@
   "prior": "close",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #7",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  },
  {
   "cid": 155,
@@ -1702,6 +5424,17 @@
   "prior": "rap",
   "status": "rap",
   "basis": "Year-End Hot Rap Songs 2021 #15",
-  "n_ev": 0
+  "n_ev": 0,
+  "tier": "summary",
+  "earlier_basis": "",
+  "ye_rap": [],
+  "ye_rbhh": [],
+  "ye_hot100": [],
+  "discog_rap_peak": null,
+  "discog_rap_pages": [],
+  "discog_rap_dash_pages": [],
+  "discog_rbhh": [],
+  "discog_rbhh_dash": [],
+  "wiki_genre_charts": []
  }
 ]

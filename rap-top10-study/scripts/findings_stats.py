@@ -12,7 +12,8 @@ rows = json.load(open(WORK + 'final_rows.json'))
 T = {int(k): v for k, v in json.load(open(WORK + 'tracks_merged.json')).items()}
 R = [(r, T.get(r['cid'])) for r in rows]
 studied = [(r, t) for r, t in R if t]
-DOC = {'confirmed', 'cited'}                              # sample statuses that count as sourced
+DOC = {'confirmed', 'cited', 'page'}                      # sample statuses that count as sourced (page = saved page text supports it)
+SRC = ('source', 'page')                                  # bases that count as sourced
 DOC_U = DOC | {'not_reconfirmed'}                         # ... plus credits the verifier could not re-find (U)
 NON_VOCAL = {'Metro Boomin'}                                # credited producer-artists who do not take a verse or hook
 
@@ -50,7 +51,7 @@ def returning(r): return C.RETURNING.get(r['cid'], 'uncoded')
 
 def rtype(r, t):
     """Return-change type for tracks with a sourced (not verifier-rejected) return description."""
-    if not any(d.get('basis') == 'source' for d in t.get('returns') or []): return None
+    if not any(d.get('basis')  in SRC for d in t.get('returns') or []): return None
     return C.RETURN_TYPES.get(r['cid'], 'uncoded')
 
 
@@ -81,7 +82,8 @@ for g, f in groups.items():
     d['tempo_listed_any'] = sum(1 for r, t in S if t.get('tempo_listed') or t.get('grid_bpm'))
     ds = [(r, t) for r, t in S if doc_samples(t)]
     d['borrow_documented'] = f"{len(ds)}/{len(S)}"
-    d['borrow_credited'] = f"{sum(1 for r, t in ds if any(s.get('credited', True) for s in doc_samples(t)))}/{len(S)}"
+    d['borrow_credited'] = f"{sum(1 for r, t in ds if any(s.get('credited', True) is True for s in doc_samples(t)))}/{len(S)}"
+    d['borrow_page'] = f"{sum(1 for r, t in S if any(s.get('status') == 'page' for s in t.get('samples') or []))}/{len(S)}"
     d['borrow_documented_u'] = f"{sum(1 for r, t in S if doc_samples_u(t))}/{len(S)}"
     d['borrow_not_reconfirmed_only'] = sum(1 for r, t in S if doc_samples_u(t) and not doc_samples(t))
     d['second_vocalist_credit'] = f"{sum(1 for r, t in allg if second_vocalist(r))}/{len(allg)}"
@@ -92,12 +94,12 @@ for g, f in groups.items():
     hf = collections.Counter((t.get('hook_first'), t.get('hook_first_basis')) for r, t in S)
     for val in ('yes', 'no'):
         for b, lab in (('source', 'src'), ('unconfirmed', 'unc'), ('unverified_recollection', 'rec')):
-            d[f'hook_first_{val}_{lab}'] = hf.get((val, b), 0)
+            d[f'hook_first_{val}_{lab}'] = hf.get((val, b), 0) + (hf.get((val, 'page'), 0) if b == 'source' else 0)
     op = collections.Counter(t.get('opening_basis') for r, t in S if t.get('opening_element') not in (None, 'unknown'))
-    d['opening_src'] = op.get('source', 0); d['opening_unc'] = op.get('unconfirmed', 0); d['opening_rec'] = op.get('unverified_recollection', 0)
-    d['opening_sample_src'] = sum(1 for r, t in S if t.get('opening_basis') == 'source' and t.get('opening_element') == 'sample_or_interpolation')
+    d['opening_src'] = op.get('source', 0) + op.get('page', 0); d['opening_page'] = op.get('page', 0); d['opening_unc'] = op.get('unconfirmed', 0); d['opening_rec'] = op.get('unverified_recollection', 0)
+    d['opening_sample_src'] = sum(1 for r, t in S if t.get('opening_basis')  in SRC and t.get('opening_element') == 'sample_or_interpolation')
     bs = collections.Counter((t.get('beat_switch'), t.get('beat_switch_basis')) for r, t in S)
-    d['switch_yes_src'] = bs.get(('yes', 'source'), 0); d['switch_yes_unc'] = bs.get(('yes', 'unconfirmed'), 0)
+    d['switch_yes_src'] = bs.get(('yes', 'source'), 0) + bs.get(('yes', 'page'), 0); d['switch_yes_page'] = bs.get(('yes', 'page'), 0); d['switch_yes_unc'] = bs.get(('yes', 'unconfirmed'), 0)
     d['switch_yes_rec'] = bs.get(('yes', 'unverified_recollection'), 0)
     d['switch_no_any'] = sum(v for k, v in bs.items() if k[0] == 'no'); d['switch_unknown'] = sum(v for k, v in bs.items() if k[0] in (None, 'unknown'))
     d['switch_assessed'] = sum(v for k, v in bs.items() if k[0] in ('yes', 'no'))
@@ -117,7 +119,7 @@ for g, f in groups.items():
 
 # ---- named lists
 def who(r): return 'Drake' if 'Drake' in r['artists'] else ('Kendrick Lamar' if 'Kendrick' in r['artists'] else r['lead_artist'])
-OUT['beat_switch_sourced'] = [f"{r['title']} [{who(r)}{'; album-bomb' if r['album_bomb'] else ''}]" for r, t in studied if t.get('beat_switch') == 'yes' and t.get('beat_switch_basis') == 'source']
+OUT['beat_switch_sourced'] = [f"{r['title']} [{who(r)}{'; album-bomb' if r['album_bomb'] else ''}]" for r, t in studied if t.get('beat_switch') == 'yes' and t.get('beat_switch_basis')  in SRC]
 OUT['beat_switch_unconfirmed'] = [r['title'] for r, t in studied if t.get('beat_switch') == 'yes' and t.get('beat_switch_basis') == 'unconfirmed']
 OUT['beat_switch_recollection'] = [r['title'] for r, t in studied if t.get('beat_switch') == 'yes' and t.get('beat_switch_basis') == 'unverified_recollection']
 OUT['beat_switch_times'] = [f"{r['title']}: {t.get('beat_switch_time')}" for r, t in studied if t.get('beat_switch_time')]
@@ -125,12 +127,12 @@ OUT['hookless'] = [f"{r['title']} [{t.get('hook_status')}; style {t.get('style_t
 OUT['hook_present_sourced'] = [r['title'] for r, t in studied if t.get('hook_status') == 'present_verified']
 for val in ('yes', 'no'):
     OUT[f'hook_first_{val}'] = [f"{r['title']} [{t.get('hook_first_basis')}]" for r, t in studied if t.get('hook_first') == val]
-OUT['opening_sourced'] = [f"{r['title']}: {t.get('opening_element')}{' [sweep]' if 'opening_element' in (t.get('structure_sweep_used') or []) else ''}" for r, t in studied if t.get('opening_basis') == 'source' and t.get('opening_element') not in (None, 'unknown')]
+OUT['opening_sourced'] = [f"{r['title']}: {t.get('opening_element')}{' [sweep]' if 'opening_element' in (t.get('structure_sweep_used') or []) else ''}" for r, t in studied if t.get('opening_basis')  in SRC and t.get('opening_element') not in (None, 'unknown')]
 OUT['opening_unconfirmed'] = [f"{r['title']}: {t.get('opening_element')}" for r, t in studied if t.get('opening_basis') == 'unconfirmed']
 OUT['opening_sourced_types'] = dict(collections.Counter(x.split(': ')[1].replace(' [sweep]', '') for x in OUT['opening_sourced']))
-OUT['sample_open_and_hook_first_src'] = [r['title'] for r, t in studied if t.get('opening_basis') == 'source' and t.get('opening_element') == 'sample_or_interpolation' and t.get('hook_first') == 'yes' and t.get('hook_first_basis') == 'source']
-OUT['hook_first_src_drake'] = {v: sum(1 for r, t in studied if 'Drake' in r['artists'] and t.get('hook_first') == v and t.get('hook_first_basis') == 'source') for v in ('yes', 'no')}
-OUT['sample_open_src_drake'] = sum(1 for r, t in studied if 'Drake' in r['artists'] and t.get('opening_basis') == 'source' and t.get('opening_element') == 'sample_or_interpolation')
+OUT['sample_open_and_hook_first_src'] = [r['title'] for r, t in studied if t.get('opening_basis')  in SRC and t.get('opening_element') == 'sample_or_interpolation' and t.get('hook_first') == 'yes' and t.get('hook_first_basis')  in SRC]
+OUT['hook_first_src_drake'] = {v: sum(1 for r, t in studied if 'Drake' in r['artists'] and t.get('hook_first') == v and t.get('hook_first_basis')  in SRC) for v in ('yes', 'no')}
+OUT['sample_open_src_drake'] = sum(1 for r, t in studied if 'Drake' in r['artists'] and t.get('opening_basis')  in SRC and t.get('opening_element') == 'sample_or_interpolation')
 # tempo
 OUT['half_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g}" for r, t in studied if pair_ok(t) and is_half(t)]
 OUT['full_time'] = [f"{r['title']} {t['grid_bpm']:g}/{t['felt_bpm']:g} [{t.get('style_tag')}]" for r, t in studied if pair_ok(t) and not is_half(t)]
@@ -164,14 +166,16 @@ bt = collections.Counter(); bt_tracks = collections.defaultdict(set); bt_cred = 
 for r, t in studied:
     for sm in doc_samples(t):
         bt[sm.get('borrow_type')] += 1; bt_tracks[sm.get('borrow_type')].add((r['cid'], r['title']))
-        if sm.get('credited', True): bt_cred[sm.get('borrow_type')] += 1
+        if sm.get('credited', True) is True: bt_cred[sm.get('borrow_type')] += 1
 OUT['borrow_types'] = {k: (v, len(bt_tracks[k]), sorted(x[1] for x in bt_tracks[k]), bt_cred[k]) for k, v in bt.most_common()}
 OUT['borrow_not_reconfirmed_only'] = [r['title'] for r, t in studied if doc_samples_u(t) and not doc_samples(t)]
 OUT['borrow_unconfirmed_credits'] = [f"{r['title']}: {s['work'][:50]}" for r, t in studied for s in t.get('samples') or [] if s.get('status') == 'not_reconfirmed']
 OUT['borrow_rejected'] = [f"{r['title']}: {s['work'][:60]}" for r, t in studied for s in t.get('samples') or [] if s.get('status') == 'rejected']
 OUT['borrow_added_by_verifier'] = [r['title'] for r, t in studied if r['cid'] in C.SAMPLE_ADD and any(s.get('status') == 'confirmed' and s.get('work') in {a['work'] for a in C.SAMPLE_ADD[r['cid']]} for s in t.get('samples') or [])]
 OUT['borrow_added_only_credit'] = [r['title'] for r, t in studied if r['cid'] in C.SAMPLE_ADD and {s['work'] for s in doc_samples(t)} <= {a['work'] for a in C.SAMPLE_ADD[r['cid']]}]
-OUT['borrow_uncredited_only'] = [r['title'] for r, t in studied if doc_samples(t) and not any(s.get('credited', True) for s in doc_samples(t))]
+OUT['borrow_uncredited_only'] = [r['title'] for r, t in studied if doc_samples(t) and all(s.get('credited', True) is False for s in doc_samples(t))]
+OUT['borrow_credit_not_stated_only'] = [r['title'] for r, t in studied if doc_samples(t) and not any(s.get('credited', True) is True for s in doc_samples(t)) and any(s.get('credited', True) is None for s in doc_samples(t))]
+OUT['borrow_page_added'] = [f"{r['title']}: {s['work']}" for r, t in studied for s in t.get('samples') or [] if s.get('source') == 'page statement']
 OUT['borrow_none_documented'] = len([1 for r, t in studied if not doc_samples(t)])
 # returns
 rt_lists = collections.defaultdict(list)
@@ -190,9 +194,9 @@ OUT['trap_return_tracks'] = sum(1 for r, t in studied if rtype(r, t) and t.get('
 asp = collections.Counter(); asp_tracks = collections.defaultdict(set)
 for r, t in studied:
     for dd in t.get('delivery') or []:
-        if dd.get('basis') == 'source': asp[dd['aspect']] += 1; asp_tracks[dd['aspect']].add(r['title'])
+        if dd.get('basis')  in SRC: asp[dd['aspect']] += 1; asp_tracks[dd['aspect']].add(r['title'])
 OUT['delivery_aspects'] = {k: (v, sorted(asp_tracks[k])) for k, v in asp.most_common()}
-OUT['tracks_with_sourced_delivery'] = sum(1 for r, t in studied if any(dd.get('basis') == 'source' for dd in t.get('delivery') or []))
+OUT['tracks_with_sourced_delivery'] = sum(1 for r, t in studied if any(dd.get('basis')  in SRC for dd in t.get('delivery') or []))
 OUT['timestamps'] = dict(first_vocal=sum(1 for r, t in studied if t.get('first_lead_vocal_time')), first_hook=sum(1 for r, t in studied if t.get('first_hook_time')),
                          beat_switch_time=sum(1 for r, t in studied if t.get('beat_switch_time')))
 OUT['runtime_status'] = dict(collections.Counter(t.get('runtime_status') for r, t in studied if t.get('runtime_s')))

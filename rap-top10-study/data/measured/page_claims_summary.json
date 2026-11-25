@@ -1,0 +1,30 @@
+{
+ "tracks": 100,
+ "wikipedia_pages": 100,
+ "songfacts_pages": 84,
+ "claims": 888,
+ "final": {
+  "partly_supported": 279,
+  "supported": 298,
+  "not_addressed": 281,
+  "new_fact_kept": 879,
+  "new_fact_dropped": 32,
+  "contradicted": 30
+ },
+ "skeptic_rulings": 1520,
+ "skeptic_upheld": 1460,
+ "new_facts_by_category": {
+  "recording_process": 140,
+  "delivery": 93,
+  "borrowing": 101,
+  "structure": 100,
+  "guest_or_credit": 170,
+  "other": 161,
+  "beat_switch": 19,
+  "opening": 28,
+  "hook": 44,
+  "producer_tag": 2,
+  "runtime": 16,
+  "tempo_or_key": 5
+ }
+}

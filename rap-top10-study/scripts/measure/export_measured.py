@@ -35,7 +35,8 @@ for date in sorted(cab):
         if num(r.get('weeks')) is not None: ok = ok and num(r['weeks']) == m.get('weeks_on_chart')
         if num(r.get('last')) is not None: ok = ok and num(r['last']) == m.get('last_week')
         rmatch += ok
-    weeks.append(dict(date=date, status='compared', titles_compared=len(v['titles100']), titles_matching=same, full_rows_compared=len(rows), full_rows_matching=int(rmatch)))
+    weeks.append(dict(date=date, status='compared', titles_compared=len(v['titles100']), titles_matching=same, full_rows_compared=len(rows), full_rows_matching=int(rmatch),
+                      top10=[[pos, t] for pos, t in v['titles100'] if pos <= 10]))
 dump('chart_verification.json', dict(source='https://ca.billboard.com/charts/hot-100/<date> (Billboard Canada, licensed chart pages)', compared_with='mhollingshead/billboard-hot-100 weekly mirror',
                                      note='titles = the 100-title list on each page; full rows = the 25 rows that carry last week, peak and weeks on chart', weeks=weeks))
 

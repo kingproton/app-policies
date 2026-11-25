@@ -40,7 +40,22 @@ Leave 1–4 kHz open in the melody so the voice has its own lane.
 | Hook 3 — full stack, ad-lib answers | 87–102 | 16 | 44–51 | 8 | 2:23.3 | 2:50.0 |
 | Outro — beat rides out | 103–106 | 4 | 52–53 | 2 | 2:50.0 | 2:56.7 |
 
-Total length is **2:56.7**. That deliberately sits at the short end of the measured range. It is just under the 25th percentile of the assessed runtimes (Q1 = 2:58). The median is 3:30 (n = 98): album-bomb cuts have a median of 3:42, other songs 3:17, and songs that climbed into the top 10 3:21 (see the findings, M-8). **[J]** A tight demo is easier to judge and easier to finish in one session.
+Total length is **2:56.7**. That deliberately sits at the short end of the measured range. It is just under the 25th percentile of the runtimes (Q1 = 2:58). The median is 3:31 (n = 100): album-bomb cuts have a median of 3:43, other songs 3:17, and songs that climbed into the top 10 3:25 (see the findings, M-10). **[J]** A tight demo is easier to judge and easier to finish in one session.
+
+### How this map sits against the measured hits
+
+| Block | This map | The measured hits | Finding |
+|---|---|---|---|
+| Felt tempo | 72 on a 144 grid | Median felt 72 across 72 clear clips; published BPMs usually show the doubled number | M-1 |
+| Intro | 2 felt bars (6.7 s) | Median 4.4 felt bars, middle half 3.8–8.0. This map is on the short side by design | M-4 |
+| First vocal | 0:03.3 (A) or 0:06.5 (B) | First lyric line within 5 s in 74/98 | M-4 |
+| First hook | 0:06.7 (A) or 0:33.3 (B) | Median 0:29 overall; 0:18 for the songs that climbed. Opening A matches the climbers, Opening B the wider set | M-3 |
+| Hook length | 8 felt bars | About 8 felt bars in 29 of 68 mapped songs, about 4 in 24 | M-5 |
+| Verse 1 | 16 felt bars | About 16 in 17, about 12 in 10, about 8 in 21 of 70 | M-5 |
+| Verse 2 | 8 felt bars (shorter than verse 1) | Verse 2 is shorter in 20, similar in 24 and longer in 30 of 74. The long version below evens it out | M-6 |
+| Hook occurrences | 3, same words, full stack on the last | Two or three in most songs; words identical or nearly so in 58 of 75 | M-6 |
+
+The map was drawn before these measurements and needed no change to fit inside them. Where it leaves the middle of the range (a two-bar intro, a short second verse), that is a choice, marked above. **[J]**
 
 **Long version (3:23.3):** insert a 16-grid-bar Verse 2b (8 felt bars) after grid bar 84, then move the drop, Hook 3 and the outro back 16 grid bars:
 - drop: grid 101–102 (2:46.7–2:50.0);
@@ -155,6 +170,7 @@ half-density:  x  .  x  .    X  .  x  .    x  .  x  .    X  .  -  .
 
 - **Home pocket (verses 1a, 1c, 2):**
   - About 3 syllables per second as drawn (10 of the 16 felt-16th slots). A fully packed 16th bar is 4.8 per second, against 7.2 for the triplet run.
+  - Measured hit verses run at a median 4.1 syllables a second (middle half 3.7–4.5; findings, M-2). At 72 that is 13 to 14 of the 16 slots. So the drawing is the *open* version of the pocket: fill toward 13 slots when a bar should read dense, and keep the last two clear. [J]
   - Stressed rhyme syllables sit **on the snare (felt 2 and 4)** or the 16th after it.
   - Internal rhymes go on the "&" of 1 and 3.
   - The back half of felt beat 4 stays open every second bar, for a breath or an ad-lib.

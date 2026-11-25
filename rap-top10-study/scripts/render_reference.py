@@ -1,19 +1,21 @@
-"""Render 04-reference-list.md from final_rows.json, tracks_merged.json, classification evidence and chart metrics."""
-import json, re, os, csv, sys
+"""Render 04-reference-list.md from final_rows.json, tracks_merged.json, classification status, chart checks and measured data."""
+import json, re, os, csv, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import corrections as C
-from paths import WORK
-from paths import REPO
+from paths import WORK, REPO
 rows = json.load(open(WORK + 'final_rows.json'))
 T = {int(k): v for k, v in json.load(open(WORK + 'tracks_merged.json')).items()}
 status = {r['cid']: r for r in json.load(open(WORK + 'classification_status.json'))}
 col = json.load(open(WORK + 'collected.json'))
 S = json.load(open(WORK + 'stats.json'))
 cands = json.load(open(WORK + 'to_verify.json'))
+CC = {int(k): v for k, v in json.load(open(WORK + 'chart_check.json')).items()} if os.path.exists(WORK + 'chart_check.json') else {}
+CV = json.load(open(REPO + 'data/measured/chart_verification.json'))['weeks']
+WL = json.load(open(REPO + 'data/measured/wikipedia_lists.json'))
 SITE = {'hypebeast.com': 'Hypebeast', 'yahoo.com': 'Yahoo (Billboard syndication)', 'en.wikipedia.org': 'Wikipedia', 'uproxx.com': 'Uproxx',
         'aceshowbiz.com': 'AceShowbiz', 'radiox.cms.socastsrm.com': 'radio-station site', 'stereogum.com': 'Stereogum', 'npr.org': 'NPR',
         'thesource.com': 'The Source', 'rated-rnb.com': 'Rated R&B', 'musictimes.com': 'Music Times', 'hotnewhiphop.com': 'HotNewHipHop'}
-EVLAB = {'billboard_chart_page': 'Billboard chart page', 'billboard_article': 'Billboard report', 'wikipedia_chart_table': 'Wikipedia chart table',
+EVLAB = {'billboard_chart_page': 'Billboard chart page', 'billboard_article': 'Billboard report', 'wikipedia_chart_table': 'Wikipedia table',
          'other_press': 'press citing Billboard'}
 
 
@@ -28,106 +30,165 @@ def short(s, n=70):
 
 
 def domain(u): return re.sub(r'^https?://(www\.)?', '', u).split('/')[0]
+def mmss(s):
+    if s is None: return '?'
+    s = int(round(s)); return f"{s // 60}:{s % 60:02d}"
+def plural(n, one, many): return one if n == 1 else many
 
 
 def ev_best(cid):
     ov = C.CLASSIFICATION_OVERRIDES.get(cid)
-    if ov: return dict(evidence_type=ov['evidence_type'], confidence=ov['confidence'], evidence_summary=ov['summary'] + ' [targeted re-check]', source_urls=[ov['source_url']] if ov.get('source_url') else [])
+    if ov: return dict(evidence_type=ov['evidence_type'], confidence=ov['confidence'], evidence_summary=ov['summary'], source_urls=[ov['source_url']] if ov.get('source_url') else [])
     ev = col['classify'].get(str(cid), [])
     ev = sorted(ev, key=lambda e: ({'high': 3, 'medium': 2, 'low': 1}.get(e['confidence'], 0), e['evidence_type'] != 'model_knowledge_only'))
     return ev[-1] if ev else None
 
 
-def yearend_links(text):
-    yrs = []
-    for m in re.finditer(r'(?:Year-End Hot Rap Songs(?: of)? (\d{4})|(\d{4}) year-end Hot Rap Songs|YE Hot Rap Songs (\d{4}))', text or '', re.I):
-        y = next(g for g in m.groups() if g)
-        if y not in yrs: yrs.append(y)
-    return [f"[YE Hot Rap Songs {y}](https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_{y})" for y in yrs]
+def table_link(st):
+    """Markdown link for a table-tier basis string."""
+    b = st['basis']
+    if b.startswith('Year-End'):
+        yr = re.search(r'(\d{4})', b).group(1); rk = re.search(r'#(\d+)', b).group(1)
+        return f"[year-end Hot Rap Songs {yr}, No. {rk}](https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_{yr})"
+    m = re.match(r'Hot Rap Songs peak No\. (\d+) \(Wikipedia table: (.*)\)', b)
+    if m: return f"[Hot Rap Songs peak No. {m.group(1)}](https://en.wikipedia.org/wiki/{m.group(2).replace(' ', '_')}) ({m.group(2)} table)"
+    return None
 
 
-def link_for(cid):
-    st = status[cid]
-    if st['basis'].startswith('Year-End'):
-        yr = re.search(r'(\d{4})', st['basis']).group(1); rk = re.search(r'#(\d+)', st['basis'])
-        return f"[YE Hot Rap Songs {yr}{' #' + rk.group(1) if rk else ''}](https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_{yr})"
-    ye = yearend_links(st['basis'])
-    if ye: return ' · '.join(ye)
+def summary_link(cid):
     b = ev_best(cid)
-    if not (b and b.get('source_urls')): return 'genre unverified'
+    if not (b and b.get('source_urls')): return 'no source on file'
     u = b['source_urls'][0]; d = domain(u)
-    if b['evidence_type'] in ('model_knowledge_only', 'none'):
-        return f"genre unverified ([page]({u}) confirms the Hot 100 position only)"
-    lab = EVLAB.get(b['evidence_type'], b['evidence_type'])
     if 'billboard.com' in d: lab = 'Billboard chart page' if ('/charts/' in u or '/chart-history/' in u) else 'Billboard report'
     else: lab = SITE.get(d, d) + (' (reporting Billboard)' if b['evidence_type'] in ('billboard_article', 'billboard_chart_page', 'other_press') else '')
-    return f"[{lab}]({u})"
+    return f"[{lab}]({u}) via search summary"
 
 
-def mark(r):
-    if 'provisional' in r['classification']: return ' †'
-    if r['cid'] in C.ALBUM_MATE_INFERRED: return ' ‡'
-    return ''
+def genre_evidence(cid):
+    st = status[cid]
+    return table_link(st) if st.get('tier') == 'table' and table_link(st) else summary_link(cid)
+
+
+# ---- year-end deduction helpers (lists read directly on Wikipedia)
+def nz(s): return re.sub(r'[^a-z0-9]+', '', (s or '').lower().replace('&', 'and'))
+ye_rap = collections.defaultdict(dict); ye_rb = collections.defaultdict(dict)
+for e in WL['yearend_rap']: ye_rap[e['year']][nz(e['title'])] = e['rank']
+for e in WL['yearend_rbhh']: ye_rb[e['year']][nz(e['title'])] = e['rank']
+WORST_RB = {y: max([ye_rb[y][t] for t in ye_rap[y] if t in ye_rb[y]] or [0]) for y in ye_rap}   # worst R&B/Hip-Hop year-end rank held by a rap-list title
+
+
+def nonrap_grade(o):
+    """direct = a non-rap chart listing; yearend = deduced from year-end lists; indirect = neither."""
+    st = status[o['cid']]; b = ev_best(o['cid']) or {}
+    txt = (b.get('evidence_summary') or '') + ' ' + st.get('basis', '') + ' ' + st.get('earlier_basis', '')
+    other = [c for c in st.get('wiki_genre_charts') or [] if c != 'R&B/Hip-Hop']
+    named = re.search(r'Hot R&B Songs|R&B Streaming Songs|R&B Digital|Hot Country Songs|[Cc]ountry radio|Country Airplay|Hot Rock & Alternative|Rock Streaming|Hot Dance/Pop|Hot Dance/Electronic|Afrobeats Songs|Hot Latin|Adult R&B', txt)
+    if o['cid'] in C.NONRAP_GRADE: return C.NONRAP_GRADE[o['cid']]
+    if o['cid'] in C.GENRE_INFERENCE_EXCLUSIONS: return 'indirect'
+    if o['cid'] in C.YEAREND_ABSENCE_EXCLUSIONS: return 'yearend'
+    if other or (named and b.get('confidence') in ('high', 'medium') and not txt.lstrip().lower().startswith('inferred')): return 'direct'
+    if st.get('ye_rbhh') or st.get('ye_hot100'): return 'yearend'
+    return 'indirect'
+
+
+def table_note(o):
+    """What the tables read directly add for an excluded song."""
+    st = status[o['cid']]; bits = []
+    for yr, rk in st.get('ye_rbhh') or []:
+        w = WORST_RB.get(yr)
+        bits.append(f"{yr} year-end Hot R&B/Hip-Hop Songs No. {rk}, not on the {yr} year-end Hot Rap Songs list" + (f" (titles on the rap list rank as low as No. {w} on that R&B/Hip-Hop list, so a rap title at No. {rk} would be on the rap list)" if w and rk < w else ''))
+    if not st.get('ye_rbhh'):
+        for yr, rk in st.get('ye_hot100') or []: bits.append(f"{yr} year-end Hot 100 No. {rk}, on neither the rap nor the R&B/Hip-Hop year-end list")
+    if st.get('discog_rap_dash_pages'): bits.append('dash in the Hot Rap Songs column of the ' + ', '.join(p.replace('_', ' ').replace('%2C', ',') for p in st['discog_rap_dash_pages']) + ' table')
+    other = [c for c in st.get('wiki_genre_charts') or [] if c != 'R&B/Hip-Hop']
+    if other: bits.append("Wikipedia's chart table lists it on " + ' and '.join({'Rock & Alt': 'Hot Rock & Alternative Songs', 'Country': 'Hot Country Songs', 'Dance/Pop': 'Hot Dance/Pop Songs', 'Dance/Electronic': 'Hot Dance/Electronic Songs', 'Afrobeats': 'U.S. Afrobeats Songs', 'Latin': 'Hot Latin Songs', 'Christian': 'Hot Christian Songs'}.get(c, c) for c in other))
+    return '; '.join(bits)
 
 
 out = []
-prov = [r for r in rows if 'provisional' in r['classification']]
-inf = [r for r in rows if r['cid'] in C.ALBUM_MATE_INFERRED and 'provisional' not in r['classification']]
 final_ids = {r['cid'] for r in rows}
 cut_date = rows[-1]['first_top10']
 in_window = [o for o in cands if o['first_top10'] >= cut_date]
-def soft_kind(o):
-    st = status[o['cid']]
-    if o['cid'] in final_ids: return None
-    if st['status'] == 'unverified': return 'unresolved'
-    if o['cid'] in C.GENRE_INFERENCE_EXCLUSIONS: return 'genre'
-    if o['cid'] in C.YEAREND_ABSENCE_EXCLUSIONS: return 'yearend'
-    if st['status'] == 'not_rap' and st['basis'].split(':', 1)[-1].strip().startswith('Inferred'): return 'inferred'
-    return None
-soft_excl = [o for o in in_window if soft_kind(o)]
+summ = [r for r in rows if status[r['cid']].get('tier') != 'table']
+excl = [o for o in in_window if o['cid'] not in final_ids and status[o['cid']]['status'] != 'rap']
+grade = {o['cid']: ('unresolved' if status[o['cid']]['status'] == 'unverified' else nonrap_grade(o)) for o in excl}
+soft = [o for o in excl if grade[o['cid']] in ('indirect', 'unresolved')]
+yend = [o for o in excl if grade[o['cid']] == 'yearend']
+
+# ---- chart-check counts
+comp = [w for w in CV if w['status'] == 'compared']
+full = sum(1 for w in comp if w['titles_matching'] >= w['titles_compared'] - 1 and w['full_rows_matching'] == w['full_rows_compared'])
+bc_match = sum(1 for v in CC.values() if v['billboard_canada'] == 'match'); bc_host = sum(1 for v in CC.values() if v['billboard_canada'] in ('match',) or v['billboard_canada'].startswith('differs'))
+w_match = sum(1 for v in CC.values() if v['wikipedia_entry_date'] == 'match')
+
 out.append('# 4 — Full reference list (100 songs)\n')
 out.append(f"**Reference window:** first Hot 100 top-10 weeks from the chart dated **{S['span'].split(' to ')[1]}** back to **{S['span'].split(' to ')[0]}**. That is the 100 most recent distinct rap songs, counting back from the chart dated 2026-11-21 (research cutoff 2026-11-22).\n")
 out.append("**Ordering rule:** by the chart week each song *first* reached positions 1–10, newest first. Ties within a week are sorted by position that week. Each song is counted once. Billboard's combined credits and remixes are followed, so Billboard's mid-run re-credit of \"Carnival\" from Kanye West to Ye counts as one song.\n")
-out.append("**Genre rule:** rap = Billboard placed the song on Hot Rap Songs or on a rap-only component chart (Rap Streaming Songs, Rap Airplay), or Billboard reporting says so. Hot R&B Songs and Hot Rap Songs are mutually exclusive halves of Hot R&B/Hip-Hop Songs, so R&B-classified songs by rappers are excluded and logged below.\n")
-out.append("**Rank and date source:** every weekly Hot 100 chart since 1958, from the public `mhollingshead/billboard-hot-100` mirror of billboard.com. It has no missing weeks since 2015. All 155 candidate dates and ranks were re-derived from the weekly charts, and Billboard or press reporting confirmed the rank in a sample of weeks (see `data/classification_evidence.csv`).\n")
-status_bits = []
-def plural(n, one, many): return one if n == 1 else many
-if prov: status_bits.append(f"{len(prov)} {plural(len(prov), 'entry is', 'entries are')} included without direct classification evidence: each was pre-tagged rap, and a targeted re-check found only indirect evidence (a Hot R&B/Hip-Hop Songs peak, which does not separate rap from R&B, or album-mates on rap charts). {plural(len(prov), 'It is', 'They are')} marked †")
-if inf: status_bits.append(f"{len(inf)} {plural(len(inf), 'entry is', 'entries are')} included because album-mates from the same release week were on a rap chart, with no page showing the title itself; marked ‡")
-if soft_excl: status_bits.append(f"{len(soft_excl)} excluded {plural(len(soft_excl), 'candidate', 'candidates')} above the cut {plural(len(soft_excl), 'rests', 'rest')} on inference or indirect evidence, not a direct non-rap listing ({sum(1 for o in soft_excl if soft_kind(o) == 'yearend')} of them are absent from all three year-end genre lists, which is strong but indirect)")
-out.append(f"**Status: {'PROVISIONAL' if (prov or inf or soft_excl) else 'FINAL'}.** " + '. '.join(status_bits) + ". Any one of these could move the cut. See *4d. Boundary and open items*.\n")
+out.append("**Genre rule:** rap = Billboard placed the song on Hot Rap Songs or on a rap-only component chart (Rap Streaming Songs, Rap Airplay), or Billboard reporting says so. Billboard files each title under one core genre, so a song it charts on Hot R&B Songs, Hot Country Songs or Hot Rock & Alternative Songs is not on Hot Rap Songs. R&B-classified songs by rappers are therefore excluded and logged in 4d. (Hot Rap Songs is not a strict subset of Hot R&B/Hip-Hop Songs: a few pop-leaning rap titles appear on the year-end rap list but not on the year-end R&B/Hip-Hop list.)\n")
+out.append(f"**Rank and date sources.** Dates and ranks come from every weekly Hot 100 chart in the public `mhollingshead/billboard-hot-100` mirror of billboard.com. Two sources read directly on 2026-11-25 check them:\n"
+           f"- **Billboard Canada's licensed Hot 100 pages** (`ca.billboard.com/charts/hot-100/<date>`, the site you named for the starting issue). It hosts {len(comp)} chart weeks from {min(w['date'] for w in comp)} to {max(w['date'] for w in comp)}. In {full} of them every title matches the mirror at every position (two weeks differ by one title spelling), and the 25 rows per page that carry last week, peak and weeks on chart match too. The remaining page, labelled 2023-09-30, shows the 2023-09-23 chart; the following week's \"last week\" column agrees with the mirror. {sum(1 for w in CV if w['status'] != 'compared' and w['date'] >= '2023-09-02')} later weeks are missing from that site and weeks before 2023-09-02 are not hosted.\n"
+           f"- **Wikipedia's yearly \"List of Billboard Hot 100 top-ten singles\" pages**, which give each song's top-ten entry date.\n\n"
+           f"For the 100 list songs: the first top-10 **date** matches Wikipedia's entry date for **{w_match} of 100**, and the **date and rank** match the Billboard Canada page for **{bc_match} of the {bc_host}** whose week is hosted there. The other {100 - bc_host} ranks rest on the mirror alone. `www.billboard.com` was not read: its robots.txt bars Anthropic's agents, so the Billboard links below are citations, not pages opened in this study.\n")
+st_bits = [f"{100 - len(summ)} of the 100 entries rest on a Billboard rap-chart figure read directly from a table (a year-end Hot Rap Songs list or a Hot Rap Songs peak in an artist's discography table)"]
+if summ: st_bits.append(f"{len(summ)} {plural(len(summ), 'entry rests', 'entries rest')} on Billboard rap-chart rows known only through web-search summaries of Billboard pages ({'all Drake album cuts, whose Wikipedia tables have no rap column' if all('Drake' in r['artists'] for r in summ) else 'no table with a rap column lists them'}); marked †")
+if soft: st_bits.append(f"{len(soft)} excluded {plural(len(soft), 'candidate', 'candidates')} above the cut {plural(len(soft), 'rests', 'rest')} on indirect evidence")
+if yend: st_bits.append(f"{len(yend)} more are excluded by deduction from year-end lists (strong, but not a weekly chart row)")
+out.append(f"**Status: {'PROVISIONAL at the margins' if (summ or soft) else 'FINAL'}.** " + '. '.join(st_bits) + ". No dispute found in this pass changes the list; each remaining item could move the cut by one place. See *4e. Boundary and open items*.\n")
+
+# ---------------- 4a
 out.append('\n## 4a. The list\n')
-out.append("Style = the research agents' descriptive tag from source descriptions (not a Billboard category); it drives the verse-led / trap / drill splits in files 01 and 03. Genre tag: \"Rap\" = Billboard classified it as rap (see the genre rule). \"Rap — crossover (…)\" = rap-classified, but the credit includes a non-rap vocalist (feat./co-lead) and/or the style tag is pop, R&B, dance/house, country or Jersey club; the parenthesis names which. This is the study's own label, not a Billboard category.\n")
-out.append('| # | Title | Credited artists | First top-10 chart | Rank that week | Genre tag | Style | Source |')
-out.append('|---|---|---|---|---|---|---|---|')
+out.append("Style = the research agents' descriptive tag from source descriptions (not a Billboard category); it drives the verse-led / trap / drill splits in files 01 and 03. Genre tag: \"Rap\" = Billboard classified it as rap (see the genre rule). \"Rap — crossover (…)\" adds the crossover reason: a singer co-lead, a pop, dance, country or R&B style tag, or another genre chart. **Chart check:** BC = date and rank match Billboard Canada's licensed chart page; W = date matches Wikipedia's top-ten entry date. **Genre evidence:** a table figure read directly, or † = a Billboard page known only through a web-search summary.\n")
+out.append('| # | Title | Credited artists | First top-10 chart | Rank that week | Genre tag | Style | Chart check | Genre evidence |')
+out.append('|---|---|---|---|---|---|---|---|---|')
 for r in rows:
     x = T.get(r['cid']) or {}
     style = (x.get('style_tag') or '?').replace('_', ' ').replace('boom bap or verse led', 'boom-bap / verse-led')
-    out.append(f"| {r['n']} | {esc(r['title'])}{mark(r)} | {esc(r['artists'])} | {r['first_top10']} | {r['rank']} | {esc(r['genre_tag'])} | {style} | "
-               f"[Hot 100 {r['first_top10']}](https://www.billboard.com/charts/hot-100/{r['first_top10']}/) · {link_for(r['cid'])} |")
+    cc = CC.get(r['cid']) or {}
+    chk = ' + '.join(([f"[BC](https://ca.billboard.com/charts/hot-100/{r['first_top10']})"] if cc.get('billboard_canada') == 'match' else []) + (['W'] if cc.get('wikipedia_entry_date') == 'match' else [])) or 'mirror only'
+    mark = '' if status[r['cid']].get('tier') == 'table' else ' †'
+    out.append(f"| {r['n']} | {esc(r['title'])}{mark} | {esc(r['artists'])} | [{r['first_top10']}](https://www.billboard.com/charts/hot-100/{r['first_top10']}/) | {r['rank']} | {esc(r['genre_tag'])} | {style} | {chk} | {genre_evidence(r['cid'])} |")
 
-# ---------------- 4b
-out.append('\n## 4b. Per-track measurements used in the findings\n')
+# ---------------- 4b measured
+out.append('\n## 4b. Per-track measurements\n')
+out.append('Measured on 2026-11-25 from three sources by signal analysis and by reading lyric records; nobody listened to the recordings, and nothing in this table comes from recollection. Method, checks and limits: `05-measurement-method.md`.\n')
 out.append('**Legend.**')
-out.append('- **Basis:** **S** = a cited source the verifier did not reject, or a later gap sweep\'s own citation that the separate re-check confirmed (two sweep openings, "Houdini" and "Carnival", were recoded to what the re-check\'s sources support); **U** = cited, but the verifier (or, for a sweep claim, the re-check) could not confirm it, so it is *not* counted as sourced; **R** = unverified recollection, never counted; **?** = unknown.')
-out.append('- **Runtime:** ✔ = verifier confirmed; ✎ = verifier corrected; ◦ = verifier could not confirm; ♪ = taken from a BPM-site listing.')
-out.append('- **Grid / felt BPM:** grid = DAW tempo convention, felt = rap-bar pulse. Every felt value is a genre-convention inference; no source describes the feel. Marks: ✔ = verifier agreed; ✎ = corrected; ◦ = verifier could not confirm; · = one listing or the tempo sweep only; ⚠ = conflicting listings. "unresolved" = half- or full-time cannot be told from the listings. "listed X (not used)" = a published BPM exists but M-1 does not use it (conflicting listings, a single listing found only by the verifier, or a low-confidence listing; reasons in M-1). Rows marked ⚠, unresolved or not used are excluded from M-1.')
-out.append('- **Hook first** = the hook arrives before the first verse (a short spoken line, tag or sample intro may come before it).')
-out.append('- **Return change** = coded by me from a cited description of what changes between sections: beat = a beat or bed change; voice = a new voice; register = the same rapper\'s register or character; delivery = a spoken insert or break; none specific = sources say nothing specific changes; beat + voice = both. "(one-way)" = a one-way switch or an intro/outro hand-off, not a section that comes back. "beat (U)" = described, but the verifier could not confirm the matching switch or intro claim (excluded from M-6). — = not documented.')
-out.append('- **Borrowing:** s = sample, i = interpolation, c = dialogue clip, r = self-reuse; (u) = uncredited. ✓ = confirmed or added by the verifier; no mark = cited by research, not flagged; U = the verifier could not re-find it (not counted as sourced); ✗ = rejected (not counted); (no URL) = named by research without a source link and not checked by the verifier. — = none documented (unknown, not a verified absence). Full credits are in `data/track_measurements.csv`.')
-out.append('- **Hook:** (S) = sourced; (unv.) = not sourced: a cited claim the verifier could not confirm, a source that itself calls it unverified, an inference from described sections, or recollection (the hook field has no finer basis code).')
-out.append('- **2nd voice** = the Billboard credit names a second vocalist (producer-only credits such as Metro Boomin do not count).')
-out.append('- **Path:** **D** = debuted in the top 10; **C** = climbed in from the rank shown. wk = weeks in the top 10; tot = total Hot 100 weeks; AB = album-bomb cut (3+ songs by the same lead artist first entering the top 10 that week).\n')
-out.append('| # | Title | Runtime | Grid / felt | Opening | Hook first | Hook | Beat switch | Return change | Borrowing | 2nd voice | Path |')
-out.append('|---|---|---|---|---|---|---|---|---|---|---|---|')
-CODE = {'source': 'S', 'unconfirmed': 'U', 'unverified_recollection': 'R', 'unknown': '?', None: '?'}
-TST = {'verified': ' ✔', 'corrected_by_verifier': ' ✎', 'verifier_could_not_confirm': ' ◦', 'research_only': ' ·', 'tempo_sweep': ' ·', 'conflict': ' ⚠'}
-RTS = {'verified': ' ✔', 'corrected_by_verifier': ' ✎', 'verifier_could_not_confirm': ' ◦', 'tempo_sweep': ' ♪'}
-HK = {'present_verified': 'yes (S)', 'present_unverified': 'yes (unv.)', 'absent_verified': 'none (S)', 'absent_unverified': 'none (unv.)'}
+out.append("- **Runtime:** duration of the Apple catalog track matched by title and artist. The lookup returns clean editions; where an earlier sourced runtime for the explicit version exists, the two agree within 2 seconds in every case.")
+out.append("- **Grid / felt BPM:** from Apple's 30-second preview clip, shown to the nearest half BPM. Grid = the fastest steady pulse that carries the beat (what a DAW project would be set to). Felt = the backbeat tempo (snare or clap on beats 2 and 4), which is the grid or half of it. **M** = clear in the clip; **L** = leaning; **I** = unclear in the clip, but only one reading lies in 55–150 BPM; **?** = unresolved, both readings shown. A clip is one section of the track: a beat switch elsewhere is not seen.")
+out.append("- **First line:** time of the first line in the LRCLIB time-synced lyric record that matches the track's duration. It can be an ad-lib, a spoken line or a transcribed sample, and a wordless intro before it is not counted.")
+out.append("- **First hook:** time of the first line of the main recurring section, with the number of lyric lines before it. *none* = no section recurs. **Hooks** = how many times it occurs. **Hook length** and **Verse 1 length** are in seconds, and in bars of four felt beats where the felt tempo is resolved (double the bar count on a doubled DAW grid).")
+out.append("- **Verse w/s:** words per second across verse sections (section boundaries from the repetition detector).")
+out.append("- **Timing basis:** **A** = the repetition detector and an independent AI read of the same lyric record agree; **J** = they disagreed and a second AI reader ruled; **G** = detector only; **X** = unresolved (not counted). Lyric timestamps are crowd-synced; treat them as good to about one second.\n")
+out.append('| # | Title | Runtime | Grid / felt BPM | First line | First hook (lines before) | Hooks | Hook length | Verse 1 length | Verse w/s | Timing basis |')
+out.append('|---|---|---|---|---|---|---|---|---|---|---|')
+for r in rows:
+    x = T.get(r['cid']) or {}; m = x.get('m') or {}; l = m.get('lyr'); f = m.get('feel'); b = m.get('bars') or {}
+    rt = (mmss(m['runtime_best_s']) + (' (cited)' if m.get('runtime_best_basis') == 'cited' else '')) if m.get('runtime_best_s') else '—'
+    hb = lambda v: f"{round(float(v) * 2) / 2:g}"          # nearest half BPM
+    if not f: fe = '—'
+    elif f['basis'] == '?': fe = f"{hb(f['grid_bpm'])} / {hb(min(f['estimate_bpm'], f['other_reading_bpm']))} or {hb(max(f['estimate_bpm'], f['other_reading_bpm']))} (?)"
+    else: fe = f"{hb(f['grid_bpm'])} / {hb(f['felt_bpm'])} ({f['basis']})"
+    if not l: out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {fe} | — | — | — | — | — | — | no matching record |"); continue
+    def sb(sec, bars): return '—' if not sec else (f"{sec:.0f} s" + (f" / {bars:.1f} bars" if bars else ''))
+    fh = 'none' if not l['has_hook'] else f"{mmss(l['first_hook_s'])} ({l['lines_before_hook']})"
+    out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {fe} | {l['first_line_s']:.1f} s | {fh} | {l['hook_count'] if l['has_hook'] else '—'} | {sb(l.get('first_hook_len_s') if l['has_hook'] else None, b.get('first_hook_len'))} | "
+               f"{sb(l.get('first_verse_len_s'), b.get('first_verse_len'))} | {l['verse_words_per_s'] if l.get('verse_words_per_s') else '—'} | {l['basis']} |")
+
+# ---------------- 4c documented
+out.append('\n## 4c. Per-track documented facts\n')
+out.append('**Legend.**')
+out.append("- **Basis:** **P** = the saved Wikipedia or Songfacts page text states it, and a second reader upheld that; **S** = a cited source the verifier did not reject (known through web-search summaries); **U** = cited, but not confirmed (never counted); **R** = unverified recollection (never counted); **?** = unknown. Unknown never counts as \"no\".")
+out.append("- **Opening** = what is heard first, as a source describes it. **Beat switch** = a source describes a change of beat or instrumental.")
+out.append("- **Return change** = coded from a cited description of what changes between sections: beat = a beat or bed change; voice = a new voice; register = the same rapper's register or character; delivery = a spoken insert or break; (one-way) = a switch that does not return.")
+out.append("- **Borrowing:** s = sample, i = interpolation, c = dialogue clip, r = self-reuse; (u) = uncredited. ✓ = confirmed by the verifier or by page text; no mark = cited by research, not flagged; U = could not be re-found (not counted).")
+out.append("- **2nd voice** = the Billboard credit names a second vocalist (producer-only credits such as Metro Boomin do not count).")
+out.append("- **Path:** **D** = debuted in the top 10; **C** = climbed in from the rank shown. wk = weeks in the top 10; tot = total Hot 100 weeks; AB = album-bomb cut (3+ songs by the same lead artist first entering the top 10 that week).\n")
+out.append('| # | Title | Opening | Beat switch | Return change | Borrowing | 2nd voice | Path |')
+out.append('|---|---|---|---|---|---|---|---|')
+CODE = {'page': 'P', 'source': 'S', 'unconfirmed': 'U', 'unverified_recollection': 'R', 'unknown': '?', None: '?'}
 OPN = {'sample_or_interpolation': 'sample/interp.', 'ad_lib_or_spoken_intro': 'spoken/ad-lib intro', 'hook_or_chorus': 'hook', 'rap_verse': 'rap verse',
        'sung_intro': 'sung intro', 'producer_tag': 'producer tag', 'instrumental': 'instrumental', 'chant': 'crowd chant'}
 BT = {'sample': 's', 'interpolation': 'i', 'audio clip': 'c', 'self-reuse': 'r'}
-SM = {'confirmed': ' ✓', 'not_reconfirmed': ' U', 'rejected': ' ✗', 'cited': '', 'uncited': ' (no URL)'}
+SM = {'confirmed': ' ✓', 'page': ' ✓', 'not_reconfirmed': ' U', 'rejected': ' ✗', 'cited': '', 'uncited': ' (no URL)'}
 NON_VOCAL = {'Metro Boomin'}
 
 
@@ -141,83 +202,90 @@ for r in rows:
     path = ('D' if r['debut_in_top10'] else f"C from #{r['climbed_from']}") + f" · {r['weeks_in_top10']} wk · {r['total_weeks']} tot" + (' · AB' if r['album_bomb'] else '')
     second = 'yes' if len([n for n in credit_names(r['artists']) if n not in NON_VOCAL]) >= 2 else 'no'
     if not x:
-        out.append(f"| {r['n']} | {esc(r['title'])} | not studied |  |  |  |  |  |  |  | {second} | {path} |"); continue
-    lv = sorted({f"{float(v['bpm']):g}" for v in x.get('tempo_listed') or [] if v.get('bpm')}, key=float)
-    if x.get('tempo_status') == 'conflict': bpm = 'listed ' + ', '.join(lv) + ' ⚠ (not used)'
-    elif x.get('grid_bpm') and x.get('felt_bpm'): bpm = f"{x['grid_bpm']:g} / {x['felt_bpm']:g}{TST.get(x['tempo_status'], ' ·')}"
-    elif x.get('tempo_status') == 'feel_unresolved': bpm = (f"{x['grid_bpm']:g}" if x.get('grid_bpm') else 'listed ' + ', '.join(lv)) + ' / unresolved'
-    elif lv: bpm = 'listed ' + ', '.join(lv) + (' ⚠' if len(lv) >= 2 else '') + ' (not used)'
-    else: bpm = '?'
+        out.append(f"| {r['n']} | {esc(r['title'])} | not studied |  |  |  | {second} | {path} |"); continue
     op = f"{OPN.get(x['opening_element'], x['opening_element'])} ({CODE.get(x['opening_basis'], '?')})" if x.get('opening_element') not in (None, 'unknown') else '?'
-    hf = f"{x['hook_first']} ({CODE.get(x['hook_first_basis'], '?')})" if x.get('hook_first') not in (None, 'unknown') else '?'
     bs = f"{x['beat_switch']} ({CODE.get(x['beat_switch_basis'], '?')})" if x.get('beat_switch') not in (None, 'unknown') else '?'
-    if any(d.get('basis') == 'source' for d in x.get('returns') or []):
+    if any(d.get('basis') in ('source', 'page') for d in x.get('returns') or []):
         rc = C.RETURN_TYPES.get(r['cid'], 'uncoded').replace('beat+voice', 'beat + voice').replace('none', 'none specific') + (' (one-way)' if C.RETURNING.get(r['cid']) is False else '')
     elif any(d.get('basis') == 'unconfirmed' for d in x.get('returns') or []): rc = 'beat (U)'
     else: rc = '—'
-    sm = '; '.join(f"{short(s.get('work', ''))} [{BT.get(s.get('borrow_type'), '?')}{'' if s.get('credited', True) else ' (u)'}{SM.get(s.get('status'), '')}]" for s in x.get('samples') or []) or '—'
-    rt = (x['runtime_mmss'] + RTS.get(x.get('runtime_status'), '')) if x.get('runtime_mmss') else '?'
-    out.append(f"| {r['n']} | {esc(r['title'])} | {rt} | {bpm} | {op} | {hf} | {HK.get(x.get('hook_status'), '?')} | {bs} | {rc} | {sm} | {second} | {path} |")
+    sm = '; '.join(f"{short(s.get('work', ''))} [{BT.get(s.get('borrow_type'), '?')}{'' if s.get('credited', True) is True else (' (u)' if s.get('credited', True) is False else ' (credit not stated)')}{SM.get(s.get('status'), '')}]" for s in x.get('samples') or [] if s.get('status') != 'rejected') or '—'
+    out.append(f"| {r['n']} | {esc(r['title'])} | {op} | {bs} | {rc} | {sm} | {second} | {path} |")
 vn = [(r['n'], r['title'], C.VERSION_NOTES[r['title']]) for r in rows if r['title'] in C.VERSION_NOTES]
-out.append('\n**Version notes.** Measurements use the original explicit album or single version except where noted here:')
+out.append('\n**Version notes.** The study treats the original album or single version as the recording, except where noted here:')
 for n, title, note in vn: out.append(f"- #{n} {title}: {note}")
-
-# ---------------- 4c
-out.append('\n## 4c. Close calls and exclusions (genre)\n')
-out.append('Every song in the window that was checked as possible rap and either included despite a crossover profile or left out. **Included** = Billboard classified it as rap. **Excluded** = Billboard placed it on Hot R&B Songs or another non-rap chart, which rules out Hot Rap Songs. **Excluded (year-end absence)** = absent from the year-end Hot Rap, Hot R&B/Hip-Hop and Hot R&B lists despite a run that would rank there (strong but indirect). **Excluded (inferred)**, **(inferred from genre)**, **(unresolved)** and **(not searched)** rest on weaker inference or recollection. Every one of these is carried into 4d.\n')
-out.append('| First top-10 | Rank | Title | Artists | Decision | Evidence |')
-out.append('|---|---|---|---|---|---|')
-for o in in_window:
-    if not (o['prior'] == 'close' or o['cid'] not in final_ids): continue
-    st = status[o['cid']]
-    if o['cid'] in final_ids: dec = 'Included (rap)'
-    elif st['status'] == 'rap': dec = 'Rap, but outside the 100'
-    elif st['status'] == 'unverified': dec = 'Excluded (not searched)' if (ev_best(o['cid']) or {}).get('evidence_type') in ('model_knowledge_only', 'none', None) else 'Excluded (unresolved)'
-    elif soft_kind(o) == 'genre': dec = 'Excluded (inferred from genre)'
-    elif soft_kind(o) == 'yearend': dec = 'Excluded (year-end absence)'
-    elif soft_kind(o) == 'inferred': dec = 'Excluded (inferred)'
-    else: dec = 'Excluded'
-    b = ev_best(o['cid'])
-    full = (b or {}).get('evidence_summary') or ''
-    if st['basis'].startswith('Year-End'): basis = st['basis'] + '. ' + full
-    elif st['status'] == 'unverified' and b and b.get('evidence_type') not in ('model_knowledge_only', 'none'):
-        basis = 'Unresolved (no direct rap/R&B listing), ' + EVLAB.get(b['evidence_type'], b['evidence_type']) + ': ' + full
-    elif st['status'] == 'unverified':
-        rest = re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*|The prior expectation, which is not evidence, is that\s*', '', full).strip(' .;')
-        basis = 'Model recollection only, not searched. Expected: ' + (rest[:1].lower() + rest[1:] if rest else 'not rap') + '.'
-    elif b: basis = EVLAB.get(b['evidence_type'], b['evidence_type']) + ': ' + full
-    else: basis = st['basis']
-    ye = yearend_links(st['basis'] + ' ' + full)
-    lk = ' · '.join(ye) if (ye and (dec.startswith('Included') or dec in ('Excluded (inferred)', 'Excluded (year-end absence)'))) else (f"[{SITE.get(domain(b['source_urls'][0]), 'Billboard' if 'billboard.com' in domain(b['source_urls'][0]) else domain(b['source_urls'][0]))}]({b['source_urls'][0]})" if b and b.get('source_urls') else '')
-    out.append(f"| {o['first_top10']} | {o['rank']} | {esc(o['title'])} | {esc(o['artist'])} | {dec} | {short(basis, 300)}{' (' + lk + ')' if lk else ''} |")
-out.append('\n**Exclusion audit.** 209 other top-10 songs from the window were pre-tagged non-rap by artist and genre (pop, country, Latin, rock, R&B). A separate audit specifically checked 37 of them (8 searches plus year-end-list and rap-drought reasoning) and flagged none as rap. It left 6 rap-adjacent songs not conclusively checked ("Fancy Like", "Permission To Dance", "My Universe", "Fortnight", "I Had Some Help", "I Ain\'t Coming Back") and did not search the rest, which are plainly non-rap. Those exclusions therefore rest on the genre pre-tag. The audit also documented the reported rap top-10 drought: no hip-hop song reached the top 10 from "What Did I Miss?" (July 2025) until spring 2026, and Billboard reported no rap songs in the top 40 on the charts dated 2025-10-25 and 2025-11-01, a first since 1990.\n')
+# which catalog recording the measurements in 4b were taken from
+_ed = collections.Counter(((T.get(r['cid']) or {}).get('m') or {}).get('runtime_edition') for r in rows)
+_nocat = [f"#{r['n']} {r['title']}" for r in rows if not ((T.get(r['cid']) or {}).get('m') or {}).get('runtime_track')]
+_diff = []
+import unicodedata
+def _nm(x):
+    """Title without a (feat. ...) or (with ...) suffix, accents, case or punctuation."""
+    x = re.sub(r'\s*[\(\[](?:feat\.?|with|featuring)[^\)\]]*[\)\]]', '', x, flags=re.I)
+    x = unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode()
+    return re.sub(r'[^a-z0-9]', '', x.lower())
+for r in rows:
+    m_ = (T.get(r['cid']) or {}).get('m') or {}
+    tr_ = m_.get('runtime_track')
+    if tr_ and _nm(tr_) != _nm(r['title']):
+        _diff.append(f"#{r['n']} {r['title']}: \"{tr_}\" on *{m_.get('runtime_collection')}*")
+out.append(f"\n**Recording measured (table 4b).** The runtime and the preview clip come from the Apple catalog track matched by title and artist: "
+           f"{_ed.get('cleaned', 0)} are clean editions of explicit songs and {_ed.get('notExplicit', 0)} are entries Apple does not flag as explicit. "
+           f"Where an earlier cited runtime for the explicit version exists, the catalog track is within 2 seconds of it in every case, so a clean edition is treated as the same recording with words muted or replaced (an inference from length, not a listening check). "
+           f"The lyric record was matched to the track's length within 3 seconds. "
+           f"No catalog match: {', '.join(_nocat) or 'none'} (runtime cited, no clip). "
+           f"The catalog track name, collection and release date for every song are in `data/track_measurements.csv` (`m_catalog_track`, `m_catalog_collection`, `m_catalog_release_date`).")
+if _diff:
+    out.append('Catalog track names that differ from the chart title beyond a featuring credit (clean-edition titles):')
+    for d in _diff: out.append(f"- {d}")
 
 # ---------------- 4d
-out.append('\n## 4d. Boundary and open items\n')
+out.append('\n## 4d. Close calls and exclusions (genre)\n')
+out.append("Every song in the window that was checked as possible rap and either included despite a crossover profile or left out. **Included** = Billboard classified it as rap. **Excluded (non-rap chart)** = Billboard charts it on Hot R&B Songs or another non-rap genre chart. **Excluded (year-end lists)** = deduced from year-end lists read directly: the song is on a year-end Hot R&B/Hip-Hop or Hot 100 list at a rank where a rap title would also make the 50-title year-end Hot Rap Songs list, and it is not there. **Excluded (indirect)** and **(unresolved)** rest on weaker evidence and are carried into 4e.\n")
+out.append('| First top-10 | Rank | Title | Artists | Decision | Evidence |')
+out.append('|---|---|---|---|---|---|')
+DEC = {'direct': 'Excluded (non-rap chart)', 'yearend': 'Excluded (year-end lists)', 'indirect': 'Excluded (indirect)', 'unresolved': 'Excluded (unresolved)'}
+for o in in_window:
+    if not (o['prior'] == 'close' or o['cid'] not in final_ids): continue
+    st = status[o['cid']]; b = ev_best(o['cid']) or {}
+    if o['cid'] in final_ids: dec = 'Included (rap)'; ev = genre_evidence(o['cid'])
+    elif st['status'] == 'rap': dec = 'Rap, but outside the 100'; ev = genre_evidence(o['cid'])
+    else:
+        dec = DEC[grade[o['cid']]]
+        full_ = b.get('evidence_summary') or st['basis']
+        if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): full_ = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', full_).strip()
+        tn = table_note(o)
+        lk = ''
+        if b.get('source_urls'):
+            u = b['source_urls'][0]; d = domain(u)
+            lk = f" ([{SITE.get(d, 'Billboard' if 'billboard.com' in d else d)}]({u}))"
+        ev = short(full_, 260) + lk + (f" **Tables read directly:** {tn}." if tn else '')
+    out.append(f"| {o['first_top10']} | {o['rank']} | {esc(o['title'])} | {esc(o['artist'])} | {dec} | {ev} |")
+out.append('\n**Exclusion audit.** 209 other top-10 songs from the window were pre-tagged non-rap by artist and genre (pop, country, Latin, rock, R&B). A separate audit specifically checked 37 of them (8 searches plus year-end-list and rap-drought reasoning) and flagged none as rap. It left 6 rap-adjacent songs not conclusively checked ("Fancy Like", "Permission To Dance", "My Universe", "Fortnight", "I Had Some Help", "I Ain\'t Coming Back") and did not search the rest, which are plainly non-rap. A cross-check in this pass against the full year-end Hot Rap Songs lists for 2021–2025 found none of the excluded songs on any of them. The audit also documented the reported rap top-10 drought: no hip-hop song reached the top 10 from "What Did I Miss?" (July 2025) until spring 2026, and Billboard reported no rap songs in the top 40 on the charts dated 2025-10-25 and 2025-11-01, a first since 1990.\n')
+
+# ---------------- 4e
+out.append('\n## 4e. Boundary and open items\n')
 out.append(f"- **#100 is {rows[-1]['title']}** ({rows[-1]['first_top10']}, #{rows[-1]['rank']}). The next rap songs in line are " + '; '.join(S['boundary_next'][:5]) + '.')
-if prov:
-    out.append('- **Included without direct classification evidence (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in prov) + '. Each was pre-tagged rap. A targeted re-check (four searches each) found only indirect evidence: a Hot R&B/Hip-Hop Songs peak, which does not separate rap from R&B, or album-mates on rap charts. If one is not rap, every later song moves up one place and the next song in line enters at #100. One look at Rap Streaming Songs for the release week settles each (2024-04-06 for "Cinderella" and "We Don\'t Trust You", 2024-01-27 for "Nee-nah", 2023-08-12 for "FE!N"). For "FE!N" the re-check is weakly contrary: searches of Rap Streaming Songs pages from August–September 2023 returned other Utopia songs but never FE!N, though search snippets show only partial pages.')
-if inf:
-    out.append('- **Included by album-mate inference (‡):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in inf) + '. Album-mates from the same release week were on Hot Rap Songs or Rap Streaming Songs, but no retrieved page shows ' + plural(len(inf), 'this title', 'these titles') + ' on a rap chart. For "Reincarnated" the inference is this: on the Hot Rap Songs page dated 2024-12-07, "Man At The Garden" (Hot 100 #9) is a new entry at #7, so six rap songs outranked it, and the six GNX tracks above it on the Hot 100 would be those six (five of them are confirmed rap). That assumes the other songs in the Hot 100 top 8 that week were not rap, which was not checked. The targeted re-check found a Hot R&B/Hip-Hop Songs peak of No. 6 and no Hot Rap Songs row in Wikipedia\'s chart table (search-result summary; see `data/raw/recheck_classification.md`). Reading the full 2024-12-07 Hot Rap Songs page settles it.')
-if soft_excl:
+if summ:
+    out.append('- **Included on search-summary evidence (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in summ) + ". For each, a web-search summary of a Billboard chart page or report places the song on Rap Streaming Songs, Rap Airplay or Hot Rap Songs (rows in `data/classification_evidence.csv`), and Wikipedia gives a Hot R&B/Hip-Hop Songs peak, but no table with a rap column lists it and the Billboard page itself was not opened. Two collaborators' tables show a dash in the rap column for \"Ran To Atlanta\" and \"Shabang\"; the same tables show dashes for 2026 J. Cole songs that J. Cole's own table gives rap peaks of 8 and 9, so those dashes are treated as unfilled cells, not as evidence. If any of these is not rap, every later song moves up one place and \"Love All\" enters at #100.")
+if soft:
     def why(o):
-        k = soft_kind(o); b = (ev_best(o['cid']) or {}).get('evidence_summary') or status[o['cid']]['basis']
-        if k == 'unresolved': return 'not searched; model recollection only' if (ev_best(o['cid']) or {}).get('evidence_type') in ('model_knowledge_only', 'none', None) else 'unresolved: ' + short(b, 140)
-        if k == 'genre': return 'inferred from genre; the Hot Rap Songs page for that week was not checked'
-        return short(re.sub(r'^Inferred absence\.\s*', 'inferred absence: ', re.sub(r'^Inferred:\s*', 'inferred: ', b)), 160)
-    weak = [o for o in soft_excl if soft_kind(o) != 'yearend']; ye_abs = [o for o in soft_excl if soft_kind(o) == 'yearend']
-    out.append('- **Excluded on inference, recollection or unresolved evidence, ranked above the cut** (if any is rap, it enters at its date and rank, and #100 drops out): ' +
-               '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']} ({why(o)})" for o in weak) + '.')
-    if ye_abs:
-        out.append('- **Excluded because they are absent from all three year-end genre lists** (Hot Rap, Hot R&B/Hip-Hop and Hot R&B Songs) despite top-10 runs that would rank there: ' +
-                   '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" for o in ye_abs) + '. This is strong but indirect evidence; no weekly rap-chart page was checked for these.')
-out.append('- **Newest end.** No rap-classified song is known to have first reached the top 10 between the chart dated 2026-05-30 and the 2026-11-21 starting chart. "Solar Eclipse" (Drake & Don Toliver, 2026-10-17 #5) is R&B-classified (Billboard: a No. 1 debut on Hot R&B Songs) and "Boston" (2026-07-25 #6) is a country song. "Babydoll" (2026-10-24 #10) and "Nicole Kidman" (2026-10-17 #9) are excluded on genre inference only; if either is rap, it becomes #1 or #2 and TSU drops out.')
+        b = (ev_best(o['cid']) or {}).get('evidence_summary') or status[o['cid']]['basis']
+        return short(b, 170) + (f" Tables: {table_note(o)}." if table_note(o) else '')
+    out.append('- **Excluded on indirect or unresolved evidence, ranked above the cut** (if any is rap, it enters at its date and rank, and #100 drops out): ' + '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']} ({why(o)})" for o in soft) + '.')
+if yend:
+    out.append('- **Excluded by deduction from year-end lists:** ' + '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']}" for o in yend) + '. The year-end rap and R&B/hip-hop orders are not identical (they invert in 13 to 17 places a year), so the deduction is strong only away from the bottom of the lists; none of these sits near it.')
+out.append('- **Newest end.** No rap-classified song is known to have first reached the top 10 between the chart dated 2026-05-30 and the 2026-11-21 starting chart. "Solar Eclipse" (Drake & Don Toliver, 2026-10-17 #5) is R&B-classified (Billboard: a No. 1 debut on Hot R&B Songs; Don Toliver\'s table shows Hot R&B/Hip-Hop Songs No. 1 and a dash for rap). "Boston" (2026-07-25 #6) is a country song. "Babydoll" (2026-10-24 #10) is on Hot Rock & Alternative Songs (peak No. 2). "Nicole Kidman" (2026-10-17 #9) is excluded on indirect evidence only: a Billboard headline calls it a pop hit and no genre-chart row was found.')
 out.append('- **The cut splits one chart week, as the ordering rule requires.** *Certified Lover Boy* put nine songs in the top 10 on the chart dated 2021-09-18. Ties in a week are broken by position that week, so "TSU" (#9) is #100 and "Love All" (#10) is the first song outside the list.')
 out.append('- **No missing chart weeks** were found in the weekly Hot 100 series for the window.')
 open(REPO + '04-reference-list.md', 'w').write('\n'.join(out) + '\n')
 with open(REPO + 'data/classification_evidence.csv', 'w', newline='') as f:
-    w = csv.writer(f); w.writerow(['cid', 'first_top10', 'rank', 'title', 'artists', 'prior_tag', 'final_status', 'basis', 'best_evidence_type', 'best_confidence', 'source_urls', 'hot100_rank_reported'])
+    w = csv.writer(f); w.writerow(['cid', 'first_top10', 'rank', 'title', 'artists', 'prior_tag', 'final_status', 'evidence_tier', 'basis', 'earlier_basis', 'year_end_rap', 'year_end_rbhh', 'year_end_hot100',
+                                   'discography_rap_peak', 'discography_rap_pages', 'discography_rap_dash_pages', 'wikipedia_genre_charts', 'best_evidence_type', 'best_confidence', 'source_urls', 'hot100_rank_reported'])
     for o in cands:
         st = status[o['cid']]; b = ev_best(o['cid']) or {}
-        w.writerow([o['cid'], o['first_top10'], o['rank'], o['title'], o['artist'], o['prior'], st['status'], st['basis'], b.get('evidence_type'), b.get('confidence'), ' '.join(b.get('source_urls') or []), b.get('hot100_rank_reported')])
-print('rendered', len(rows), 'rows;', len(prov), 'provisional;', len(inf), 'album-mate inferred;', len(soft_excl), 'soft exclusions')
+        fmt = lambda xs: ' '.join(f'{y}:{k}' for y, k in xs)
+        w.writerow([o['cid'], o['first_top10'], o['rank'], o['title'], o['artist'], o['prior'], st['status'], st.get('tier'), st['basis'], st.get('earlier_basis'), fmt(st.get('ye_rap') or []), fmt(st.get('ye_rbhh') or []), fmt(st.get('ye_hot100') or []),
+                    st.get('discog_rap_peak'), ' '.join(st.get('discog_rap_pages') or []), ' '.join(st.get('discog_rap_dash_pages') or []), ' '.join(st.get('wiki_genre_charts') or []),
+                    b.get('evidence_type'), b.get('confidence'), ' '.join(b.get('source_urls') or []), b.get('hot100_rank_reported')])
+print('rendered', len(rows), 'rows;', len(summ), 'summary-tier;', len(soft), 'soft exclusions;', len(yend), 'year-end deductions;', 'grades', dict(collections.Counter(grade.values())))
