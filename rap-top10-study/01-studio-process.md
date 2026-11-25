@@ -163,7 +163,7 @@ Counts are from the style-tagged groups: trap or melodic trap 50 songs, verse-le
 
 | Decision | Verse-led | Trap | Drill |
 |---|---|---|---|
-| Tempo / feel | Too few clear clips to say (2 of 7); 3 of the 4 resolved readings are slow [M-1] | Slow pocket: felt median 71, middle half 64–78 (40 clear clips) [M-1] | Two hits only: "Princess Diana" 148/74 (clear); "Barbie World" unresolved (clip 108, listed 144) [M-1] |
+| Tempo / feel | Too few clear clips to say (2 of 7); 3 of the 4 resolved readings are slow [M-1] | Slow pocket: felt median 71, middle half 63.5–78 (40 clear clips) [M-1] | Two hits only: "Princess Diana" 148/74 (clear); "Barbie World" unresolved (clip 108, listed 144) [M-1] |
 | Pocket | Straight felt 16ths; rhymes on 2 & 4 plus internal [J] | Triplets and repeated cadences; room for ad-libs [J] | Pickups into the bar; staccato; rests around 808 slides [J] |
 | Central phrase | Refrain line, or no hook with a return anchor (2/8 have no hook) [M-9] | Chant or title repetition; hook in 45/48 [M-3] | Ad-lib/catchphrase identity plus a short hook [J] |
 | Opening | Sharpest image first [J] | Hook before verse 1 in 20/45; first hook at a median 0:36 [M-3] | Hook before verse 1 in both tagged hits [M-3]; tag or ad-lib, then pickup into the verse [J] |

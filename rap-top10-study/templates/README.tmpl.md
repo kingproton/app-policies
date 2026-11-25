@@ -16,7 +16,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 
 | Area | Status |
 |---|---|
-| Hot 100 first top-10 dates | **Verified** for 100 of 100 against Wikipedia's yearly top-ten lists. |
+| Hot 100 first top-10 dates | **Verified** for {{ w_match() }} of {{ g('all','n_songs') }} against Wikipedia's yearly top-ten lists. |
 | Hot 100 ranks | **Verified** for {{ cc('billboard_canada','match') }} of the {{ bc_hosted() }} list songs whose chart week Billboard Canada hosts (from {{ cv_first() }}). The other {{ 100 - bc_hosted() }} ranks come from the weekly mirror, which matches Billboard Canada in {{ cv_full() }} of {{ cv_weeks() }} hosted weeks ({{ cv_all100() }} on every title, {{ cv_one_off() }} with one title spelled differently). |
 | Rap classification | **{{ tier('table') }} of 100** rest on a Billboard rap-chart figure read directly from a table. **{{ tier('summary') }}** (all Drake album cuts, marked †) rest on Billboard pages known only through search summaries. No dispute found changes the list. Above the cut, {{ n_indirect() }} excluded candidates rest on indirect evidence and {{ n_yearend() }} on a deduction from year-end lists; see `04-reference-list.md`, 4d and 4e. |
 | Runtime | **Measured** for {{ top('runtime_basis')['catalog'] }} from the Apple catalog; cited for the other {{ top('runtime_basis').get('cited', 0) }}. |
@@ -31,7 +31,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 ## How the study was built (short)
 
 - **Reference set:** first top-10 week per song, from the full weekly Hot 100 history.
-  - 155 rap and possible-rap candidates were checked song by song. Full year-end Hot Rap Songs lists for 2021–2025 and the Hot Rap Songs columns of artist discography tables ({{ dash_read() }} pages read, {{ dash_tables() }} with a rap column, {{ n_rap_tables() }} of them listing a top-10 arrival) were then read directly and applied.
+  - {{ n_candidates() }} rap and possible-rap candidates were checked song by song. Full year-end Hot Rap Songs lists for 2021–2025 and the Hot Rap Songs columns of artist discography tables ({{ dash_read() }} pages read, {{ dash_tables() }} with a rap column, {{ n_rap_tables() }} of them listing a top-10 arrival) were then read directly and applied.
   - 209 other top-10 songs were pre-tagged non-rap by artist and genre. A separate audit checked 37 of them and flagged none as rap; none of the excluded songs appears on any year-end rap list.
 - **Measurements (2026-11-25):** Apple catalog durations and preview clips, and LRCLIB time-synced lyric records. No lyric text and no audio is stored; only derived numbers are.
   - Felt tempo comes from a backbeat estimator that was tested on {{ synth('patterns') }} synthetic drum patterns before use ({{ synth('correct') }} read correctly).
@@ -46,11 +46,11 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 |---|---|
 | `data/reference_100.csv` | The 100 songs: date, rank, genre tag, classification basis, evidence tier and sources, chart path (debut or climb, peak, weeks in top 10), album-bomb flag |
 | `data/track_measurements.csv` | Per-track documented facts with basis codes, and the measured columns (`m_…`): runtime, `m_grid_bpm` and `m_felt_bpm` (`m_pulse_bpm` is the raw detected pulse; the grid is the larger of pulse and felt), first line, hook timing, section order and lengths, density, and the second-run check. Columns without the `m_` prefix (`grid_bpm`, `felt_bpm`, `hook_before_first_verse`, …) are the earlier search-based research values, not measurements |
-| `data/classification_evidence.csv` | All 155 candidates with final status, evidence tier, year-end ranks and discography rap peaks |
+| `data/classification_evidence.csv` | All {{ n_candidates() }} candidates with final status, evidence tier, year-end ranks and discography rap peaks |
 | `data/measured/` | Derived measurement data: chart checks, Wikipedia list transcriptions, genre tables, discography dash conflicts, Apple catalog matches, lyric structure (detector, review and the second review run), audio feel and the synthetic-pattern test, page-claim verdicts |
 | `data/raw/` | Frozen research data from the search-based pass, plus the computed statistics (`findings_stats.json`, `measured_stats.json`) |
 | `scripts/` | The build: classification, merges, statistics and renderers. `scripts/measure/` holds the fetch and measurement scripts. `scripts/corrections.py` holds every hand-coded correction |
-| `templates/` | The document templates. Counts and medians in files 01, 02, 03 and 05 and in this README are filled in from the statistics by `scripts/render_docs.py`, and named examples are guarded: the build stops if the data no longer supports one |
+| `templates/` | The document templates. Counts and medians in files 01, 02, 03 and 05 and in this README are filled in from the statistics by `scripts/render_docs.py`, and named examples are guarded: the build stops if the data no longer supports one. The exceptions are the sizes of the earlier pass's exclusion audit (209 pre-tagged songs, 37 audited), which are typed because that pass's candidate file is not committed |
 
 ## Re-running the study
 

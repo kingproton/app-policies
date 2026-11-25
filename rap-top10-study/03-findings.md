@@ -65,7 +65,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - *Mid:* "Paint The Town Red" 100, "Hey Now" 102, "Squabble Up" 104, "Circo Loco" 104, "2 Hard 4 The Radio" 105, "First Class" 107.
   - *Fast:* "Houdini" 127, "Super Freaky Girl" 133, "Noid" 143.5.
 - **Leaning (6):** the clip favours one reading by a small margin: "Redrum" 86 (not 172), "First Person Shooter" 61 (not 122), "Players" 105 (not 52.5), "N95" 70 (not 140), "Big Energy" 106 (not 53), "TSU" 65 (not 130).
-- **Resolved by range, not by the clip (7):** the clip did not separate the two readings, and one of them falls outside 55–150 BPM: "National Treasures" 96.5 (not 48.5), "TV Off" 101 (not 50.5), "Reincarnated" 91 (not 182), "Not Like Us" 101 (not 50.5), "7 Minute Drill" 85.5 (not 171), "Hiss" 83.5 (not 167), "Lovin On Me" 105 (not 52.5). For 5 of these the reading shown scored slightly lower in the clip than the one ruled out ("National Treasures", "Reincarnated", "Not Like Us", "Hiss", "Lovin On Me").
+- **Resolved by range, not by the clip (7):** one of the two readings falls outside 55–150 BPM, so the other is shown: "National Treasures" 96.5 (not 48.5), "TV Off" 101 (not 50.5), "Reincarnated" 91 (not 182), "Not Like Us" 101 (not 50.5), "7 Minute Drill" 85.5 (not 171), "Hiss" 83.5 (not 167), "Lovin On Me" 105 (not 52.5). On 6 of them the clip did not separate the two readings (margin 0.05 or less); on "National Treasures" (toward 48.5, margin 0.09) it leaned to the reading that was ruled out. For 5 of these the reading shown scored lower in the clip than the one ruled out ("National Treasures", "Reincarnated", "Not Like Us", "Hiss", "Lovin On Me").
 - **Not resolved (11):**
   - Both readings fit the clip (7): "Ran To Atlanta" (72.5 or 145), "All The Way" (67.5 or 135), "Nokia" (63 or 126), "IDGAF" (68.5 or 136.5), "FE!N" (74 or 148), "United In Grief" (65.5 or 131.5), "Fair Trade" (58.5 or 117).
   - An unclear clip reading that no published tempo matches at the same, half or double speed (4): "Man At The Garden" (clip 80.5, listed 92), "Calling For You" (clip 76, listed 121), "Barbie World" (clip 108, listed 144), "Champagne Poetry" (clip 70.5, listed 87). The clip may have been read on a dotted pulse, or the listing may be wrong; neither is settled here.
@@ -339,7 +339,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 | How the performance changes between sections | **Documented only**: cited delivery observations on 54 songs and page statements on 64 (M-12); return codes in table 4c. Not measured | Page text and cited sources |
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |
-| Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level; a documented beat or bed change on 14 tracks (M-11) | Needs the full recording or stems |
+| Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level. Documented instead (M-11): a beat switch on 18 songs, and, in the earlier pass's coding of what changes between sections, a beat or bed change on 14 of 26 coded songs | Needs the full recording or stems |
 | Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for 26 tracks in table 4c (M-11), and 1 more is coded as naming no specific change | — |
 | A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means the record was read and no returning block was accepted (6 where both readings agree, 1 where a second reader ruled); "no matching record" means there was no usable record | — |
 
@@ -361,7 +361,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 
 - **Basis codes for measured values** are in table 4b: feel **M / L / I / ?**; lyric timing **A / J / G / X**. Definitions are in `05-measurement-method.md`.
 - **Basis ladder for documented facts:**
-  - **P**: the saved Wikipedia or Songfacts page text states the fact or names the work, a skeptic upheld that, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted), or on a new page statement. `05-measurement-method.md` gives the split.
+  - **P**: after the skeptic's check, the saved Wikipedia or Songfacts page text states the fact or names the work, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted; this includes 27 verdicts the skeptic downgraded from supported), on a new page statement, or on a claim recoded to what the page states (1 opening). `05-measurement-method.md` gives the split.
   - **S**: a cited source supports the claim and the earlier verifier did not reject it. These were read through web-search summaries.
   - **U**: cited but not confirmed, or contradicted by page text. Kept for transparency, never counted.
   - **R**: unverified recollection. Never counted.

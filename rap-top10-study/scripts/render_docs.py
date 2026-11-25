@@ -108,6 +108,9 @@ def g(group, key): return MS[group][key]
 def q(group, key, part='median', fmt='{}'):
     v = MS[group][key][part]
     return fmt.format(v) if not isinstance(v, str) else v
+def hq(group, key, part='median'):
+    """A felt-tempo statistic to the nearest half BPM, as the counts table prints it."""
+    return f"{round(float(MS[group][key][part]) * 2) / 2:g}"
 def num(frac): return int(str(frac).split('/')[0])
 def den(frac): return int(str(frac).split('/')[1])
 def pct(frac): return f"{100 * num(frac) / den(frac):.0f}%"
@@ -270,6 +273,31 @@ def po(kind, key): return (MS_ALL['page_origins'].get(kind) or {}).get(key, 0)
 def cs(key): return MS_ALL['claims_summary'][key]
 def fsa(key): return FS['all'][key]
 def sw_recollection(): return FS['all']['switch_no_any'] + FS['all']['switch_yes_rec']
+_CC = json.load(open(WORK + 'chart_check.json'))
+def w_match():
+    """List songs whose first top-10 date matches Wikipedia's top-ten entry date."""
+    return sum(1 for r in rows if (_CC.get(str(r['cid'])) or {}).get('wikipedia_entry_date', '').startswith('match'))
+def n_candidates():
+    import csv as _csv
+    return sum(1 for _ in _csv.DictReader(open(REPO + 'data/classification_evidence.csv')))
+_GT = json.load(open(REPO + 'data/measured/genre_tables.json'))
+def summ_dash():
+    """Summary-tier list songs whose only rap-column entry in a discography table is a dash."""
+    ids = {r['title'] for r in rows if r['evidence_tier'] == 'summary'}
+    v = [g for g in _GT if g.get('in_final') and g['title'] in ids]
+    if any(g.get('discog_rap_peak') is not None for g in v): raise KeyError('a summary-tier song now has a table rap peak')
+    return sum(1 for g in v if g.get('discog_rap_dash_pages'))
+def rec_titles(): return ' and '.join(f'"{x}"' for x in cs('contradicted_recoded_titles'))
+def pulse_removed_clause():
+    v = MS_ALL['pulse_vs_listings'].get('disagree_matches_removed_outlier') or []
+    if not v: return ''
+    return f" {len(v)} of the {MS_ALL['pulse_vs_listings']['disagree_single_listing']} ({', '.join(v)}) does match a listing that the earlier pass set aside as an outlier."
+def leaned_clause():
+    v = MS_ALL.get('feel_range_leaned_away') or []
+    n = cnt('feel_range_rule')
+    if not v: return f"On all {n} the clip did not separate the two readings."
+    return (f"On {n - len(v)} of them the clip did not separate the two readings (margin {MS_ALL['feel_range_unclear_max_margin']:.2f} or less); "
+            f"on {', '.join(v)} it leaned to the reading that was ruled out.")
 def ret_sum():
     """Return-change types: say how many songs have both a beat and a voice change, and check the parts add up. Prints the clause or nothing."""
     a = FS['all']; both = a['return_beat'] + a['return_voice'] + a['return_register'] + a['return_delivery'] - (a['return_sourced_tracks'] - a['return_none'])

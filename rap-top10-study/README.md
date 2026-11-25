@@ -50,7 +50,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 | `data/measured/` | Derived measurement data: chart checks, Wikipedia list transcriptions, genre tables, discography dash conflicts, Apple catalog matches, lyric structure (detector, review and the second review run), audio feel and the synthetic-pattern test, page-claim verdicts |
 | `data/raw/` | Frozen research data from the search-based pass, plus the computed statistics (`findings_stats.json`, `measured_stats.json`) |
 | `scripts/` | The build: classification, merges, statistics and renderers. `scripts/measure/` holds the fetch and measurement scripts. `scripts/corrections.py` holds every hand-coded correction |
-| `templates/` | The document templates. Counts and medians in files 01, 02, 03 and 05 and in this README are filled in from the statistics by `scripts/render_docs.py`, and named examples are guarded: the build stops if the data no longer supports one |
+| `templates/` | The document templates. Counts and medians in files 01, 02, 03 and 05 and in this README are filled in from the statistics by `scripts/render_docs.py`, and named examples are guarded: the build stops if the data no longer supports one. The exceptions are the sizes of the earlier pass's exclusion audit (209 pre-tagged songs, 37 audited), which are typed because that pass's candidate file is not committed |
 
 ## Re-running the study
 

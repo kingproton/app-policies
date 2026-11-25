@@ -199,6 +199,8 @@ OUT['feel_unresolved'] = [f"\"{ttl(r)}\" ({hbpm(min(f['estimate_bpm'], f['other_
 # an unclear clip reading that no published listing matches (at the same, half or double tempo): shown, not resolved
 OUT['feel_listing_conflict'] = [f"\"{ttl(r)}\" (clip {hbpm(f['felt_bpm_from_clip'])}, listed {' and '.join(f'{v:g}' for v in f['listed_bpm'])})" for r, t, f in F if f.get('listing_conflict')]
 OUT['feel_range_lower_score'] = [f"\"{ttl(r)}\"" for r, t, f in F if f['basis'] == 'I' and f['felt_bpm'] != f['estimate_bpm']]
+OUT['feel_range_leaned_away'] = [f"\"{ttl(r)}\" (toward {hbpm(f['estimate_bpm'])}, margin {f['margin']:.2f})" for r, t, f in F if f['basis'] == 'I' and f.get('confidence') == 'leaning' and f['felt_bpm'] != f['estimate_bpm']]
+OUT['feel_range_unclear_max_margin'] = max([f['margin'] for r, t, f in F if f['basis'] == 'I' and f.get('confidence') != 'leaning'] or [0])
 OUT['feel_range_rule'] = [f"\"{ttl(r)}\" {hbpm(f['felt_bpm'])} (not {hbpm(f['other_reading_bpm'] if f['felt_bpm'] == f['estimate_bpm'] else f['estimate_bpm'])})" for r, t, f in F if f['basis'] == 'I']
 OUT['feel_leaning'] = [f"\"{ttl(r)}\" {hbpm(f['felt_bpm'])} (not {hbpm(f['other_reading_bpm'] if f['felt_bpm'] == f['estimate_bpm'] else f['estimate_bpm'])})" for r, t, f in F if f['basis'] == 'L']
 OUT['feel_displaced'] = [f"#{r['n']} {r['title']}" for r, t, f in F if f['basis'] == 'M' and f.get('displaced_backbeat')]
@@ -220,8 +222,18 @@ for r, t, f in F:
     if not ok:
         if max(lv) / min(lv) > 1.025: n_conf_list += 1          # the listings themselves disagree
         if f['basis'] == 'M': clear_dis.append(f"\"{ttl(r)}\"")
+# a mismatch whose pulse does match a listing that the earlier pass set aside as an outlier
+dis_removed = []
+for r, t, f in F:
+    lv = sorted({float(x['bpm']) for x in t.get('tempo_listed') or [] if x.get('bpm')})
+    rm = [float(x['bpm']) for x in t.get('tempo_outliers_removed') or [] if isinstance(x, dict) and x.get('bpm')]
+    if not lv or not rm: continue
+    p = f['pulse_bpm']
+    if not any(abs(v - p * k) / (p * k) <= 0.025 for v in lv for k in (0.5, 1.0, 2.0)) and any(abs(v - p * k) / (p * k) <= 0.025 for v in rm for k in (0.5, 1.0, 2.0)):
+        dis_removed.append(f"\"{ttl(r)}\"")
 OUT['pulse_vs_listings'] = dict(agree=len(agree), disagree=len(disagree), no_listing=len(nolist), disagree_list=disagree,
-                                disagree_listings_conflict=n_conf_list, disagree_single_listing=len(disagree) - n_conf_list, disagree_clear=clear_dis)
+                                disagree_listings_conflict=n_conf_list, disagree_single_listing=len(disagree) - n_conf_list, disagree_clear=clear_dis,
+                                disagree_matches_removed_outlier=dis_removed)
 # how published listings relate to the felt tempo (clear readings only)
 rel = collections.Counter()
 for r, t, f in F:
@@ -309,6 +321,12 @@ if os.path.exists(cp):
     coded = lambda i: i in ('opening', 'beat_switch', 'hook_first') or i.startswith('return_') or i.startswith('delivery_')
     con = [v['id'] for t in PCL.values() for v in t['verdicts'] if v['final'] == 'contradicted']
     OUT['claims_summary']['contradicted_with_basis_code'] = sum(1 for i in con if coded(i)); OUT['claims_summary']['contradicted_no_basis_code'] = sum(1 for i in con if not coded(i))
+    OUT['claims_summary']['skeptic_downgraded'] = sum(1 for t in PCL.values() for v in t['verdicts'] if v['first_verdict'] == 'supported' and v['final'] == 'partly_supported')
+    _rec = {str(r['cid']): r for r, t in R if t.get('opening_page_origin') == 'recoded'}
+    _rec_con = [k for k, t in PCL.items() if str(k) in _rec and any(v['id'] == 'opening' and v['final'] == 'contradicted' for v in t['verdicts'])]
+    OUT['claims_summary']['contradicted_recoded'] = len(_rec_con)
+    OUT['claims_summary']['contradicted_recoded_titles'] = [ttl(_rec[k]) for k in _rec_con]
+    OUT['claims_summary']['contradicted_to_u'] = OUT['claims_summary']['contradicted_with_basis_code'] - len(_rec_con)
 OUT['page_origins'] = dict(
     borrowings=dict(collections.Counter(x.get('page_origin') for r, t in R for x in (t.get('samples') or []) if x.get('status') == 'page')),
     borrowings_search_summary_only=[f"#{r['n']} {r['title']}: {x.get('work', '')[:50]}" for r, t in R for x in (t.get('samples') or []) if x.get('status') == 'confirmed'],

@@ -28,12 +28,12 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 
 Ranked by how directly each one changes a writing, arrangement or delivery decision, weighted by how many songs back it.
 
-### M-1. The pocket is a slow backbeat: felt {{ q('all','felt_clear','q1','{:.0f}') }}–{{ q('all','felt_clear','q3','{:.0f}') }} BPM in the middle half, whatever the published BPM says
+### M-1. The pocket is a slow backbeat: felt {{ hq('all','felt_clear','q1') }}–{{ hq('all','felt_clear','q3') }} BPM in the middle half, whatever the published BPM says
 
 - **Effect:** delivery and writing. The felt pulse sets how long a bar lasts and where the snare answers you. Ranked first because it is the first decision in the session.
 - **Count:**
   - Of {{ g('all','n_clip') }} preview clips, **{{ g('all','feel_basis')['M'] }}** show a clear backbeat (a snare or clap on felt beats 2 and 4).
-  - Of those {{ g('all','feel_basis')['M'] }}: **{{ cls('all','feel_class_clear','slow') }} are slow** (felt under 90), **{{ cls('all','feel_class_clear','mid') }} are mid-tempo** (felt {{ fr('mid') }}) and **{{ cls('all','feel_class_clear','fast') }} are fast** (felt {{ fr('fast') }}). Median felt tempo **{{ q('all','felt_clear','median','{:g}') }} BPM**, middle half {{ q('all','felt_clear','q1','{:.0f}') }}–{{ q('all','felt_clear','q3','{:.0f}') }}.
+  - Of those {{ g('all','feel_basis')['M'] }}: **{{ cls('all','feel_class_clear','slow') }} are slow** (felt under 90), **{{ cls('all','feel_class_clear','mid') }} are mid-tempo** (felt {{ fr('mid') }}) and **{{ cls('all','feel_class_clear','fast') }} are fast** (felt {{ fr('fast') }}). Median felt tempo **{{ q('all','felt_clear','median','{:g}') }} BPM**, middle half {{ hq('all','felt_clear','q1') }}–{{ hq('all','felt_clear','q3') }}.
   - Adding the {{ g('all','feel_basis').get('L',0) + g('all','feel_basis').get('I',0) }} readings resolved with a caveat gives {{ cls('all','feel_class_all_resolved','slow') }} slow / {{ cls('all','feel_class_all_resolved','mid') }} mid / {{ cls('all','feel_class_all_resolved','fast') }} fast of {{ g('all','felt_all_resolved')['n'] }}.
   - **Published BPMs mostly show the doubled number.** Among clear clips with an earlier BPM listing, the listing sits at double the felt tempo for {{ top('listing_vs_felt').get('listed at double the felt tempo', 0) }}, at the felt tempo for {{ top('listing_vs_felt').get('listed at the felt tempo', 0) }}, at both for {{ top('listing_vs_felt').get('listed at double the felt tempo and listed at the felt tempo', 0) }}, and matches neither for {{ top('listing_vs_felt').get('listing matches neither', 0) }}. That is the "144 on the grid, 72 in the pocket" convention you already use.
 - **Examples (pulse/felt from the clip):**
@@ -41,7 +41,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - *Mid:* "Paint The Town Red" {{ pf('Paint The Town Red') }}, "Hey Now" {{ pf('Hey Now') }}, "Squabble Up" {{ pf('Squabble Up') }}, "Circo Loco" {{ pf('Circo Loco') }}, "2 Hard 4 The Radio" {{ pf('2 Hard 4 The Radio') }}, "First Class" {{ pf('First Class') }}.
   - *Fast:* "Houdini" {{ pf('Houdini') }}, "Super Freaky Girl" {{ pf('Super Freaky Girl') }}, "Noid" {{ pf('Noid') }}.
 - **Leaning ({{ cnt('feel_leaning') }}):** the clip favours one reading by a small margin: {{ lst('feel_leaning', None, ', ') }}.
-- **Resolved by range, not by the clip ({{ cnt('feel_range_rule') }}):** the clip did not separate the two readings, and one of them falls outside 55–150 BPM: {{ lst('feel_range_rule', None, ', ') }}. For {{ cnt('feel_range_lower_score') }} of these the reading shown scored slightly lower in the clip than the one ruled out ({{ lst('feel_range_lower_score', None, ', ') }}).
+- **Resolved by range, not by the clip ({{ cnt('feel_range_rule') }}):** one of the two readings falls outside 55–150 BPM, so the other is shown: {{ lst('feel_range_rule', None, ', ') }}. {{ leaned_clause() }} For {{ cnt('feel_range_lower_score') }} of these the reading shown scored lower in the clip than the one ruled out ({{ lst('feel_range_lower_score', None, ', ') }}).
 - **Not resolved ({{ g('all','feel_basis').get('?',0) }}):**
   - Both readings fit the clip ({{ cnt('feel_unresolved') }}): {{ lst('feel_unresolved', None, ', ') }}.
   - An unclear clip reading that no published tempo matches at the same, half or double speed ({{ cnt('feel_listing_conflict') }}): {{ lst('feel_listing_conflict', None, ', ') }}. The clip may have been read on a dotted pulse, or the listing may be wrong; neither is settled here.

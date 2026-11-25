@@ -5054,6 +5054,10 @@
   "\"Hiss\"",
   "\"Lovin On Me\""
  ],
+ "feel_range_leaned_away": [
+  "\"National Treasures\" (toward 48.5, margin 0.09)"
+ ],
+ "feel_range_unclear_max_margin": 0.049,
  "feel_range_rule": [
   "\"National Treasures\" 96.5 (not 48.5)",
   "\"TV Off\" 101 (not 50.5)",
@@ -5144,6 +5148,9 @@
    "\"Search & Rescue\"",
    "\"Forever\"",
    "\"Jimmy Cooks\""
+  ],
+  "disagree_matches_removed_outlier": [
+   "\"United In Grief\""
   ]
  },
  "listing_vs_felt": {
@@ -6263,7 +6270,13 @@
   "sent_to_skeptic": 609,
   "first_reader_only": 279,
   "contradicted_with_basis_code": 4,
-  "contradicted_no_basis_code": 26
+  "contradicted_no_basis_code": 26,
+  "skeptic_downgraded": 27,
+  "contradicted_recoded": 1,
+  "contradicted_recoded_titles": [
+   "Family Matters"
+  ],
+  "contradicted_to_u": 3
  },
  "page_origins": {
   "borrowings": {

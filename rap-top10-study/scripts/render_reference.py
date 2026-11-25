@@ -24,11 +24,37 @@ EVLAB = {'billboard_chart_page': 'Billboard chart page', 'billboard_article': 'B
 def esc(s): return (s or '').replace('|', '/').replace('\n', ' ')
 
 
+_ABBR = {'no', 'nos', 'st', 'mr', 'mrs', 'ms', 'dr', 'jr', 'sr', 'pt', 'vol', 'feat', 'ft', 'vs', 'inc', 'ltd', 'co', 'jan', 'feb', 'mar', 'apr',
+         'jun', 'jul', 'aug', 'sep', 'sept', 'oct', 'nov', 'dec', 'approx', 'ca', 'cf', 'e.g', 'i.e', 'u.s', 'etc'}
+def _sentence_ends(t):
+    """Positions just after a sentence-ending mark (not after 'No.', 'feat.', an initial such as 'J.', and the like)."""
+    for m in re.finditer(r'[.!?](?=\s+["“‘(\'A-Z])', t):
+        tok = (re.search(r'(\S+)$', t[:m.start()]) or [None, ''])[1]
+        if re.fullmatch(r'[A-Z]', tok) or tok.strip('("“‘\'').lower() in _ABBR: continue
+        yield m.end()
 def short(s, n=70):
+    """Shorten to at most about n characters: at the last full sentence that fits when that keeps most of the room,
+    otherwise at a word, closing any bracket the cut leaves open. '[…]' or '…' marks the omission."""
     s = esc(s)
     if len(s) <= n: return s
-    cut = s[:n].rsplit(' ', 1)[0]
-    return cut.rstrip(',;:(') + '…'
+    ends = list(_sentence_ends(s)) + ([len(s)] if re.search(r'[.!?]["”’)]*$', s) else [])
+    mark = lambda e: s[:e] + (' […]' if e < len(s) else '')
+    within = [e for e in ends if e <= n]
+    if within and within[-1] >= 0.45 * n: return mark(within[-1])
+    # otherwise run on to the next sentence end, if it comes soon and no bracket is left open
+    beyond = [e for e in ends if n < e <= 1.7 * n and s.count('(', 0, e) == s.count(')', 0, e)]
+    if beyond: return mark(beyond[0])
+    cut = s[:n].rsplit(' ', 1)[0].rstrip(',;:( ')
+    return cut + '…' + ')' * max(0, cut.count('(') - cut.count(')')) + '”' * max(0, cut.count('“') - cut.count('”'))
+def clean_ev(t):
+    """Research evidence text as shown in 4d and 4e: drop the R&B-half gloss, sentences that state the R&B / rap split as a
+    Billboard fact (it is this study's working rule) and recollection asides (recollection never counts)."""
+    t = t.replace('visible)', 'in the summary)')
+    t = t.replace(", the R&B half of Hot R&B/Hip-Hop Songs (Hot Rap Songs is the rap half)", "")
+    t = re.sub(r"(?<=[.!?]) [^.]*(?:mutually exclusive|never shares? a song|excludes Hot Rap Songs)[^.]*\.", '', t)
+    t = re.sub(r"(?:(?<=[.!?]) |^)(?:My memory|my memory)[^.]*\.", '', t)
+    t = t.replace("makes it R&B, which rules out Hot Rap Songs", "makes it R&B under this study's working rule")
+    return t.strip()
 
 
 def domain(u): return re.sub(r'^https?://(www\.)?', '', u).split('/')[0]
@@ -115,7 +141,7 @@ out.append(f"**Rank and date sources.** Dates and ranks come from every weekly H
            f"- **Wikipedia's yearly \"List of Billboard Hot 100 top-ten singles\" pages**, which give each song's top-ten entry date.\n\n"
            f"For the 100 list songs: the first top-10 **date** matches Wikipedia's entry date for **{w_match} of 100**, and the **date and rank** match the Billboard Canada page for **{bc_match} of the {bc_host}** whose week is hosted there. The other {100 - bc_host} ranks rest on the mirror alone. `www.billboard.com` was not read: its robots.txt bars Anthropic's agents, so the Billboard links below are citations, not pages opened in this study.\n")
 st_bits = [f"{100 - len(summ)} of the 100 entries rest on a Billboard rap-chart figure read directly from a table (a year-end Hot Rap Songs list or a Hot Rap Songs peak in an artist's discography table)"]
-if summ: st_bits.append(f"{len(summ)} {plural(len(summ), 'entry rests', 'entries rest')} on Billboard rap-chart rows known only through web-search summaries of Billboard pages ({'all Drake album cuts, whose Wikipedia tables have no rap column' if all('Drake' in r['artists'] for r in summ) else 'no table with a rap column lists them'}); marked †")
+if summ: st_bits.append(f"{len(summ)} {plural(len(summ), 'entry rests', 'entries rest')} on Billboard rap-chart rows known only through web-search summaries of Billboard pages ({'all Drake album cuts; no discography table read gives them a rap peak' if all('Drake' in r['artists'] for r in summ) else 'no discography table read gives them a rap peak'}); marked †")
 if soft: st_bits.append(f"{len(soft)} excluded {plural(len(soft), 'candidate', 'candidates')} above the cut {plural(len(soft), 'rests', 'rest')} on indirect evidence")
 if yend: st_bits.append(f"{len(yend)} more are excluded by deduction from year-end lists (strong, but not a weekly chart row)")
 out.append(f"**Status: {'PROVISIONAL at the margins' if (summ or soft) else 'FINAL'}.** " + '. '.join(st_bits) + ". No dispute found in this pass changes the list; each remaining item could move the cut by one place. See *4e. Boundary and open items*.\n")
@@ -138,7 +164,10 @@ out.append('\n## 4b. Per-track measurements\n')
 out.append('Measured on 2026-11-25 from three sources by signal analysis and by reading lyric records; nobody listened to the recordings, and nothing in this table comes from recollection. Method, checks and limits: `05-measurement-method.md`.\n')
 out.append('**Legend.**')
 out.append("- **Runtime:** duration of the Apple catalog track matched by title and artist; where several editions matched, the one closest to the earlier cited runtime was preferred, so agreement with that runtime (within 2 seconds wherever one exists) is not an independent check. **(cited)** = no Apple catalog match (#13, #14, #30, #75): the runtime is the earlier cited figure and there is no clip, so the tempo cell shows a dash.")
-out.append("- **Grid / felt BPM:** from Apple's 30-second preview clip, shown to the nearest half BPM. Grid = the fastest steady pulse that carries the beat (what a DAW project would be set to). Felt = the backbeat tempo (snare or clap on beats 2 and 4), which is the grid or half of it. **M** = clear in the clip; **L** = leaning: the clip favours this reading by a small margin; **I** = resolved by range, not by the clip: only one of the two readings lies in 55–150 BPM, and it is shown even where the other scored slightly higher; **?** = unresolved: either both readings fit (both shown), or an unclear clip reading matches no published tempo at the same, half or double speed (shown as *clip … / listed …*). A clip is one section of the track: a beat switch elsewhere is not seen.")
+_leaned = [r for r in rows if (((T.get(r['cid']) or {}).get('m') or {}).get('feel') or {}).get('basis') == 'I'
+           and T[r['cid']]['m']['feel'].get('confidence') == 'leaning' and T[r['cid']]['m']['feel']['felt_bpm'] != T[r['cid']]['m']['feel']['estimate_bpm']]
+_leaned_note = (' (on ' + ', '.join(f"#{r['n']} {r['title']}" for r in _leaned) + ' the clip leaned to the reading that was ruled out)') if _leaned else ''
+out.append(f"- **Grid / felt BPM:** from Apple's 30-second preview clip, shown to the nearest half BPM. Grid = the fastest steady pulse that carries the beat (what a DAW project would be set to). Felt = the backbeat tempo (snare or clap on beats 2 and 4), which is the grid or half of it. **M** = clear in the clip; **L** = leaning: the clip favours this reading by a small margin; **I** = resolved by range, not by the clip: only one of the two readings lies in 55–150 BPM, and it is shown even where the other scored higher{_leaned_note}; **?** = unresolved: either both readings fit (both shown), or an unclear clip reading matches no published tempo at the same, half or double speed (shown as *clip … / listed …*). A clip is one section of the track: a beat switch elsewhere is not seen.")
 out.append("- **First line:** time of the first line in the LRCLIB time-synced lyric record that matches the track's length. It is the first *transcribed* line, not necessarily the lead artist: it can be an ad-lib, a spoken line or a transcribed sample (the kind is in table 4b-2), and a wordless intro before it is not counted.")
 def _lyr(r): return ((T.get(r['cid']) or {}).get('m') or {}).get('lyr')
 def _ruled(l): return bool(l) and l.get('basis') in ('A', 'J')
@@ -148,13 +177,17 @@ for r in rows:
     if not _ruled(l) or not l['has_hook']: continue
     mh = [sct['start_s'] for sct in (l.get('sections') or []) if sct['label'] == 'hook']
     if not mh or abs(mh[0] - l['first_hook_s']) > 2.5 or len(mh) != l['hook_count']: _mapdiff.append((r, l, mh))
-_lendiff = [r for r in rows if _ruled(_lyr(r)) and _lyr(r)['has_hook'] and _lyr(r).get('first_hook_len_s') and _lyr(r).get('hook_lens_s')
-            and abs(_lyr(r)['first_hook_len_s'] - _lyr(r)['hook_lens_s'][0]) >= 1.0]
+def _shown_differ(r):
+    l = _lyr(r); b = (((T.get(r['cid']) or {}).get('m') or {}).get('bars') or {})
+    if not (_ruled(l) and l['has_hook'] and l.get('first_hook_len_s') and l.get('hook_lens_s')): return False
+    if b.get('first_hook_len') and b.get('hook_lens'): return f"{b['first_hook_len']:.1f}" != f"{float(b['hook_lens'][0]):.1f}"
+    return round(l['first_hook_len_s']) != round(l['hook_lens_s'][0])
+_lendiff = [r for r in rows if _shown_differ(r)]
 _nohookdens = [r for r in rows if _ruled(_lyr(r)) and _lyr(r)['has_hook'] and not _lyr(r).get('hook_words_per_s')]
 _noverse = [r for r in rows if _ruled(_lyr(r)) and not _lyr(r).get('verse_lens_s')]
 def _nl(v): return ', '.join(f"#{r['n']}" for r in v)
 out.append("- **First hook:** time of the first line of the ruled hook (the main recurring section), with the number of lyric lines before it. *none* = no returning block was accepted as the hook; a short tag can still come back (see the return anchor in table 4b-2). **Hooks** = how many times it occurs.")
-out.append(f"- **Hook length** = the ruled first hook from its first line to the end of its last line, as marked in the reading (or the detector's block length). **Verse 1 length** = the first verse section of the reader's map, to the start of the next section. Both are in seconds, and in bars of four felt beats where the felt tempo is resolved (double the bar count on a doubled DAW grid). Table 4b-2 measures every hook as a map section instead, to the start of the next section, so it also takes in any gap before that section; its first hook length differs from this column by a second or more on {len(_lendiff)} tracks ({_nl(_lendiff)}).")
+out.append(f"- **Hook length** = the ruled first hook from its first line to the end of its last line, as marked in the reading (or the detector's block length). **Verse 1 length** = the first verse section of the reader's map, to the start of the next section. Both are in seconds, and in bars of four felt beats where the felt tempo is resolved (double the bar count on a doubled DAW grid). Table 4b-2 measures every hook as a map section instead, to the start of the next section, so it also takes in any gap before that section; its first hook length differs from the value shown in this column on {len(_lendiff)} tracks ({_nl(_lendiff)}).")
 out.append("- **Verse w/s:** words per second across verse sections (section boundaries from the repetition detector).")
 out.append("- **Timing basis:** **A** = the repetition detector and an independent AI read of the same lyric record agree; **J** = they disagreed and a second AI reader ruled; **G** = detector only; **X** = unresolved (not counted); G and X do not occur in this table. **no matching record** = no LRCLIB time-synced record within 3 seconds of the track length (#78, #87). Lyric timestamps are crowd-synced; treat them as good to about one second.")
 out.append("- **—** = not measured or not applicable: no clip, no lyric record, " + (f"no verse section in the record ({_nl(_noverse)}), " if _noverse else '') + "or no recurring section.\n")
@@ -183,7 +216,7 @@ out.append('\n## 4b-2. Per-track structure\n')
 out.append("The per-track values behind the structure counts in `03-findings.md`. Everything here comes from the same time-synced lyric record as table 4b; the section map is **one AI reader's call**, a hook sung twice in a row counts as one long hook, and the last section is measured to two typical line gaps after the last lyric line (never past the end of the record). Tracks with no lyric record are left out.\n")
 out.append('**Legend and which finding each column backs.**')
 out.append("- **First line is** (M-4): the reader's label for the first transcribed line, judged from text: ad-lib, sample or another voice, spoken, sung, rap, or unclear. It is the weakest label in the study.")
-out.append("- **Return anchor** (M-3): the time of the earliest line of any block that comes back later (repetition detector). *= hook* means it is within 2.5 seconds of the ruled first hook in table 4b.")
+out.append("- **Return anchor** (M-3): the time of the earliest line of any block that comes back later (repetition detector). *= hook* means it is within 2.5 seconds of the ruled first hook in table 4b; *none* means the detector found no block that comes back and there is no ruled hook.")
 out.append("- **Hook before verse 1** (M-3, M-8): yes when no verse section of the map starts before the ruled first hook in table 4b.")
 out.append("- **Intro** (M-4): time before the first hook or verse: the earlier of the map's first verse or hook section and the ruled first hook in table 4b, in seconds and in felt bars where the felt tempo is resolved.")
 out.append("- **Section order** (M-5): I intro, V verse, p pre-hook, H hook, q post-hook, B bridge, O outro, x other, each with its start time.")
@@ -219,10 +252,10 @@ for r in rows:
 # ---------------- 4c documented
 out.append('\n## 4c. Per-track documented facts\n')
 out.append('**Legend.**')
-out.append("- **Basis:** **P** = the saved Wikipedia or Songfacts page text states the fact or names the work, and a skeptic upheld that. A P can come from a supported verdict, from a partly supported one whose quoted words are in the saved page (the detail that is not on the page is not counted), or from a new page statement; `05-measurement-method.md` gives the split. **S** = a cited source the earlier verifier did not reject, known only through web-search summaries; **U** = cited, but not confirmed (never counted); **R** = unverified recollection (never counted); **?** = unknown. Unknown never counts as \"no\". The reader, the skeptic and the earlier verifier were AI agents; no person read the pages.")
+out.append("- **Basis:** **P** = after the skeptic's check, the saved Wikipedia or Songfacts page text states the fact or names the work. A P can come from a supported verdict, from a partly supported one whose quoted words are in the saved page (the detail that is not on the page is not counted; this includes verdicts the skeptic downgraded from supported), from a new page statement, or from a claim recoded to what the page states; `05-measurement-method.md` gives the split. **S** = a cited source the earlier verifier did not reject, known only through web-search summaries; **U** = cited, but not confirmed (never counted); **R** = unverified recollection (never counted); **?** = unknown. Unknown never counts as \"no\". The reader, the skeptic and the earlier verifier were AI agents; no person read the pages.")
 out.append("- **Opening** = what is heard first, as a source describes it. **Beat switch** = a source describes a change of beat or instrumental.")
 out.append("- **Return change** = coded from a cited description of what changes between sections: beat = a beat or bed change; voice = a new voice; register = the same rapper's register or character; delivery = a spoken insert or break; (one-way) = a switch that does not return; none specific = the cited descriptions say nothing specific changes; **?** = no cited description of a return was coded (unknown, not \"no\").")
-out.append("- **Borrowing:** s = sample, i = interpolation, c = dialogue clip, r = self-reuse; (u) = uncredited; (credit not stated) = the source does not say whether it is credited; (no URL) = named by research with no source link. ✓ = stated in the saved page text; (S) = credited per the earlier verifier's web-search summary and not found on a saved page; no mark = cited by research, not flagged; U = could not be re-found (not counted); **?** = no borrowing on file (unknown, not \"none\").")
+out.append("- **Borrowing:** each work is named in about 70 characters (… marks a cut; the full description is in the `borrowings` column of `data/track_measurements.csv`). s = sample, i = interpolation, c = dialogue clip, r = self-reuse; (u) = uncredited; (credit not stated) = the source does not say whether it is credited; (no URL) = named by research with no source link. ✓ = stated in the saved page text; (S) = credited per the earlier verifier's web-search summary and not found on a saved page; no mark = cited by research, not flagged; U = could not be re-found (not counted); **?** = no borrowing on file (unknown, not \"none\").")
 out.append("- **2nd voice** = the Billboard credit names a second vocalist (producer-only credits such as Metro Boomin do not count).")
 out.append("- **Path:** **D** = debuted in the top 10; **C** = climbed in from the rank shown. wk = weeks in the top 10; tot = total Hot 100 weeks; AB = album-bomb cut (3+ songs by the same lead artist first entering the top 10 that week).\n")
 out.append('| # | Title | Opening | Beat switch | Return change | Borrowing | 2nd voice | Path |')
@@ -303,11 +336,7 @@ for o in in_window:
     else:
         dec = DEC[grade[o['cid']]]
         full_ = b.get('evidence_summary') or st['basis']
-        full_ = full_.replace('visible)', 'in the summary)')
-        # a research agent's gloss, not something a page was read to say (the R&B / rap split is this study's working rule)
-        full_ = full_.replace(", the R&B half of Hot R&B/Hip-Hop Songs (Hot Rap Songs is the rap half)", "")
-        # research text that states the R&B / rap split as a Billboard fact is dropped: the Decision column and the header give it as this study's working rule
-        full_ = re.sub(r"(?<=[.!?]) [^.]*(?:mutually exclusive|never shares? a song|excludes Hot Rap Songs)[^.]*\.", '', full_).strip()
+        full_ = clean_ev(full_)      # the Decision column and the header give the R&B / rap split as this study's working rule
         if o['cid'] in C.EVIDENCE_DISPLAY: full_ = C.EVIDENCE_DISPLAY[o['cid']]
         elif st.get('tier') == 'summary' and not re.search(r'search summar|search-result|search results|read directly|recollection', full_, re.I): full_ = 'Search summary (page not opened): ' + full_
         if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): full_ = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', full_).strip()
@@ -344,7 +373,7 @@ if summ:
     out.append('- **Included on search-summary evidence (†):** ' + '; '.join(f"#{r['n']} {r['title']}" for r in summ) + ". For each, a web-search summary of a Billboard chart page or report places the song on Rap Streaming Songs, Rap Airplay or Hot Rap Songs (rows in `data/classification_evidence.csv`), and Wikipedia gives a Hot R&B/Hip-Hop Songs peak, but no table with a rap column lists it and the Billboard page itself was not opened. Two collaborators' tables show a dash in the rap column: Future's for \"Ran To Atlanta\" and Quavo's for \"Shabang\". A dash is not evidence. Across the " + f"{_dc['tables_with_rap_column']} discography tables with a rap column, {len(_dc['songs'])} songs show a dash in one table and a numbered Hot Rap Songs peak in another (`data/measured/discography_dash_conflicts.json`), {len(_fut)} of them in Future's table ({', '.join(_fut)})" + ", so those dashes are treated as unfilled cells. If any of these is not rap, every later song moves up one place and \"Love All\" enters at #100.")
 if soft:
     def why(o):
-        b = (ev_best(o['cid']) or {}).get('evidence_summary') or status[o['cid']]['basis']
+        b = clean_ev((ev_best(o['cid']) or {}).get('evidence_summary') or status[o['cid']]['basis'])
         return short(b, 170) + (f" Tables: {table_note(o)}." if table_note(o) else '')
     out.append('- **Excluded on indirect or unresolved evidence, ranked above the cut** (if any is rap, it enters at its date and rank, and #100 drops out): ' + '; '.join(f"{o['first_top10']} #{o['rank']} {o['title']} — {o['artist']} ({why(o)})" for o in soft) + '.')
 if yend:

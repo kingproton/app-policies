@@ -96,7 +96,7 @@
 | How the performance changes between sections | **Documented only**: cited delivery observations on {{ fsx('tracks_with_sourced_delivery') }} songs and page statements on {{ pagefacts('delivery') }} (M-12); return codes in table 4c. Not measured | Page text and cited sources |
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |
-| Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level; a documented beat or bed change on {{ fs('all','return_beat') }} tracks (M-11) | Needs the full recording or stems |
+| Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level. Documented instead (M-11): a beat switch on {{ bs_n() }} songs, and, in the earlier pass's coding of what changes between sections, a beat or bed change on {{ fs('all','return_beat') }} of {{ fs('all','return_sourced_tracks') - fs('all','return_none') }} coded songs | Needs the full recording or stems |
 | Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for {{ fs('all','return_sourced_tracks') - fs('all','return_none') }} tracks in table 4c (M-11), and {{ fs('all','return_none') }} more is coded as naming no specific change | — |
 | A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means the record was read and no returning block was accepted ({{ nohook_basis('A') }} where both readings agree, {{ nohook_basis('J') }} where a second reader ruled); "no matching record" means there was no usable record | — |
 
@@ -118,7 +118,7 @@
 
 - **Basis codes for measured values** are in table 4b: feel **M / L / I / ?**; lyric timing **A / J / G / X**. Definitions are in `05-measurement-method.md`.
 - **Basis ladder for documented facts:**
-  - **P**: the saved Wikipedia or Songfacts page text states the fact or names the work, a skeptic upheld that, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted), or on a new page statement. `05-measurement-method.md` gives the split.
+  - **P**: after the skeptic's check, the saved Wikipedia or Songfacts page text states the fact or names the work, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted; this includes {{ cs('skeptic_downgraded') }} verdicts the skeptic downgraded from supported), on a new page statement, or on a claim recoded to what the page states ({{ po('opening','recoded') }} opening). `05-measurement-method.md` gives the split.
   - **S**: a cited source supports the claim and the earlier verifier did not reject it. These were read through web-search summaries.
   - **U**: cited but not confirmed, or contradicted by page text. Kept for transparency, never counted.
   - **R**: unverified recollection. Never counted.
