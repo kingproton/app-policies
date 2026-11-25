@@ -21,6 +21,7 @@ This file says what was measured, from what, how it was checked, and where it st
 
 - **Read directly:** `ca.billboard.com` (Billboard Canada's licensed chart pages and syndicated Chart Beat articles), `en.wikipedia.org`, `itunes.apple.com` and its preview host, `lrclib.net`, `www.songfacts.com`. Each site's robots.txt was read first, requests were spaced, and a plain client name was sent.
 - **Not read:** `www.billboard.com`. Its robots.txt bars Anthropic's agents from everything except two sections. Billboard chart pages and reports cited in this study are known through web-search summaries from the earlier pass, and are labelled that way. You can remove that host from the environment's allowed list.
+- **Allowed but never used:** `songbpm.com`. Nothing was fetched from it; tempo was measured from the preview clips instead, and the published BPM figures used for comparison come from the earlier search-based pass. That host can be removed as well.
 - **Kept out of the repository:** lyric text, audio, and raw page downloads. The repository holds derived numbers and labels only (`data/measured/`). Short quotes from pages are kept for verification, trimmed to 30 words for Wikipedia and 12 for Songfacts.
 
 ## Chart dates and ranks
