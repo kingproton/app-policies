@@ -1,0 +1,1469 @@
+{
+"5": {
+"n": 1,
+"title": "Janice STFU",
+"artist": "Drake",
+"match": {
+"track": "Janice STFU",
+"collection": "ICEMAN",
+"duration_ms": 237344,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"6": {
+"n": 2,
+"title": "Ran To Atlanta",
+"artist": "Drake Featuring Future & Molly Santana",
+"match": {
+"track": "Ran To Atlanta",
+"collection": "ICEMAN",
+"duration_ms": 247183,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"7": {
+"n": 3,
+"title": "Whisper My Name",
+"artist": "Drake",
+"match": {
+"track": "Whisper My Name",
+"collection": "ICEMAN",
+"duration_ms": 222581,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"8": {
+"n": 4,
+"title": "Shabang",
+"artist": "Drake",
+"match": {
+"track": "Shabang",
+"collection": "ICEMAN",
+"duration_ms": 188723,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"9": {
+"n": 5,
+"title": "National Treasures",
+"artist": "Drake",
+"match": {
+"track": "National Treasures",
+"collection": "ICEMAN",
+"duration_ms": 200831,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"10": {
+"n": 6,
+"title": "Make Them Cry",
+"artist": "Drake",
+"match": {
+"track": "Make Them Cry",
+"collection": "ICEMAN",
+"duration_ms": 307682,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"11": {
+"n": 7,
+"title": "Dust",
+"artist": "Drake",
+"match": {
+"track": "Dust",
+"collection": "ICEMAN",
+"duration_ms": 189217,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"12": {
+"n": 8,
+"title": "2 Hard 4 The Radio",
+"artist": "Drake",
+"match": {
+"track": "2 Hard 4 The Radio",
+"collection": "ICEMAN",
+"duration_ms": 183500,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"13": {
+"n": 9,
+"title": "Make Them Pay",
+"artist": "Drake",
+"match": {
+"track": "Make Them Pay",
+"collection": "ICEMAN",
+"duration_ms": 301951,
+"explicitness": "cleaned",
+"release_date": "2026-05-15",
+"genre": "Hip-Hop"
+}
+},
+"17": {
+"n": 10,
+"title": "What Did I Miss?",
+"artist": "Drake",
+"match": {
+"track": "What Did I Miss?",
+"collection": "ICEMAN",
+"duration_ms": 194324,
+"explicitness": "cleaned",
+"release_date": "2025-07-05",
+"genre": "Hip-Hop"
+}
+},
+"18": {
+"n": 11,
+"title": "Outside",
+"artist": "Cardi B",
+"match": {
+"track": "Outside",
+"collection": "AM I THE DRAMA?",
+"duration_ms": 206711,
+"explicitness": "cleaned",
+"release_date": "2025-06-20",
+"genre": "Hip-Hop/Rap"
+}
+},
+"19": {
+"n": 12,
+"title": "All The Way",
+"artist": "BigXthaPlug Featuring Bailey Zimmerman",
+"match": {
+"track": "All The Way",
+"collection": "I Hope You're Happy (Deluxe)",
+"duration_ms": 165000,
+"explicitness": "cleaned",
+"release_date": "2025-04-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"20": {
+"n": 13,
+"title": "Evil J0rdan",
+"artist": "Playboi Carti",
+"match": null
+},
+"21": {
+"n": 14,
+"title": "Rather Lie",
+"artist": "Playboi Carti & The Weeknd",
+"match": null
+},
+"23": {
+"n": 15,
+"title": "Gimme A Hug",
+"artist": "Drake",
+"match": {
+"track": "GIMME A HUG",
+"collection": "$ome $exy $ongs 4 U",
+"duration_ms": 193054,
+"explicitness": "cleaned",
+"release_date": "2025-02-14",
+"genre": "R&B/Soul"
+}
+},
+"24": {
+"n": 16,
+"title": "Nokia",
+"artist": "Drake",
+"match": {
+"track": "NOKIA",
+"collection": "$ome $exy $ongs 4 U",
+"duration_ms": 241023,
+"explicitness": "cleaned",
+"release_date": "2025-02-14",
+"genre": "R&B/Soul"
+}
+},
+"26": {
+"n": 17,
+"title": "4X4",
+"artist": "Travis Scott",
+"match": {
+"track": "4X4",
+"collection": "4X4 - Single",
+"duration_ms": 190581,
+"explicitness": "cleaned",
+"release_date": "2025-01-24",
+"genre": "Hip-Hop/Rap"
+}
+},
+"27": {
+"n": 18,
+"title": "Squabble Up",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "squabble up",
+"collection": "GNX",
+"duration_ms": 157992,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"28": {
+"n": 19,
+"title": "TV Off",
+"artist": "Kendrick Lamar Featuring Lefty Gunplay",
+"match": {
+"track": "tv off (feat. Lefty Gunplay)",
+"collection": "GNX",
+"duration_ms": 220690,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"29": {
+"n": 20,
+"title": "Luther",
+"artist": "Kendrick Lamar & SZA",
+"match": {
+"track": "luther",
+"collection": "GNX",
+"duration_ms": 177599,
+"explicitness": "notExplicit",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"30": {
+"n": 21,
+"title": "Wacced Out Murals",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "wacced out murals",
+"collection": "GNX",
+"duration_ms": 317093,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"31": {
+"n": 22,
+"title": "Hey Now",
+"artist": "Kendrick Lamar Featuring Dody6",
+"match": {
+"track": "hey now (feat. Dody6)",
+"collection": "GNX",
+"duration_ms": 217479,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"32": {
+"n": 23,
+"title": "Reincarnated",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "reincarnated",
+"collection": "GNX",
+"duration_ms": 275740,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"33": {
+"n": 24,
+"title": "Man At The Garden",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "man at the garden",
+"collection": "GNX",
+"duration_ms": 233173,
+"explicitness": "cleaned",
+"release_date": "2024-11-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"34": {
+"n": 25,
+"title": "Sticky",
+"artist": "Tyler, The Creator Featuring GloRilla, Sexyy Red & Lil Wayne",
+"match": {
+"track": "Sticky (feat. GloRilla, Sexyy Red & Lil Wayne)",
+"collection": "CHROMAKOPIA +",
+"duration_ms": 255916,
+"explicitness": "cleaned",
+"release_date": "2024-10-26",
+"genre": "Hip-Hop/Rap"
+}
+},
+"35": {
+"n": 26,
+"title": "St. Chroma",
+"artist": "Tyler, The Creator Featuring Daniel Caesar",
+"match": {
+"track": "St. Chroma (feat. Daniel Caesar)",
+"collection": "CHROMAKOPIA +",
+"duration_ms": 197020,
+"explicitness": "cleaned",
+"release_date": "2024-10-26",
+"genre": "Hip-Hop/Rap"
+}
+},
+"36": {
+"n": 27,
+"title": "Noid",
+"artist": "Tyler, The Creator",
+"match": {
+"track": "Noid",
+"collection": "CHROMAKOPIA +",
+"duration_ms": 284364,
+"explicitness": "cleaned",
+"release_date": "2024-10-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"38": {
+"n": 28,
+"title": "Houdini",
+"artist": "Eminem",
+"match": {
+"track": "Houdini",
+"collection": "Houdini - Single",
+"duration_ms": 227239,
+"explicitness": "cleaned",
+"release_date": "2024-05-31",
+"genre": "Hip-Hop/Rap"
+}
+},
+"39": {
+"n": 29,
+"title": "Not Like Us",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "Not Like Us",
+"collection": "Not Like Us - Single",
+"duration_ms": 274192,
+"explicitness": "cleaned",
+"release_date": "2024-05-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"40": {
+"n": 30,
+"title": "Euphoria",
+"artist": "Kendrick Lamar",
+"match": null
+},
+"41": {
+"n": 31,
+"title": "Family Matters",
+"artist": "Drake",
+"match": {
+"track": "Family Matters",
+"collection": "Family Matters - Single",
+"duration_ms": 456934,
+"explicitness": "cleaned",
+"release_date": "2024-05-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"44": {
+"n": 32,
+"title": "7 Minute Drill",
+"artist": "J. Cole",
+"match": {
+"track": "7 Minute Drill",
+"collection": "Might Delete Later",
+"duration_ms": 212213,
+"explicitness": "cleaned",
+"release_date": "2024-04-05",
+"genre": "Hip-Hop/Rap"
+}
+},
+"45": {
+"n": 33,
+"title": "Like That",
+"artist": "Future, Metro Boomin & Kendrick Lamar",
+"match": {
+"track": "Like That",
+"collection": "WE DON'T TRUST YOU",
+"duration_ms": 267707,
+"explicitness": "cleaned",
+"release_date": "2024-03-22",
+"genre": "Hip-Hop/Rap"
+}
+},
+"46": {
+"n": 34,
+"title": "Type Shit",
+"artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
+"match": {
+"track": "Type Shit",
+"collection": "WE DON'T TRUST YOU",
+"duration_ms": 228267,
+"explicitness": "cleaned",
+"release_date": "2024-03-22",
+"genre": "Hip-Hop/Rap"
+}
+},
+"47": {
+"n": 35,
+"title": "Cinderella",
+"artist": "Future, Metro Boomin & Travis Scott",
+"match": {
+"track": "Cinderella",
+"collection": "WE DON'T TRUST YOU",
+"duration_ms": 169840,
+"explicitness": "cleaned",
+"release_date": "2024-03-22",
+"genre": "Hip-Hop/Rap"
+}
+},
+"48": {
+"n": 36,
+"title": "We Don't Trust You",
+"artist": "Future & Metro Boomin",
+"match": {
+"track": "We Don't Trust You",
+"collection": "WE DON'T TRUST YOU",
+"duration_ms": 226213,
+"explicitness": "cleaned",
+"release_date": "2024-03-22",
+"genre": "Hip-Hop/Rap"
+}
+},
+"49": {
+"n": 37,
+"title": "Young Metro",
+"artist": "Future, Metro Boomin & The Weeknd",
+"match": {
+"track": "Young Metro",
+"collection": "WE DON'T TRUST YOU",
+"duration_ms": 205347,
+"explicitness": "cleaned",
+"release_date": "2024-03-22",
+"genre": "Hip-Hop/Rap"
+}
+},
+"50": {
+"n": 38,
+"title": "Enough (Miami)",
+"artist": "Cardi B",
+"match": {
+"track": "Enough (Miami)",
+"collection": "Enough (Miami) - Single",
+"duration_ms": 158727,
+"explicitness": "cleaned",
+"release_date": "2024-03-15",
+"genre": "Hip-Hop/Rap"
+}
+},
+"52": {
+"n": 39,
+"title": "Carnival",
+"artist": "¥$: Kanye West & Ty Dolla $ign Featuring Rich The Kid & Playboi Carti",
+"match": {
+"track": "CARNIVAL (feat. Rich The Kid, Playboi Carti)",
+"collection": "CARNIVAL PACK (feat. Rich The Kid, Playboi Carti) - EP",
+"duration_ms": 262709,
+"explicitness": "notExplicit",
+"release_date": "2024-02-08",
+"genre": "Hip-Hop/Rap"
+}
+},
+"53": {
+"n": 40,
+"title": "Hiss",
+"artist": "Megan Thee Stallion",
+"match": {
+"track": "HISS",
+"collection": "HISS - Single",
+"duration_ms": 192819,
+"explicitness": "cleaned",
+"release_date": "2024-01-26",
+"genre": "Hip-Hop/Rap"
+}
+},
+"54": {
+"n": 41,
+"title": "Redrum",
+"artist": "21 Savage",
+"match": {
+"track": "redrum",
+"collection": "american dream",
+"duration_ms": 270698,
+"explicitness": "cleaned",
+"release_date": "2024-01-12",
+"genre": "Hip-Hop/Rap"
+}
+},
+"55": {
+"n": 42,
+"title": "Nee-nah",
+"artist": "21 Savage, Travis Scott & Metro Boomin",
+"match": {
+"track": "née-nah",
+"collection": "american dream",
+"duration_ms": 220584,
+"explicitness": "cleaned",
+"release_date": "2024-01-12",
+"genre": "Hip-Hop/Rap"
+}
+},
+"56": {
+"n": 43,
+"title": "Agora Hills",
+"artist": "Doja Cat",
+"match": {
+"track": "Agora Hills",
+"collection": "Scarlet 2 CLAUDE",
+"duration_ms": 265360,
+"explicitness": "cleaned",
+"release_date": "2023-09-22",
+"genre": "Rap"
+}
+},
+"58": {
+"n": 44,
+"title": "Lovin On Me",
+"artist": "Jack Harlow",
+"match": {
+"track": "Lovin On Me",
+"collection": "Lovin On Me - Single",
+"duration_ms": 138411,
+"explicitness": "cleaned",
+"release_date": "2023-11-10",
+"genre": "Hip-Hop/Rap"
+}
+},
+"59": {
+"n": 45,
+"title": "First Person Shooter",
+"artist": "Drake Featuring J. Cole",
+"match": {
+"track": "First Person Shooter (feat. J. Cole)",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 247444,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"60": {
+"n": 46,
+"title": "IDGAF",
+"artist": "Drake Featuring Yeat",
+"match": {
+"track": "IDGAF (feat. Yeat)",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 260111,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"61": {
+"n": 47,
+"title": "Virginia Beach",
+"artist": "Drake",
+"match": {
+"track": "Virginia Beach",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 251095,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"62": {
+"n": 48,
+"title": "Calling For You",
+"artist": "Drake Featuring 21 Savage",
+"match": {
+"track": "Calling For You (feat. 21 Savage)",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 285630,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"63": {
+"n": 49,
+"title": "Daylight",
+"artist": "Drake",
+"match": {
+"track": "Daylight",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 164143,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"64": {
+"n": 50,
+"title": "Fear Of Heights",
+"artist": "Drake",
+"match": {
+"track": "Fear Of Heights",
+"collection": "For All The Dogs Scary Hours Edition",
+"duration_ms": 155154,
+"explicitness": "cleaned",
+"release_date": "2023-10-06",
+"genre": "Hip-Hop/Rap"
+}
+},
+"67": {
+"n": 51,
+"title": "Paint The Town Red",
+"artist": "Doja Cat",
+"match": {
+"track": "Paint The Town Red",
+"collection": "Paint The Town Red - Single",
+"duration_ms": 231750,
+"explicitness": "cleaned",
+"release_date": "2023-08-04",
+"genre": "Rap"
+}
+},
+"68": {
+"n": 52,
+"title": "Meltdown",
+"artist": "Travis Scott Featuring Drake",
+"match": {
+"track": "MELTDOWN (feat. Drake)",
+"collection": "MELTDOWN (feat. Drake) - Single",
+"duration_ms": 247333,
+"explicitness": "cleaned",
+"release_date": "2023-07-26",
+"genre": "Hip-Hop/Rap"
+}
+},
+"69": {
+"n": 53,
+"title": "FE!N",
+"artist": "Travis Scott Featuring Playboi Carti",
+"match": {
+"track": "FE!N (feat. Playboi Carti)",
+"collection": "UTOPIA",
+"duration_ms": 191703,
+"explicitness": "cleaned",
+"release_date": "2023-07-28",
+"genre": "Hip-Hop/Rap"
+}
+},
+"70": {
+"n": 54,
+"title": "K-POP",
+"artist": "Travis Scott, Bad Bunny & The Weeknd",
+"match": {
+"track": "K-POP (feat. Bad Bunny & The Weeknd)",
+"collection": "UTOPIA",
+"duration_ms": 185221,
+"explicitness": "cleaned",
+"release_date": "2023-07-21",
+"genre": "Hip-Hop/Rap"
+}
+},
+"72": {
+"n": 55,
+"title": "Fukumean",
+"artist": "Gunna",
+"match": {
+"track": "umean",
+"collection": "a Gift & a Curse",
+"duration_ms": 125040,
+"explicitness": "cleaned",
+"release_date": "2023-06-16",
+"genre": "Hip-Hop/Rap"
+}
+},
+"73": {
+"n": 56,
+"title": "Barbie World",
+"artist": "Nicki Minaj & Ice Spice With Aqua",
+"match": {
+"track": "Barbie World (with Aqua)",
+"collection": "Barbie The Album",
+"duration_ms": 109750,
+"explicitness": "notExplicit",
+"release_date": "2023-06-23",
+"genre": "Pop"
+}
+},
+"74": {
+"n": 57,
+"title": "All My Life",
+"artist": "Lil Durk Featuring J. Cole",
+"match": {
+"track": "All My Life (feat. J. Cole)",
+"collection": "All My Life (feat. J. Cole) - Single",
+"duration_ms": 223879,
+"explicitness": "cleaned",
+"release_date": "2023-05-11",
+"genre": "Rap"
+}
+},
+"75": {
+"n": 58,
+"title": "Favorite Song",
+"artist": "Toosii",
+"match": {
+"track": "Favorite Song",
+"collection": "Favorite Song - Single",
+"duration_ms": 208630,
+"explicitness": "notExplicit",
+"release_date": "2023-02-17",
+"genre": "Hip-Hop/Rap"
+}
+},
+"76": {
+"n": 59,
+"title": "Princess Diana",
+"artist": "Ice Spice & Nicki Minaj",
+"match": {
+"track": "Princess Diana",
+"collection": "Like..?",
+"duration_ms": 172125,
+"explicitness": "cleaned",
+"release_date": "2023-04-14",
+"genre": "Hip-Hop/Rap"
+}
+},
+"77": {
+"n": 60,
+"title": "Search & Rescue",
+"artist": "Drake",
+"match": {
+"track": "Search & Rescue",
+"collection": "Search & Rescue - Single",
+"duration_ms": 272113,
+"explicitness": "cleaned",
+"release_date": "2023-04-07",
+"genre": "Hip-Hop/Rap"
+}
+},
+"78": {
+"n": 61,
+"title": "Players",
+"artist": "Coi Leray",
+"match": {
+"track": "Players",
+"collection": "COI",
+"duration_ms": 138760,
+"explicitness": "cleaned",
+"release_date": "2023-06-16",
+"genre": "Hip-Hop/Rap"
+}
+},
+"81": {
+"n": 62,
+"title": "Just Wanna Rock",
+"artist": "Lil Uzi Vert",
+"match": {
+"track": "Just Wanna Rock",
+"collection": "Just Wanna Rock - Single",
+"duration_ms": 123891,
+"explicitness": "cleaned",
+"release_date": "2022-10-17",
+"genre": "Hip-Hop/Rap"
+}
+},
+"83": {
+"n": 63,
+"title": "Superhero (Heroes & Villains)",
+"artist": "Metro Boomin, Future & Chris Brown",
+"match": {
+"track": "Superhero (Heroes & Villains)",
+"collection": "HEROES & VILLAINS",
+"duration_ms": 182667,
+"explicitness": "cleaned",
+"release_date": "2022-12-02",
+"genre": "Hip-Hop/Rap"
+}
+},
+"84": {
+"n": 64,
+"title": "Rich Flex",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "Rich Flex",
+"collection": "Her Loss",
+"duration_ms": 239360,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"85": {
+"n": 65,
+"title": "Major Distribution",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "Major Distribution",
+"collection": "Her Loss",
+"duration_ms": 170502,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"86": {
+"n": 66,
+"title": "On BS",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "On BS",
+"collection": "Her Loss",
+"duration_ms": 261544,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"87": {
+"n": 67,
+"title": "Spin Bout U",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "Spin Bout U",
+"collection": "Her Loss",
+"duration_ms": 214589,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"88": {
+"n": 68,
+"title": "Pussy & Millions",
+"artist": "Drake & 21 Savage Featuring Travis Scott",
+"match": {
+"track": "P***y & Millions (feat. Travis Scott)",
+"collection": "Her Loss",
+"duration_ms": 242027,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"89": {
+"n": 69,
+"title": "Privileged Rappers",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "Privileged Rappers",
+"collection": "Her Loss",
+"duration_ms": 160821,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"90": {
+"n": 70,
+"title": "Circo Loco",
+"artist": "Drake & 21 Savage",
+"match": {
+"track": "Circo Loco",
+"collection": "Her Loss",
+"duration_ms": 236795,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"91": {
+"n": 71,
+"title": "BackOutsideBoyz",
+"artist": "Drake",
+"match": {
+"track": "BackOutsideBoyz",
+"collection": "Her Loss",
+"duration_ms": 152962,
+"explicitness": "cleaned",
+"release_date": "2022-11-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"92": {
+"n": 72,
+"title": "California Breeze",
+"artist": "Lil Baby",
+"match": {
+"track": "California Breeze",
+"collection": "It's Only Me",
+"duration_ms": 177789,
+"explicitness": "cleaned",
+"release_date": "2022-10-14",
+"genre": "Hip-Hop/Rap"
+}
+},
+"93": {
+"n": 73,
+"title": "Forever",
+"artist": "Lil Baby Featuring Fridayy",
+"match": {
+"track": "Forever",
+"collection": "It's Only Me",
+"duration_ms": 167977,
+"explicitness": "cleaned",
+"release_date": "2022-10-14",
+"genre": "Hip-Hop/Rap"
+}
+},
+"94": {
+"n": 74,
+"title": "Real Spill",
+"artist": "Lil Baby",
+"match": {
+"track": "Real Spill",
+"collection": "It's Only Me",
+"duration_ms": 198722,
+"explicitness": "cleaned",
+"release_date": "2022-10-14",
+"genre": "Hip-Hop/Rap"
+}
+},
+"95": {
+"n": 75,
+"title": "Vegas",
+"artist": "Doja Cat",
+"match": null
+},
+"96": {
+"n": 76,
+"title": "Tomorrow 2",
+"artist": "GloRilla & Cardi B",
+"match": {
+"track": "Tomorrow 2",
+"collection": "Anyways, Life's Great...Bonus Edition (Apple Music Up Next Film Edition)",
+"duration_ms": 209811,
+"explicitness": "cleaned",
+"release_date": "2022-09-23",
+"genre": "Hip-Hop/Rap"
+}
+},
+"97": {
+"n": 77,
+"title": "Super Freaky Girl",
+"artist": "Nicki Minaj",
+"match": {
+"track": "Super Freaky Girl",
+"collection": "Pink Friday 2 (Gag City PLUTO Edition)",
+"duration_ms": 170977,
+"explicitness": "cleaned",
+"release_date": "2022-08-12",
+"genre": "Hip-Hop/Rap"
+}
+},
+"98": {
+"n": 78,
+"title": "Staying Alive",
+"artist": "DJ Khaled Featuring Drake & Lil Baby",
+"match": {
+"track": "STAYING ALIVE (feat. Drake & Lil Baby)",
+"collection": "GOD DID",
+"duration_ms": 178176,
+"explicitness": "cleaned",
+"release_date": "2022-08-05",
+"genre": "Hip-Hop/Rap"
+}
+},
+"101": {
+"n": 79,
+"title": "Jimmy Cooks",
+"artist": "Drake Featuring 21 Savage",
+"match": {
+"track": "Jimmy Cooks (feat. 21 Savage)",
+"collection": "Honestly, Nevermind",
+"duration_ms": 218365,
+"explicitness": "cleaned",
+"release_date": "2022-06-17",
+"genre": "Dance"
+}
+},
+"102": {
+"n": 80,
+"title": "Sticky",
+"artist": "Drake",
+"match": {
+"track": "Sticky",
+"collection": "Honestly, Nevermind",
+"duration_ms": 243228,
+"explicitness": "cleaned",
+"release_date": "2022-06-17",
+"genre": "Dance"
+}
+},
+"105": {
+"n": 81,
+"title": "N95",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "N95",
+"collection": "Mr. Morale & The Big Steppers",
+"duration_ms": 195950,
+"explicitness": "cleaned",
+"release_date": "2022-05-13",
+"genre": "Hip-Hop/Rap"
+}
+},
+"107": {
+"n": 82,
+"title": "Silent Hill",
+"artist": "Kendrick Lamar & Kodak Black",
+"match": {
+"track": "Silent Hill",
+"collection": "Mr. Morale & The Big Steppers",
+"duration_ms": 220779,
+"explicitness": "cleaned",
+"release_date": "2022-05-13",
+"genre": "Hip-Hop/Rap"
+}
+},
+"108": {
+"n": 83,
+"title": "United In Grief",
+"artist": "Kendrick Lamar",
+"match": {
+"track": "United In Grief",
+"collection": "Mr. Morale & The Big Steppers",
+"duration_ms": 255378,
+"explicitness": "cleaned",
+"release_date": "2022-05-13",
+"genre": "Hip-Hop/Rap"
+}
+},
+"109": {
+"n": 84,
+"title": "Wait For U",
+"artist": "Future Featuring Drake & Tems",
+"match": {
+"track": "WAIT FOR U (feat. Drake & Tems)",
+"collection": "I NEVER LIKED YOU",
+"duration_ms": 189893,
+"explicitness": "cleaned",
+"release_date": "2022-04-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"110": {
+"n": 85,
+"title": "Puffin On Zootiez",
+"artist": "Future",
+"match": {
+"track": "PUFFIN ON ZOOTIEZ",
+"collection": "I NEVER LIKED YOU",
+"duration_ms": 172933,
+"explicitness": "cleaned",
+"release_date": "2022-04-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"111": {
+"n": 86,
+"title": "712PM",
+"artist": "Future",
+"match": {
+"track": "712PM",
+"collection": "I NEVER LIKED YOU",
+"duration_ms": 173187,
+"explicitness": "cleaned",
+"release_date": "2022-04-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"112": {
+"n": 87,
+"title": "I'm Dat N***a",
+"artist": "Future",
+"match": {
+"track": "I'M DAT N***A",
+"collection": "I NEVER LIKED YOU",
+"duration_ms": 271840,
+"explicitness": "cleaned",
+"release_date": "2022-04-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"113": {
+"n": 88,
+"title": "First Class",
+"artist": "Jack Harlow",
+"match": {
+"track": "First Class",
+"collection": "Come Home The Kids Miss You",
+"duration_ms": 173948,
+"explicitness": "cleaned",
+"release_date": "2022-04-08",
+"genre": "Hip-Hop/Rap"
+}
+},
+"114": {
+"n": 89,
+"title": "Big Energy",
+"artist": "Latto",
+"match": {
+"track": "Big Energy",
+"collection": "Big Energy - Single",
+"duration_ms": 173182,
+"explicitness": "cleaned",
+"release_date": "2021-09-16",
+"genre": "Hip-Hop/Rap"
+}
+},
+"117": {
+"n": 90,
+"title": "Do We Have A Problem?",
+"artist": "Nicki Minaj X Lil Baby",
+"match": {
+"track": "Do We Have A Problem?",
+"collection": "Do We Have A Problem? - Single",
+"duration_ms": 207065,
+"explicitness": "cleaned",
+"release_date": "2022-02-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"118": {
+"n": 91,
+"title": "Pushin P",
+"artist": "Gunna & Future Featuring Young Thug",
+"match": {
+"track": "pushin P (feat. Young Thug)",
+"collection": "DS4EVER",
+"duration_ms": 136267,
+"explicitness": "cleaned",
+"release_date": "2022-01-07",
+"genre": "Hip-Hop/Rap"
+}
+},
+"119": {
+"n": 92,
+"title": "Super Gremlin",
+"artist": "Kodak Black",
+"match": {
+"track": "Super Gremlin",
+"collection": "Back For Everything",
+"duration_ms": 200548,
+"explicitness": "cleaned",
+"release_date": "2022-02-10",
+"genre": "Hip-Hop/Rap"
+}
+},
+"124": {
+"n": 93,
+"title": "Way 2 Sexy",
+"artist": "Drake Featuring Future & Young Thug",
+"match": {
+"track": "Way 2 Sexy (feat. Future & Young Thug)",
+"collection": "Certified Lover Boy",
+"duration_ms": 257605,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"125": {
+"n": 94,
+"title": "Girls Want Girls",
+"artist": "Drake Featuring Lil Baby",
+"match": {
+"track": "Girls Want Girls (feat. Lil Baby)",
+"collection": "Certified Lover Boy",
+"duration_ms": 221980,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"126": {
+"n": 95,
+"title": "Fair Trade",
+"artist": "Drake Featuring Travis Scott",
+"match": {
+"track": "Fair Trade (feat. Travis Scott)",
+"collection": "Certified Lover Boy",
+"duration_ms": 291175,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"127": {
+"n": 96,
+"title": "Champagne Poetry",
+"artist": "Drake",
+"match": {
+"track": "Champagne Poetry",
+"collection": "Certified Lover Boy",
+"duration_ms": 336511,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"128": {
+"n": 97,
+"title": "Knife Talk",
+"artist": "Drake Featuring 21 Savage & Project Pat",
+"match": {
+"track": "Knife Talk (feat. 21 Savage & Project Pat)",
+"collection": "Certified Lover Boy",
+"duration_ms": 242966,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"129": {
+"n": 98,
+"title": "In The Bible",
+"artist": "Drake Featuring Lil Durk & Giveon",
+"match": {
+"track": "In The Bible (feat. Lil Durk & GIVĒON)",
+"collection": "Certified Lover Boy",
+"duration_ms": 296569,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"130": {
+"n": 99,
+"title": "Papi's Home",
+"artist": "Drake",
+"match": {
+"track": "Papi’s Home",
+"collection": "Certified Lover Boy",
+"duration_ms": 178623,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"131": {
+"n": 100,
+"title": "TSU",
+"artist": "Drake",
+"match": {
+"track": "TSU",
+"collection": "Certified Lover Boy",
+"duration_ms": 308756,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"22": {
+"n": null,
+"title": "Anxiety",
+"artist": "Doechii",
+"match": {
+"track": "Anxiety",
+"collection": "Alligator Bites Never Heal (Extended)",
+"duration_ms": 249302,
+"explicitness": "cleaned",
+"release_date": "2025-03-04",
+"genre": "Hip-Hop/Rap"
+}
+},
+"132": {
+"n": null,
+"title": "Love All",
+"artist": "Drake Featuring JAY-Z",
+"match": {
+"track": "Love All (feat. JAŸ-Z)",
+"collection": "Certified Lover Boy",
+"duration_ms": 228461,
+"explicitness": "cleaned",
+"release_date": "2021-09-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"133": {
+"n": null,
+"title": "Hurricane",
+"artist": "Kanye West",
+"match": {
+"track": "Hurricane",
+"collection": "Donda (Deluxe)",
+"duration_ms": 243188,
+"explicitness": "notExplicit",
+"release_date": "2021-08-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"134": {
+"n": null,
+"title": "Jail",
+"artist": "Kanye West",
+"match": {
+"track": "Jail",
+"collection": "Donda (Deluxe)",
+"duration_ms": 297000,
+"explicitness": "notExplicit",
+"release_date": "2021-08-29",
+"genre": "Hip-Hop/Rap"
+}
+},
+"135": {
+"n": null,
+"title": "Rumors",
+"artist": "Lizzo Featuring Cardi B",
+"match": {
+"track": "Rumors",
+"collection": "Rumors - Single",
+"duration_ms": 172833,
+"explicitness": "cleaned",
+"release_date": "2021-08-13",
+"genre": "Pop"
+}
+},
+"136": {
+"n": null,
+"title": "Industry Baby",
+"artist": "Lil Nas X & Jack Harlow",
+"match": {
+"track": "INDUSTRY BABY",
+"collection": "MONTERO",
+"duration_ms": 212353,
+"explicitness": "cleaned",
+"release_date": "2021-07-23",
+"genre": "Hip-Hop/Rap"
+}
+},
+"2": {
+"n": null,
+"title": "Solar Eclipse",
+"artist": "Drake & Don Toliver",
+"match": {
+"track": "Solar Eclipse",
+"collection": "HABIBTI (FOMO)",
+"duration_ms": 218389,
+"explicitness": "cleaned",
+"release_date": "2026-10-02",
+"genre": "R&B/Soul"
+}
+},
+"1": {
+"n": null,
+"title": "Babydoll",
+"artist": "Dominic Fike",
+"match": {
+"track": "Babydoll",
+"collection": "Don't Forget About Me, Demos - EP",
+"duration_ms": 97960,
+"explicitness": "notExplicit",
+"release_date": "2018-10-16",
+"genre": "Alternative"
+}
+},
+"3": {
+"n": null,
+"title": "Nicole Kidman",
+"artist": "ADELA",
+"match": {
+"track": "Nicole Kidman",
+"collection": "PRIMA",
+"duration_ms": 181270,
+"explicitness": "cleaned",
+"release_date": "2026-09-03",
+"genre": "Pop"
+}
+},
+"65": {
+"n": null,
+"title": "3D",
+"artist": "Jung Kook & Jack Harlow",
+"match": {
+"track": "3D (Alternate Ver.)",
+"collection": "3D (Alternate Ver.) - Single",
+"duration_ms": 162545,
+"explicitness": "notExplicit",
+"release_date": "2023-09-29",
+"genre": "K-Pop"
+}
+},
+"99": {
+"n": null,
+"title": "Bad Decisions",
+"artist": "benny blanco, BTS & Snoop Dogg",
+"match": {
+"track": "Bad Decisions",
+"collection": "Bad Decisions - Single",
+"duration_ms": 172714,
+"explicitness": "notExplicit",
+"release_date": "2022-08-05",
+"genre": "Pop"
+}
+},
+"71": {
+"n": null,
+"title": "Seven",
+"artist": "Jung Kook Featuring Latto",
+"match": {
+"track": "Seven",
+"collection": "Seven - Single",
+"duration_ms": 184160,
+"explicitness": "notExplicit",
+"release_date": "2023-07-14",
+"genre": "K-Pop"
+}
+},
+"80": {
+"n": null,
+"title": "Boy's A Liar, Pt. 2",
+"artist": "PinkPantheress & Ice Spice",
+"match": {
+"track": "Boy's a liar Pt. 2 (Biden & Obama's Version)",
+"collection": "Boy's a liar Pt. 2 (Biden & Obama's Version) - Single",
+"duration_ms": 150000,
+"explicitness": "notExplicit",
+"release_date": "2023-03-08",
+"genre": "Hip-Hop/Rap"
+}
+},
+"104": {
+"n": null,
+"title": "I Like You (A Happier Song)",
+"artist": "Post Malone Featuring Doja Cat",
+"match": {
+"track": "I Like You (A Happier Song) [feat. Doja Cat]",
+"collection": "Twelve Carat Toothache",
+"duration_ms": 192841,
+"explicitness": "cleaned",
+"release_date": "2022-06-03",
+"genre": "Hip-Hop/Rap"
+}
+},
+"120": {
+"n": null,
+"title": "One Right Now",
+"artist": "Post Malone & The Weeknd",
+"match": {
+"track": "One Right Now",
+"collection": "Twelve Carat Toothache",
+"duration_ms": 192721,
+"explicitness": "cleaned",
+"release_date": "2021-11-05",
+"genre": "Hip-Hop/Rap"
+}
+}
+}

@@ -1,0 +1,11621 @@
+{
+"5": {
+"n_lines": 63,
+"first_line_s": 0.22,
+"last_line_s": 201.95,
+"median_line_gap_s": 3.7,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 28.92,
+"first_verse_s": 0.22,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 8,
+"first_sustained_section_s": 0.22,
+"hook_durations_s": [
+17.3,
+16.6
+],
+"hook_lines": [
+5,
+5
+],
+"verse_durations_s": [
+14.9,
+29.8,
+102.9
+],
+"verse_lines": [
+4,
+10,
+31
+],
+"hook_return_similarity": [
+0.8
+],
+"verse_median_line_gap_s": 3.285,
+"hook_median_line_gap_s": 3.82,
+"verse_words_per_s": 3.27,
+"hook_words_per_s": 2.01,
+"verse_sylls_per_s": 3.85,
+"hook_sylls_per_s": 2.36,
+"longest_gap_s": 6.74,
+"longest_gap_at_s": 158.41,
+"repeated_line_share": 0.22,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.22,
+"end": 15.1,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 15.1,
+"end": 21.32,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 21.32,
+"end": 28.92,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 28.92,
+"end": 46.18,
+"lines": 5,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 46.18,
+"end": 76.02,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 76.02,
+"end": 82.24,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 82.24,
+"end": 89.87,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 89.87,
+"end": 106.48,
+"lines": 5,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 106.48,
+"end": 209.35,
+"lines": 31,
+"cluster": null
+}
+],
+"order": "V r b H V r b H V",
+"lrclib_id": 33825896,
+"lrc_duration": 237.0,
+"status": "ok",
+"title": "Janice STFU",
+"n": 1,
+"target_s": 237.344,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.92,
+"first_hook_spread_s": 0.18,
+"hook_votes": "8/8"
+},
+"6": {
+"n_lines": 91,
+"first_line_s": 1.98,
+"last_line_s": 230.21,
+"median_line_gap_s": 2.535,
+"opening_section": "VERSE",
+"opening_section_lines": 11,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 31.84,
+"first_verse_s": 1.98,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 11,
+"first_sustained_section_s": 1.98,
+"hook_durations_s": [
+4.5,
+12.5,
+7.1
+],
+"hook_lines": [
+3,
+5,
+2
+],
+"verse_durations_s": [
+29.9,
+58.4,
+13.8,
+34.2,
+21.1
+],
+"verse_lines": [
+11,
+18,
+4,
+15,
+11
+],
+"hook_return_similarity": [
+0.5,
+0.0
+],
+"verse_median_line_gap_s": 3.03,
+"hook_median_line_gap_s": 1.96,
+"verse_words_per_s": 3.05,
+"hook_words_per_s": 2.79,
+"verse_sylls_per_s": 3.7,
+"hook_sylls_per_s": 3.94,
+"longest_gap_s": 4.87,
+"longest_gap_at_s": 49.24,
+"repeated_line_share": 0.27,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.98,
+"end": 31.84,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 31.84,
+"end": 36.38,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 36.38,
+"end": 41.64,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 41.64,
+"end": 54.11,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 54.11,
+"end": 112.51,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 112.51,
+"end": 119.58,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 119.58,
+"end": 133.34,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 133.34,
+"end": 138.24,
+"lines": 3,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 138.24,
+"end": 143.98,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 143.98,
+"end": 148.85,
+"lines": 3,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 148.85,
+"end": 183.05,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 183.05,
+"end": 191.66,
+"lines": 4,
+"cluster": 2
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 191.66,
+"end": 198.2,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 198.2,
+"end": 205.36,
+"lines": 2,
+"cluster": 3
+},
+{
+"label": "VERSE",
+"start": 205.36,
+"end": 226.5,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 226.5,
+"end": 235.28,
+"lines": 2,
+"cluster": 3
+}
+],
+"order": "V H b H V H V r b r V r b r V r",
+"lrclib_id": 33714965,
+"lrc_duration": 247.0,
+"status": "ok",
+"title": "Ran To Atlanta",
+"n": 2,
+"target_s": 247.183,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"7": {
+"n_lines": 71,
+"first_line_s": 11.07,
+"last_line_s": 198.63,
+"median_line_gap_s": 2.065,
+"opening_section": "VERSE",
+"opening_section_lines": 31,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 81.26,
+"first_verse_s": 11.07,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 31,
+"first_sustained_section_s": 11.07,
+"hook_durations_s": [
+32.3,
+24.5,
+11.9
+],
+"hook_lines": [
+13,
+9,
+3
+],
+"verse_durations_s": [
+70.2,
+52.9
+],
+"verse_lines": [
+31,
+15
+],
+"hook_return_similarity": [
+0.82,
+0.38
+],
+"verse_median_line_gap_s": 2.08,
+"hook_median_line_gap_s": 2.045,
+"verse_words_per_s": 3.1,
+"hook_words_per_s": 2.96,
+"verse_sylls_per_s": 3.76,
+"hook_sylls_per_s": 3.43,
+"longest_gap_s": 9.21,
+"longest_gap_at_s": 181.67,
+"repeated_line_share": 0.35,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 11.07,
+"end": 81.26,
+"lines": 31,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 81.26,
+"end": 113.53,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 113.53,
+"end": 166.42,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 166.42,
+"end": 190.88,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 190.88,
+"end": 202.76,
+"lines": 3,
+"cluster": 0
+}
+],
+"order": "V H V H H",
+"lrclib_id": 33714727,
+"lrc_duration": 222.0,
+"status": "ok",
+"title": "Whisper My Name",
+"n": 3,
+"target_s": 222.581,
+"match_tier": "duration within 3 s",
+"n_records": 4,
+"first_line_spread_s": 0.01,
+"first_hook_spread_s": 0.01,
+"hook_votes": "4/4"
+},
+"8": {
+"n_lines": 63,
+"first_line_s": 4.15,
+"last_line_s": 158.29,
+"median_line_gap_s": 2.1,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 13.12,
+"first_verse_s": 25.5,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 2,
+"first_sustained_section_s": 13.12,
+"hook_durations_s": [
+12.4,
+12.6,
+4.1,
+4.2
+],
+"hook_lines": [
+6,
+6,
+2,
+2
+],
+"verse_durations_s": [
+81.7,
+12.3,
+11.9
+],
+"verse_lines": [
+34,
+5,
+4
+],
+"hook_return_similarity": [
+1.0,
+0.25,
+0.25
+],
+"verse_median_line_gap_s": 2.065,
+"hook_median_line_gap_s": 2.1,
+"verse_words_per_s": 2.88,
+"hook_words_per_s": 2.62,
+"verse_sylls_per_s": 3.43,
+"hook_sylls_per_s": 2.8,
+"longest_gap_s": 14.17,
+"longest_gap_at_s": 93.06,
+"repeated_line_share": 0.25,
+"blank_markers": 4,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 4.15,
+"end": 13.12,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 13.12,
+"end": 25.5,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 25.5,
+"end": 107.23,
+"lines": 34,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 107.23,
+"end": 119.8,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 119.8,
+"end": 130.06,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 130.06,
+"end": 134.18,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 134.18,
+"end": 146.46,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 146.46,
+"end": 150.62,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 150.62,
+"end": 162.49,
+"lines": 4,
+"cluster": null
+}
+],
+"order": "b H V H b H V H V",
+"lrclib_id": 33677380,
+"lrc_duration": 189.0,
+"status": "ok",
+"title": "Shabang",
+"n": 4,
+"target_s": 188.723,
+"match_tier": "duration within 3 s",
+"n_records": 5,
+"first_line_spread_s": 0.41,
+"first_hook_spread_s": 0.06,
+"hook_votes": "5/5"
+},
+"9": {
+"n_lines": 70,
+"first_line_s": 2.56,
+"last_line_s": 196.3,
+"median_line_gap_s": 2.25,
+"opening_section": "VERSE",
+"opening_section_lines": 45,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 101.84,
+"first_verse_s": 2.56,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 45,
+"first_sustained_section_s": 2.56,
+"hook_durations_s": [
+10.6,
+40.2
+],
+"hook_lines": [
+3,
+10
+],
+"verse_durations_s": [
+99.3,
+48.2
+],
+"verse_lines": [
+45,
+12
+],
+"hook_return_similarity": [
+0.46
+],
+"verse_median_line_gap_s": 2.03,
+"hook_median_line_gap_s": 3.7,
+"verse_words_per_s": 3.58,
+"hook_words_per_s": 1.85,
+"verse_sylls_per_s": 4.36,
+"hook_sylls_per_s": 2.07,
+"longest_gap_s": 7.28,
+"longest_gap_at_s": 153.36,
+"repeated_line_share": 0.19,
+"blank_markers": 5,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.56,
+"end": 101.84,
+"lines": 45,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 101.84,
+"end": 112.45,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 112.45,
+"end": 160.64,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 160.64,
+"end": 200.8,
+"lines": 10,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 33715194,
+"lrc_duration": 201.0,
+"status": "ok",
+"title": "National Treasures",
+"n": 5,
+"target_s": 200.831,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"10": {
+"n_lines": 87,
+"first_line_s": 1.86,
+"last_line_s": 295.29,
+"median_line_gap_s": 3.07,
+"opening_section": "HOOK",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 1.86,
+"first_verse_s": 9.63,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 9.63,
+"hook_durations_s": [
+7.8,
+9.2
+],
+"hook_lines": [
+2,
+2
+],
+"verse_durations_s": [
+282.6
+],
+"verse_lines": [
+83
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.065,
+"hook_median_line_gap_s": 3.08,
+"verse_words_per_s": 3.37,
+"hook_words_per_s": 0.26,
+"verse_sylls_per_s": 4.46,
+"hook_sylls_per_s": 0.26,
+"longest_gap_s": 6.05,
+"longest_gap_at_s": 87.68,
+"repeated_line_share": 0.05,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 1.86,
+"end": 9.63,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 9.63,
+"end": 292.26,
+"lines": 83,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 292.26,
+"end": 301.43,
+"lines": 2,
+"cluster": 0
+}
+],
+"order": "H V H",
+"lrclib_id": 33677085,
+"lrc_duration": 308.0,
+"status": "ok",
+"title": "Make Them Cry",
+"n": 6,
+"target_s": 307.682,
+"match_tier": "duration within 3 s",
+"n_records": 4,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "4/4"
+},
+"11": {
+"n_lines": 61,
+"first_line_s": 5.8,
+"last_line_s": 173.52,
+"median_line_gap_s": 2.78,
+"opening_section": "VERSE",
+"opening_section_lines": 18,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 69.29,
+"first_verse_s": 5.8,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 18,
+"first_sustained_section_s": 5.8,
+"hook_durations_s": [
+6.6,
+8.7,
+7.8
+],
+"hook_lines": [
+4,
+5,
+5
+],
+"verse_durations_s": [
+63.5,
+45.5,
+32.2
+],
+"verse_lines": [
+18,
+14,
+12
+],
+"hook_return_similarity": [
+0.67,
+0.89
+],
+"verse_median_line_gap_s": 3.25,
+"hook_median_line_gap_s": 1.62,
+"verse_words_per_s": 2.69,
+"hook_words_per_s": 4.92,
+"verse_sylls_per_s": 3.32,
+"hook_sylls_per_s": 5.62,
+"longest_gap_s": 6.1,
+"longest_gap_at_s": 40.02,
+"repeated_line_share": 0.23,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 5.8,
+"end": 69.29,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 69.29,
+"end": 75.91,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 75.91,
+"end": 121.37,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 121.37,
+"end": 130.06,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 130.06,
+"end": 162.31,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 162.31,
+"end": 170.15,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 170.15,
+"end": 179.08,
+"lines": 3,
+"cluster": null
+}
+],
+"order": "V H V H V H b",
+"lrclib_id": 33714740,
+"lrc_duration": 190.0,
+"status": "ok",
+"title": "Dust",
+"n": 7,
+"target_s": 189.217,
+"match_tier": "duration within 3 s",
+"n_records": 4,
+"first_line_spread_s": 0.1,
+"first_hook_spread_s": 0.1,
+"hook_votes": "4/4"
+},
+"12": {
+"n_lines": 67,
+"first_line_s": 1.38,
+"last_line_s": 168.8,
+"median_line_gap_s": 2.05,
+"opening_section": "VERSE",
+"opening_section_lines": 20,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 54.83,
+"first_verse_s": 1.38,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 20,
+"first_sustained_section_s": 1.38,
+"hook_durations_s": [
+34.0,
+30.5
+],
+"hook_lines": [
+11,
+11
+],
+"verse_durations_s": [
+53.4,
+53.6
+],
+"verse_lines": [
+20,
+25
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.03,
+"hook_median_line_gap_s": 2.485,
+"verse_words_per_s": 3.35,
+"hook_words_per_s": 2.9,
+"verse_sylls_per_s": 4.0,
+"hook_sylls_per_s": 3.38,
+"longest_gap_s": 6.51,
+"longest_gap_at_s": 74.33,
+"repeated_line_share": 0.33,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.38,
+"end": 54.83,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 54.83,
+"end": 88.82,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 88.82,
+"end": 142.38,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 142.38,
+"end": 172.9,
+"lines": 11,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 33715338,
+"lrc_duration": 184.0,
+"status": "ok",
+"title": "2 Hard 4 The Radio",
+"n": 8,
+"target_s": 183.5,
+"match_tier": "duration within 3 s",
+"n_records": 6,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "6/6"
+},
+"13": {
+"n_lines": 81,
+"first_line_s": 5.17,
+"last_line_s": 280.96,
+"median_line_gap_s": 3.07,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 14.39,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 14.39,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+266.6
+],
+"verse_lines": [
+77
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 3.06,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 2.85,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 3.9,
+"hook_sylls_per_s": null,
+"longest_gap_s": 11.49,
+"longest_gap_at_s": 269.47,
+"repeated_line_share": 0.02,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 5.17,
+"end": 6.14,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 6.14,
+"end": 14.39,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 14.39,
+"end": 280.96,
+"lines": 77,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 280.96,
+"end": 287.1,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "b r V b",
+"lrclib_id": 33735807,
+"lrc_duration": 302.0,
+"status": "ok",
+"title": "Make Them Pay",
+"n": 9,
+"target_s": 301.951,
+"match_tier": "duration within 3 s",
+"n_records": 4,
+"first_line_spread_s": 5.17,
+"first_hook_spread_s": null,
+"hook_votes": "0/4"
+},
+"17": {
+"n_lines": 57,
+"first_line_s": 3.59,
+"last_line_s": 169.53,
+"median_line_gap_s": 2.85,
+"opening_section": "HOOK",
+"opening_section_lines": 9,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 3.59,
+"first_verse_s": 36.27,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 3.59,
+"hook_durations_s": [
+32.7,
+36.1,
+15.5
+],
+"hook_lines": [
+9,
+10,
+7
+],
+"verse_durations_s": [
+28.8,
+41.4,
+17.2
+],
+"verse_lines": [
+12,
+13,
+6
+],
+"hook_return_similarity": [
+0.95,
+0.12
+],
+"verse_median_line_gap_s": 2.62,
+"hook_median_line_gap_s": 3.67,
+"verse_words_per_s": 3.33,
+"hook_words_per_s": 2.16,
+"verse_sylls_per_s": 3.99,
+"hook_sylls_per_s": 2.37,
+"longest_gap_s": 7.29,
+"longest_gap_at_s": 15.27,
+"repeated_line_share": 0.46,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 3.59,
+"end": 36.27,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 36.27,
+"end": 65.03,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 65.03,
+"end": 101.1,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 101.1,
+"end": 142.49,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 142.49,
+"end": 157.98,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 157.98,
+"end": 175.23,
+"lines": 6,
+"cluster": null
+}
+],
+"order": "H V H V H V",
+"lrclib_id": 30537154,
+"lrc_duration": 194.0,
+"status": "ok",
+"title": "What Did I Miss?",
+"n": 10,
+"target_s": 194.324,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"18": {
+"n_lines": 68,
+"first_line_s": 2.43,
+"last_line_s": 204.23,
+"median_line_gap_s": 2.92,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 12.92,
+"first_verse_s": 2.43,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 2.43,
+"hook_durations_s": [
+24.2,
+24.8,
+24.3
+],
+"hook_lines": [
+8,
+8,
+8
+],
+"verse_durations_s": [
+10.5,
+47.3,
+47.6,
+26.0
+],
+"verse_lines": [
+4,
+16,
+16,
+8
+],
+"hook_return_similarity": [
+0.88,
+1.0
+],
+"verse_median_line_gap_s": 2.92,
+"hook_median_line_gap_s": 2.92,
+"verse_words_per_s": 3.12,
+"hook_words_per_s": 3.15,
+"verse_sylls_per_s": 3.79,
+"hook_sylls_per_s": 3.97,
+"longest_gap_s": 5.31,
+"longest_gap_at_s": 56.0,
+"repeated_line_share": 0.35,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.43,
+"end": 12.92,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 12.92,
+"end": 37.12,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 37.12,
+"end": 84.43,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 84.43,
+"end": 109.28,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.28,
+"end": 156.88,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 156.88,
+"end": 181.16,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 181.16,
+"end": 207.15,
+"lines": 8,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 29692721,
+"lrc_duration": 207.0,
+"status": "ok",
+"title": "Outside",
+"n": 11,
+"target_s": 206.711,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"19": {
+"n_lines": 60,
+"first_line_s": 8.98,
+"last_line_s": 160.76,
+"median_line_gap_s": 2.24,
+"opening_section": "HOOK",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 8.98,
+"first_verse_s": 35.51,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 8.98,
+"hook_durations_s": [
+26.5,
+28.5,
+30.1
+],
+"hook_lines": [
+8,
+8,
+8
+],
+"verse_durations_s": [
+42.3,
+28.5
+],
+"verse_lines": [
+22,
+14
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.765,
+"hook_median_line_gap_s": 3.63,
+"verse_words_per_s": 5.33,
+"hook_words_per_s": 2.53,
+"verse_sylls_per_s": 6.05,
+"hook_sylls_per_s": 2.99,
+"longest_gap_s": 4.78,
+"longest_gap_at_s": 77.83,
+"repeated_line_share": 0.4,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 8.98,
+"end": 35.51,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 35.51,
+"end": 77.83,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 77.83,
+"end": 106.35,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 106.35,
+"end": 134.89,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 134.89,
+"end": 165.0,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 18537594,
+"lrc_duration": 165.0,
+"status": "ok",
+"title": "All The Way",
+"n": 12,
+"target_s": 165.0,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.31,
+"first_hook_spread_s": 1.31,
+"hook_votes": "8/8"
+},
+"20": {
+"n_lines": 31,
+"first_line_s": 53.64,
+"last_line_s": 158.61,
+"median_line_gap_s": 3.095,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 72.34,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 72.34,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+92.5
+],
+"verse_lines": [
+30
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 3.08,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 3.43,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 4.14,
+"hook_sylls_per_s": null,
+"longest_gap_s": 18.7,
+"longest_gap_at_s": 53.64,
+"repeated_line_share": 0.0,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 53.64,
+"end": 72.34,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 72.34,
+"end": 164.8,
+"lines": 30,
+"cluster": null
+}
+],
+"order": "b V",
+"lrclib_id": 18253996,
+"lrc_duration": 184.0,
+"status": "ok",
+"title": "Evil J0rdan",
+"n": 13,
+"target_s": 183,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.28,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"21": {
+"n_lines": 74,
+"first_line_s": 5.91,
+"last_line_s": 199.86,
+"median_line_gap_s": 2.04,
+"opening_section": "HOOK",
+"opening_section_lines": 11,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 5.91,
+"first_verse_s": 42.42,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 5.91,
+"hook_durations_s": [
+36.5,
+24.9,
+39.7
+],
+"hook_lines": [
+11,
+7,
+11
+],
+"verse_durations_s": [
+42.4,
+54.6
+],
+"verse_lines": [
+21,
+24
+],
+"hook_return_similarity": [
+0.78,
+1.0
+],
+"verse_median_line_gap_s": 1.85,
+"hook_median_line_gap_s": 3.605,
+"verse_words_per_s": 3.76,
+"hook_words_per_s": 2.06,
+"verse_sylls_per_s": 4.41,
+"hook_sylls_per_s": 2.5,
+"longest_gap_s": 4.87,
+"longest_gap_at_s": 19.79,
+"repeated_line_share": 0.39,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 5.91,
+"end": 42.42,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 42.42,
+"end": 84.82,
+"lines": 21,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 84.82,
+"end": 109.68,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.68,
+"end": 164.25,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 164.25,
+"end": 203.94,
+"lines": 11,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 18254821,
+"lrc_duration": 210.0,
+"status": "ok",
+"title": "Rather Lie",
+"n": 14,
+"target_s": 209,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.36,
+"first_hook_spread_s": 0.36,
+"hook_votes": "8/8"
+},
+"23": {
+"n_lines": 50,
+"first_line_s": 27.66,
+"last_line_s": 177.92,
+"median_line_gap_s": 3.22,
+"opening_section": "VERSE",
+"opening_section_lines": 50,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 27.66,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 27.66,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+156.7
+],
+"verse_lines": [
+50
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 3.22,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 3.45,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 4.5,
+"hook_sylls_per_s": null,
+"longest_gap_s": 5.75,
+"longest_gap_at_s": 172.17,
+"repeated_line_share": 0.0,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 27.66,
+"end": 184.36,
+"lines": 50,
+"cluster": null
+}
+],
+"order": "V",
+"lrclib_id": 31940324,
+"lrc_duration": 193.0,
+"status": "ok",
+"title": "Gimme A Hug",
+"n": 15,
+"target_s": 193.054,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 60.22,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"24": {
+"n_lines": 94,
+"first_line_s": 0.09,
+"last_line_s": 218.81,
+"median_line_gap_s": 2.02,
+"opening_section": "HOOK",
+"opening_section_lines": 18,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 0.09,
+"first_verse_s": 34.83,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.09,
+"hook_durations_s": [
+34.7,
+84.8,
+36.8
+],
+"hook_lines": [
+18,
+33,
+14
+],
+"verse_durations_s": [
+30.2,
+36.2
+],
+"verse_lines": [
+13,
+16
+],
+"hook_return_similarity": [
+0.55,
+0.0
+],
+"verse_median_line_gap_s": 2.14,
+"hook_median_line_gap_s": 1.995,
+"verse_words_per_s": 3.9,
+"hook_words_per_s": 2.31,
+"verse_sylls_per_s": 4.38,
+"hook_sylls_per_s": 2.81,
+"longest_gap_s": 5.92,
+"longest_gap_at_s": 92.82,
+"repeated_line_share": 0.69,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.09,
+"end": 34.83,
+"lines": 18,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 34.83,
+"end": 65.05,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 65.05,
+"end": 149.86,
+"lines": 33,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 149.86,
+"end": 186.09,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 186.09,
+"end": 222.85,
+"lines": 14,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 29847653,
+"lrc_duration": 241.0,
+"status": "ok",
+"title": "Nokia",
+"n": 16,
+"target_s": 241.023,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.29,
+"first_hook_spread_s": 0.29,
+"hook_votes": "8/8"
+},
+"26": {
+"n_lines": 42,
+"first_line_s": 2.51,
+"last_line_s": 156.12,
+"median_line_gap_s": 3.43,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 13.83,
+"first_verse_s": 40.56,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 2,
+"first_sustained_section_s": 13.83,
+"hook_durations_s": [
+26.7,
+31.6,
+33.0
+],
+"hook_lines": [
+7,
+8,
+8
+],
+"verse_durations_s": [
+22.4,
+35.5
+],
+"verse_lines": [
+6,
+11
+],
+"hook_return_similarity": [
+0.93,
+0.93
+],
+"verse_median_line_gap_s": 3.32,
+"hook_median_line_gap_s": 3.43,
+"verse_words_per_s": 2.56,
+"hook_words_per_s": 2.59,
+"verse_sylls_per_s": 2.99,
+"hook_sylls_per_s": 2.76,
+"longest_gap_s": 5.66,
+"longest_gap_at_s": 2.51,
+"repeated_line_share": 0.55,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 2.51,
+"end": 13.83,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 13.83,
+"end": 40.56,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 40.56,
+"end": 62.93,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 62.93,
+"end": 94.5,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 94.5,
+"end": 130.01,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 130.01,
+"end": 162.98,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 33070835,
+"lrc_duration": 191.0,
+"status": "ok",
+"title": "4X4",
+"n": 17,
+"target_s": 190.581,
+"match_tier": "duration within 3 s",
+"n_records": 7,
+"first_line_spread_s": 0.7,
+"first_hook_spread_s": 0.1,
+"hook_votes": "7/7"
+},
+"27": {
+"n_lines": 66,
+"first_line_s": 0.21,
+"last_line_s": 155.05,
+"median_line_gap_s": 2.34,
+"opening_section": "VERSE",
+"opening_section_lines": 14,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 37.23,
+"first_verse_s": 0.21,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 14,
+"first_sustained_section_s": 0.21,
+"hook_durations_s": [
+10.4,
+19.2,
+19.1
+],
+"hook_lines": [
+4,
+8,
+8
+],
+"verse_durations_s": [
+37.0,
+16.9,
+55.0
+],
+"verse_lines": [
+14,
+8,
+24
+],
+"hook_return_similarity": [
+0.67,
+0.67
+],
+"verse_median_line_gap_s": 2.32,
+"hook_median_line_gap_s": 2.35,
+"verse_words_per_s": 3.25,
+"hook_words_per_s": 2.62,
+"verse_sylls_per_s": 3.92,
+"hook_sylls_per_s": 3.07,
+"longest_gap_s": 4.78,
+"longest_gap_at_s": 23.28,
+"repeated_line_share": 0.3,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.21,
+"end": 37.23,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 37.23,
+"end": 47.65,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 47.65,
+"end": 64.58,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 64.58,
+"end": 83.82,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 83.82,
+"end": 138.86,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 138.86,
+"end": 158.0,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 14947330,
+"lrc_duration": 158.0,
+"status": "ok",
+"title": "Squabble Up",
+"n": 18,
+"target_s": 157.992,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.24,
+"first_hook_spread_s": 0.18,
+"hook_votes": "8/8"
+},
+"28": {
+"n_lines": 86,
+"first_line_s": 4.97,
+"last_line_s": 217.23,
+"median_line_gap_s": 2.42,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 124.84,
+"first_verse_s": 30.37,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 48,
+"first_sustained_section_s": 10.95,
+"hook_durations_s": [
+18.9,
+38.8
+],
+"hook_lines": [
+7,
+15
+],
+"verse_durations_s": [
+18.8,
+38.9,
+38.2
+],
+"verse_lines": [
+8,
+16,
+16
+],
+"hook_return_similarity": [
+0.64
+],
+"verse_median_line_gap_s": 2.37,
+"hook_median_line_gap_s": 2.35,
+"verse_words_per_s": 4.12,
+"hook_words_per_s": 2.57,
+"verse_sylls_per_s": 5.1,
+"hook_sylls_per_s": 3.61,
+"longest_gap_s": 4.74,
+"longest_gap_at_s": 124.84,
+"repeated_line_share": 0.49,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 4.97,
+"end": 10.95,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 10.95,
+"end": 30.37,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 30.37,
+"end": 49.13,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 49.13,
+"end": 68.07,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 68.07,
+"end": 106.99,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 106.99,
+"end": 117.24,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 117.24,
+"end": 124.84,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 124.84,
+"end": 143.74,
+"lines": 7,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 143.74,
+"end": 181.96,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 181.96,
+"end": 220.73,
+"lines": 15,
+"cluster": 1
+}
+],
+"order": "b r V r V r b H V H",
+"lrclib_id": 17110549,
+"lrc_duration": 220.734694,
+"status": "ok",
+"title": "TV Off",
+"n": 19,
+"target_s": 220.69,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.17,
+"first_hook_spread_s": 0.26,
+"hook_votes": "8/8"
+},
+"29": {
+"n_lines": 42,
+"first_line_s": 10.11,
+"last_line_s": 160.26,
+"median_line_gap_s": 3.457,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 53.79,
+"first_verse_s": 83.06,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 12,
+"first_sustained_section_s": 12.55,
+"hook_durations_s": [
+29.3,
+29.3,
+5.4
+],
+"hook_lines": [
+7,
+7,
+2
+],
+"verse_durations_s": [
+21.1,
+21.4
+],
+"verse_lines": [
+6,
+7
+],
+"hook_return_similarity": [
+1.0,
+0.44
+],
+"verse_median_line_gap_s": 3.463,
+"hook_median_line_gap_s": 3.553,
+"verse_words_per_s": 2.49,
+"hook_words_per_s": 1.91,
+"verse_sylls_per_s": 2.8,
+"hook_sylls_per_s": 2.53,
+"longest_gap_s": 7.11,
+"longest_gap_at_s": 26.29,
+"repeated_line_share": 0.6,
+"blank_markers": 5,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 10.11,
+"end": 12.55,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 12.55,
+"end": 47.33,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 47.33,
+"end": 53.79,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 53.79,
+"end": 83.06,
+"lines": 7,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 83.06,
+"end": 104.19,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 104.19,
+"end": 133.47,
+"lines": 7,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 133.47,
+"end": 154.9,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 154.9,
+"end": 160.26,
+"lines": 2,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 160.26,
+"end": 167.18,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "b r b H V H V H b",
+"lrclib_id": 29699337,
+"lrc_duration": 177.0,
+"status": "ok",
+"title": "Luther",
+"n": 20,
+"target_s": 177.599,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.31,
+"first_hook_spread_s": 0.61,
+"hook_votes": "8/8"
+},
+"30": {
+"n_lines": 102,
+"first_line_s": 1.47,
+"last_line_s": 301.26,
+"median_line_gap_s": 2.91,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 70.14,
+"first_verse_s": 23.84,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 19,
+"first_sustained_section_s": 23.84,
+"hook_durations_s": [
+24.9,
+23.6
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+46.3,
+91.9,
+96.5
+],
+"verse_lines": [
+16,
+32,
+35
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.89,
+"hook_median_line_gap_s": 2.975,
+"verse_words_per_s": 3.31,
+"hook_words_per_s": 2.82,
+"verse_sylls_per_s": 4.38,
+"hook_sylls_per_s": 3.42,
+"longest_gap_s": 12.36,
+"longest_gap_at_s": 11.48,
+"repeated_line_share": 0.16,
+"blank_markers": 3,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.47,
+"end": 23.84,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 23.84,
+"end": 70.14,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 70.14,
+"end": 95.02,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 95.02,
+"end": 186.96,
+"lines": 32,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 186.96,
+"end": 210.6,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 210.6,
+"end": 307.08,
+"lines": 35,
+"cluster": null
+}
+],
+"order": "b V H V H V",
+"lrclib_id": 16902133,
+"lrc_duration": 317.0,
+"status": "ok",
+"title": "Wacced Out Murals",
+"n": 21,
+"target_s": 317.093,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.35,
+"first_hook_spread_s": 0.25,
+"hook_votes": "8/8"
+},
+"31": {
+"n_lines": 84,
+"first_line_s": 4.47,
+"last_line_s": 215.65,
+"median_line_gap_s": 2.35,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 19.26,
+"first_verse_s": 4.47,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 4.47,
+"hook_durations_s": [
+9.4,
+28.3,
+8.7
+],
+"hook_lines": [
+4,
+12,
+4
+],
+"verse_durations_s": [
+14.8,
+28.2,
+38.0,
+86.2
+],
+"verse_lines": [
+4,
+12,
+17,
+31
+],
+"hook_return_similarity": [
+0.5,
+0.0
+],
+"verse_median_line_gap_s": 2.365,
+"hook_median_line_gap_s": 2.32,
+"verse_words_per_s": 3.36,
+"hook_words_per_s": 2.67,
+"verse_sylls_per_s": 4.09,
+"hook_sylls_per_s": 3.02,
+"longest_gap_s": 5.15,
+"longest_gap_at_s": 4.47,
+"repeated_line_share": 0.24,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 4.47,
+"end": 19.26,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 19.26,
+"end": 28.62,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 28.62,
+"end": 56.78,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 56.78,
+"end": 85.12,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 85.12,
+"end": 123.14,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 123.14,
+"end": 131.84,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 131.84,
+"end": 218.0,
+"lines": 31,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 16206493,
+"lrc_duration": 218.0,
+"status": "ok",
+"title": "Hey Now",
+"n": 22,
+"target_s": 217.479,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.72,
+"first_hook_spread_s": 0.38,
+"hook_votes": "8/8"
+},
+"32": {
+"n_lines": 90,
+"first_line_s": 0.23,
+"last_line_s": 271.7,
+"median_line_gap_s": 2.66,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 20.64,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 20.64,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+73.8,
+52.0,
+128.5
+],
+"verse_lines": [
+24,
+16,
+48
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 2.65,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 3.69,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 5.18,
+"hook_sylls_per_s": null,
+"longest_gap_s": 16.21,
+"longest_gap_at_s": 4.43,
+"repeated_line_share": 0.0,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.23,
+"end": 20.64,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 20.64,
+"end": 94.48,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 94.48,
+"end": 146.52,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 146.52,
+"end": 275.0,
+"lines": 48,
+"cluster": null
+}
+],
+"order": "b V V V",
+"lrclib_id": 30490549,
+"lrc_duration": 275.0,
+"status": "ok",
+"title": "Reincarnated",
+"n": 23,
+"target_s": 275.74,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 9.86,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"33": {
+"n_lines": 83,
+"first_line_s": 32.29,
+"last_line_s": 218.15,
+"median_line_gap_s": 1.85,
+"opening_section": "VERSE",
+"opening_section_lines": 23,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 72.34,
+"first_verse_s": 32.29,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 23,
+"first_sustained_section_s": 32.29,
+"hook_durations_s": [
+22.6,
+23.1,
+9.1
+],
+"hook_lines": [
+5,
+5,
+2
+],
+"verse_durations_s": [
+40.1,
+39.7,
+55.1
+],
+"verse_lines": [
+23,
+23,
+25
+],
+"hook_return_similarity": [
+1.0,
+0.57
+],
+"verse_median_line_gap_s": 1.785,
+"hook_median_line_gap_s": 5.38,
+"verse_words_per_s": 3.59,
+"hook_words_per_s": 0.72,
+"verse_sylls_per_s": 4.92,
+"hook_sylls_per_s": 0.87,
+"longest_gap_s": 6.84,
+"longest_gap_at_s": 75.02,
+"repeated_line_share": 0.14,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 32.29,
+"end": 72.34,
+"lines": 23,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 72.34,
+"end": 94.99,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 94.99,
+"end": 134.66,
+"lines": 23,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 134.66,
+"end": 157.72,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 157.72,
+"end": 212.77,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 212.77,
+"end": 221.85,
+"lines": 2,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 18919874,
+"lrc_duration": 233.16,
+"status": "ok",
+"title": "Man At The Garden",
+"n": 24,
+"target_s": 233.173,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.26,
+"first_hook_spread_s": 0.17,
+"hook_votes": "8/8"
+},
+"34": {
+"n_lines": 83,
+"first_line_s": 11.31,
+"last_line_s": 249.73,
+"median_line_gap_s": 2.975,
+"opening_section": "VERSE",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 5,
+"first_hook_s": 71.86,
+"first_verse_s": 11.31,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 22,
+"first_sustained_section_s": 11.31,
+"hook_durations_s": [
+12.2,
+12.6,
+10.5,
+21.0,
+24.8
+],
+"hook_lines": [
+4,
+4,
+4,
+8,
+8
+],
+"verse_durations_s": [
+12.6,
+12.1,
+15.1,
+11.4,
+11.7,
+16.3,
+51.0
+],
+"verse_lines": [
+5,
+4,
+6,
+4,
+4,
+6,
+17
+],
+"hook_return_similarity": [
+1.0,
+1.0,
+0.5,
+0.0
+],
+"verse_median_line_gap_s": 2.98,
+"hook_median_line_gap_s": 3.02,
+"verse_words_per_s": 3.02,
+"hook_words_per_s": 2.19,
+"verse_sylls_per_s": 4.03,
+"hook_sylls_per_s": 3.03,
+"longest_gap_s": 6.38,
+"longest_gap_at_s": 243.35,
+"repeated_line_share": 0.42,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 11.31,
+"end": 23.95,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 23.95,
+"end": 35.75,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 35.75,
+"end": 47.87,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 47.87,
+"end": 56.8,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 56.8,
+"end": 71.86,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 71.86,
+"end": 84.1,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 84.1,
+"end": 95.51,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 95.51,
+"end": 108.11,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 108.11,
+"end": 119.78,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 119.78,
+"end": 130.29,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 130.29,
+"end": 146.62,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 146.62,
+"end": 167.59,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 167.59,
+"end": 218.57,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 218.57,
+"end": 243.35,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 243.35,
+"end": 255.68,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "V r V r V H V H V H V H V H b",
+"lrclib_id": 14453251,
+"lrc_duration": 256.0,
+"status": "ok",
+"title": "Sticky",
+"n": 25,
+"target_s": 255.916,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 8.87,
+"first_hook_spread_s": 84.41,
+"hook_votes": "8/8"
+},
+"35": {
+"n_lines": 56,
+"first_line_s": 0.68,
+"last_line_s": 192.62,
+"median_line_gap_s": 3.13,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 11.56,
+"first_verse_s": 0.68,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 0.68,
+"hook_durations_s": [
+25.0,
+49.7,
+1.6,
+20.3
+],
+"hook_lines": [
+8,
+9,
+1,
+5
+],
+"verse_durations_s": [
+10.9,
+50.8,
+38.1
+],
+"verse_lines": [
+4,
+17,
+12
+],
+"hook_return_similarity": [
+0.12,
+0.22,
+0.0
+],
+"verse_median_line_gap_s": 3.075,
+"hook_median_line_gap_s": 3.24,
+"verse_words_per_s": 3.24,
+"hook_words_per_s": 0.93,
+"verse_sylls_per_s": 3.92,
+"hook_sylls_per_s": 1.37,
+"longest_gap_s": 11.61,
+"longest_gap_at_s": 125.42,
+"repeated_line_share": 0.41,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.68,
+"end": 11.56,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 11.56,
+"end": 36.52,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 36.52,
+"end": 87.34,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 87.34,
+"end": 137.03,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 137.03,
+"end": 138.62,
+"lines": 1,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 138.62,
+"end": 176.73,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 176.73,
+"end": 197.0,
+"lines": 5,
+"cluster": 0
+}
+],
+"order": "V H V H H V H",
+"lrclib_id": 13846236,
+"lrc_duration": 197.0,
+"status": "ok",
+"title": "St. Chroma",
+"n": 26,
+"target_s": 197.02,
+"match_tier": "duration within 3 s",
+"n_records": 2,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "2/2"
+},
+"36": {
+"n_lines": 80,
+"first_line_s": 0.3,
+"last_line_s": 283.62,
+"median_line_gap_s": 2.86,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 41.5,
+"first_verse_s": 14.45,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 7,
+"first_sustained_section_s": 14.45,
+"hook_durations_s": [
+39.0,
+55.2
+],
+"hook_lines": [
+7,
+8
+],
+"verse_durations_s": [
+27.1,
+27.6,
+101.1,
+12.7
+],
+"verse_lines": [
+6,
+12,
+38,
+5
+],
+"hook_return_similarity": [
+0.4
+],
+"verse_median_line_gap_s": 2.53,
+"hook_median_line_gap_s": 6.58,
+"verse_words_per_s": 2.6,
+"hook_words_per_s": 0.73,
+"verse_sylls_per_s": 3.37,
+"hook_sylls_per_s": 1.43,
+"longest_gap_s": 15.08,
+"longest_gap_at_s": 148.26,
+"repeated_line_share": 0.21,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.3,
+"end": 14.45,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 14.45,
+"end": 41.5,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 41.5,
+"end": 80.47,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 80.47,
+"end": 108.1,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 108.1,
+"end": 163.34,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 163.34,
+"end": 264.46,
+"lines": 38,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 264.46,
+"end": 273.83,
+"lines": 3,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 273.83,
+"end": 286.48,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "b V H V H V r V",
+"lrclib_id": 30621293,
+"lrc_duration": 284.0,
+"status": "ok",
+"title": "Noid",
+"n": 27,
+"target_s": 284.364,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.7,
+"first_hook_spread_s": 156.13,
+"hook_votes": "8/8"
+},
+"38": {
+"n_lines": 98,
+"first_line_s": 0.01,
+"last_line_s": 222.33,
+"median_line_gap_s": 1.96,
+"opening_section": "VERSE",
+"opening_section_lines": 27,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 59.27,
+"first_verse_s": 0.01,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 27,
+"first_sustained_section_s": 0.01,
+"hook_durations_s": [
+15.3,
+15.6,
+15.9
+],
+"hook_lines": [
+4,
+4,
+4
+],
+"verse_durations_s": [
+59.3,
+45.1,
+75.1
+],
+"verse_lines": [
+27,
+23,
+36
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.93,
+"hook_median_line_gap_s": 4.35,
+"verse_words_per_s": 3.5,
+"hook_words_per_s": 1.27,
+"verse_sylls_per_s": 4.33,
+"hook_sylls_per_s": 1.93,
+"longest_gap_s": 4.64,
+"longest_gap_at_s": 66.68,
+"repeated_line_share": 0.12,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.01,
+"end": 59.27,
+"lines": 27,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 59.27,
+"end": 74.56,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 74.56,
+"end": 119.7,
+"lines": 23,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 119.7,
+"end": 135.31,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 135.31,
+"end": 210.38,
+"lines": 36,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 210.38,
+"end": 226.25,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 33064034,
+"lrc_duration": 227.0,
+"status": "ok",
+"title": "Houdini",
+"n": 28,
+"target_s": 227.239,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.08,
+"first_hook_spread_s": 0.27,
+"hook_votes": "8/8"
+},
+"39": {
+"n_lines": 101,
+"first_line_s": 0.08,
+"last_line_s": 261.01,
+"median_line_gap_s": 2.37,
+"opening_section": "VERSE",
+"opening_section_lines": 26,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 74.54,
+"first_verse_s": 0.08,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 26,
+"first_sustained_section_s": 0.08,
+"hook_durations_s": [
+8.5,
+9.1
+],
+"hook_lines": [
+2,
+2
+],
+"verse_durations_s": [
+74.5,
+81.9,
+51.5
+],
+"verse_lines": [
+26,
+33,
+22
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.35,
+"hook_median_line_gap_s": 4.955,
+"verse_words_per_s": 3.75,
+"hook_words_per_s": 2.82,
+"verse_sylls_per_s": 4.75,
+"hook_sylls_per_s": 2.82,
+"longest_gap_s": 8.06,
+"longest_gap_at_s": 66.48,
+"repeated_line_share": 0.16,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.08,
+"end": 74.54,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 74.54,
+"end": 83.02,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 83.02,
+"end": 164.88,
+"lines": 33,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 164.88,
+"end": 173.99,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 173.99,
+"end": 225.51,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 225.51,
+"end": 243.77,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 243.77,
+"end": 249.24,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 249.24,
+"end": 253.91,
+"lines": 2,
+"cluster": 2
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 253.91,
+"end": 258.64,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 258.64,
+"end": 265.75,
+"lines": 2,
+"cluster": 2
+}
+],
+"order": "V H V H V r b r b r",
+"lrclib_id": 9293961,
+"lrc_duration": 273.0,
+"status": "ok",
+"title": "Not Like Us",
+"n": 29,
+"target_s": 274.192,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.09,
+"first_hook_spread_s": 0.3,
+"hook_votes": "8/8"
+},
+"40": {
+"n_lines": 130,
+"first_line_s": 2.04,
+"last_line_s": 382.56,
+"median_line_gap_s": 3.22,
+"opening_section": "VERSE",
+"opening_section_lines": 130,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 2.04,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 2.04,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+383.7
+],
+"verse_lines": [
+130
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 3.22,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 3.77,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 4.81,
+"hook_sylls_per_s": null,
+"longest_gap_s": 6.91,
+"longest_gap_at_s": 372.76,
+"repeated_line_share": 0.0,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.04,
+"end": 385.78,
+"lines": 130,
+"cluster": null
+}
+],
+"order": "V",
+"lrclib_id": 9098044,
+"lrc_duration": 384.0,
+"status": "ok",
+"title": "Euphoria",
+"n": 30,
+"target_s": 384,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.07,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"41": {
+"n_lines": 218,
+"first_line_s": 0.19,
+"last_line_s": 452.39,
+"median_line_gap_s": 1.84,
+"opening_section": "VERSE",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 12.5,
+"first_verse_s": 0.19,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 6,
+"first_sustained_section_s": 0.19,
+"hook_durations_s": [
+12.8,
+15.4
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+12.3,
+124.9,
+290.5
+],
+"verse_lines": [
+6,
+43,
+161
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 1.83,
+"hook_median_line_gap_s": 2.915,
+"verse_words_per_s": 3.86,
+"hook_words_per_s": 2.64,
+"verse_sylls_per_s": 4.78,
+"hook_sylls_per_s": 2.99,
+"longest_gap_s": 7.32,
+"longest_gap_at_s": 101.22,
+"repeated_line_share": 0.04,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.19,
+"end": 12.5,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 12.5,
+"end": 25.25,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 25.25,
+"end": 150.13,
+"lines": 43,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 150.13,
+"end": 165.53,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 165.53,
+"end": 456.0,
+"lines": 161,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 9058902,
+"lrc_duration": 456.0,
+"status": "ok",
+"title": "Family Matters",
+"n": 31,
+"target_s": 456.934,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.09,
+"first_hook_spread_s": 0.1,
+"hook_votes": "8/8"
+},
+"44": {
+"n_lines": 67,
+"first_line_s": 2.51,
+"last_line_s": 202.63,
+"median_line_gap_s": 2.84,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 11.56,
+"first_verse_s": 2.51,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 2.51,
+"hook_durations_s": [
+22.0,
+35.2
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+9.1,
+56.5,
+83.0
+],
+"verse_lines": [
+4,
+20,
+27
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.85,
+"hook_median_line_gap_s": 2.79,
+"verse_words_per_s": 3.38,
+"hook_words_per_s": 3.39,
+"verse_sylls_per_s": 4.32,
+"hook_sylls_per_s": 4.07,
+"longest_gap_s": 16.07,
+"longest_gap_at_s": 109.23,
+"repeated_line_share": 0.24,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.51,
+"end": 11.56,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 11.56,
+"end": 33.56,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 33.56,
+"end": 90.06,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 90.06,
+"end": 125.3,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 125.3,
+"end": 208.31,
+"lines": 27,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 17400660,
+"lrc_duration": 212.256,
+"status": "ok",
+"title": "7 Minute Drill",
+"n": 32,
+"target_s": 212.213,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.39,
+"first_hook_spread_s": 0.25,
+"hook_votes": "8/8"
+},
+"45": {
+"n_lines": 82,
+"first_line_s": 8.38,
+"last_line_s": 263.15,
+"median_line_gap_s": 2.93,
+"opening_section": "VERSE",
+"opening_section_lines": 26,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 88.45,
+"first_verse_s": 8.38,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 26,
+"first_sustained_section_s": 8.38,
+"hook_durations_s": [
+24.9,
+47.3,
+20.2
+],
+"hook_lines": [
+8,
+8,
+7
+],
+"verse_durations_s": [
+80.1,
+58.5,
+28.6
+],
+"verse_lines": [
+26,
+24,
+9
+],
+"hook_return_similarity": [
+1.0,
+0.93
+],
+"verse_median_line_gap_s": 2.93,
+"hook_median_line_gap_s": 2.95,
+"verse_words_per_s": 3.29,
+"hook_words_per_s": 2.7,
+"verse_sylls_per_s": 3.89,
+"hook_sylls_per_s": 3.28,
+"longest_gap_s": 26.76,
+"longest_gap_at_s": 192.42,
+"repeated_line_share": 0.28,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 8.38,
+"end": 88.45,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 88.45,
+"end": 113.38,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 113.38,
+"end": 171.89,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 171.89,
+"end": 219.18,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 219.18,
+"end": 239.38,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 239.38,
+"end": 268.0,
+"lines": 9,
+"cluster": null
+}
+],
+"order": "V H V H H V",
+"lrclib_id": 7443848,
+"lrc_duration": 268.0,
+"status": "ok",
+"title": "Like That",
+"n": 33,
+"target_s": 267.707,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.27,
+"first_hook_spread_s": 1.34,
+"hook_votes": "8/8"
+},
+"46": {
+"n_lines": 67,
+"first_line_s": 1.13,
+"last_line_s": 220.72,
+"median_line_gap_s": 3.28,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 3.21,
+"first_verse_s": 22.55,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 3.21,
+"hook_durations_s": [
+19.3,
+20.0
+],
+"hook_lines": [
+6,
+6
+],
+"verse_durations_s": [
+63.5,
+86.1,
+21.9
+],
+"verse_lines": [
+19,
+26,
+5
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.26,
+"hook_median_line_gap_s": 3.285,
+"verse_words_per_s": 2.53,
+"hook_words_per_s": 2.44,
+"verse_sylls_per_s": 3.07,
+"hook_sylls_per_s": 2.69,
+"longest_gap_s": 6.68,
+"longest_gap_at_s": 112.45,
+"repeated_line_share": 0.24,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.13,
+"end": 3.21,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 3.21,
+"end": 22.55,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 22.55,
+"end": 86.03,
+"lines": 19,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 86.03,
+"end": 99.26,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 99.26,
+"end": 185.35,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 185.35,
+"end": 205.36,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 205.36,
+"end": 227.28,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "b H V r V H V",
+"lrclib_id": 7724524,
+"lrc_duration": 228.0,
+"status": "ok",
+"title": "Type Shit",
+"n": 34,
+"target_s": 228.267,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.41,
+"first_hook_spread_s": 0.65,
+"hook_votes": "8/8"
+},
+"47": {
+"n_lines": 69,
+"first_line_s": 2.74,
+"last_line_s": 153.34,
+"median_line_gap_s": 1.87,
+"opening_section": "HOOK",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 2.74,
+"first_verse_s": 43.33,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 2.74,
+"hook_durations_s": [
+21.8,
+14.7,
+18.6,
+15.6
+],
+"hook_lines": [
+6,
+8,
+8,
+8
+],
+"verse_durations_s": [
+25.8,
+44.2
+],
+"verse_lines": [
+14,
+21
+],
+"hook_return_similarity": [
+0.29,
+0.29,
+0.29
+],
+"verse_median_line_gap_s": 1.87,
+"hook_median_line_gap_s": 1.855,
+"verse_words_per_s": 2.93,
+"hook_words_per_s": 2.23,
+"verse_sylls_per_s": 3.79,
+"hook_sylls_per_s": 3.44,
+"longest_gap_s": 7.07,
+"longest_gap_at_s": 17.5,
+"repeated_line_share": 0.43,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 2.74,
+"end": 24.57,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 24.57,
+"end": 28.59,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 28.59,
+"end": 43.33,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 43.33,
+"end": 69.11,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 69.11,
+"end": 87.71,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 87.71,
+"end": 131.89,
+"lines": 21,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 131.89,
+"end": 147.44,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 147.44,
+"end": 157.08,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "H b H V H V H b",
+"lrclib_id": 8995047,
+"lrc_duration": 169.0,
+"status": "ok",
+"title": "Cinderella",
+"n": 35,
+"target_s": 169.84,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 2.87,
+"first_hook_spread_s": 2.87,
+"hook_votes": "8/8"
+},
+"48": {
+"n_lines": 76,
+"first_line_s": 1.46,
+"last_line_s": 222.17,
+"median_line_gap_s": 2.32,
+"opening_section": "HOOK",
+"opening_section_lines": 7,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 1.46,
+"first_verse_s": 15.58,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 1.46,
+"hook_durations_s": [
+14.1,
+7.8,
+9.2
+],
+"hook_lines": [
+7,
+3,
+4
+],
+"verse_durations_s": [
+16.8,
+58.7,
+53.7
+],
+"verse_lines": [
+4,
+16,
+25
+],
+"hook_return_similarity": [
+0.6,
+0.73
+],
+"verse_median_line_gap_s": 2.115,
+"hook_median_line_gap_s": 1.91,
+"verse_words_per_s": 2.63,
+"hook_words_per_s": 2.32,
+"verse_sylls_per_s": 3.35,
+"hook_sylls_per_s": 3.31,
+"longest_gap_s": 6.0,
+"longest_gap_at_s": 170.72,
+"repeated_line_share": 0.37,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 1.46,
+"end": 15.58,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 15.58,
+"end": 32.34,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 32.34,
+"end": 40.15,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 40.15,
+"end": 98.83,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 98.83,
+"end": 123.06,
+"lines": 6,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 123.06,
+"end": 176.72,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 176.72,
+"end": 206.48,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 206.48,
+"end": 216.83,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 216.83,
+"end": 226.0,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "H V H V r V r b H",
+"lrclib_id": 7313230,
+"lrc_duration": 226.0,
+"status": "ok",
+"title": "We Don't Trust You",
+"n": 36,
+"target_s": 226.213,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.43,
+"first_hook_spread_s": 97.64,
+"hook_votes": "8/8"
+},
+"49": {
+"n_lines": 82,
+"first_line_s": 0.58,
+"last_line_s": 200.99,
+"median_line_gap_s": 2.2,
+"opening_section": "HOOK",
+"opening_section_lines": 15,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 0.58,
+"first_verse_s": 34.32,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.58,
+"hook_durations_s": [
+33.7,
+8.1,
+8.5,
+38.7
+],
+"hook_lines": [
+15,
+4,
+4,
+13
+],
+"verse_durations_s": [
+60.3,
+43.1
+],
+"verse_lines": [
+23,
+20
+],
+"hook_return_similarity": [
+0.42,
+0.32,
+0.57
+],
+"verse_median_line_gap_s": 2.2,
+"hook_median_line_gap_s": 2.16,
+"verse_words_per_s": 3.12,
+"hook_words_per_s": 2.09,
+"verse_sylls_per_s": 3.68,
+"hook_sylls_per_s": 2.89,
+"longest_gap_s": 5.82,
+"longest_gap_at_s": 186.34,
+"repeated_line_share": 0.44,
+"blank_markers": 3,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.58,
+"end": 34.32,
+"lines": 15,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 34.32,
+"end": 94.64,
+"lines": 23,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 94.64,
+"end": 102.7,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 102.7,
+"end": 145.8,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 145.8,
+"end": 154.29,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 154.29,
+"end": 166.34,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 166.34,
+"end": 205.0,
+"lines": 13,
+"cluster": 0
+}
+],
+"order": "H V H V H b H",
+"lrclib_id": 7920553,
+"lrc_duration": 205.0,
+"status": "ok",
+"title": "Young Metro",
+"n": 37,
+"target_s": 205.347,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.47,
+"first_hook_spread_s": 0.47,
+"hook_votes": "8/8"
+},
+"50": {
+"n_lines": 68,
+"first_line_s": 1.21,
+"last_line_s": 147.96,
+"median_line_gap_s": 1.79,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 36.46,
+"first_verse_s": 10.85,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 21,
+"first_sustained_section_s": 4.54,
+"hook_durations_s": [
+32.1,
+32.3
+],
+"hook_lines": [
+11,
+11
+],
+"verse_durations_s": [
+25.6,
+50.7
+],
+"verse_lines": [
+15,
+25
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 1.755,
+"hook_median_line_gap_s": 3.355,
+"verse_words_per_s": 4.01,
+"hook_words_per_s": 3.18,
+"verse_sylls_per_s": 5.24,
+"hook_sylls_per_s": 3.69,
+"longest_gap_s": 3.86,
+"longest_gap_at_s": 130.32,
+"repeated_line_share": 0.38,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.21,
+"end": 4.54,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 4.54,
+"end": 10.85,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 10.85,
+"end": 36.46,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 36.46,
+"end": 68.54,
+"lines": 11,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 68.54,
+"end": 119.26,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 119.26,
+"end": 151.54,
+"lines": 11,
+"cluster": 1
+}
+],
+"order": "b r V H V H",
+"lrclib_id": 31536769,
+"lrc_duration": 159.0,
+"status": "ok",
+"title": "Enough (Miami)",
+"n": 38,
+"target_s": 158.727,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.01,
+"first_hook_spread_s": 0.02,
+"hook_votes": "8/8"
+},
+"52": {
+"n_lines": 34,
+"first_line_s": 0.19,
+"last_line_s": 255.9,
+"median_line_gap_s": 1.63,
+"opening_section": "HOOK",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 0.19,
+"first_verse_s": null,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.19,
+"hook_durations_s": [
+64.6,
+84.1,
+90.9,
+12.9
+],
+"hook_lines": [
+8,
+8,
+8,
+8
+],
+"verse_durations_s": [],
+"verse_lines": [],
+"hook_return_similarity": [
+1.0,
+1.0,
+1.0
+],
+"verse_median_line_gap_s": null,
+"hook_median_line_gap_s": 1.6,
+"verse_words_per_s": null,
+"hook_words_per_s": 3.42,
+"verse_sylls_per_s": null,
+"hook_sylls_per_s": 4.31,
+"longest_gap_s": 79.57,
+"longest_gap_at_s": 160.26,
+"repeated_line_share": 0.94,
+"blank_markers": 4,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.19,
+"end": 64.83,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 64.83,
+"end": 148.93,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 148.93,
+"end": 239.83,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 239.83,
+"end": 252.77,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 252.77,
+"end": 259.16,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "H H H H b",
+"lrclib_id": 15873712,
+"lrc_duration": 264.0,
+"status": "ok",
+"title": "Carnival",
+"n": 39,
+"target_s": 262.709,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.11,
+"first_hook_spread_s": 0.11,
+"hook_votes": "8/8"
+},
+"53": {
+"n_lines": 103,
+"first_line_s": 0.21,
+"last_line_s": 189.38,
+"median_line_gap_s": 1.54,
+"opening_section": "VERSE",
+"opening_section_lines": 103,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 0.21,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 0.21,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+192.2
+],
+"verse_lines": [
+103
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 1.54,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 4.33,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 5.44,
+"hook_sylls_per_s": null,
+"longest_gap_s": 6.52,
+"longest_gap_at_s": 10.96,
+"repeated_line_share": 0.0,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.21,
+"end": 192.46,
+"lines": 103,
+"cluster": null
+}
+],
+"order": "V",
+"lrclib_id": 5629101,
+"lrc_duration": 193.0,
+"status": "ok",
+"title": "Hiss",
+"n": 40,
+"target_s": 192.819,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.08,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"54": {
+"n_lines": 81,
+"first_line_s": 23.98,
+"last_line_s": 266.21,
+"median_line_gap_s": 2.785,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 44.58,
+"first_verse_s": 78.1,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 44.58,
+"hook_durations_s": [
+33.5,
+21.9,
+23.8
+],
+"hook_lines": [
+13,
+8,
+8
+],
+"verse_durations_s": [
+67.5,
+56.3,
+23.4
+],
+"verse_lines": [
+24,
+20,
+5
+],
+"hook_return_similarity": [
+0.76,
+0.76
+],
+"verse_median_line_gap_s": 2.775,
+"hook_median_line_gap_s": 2.79,
+"verse_words_per_s": 2.64,
+"hook_words_per_s": 1.91,
+"verse_sylls_per_s": 3.06,
+"hook_sylls_per_s": 2.53,
+"longest_gap_s": 10.11,
+"longest_gap_at_s": 30.37,
+"repeated_line_share": 0.36,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 23.98,
+"end": 40.48,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 40.48,
+"end": 44.58,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 44.58,
+"end": 78.1,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 78.1,
+"end": 145.57,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 145.57,
+"end": 167.47,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 167.47,
+"end": 223.74,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 223.74,
+"end": 247.57,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 247.57,
+"end": 271.0,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "b b H V H V H V",
+"lrclib_id": 8088516,
+"lrc_duration": 271.0,
+"status": "ok",
+"title": "Redrum",
+"n": 41,
+"target_s": 270.698,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.37,
+"first_hook_spread_s": 12.18,
+"hook_votes": "8/8"
+},
+"55": {
+"n_lines": 68,
+"first_line_s": 5.1,
+"last_line_s": 205.7,
+"median_line_gap_s": 2.9,
+"opening_section": "VERSE",
+"opening_section_lines": 28,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 92.41,
+"first_verse_s": 5.1,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 28,
+"first_sustained_section_s": 5.1,
+"hook_durations_s": [
+23.9,
+26.0
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+87.3,
+69.2
+],
+"verse_lines": [
+28,
+24
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.905,
+"hook_median_line_gap_s": 2.91,
+"verse_words_per_s": 3.23,
+"hook_words_per_s": 3.3,
+"verse_sylls_per_s": 4.06,
+"hook_sylls_per_s": 4.04,
+"longest_gap_s": 7.09,
+"longest_gap_at_s": 19.98,
+"repeated_line_share": 0.24,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 5.1,
+"end": 92.41,
+"lines": 28,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 92.41,
+"end": 116.32,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 116.32,
+"end": 185.49,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 185.49,
+"end": 211.5,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 19930227,
+"lrc_duration": 221.0,
+"status": "ok",
+"title": "Nee-nah",
+"n": 42,
+"target_s": 220.584,
+"match_tier": "duration within 3 s",
+"n_records": 5,
+"first_line_spread_s": 0.12,
+"first_hook_spread_s": 0.18,
+"hook_votes": "5/5"
+},
+"56": {
+"n_lines": 80,
+"first_line_s": 0.1,
+"last_line_s": 247.47,
+"median_line_gap_s": 2.77,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 14.28,
+"first_verse_s": 54.25,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 14.28,
+"hook_durations_s": [
+40.0,
+42.5,
+45.6
+],
+"hook_lines": [
+10,
+10,
+10
+],
+"verse_durations_s": [
+53.8,
+51.3
+],
+"verse_lines": [
+20,
+26
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 2.04,
+"hook_median_line_gap_s": 3.88,
+"verse_words_per_s": 3.71,
+"hook_words_per_s": 2.25,
+"verse_sylls_per_s": 4.32,
+"hook_sylls_per_s": 2.68,
+"longest_gap_s": 10.79,
+"longest_gap_at_s": 236.68,
+"repeated_line_share": 0.38,
+"blank_markers": 4,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.1,
+"end": 14.28,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 14.28,
+"end": 54.25,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 54.25,
+"end": 108.05,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 108.05,
+"end": 150.54,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 150.54,
+"end": 201.87,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 201.87,
+"end": 247.47,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 247.47,
+"end": 253.01,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "b H V H V H b",
+"lrclib_id": 6453266,
+"lrc_duration": 265.0,
+"status": "ok",
+"title": "Agora Hills",
+"n": 43,
+"target_s": 265.36,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 6.33,
+"first_hook_spread_s": 0.66,
+"hook_votes": "8/8"
+},
+"58": {
+"n_lines": 52,
+"first_line_s": 0.0,
+"last_line_s": 135.08,
+"median_line_gap_s": 2.34,
+"opening_section": "HOOK",
+"opening_section_lines": 10,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 0.0,
+"first_verse_s": 27.27,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.0,
+"hook_durations_s": [
+27.3,
+27.1,
+37.5
+],
+"hook_lines": [
+10,
+11,
+14
+],
+"verse_durations_s": [
+18.6,
+27.5
+],
+"verse_lines": [
+7,
+10
+],
+"hook_return_similarity": [
+0.86,
+0.75
+],
+"verse_median_line_gap_s": 2.19,
+"hook_median_line_gap_s": 2.465,
+"verse_words_per_s": 3.43,
+"hook_words_per_s": 3.27,
+"verse_sylls_per_s": 4.16,
+"hook_sylls_per_s": 3.9,
+"longest_gap_s": 5.07,
+"longest_gap_at_s": 86.8,
+"repeated_line_share": 0.67,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.0,
+"end": 27.27,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 27.27,
+"end": 45.83,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 45.83,
+"end": 72.97,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 72.97,
+"end": 100.47,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 100.47,
+"end": 138.0,
+"lines": 14,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 7589286,
+"lrc_duration": 138.0,
+"status": "ok",
+"title": "Lovin On Me",
+"n": 44,
+"target_s": 138.411,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.36,
+"first_hook_spread_s": 1.36,
+"hook_votes": "8/8"
+},
+"59": {
+"n_lines": 94,
+"first_line_s": 3.86,
+"last_line_s": 232.88,
+"median_line_gap_s": 2.23,
+"opening_section": "VERSE",
+"opening_section_lines": 12,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 31.46,
+"first_verse_s": 3.86,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 12,
+"first_sustained_section_s": 3.86,
+"hook_durations_s": [
+1.4,
+6.9
+],
+"hook_lines": [
+1,
+2
+],
+"verse_durations_s": [
+27.6,
+24.5,
+90.5,
+76.6
+],
+"verse_lines": [
+12,
+12,
+37,
+26
+],
+"hook_return_similarity": [
+0.67
+],
+"verse_median_line_gap_s": 2.24,
+"hook_median_line_gap_s": 5.63,
+"verse_words_per_s": 3.61,
+"hook_words_per_s": 2.63,
+"verse_sylls_per_s": 4.44,
+"hook_sylls_per_s": 2.87,
+"longest_gap_s": 8.52,
+"longest_gap_at_s": 22.94,
+"repeated_line_share": 0.09,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 3.86,
+"end": 31.46,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 31.46,
+"end": 32.87,
+"lines": 1,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 32.87,
+"end": 57.32,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 57.32,
+"end": 64.26,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 64.26,
+"end": 154.77,
+"lines": 37,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 154.77,
+"end": 160.71,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 160.71,
+"end": 237.34,
+"lines": 26,
+"cluster": null
+}
+],
+"order": "V H V H V r V",
+"lrclib_id": 3801972,
+"lrc_duration": 247.0,
+"status": "ok",
+"title": "First Person Shooter",
+"n": 45,
+"target_s": 247.444,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.65,
+"first_hook_spread_s": 6.54,
+"hook_votes": "8/8"
+},
+"60": {
+"n_lines": 94,
+"first_line_s": 11.85,
+"last_line_s": 230.68,
+"median_line_gap_s": 1.81,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 92.17,
+"first_verse_s": 80.78,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 16,
+"first_sustained_section_s": 65.03,
+"hook_durations_s": [
+14.3,
+14.1,
+15.7
+],
+"hook_lines": [
+8,
+8,
+8
+],
+"verse_durations_s": [
+11.4,
+41.9,
+39.4,
+6.2
+],
+"verse_lines": [
+5,
+22,
+22,
+4
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.82,
+"hook_median_line_gap_s": 1.74,
+"verse_words_per_s": 3.98,
+"hook_words_per_s": 3.34,
+"verse_sylls_per_s": 4.67,
+"hook_sylls_per_s": 3.96,
+"longest_gap_s": 15.53,
+"longest_gap_at_s": 35.29,
+"repeated_line_share": 0.38,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 11.85,
+"end": 25.25,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 25.25,
+"end": 35.29,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 35.29,
+"end": 50.82,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 50.82,
+"end": 58.92,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 58.92,
+"end": 65.03,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 65.03,
+"end": 80.78,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 80.78,
+"end": 92.17,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 92.17,
+"end": 106.47,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 106.47,
+"end": 148.41,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 148.41,
+"end": 162.5,
+"lines": 8,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 162.5,
+"end": 201.88,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 201.88,
+"end": 212.41,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 212.41,
+"end": 218.62,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 218.62,
+"end": 234.3,
+"lines": 8,
+"cluster": 1
+}
+],
+"order": "b b b b b r V H V H V r V H",
+"lrclib_id": 17632572,
+"lrc_duration": 260.111315,
+"status": "ok",
+"title": "IDGAF",
+"n": 46,
+"target_s": 260.111,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.07,
+"first_hook_spread_s": 0.16,
+"hook_votes": "8/8"
+},
+"61": {
+"n_lines": 56,
+"first_line_s": 15.12,
+"last_line_s": 220.42,
+"median_line_gap_s": 3.9,
+"opening_section": "VERSE",
+"opening_section_lines": 11,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 56.04,
+"first_verse_s": 15.12,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 11,
+"first_sustained_section_s": 15.12,
+"hook_durations_s": [
+25.2,
+26.1
+],
+"hook_lines": [
+6,
+6
+],
+"verse_durations_s": [
+40.9,
+38.7,
+82.3
+],
+"verse_lines": [
+11,
+10,
+23
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.86,
+"hook_median_line_gap_s": 3.955,
+"verse_words_per_s": 2.5,
+"hook_words_per_s": 1.02,
+"verse_sylls_per_s": 3.1,
+"hook_sylls_per_s": 1.49,
+"longest_gap_s": 9.41,
+"longest_gap_at_s": 211.01,
+"repeated_line_share": 0.21,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 15.12,
+"end": 56.04,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 56.04,
+"end": 81.2,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 81.2,
+"end": 119.86,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 119.86,
+"end": 145.96,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 145.96,
+"end": 228.22,
+"lines": 23,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 4912853,
+"lrc_duration": 251.0,
+"status": "ok",
+"title": "Virginia Beach",
+"n": 47,
+"target_s": 251.095,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.49,
+"first_hook_spread_s": 4.2,
+"hook_votes": "8/8"
+},
+"62": {
+"n_lines": 91,
+"first_line_s": 2.62,
+"last_line_s": 259.68,
+"median_line_gap_s": 2.31,
+"opening_section": "VERSE",
+"opening_section_lines": 54,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 2.62,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 2.62,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+169.1,
+92.6
+],
+"verse_lines": [
+54,
+37
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 2.29,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 2.8,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 3.24,
+"hook_sylls_per_s": null,
+"longest_gap_s": 9.11,
+"longest_gap_at_s": 162.61,
+"repeated_line_share": 0.0,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.62,
+"end": 171.72,
+"lines": 54,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 171.72,
+"end": 264.3,
+"lines": 37,
+"cluster": null
+}
+],
+"order": "V V",
+"lrclib_id": 5020542,
+"lrc_duration": 286.0,
+"status": "ok",
+"title": "Calling For You",
+"n": 48,
+"target_s": 285.63,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.06,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"63": {
+"n_lines": 70,
+"first_line_s": 0.61,
+"last_line_s": 160.53,
+"median_line_gap_s": 1.94,
+"opening_section": "VERSE",
+"opening_section_lines": 22,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 52.24,
+"first_verse_s": 0.61,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 22,
+"first_sustained_section_s": 0.61,
+"hook_durations_s": [
+17.8,
+41.9
+],
+"hook_lines": [
+8,
+16
+],
+"verse_durations_s": [
+51.6,
+36.8,
+15.6
+],
+"verse_lines": [
+22,
+19,
+5
+],
+"hook_return_similarity": [
+0.67
+],
+"verse_median_line_gap_s": 1.84,
+"hook_median_line_gap_s": 2.13,
+"verse_words_per_s": 3.09,
+"hook_words_per_s": 2.06,
+"verse_sylls_per_s": 4.0,
+"hook_sylls_per_s": 2.37,
+"longest_gap_s": 4.95,
+"longest_gap_at_s": 15.35,
+"repeated_line_share": 0.34,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.61,
+"end": 52.24,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 52.24,
+"end": 70.08,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 70.08,
+"end": 106.91,
+"lines": 19,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 106.91,
+"end": 148.85,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 148.85,
+"end": 164.41,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 13534915,
+"lrc_duration": 165.0,
+"status": "ok",
+"title": "Daylight",
+"n": 49,
+"target_s": 164.143,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.82,
+"first_hook_spread_s": 0.33,
+"hook_votes": "8/8"
+},
+"64": {
+"n_lines": 60,
+"first_line_s": 1.06,
+"last_line_s": 137.34,
+"median_line_gap_s": 1.84,
+"opening_section": "VERSE",
+"opening_section_lines": 14,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 44.05,
+"first_verse_s": 1.06,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 14,
+"first_sustained_section_s": 1.06,
+"hook_durations_s": [
+13.2,
+13.5
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+43.0,
+70.3
+],
+"verse_lines": [
+14,
+38
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 1.82,
+"hook_median_line_gap_s": 3.435,
+"verse_words_per_s": 3.57,
+"hook_words_per_s": 3.1,
+"verse_sylls_per_s": 4.17,
+"hook_sylls_per_s": 3.35,
+"longest_gap_s": 4.76,
+"longest_gap_at_s": 31.93,
+"repeated_line_share": 0.13,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.06,
+"end": 44.05,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 44.05,
+"end": 57.26,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 57.26,
+"end": 127.54,
+"lines": 38,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 127.54,
+"end": 141.02,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 3801971,
+"lrc_duration": 155.0,
+"status": "ok",
+"title": "Fear Of Heights",
+"n": 50,
+"target_s": 155.154,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.41,
+"first_hook_spread_s": 1.54,
+"hook_votes": "8/8"
+},
+"67": {
+"n_lines": 90,
+"first_line_s": 0.06,
+"last_line_s": 229.21,
+"median_line_gap_s": 2.41,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 3.45,
+"first_verse_s": 57.59,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 3.45,
+"hook_durations_s": [
+54.1,
+38.2,
+58.9
+],
+"hook_lines": [
+20,
+16,
+21
+],
+"verse_durations_s": [
+38.0,
+38.9
+],
+"verse_lines": [
+16,
+16
+],
+"hook_return_similarity": [
+0.89,
+0.78
+],
+"verse_median_line_gap_s": 2.405,
+"hook_median_line_gap_s": 2.415,
+"verse_words_per_s": 3.34,
+"hook_words_per_s": 2.39,
+"verse_sylls_per_s": 3.94,
+"hook_sylls_per_s": 2.7,
+"longest_gap_s": 5.03,
+"longest_gap_at_s": 13.32,
+"repeated_line_share": 0.63,
+"blank_markers": 3,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.06,
+"end": 3.45,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 3.45,
+"end": 57.59,
+"lines": 20,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 57.59,
+"end": 95.61,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 95.61,
+"end": 133.78,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 133.78,
+"end": 172.69,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 172.69,
+"end": 231.62,
+"lines": 21,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 8133184,
+"lrc_duration": 230.0,
+"status": "ok",
+"title": "Paint The Town Red",
+"n": 51,
+"target_s": 231.75,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.58,
+"first_hook_spread_s": 0.41,
+"hook_votes": "8/8"
+},
+"68": {
+"n_lines": 73,
+"first_line_s": 2.27,
+"last_line_s": 222.46,
+"median_line_gap_s": 2.715,
+"opening_section": "VERSE",
+"opening_section_lines": 49,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 152.58,
+"first_verse_s": 2.27,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 49,
+"first_sustained_section_s": 2.27,
+"hook_durations_s": [
+11.4,
+14.3
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+150.3,
+49.6
+],
+"verse_lines": [
+49,
+16
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.41,
+"hook_median_line_gap_s": 3.0,
+"verse_words_per_s": 3.22,
+"hook_words_per_s": 2.87,
+"verse_sylls_per_s": 4.08,
+"hook_sylls_per_s": 4.02,
+"longest_gap_s": 16.44,
+"longest_gap_at_s": 136.14,
+"repeated_line_share": 0.11,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.27,
+"end": 152.58,
+"lines": 49,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 152.58,
+"end": 164.03,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 164.03,
+"end": 213.59,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 213.59,
+"end": 227.89,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 14433432,
+"lrc_duration": 246.0,
+"status": "ok",
+"title": "Meltdown",
+"n": 52,
+"target_s": 247.333,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.32,
+"first_hook_spread_s": 1.15,
+"hook_votes": "8/8"
+},
+"69": {
+"n_lines": 52,
+"first_line_s": 9.32,
+"last_line_s": 184.75,
+"median_line_gap_s": 3.3,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 22.69,
+"first_verse_s": 9.32,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 9.32,
+"hook_durations_s": [
+14.3,
+16.3,
+9.9
+],
+"hook_lines": [
+4,
+5,
+3
+],
+"verse_durations_s": [
+13.4,
+37.4,
+38.6,
+52.1
+],
+"verse_lines": [
+4,
+11,
+10,
+15
+],
+"hook_return_similarity": [
+0.89,
+0.86
+],
+"verse_median_line_gap_s": 3.31,
+"hook_median_line_gap_s": 3.21,
+"verse_words_per_s": 2.61,
+"hook_words_per_s": 2.96,
+"verse_sylls_per_s": 3.14,
+"hook_sylls_per_s": 2.96,
+"longest_gap_s": 7.25,
+"longest_gap_at_s": 90.72,
+"repeated_line_share": 0.25,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 9.32,
+"end": 22.69,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 22.69,
+"end": 36.98,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 36.98,
+"end": 74.4,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 74.4,
+"end": 90.72,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 90.72,
+"end": 129.35,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 129.35,
+"end": 139.24,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 139.24,
+"end": 191.35,
+"lines": 15,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 15668525,
+"lrc_duration": 192.0,
+"status": "ok",
+"title": "FE!N",
+"n": 53,
+"target_s": 191.703,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.97,
+"first_hook_spread_s": 0.15,
+"hook_votes": "8/8"
+},
+"70": {
+"n_lines": 55,
+"first_line_s": 0.07,
+"last_line_s": 177.62,
+"median_line_gap_s": 3.54,
+"opening_section": "VERSE",
+"opening_section_lines": 26,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 86.78,
+"first_verse_s": 0.07,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 26,
+"first_sustained_section_s": 0.07,
+"hook_durations_s": [
+16.8,
+17.7
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+86.7,
+63.5
+],
+"verse_lines": [
+26,
+21
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.39,
+"hook_median_line_gap_s": 3.84,
+"verse_words_per_s": 2.13,
+"hook_words_per_s": 2.63,
+"verse_sylls_per_s": 2.67,
+"hook_sylls_per_s": 2.94,
+"longest_gap_s": 8.12,
+"longest_gap_at_s": 0.07,
+"repeated_line_share": 0.15,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.07,
+"end": 86.78,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 86.78,
+"end": 103.55,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 103.55,
+"end": 167.01,
+"lines": 21,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 167.01,
+"end": 184.7,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 2929317,
+"lrc_duration": 185.0,
+"status": "ok",
+"title": "K-POP",
+"n": 54,
+"target_s": 185.221,
+"match_tier": "duration within 3 s",
+"n_records": 3,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "3/3"
+},
+"72": {
+"n_lines": 47,
+"first_line_s": 14.16,
+"last_line_s": 121.61,
+"median_line_gap_s": 1.875,
+"opening_section": "HOOK",
+"opening_section_lines": 11,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 14.16,
+"first_verse_s": 37.37,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 14.16,
+"hook_durations_s": [
+23.2,
+22.0,
+11.4
+],
+"hook_lines": [
+11,
+9,
+2
+],
+"verse_durations_s": [
+50.9
+],
+"verse_lines": [
+24
+],
+"hook_return_similarity": [
+0.9,
+0.31
+],
+"verse_median_line_gap_s": 1.91,
+"hook_median_line_gap_s": 1.87,
+"verse_words_per_s": 3.52,
+"hook_words_per_s": 2.67,
+"verse_sylls_per_s": 4.42,
+"hook_sylls_per_s": 2.99,
+"longest_gap_s": 8.38,
+"longest_gap_at_s": 101.86,
+"repeated_line_share": 0.47,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 14.16,
+"end": 37.37,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 37.37,
+"end": 88.27,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 88.27,
+"end": 110.24,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 110.24,
+"end": 121.61,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 121.61,
+"end": 125.0,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "H V H H b",
+"lrclib_id": 8126900,
+"lrc_duration": 125.0,
+"status": "ok",
+"title": "Fukumean",
+"n": 55,
+"target_s": 125.04,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.22,
+"first_hook_spread_s": 0.22,
+"hook_votes": "8/8"
+},
+"73": {
+"n_lines": 55,
+"first_line_s": 0.35,
+"last_line_s": 94.25,
+"median_line_gap_s": 1.665,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 3.06,
+"first_verse_s": 17.69,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 3.06,
+"hook_durations_s": [
+14.6,
+13.3,
+14.4
+],
+"hook_lines": [
+8,
+8,
+8
+],
+"verse_durations_s": [
+25.4,
+26.7
+],
+"verse_lines": [
+14,
+16
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.655,
+"hook_median_line_gap_s": 1.63,
+"verse_words_per_s": 4.56,
+"hook_words_per_s": 3.93,
+"verse_sylls_per_s": 5.23,
+"hook_sylls_per_s": 4.45,
+"longest_gap_s": 3.57,
+"longest_gap_at_s": 14.12,
+"repeated_line_share": 0.44,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.35,
+"end": 3.06,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 3.06,
+"end": 17.69,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 17.69,
+"end": 43.12,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 43.12,
+"end": 56.45,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 56.45,
+"end": 83.19,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 83.19,
+"end": 97.58,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 7822003,
+"lrc_duration": 110.0,
+"status": "ok",
+"title": "Barbie World",
+"n": 56,
+"target_s": 109.75,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.07,
+"first_hook_spread_s": 0.03,
+"hook_votes": "8/8"
+},
+"74": {
+"n_lines": 88,
+"first_line_s": 0.7,
+"last_line_s": 204.5,
+"median_line_gap_s": 1.98,
+"opening_section": "VERSE",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 20.4,
+"first_verse_s": 0.7,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 6,
+"first_sustained_section_s": 0.7,
+"hook_durations_s": [
+26.9,
+25.7,
+26.9
+],
+"hook_lines": [
+8,
+8,
+8
+],
+"verse_durations_s": [
+19.7,
+40.1,
+68.4
+],
+"verse_lines": [
+6,
+17,
+41
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.74,
+"hook_median_line_gap_s": 3.14,
+"verse_words_per_s": 3.98,
+"hook_words_per_s": 1.77,
+"verse_sylls_per_s": 5.17,
+"hook_sylls_per_s": 1.81,
+"longest_gap_s": 3.96,
+"longest_gap_at_s": 83.48,
+"repeated_line_share": 0.27,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.7,
+"end": 20.4,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 20.4,
+"end": 47.3,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 47.3,
+"end": 87.44,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 87.44,
+"end": 113.09,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 113.09,
+"end": 181.53,
+"lines": 41,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 181.53,
+"end": 208.46,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 3462248,
+"lrc_duration": 224.0,
+"status": "ok",
+"title": "All My Life",
+"n": 57,
+"target_s": 223.879,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.36,
+"first_hook_spread_s": 0.2,
+"hook_votes": "8/8"
+},
+"75": {
+"n_lines": 73,
+"first_line_s": 0.96,
+"last_line_s": 194.78,
+"median_line_gap_s": 2.5,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 5.91,
+"first_verse_s": 52.6,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 5.91,
+"hook_durations_s": [
+46.7,
+35.8,
+34.7,
+23.2
+],
+"hook_lines": [
+14,
+14,
+13,
+6
+],
+"verse_durations_s": [
+30.4,
+14.0
+],
+"verse_lines": [
+14,
+8
+],
+"hook_return_similarity": [
+0.57,
+0.52,
+0.6
+],
+"verse_median_line_gap_s": 1.86,
+"hook_median_line_gap_s": 2.91,
+"verse_words_per_s": 3.66,
+"hook_words_per_s": 1.92,
+"verse_sylls_per_s": 4.6,
+"hook_sylls_per_s": 2.42,
+"longest_gap_s": 5.3,
+"longest_gap_at_s": 178.16,
+"repeated_line_share": 0.64,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.96,
+"end": 5.91,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 5.91,
+"end": 52.6,
+"lines": 14,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 52.6,
+"end": 82.97,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 82.97,
+"end": 118.79,
+"lines": 14,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 118.79,
+"end": 132.83,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 132.83,
+"end": 167.51,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 167.51,
+"end": 171.62,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 171.62,
+"end": 194.78,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 194.78,
+"end": 199.78,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "b H V H V H b H b",
+"lrclib_id": 2588009,
+"lrc_duration": 209.0,
+"status": "ok",
+"title": "Favorite Song",
+"n": 58,
+"target_s": 208.63,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.71,
+"first_hook_spread_s": 0.14,
+"hook_votes": "8/8"
+},
+"76": {
+"n_lines": 94,
+"first_line_s": 1.61,
+"last_line_s": 168.1,
+"median_line_gap_s": 1.66,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 13.25,
+"first_verse_s": 1.61,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 1.61,
+"hook_durations_s": [
+26.0,
+25.9,
+26.1
+],
+"hook_lines": [
+16,
+16,
+16
+],
+"verse_durations_s": [
+11.6,
+25.8,
+39.0,
+15.3
+],
+"verse_lines": [
+4,
+16,
+22,
+4
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.65,
+"hook_median_line_gap_s": 1.64,
+"verse_words_per_s": 3.64,
+"hook_words_per_s": 5.15,
+"verse_sylls_per_s": 4.35,
+"hook_sylls_per_s": 5.84,
+"longest_gap_s": 6.21,
+"longest_gap_at_s": 159.08,
+"repeated_line_share": 0.51,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.61,
+"end": 13.25,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 13.25,
+"end": 39.25,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 39.25,
+"end": 65.1,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 65.1,
+"end": 91.04,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 91.04,
+"end": 130.03,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 130.03,
+"end": 156.12,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 156.12,
+"end": 171.42,
+"lines": 4,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 7955131,
+"lrc_duration": 172.0,
+"status": "ok",
+"title": "Princess Diana",
+"n": 59,
+"target_s": 172.125,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.8,
+"first_hook_spread_s": 0.59,
+"hook_votes": "8/8"
+},
+"77": {
+"n_lines": 72,
+"first_line_s": 1.32,
+"last_line_s": 259.39,
+"median_line_gap_s": 3.35,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 8.67,
+"first_verse_s": 65.07,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 8.67,
+"hook_durations_s": [
+56.4,
+67.4,
+59.0
+],
+"hook_lines": [
+16,
+16,
+16
+],
+"verse_durations_s": [
+46.3,
+28.4
+],
+"verse_lines": [
+12,
+9
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 3.25,
+"hook_median_line_gap_s": 3.35,
+"verse_words_per_s": 2.54,
+"hook_words_per_s": 2.67,
+"verse_sylls_per_s": 3.08,
+"hook_sylls_per_s": 3.06,
+"longest_gap_s": 15.49,
+"longest_gap_at_s": 163.25,
+"repeated_line_share": 0.67,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.32,
+"end": 8.67,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 8.67,
+"end": 65.07,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 65.07,
+"end": 111.38,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 111.38,
+"end": 178.74,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 178.74,
+"end": 207.11,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 207.11,
+"end": 266.09,
+"lines": 16,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 15990695,
+"lrc_duration": 272.02,
+"status": "ok",
+"title": "Search & Rescue",
+"n": 60,
+"target_s": 272.113,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 3.67,
+"first_hook_spread_s": 0.64,
+"hook_votes": "8/8"
+},
+"78": {
+"n_lines": 47,
+"first_line_s": 9.98,
+"last_line_s": 134.52,
+"median_line_gap_s": 2.35,
+"opening_section": "HOOK",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 9.98,
+"first_verse_s": 27.63,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 9.98,
+"hook_durations_s": [
+17.6,
+35.8,
+38.5
+],
+"hook_lines": [
+5,
+13,
+13
+],
+"verse_durations_s": [
+18.2,
+19.1
+],
+"verse_lines": [
+8,
+8
+],
+"hook_return_similarity": [
+0.56,
+0.44
+],
+"verse_median_line_gap_s": 2.32,
+"hook_median_line_gap_s": 2.355,
+"verse_words_per_s": 3.96,
+"hook_words_per_s": 2.31,
+"verse_sylls_per_s": 4.74,
+"hook_sylls_per_s": 2.73,
+"longest_gap_s": 6.08,
+"longest_gap_at_s": 119.52,
+"repeated_line_share": 0.66,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 9.98,
+"end": 27.63,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 27.63,
+"end": 45.87,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 45.87,
+"end": 81.65,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 81.65,
+"end": 100.76,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 100.76,
+"end": 139.22,
+"lines": 13,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 2943788,
+"lrc_duration": 140.0,
+"status": "ok",
+"title": "Players",
+"n": 61,
+"target_s": 138.76,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.37,
+"first_hook_spread_s": 1.37,
+"hook_votes": "8/8"
+},
+"81": {
+"n_lines": 41,
+"first_line_s": 0.63,
+"last_line_s": 109.62,
+"median_line_gap_s": 1.825,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 17.23,
+"first_verse_s": 35.47,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 17.23,
+"hook_durations_s": [
+18.2,
+41.1
+],
+"hook_lines": [
+6,
+21
+],
+"verse_durations_s": [
+33.0
+],
+"verse_lines": [
+10
+],
+"hook_return_similarity": [
+0.44
+],
+"verse_median_line_gap_s": 2.98,
+"hook_median_line_gap_s": 1.65,
+"verse_words_per_s": 2.34,
+"hook_words_per_s": 1.73,
+"verse_sylls_per_s": 2.71,
+"hook_sylls_per_s": 1.73,
+"longest_gap_s": 11.51,
+"longest_gap_at_s": 5.72,
+"repeated_line_share": 0.66,
+"blank_markers": 4,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.63,
+"end": 17.23,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 17.23,
+"end": 35.47,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 35.47,
+"end": 68.48,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 68.48,
+"end": 109.62,
+"lines": 21,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 109.62,
+"end": 113.27,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "b H V H b",
+"lrclib_id": 2599894,
+"lrc_duration": 124.0,
+"status": "ok",
+"title": "Just Wanna Rock",
+"n": 62,
+"target_s": 123.891,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.57,
+"first_hook_spread_s": 0.47,
+"hook_votes": "8/8"
+},
+"83": {
+"n_lines": 64,
+"first_line_s": 8.53,
+"last_line_s": 165.83,
+"median_line_gap_s": 2.13,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 34.62,
+"first_verse_s": 24.81,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 7,
+"first_sustained_section_s": 24.81,
+"hook_durations_s": [
+31.0,
+34.1
+],
+"hook_lines": [
+15,
+15
+],
+"verse_durations_s": [
+9.8,
+34.8,
+35.6
+],
+"verse_lines": [
+4,
+17,
+10
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.155,
+"hook_median_line_gap_s": 2.105,
+"verse_words_per_s": 2.91,
+"hook_words_per_s": 3.91,
+"verse_sylls_per_s": 3.86,
+"hook_sylls_per_s": 4.61,
+"longest_gap_s": 8.09,
+"longest_gap_at_s": 16.72,
+"repeated_line_share": 0.47,
+"blank_markers": 3,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 8.53,
+"end": 24.81,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 24.81,
+"end": 34.62,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 34.62,
+"end": 65.64,
+"lines": 15,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 65.64,
+"end": 100.47,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 100.47,
+"end": 134.53,
+"lines": 15,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 134.53,
+"end": 170.09,
+"lines": 10,
+"cluster": null
+}
+],
+"order": "b V H V H V",
+"lrclib_id": 36586412,
+"lrc_duration": 182.0,
+"status": "ok",
+"title": "Superhero (Heroes & Villains)",
+"n": 63,
+"target_s": 182.667,
+"match_tier": "duration within 3 s",
+"n_records": 5,
+"first_line_spread_s": 7.25,
+"first_hook_spread_s": 0.5,
+"hook_votes": "5/5"
+},
+"84": {
+"n_lines": 69,
+"first_line_s": 0.35,
+"last_line_s": 236.3,
+"median_line_gap_s": 3.085,
+"opening_section": "VERSE",
+"opening_section_lines": 67,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 0.35,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 0.35,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+233.9
+],
+"verse_lines": [
+67
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 3.085,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 2.67,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 3.08,
+"hook_sylls_per_s": null,
+"longest_gap_s": 21.28,
+"longest_gap_at_s": 213.0,
+"repeated_line_share": 0.0,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.35,
+"end": 234.28,
+"lines": 67,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 234.28,
+"end": 239.39,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "V b",
+"lrclib_id": 14405894,
+"lrc_duration": 239.386122,
+"status": "ok",
+"title": "Rich Flex",
+"n": 64,
+"target_s": 239.36,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.25,
+"first_hook_spread_s": null,
+"hook_votes": "0/8"
+},
+"85": {
+"n_lines": 58,
+"first_line_s": 1.19,
+"last_line_s": 150.57,
+"median_line_gap_s": 2.03,
+"opening_section": "VERSE",
+"opening_section_lines": 26,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 79.4,
+"first_verse_s": 1.19,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 26,
+"first_sustained_section_s": 1.19,
+"hook_durations_s": [
+15.0,
+16.7
+],
+"hook_lines": [
+7,
+7
+],
+"verse_durations_s": [
+78.2,
+43.5
+],
+"verse_lines": [
+26,
+18
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.05,
+"hook_median_line_gap_s": 1.94,
+"verse_words_per_s": 3.08,
+"hook_words_per_s": 1.89,
+"verse_sylls_per_s": 3.94,
+"hook_sylls_per_s": 2.99,
+"longest_gap_s": 6.34,
+"longest_gap_at_s": 11.66,
+"repeated_line_share": 0.24,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.19,
+"end": 79.4,
+"lines": 26,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 79.4,
+"end": 94.43,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 94.43,
+"end": 137.9,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 137.9,
+"end": 154.63,
+"lines": 7,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 2950007,
+"lrc_duration": 171.0,
+"status": "ok",
+"title": "Major Distribution",
+"n": 65,
+"target_s": 170.502,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.56,
+"first_hook_spread_s": 0.14,
+"hook_votes": "8/8"
+},
+"86": {
+"n_lines": 82,
+"first_line_s": 7.75,
+"last_line_s": 260.34,
+"median_line_gap_s": 3.03,
+"opening_section": "VERSE",
+"opening_section_lines": 30,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 97.05,
+"first_verse_s": 7.75,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 30,
+"first_sustained_section_s": 7.75,
+"hook_durations_s": [
+24.1,
+23.6
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+89.3,
+50.1,
+68.5
+],
+"verse_lines": [
+30,
+15,
+21
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.04,
+"hook_median_line_gap_s": 3.015,
+"verse_words_per_s": 3.19,
+"hook_words_per_s": 1.97,
+"verse_sylls_per_s": 3.84,
+"hook_sylls_per_s": 2.6,
+"longest_gap_s": 6.93,
+"longest_gap_at_s": 198.44,
+"repeated_line_share": 0.2,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 7.75,
+"end": 97.05,
+"lines": 30,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 97.05,
+"end": 121.17,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 121.17,
+"end": 171.23,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 171.23,
+"end": 194.83,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 194.83,
+"end": 263.37,
+"lines": 21,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 14212466,
+"lrc_duration": 262.0,
+"status": "ok",
+"title": "On BS",
+"n": 66,
+"target_s": 261.544,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.08,
+"first_hook_spread_s": 1.24,
+"hook_votes": "8/8"
+},
+"87": {
+"n_lines": 67,
+"first_line_s": 0.13,
+"last_line_s": 201.87,
+"median_line_gap_s": 2.425,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 58.47,
+"first_verse_s": 12.02,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 22,
+"first_sustained_section_s": 12.02,
+"hook_durations_s": [
+30.5,
+29.7
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+46.5,
+73.3,
+14.7
+],
+"verse_lines": [
+21,
+25,
+4
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.03,
+"hook_median_line_gap_s": 3.905,
+"verse_words_per_s": 3.41,
+"hook_words_per_s": 1.96,
+"verse_sylls_per_s": 4.03,
+"hook_sylls_per_s": 2.49,
+"longest_gap_s": 11.89,
+"longest_gap_at_s": 0.13,
+"repeated_line_share": 0.24,
+"blank_markers": 3,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.13,
+"end": 12.02,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 12.02,
+"end": 58.47,
+"lines": 21,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 58.47,
+"end": 88.99,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 88.99,
+"end": 162.33,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 162.33,
+"end": 192.03,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 192.03,
+"end": 206.72,
+"lines": 4,
+"cluster": null
+}
+],
+"order": "b V H V H V",
+"lrclib_id": 2952022,
+"lrc_duration": 215.0,
+"status": "ok",
+"title": "Spin Bout U",
+"n": 67,
+"target_s": 214.589,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.02,
+"hook_votes": "8/8"
+},
+"88": {
+"n_lines": 96,
+"first_line_s": 1.26,
+"last_line_s": 219.35,
+"median_line_gap_s": 2.09,
+"opening_section": "HOOK",
+"opening_section_lines": 13,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 1.26,
+"first_verse_s": 33.24,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 1.26,
+"hook_durations_s": [
+32.0,
+31.3,
+29.7
+],
+"hook_lines": [
+13,
+13,
+11
+],
+"verse_durations_s": [
+62.3,
+67.0
+],
+"verse_lines": [
+27,
+32
+],
+"hook_return_similarity": [
+1.0,
+0.83
+],
+"verse_median_line_gap_s": 2.06,
+"hook_median_line_gap_s": 2.235,
+"verse_words_per_s": 3.59,
+"hook_words_per_s": 2.47,
+"verse_sylls_per_s": 4.47,
+"hook_sylls_per_s": 3.36,
+"longest_gap_s": 5.65,
+"longest_gap_at_s": 195.91,
+"repeated_line_share": 0.39,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 1.26,
+"end": 33.24,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 33.24,
+"end": 95.54,
+"lines": 27,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 95.54,
+"end": 126.86,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 126.86,
+"end": 193.84,
+"lines": 32,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 193.84,
+"end": 223.53,
+"lines": 11,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 3917405,
+"lrc_duration": 242.0,
+"status": "ok",
+"title": "Pussy & Millions",
+"n": 68,
+"target_s": 242.027,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.43,
+"first_hook_spread_s": 0.43,
+"hook_votes": "8/8"
+},
+"89": {
+"n_lines": 43,
+"first_line_s": 0.62,
+"last_line_s": 129.96,
+"median_line_gap_s": 3.24,
+"opening_section": "VERSE",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 26.88,
+"first_verse_s": 0.62,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 8,
+"first_sustained_section_s": 0.62,
+"hook_durations_s": [
+29.1,
+26.8
+],
+"hook_lines": [
+10,
+8
+],
+"verse_durations_s": [
+26.3,
+53.7
+],
+"verse_lines": [
+8,
+17
+],
+"hook_return_similarity": [
+0.89
+],
+"verse_median_line_gap_s": 3.37,
+"hook_median_line_gap_s": 2.935,
+"verse_words_per_s": 3.5,
+"hook_words_per_s": 2.89,
+"verse_sylls_per_s": 3.97,
+"hook_sylls_per_s": 3.61,
+"longest_gap_s": 4.65,
+"longest_gap_at_s": 102.94,
+"repeated_line_share": 0.42,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.62,
+"end": 26.88,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 26.88,
+"end": 55.95,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 55.95,
+"end": 109.62,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 109.62,
+"end": 136.44,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 2951232,
+"lrc_duration": 161.0,
+"status": "ok",
+"title": "Privileged Rappers",
+"n": 69,
+"target_s": 160.821,
+"match_tier": "duration within 3 s",
+"n_records": 7,
+"first_line_spread_s": 0.46,
+"first_hook_spread_s": 0.35,
+"hook_votes": "7/7"
+},
+"90": {
+"n_lines": 68,
+"first_line_s": 16.99,
+"last_line_s": 220.27,
+"median_line_gap_s": 2.27,
+"opening_section": "VERSE",
+"opening_section_lines": 9,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 36.78,
+"first_verse_s": 16.99,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 9,
+"first_sustained_section_s": 16.99,
+"hook_durations_s": [
+4.7,
+3.3
+],
+"hook_lines": [
+3,
+2
+],
+"verse_durations_s": [
+19.8,
+52.5,
+85.9
+],
+"verse_lines": [
+9,
+22,
+29
+],
+"hook_return_similarity": [
+0.8
+],
+"verse_median_line_gap_s": 2.28,
+"hook_median_line_gap_s": 1.73,
+"verse_words_per_s": 3.39,
+"hook_words_per_s": 2.5,
+"verse_sylls_per_s": 4.08,
+"hook_sylls_per_s": 2.5,
+"longest_gap_s": 18.6,
+"longest_gap_at_s": 201.67,
+"repeated_line_share": 0.07,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 16.99,
+"end": 36.78,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 36.78,
+"end": 41.51,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 41.51,
+"end": 94.05,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 94.05,
+"end": 97.32,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 97.32,
+"end": 183.18,
+"lines": 29,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 183.18,
+"end": 201.67,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 201.67,
+"end": 220.27,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 220.27,
+"end": 224.81,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "V H V H V b b b",
+"lrclib_id": 2947373,
+"lrc_duration": 237.0,
+"status": "ok",
+"title": "Circo Loco",
+"n": 70,
+"target_s": 236.795,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.62,
+"first_hook_spread_s": 0.26,
+"hook_votes": "8/8"
+},
+"91": {
+"n_lines": 42,
+"first_line_s": 3.03,
+"last_line_s": 145.95,
+"median_line_gap_s": 3.37,
+"opening_section": "HOOK",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 3.03,
+"first_verse_s": 23.3,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 3.03,
+"hook_durations_s": [
+20.3,
+23.6,
+23.6
+],
+"hook_lines": [
+5,
+6,
+6
+],
+"verse_durations_s": [
+31.4,
+50.7
+],
+"verse_lines": [
+9,
+16
+],
+"hook_return_similarity": [
+0.91,
+0.91
+],
+"verse_median_line_gap_s": 3.28,
+"hook_median_line_gap_s": 3.395,
+"verse_words_per_s": 2.95,
+"hook_words_per_s": 3.08,
+"verse_sylls_per_s": 3.49,
+"hook_sylls_per_s": 3.77,
+"longest_gap_s": 6.99,
+"longest_gap_at_s": 71.35,
+"repeated_line_share": 0.4,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 3.03,
+"end": 23.3,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 23.3,
+"end": 54.74,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 54.74,
+"end": 78.34,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 78.34,
+"end": 129.05,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 129.05,
+"end": 152.69,
+"lines": 6,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 29676674,
+"lrc_duration": 153.0,
+"status": "ok",
+"title": "BackOutsideBoyz",
+"n": 71,
+"target_s": 152.962,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.42,
+"first_hook_spread_s": 0.42,
+"hook_votes": "8/8"
+},
+"92": {
+"n_lines": 65,
+"first_line_s": 5.77,
+"last_line_s": 164.59,
+"median_line_gap_s": 2.73,
+"opening_section": "VERSE",
+"opening_section_lines": 27,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 71.92,
+"first_verse_s": 5.77,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 27,
+"first_sustained_section_s": 5.77,
+"hook_durations_s": [
+22.8,
+22.9
+],
+"hook_lines": [
+9,
+9
+],
+"verse_durations_s": [
+66.2,
+36.5,
+15.9
+],
+"verse_lines": [
+27,
+14,
+6
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.465,
+"hook_median_line_gap_s": 2.9,
+"verse_words_per_s": 4.02,
+"hook_words_per_s": 3.72,
+"verse_sylls_per_s": 4.93,
+"hook_sylls_per_s": 4.51,
+"longest_gap_s": 6.26,
+"longest_gap_at_s": 5.77,
+"repeated_line_share": 0.28,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 5.77,
+"end": 71.92,
+"lines": 27,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 71.92,
+"end": 94.75,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 94.75,
+"end": 131.25,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 131.25,
+"end": 154.13,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 154.13,
+"end": 170.05,
+"lines": 6,
+"cluster": null
+}
+],
+"order": "V H V H V",
+"lrclib_id": 2587726,
+"lrc_duration": 178.0,
+"status": "ok",
+"title": "California Breeze",
+"n": 72,
+"target_s": 177.789,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.03,
+"first_hook_spread_s": 0.01,
+"hook_votes": "8/8"
+},
+"93": {
+"n_lines": 55,
+"first_line_s": 1.3,
+"last_line_s": 160.14,
+"median_line_gap_s": 2.915,
+"opening_section": "HOOK",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 1.3,
+"first_verse_s": 24.14,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 1.3,
+"hook_durations_s": [
+22.8,
+23.9,
+22.9
+],
+"hook_lines": [
+6,
+6,
+6
+],
+"verse_durations_s": [
+59.4,
+35.7
+],
+"verse_lines": [
+24,
+13
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 2.91,
+"hook_median_line_gap_s": 2.92,
+"verse_words_per_s": 4.24,
+"hook_words_per_s": 1.81,
+"verse_sylls_per_s": 5.04,
+"hook_sylls_per_s": 1.96,
+"longest_gap_s": 7.13,
+"longest_gap_at_s": 17.01,
+"repeated_line_share": 0.33,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 1.3,
+"end": 24.14,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 24.14,
+"end": 83.54,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 83.54,
+"end": 107.43,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 107.43,
+"end": 143.11,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 143.11,
+"end": 165.97,
+"lines": 6,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 15462512,
+"lrc_duration": 168.024,
+"status": "ok",
+"title": "Forever",
+"n": 73,
+"target_s": 167.977,
+"match_tier": "duration within 3 s",
+"n_records": 7,
+"first_line_spread_s": 2.42,
+"first_hook_spread_s": 12.37,
+"hook_votes": "7/7"
+},
+"94": {
+"n_lines": 85,
+"first_line_s": 23.57,
+"last_line_s": 169.06,
+"median_line_gap_s": 1.625,
+"opening_section": "VERSE",
+"opening_section_lines": 31,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 73.25,
+"first_verse_s": 23.57,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 31,
+"first_sustained_section_s": 23.57,
+"hook_durations_s": [
+24.8,
+25.6
+],
+"hook_lines": [
+12,
+12
+],
+"verse_durations_s": [
+49.7,
+48.7
+],
+"verse_lines": [
+31,
+30
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 1.57,
+"hook_median_line_gap_s": 2.035,
+"verse_words_per_s": 4.17,
+"hook_words_per_s": 3.91,
+"verse_sylls_per_s": 5.34,
+"hook_sylls_per_s": 4.44,
+"longest_gap_s": 3.25,
+"longest_gap_at_s": 107.72,
+"repeated_line_share": 0.28,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 23.57,
+"end": 73.25,
+"lines": 31,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 73.25,
+"end": 98.07,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 98.07,
+"end": 146.73,
+"lines": 30,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 146.73,
+"end": 172.31,
+"lines": 12,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 2588950,
+"lrc_duration": 199.0,
+"status": "ok",
+"title": "Real Spill",
+"n": 74,
+"target_s": 198.722,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"95": {
+"n_lines": 71,
+"first_line_s": 0.85,
+"last_line_s": 178.49,
+"median_line_gap_s": 2.785,
+"opening_section": "HOOK",
+"opening_section_lines": 13,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 0.85,
+"first_verse_s": 36.61,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.85,
+"hook_durations_s": [
+35.8,
+15.9,
+56.8
+],
+"hook_lines": [
+13,
+5,
+19
+],
+"verse_durations_s": [
+35.6,
+38.0
+],
+"verse_lines": [
+15,
+19
+],
+"hook_return_similarity": [
+0.56,
+0.44
+],
+"verse_median_line_gap_s": 1.875,
+"hook_median_line_gap_s": 2.965,
+"verse_words_per_s": 3.83,
+"hook_words_per_s": 1.68,
+"verse_sylls_per_s": 4.58,
+"hook_sylls_per_s": 1.88,
+"longest_gap_s": 4.72,
+"longest_gap_at_s": 138.14,
+"repeated_line_share": 0.52,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.85,
+"end": 36.61,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 36.61,
+"end": 72.18,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 72.18,
+"end": 88.12,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 88.12,
+"end": 126.17,
+"lines": 19,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 126.17,
+"end": 183.0,
+"lines": 19,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 7893046,
+"lrc_duration": 183.0,
+"status": "ok",
+"title": "Vegas",
+"n": 75,
+"target_s": 182,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.96,
+"first_hook_spread_s": 0.96,
+"hook_votes": "8/8"
+},
+"96": {
+"n_lines": 62,
+"first_line_s": 2.95,
+"last_line_s": 188.93,
+"median_line_gap_s": 3.0,
+"opening_section": "REFRAIN",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 95.75,
+"first_verse_s": 11.38,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 30,
+"first_sustained_section_s": 11.38,
+"hook_durations_s": [
+12.2,
+27.2
+],
+"hook_lines": [
+4,
+8
+],
+"verse_durations_s": [
+24.6,
+54.0,
+59.8
+],
+"verse_lines": [
+8,
+18,
+20
+],
+"hook_return_similarity": [
+0.67
+],
+"verse_median_line_gap_s": 2.99,
+"hook_median_line_gap_s": 3.04,
+"verse_words_per_s": 4.04,
+"hook_words_per_s": 4.12,
+"verse_sylls_per_s": 4.84,
+"hook_sylls_per_s": 5.23,
+"longest_gap_s": 5.9,
+"longest_gap_at_s": 2.95,
+"repeated_line_share": 0.26,
+"blank_markers": 1,
+"sections": [
+{
+"label": "REFRAIN",
+"start": 2.95,
+"end": 11.38,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 11.38,
+"end": 35.94,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 35.94,
+"end": 41.75,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 41.75,
+"end": 95.75,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 95.75,
+"end": 107.92,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 107.92,
+"end": 167.76,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 167.76,
+"end": 194.93,
+"lines": 8,
+"cluster": 1
+}
+],
+"order": "r V r V H V H",
+"lrclib_id": 14375166,
+"lrc_duration": 209.841633,
+"status": "ok",
+"title": "Tomorrow 2",
+"n": 76,
+"target_s": 209.811,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.02,
+"first_hook_spread_s": 0.04,
+"hook_votes": "8/8"
+},
+"97": {
+"n_lines": 52,
+"first_line_s": 0.6,
+"last_line_s": 164.68,
+"median_line_gap_s": 3.42,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 11.43,
+"first_verse_s": 40.05,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 11.43,
+"hook_durations_s": [
+28.6,
+29.0,
+29.8
+],
+"hook_lines": [
+7,
+7,
+7
+],
+"verse_durations_s": [
+36.1,
+36.1
+],
+"verse_lines": [
+10,
+18
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 2.09,
+"hook_median_line_gap_s": 3.69,
+"verse_words_per_s": 3.37,
+"hook_words_per_s": 2.9,
+"verse_sylls_per_s": 4.03,
+"hook_sylls_per_s": 3.18,
+"longest_gap_s": 7.51,
+"longest_gap_at_s": 2.22,
+"repeated_line_share": 0.4,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.6,
+"end": 11.43,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 11.43,
+"end": 40.05,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 40.05,
+"end": 76.13,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 76.13,
+"end": 105.1,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 105.1,
+"end": 141.19,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 141.19,
+"end": 171.0,
+"lines": 7,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 7830508,
+"lrc_duration": 171.0,
+"status": "ok",
+"title": "Super Freaky Girl",
+"n": 77,
+"target_s": 170.977,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.43,
+"first_hook_spread_s": 0.73,
+"hook_votes": "8/8"
+},
+"98": {
+"title": "Staying Alive",
+"n": 78,
+"status": "no synced lyrics found",
+"target_s": 178.176
+},
+"101": {
+"n_lines": 68,
+"first_line_s": 0.15,
+"last_line_s": 210.18,
+"median_line_gap_s": 2.96,
+"opening_section": "VERSE",
+"opening_section_lines": 22,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 75.96,
+"first_verse_s": 0.15,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 22,
+"first_sustained_section_s": 0.15,
+"hook_durations_s": [
+33.6,
+17.1
+],
+"hook_lines": [
+11,
+6
+],
+"verse_durations_s": [
+75.8,
+83.6
+],
+"verse_lines": [
+22,
+28
+],
+"hook_return_similarity": [
+0.59
+],
+"verse_median_line_gap_s": 2.915,
+"hook_median_line_gap_s": 2.99,
+"verse_words_per_s": 2.97,
+"hook_words_per_s": 3.08,
+"verse_sylls_per_s": 3.63,
+"hook_sylls_per_s": 4.11,
+"longest_gap_s": 7.55,
+"longest_gap_at_s": 0.15,
+"repeated_line_share": 0.25,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.15,
+"end": 75.96,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 75.96,
+"end": 109.52,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.52,
+"end": 193.08,
+"lines": 28,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 193.08,
+"end": 210.18,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 210.18,
+"end": 216.1,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "V H V H b",
+"lrclib_id": 11430319,
+"lrc_duration": 218.0,
+"status": "ok",
+"title": "Jimmy Cooks",
+"n": 79,
+"target_s": 218.365,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.19,
+"first_hook_spread_s": 0.71,
+"hook_votes": "8/8"
+},
+"102": {
+"n_lines": 65,
+"first_line_s": 27.48,
+"last_line_s": 171.77,
+"median_line_gap_s": 1.785,
+"opening_section": "VERSE",
+"opening_section_lines": 14,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 55.02,
+"first_verse_s": 27.48,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 14,
+"first_sustained_section_s": 27.48,
+"hook_durations_s": [
+8.5,
+19.6,
+5.0
+],
+"hook_lines": [
+4,
+3,
+3
+],
+"verse_durations_s": [
+27.5,
+30.1,
+50.4
+],
+"verse_lines": [
+14,
+16,
+23
+],
+"hook_return_similarity": [
+0.29,
+0.29
+],
+"verse_median_line_gap_s": 1.815,
+"hook_median_line_gap_s": 1.69,
+"verse_words_per_s": 3.46,
+"hook_words_per_s": 3.11,
+"verse_sylls_per_s": 4.4,
+"hook_sylls_per_s": 3.62,
+"longest_gap_s": 16.15,
+"longest_gap_at_s": 97.09,
+"repeated_line_share": 0.15,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 27.48,
+"end": 55.02,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 55.02,
+"end": 63.51,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 63.51,
+"end": 93.65,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 93.65,
+"end": 113.24,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 113.24,
+"end": 163.6,
+"lines": 23,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 163.6,
+"end": 168.58,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 168.58,
+"end": 175.34,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "V H V H V H b",
+"lrclib_id": 16874414,
+"lrc_duration": 243.2,
+"status": "ok",
+"title": "Sticky",
+"n": 80,
+"target_s": 243.228,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 2.36,
+"first_hook_spread_s": 38.51,
+"hook_votes": "8/8"
+},
+"105": {
+"n_lines": 65,
+"first_line_s": 0.05,
+"last_line_s": 175.39,
+"median_line_gap_s": 3.095,
+"opening_section": "VERSE",
+"opening_section_lines": 18,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 55.04,
+"first_verse_s": 0.05,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 18,
+"first_sustained_section_s": 0.05,
+"hook_durations_s": [
+14.0,
+13.7
+],
+"hook_lines": [
+5,
+5
+],
+"verse_durations_s": [
+55.0,
+27.0,
+34.2,
+29.4
+],
+"verse_lines": [
+18,
+10,
+15,
+8
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.15,
+"hook_median_line_gap_s": 2.94,
+"verse_words_per_s": 3.5,
+"hook_words_per_s": 2.46,
+"verse_sylls_per_s": 4.5,
+"hook_sylls_per_s": 2.89,
+"longest_gap_s": 6.01,
+"longest_gap_at_s": 116.42,
+"repeated_line_share": 0.22,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.05,
+"end": 55.04,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 55.04,
+"end": 69.05,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 69.05,
+"end": 96.04,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 96.04,
+"end": 109.71,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.71,
+"end": 143.87,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 143.87,
+"end": 152.14,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 152.14,
+"end": 181.58,
+"lines": 8,
+"cluster": null
+}
+],
+"order": "V H V H V r V",
+"lrclib_id": 1017637,
+"lrc_duration": 196.0,
+"status": "ok",
+"title": "N95",
+"n": 81,
+"target_s": 195.95,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.02,
+"first_hook_spread_s": 0.17,
+"hook_votes": "8/8"
+},
+"107": {
+"n_lines": 87,
+"first_line_s": 0.05,
+"last_line_s": 204.28,
+"median_line_gap_s": 1.765,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 30.68,
+"first_verse_s": 43.76,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 30.68,
+"hook_durations_s": [
+13.1,
+24.6,
+26.1
+],
+"hook_lines": [
+6,
+10,
+10
+],
+"verse_durations_s": [
+28.3,
+85.1
+],
+"verse_lines": [
+10,
+48
+],
+"hook_return_similarity": [
+0.75,
+0.75
+],
+"verse_median_line_gap_s": 1.74,
+"hook_median_line_gap_s": 1.78,
+"verse_words_per_s": 3.63,
+"hook_words_per_s": 2.82,
+"verse_sylls_per_s": 4.52,
+"hook_sylls_per_s": 3.45,
+"longest_gap_s": 22.9,
+"longest_gap_at_s": 7.78,
+"repeated_line_share": 0.3,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.05,
+"end": 30.68,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 30.68,
+"end": 43.76,
+"lines": 6,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 43.76,
+"end": 72.04,
+"lines": 10,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 72.04,
+"end": 96.61,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 96.61,
+"end": 181.68,
+"lines": 48,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 181.68,
+"end": 207.81,
+"lines": 10,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 3155610,
+"lrc_duration": 221.0,
+"status": "ok",
+"title": "Silent Hill",
+"n": 82,
+"target_s": 220.779,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.03,
+"first_hook_spread_s": 0.02,
+"hook_votes": "8/8"
+},
+"108": {
+"n_lines": 88,
+"first_line_s": 0.33,
+"last_line_s": 215.82,
+"median_line_gap_s": 1.82,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 95.58,
+"first_verse_s": 20.99,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 34,
+"first_sustained_section_s": 20.99,
+"hook_durations_s": [
+29.4,
+29.5,
+7.4
+],
+"hook_lines": [
+11,
+11,
+2
+],
+"verse_durations_s": [
+74.6,
+28.5,
+29.1
+],
+"verse_lines": [
+31,
+15,
+15
+],
+"hook_return_similarity": [
+0.73,
+0.31
+],
+"verse_median_line_gap_s": 1.77,
+"hook_median_line_gap_s": 1.82,
+"verse_words_per_s": 3.83,
+"hook_words_per_s": 2.2,
+"verse_sylls_per_s": 5.42,
+"hook_sylls_per_s": 2.93,
+"longest_gap_s": 10.73,
+"longest_gap_at_s": 84.85,
+"repeated_line_share": 0.27,
+"blank_markers": 6,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.33,
+"end": 9.69,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 9.69,
+"end": 20.99,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 20.99,
+"end": 95.58,
+"lines": 31,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 95.58,
+"end": 124.96,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 124.96,
+"end": 153.49,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 153.49,
+"end": 182.96,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 182.96,
+"end": 212.09,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 212.09,
+"end": 219.46,
+"lines": 2,
+"cluster": 0
+}
+],
+"order": "b b V H V H V H",
+"lrclib_id": 1017892,
+"lrc_duration": 255.0,
+"status": "ok",
+"title": "United In Grief",
+"n": 83,
+"target_s": 255.378,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.87,
+"first_hook_spread_s": 1.0,
+"hook_votes": "8/8"
+},
+"109": {
+"n_lines": 51,
+"first_line_s": 0.05,
+"last_line_s": 185.02,
+"median_line_gap_s": 2.84,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 36.06,
+"first_verse_s": 11.18,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 11,
+"first_sustained_section_s": 11.18,
+"hook_durations_s": [
+42.7,
+48.9
+],
+"hook_lines": [
+10,
+10
+],
+"verse_durations_s": [
+24.9,
+47.5
+],
+"verse_lines": [
+8,
+16
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.805,
+"hook_median_line_gap_s": 2.995,
+"verse_words_per_s": 3.29,
+"hook_words_per_s": 2.19,
+"verse_sylls_per_s": 4.22,
+"hook_sylls_per_s": 2.66,
+"longest_gap_s": 14.42,
+"longest_gap_at_s": 160.67,
+"repeated_line_share": 0.47,
+"blank_markers": 4,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.05,
+"end": 2.83,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 2.83,
+"end": 11.18,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 11.18,
+"end": 36.06,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 36.06,
+"end": 78.75,
+"lines": 10,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 78.75,
+"end": 126.21,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 126.21,
+"end": 175.09,
+"lines": 10,
+"cluster": 1
+},
+{
+"label": "REFRAIN",
+"start": 175.09,
+"end": 180.5,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 180.5,
+"end": 189.89,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "b r V H V H r b",
+"lrclib_id": 22650930,
+"lrc_duration": 189.893333,
+"status": "ok",
+"title": "Wait For U",
+"n": 84,
+"target_s": 189.893,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 3.35,
+"first_hook_spread_s": 0.36,
+"hook_votes": "8/8"
+},
+"110": {
+"n_lines": 85,
+"first_line_s": 1.52,
+"last_line_s": 165.99,
+"median_line_gap_s": 1.93,
+"opening_section": "VERSE",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 14.96,
+"first_verse_s": 1.52,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 5,
+"first_sustained_section_s": 1.52,
+"hook_durations_s": [
+30.6,
+30.8,
+32.7
+],
+"hook_lines": [
+16,
+16,
+16
+],
+"verse_durations_s": [
+13.4,
+30.7,
+30.0
+],
+"verse_lines": [
+5,
+16,
+16
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 1.93,
+"hook_median_line_gap_s": 1.92,
+"verse_words_per_s": 4.62,
+"hook_words_per_s": 4.44,
+"verse_sylls_per_s": 5.62,
+"hook_sylls_per_s": 5.6,
+"longest_gap_s": 5.9,
+"longest_gap_at_s": 9.06,
+"repeated_line_share": 0.56,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.52,
+"end": 14.96,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 14.96,
+"end": 45.61,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 45.61,
+"end": 76.33,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 76.33,
+"end": 107.09,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 107.09,
+"end": 137.12,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 137.12,
+"end": 169.85,
+"lines": 16,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 155365,
+"lrc_duration": 173.0,
+"status": "ok",
+"title": "Puffin On Zootiez",
+"n": 85,
+"target_s": 172.933,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.77,
+"first_hook_spread_s": 0.38,
+"hook_votes": "8/8"
+},
+"111": {
+"n_lines": 48,
+"first_line_s": 13.63,
+"last_line_s": 167.16,
+"median_line_gap_s": 3.21,
+"opening_section": "HOOK",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 13.63,
+"first_verse_s": 20.17,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 20.17,
+"hook_durations_s": [
+6.5,
+39.6
+],
+"hook_lines": [
+2,
+11
+],
+"verse_durations_s": [
+13.0,
+68.5
+],
+"verse_lines": [
+4,
+22
+],
+"hook_return_similarity": [
+0.31
+],
+"verse_median_line_gap_s": 3.205,
+"hook_median_line_gap_s": 3.27,
+"verse_words_per_s": 3.84,
+"hook_words_per_s": 3.44,
+"verse_sylls_per_s": 4.53,
+"hook_sylls_per_s": 4.25,
+"longest_gap_s": 6.0,
+"longest_gap_at_s": 36.59,
+"repeated_line_share": 0.46,
+"blank_markers": 2,
+"sections": [
+{
+"label": "HOOK",
+"start": 13.63,
+"end": 20.17,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 20.17,
+"end": 33.13,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 33.13,
+"end": 65.52,
+"lines": 9,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 65.52,
+"end": 134.0,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 134.0,
+"end": 173.58,
+"lines": 11,
+"cluster": 0
+}
+],
+"order": "H V r V H",
+"lrclib_id": 14921551,
+"lrc_duration": 174.0,
+"status": "ok",
+"title": "712PM",
+"n": 86,
+"target_s": 173.187,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 1.33,
+"first_hook_spread_s": 1.33,
+"hook_votes": "8/8"
+},
+"112": {
+"title": "I'm Dat N***a",
+"n": 87,
+"status": "no synced lyrics found",
+"target_s": 271.84
+},
+"113": {
+"n_lines": 49,
+"first_line_s": 2.44,
+"last_line_s": 160.86,
+"median_line_gap_s": 2.435,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 4.07,
+"first_verse_s": 42.68,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 4.07,
+"hook_durations_s": [
+38.6,
+19.5,
+36.0
+],
+"hook_lines": [
+8,
+4,
+8
+],
+"verse_durations_s": [
+33.3,
+34.3
+],
+"verse_lines": [
+13,
+15
+],
+"hook_return_similarity": [
+0.67,
+1.0
+],
+"verse_median_line_gap_s": 2.325,
+"hook_median_line_gap_s": 4.58,
+"verse_words_per_s": 3.4,
+"hook_words_per_s": 1.27,
+"verse_sylls_per_s": 4.23,
+"hook_sylls_per_s": 1.27,
+"longest_gap_s": 7.41,
+"longest_gap_at_s": 35.27,
+"repeated_line_share": 0.41,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 2.44,
+"end": 4.07,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 4.07,
+"end": 42.68,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 42.68,
+"end": 75.93,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 75.93,
+"end": 95.42,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 95.42,
+"end": 129.73,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 129.73,
+"end": 165.73,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 7834695,
+"lrc_duration": 174.0,
+"status": "ok",
+"title": "First Class",
+"n": 88,
+"target_s": 173.948,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.86,
+"first_hook_spread_s": 0.25,
+"hook_votes": "8/8"
+},
+"114": {
+"n_lines": 66,
+"first_line_s": 0.91,
+"last_line_s": 159.2,
+"median_line_gap_s": 2.31,
+"opening_section": "HOOK",
+"opening_section_lines": 11,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 0.91,
+"first_verse_s": 28.59,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.91,
+"hook_durations_s": [
+27.7,
+46.4,
+46.1
+],
+"hook_lines": [
+11,
+16,
+16
+],
+"verse_durations_s": [
+25.4,
+17.3
+],
+"verse_lines": [
+14,
+9
+],
+"hook_return_similarity": [
+0.59,
+0.59
+],
+"verse_median_line_gap_s": 1.68,
+"hook_median_line_gap_s": 2.385,
+"verse_words_per_s": 3.72,
+"hook_words_per_s": 2.95,
+"verse_sylls_per_s": 4.45,
+"hook_sylls_per_s": 3.58,
+"longest_gap_s": 4.69,
+"longest_gap_at_s": 95.7,
+"repeated_line_share": 0.65,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.91,
+"end": 28.59,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 28.59,
+"end": 54.04,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 54.04,
+"end": 100.39,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 100.39,
+"end": 117.68,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 117.68,
+"end": 163.82,
+"lines": 16,
+"cluster": 0
+}
+],
+"order": "H V H V H",
+"lrclib_id": 5112762,
+"lrc_duration": 173.0,
+"status": "ok",
+"title": "Big Energy",
+"n": 89,
+"target_s": 173.182,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.07,
+"first_hook_spread_s": 0.07,
+"hook_votes": "8/8"
+},
+"117": {
+"n_lines": 82,
+"first_line_s": 0.92,
+"last_line_s": 202.48,
+"median_line_gap_s": 2.11,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 2,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 10.23,
+"first_verse_s": 24.96,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 2,
+"first_sustained_section_s": 10.23,
+"hook_durations_s": [
+14.7,
+15.5,
+14.1
+],
+"hook_lines": [
+7,
+7,
+7
+],
+"verse_durations_s": [
+49.4,
+50.2,
+52.5
+],
+"verse_lines": [
+20,
+25,
+14
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 2.08,
+"hook_median_line_gap_s": 2.095,
+"verse_words_per_s": 3.25,
+"hook_words_per_s": 3.96,
+"verse_sylls_per_s": 3.77,
+"hook_sylls_per_s": 4.78,
+"longest_gap_s": 7.54,
+"longest_gap_at_s": 194.94,
+"repeated_line_share": 0.26,
+"blank_markers": 1,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.92,
+"end": 10.23,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 10.23,
+"end": 24.96,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 24.96,
+"end": 74.37,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 74.37,
+"end": 89.88,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 89.88,
+"end": 140.07,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 140.07,
+"end": 154.16,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 154.16,
+"end": 206.7,
+"lines": 14,
+"cluster": null
+}
+],
+"order": "b H V H V H V",
+"lrclib_id": 30508674,
+"lrc_duration": 207.0,
+"status": "ok",
+"title": "Do We Have A Problem?",
+"n": 90,
+"target_s": 207.065,
+"match_tier": "duration within 3 s",
+"n_records": 6,
+"first_line_spread_s": 0.12,
+"first_hook_spread_s": 0.2,
+"hook_votes": "6/6"
+},
+"118": {
+"n_lines": 46,
+"first_line_s": 2.85,
+"last_line_s": 120.51,
+"median_line_gap_s": 2.07,
+"opening_section": "VERSE",
+"opening_section_lines": 18,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 55.75,
+"first_verse_s": 2.85,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 18,
+"first_sustained_section_s": 2.85,
+"hook_durations_s": [
+11.7,
+11.9
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+52.9,
+45.3
+],
+"verse_lines": [
+18,
+20
+],
+"hook_return_similarity": [
+0.5
+],
+"verse_median_line_gap_s": 2.02,
+"hook_median_line_gap_s": 2.88,
+"verse_words_per_s": 2.43,
+"hook_words_per_s": 2.32,
+"verse_sylls_per_s": 3.11,
+"hook_sylls_per_s": 3.08,
+"longest_gap_s": 7.58,
+"longest_gap_at_s": 40.51,
+"repeated_line_share": 0.17,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 2.85,
+"end": 55.75,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 55.75,
+"end": 67.43,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 67.43,
+"end": 112.72,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 112.72,
+"end": 124.65,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 3610428,
+"lrc_duration": 136.0,
+"status": "ok",
+"title": "Pushin P",
+"n": 91,
+"target_s": 136.267,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 2.73,
+"first_hook_spread_s": 0.0,
+"hook_votes": "4/8"
+},
+"119": {
+"n_lines": 90,
+"first_line_s": 0.93,
+"last_line_s": 196.66,
+"median_line_gap_s": 1.88,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 14.5,
+"first_verse_s": 0.93,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 0.93,
+"hook_durations_s": [
+9.0,
+48.4
+],
+"hook_lines": [
+3,
+22
+],
+"verse_durations_s": [
+13.6,
+29.3,
+27.4,
+22.1
+],
+"verse_lines": [
+4,
+18,
+16,
+4
+],
+"hook_return_similarity": [
+0.24
+],
+"verse_median_line_gap_s": 1.75,
+"hook_median_line_gap_s": 2.17,
+"verse_words_per_s": 3.66,
+"hook_words_per_s": 2.7,
+"verse_sylls_per_s": 4.76,
+"hook_sylls_per_s": 3.31,
+"longest_gap_s": 12.52,
+"longest_gap_at_s": 177.7,
+"repeated_line_share": 0.5,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.93,
+"end": 14.5,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 14.5,
+"end": 23.48,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 23.48,
+"end": 52.75,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 52.75,
+"end": 92.41,
+"lines": 20,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 92.41,
+"end": 119.79,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 119.79,
+"end": 168.17,
+"lines": 22,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 168.17,
+"end": 190.22,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 190.22,
+"end": 200.42,
+"lines": 3,
+"cluster": null
+}
+],
+"order": "V H V r V H V b",
+"lrclib_id": 7840075,
+"lrc_duration": 201.0,
+"status": "ok",
+"title": "Super Gremlin",
+"n": 92,
+"target_s": 200.548,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.46,
+"first_hook_spread_s": 0.58,
+"hook_votes": "8/8"
+},
+"124": {
+"n_lines": 81,
+"first_line_s": 0.08,
+"last_line_s": 252.96,
+"median_line_gap_s": 3.265,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 14.37,
+"first_verse_s": 0.08,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 0.08,
+"hook_durations_s": [
+28.6,
+28.2,
+28.5
+],
+"hook_lines": [
+12,
+12,
+12
+],
+"verse_durations_s": [
+14.3,
+42.2,
+28.5,
+50.0
+],
+"verse_lines": [
+4,
+12,
+8,
+12
+],
+"hook_return_similarity": [
+1.0,
+1.0
+],
+"verse_median_line_gap_s": 3.55,
+"hook_median_line_gap_s": 2.22,
+"verse_words_per_s": 2.51,
+"hook_words_per_s": 2.39,
+"verse_sylls_per_s": 3.27,
+"hook_sylls_per_s": 2.82,
+"longest_gap_s": 12.07,
+"longest_gap_at_s": 225.6,
+"repeated_line_share": 0.52,
+"blank_markers": 0,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.08,
+"end": 14.37,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 14.37,
+"end": 42.93,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 42.93,
+"end": 85.13,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 85.13,
+"end": 113.32,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 113.32,
+"end": 141.85,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 141.85,
+"end": 148.68,
+"lines": 2,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 148.68,
+"end": 159.2,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 159.2,
+"end": 187.67,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 187.67,
+"end": 237.67,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 237.67,
+"end": 258.0,
+"lines": 4,
+"cluster": 1
+}
+],
+"order": "V H V H V r b H V r",
+"lrclib_id": 40299385,
+"lrc_duration": 258.0,
+"status": "ok",
+"title": "Way 2 Sexy",
+"n": 93,
+"target_s": 257.605,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 5.72,
+"first_hook_spread_s": 5.34,
+"hook_votes": "8/8"
+},
+"125": {
+"n_lines": 76,
+"first_line_s": 1.66,
+"last_line_s": 208.22,
+"median_line_gap_s": 2.72,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 12.11,
+"first_verse_s": 34.42,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 12.11,
+"hook_durations_s": [
+22.3,
+36.0,
+31.9
+],
+"hook_lines": [
+8,
+11,
+10
+],
+"verse_durations_s": [
+35.7,
+58.9,
+16.7
+],
+"verse_lines": [
+14,
+25,
+5
+],
+"hook_return_similarity": [
+0.63,
+0.78
+],
+"verse_median_line_gap_s": 2.54,
+"hook_median_line_gap_s": 2.875,
+"verse_words_per_s": 3.78,
+"hook_words_per_s": 2.66,
+"verse_sylls_per_s": 4.49,
+"hook_sylls_per_s": 2.79,
+"longest_gap_s": 6.69,
+"longest_gap_at_s": 3.96,
+"repeated_line_share": 0.38,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.66,
+"end": 12.11,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 12.11,
+"end": 34.42,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 34.42,
+"end": 70.15,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 70.15,
+"end": 106.12,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 106.12,
+"end": 165.06,
+"lines": 25,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 165.06,
+"end": 197.0,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 197.0,
+"end": 213.66,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "b H V H V H V",
+"lrclib_id": 6943570,
+"lrc_duration": 222.0,
+"status": "ok",
+"title": "Girls Want Girls",
+"n": 94,
+"target_s": 221.98,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.41,
+"first_hook_spread_s": 0.13,
+"hook_votes": "8/8"
+},
+"126": {
+"n_lines": 104,
+"first_line_s": 0.06,
+"last_line_s": 282.21,
+"median_line_gap_s": 2.77,
+"opening_section": "HOOK",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 0.06,
+"first_verse_s": 10.93,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.06,
+"hook_durations_s": [
+10.9,
+32.3,
+33.2
+],
+"hook_lines": [
+4,
+11,
+11
+],
+"verse_durations_s": [
+35.3,
+46.6,
+81.8,
+25.5
+],
+"verse_lines": [
+14,
+16,
+33,
+8
+],
+"hook_return_similarity": [
+0.4,
+0.53
+],
+"verse_median_line_gap_s": 2.8,
+"hook_median_line_gap_s": 2.8,
+"verse_words_per_s": 3.32,
+"hook_words_per_s": 2.39,
+"verse_sylls_per_s": 4.23,
+"hook_sylls_per_s": 2.97,
+"longest_gap_s": 5.89,
+"longest_gap_at_s": 159.48,
+"repeated_line_share": 0.32,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.06,
+"end": 10.93,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 10.93,
+"end": 46.22,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 46.22,
+"end": 68.23,
+"lines": 7,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 68.23,
+"end": 114.87,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 114.87,
+"end": 147.19,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 147.19,
+"end": 229.04,
+"lines": 33,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 229.04,
+"end": 262.28,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 262.28,
+"end": 287.75,
+"lines": 8,
+"cluster": null
+}
+],
+"order": "H V r V H V H V",
+"lrclib_id": 17034904,
+"lrc_duration": 291.0,
+"status": "ok",
+"title": "Fair Trade",
+"n": 95,
+"target_s": 291.175,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.9,
+"first_hook_spread_s": 0.9,
+"hook_votes": "8/8"
+},
+"127": {
+"n_lines": 93,
+"first_line_s": 0.03,
+"last_line_s": 316.86,
+"median_line_gap_s": 2.93,
+"opening_section": "HOOK",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 0.03,
+"first_verse_s": 14.65,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 0.03,
+"hook_durations_s": [
+14.6,
+12.0
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+50.2,
+64.8,
+169.0
+],
+"verse_lines": [
+18,
+19,
+46
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.875,
+"hook_median_line_gap_s": 3.91,
+"verse_words_per_s": 3.08,
+"hook_words_per_s": 2.46,
+"verse_sylls_per_s": 3.9,
+"hook_sylls_per_s": 2.77,
+"longest_gap_s": 24.01,
+"longest_gap_at_s": 286.65,
+"repeated_line_share": 0.09,
+"blank_markers": 0,
+"sections": [
+{
+"label": "HOOK",
+"start": 0.03,
+"end": 14.65,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 14.65,
+"end": 64.84,
+"lines": 18,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 64.84,
+"end": 76.81,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 76.81,
+"end": 141.64,
+"lines": 19,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 141.64,
+"end": 310.66,
+"lines": 46,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 310.66,
+"end": 322.72,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "H V H V V b",
+"lrclib_id": 167184,
+"lrc_duration": 337.0,
+"status": "ok",
+"title": "Champagne Poetry",
+"n": 96,
+"target_s": 336.511,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.07,
+"first_hook_spread_s": 0.07,
+"hook_votes": "8/8"
+},
+"128": {
+"n_lines": 62,
+"first_line_s": 0.27,
+"last_line_s": 220.86,
+"median_line_gap_s": 3.31,
+"opening_section": "VERSE",
+"opening_section_lines": 32,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 118.77,
+"first_verse_s": 0.27,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 32,
+"first_sustained_section_s": 0.27,
+"hook_durations_s": [
+25.8,
+29.6
+],
+"hook_lines": [
+8,
+8
+],
+"verse_durations_s": [
+118.5,
+53.3
+],
+"verse_lines": [
+32,
+14
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.375,
+"hook_median_line_gap_s": 3.26,
+"verse_words_per_s": 2.37,
+"hook_words_per_s": 1.51,
+"verse_sylls_per_s": 2.98,
+"hook_sylls_per_s": 1.51,
+"longest_gap_s": 9.15,
+"longest_gap_at_s": 23.66,
+"repeated_line_share": 0.26,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.27,
+"end": 118.77,
+"lines": 32,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 118.77,
+"end": 144.54,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 144.54,
+"end": 197.89,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 197.89,
+"end": 227.48,
+"lines": 8,
+"cluster": 0
+}
+],
+"order": "V H V H",
+"lrclib_id": 31021647,
+"lrc_duration": 243.0,
+"status": "ok",
+"title": "Knife Talk",
+"n": 97,
+"target_s": 242.966,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.08,
+"first_hook_spread_s": 0.03,
+"hook_votes": "8/8"
+},
+"129": {
+"n_lines": 73,
+"first_line_s": 13.39,
+"last_line_s": 250.62,
+"median_line_gap_s": 3.22,
+"opening_section": "HOOK",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 13.39,
+"first_verse_s": 41.27,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 13.39,
+"hook_durations_s": [
+27.9,
+27.6,
+39.4
+],
+"hook_lines": [
+8,
+9,
+8
+],
+"verse_durations_s": [
+45.7,
+46.6,
+26.8
+],
+"verse_lines": [
+13,
+20,
+7
+],
+"hook_return_similarity": [
+0.94,
+1.0
+],
+"verse_median_line_gap_s": 2.38,
+"hook_median_line_gap_s": 3.275,
+"verse_words_per_s": 3.09,
+"hook_words_per_s": 2.88,
+"verse_sylls_per_s": 3.8,
+"hook_sylls_per_s": 3.6,
+"longest_gap_s": 16.35,
+"longest_gap_at_s": 184.25,
+"repeated_line_share": 0.44,
+"blank_markers": 0,
+"sections": [
+{
+"label": "HOOK",
+"start": 13.39,
+"end": 41.27,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 41.27,
+"end": 86.95,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 86.95,
+"end": 114.54,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 114.54,
+"end": 161.15,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 161.15,
+"end": 200.6,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 200.6,
+"end": 227.4,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 227.4,
+"end": 250.62,
+"lines": 7,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 250.62,
+"end": 257.06,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "H V H V H V r b",
+"lrclib_id": 965373,
+"lrc_duration": 297.0,
+"status": "ok",
+"title": "In The Bible",
+"n": 98,
+"target_s": 296.569,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.09,
+"first_hook_spread_s": 0.09,
+"hook_votes": "8/8"
+},
+"130": {
+"n_lines": 63,
+"first_line_s": 1.4,
+"last_line_s": 175.03,
+"median_line_gap_s": 2.695,
+"opening_section": "VERSE",
+"opening_section_lines": 49,
+"has_returning_hook": false,
+"hook_occurrences": 0,
+"first_hook_s": null,
+"first_verse_s": 1.4,
+"hook_before_first_verse": null,
+"lines_before_first_hook": null,
+"first_sustained_section_s": 1.4,
+"hook_durations_s": [],
+"hook_lines": [],
+"verse_durations_s": [
+135.9,
+14.7
+],
+"verse_lines": [
+49,
+5
+],
+"hook_return_similarity": null,
+"verse_median_line_gap_s": 2.35,
+"hook_median_line_gap_s": null,
+"verse_words_per_s": 2.68,
+"hook_words_per_s": null,
+"verse_sylls_per_s": 3.4,
+"hook_sylls_per_s": null,
+"longest_gap_s": 6.21,
+"longest_gap_at_s": 107.77,
+"repeated_line_share": 0.14,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.4,
+"end": 137.29,
+"lines": 49,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 137.29,
+"end": 164.29,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 164.29,
+"end": 179.0,
+"lines": 5,
+"cluster": null
+}
+],
+"order": "V r V",
+"lrclib_id": 13504742,
+"lrc_duration": 179.0,
+"status": "ok",
+"title": "Papi's Home",
+"n": 99,
+"target_s": 178.623,
+"match_tier": "duration within 3 s",
+"n_records": 1,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": null,
+"hook_votes": "0/1"
+},
+"131": {
+"n_lines": 76,
+"first_line_s": 0.06,
+"last_line_s": 274.06,
+"median_line_gap_s": 3.56,
+"opening_section": "VERSE",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 62.09,
+"first_verse_s": 0.06,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 11,
+"first_sustained_section_s": 0.06,
+"hook_durations_s": [
+30.1,
+32.5,
+29.9
+],
+"hook_lines": [
+9,
+10,
+9
+],
+"verse_durations_s": [
+47.3,
+26.1,
+26.1,
+13.0,
+36.2
+],
+"verse_lines": [
+8,
+9,
+7,
+4,
+12
+],
+"hook_return_similarity": [
+0.95,
+1.0
+],
+"verse_median_line_gap_s": 3.32,
+"hook_median_line_gap_s": 3.68,
+"verse_words_per_s": 2.67,
+"hook_words_per_s": 3.36,
+"verse_sylls_per_s": 3.27,
+"hook_sylls_per_s": 4.18,
+"longest_gap_s": 15.1,
+"longest_gap_at_s": 32.31,
+"repeated_line_share": 0.42,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.06,
+"end": 47.41,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 47.41,
+"end": 62.09,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 62.09,
+"end": 92.18,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 92.18,
+"end": 118.26,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 118.26,
+"end": 150.8,
+"lines": 10,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 150.8,
+"end": 176.92,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 176.92,
+"end": 206.84,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 206.84,
+"end": 219.84,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 219.84,
+"end": 230.77,
+"lines": 2,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 230.77,
+"end": 267.01,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 267.01,
+"end": 274.06,
+"lines": 2,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 274.06,
+"end": 281.18,
+"lines": 1,
+"cluster": null
+}
+],
+"order": "V b H V H V H V r V r b",
+"lrclib_id": 178744,
+"lrc_duration": 309.0,
+"status": "ok",
+"title": "TSU",
+"n": 100,
+"target_s": 308.756,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.04,
+"first_hook_spread_s": 0.02,
+"hook_votes": "8/8"
+},
+"22": {
+"n_lines": 77,
+"first_line_s": 19.5,
+"last_line_s": 228.77,
+"median_line_gap_s": 1.965,
+"opening_section": "VERSE",
+"opening_section_lines": 8,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 107.71,
+"first_verse_s": 19.5,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 32,
+"first_sustained_section_s": 19.5,
+"hook_durations_s": [
+30.6,
+50.6
+],
+"hook_lines": [
+14,
+19
+],
+"verse_durations_s": [
+29.5,
+58.7,
+43.7
+],
+"verse_lines": [
+8,
+24,
+12
+],
+"hook_return_similarity": [
+0.42
+],
+"verse_median_line_gap_s": 1.85,
+"hook_median_line_gap_s": 1.94,
+"verse_words_per_s": 2.2,
+"hook_words_per_s": 2.89,
+"verse_sylls_per_s": 2.95,
+"hook_sylls_per_s": 3.43,
+"longest_gap_s": 17.26,
+"longest_gap_at_s": 31.74,
+"repeated_line_share": 0.43,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 19.5,
+"end": 49.0,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 49.0,
+"end": 107.71,
+"lines": 24,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 107.71,
+"end": 138.32,
+"lines": 14,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 138.32,
+"end": 182.06,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 182.06,
+"end": 232.7,
+"lines": 19,
+"cluster": 0
+}
+],
+"order": "V V H V H",
+"lrclib_id": 30375603,
+"lrc_duration": 252.0,
+"status": "ok",
+"title": "Anxiety",
+"n": null,
+"target_s": 249.302,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.0,
+"first_hook_spread_s": 0.0,
+"hook_votes": "8/8"
+},
+"132": {
+"n_lines": 74,
+"first_line_s": 0.04,
+"last_line_s": 203.97,
+"median_line_gap_s": 2.58,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 1,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 10.98,
+"first_verse_s": 44.9,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 1,
+"first_sustained_section_s": 10.98,
+"hook_durations_s": [
+33.9,
+32.5,
+39.3
+],
+"hook_lines": [
+12,
+11,
+15
+],
+"verse_durations_s": [
+39.1,
+53.2
+],
+"verse_lines": [
+15,
+20
+],
+"hook_return_similarity": [
+0.96,
+0.81
+],
+"verse_median_line_gap_s": 2.58,
+"hook_median_line_gap_s": 2.57,
+"verse_words_per_s": 3.37,
+"hook_words_per_s": 3.14,
+"verse_sylls_per_s": 4.21,
+"hook_sylls_per_s": 4.0,
+"longest_gap_s": 10.94,
+"longest_gap_at_s": 0.04,
+"repeated_line_share": 0.51,
+"blank_markers": 0,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 0.04,
+"end": 10.98,
+"lines": 1,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 10.98,
+"end": 44.9,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 44.9,
+"end": 84.04,
+"lines": 15,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 84.04,
+"end": 116.57,
+"lines": 11,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 116.57,
+"end": 169.8,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 169.8,
+"end": 209.13,
+"lines": 15,
+"cluster": 0
+}
+],
+"order": "b H V H V H",
+"lrclib_id": 965375,
+"lrc_duration": 228.0,
+"status": "ok",
+"title": "Love All",
+"n": null,
+"target_s": 228.461,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.94,
+"first_hook_spread_s": 0.67,
+"hook_votes": "8/8"
+},
+"133": {
+"n_lines": 57,
+"first_line_s": 1.69,
+"last_line_s": 235.62,
+"median_line_gap_s": 3.17,
+"opening_section": "VERSE",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 37.69,
+"first_verse_s": 1.69,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 6,
+"first_sustained_section_s": 1.69,
+"hook_durations_s": [
+8.5,
+12.5
+],
+"hook_lines": [
+2,
+2
+],
+"verse_durations_s": [
+36.0,
+52.3,
+108.1
+],
+"verse_lines": [
+6,
+14,
+30
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 3.1,
+"hook_median_line_gap_s": 5.99,
+"verse_words_per_s": 2.69,
+"hook_words_per_s": 1.23,
+"verse_sylls_per_s": 3.29,
+"hook_sylls_per_s": 1.34,
+"longest_gap_s": 12.21,
+"longest_gap_at_s": 86.28,
+"repeated_line_share": 0.07,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.69,
+"end": 37.69,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 37.69,
+"end": 46.22,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 46.22,
+"end": 98.49,
+"lines": 14,
+"cluster": null
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 98.49,
+"end": 121.34,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "VERSE",
+"start": 121.34,
+"end": 229.46,
+"lines": 30,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 229.46,
+"end": 241.96,
+"lines": 2,
+"cluster": 0
+}
+],
+"order": "V H V b V H",
+"lrclib_id": 7186041,
+"lrc_duration": 243.0,
+"status": "ok",
+"title": "Hurricane",
+"n": null,
+"target_s": 243.188,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.08,
+"first_hook_spread_s": 0.01,
+"hook_votes": "8/8"
+},
+"134": {
+"n_lines": 58,
+"first_line_s": 3.53,
+"last_line_s": 240.24,
+"median_line_gap_s": 4.29,
+"opening_section": "VERSE",
+"opening_section_lines": 9,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 53.46,
+"first_verse_s": 3.53,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 9,
+"first_sustained_section_s": 3.53,
+"hook_durations_s": [
+34.5,
+34.0,
+22.4
+],
+"hook_lines": [
+8,
+8,
+4
+],
+"verse_durations_s": [
+49.9,
+35.5,
+68.9
+],
+"verse_lines": [
+9,
+9,
+20
+],
+"hook_return_similarity": [
+1.0,
+0.67
+],
+"verse_median_line_gap_s": 4.29,
+"hook_median_line_gap_s": 4.26,
+"verse_words_per_s": 2.1,
+"hook_words_per_s": 1.45,
+"verse_sylls_per_s": 2.42,
+"hook_sylls_per_s": 1.69,
+"longest_gap_s": 9.0,
+"longest_gap_at_s": 17.54,
+"repeated_line_share": 0.34,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 3.53,
+"end": 53.46,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 53.46,
+"end": 87.98,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 87.98,
+"end": 123.47,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 123.47,
+"end": 157.46,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 157.46,
+"end": 226.37,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 226.37,
+"end": 248.82,
+"lines": 4,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 965287,
+"lrc_duration": 297.0,
+"status": "ok",
+"title": "Jail",
+"n": null,
+"target_s": 297.0,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.25,
+"first_hook_spread_s": 0.65,
+"hook_votes": "8/8"
+},
+"135": {
+"n_lines": 62,
+"first_line_s": 1.27,
+"last_line_s": 168.89,
+"median_line_gap_s": 2.15,
+"opening_section": "VERSE",
+"opening_section_lines": 20,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 51.18,
+"first_verse_s": 1.27,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 20,
+"first_sustained_section_s": 1.27,
+"hook_durations_s": [
+23.6,
+17.8
+],
+"hook_lines": [
+4,
+4
+],
+"verse_durations_s": [
+49.9,
+46.1
+],
+"verse_lines": [
+20,
+22
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.035,
+"hook_median_line_gap_s": 3.895,
+"verse_words_per_s": 3.16,
+"hook_words_per_s": 2.98,
+"verse_sylls_per_s": 3.65,
+"hook_sylls_per_s": 3.67,
+"longest_gap_s": 12.37,
+"longest_gap_at_s": 62.42,
+"repeated_line_share": 0.26,
+"blank_markers": 2,
+"sections": [
+{
+"label": "VERSE",
+"start": 1.27,
+"end": 51.18,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 51.18,
+"end": 74.79,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "REFRAIN",
+"start": 74.79,
+"end": 84.23,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "VERSE",
+"start": 84.23,
+"end": 130.38,
+"lines": 22,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 130.38,
+"end": 148.19,
+"lines": 4,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 148.19,
+"end": 155.38,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 155.38,
+"end": 164.32,
+"lines": 4,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 164.32,
+"end": 173.0,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "V H r V H b r b",
+"lrclib_id": 5116388,
+"lrc_duration": 173.0,
+"status": "ok",
+"title": "Rumors",
+"n": null,
+"target_s": 172.833,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.78,
+"first_hook_spread_s": 0.31,
+"hook_votes": "8/8"
+},
+"136": {
+"n_lines": 69,
+"first_line_s": 4.47,
+"last_line_s": 208.89,
+"median_line_gap_s": 3.05,
+"opening_section": "VERSE",
+"opening_section_lines": 6,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 17.87,
+"first_verse_s": 4.47,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 6,
+"first_sustained_section_s": 4.47,
+"hook_durations_s": [
+38.3,
+40.1,
+30.6
+],
+"hook_lines": [
+12,
+12,
+8
+],
+"verse_durations_s": [
+13.4,
+25.8,
+49.6
+],
+"verse_lines": [
+6,
+12,
+17
+],
+"hook_return_similarity": [
+1.0,
+0.8
+],
+"verse_median_line_gap_s": 2.585,
+"hook_median_line_gap_s": 3.12,
+"verse_words_per_s": 3.42,
+"hook_words_per_s": 2.47,
+"verse_sylls_per_s": 4.21,
+"hook_sylls_per_s": 2.92,
+"longest_gap_s": 9.11,
+"longest_gap_at_s": 193.11,
+"repeated_line_share": 0.46,
+"blank_markers": 3,
+"sections": [
+{
+"label": "VERSE",
+"start": 4.47,
+"end": 17.87,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 17.87,
+"end": 56.15,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 56.15,
+"end": 81.93,
+"lines": 12,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 81.93,
+"end": 122.0,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 122.0,
+"end": 171.64,
+"lines": 17,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 171.64,
+"end": 202.22,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 202.22,
+"end": 212.0,
+"lines": 2,
+"cluster": null
+}
+],
+"order": "V H V H V H b",
+"lrclib_id": 7233206,
+"lrc_duration": 212.0,
+"status": "ok",
+"title": "Industry Baby",
+"n": null,
+"target_s": 212.353,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 2.54,
+"first_hook_spread_s": 0.17,
+"hook_votes": "8/8"
+},
+"2": {
+"n_lines": 37,
+"first_line_s": 12.85,
+"last_line_s": 184.62,
+"median_line_gap_s": 4.515,
+"opening_section": "VERSE",
+"opening_section_lines": 7,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 43.87,
+"first_verse_s": 12.85,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 7,
+"first_sustained_section_s": 12.85,
+"hook_durations_s": [
+10.7,
+18.1,
+20.8
+],
+"hook_lines": [
+2,
+3,
+3
+],
+"verse_durations_s": [
+31.0,
+81.8,
+18.4
+],
+"verse_lines": [
+7,
+16,
+6
+],
+"hook_return_similarity": [
+0.8,
+0.8
+],
+"verse_median_line_gap_s": 4.465,
+"hook_median_line_gap_s": 4.56,
+"verse_words_per_s": 1.77,
+"hook_words_per_s": 1.18,
+"verse_sylls_per_s": 2.19,
+"hook_sylls_per_s": 1.52,
+"longest_gap_s": 9.85,
+"longest_gap_at_s": 99.99,
+"repeated_line_share": 0.22,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 12.85,
+"end": 43.87,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 43.87,
+"end": 54.57,
+"lines": 2,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 54.57,
+"end": 136.41,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 136.41,
+"end": 154.46,
+"lines": 3,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 154.46,
+"end": 172.84,
+"lines": 6,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 172.84,
+"end": 193.65,
+"lines": 3,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 38955888,
+"lrc_duration": 219.0,
+"status": "ok",
+"title": "Solar Eclipse",
+"n": null,
+"target_s": 218.389,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.38,
+"first_hook_spread_s": 0.11,
+"hook_votes": "8/8"
+},
+"1": {
+"n_lines": 21,
+"first_line_s": 10.26,
+"last_line_s": 87.69,
+"median_line_gap_s": 3.225,
+"opening_section": "HOOK",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 2,
+"first_hook_s": 10.26,
+"first_verse_s": 34.6,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 10.26,
+"hook_durations_s": [
+24.3,
+21.1
+],
+"hook_lines": [
+5,
+5
+],
+"verse_durations_s": [
+38.5
+],
+"verse_lines": [
+11
+],
+"hook_return_similarity": [
+1.0
+],
+"verse_median_line_gap_s": 2.99,
+"hook_median_line_gap_s": 3.26,
+"verse_words_per_s": 2.7,
+"hook_words_per_s": 1.41,
+"verse_sylls_per_s": 3.59,
+"hook_sylls_per_s": 2.13,
+"longest_gap_s": 9.73,
+"longest_gap_at_s": 24.87,
+"repeated_line_share": 0.48,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 10.26,
+"end": 34.6,
+"lines": 5,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 34.6,
+"end": 73.06,
+"lines": 11,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 73.06,
+"end": 94.14,
+"lines": 5,
+"cluster": 0
+}
+],
+"order": "H V H",
+"lrclib_id": 30825632,
+"lrc_duration": 98.0,
+"status": "ok",
+"title": "Babydoll",
+"n": null,
+"target_s": 97.96,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.1,
+"first_hook_spread_s": 0.1,
+"hook_votes": "8/8"
+},
+"3": {
+"n_lines": 55,
+"first_line_s": 0.05,
+"last_line_s": 175.05,
+"median_line_gap_s": 3.345,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 13.74,
+"first_verse_s": 0.05,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 0.05,
+"hook_durations_s": [
+27.4,
+41.2,
+41.9
+],
+"hook_lines": [
+9,
+13,
+13
+],
+"verse_durations_s": [
+13.7,
+27.1,
+13.4,
+16.3
+],
+"verse_lines": [
+4,
+8,
+4,
+4
+],
+"hook_return_similarity": [
+0.82,
+0.82
+],
+"verse_median_line_gap_s": 3.43,
+"hook_median_line_gap_s": 3.355,
+"verse_words_per_s": 1.6,
+"hook_words_per_s": 2.04,
+"verse_sylls_per_s": 2.06,
+"hook_sylls_per_s": 2.75,
+"longest_gap_s": 5.09,
+"longest_gap_at_s": 0.05,
+"repeated_line_share": 0.64,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.05,
+"end": 13.74,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 13.74,
+"end": 41.18,
+"lines": 9,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 41.18,
+"end": 68.23,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 68.23,
+"end": 109.44,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.44,
+"end": 122.83,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 122.83,
+"end": 164.72,
+"lines": 13,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 164.72,
+"end": 181.0,
+"lines": 4,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 38910822,
+"lrc_duration": 181.0,
+"status": "ok",
+"title": "Nicole Kidman",
+"n": null,
+"target_s": 181.27,
+"match_tier": "duration within 3 s",
+"n_records": 5,
+"first_line_spread_s": 0.53,
+"first_hook_spread_s": 0.44,
+"hook_votes": "5/5"
+},
+"65": {
+"n_lines": 83,
+"first_line_s": 0.96,
+"last_line_s": 151.09,
+"median_line_gap_s": 1.64,
+"opening_section": "VERSE",
+"opening_section_lines": 9,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 19.92,
+"first_verse_s": 0.96,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 9,
+"first_sustained_section_s": 0.96,
+"hook_durations_s": [
+31.2,
+52.7,
+11.5
+],
+"hook_lines": [
+12,
+16,
+14
+],
+"verse_durations_s": [
+19.0,
+17.7,
+11.0,
+10.3
+],
+"verse_lines": [
+9,
+8,
+16,
+8
+],
+"hook_return_similarity": [
+0.86,
+0.77
+],
+"verse_median_line_gap_s": 1.06,
+"hook_median_line_gap_s": 1.91,
+"verse_words_per_s": 5.5,
+"hook_words_per_s": 2.4,
+"verse_sylls_per_s": 6.65,
+"hook_sylls_per_s": 2.74,
+"longest_gap_s": 12.93,
+"longest_gap_at_s": 108.52,
+"repeated_line_share": 0.51,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 0.96,
+"end": 19.92,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 19.92,
+"end": 51.09,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 51.09,
+"end": 68.79,
+"lines": 8,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 68.79,
+"end": 121.45,
+"lines": 16,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 121.45,
+"end": 132.49,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 132.49,
+"end": 144.04,
+"lines": 14,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 144.04,
+"end": 154.37,
+"lines": 8,
+"cluster": null
+}
+],
+"order": "V H V H V H V",
+"lrclib_id": 11211616,
+"lrc_duration": 163.0,
+"status": "ok",
+"title": "3D",
+"n": null,
+"target_s": 162.545,
+"match_tier": "duration within 3 s",
+"n_records": 3,
+"first_line_spread_s": 0.64,
+"first_hook_spread_s": 0.57,
+"hook_votes": "3/3"
+},
+"99": {
+"n_lines": 50,
+"first_line_s": 3.01,
+"last_line_s": 163.92,
+"median_line_gap_s": 3.76,
+"opening_section": "VERSE",
+"opening_section_lines": 5,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 24.6,
+"first_verse_s": 3.01,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 5,
+"first_sustained_section_s": 3.01,
+"hook_durations_s": [
+39.9,
+40.0,
+35.7
+],
+"hook_lines": [
+12,
+12,
+9
+],
+"verse_durations_s": [
+21.6,
+16.1,
+15.0
+],
+"verse_lines": [
+5,
+5,
+7
+],
+"hook_return_similarity": [
+1.0,
+0.86
+],
+"verse_median_line_gap_s": 3.365,
+"hook_median_line_gap_s": 3.78,
+"verse_words_per_s": 2.48,
+"hook_words_per_s": 1.75,
+"verse_sylls_per_s": 2.96,
+"hook_sylls_per_s": 2.13,
+"longest_gap_s": 6.21,
+"longest_gap_at_s": 3.01,
+"repeated_line_share": 0.66,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 3.01,
+"end": 24.6,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 24.6,
+"end": 64.55,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 64.55,
+"end": 80.64,
+"lines": 5,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 80.64,
+"end": 120.68,
+"lines": 12,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 120.68,
+"end": 135.72,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 135.72,
+"end": 171.44,
+"lines": 9,
+"cluster": 0
+}
+],
+"order": "V H V H V H",
+"lrclib_id": 11158592,
+"lrc_duration": 173.0,
+"status": "ok",
+"title": "Bad Decisions",
+"n": null,
+"target_s": 172.714,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.29,
+"first_hook_spread_s": 0.03,
+"hook_votes": "8/8"
+},
+"71": {
+"n_lines": 77,
+"first_line_s": 9.19,
+"last_line_s": 176.34,
+"median_line_gap_s": 2.12,
+"opening_section": "VERSE",
+"opening_section_lines": 4,
+"has_returning_hook": true,
+"hook_occurrences": 3,
+"first_hook_s": 23.75,
+"first_verse_s": 9.19,
+"hook_before_first_verse": false,
+"lines_before_first_hook": 4,
+"first_sustained_section_s": 9.19,
+"hook_durations_s": [
+32.2,
+49.8,
+31.8
+],
+"hook_lines": [
+14,
+23,
+14
+],
+"verse_durations_s": [
+14.6,
+31.5
+],
+"verse_lines": [
+4,
+16
+],
+"hook_return_similarity": [
+0.7,
+0.5
+],
+"verse_median_line_gap_s": 2.025,
+"hook_median_line_gap_s": 2.225,
+"verse_words_per_s": 3.19,
+"hook_words_per_s": 2.57,
+"verse_sylls_per_s": 3.93,
+"hook_sylls_per_s": 3.94,
+"longest_gap_s": 4.36,
+"longest_gap_at_s": 51.6,
+"repeated_line_share": 0.69,
+"blank_markers": 1,
+"sections": [
+{
+"label": "VERSE",
+"start": 9.19,
+"end": 23.75,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 23.75,
+"end": 55.96,
+"lines": 14,
+"cluster": 0
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 55.96,
+"end": 59.88,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "REFRAIN",
+"start": 59.88,
+"end": 63.62,
+"lines": 2,
+"cluster": 1
+},
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 63.62,
+"end": 67.47,
+"lines": 2,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 67.47,
+"end": 117.32,
+"lines": 23,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 117.32,
+"end": 148.78,
+"lines": 16,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 148.78,
+"end": 180.58,
+"lines": 14,
+"cluster": 0
+}
+],
+"order": "V H b r b H V H",
+"lrclib_id": 5601608,
+"lrc_duration": 184.0,
+"status": "ok",
+"title": "Seven",
+"n": null,
+"target_s": 184.16,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.46,
+"first_hook_spread_s": 0.44,
+"hook_votes": "8/8"
+},
+"80": {
+"title": "Boy's A Liar, Pt. 2",
+"n": null,
+"status": "no version with matching duration",
+"target_s": 150.0,
+"durations": [
+30.0,
+131.0,
+131.013333,
+131.0133376,
+131.056327,
+135.8106112
+]
+},
+"104": {
+"n_lines": 61,
+"first_line_s": 8.55,
+"last_line_s": 165.7,
+"median_line_gap_s": 2.44,
+"opening_section": "HOOK",
+"opening_section_lines": 7,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 8.55,
+"first_verse_s": 28.22,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 0,
+"first_sustained_section_s": 8.55,
+"hook_durations_s": [
+19.7,
+20.0,
+18.5,
+9.7
+],
+"hook_lines": [
+7,
+7,
+7,
+3
+],
+"verse_durations_s": [
+37.4,
+47.1,
+9.6
+],
+"verse_lines": [
+13,
+20,
+4
+],
+"hook_return_similarity": [
+1.0,
+1.0,
+0.6
+],
+"verse_median_line_gap_s": 2.39,
+"hook_median_line_gap_s": 2.435,
+"verse_words_per_s": 3.29,
+"hook_words_per_s": 3.1,
+"verse_sylls_per_s": 3.73,
+"hook_sylls_per_s": 3.28,
+"longest_gap_s": 5.09,
+"longest_gap_at_s": 80.5,
+"repeated_line_share": 0.39,
+"blank_markers": 1,
+"sections": [
+{
+"label": "HOOK",
+"start": 8.55,
+"end": 28.22,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 28.22,
+"end": 65.63,
+"lines": 13,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 65.63,
+"end": 85.59,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 85.59,
+"end": 132.7,
+"lines": 20,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 132.7,
+"end": 151.22,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 151.22,
+"end": 160.84,
+"lines": 4,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 160.84,
+"end": 170.58,
+"lines": 3,
+"cluster": 0
+}
+],
+"order": "H V H V H V H",
+"lrclib_id": 7851320,
+"lrc_duration": 193.0,
+"status": "ok",
+"title": "I Like You (A Happier Song)",
+"n": null,
+"target_s": 192.841,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 5.77,
+"first_hook_spread_s": 5.77,
+"hook_votes": "8/8"
+},
+"120": {
+"n_lines": 43,
+"first_line_s": 1.62,
+"last_line_s": 186.22,
+"median_line_gap_s": 3.505,
+"opening_section": "BRIDGE_OR_INTRO",
+"opening_section_lines": 3,
+"has_returning_hook": true,
+"hook_occurrences": 4,
+"first_hook_s": 8.07,
+"first_verse_s": 39.65,
+"hook_before_first_verse": true,
+"lines_before_first_hook": 3,
+"first_sustained_section_s": 8.07,
+"hook_durations_s": [
+31.6,
+41.8,
+59.8,
+7.0
+],
+"hook_lines": [
+7,
+8,
+8,
+1
+],
+"verse_durations_s": [
+28.2,
+16.7
+],
+"verse_lines": [
+9,
+7
+],
+"hook_return_similarity": [
+0.93,
+0.93,
+0.25
+],
+"verse_median_line_gap_s": 2.605,
+"hook_median_line_gap_s": 4.305,
+"verse_words_per_s": 2.65,
+"hook_words_per_s": 1.62,
+"verse_sylls_per_s": 3.23,
+"hook_sylls_per_s": 1.87,
+"longest_gap_s": 22.27,
+"longest_gap_at_s": 163.95,
+"repeated_line_share": 0.56,
+"blank_markers": 2,
+"sections": [
+{
+"label": "BRIDGE_OR_INTRO",
+"start": 1.62,
+"end": 8.07,
+"lines": 3,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 8.07,
+"end": 39.65,
+"lines": 7,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 39.65,
+"end": 67.87,
+"lines": 9,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 67.87,
+"end": 109.7,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "VERSE",
+"start": 109.7,
+"end": 126.39,
+"lines": 7,
+"cluster": null
+},
+{
+"label": "HOOK",
+"start": 126.39,
+"end": 186.22,
+"lines": 8,
+"cluster": 0
+},
+{
+"label": "HOOK",
+"start": 186.22,
+"end": 193.23,
+"lines": 1,
+"cluster": 0
+}
+],
+"order": "b H V H V H H",
+"lrclib_id": 1017678,
+"lrc_duration": 194.0,
+"status": "ok",
+"title": "One Right Now",
+"n": null,
+"target_s": 192.721,
+"match_tier": "duration within 3 s",
+"n_records": 8,
+"first_line_spread_s": 0.8,
+"first_hook_spread_s": 1.24,
+"hook_votes": "8/8"
+}
+}
