@@ -274,7 +274,7 @@ for r in rows:
         _diff.append(f"#{r['n']} {r['title']}: \"{tr_}\" on *{m_.get('runtime_collection')}*")
 out.append(f"\n**Recording measured (table 4b).** The runtime and the preview clip come from the Apple catalog track matched by title and artist: "
            f"{_ed.get('cleaned', 0)} are clean editions of explicit songs and {_ed.get('notExplicit', 0)} are entries Apple does not flag as explicit. "
-           f"Where an earlier cited runtime for the explicit version exists, the catalog track is within 2 seconds of it in every case, so a clean edition is treated as the same recording with words muted or replaced (an inference from length, not a listening check). "
+           f"Where an earlier cited runtime for the explicit version exists, the chosen catalog track is within 2 seconds of it in every case, partly because editions were chosen by closeness to that runtime. A clean edition is therefore assumed, not shown, to be the same recording with words muted or replaced; nobody listened to check. "
            f"The lyric record was matched to the track's length within 3 seconds. "
            f"No catalog match: {', '.join(_nocat) or 'none'} (runtime cited, no clip). "
            f"The catalog track name, collection and release date for the {len(rows) - len(_nocat)} matched songs are in `data/track_measurements.csv` (`m_catalog_track`, `m_catalog_collection`, `m_catalog_release_date`), with the edition in `m_runtime_edition` and the LRCLIB record id in `m_lyric_record`; the catalog columns are blank for the unmatched songs.")
@@ -306,6 +306,8 @@ for o in in_window:
         full_ = full_.replace('visible)', 'in the summary)')
         # a research agent's gloss, not something a page was read to say (the R&B / rap split is this study's working rule)
         full_ = full_.replace(", the R&B half of Hot R&B/Hip-Hop Songs (Hot Rap Songs is the rap half)", "")
+        # research text that states the R&B / rap split as a Billboard fact is dropped: the Decision column and the header give it as this study's working rule
+        full_ = re.sub(r"(?<=[.!?]) [^.]*(?:mutually exclusive|never shares? a song|excludes Hot Rap Songs)[^.]*\.", '', full_).strip()
         if o['cid'] in C.EVIDENCE_DISPLAY: full_ = C.EVIDENCE_DISPLAY[o['cid']]
         elif st.get('tier') == 'summary' and not re.search(r'search summar|search-result|search results|read directly|recollection', full_, re.I): full_ = 'Search summary (page not opened): ' + full_
         if b.get('evidence_type') in ('model_knowledge_only', 'none', None) and not table_note(o): full_ = 'Model recollection only, not searched. ' + re.sub(r'Not searched[^.]*\.\s*|From memory,?\s*|\bUnverified\.?\s*', '', full_).strip()
