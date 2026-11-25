@@ -47,13 +47,13 @@ Total length is **2:56.7**. That deliberately sits at the short end of the measu
 | Block | This map | The measured hits | Finding |
 |---|---|---|---|
 | Felt tempo | 72 on a 144 grid | Median felt 72 across 72 clear clips; published BPMs usually show the doubled number | M-1 |
-| Intro | 2 felt bars (6.7 s) | Median 4.4 felt bars, middle half 3.8–8.0. This map is on the short side by design | M-4 |
+| Intro | 2 felt bars (6.7 s) | Median 4.4 felt bars, middle half 3.7–8.1. This map is on the short side by design | M-4 |
 | First vocal | 0:03.3 (A) or 0:06.5 (B) | First lyric line within 5 s in 74/98 | M-4 |
-| First hook | 0:06.7 (A) or 0:33.3 (B) | Median 0:29 overall; 0:18 for the songs that climbed. Opening A matches the climbers, Opening B the wider set | M-3 |
-| Hook length | 8 felt bars | About 8 felt bars in 29 of 68 mapped songs, about 4 in 24 | M-5 |
-| Verse 1 | 16 felt bars | About 16 in 17, about 12 in 10, about 8 in 21 of 70 | M-5 |
-| Verse 2 | 8 felt bars (shorter than verse 1) | Verse 2 is shorter in 20, similar in 24 and longer in 30 of 74. The long version below evens it out | M-6 |
-| Hook occurrences | 3, same words, full stack on the last | Two or three in most songs; words identical or nearly so in 58 of 75 | M-6 |
+| First hook | 0:06.7 (A) or 0:33.3 (B) | Median 0:31 overall; 0:18 for the songs that climbed. Opening A matches the climbers, Opening B the wider set | M-3 |
+| Hook length | 8 felt bars | About 8 felt bars in 38 of 82 mapped songs, about 4 in 28 | M-5 |
+| Verse 1 | 16 felt bars | About 16 in 19, about 12 in 15, about 8 in 25 of 86 | M-5 |
+| Verse 2 | 8 felt bars (shorter than verse 1) | Verse 2 is shorter in 23, similar in 28 and longer in 40 of 91. The long version below evens it out | M-6 |
+| Hook occurrences | 3, same words, full stack on the last | Two or three in most songs; words identical or nearly so in 74 of 91 | M-6 |
 
 The map was drawn before these measurements and needed no change to fit inside them. Where it leaves the middle of the range (a two-bar intro, a short second verse), that is a choice, marked above. **[J]**
 

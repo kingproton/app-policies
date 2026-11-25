@@ -176,15 +176,15 @@ Measured on 2026-11-25 from three sources by signal analysis and by reading lyri
 | 38 | Enough (Miami) | 2:39 | 139 / 69.5 (M) | 1.2 s | 0:41 (24) | 2 | 28 s / 8.0 bars | 21 s / 6.1 bars | 4.01 | J |
 | 39 | Carnival | 4:23 | 148 / 74 (M) | 0.2 s | 0:00 (0) | 4 | 13 s / 3.9 bars | — | — | A |
 | 40 | Hiss | 3:13 | 167 / 83.5 (I) | 0.2 s | none | — | — | 69 s / 23.9 bars | 4.33 | A |
-| 41 | Redrum | 4:31 | 172 / 86 (L) | 24.0 s | 0:45 (3) | 3 | 34 s / 12.0 bars | 67 s / 24.2 bars | 2.64 | X |
+| 41 | Redrum | 4:31 | 172 / 86 (L) | 24.0 s | 0:56 (8) | 3 | 22 s / 7.8 bars | 67 s / 24.2 bars | 2.64 | J |
 | 42 | Nee-nah | 3:41 | 165.5 / 82.5 (M) | 5.1 s | 1:32 (28) | 2 | 24 s / 8.2 bars | 58 s / 20.0 bars | 3.23 | A |
 | 43 | Agora Hills | 4:25 | 123 / 61.5 (M) | 0.1 s | 0:14 (3) | 3 | 33 s / 8.4 bars | 40 s / 10.3 bars | 3.71 | A |
-| 44 | Lovin On Me | 2:18 | 105 / 105 (I) | 0.0 s | 0:00 (0) | 3 | 27 s / 11.9 bars | 19 s / 8.1 bars | 3.43 | X |
-| 45 | First Person Shooter | 4:07 | 122 / 61 (L) | 3.9 s | 0:31 (12) | 2 | 1 s / 0.4 bars | 19 s / 4.8 bars | 3.61 | X |
+| 44 | Lovin On Me | 2:18 | 105 / 105 (I) | 0.0 s | 0:00 (0) | 7 | 9 s / 3.8 bars | 19 s / 8.1 bars | 3.43 | J |
+| 45 | First Person Shooter | 4:07 | 122 / 61 (L) | 2.1 s | 0:23 (12) | 2 | 10 s / 2.5 bars | 19 s / 4.8 bars | 3.61 | J |
 | 46 | IDGAF | 4:20 | 136.5 / 68.5 or 136.5 (?) | 11.8 s | 1:32 (16) | 3 | 14 s | 42 s | 3.98 | A |
-| 47 | Virginia Beach | 4:11 | 120 / 60 (M) | 15.1 s | 0:56 (11) | 2 | 25 s / 6.3 bars | 32 s / 8.1 bars | 2.5 | X |
+| 47 | Virginia Beach | 4:11 | 120 / 60 (M) | 15.1 s | 0:52 (10) | 2 | 34 s / 8.4 bars | 32 s / 8.1 bars | 2.5 | J |
 | 48 | Calling For You | 4:46 | 152 / 76 (I) | 2.6 s | none | — | — | 15 s / 4.8 bars | 2.8 | A |
-| 49 | Daylight | 2:44 | 140 / 70 (M) | 0.6 s | 0:52 (22) | 2 | 18 s / 5.2 bars | 21 s / 6.1 bars | 3.09 | X |
+| 49 | Daylight | 2:44 | 140 / 70 (M) | 0.6 s | 0:56 (24) | 2 | 14 s / 4.1 bars | 21 s / 6.1 bars | 3.09 | J |
 | 50 | Fear Of Heights | 2:35 | 137 / 68.5 (M) | 1.1 s | 0:44 (14) | 2 | 13 s / 3.8 bars | 37 s / 10.5 bars | 3.57 | A |
 | 51 | Paint The Town Red | 3:52 | 100 / 100 (M) | 0.1 s | 0:19 (5) | 3 | 20 s / 8.3 bars | 38 s / 15.8 bars | 3.34 | J |
 | 52 | Meltdown | 4:07 | 112 / 56 (M) | 2.3 s | 1:31 (31) | 5 | 5 s / 1.2 bars | 73 s / 17.1 bars | 3.22 | J |

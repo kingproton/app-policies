@@ -279,6 +279,8 @@ if os.path.exists(rp):
     RV = {k: v for k, v in json.load(open(rp)).items() if k in ids}
     OUT['review_summary'] = dict(reviewed=len(RV), agree=sum(1 for v in RV.values() if v['status'] == 'agree'), ruled=sum(1 for v in RV.values() if v['status'] == 'adjudicated'),
                                  no_ruling=sum(1 for v in RV.values() if v['status'] == 'disputed_no_ruling'),
+                                 asides_removed=sum(1 for v in RV.values() if v['reviewer'].get('recollection_aside_removed') or (v.get('ruling') or {}).get('recollection_aside_removed')),
+                                 kinds_reset=sum(1 for v in RV.values() if v['reviewer'].get('first_line_kind_reader')),
                                  resolution=dict(collections.Counter(v['ruling']['resolution'] for v in RV.values() if v.get('ruling'))),
                                  disagreed_on=dict(collections.Counter(w for v in RV.values() for w in v['why'])),
                                  hook_time_disputed=sum(1 for v in RV.values() if 'first hook time' in v['why'] or 'whether a recurring hook exists' in v['why']))

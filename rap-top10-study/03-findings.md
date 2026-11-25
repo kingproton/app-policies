@@ -11,7 +11,7 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 **What was assessed:**
 - **Runtime:** 100 of 100 (96 from the Apple catalog, 4 from cited sources).
 - **Felt tempo:** 96 preview clips. 72 show a clear backbeat; 17 more are resolved with a stated caveat; 7 stay open. 4 tracks had no clip.
-- **Lyric timing and structure:** 98 tracks have a time-synced lyric record whose length matches the track within 3 seconds. Each record was read twice, by a repetition detector and by an independent AI reader; where they disagreed, a second AI reader ruled. No person read them. Timing basis: 46 agreed (A), 30 ruled (J), 22 detector only (G). 2 tracks had no matching record ("Staying Alive" and "I'm Dat N***a").
+- **Lyric timing and structure:** 98 tracks have a time-synced lyric record whose length matches the track within 3 seconds. Each record was read twice, by a repetition detector and by an independent AI reader; where the two disagreed, a second AI reader ruled. No person read them. Timing basis: 58 agreed (A), 40 ruled (J). 2 tracks had no matching record ("Staying Alive" and "I'm Dat N***a").
 - **Timestamps** are crowd-synced line times. Where two or more matching records exist (97 tracks), their first-line times agree within one second for 75/97. Treat every timestamp below as good to about a second, not to the frame.
 - **Not measured:** the silence after a punchline, where ad-libs sit inside a bar, and what the drums and 808 do when a section returns. Line-level lyric timing and a 30-second clip cannot show them. They stay unknown.
 
@@ -26,19 +26,19 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 |   median felt BPM (clear) | 72 (IQR 65–81; n=72) | 74 (IQR 62.5–95; n=8) | 72 (IQR 65–81; n=64) | 72 (IQR 65.5–81; n=42) | 73.5 (IQR 64.5–80.5; n=30) | 70 (IQR 65–79; n=32) | 74 (IQR 66–81; n=40) | 71 (IQR 63.5–78; n=40) | 76 (n=2) |
 |   slow (under 90) / mid (90–119) / fast (120+), clear | 63 / 6 / 3 | 6 / 1 / 1 | 57 / 5 / 2 | 38 / 4 / 0 | 25 / 2 / 3 | 30 / 2 / 0 | 33 / 4 / 3 | 39 / 1 / 0 | 2 / 0 / 0 |
 |   same split, all resolved readings | 72 / 14 / 3 | 6 / 3 / 1 | 66 / 11 / 2 | 44 / 7 / 0 | 28 / 7 / 3 | 34 / 3 / 0 | 38 / 11 / 3 | 44 / 1 / 0 | 5 / 1 / 0 |
-| **First lyric line** — median time | 1.4 s (IQR 0.3–5.0; n=98) | 0.9 s (IQR 0.4–8.0; n=12) | 1.5 s (IQR 0.3–5.0; n=86) | 1.5 s (IQR 0.3–5.8; n=54) | 0.9 s (IQR 0.2–4.3; n=44) | 1.5 s (IQR 0.2–4.1; n=40) | 1.4 s (IQR 0.3–5.3; n=58) | 1.4 s (IQR 0.4–4.3; n=48) | 2.1 s (IQR 0.3–21.4; n=8) |
+| **First lyric line** — median time | 1.4 s (IQR 0.3–5.0; n=98) | 0.9 s (IQR 0.4–8.0; n=12) | 1.5 s (IQR 0.3–5.0; n=86) | 1.5 s (IQR 0.3–5.8; n=54) | 0.9 s (IQR 0.2–4.3; n=44) | 1.5 s (IQR 0.2–4.0; n=40) | 1.4 s (IQR 0.3–5.3; n=58) | 1.4 s (IQR 0.4–4.3; n=48) | 2.1 s (IQR 0.3–21.4; n=8) |
 |   within 5 s / after 15 s | 74/98 / 7/98 | 9/12 / 0/12 | 65/86 / 7/86 | 40/54 / 4/54 | 34/44 / 3/44 | 31/40 / 4/40 | 43/58 / 3/58 | 37/48 / 3/48 | 6/8 / 2/8 |
 | **Recurring hook** present | 91/98 | 11/12 | 80/86 | 50/54 | 41/44 | 37/40 | 54/58 | 45/48 | 6/8 |
-|   first hook — median time | 0:29 (IQR 0:11–1:02; n=91) | 0:18 (IQR 0:10–0:31; n=11) | 0:33 (IQR 0:11–1:09; n=80) | 0:37 (IQR 0:13–1:11; n=50) | 0:19 (IQR 0:10–0:49; n=41) | 0:37 (IQR 0:13–1:12; n=37) | 0:19 (IQR 0:10–0:55; n=54) | 0:31 (IQR 0:13–1:08; n=45) | 0:43 (IQR 0:02–1:56; n=6) |
-|   first hook by 0:30 / by 1:00 (of all assessed) | 46/98 / 68/98 | 8/12 / 11/12 | 38/86 / 57/86 | 21/54 / 34/54 | 25/44 / 34/44 | 15/40 / 25/40 | 31/58 / 43/58 | 21/48 / 33/48 | 3/8 / 3/8 |
-|   hook before the first verse | 39/75 | 7/10 | 32/65 | 16/38 | 23/37 | 9/25 | 30/50 | 18/36 | 2/5 |
-|   first return anchor — median time | 0:15 (IQR 0:05–0:58; n=92) | 0:10 (IQR 0:01–0:14; n=11) | 0:23 (IQR 0:07–1:03; n=81) | 0:37 (IQR 0:11–1:07; n=51) | 0:12 (IQR 0:04–0:36; n=41) | 0:34 (IQR 0:07–1:06; n=38) | 0:14 (IQR 0:04–0:47; n=54) | 0:27 (IQR 0:03–1:00; n=45) | 0:42 (IQR 0:02–1:46; n=6) |
-|   hook occurrences: 2 / 3 / 4+ | 42 / 42 / 7 | 4 / 5 / 2 | 38 / 37 / 5 | 27 / 20 / 3 | 15 / 22 / 4 | 24 / 11 / 2 | 18 / 31 / 5 | 24 / 15 / 6 | 4 / 2 / 0 |
-| **Section lengths** — intro (felt bars) | 4.4 (IQR 3.8–8.0; n=71) | 4.4 (IQR 4.0–8.0; n=9) | 4.3 (IQR 3.8–8.0; n=62) | 4.9 (IQR 3.8–8.2; n=38) | 4.2 (IQR 3.5–6.9; n=33) | 5.2 (IQR 3.4–8.2; n=24) | 4.3 (IQR 3.8–7.7; n=47) | 4.1 (IQR 3.8–7.7; n=34) | 7.8 (IQR 2.4–9.5; n=5) |
-|   first hook (felt bars) | 6.5 (IQR 4.0–8.0; n=68) | 7.5 (IQR 5.0–8.0; n=9) | 6.3 (IQR 4.0–8.0; n=59) | 5.9 (IQR 4.0–8.0; n=36) | 7.5 (IQR 4.0–8.0; n=32) | 4.2 (IQR 3.2–7.9; n=23) | 7.5 (IQR 4.3–8.1; n=45) | 5.8 (IQR 4.0–8.0; n=33) | 7.2 (IQR 2.4–7.8; n=4) |
-|   first verse (felt bars) | 11.9 (IQR 8.0–16.2; n=70) | 8.3 (IQR 7.1–14.9; n=9) | 12.0 (IQR 8.0–17.6; n=61) | 12.0 (IQR 8.0–17.2; n=38) | 11.7 (IQR 8.0–16.1; n=32) | 10.0 (IQR 8.0–16.8; n=24) | 12.2 (IQR 8.0–16.2; n=46) | 8.6 (IQR 8.0–15.9; n=33) | 20.1 (IQR 16.1–28.6; n=5) |
-|   verse 2 shorter / similar / longer than verse 1 | 20 / 24 / 30 (of 74) | 2 / 6 / 1 (of 9) | 18 / 18 / 29 (of 65) | 10 / 12 / 16 (of 38) | 10 / 12 / 14 (of 36) | 7 / 5 / 13 (of 25) | 13 / 19 / 17 (of 49) | 5 / 14 / 15 (of 34) | 3 / 1 / 3 (of 7) |
-|   last hook longer than the first (by 25%+) | 14/75 | 0/10 | 14/65 | 7/38 | 7/37 | 9/25 | 5/50 | 7/36 | 3/5 |
+|   first hook — median time | 0:31 (IQR 0:12–1:04; n=91) | 0:18 (IQR 0:10–0:31; n=11) | 0:36 (IQR 0:13–1:11; n=80) | 0:45 (IQR 0:14–1:12; n=50) | 0:19 (IQR 0:10–0:55; n=41) | 0:44 (IQR 0:14–1:12; n=37) | 0:22 (IQR 0:11–0:57; n=54) | 0:36 (IQR 0:14–1:13; n=45) | 0:43 (IQR 0:02–1:56; n=6) |
+|   first hook by 0:30 / by 1:00 (of all assessed) | 45/98 / 67/98 | 8/12 / 11/12 | 37/86 / 56/86 | 20/54 / 33/54 | 25/44 / 34/44 | 15/40 / 25/40 | 30/58 / 42/58 | 20/48 / 32/48 | 3/8 / 3/8 |
+|   hook before the first verse | 48/91 | 8/11 | 40/80 | 22/50 | 26/41 | 16/37 | 32/54 | 20/45 | 3/6 |
+|   first return anchor — median time | 0:15 (IQR 0:05–0:58; n=92) | 0:10 (IQR 0:01–0:14; n=11) | 0:23 (IQR 0:07–1:03; n=81) | 0:37 (IQR 0:11–1:07; n=51) | 0:12 (IQR 0:04–0:36; n=41) | 0:33 (IQR 0:07–1:06; n=38) | 0:14 (IQR 0:04–0:47; n=54) | 0:23 (IQR 0:03–1:00; n=45) | 0:42 (IQR 0:02–1:46; n=6) |
+|   hook occurrences: 2 / 3 / 4+ | 43 / 42 / 6 | 4 / 5 / 2 | 39 / 37 / 4 | 28 / 21 / 1 | 15 / 21 / 5 | 24 / 11 / 2 | 19 / 31 / 4 | 25 / 16 / 4 | 4 / 2 / 0 |
+| **Section lengths** — intro (felt bars) | 4.4 (IQR 3.7–8.1; n=87) | 4.4 (IQR 3.8–7.9; n=10) | 4.4 (IQR 3.4–8.2; n=77) | 4.6 (IQR 3.8–8.3; n=50) | 4.2 (IQR 3.4–7.6; n=37) | 4.9 (IQR 1.9–8.8; n=36) | 4.3 (IQR 3.8–7.8; n=51) | 4.1 (IQR 3.8–8.0; n=43) | 6.0 (IQR 0.5–8.9; n=6) |
+|   first hook (felt bars) | 7.1 (IQR 4.0–8.1; n=82) | 7.5 (IQR 5.1–8.2; n=10) | 6.7 (IQR 4.0–8.1; n=72) | 6.2 (IQR 4.0–8.1; n=46) | 7.5 (IQR 4.0–8.1; n=36) | 4.3 (IQR 3.9–8.1; n=33) | 7.6 (IQR 4.3–8.1; n=49) | 6.0 (IQR 4.0–8.0; n=41) | 6.7 (IQR 2.6–7.7; n=5) |
+|   first verse (felt bars) | 11.9 (IQR 8.0–16.1; n=86) | 9.3 (IQR 7.5–14.5; n=10) | 12.0 (IQR 8.0–16.9; n=76) | 11.9 (IQR 8.0–15.8; n=50) | 11.7 (IQR 8.0–16.9; n=36) | 10.0 (IQR 7.9–15.8; n=36) | 12.2 (IQR 8.0–17.2; n=50) | 9.4 (IQR 7.9–15.8; n=42) | 19.1 (IQR 14.6–28.3; n=6) |
+|   verse 2 shorter / similar / longer than verse 1 | 23 / 28 / 40 (of 91) | 2 / 7 / 1 (of 10) | 21 / 21 / 39 (of 81) | 12 / 15 / 24 (of 51) | 11 / 13 / 16 (of 40) | 9 / 8 / 21 (of 38) | 14 / 20 / 19 (of 53) | 6 / 15 / 23 (of 44) | 4 / 1 / 3 (of 8) |
+|   last hook longer than the first (by 25%+) | 19/91 | 0/11 | 19/80 | 11/50 | 8/41 | 13/37 | 6/54 | 10/45 | 3/6 |
 | **Riding the beat** — verse syllables per second | 4.1 (IQR 3.7–4.5; n=97) | 4.4 (IQR 4.0–4.7; n=12) | 4.1 (IQR 3.7–4.5; n=85) | 4.0 (IQR 3.6–4.5; n=54) | 4.3 (IQR 3.9–4.7; n=43) | 4.0 (IQR 3.5–4.3; n=40) | 4.3 (IQR 3.8–4.8; n=57) | 4.0 (IQR 3.6–4.5; n=47) | 4.7 (IQR 4.0–5.1; n=8) |
 |   verse syllables per felt beat | 3.1 (IQR 2.6–3.7; n=86) | 2.9 (IQR 2.3–4.1; n=10) | 3.2 (IQR 2.7–3.7; n=76) | 3.2 (IQR 2.9–3.7; n=50) | 3.0 (IQR 2.4–3.9; n=36) | 3.1 (IQR 2.9–3.6; n=36) | 3.1 (IQR 2.5–3.9; n=50) | 3.5 (IQR 2.9–3.9; n=42) | 3.4 (IQR 3.0–3.7; n=6) |
 |   verse denser than hook (words per second) | 72/87 | 11/11 | 61/76 | 44/48 | 28/39 | 29/34 | 43/53 | 35/43 | 3/4 |
@@ -99,10 +99,10 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Effect:** arrangement (what comes first) and writing (how long the first verse can run). Ranked third: it is the hook-first or verse-first decision, now measured.
 - **Count:**
   - **91/98** assessed tracks have a main section that recurs. **7/98** have none (see M-9).
-  - The first hook starts at a median **0:29** (middle half 0:11–1:02). It has arrived by 0:30 in 46/98 tracks, by 1:00 in 68/98, and comes after 1:30 in 10/98.
-  - The hook comes **before the first verse** in **39/75** tracks with a section map. Within the first three lyric lines: 32/91.
-  - **The first return anchor** (the earliest line of any block that comes back, hook or not) lands at a median 0:15. In 78 of 91 tracks that anchor is the hook itself; in the rest an intro chant, tag or pre-hook returns first.
-  - **By chart path:** songs that **climbed** into the top 10 reach the hook at a median **0:18** (n=11) and put it before the first verse in 7/10. Songs that **debuted** there: **0:33** and 32/65. Album-bomb cuts: 0:37; other songs: 0:19.
+  - The first hook starts at a median **0:31** (middle half 0:12–1:04). It has arrived by 0:30 in 45/98 tracks, by 1:00 in 67/98, and comes after 1:30 in 11/98.
+  - The hook comes **before the first verse** in **48/91** tracks with a section map. Within the first three lyric lines: 28/91.
+  - **The first return anchor** (the earliest line of any block that comes back, hook or not) lands at a median 0:15. In 72 of 91 tracks that anchor is the hook itself; in the rest an intro chant, tag or pre-hook returns first.
+  - **By chart path:** songs that **climbed** into the top 10 reach the hook at a median **0:18** (n=11) and put it before the first verse in 8/11. Songs that **debuted** there: **0:36** and 40/80. Album-bomb cuts: 0:45; other songs: 0:19.
 - **Examples with timestamps:**
   - *Hook first:* "First Class" (hook at 0:04 after 1 line), "Type Shit" (0:03), "BackOutsideBoyz" (0:03), "Barbie World" (0:03), "Rather Lie" (0:06), "Pussy & Millions" (0:01), "Carnival" (0:00), "Players" (0:10, the first line of the record).
   - *Verse first, long wait:* "Not Like Us" (hook at 1:15 after 27 lines), "Like That" (1:28 after 26), "On BS" (1:37 after 30), "National Treasures" (1:42 after 45), "K-POP" (1:27 after 26), "Houdini" (0:59 after 27).
@@ -111,8 +111,8 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - Statement record: you can hold the hook past a minute, as "Not Like Us" and "Like That" do, but give the listener a return anchor earlier: a tag, a chant or a refrain line that will come back.
 - **Exception:** "Not Like Us" spent 28 weeks in the top 10 with its hook at 1:15. A late hook did not stop it. [J]
 - **Flags:**
-  - "Which block is the hook" is a judgment when two blocks recur. The two readings disagreed on whether there is a hook or when it starts for 25 of 80 tracks before the ruling; those are marked J in table 4b.
-  - Drake-credited songs put the hook before the first verse in 9/25; the rest in 30/50. Album-bomb weeks pull the whole set toward later hooks.
+  - "Which block is the hook" is a judgment when two blocks recur. The two readings disagreed on whether there is a hook or when it starts for 30 of 98 tracks before the ruling; those are marked J in table 4b.
+  - Drake-credited songs put the hook before the first verse in 16/37; the rest in 32/54. Album-bomb weeks pull the whole set toward later hooks.
   - Only 12 songs climbed. The gap is large, but the group is small and not controlled.
 
 ### M-4. The first voice is rarely a rap line, and the intro is four or eight felt bars
@@ -120,23 +120,23 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Effect:** arrangement (the opening) and delivery (how you enter). Ranked fourth: it governs the first seconds, which is where your A/B test lives.
 - **Count:**
   - The first lyric line starts at a median **1.4 seconds**: within 5 seconds in 74/98 tracks and after 15 seconds in 7/98.
-  - **What that first line is** (the AI reader's call, from the text alone): an ad-lib or vocalization in 29, a sample or another voice in 15, spoken in 11, sung in 10, a rap line in 7, unclear in 8.
-  - The record opens on an intro in 66 of 80 section maps, on the hook in 10 and straight into a verse in 3.
-  - **Intro length** (the time before the first hook or verse): median 14 seconds, or **4.4 felt bars** (middle half 3.8–8.0).
+  - **What that first line is** (the AI reader's call, from the text alone): an ad-lib or vocalization in 35, a sample or another voice in 22, spoken in 12, sung in 9, a rap line in 9, unclear in 11.
+  - The record opens on an intro in 81 of 98 section maps, on the hook in 13 and straight into a verse in 3.
+  - **Intro length** (the time before the first hook or verse): median 14 seconds, or **4.4 felt bars** (middle half 3.7–8.1).
 - **Examples:** "Evil J0rdan" waits until 0:54 for its first line; "Real Spill" until 0:12; "Redrum" until 0:24. "Not Like Us", "Houdini" and "Carnival" have a voice inside the first second.
 - **Try it [J]:** treat the intro as four felt bars (eight on your 144 grid) with one identity sound in it: a tag, an ad-lib, a chopped phrase. Enter with the lead on bar five. If the record needs more runway, take eight and nothing in between.
-- **Exception:** 3 records start on the verse with no intro at all ("Gimme A Hug", "Man At The Garden", "Sticky (Drake)"), and 10 start on the hook. [J]
-- **Flags:** the lyric record shows the first *transcribed* line. A wordless intro, a beat tag or an instrumental sample before it is invisible here, and the reader judged the kind of line from text, which often cannot tell a sample from the artist.
+- **Exception:** 3 records start on the verse with no intro at all ("Gimme A Hug", "Man At The Garden", "Sticky (Drake)"), and 13 start on the hook. [J]
+- **Flags:** the lyric record shows the first *transcribed* line. A wordless intro, a beat tag or an instrumental sample before it is invisible here. The kind of line is the weakest label in this study: the reader judged it from text, which often cannot tell a sample from the artist, and may have recognized a well-known borrowed lyric. Treat that split as a rough guide (see `05-measurement-method.md`).
 
 ### M-5. Section sizes: hooks of four or eight felt bars, first verses of eight, twelve or sixteen
 
 - **Effect:** writing and arrangement. Ranked fifth: it sizes every block in the session plan.
-- **Count (one reader's section map, 80 tracks; bars need a resolved felt tempo):**
-  - **First hook:** median 19 seconds, **6.5 felt bars**. About four bars in 24 tracks and about eight in 29 (of 68).
-  - **First verse:** median 36 seconds, **12 felt bars**. About eight bars in 21, about twelve in 10, about sixteen in 17, longer in 15 (of 70).
-  - **Verses per song:** two in 40, three in 23, four or more in 11, one in 5.
-  - **Hook occurrences:** two in 42 tracks, three in 42, four or more in 7.
-  - A bridge appears in 12/80, a pre-hook in 12/80 and a post-hook in 19/80. The record ends on an outro in 44 maps, on the hook or post-hook in 31 and on a verse in 5.
+- **Count (one reader's section map, 98 tracks; bars need a resolved felt tempo):**
+  - **First hook:** median 19 seconds, **7.1 felt bars**. About four bars in 28 tracks and about eight in 38 (of 82).
+  - **First verse:** median 36 seconds, **12 felt bars**. About eight bars in 25, about twelve in 15, about sixteen in 19, longer in 18 (of 86).
+  - **Verses per song:** two in 50, three in 29, four or more in 12, one in 6.
+  - **Hook occurrences:** two in 43 tracks, three in 42, four or more in 6.
+  - A bridge appears in 15/98, a pre-hook in 16/98 and a post-hook in 22/98. The record ends on an outro in 54 maps, on the hook or post-hook in 37 and on a verse in 7.
 - **Try it [J]:** plan the demo as intro 4, hook 8, verse 12 or 16, hook 8, verse 8 to 16, hook 8 in felt bars. Double each number on the 144 grid. That is the commonest skeleton in the set, not a rule.
 - **Exception:** "Rich Flex", "Family Matters" and "Meltdown" are built in parts, each with a documented beat switch (M-11), and do not fit the skeleton. [J]
 - **Flags:** section labels are one reader's call, and a hook sung twice in a row is counted as one long hook. Trap-tagged songs run shorter first verses (median 9 felt bars) than the set as a whole.
@@ -145,14 +145,14 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 
 - **Effect:** arrangement (transitions) and delivery. Ranked sixth: it says where to spend your variation.
 - **Count:**
-  - The hook returns with **identical words in 23** tracks and with **minor variation in 35** (a few words or ad-libs). It comes back extended in 8, shortened in 7 and with new lyrics in 2.
-  - The last hook is at least a quarter longer than the first in 14/75 tracks and shorter in 5/75.
-  - **Verse 2 against verse 1:** shorter in 20, about the same in 24, longer in 30/74. There is no "short second verse" rule in this set.
+  - The hook returns with **identical words in 28** tracks and with **minor variation in 46** (a few words or ad-libs). It comes back extended in 8, shortened in 7 and with new lyrics in 2.
+  - The last hook is at least a quarter longer than the first in 19/91 tracks and shorter in 6/91.
+  - **Verse 2 against verse 1:** shorter in 23, about the same in 28, longer in 40/91. There is no "short second verse" rule in this set.
   - A stretch of 12 seconds or more between transcribed lines appears in 21/98 tracks. It can be a break, a beat change or a sample interlude, but also a passage the transcriber left out, so it is a hint and not a count of breaks.
   - What lyric timing cannot show: drums, 808 and doubles. Documented changes between sections are in M-11.
 - **Examples:**
   - *Same words every time:* "Ran To Atlanta", "Whisper My Name", "National Treasures", "2 Hard 4 The Radio", "What Did I Miss?", "All The Way".
-  - *Longer on return:* "Meltdown", "Search & Rescue", "Just Wanna Rock", "Rich Flex", "Circo Loco".
+  - *Longer on return:* "We Don't Trust You", "Meltdown", "Search & Rescue", "Just Wanna Rock", "Rich Flex".
   - *Shorter on return:* "TV Off", "Luther", "FE!N", "Sticky (Drake)", "712PM".
 - **Try it [J]:** keep the hook's words fixed so it reads as the anchor, and move the change to its edges: drop the drums for the last felt bar before it, or add the stack and ad-libs only on the final pass. Give verse 2 the same length as verse 1 unless the song is short of ideas.
 - **Exception:** the hook comes back with new lyrics on "Janice STFU" and "Major Distribution". [J]
@@ -183,8 +183,8 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 
 - **Effect:** arrangement (how soon the hook comes, solo vs guests) and which patterns to weight. Ranked eighth only because the group is small; it is the one comparison inside the set that resembles an independent release.
 - **Count:** 12/100 climbed in; 88 debuted directly. Compared with the debuts:
-  - **First hook:** median **0:18** vs **0:33**; by 0:30 in 8/12 vs 38/86.
-  - **Hook before the first verse:** 7/10 vs 32/65.
+  - **First hook:** median **0:18** vs **0:36**; by 0:30 in 8/12 vs 37/86.
+  - **Hook before the first verse:** 8/11 vs 40/80.
   - **A second credited vocalist:** **1/12** vs **43/88**.
   - **Documented borrowing:** **10/12** vs **56/88**.
   - **Runtime:** median 3:25 vs 3:33.
@@ -304,7 +304,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 | Tempo and felt pulse, half and double time normalized | **Measured**: 72 clear, 17 with a caveat, 7 open, 4 no clip | Backbeat in a 30-second preview clip |
 | First lead-vocal entrance | **Measured** for 98 as the first lyric line, to about a second | Time-synced lyric record |
 | First hook or return anchor | **Measured** for 98; no hook found in 7 | Two readings of the same record, ruled where they differed |
-| Section order and lengths in bars | **Measured** for 80 (one reader's map) | Same record plus the felt tempo |
+| Section order and lengths in bars | **Measured** for 98 (one reader's map) | Same record plus the felt tempo |
 | How densely the rapper rides the beat | **Measured** as syllables per second and per felt beat for 97 | Same record; syllables estimated from spelling |
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |

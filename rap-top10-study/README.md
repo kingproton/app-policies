@@ -21,7 +21,7 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 | Rap classification | **86 of 100** rest on a Billboard rap-chart figure read directly from a table. **14** (all Drake album cuts, marked †) rest on Billboard pages known only through search summaries. No dispute found changes the list; see `04-reference-list.md`, 4e. |
 | Runtime | **Measured** for 96 from the Apple catalog; cited for the other 4. |
 | Felt tempo (half or full time) | **Measured** from 30-second clips: 72 of 96 clear, 17 resolved with a caveat, 7 open, 4 without a clip. |
-| First vocal line, first hook, hook order, section sizes, density | **Measured** for 98 tracks from time-synced lyric records. 76 were read twice (a repetition detector and an AI reader) and ruled on by a second AI reader where the two disagreed; 22 rest on the detector alone. Good to about a second. |
+| First vocal line, first hook, hook order, section sizes, density | **Measured** for 98 tracks from time-synced lyric records. Each was read twice (a repetition detector and an AI reader) and ruled on by a second AI reader where the two disagreed. Good to about a second. |
 | Samples, openings, beat switches, how records were made | **Documented.** Earlier claims were re-checked against saved Wikipedia and Songfacts page text; only supported ones are counted. |
 | Silence after punchlines, ad-lib placement in the bar, drum and 808 changes on return | **Not measured.** Line-level lyric timing and a 30-second clip cannot show them. They stay unknown. |
 | Process, worked session, demo lyrics | Original work. Production judgment is labeled **[J]**. |

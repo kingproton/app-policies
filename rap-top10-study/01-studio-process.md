@@ -68,7 +68,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **One fix:** cut a word so it fits one breath, with the stress on the downbeat or the snare.
 - **What the hits show:**
   - **[M-7]** 66 of 100 songs have a documented borrowing: a sample, interpolation, dialogue clip or reused beat. In several, the page says the borrowing carries the chorus ("Janice STFU", "Staying Alive", "Super Gremlin", "Forever"). Whether listeners already knew the borrowed record was not measured, and the rest are unknown, not "no".
-  - **[M-6]** When the hook returns its words are identical or nearly so in 58 of 75 tracks. The phrase you pick is the phrase you will repeat unchanged.
+  - **[M-6]** When the hook returns its words are identical or nearly so in 74 of 91 tracks. The phrase you pick is the phrase you will repeat unchanged.
   - **[J]** For you, clearance cost makes an *original* signature the practical version: a replayed motif, a vocal chop of your own phrase, a consistent tag.
 
 ### 3 — Decide: open with the hook or the verse
@@ -80,13 +80,13 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Listen for:** at 0:15, can a cold listener name the song or repeat one image?
 - **One fix:** put a one-felt-bar, dry version of the title phrase into the intro (see Opening A in the worked session).
 - **What the hits show:**
-  - **[M-3]** 91/98 assessed tracks have a recurring hook. It starts at a median 0:29 and comes before the first verse in 39/75.
-  - **[M-3]** The 12 songs that *climbed* into the top 10, the closest thing here to an independent single, reach the hook at a median **0:18** and put it before the first verse in 7/10. The songs that debuted there take 0:33.
+  - **[M-3]** 91/98 assessed tracks have a recurring hook. It starts at a median 0:31 and comes before the first verse in 48/91.
+  - **[M-3]** The 12 songs that *climbed* into the top 10, the closest thing here to an independent single, reach the hook at a median **0:18** and put it before the first verse in 8/11. The songs that debuted there take 0:36.
   - **[M-4]** The first lyric line arrives within 5 seconds in 74/98 tracks, and it is usually an ad-lib, a sample or a spoken line rather than a rap bar. The intro before the first hook or verse runs a median 4.4 felt bars.
   - **[M-9]** 7/98 have no recurring hook at all; 2 of those are verse-led-tagged records.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* image-first is viable, but plan the return anchor. 2 of the 8 verse-led-tagged hits have no recurring hook. [M-9][J]
-  - *Trap:* hook before the first verse in 18/36 trap-tagged songs, so either order is normal; hook-first or tag-first suits a single. [M-3][J]
+  - *Trap:* hook before the first verse in 20/45 trap-tagged songs, so either order is normal; hook-first or tag-first suits a single. [M-3][J]
   - *Drill:* both drill-tagged hits put the hook before the first verse, at 0:03 and 0:13 [M-3]. Two songs, so anything built on them is judgment. [J]
 
 ### 4 — Develop the verse
@@ -102,11 +102,11 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **One fix:** remove one internal rhyme from each crowded bar.
 - **What the hits show:**
   - **[M-2]** Verses run at a median 4.1 syllables a second (middle half 3.7–4.5), and that rate hardly changes with tempo. In a slow pocket it works out to about 3.4 syllables a felt beat. Verses are denser than hooks in 72/87 tracks.
-  - **[M-5]** First verses run a median 12 felt bars, clustering near 8 (21 tracks), 12 (10) and 16 (17). Most songs have two verses (40) or three (23).
-  - **[M-6]** Verse 2 is shorter than verse 1 in 20 tracks, similar in 24 and longer in 30 of 74. There is no short-second-verse rule.
+  - **[M-5]** First verses run a median 12 felt bars, clustering near 8 (25 tracks), 12 (15) and 16 (19). Most songs have two verses (50) or three (29).
+  - **[M-6]** Verse 2 is shorter than verse 1 in 23 tracks, similar in 28 and longer in 40 of 91. There is no short-second-verse rule.
   - [J] If you're solo, a register or pocket change is your version of a guest verse, and a bed change under verse 2 is the producer's version.
 - **Verse-led vs trap vs drill:**
-  - *Verse-led:* first verses run long here, a median 20 felt bars across 5 mapped songs [M-5]; flow switches every 8. [J]
+  - *Verse-led:* first verses run long here, a median 19 felt bars across 6 mapped songs [M-5]; flow switches every 8. [J]
   - *Trap:* a median 9 felt bars [M-5], with repetition and call-and-response with ad-libs. [J]
   - *Drill:* first verses of 8 and 11.4 felt bars in the two tagged hits [M-5]; front-loaded with pickups, staccato endings. [J]
 
@@ -117,7 +117,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Listen for:** "same beat for three minutes" fatigue around 1:30, and whether each hook arrival actually lifts.
 - **One fix:** mute the drums for the last felt bar before Hook 2.
 - **What the hits show:**
-  - **[M-6]** The hook's words come back identical or with small changes in most tracks, and the last hook is at least a quarter longer than the first in 14/75. The change is carried by what surrounds the hook, which lyric timing cannot hear.
+  - **[M-6]** The hook's words come back identical or with small changes in most tracks, and the last hook is at least a quarter longer than the first in 19/91. The change is carried by what surrounds the hook, which lyric timing cannot hear.
   - **[M-11]** 19 songs have a documented beat switch, concentrated on Drake- and Kendrick Lamar-credited records. A gap of 12 seconds or more with no lyric line appears in 21/98 tracks.
   - [J] Treat a full switch as a statement-record move. A one-bar drop is the single-sized version.
 
@@ -142,7 +142,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Pan ad-libs 30–60% L/R, sitting 6–10 dB under the lead. [J]
 - **Listen for:** any ad-lib stepping on a rhyme or punchline, and doubles smearing consonants.
 - **One fix:** delete the ad-lib or move it to the next gap.
-- **What the hits show [M-4]:** the first transcribed line is an ad-lib or vocalization in 29 of 80 tracks, so an ad-lib often *is* the entrance. Placement inside the bar and the silence after punchlines could not be measured from line-level timing: unknown. The placement rules above are **[J]**.
+- **What the hits show [M-4]:** the first transcribed line is an ad-lib or vocalization in 35 of 98 tracks, so an ad-lib often *is* the entrance. Placement inside the bar and the silence after punchlines could not be measured from line-level timing: unknown. The placement rules above are **[J]**.
 
 ### 8 — Check the rough mix
 - **Action:**
@@ -162,8 +162,8 @@ Counts are from the style-tagged groups: trap or melodic trap 50 songs, verse-le
 | Tempo / feel | Too few clear clips to say (2 of 7) ; 5 of the 6 resolved readings are slow [M-1] | Slow pocket: felt median 71, middle half 64–78 (40 clear clips) [M-1] | Two hits only: "Princess Diana" 148/74 (clear), "Barbie World" 108 (by the range rule) [M-1] |
 | Pocket | 16ths on the grid; rhymes on 2 & 4 plus internal [J] | Triplets and repeated cadences; room for ad-libs [J] | Pickups into the bar; staccato; rests around 808 slides [J] |
 | Central phrase | Refrain line, or no hook with a return anchor (2/8 have no hook) [M-9] | Chant or title repetition; hook in 45/48 [M-3] | Ad-lib/catchphrase identity plus a short hook [J] |
-| Opening | Sharpest image first [J] | Hook before verse 1 in 18/36; first hook at a median 0:31 [M-3] | Hook before verse 1 in both tagged hits [M-3]; tag or ad-lib, then pickup into the verse [J] |
-| Verse length | Median 20 felt bars (n=5) [M-5] | Median 9 felt bars (n=33) [M-5] | 8 and 11.4 felt bars in the two hits [M-5] |
+| Opening | Sharpest image first [J] | Hook before verse 1 in 20/45; first hook at a median 0:36 [M-3] | Hook before verse 1 in both tagged hits [M-3]; tag or ad-lib, then pickup into the verse [J] |
+| Verse length | Median 19 felt bars (n=6) [M-5] | Median 9 felt bars (n=42) [M-5] | 8 and 11.4 felt bars in the two hits [M-5] |
 | Density | 4.7 syllables a second [M-2] | 4.0 syllables a second, about 3.5 a felt beat [M-2] | Staccato; leave rests [J] |
 | Main change on return | Beat switch or new bed [J] | New voice or beat change; 808/drum drop [J] | 808 pattern/slide change, drum drop [J] |
 | Punching | Longer takes (8 felt bars) to keep momentum [J] | Short punches are fine (cadences repeat) [J] | Punch by phrase *including* the pickup [J] |

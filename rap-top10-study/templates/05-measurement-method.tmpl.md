@@ -62,6 +62,8 @@ This file says what was measured, from what, how it was checked, and where it st
 - Timestamps are crowd-synced and line-level: good to about a second, silent about anything inside a line. The gap after a last word and the place of an ad-lib in the bar cannot be read from them.
 - The first line is the first *transcribed* line. A wordless intro is invisible.
 - Section labels are one reader's. Syllables are estimated from spelling.
+- **Outside knowledge in reader notes.** {{ top('review_summary')['asides_removed'] }} reader notes carried an aside that could not have come from the file: a remark "from memory", or a mention of a beat switch, which a lyric record cannot show. None of them changed a recorded time. The asides were cut from the stored notes, and on {{ top('review_summary')['kinds_reset'] }} tracks the label for the kind of first line, which such an aside could have influenced, was reset to "unclear".
+- The label for the kind of first line (ad-lib, sample, spoken, sung, rap) is the weakest item here. It is judged from text, and a reader may recognize a well-known borrowed lyric, which is outside knowledge and not a measurement. Treat that split as a rough guide.
 - Lyric text was used in memory to find repeats and count words. None of it is stored.
 
 ## Documented facts

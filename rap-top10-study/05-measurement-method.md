@@ -13,7 +13,7 @@ This file says what was measured, from what, how it was checked, and where it st
 | Runtime | Apple catalog (public search API) | Duration of the track matched by title and artist | 96 (4 more from cited sources) | Within 2 s of the earlier cited runtime in 94 of 94 comparable tracks |
 | Grid and felt tempo | Apple's 30-second preview clip | Backbeat template on drum onsets (below) | 96 clips: 72 clear, 7 leaning, 10 by range, 7 open | 24 of 24 synthetic drum patterns; pulse agrees with an earlier BPM listing for 67 of 83 |
 | First lyric line, first hook, hook count | LRCLIB time-synced lyric record matching the track's length within 3 s | Repetition detector plus an independent read; a second reader rules on disagreements | 98 | Two readings per track; matching records agree on the first line within 1 s for 75/97 |
-| Section map (intro, verses, hooks, bridge) | Same record | The independent reader's coarse map | 80 | One reader; lengths in bars need a resolved felt tempo |
+| Section map (intro, verses, hooks, bridge) | Same record | The independent reader's coarse map | 98 | One reader; lengths in bars need a resolved felt tempo |
 | Verse and hook density | Same record | Words and estimated syllables per second inside the detector's sections | 97 | Medians only; single tracks can be off by about 10% |
 | Documented facts (samples, openings, beat switches, how it was made) | Saved text of 100 Wikipedia articles and 84 Songfacts pages | A reader rules on each earlier claim against the page text; a skeptic re-checks; every quote is matched mechanically | 100 tracks, 888 claims | Counted only if the skeptic upheld it and the quote is in the saved page |
 
@@ -55,13 +55,15 @@ This file says what was measured, from what, how it was checked, and where it st
 1. **Record choice.** For each track, LRCLIB records whose artist and title match and whose length is within 3 seconds of the Apple duration. 98 tracks have one; 2 do not.
 2. **Repetition detector.** Lines are normalized and matched; a block of two or more lines that returns, or a line repeated four times, is hook-like. The largest returning cluster is taken as the hook.
 3. **Independent read.** A separate AI reader, which never sees the detector's output, reads the same record and marks the first line, the hook and its returns, and a coarse section map. Every time must come from the record.
-4. **Comparison and ruling.** The two readings are compared by fixed rules (hook exists or not; first hook time within 2.5 s; hook inside the first three lines; hook count within one; first line within 1 s). Of 80 tracks read, **46 agreed** and **30 went to a second reader**, who was asked to try to overturn the first reader before accepting either. Rulings: the reader was right in 29, the detector in 1, neither in 0, and 0 stayed unresolved.
+4. **Comparison and ruling.** The two readings are compared by fixed rules (hook exists or not; first hook time within 2.5 s; hook inside the first three lines; hook count within one; first line within 1 s). Of 98 tracks read, **58 agreed** and **40 went to a second reader**, who was asked to try to overturn the first reader before accepting either. Rulings: the reader was right in 38, the detector in 1, neither in 1, and 0 stayed unresolved.
 5. **Why they disagreed.** Mostly over *which* returning block is the hook when an intro chant, a pre-hook and a chorus all come back. That is a judgment, so the findings also report the first return anchor, which needs no such call.
 
 **Limits.**
 - Timestamps are crowd-synced and line-level: good to about a second, silent about anything inside a line. The gap after a last word and the place of an ad-lib in the bar cannot be read from them.
 - The first line is the first *transcribed* line. A wordless intro is invisible.
 - Section labels are one reader's. Syllables are estimated from spelling.
+- **Outside knowledge in reader notes.** 6 reader notes carried an aside that could not have come from the file: a remark "from memory", or a mention of a beat switch, which a lyric record cannot show. None of them changed a recorded time. The asides were cut from the stored notes, and on 3 tracks the label for the kind of first line, which such an aside could have influenced, was reset to "unclear".
+- The label for the kind of first line (ad-lib, sample, spoken, sung, rap) is the weakest item here. It is judged from text, and a reader may recognize a well-known borrowed lyric, which is outside knowledge and not a measurement. Treat that split as a rough guide.
 - Lyric text was used in memory to find repeats and count words. None of it is stored.
 
 ## Documented facts

@@ -4231,7 +4231,7 @@
     "disagreed_on": [
      "first hook time"
     ],
-    "first_line_kind": "sample_or_other_voice",
+    "first_line_kind": "unclear",
     "hook_return": "extended",
     "reviewer_confidence": "medium",
     "sections": [
@@ -4276,7 +4276,7 @@
       "start_s": 204.73
      }
     ],
-    "reviewer_note": "Hook is the short 'grieve different' refrain (extended on its last return); an 8-line block also repeats (95.58, 168.97), labelled pre_hook. Opening singer is a guest voice per memory, not file.",
+    "reviewer_note": "Hook is the short 'grieve different' refrain (extended on its last return); an 8-line block also repeats (95.58, 168.97), labelled pre_hook.",
     "first_verse_s": 25.76,
     "first_verse_len_s": 11.080000000000002,
     "first_section": "intro",
@@ -5744,21 +5744,21 @@
     "first_line_spread_s": 0.65,
     "first_hook_spread_s": 6.54,
     "n_lines": 94,
-    "first_line_s": 3.86,
+    "first_line_s": 2.1,
     "has_hook": true,
-    "first_hook_s": 31.46,
+    "first_hook_s": 22.94,
     "lines_before_hook": 12,
     "hook_starts": [
-     31.46,
+     22.94,
      57.32
     ],
-    "first_hook_len_s": 1.4,
-    "basis": "X",
+    "first_hook_len_s": 9.929999999999996,
+    "basis": "J",
     "hook_first": false,
-    "first_anchor_s": 31.46,
+    "first_anchor_s": 22.94,
     "anchor_is_hook": true,
     "hook_count": 2,
-    "resolution": null,
+    "resolution": "reviewer_right",
     "disagreed_on": [
      "first hook time",
      "first line time"
@@ -5800,7 +5800,7 @@
       "start_s": 154.77
      }
     ],
-    "reviewer_note": "Hook is a brief 2-line call-and-response chant heard only twice, both before 65 s (9.9 s long, then 6.9 s, so the first start stamp may be early); no section returns after the beat switch near 145 s.",
+    "reviewer_note": "Hook is a brief 2-line call-and-response chant heard only twice, both before 65 s (9.9 s long, then 6.9 s, so the first start stamp may be early).",
     "first_verse_s": 3.86,
     "first_verse_len_s": 19.080000000000002,
     "first_section": "intro",
@@ -5875,9 +5875,9 @@
      1.8
     ],
     "intro_len": 0.98,
-    "first_line": 0.98,
-    "first_hook": 7.99,
-    "first_hook_len": 0.36,
+    "first_line": 0.53,
+    "first_hook": 5.82,
+    "first_hook_len": 2.52,
     "first_verse_len": 4.84
    }
   }
@@ -6425,19 +6425,19 @@
     "n_lines": 56,
     "first_line_s": 15.12,
     "has_hook": true,
-    "first_hook_s": 56.04,
-    "lines_before_hook": 11,
+    "first_hook_s": 51.85,
+    "lines_before_hook": 10,
     "hook_starts": [
-     56.04,
-     119.86
+     51.85,
+     117.87
     ],
-    "first_hook_len_s": 25.2,
-    "basis": "X",
+    "first_hook_len_s": 33.60999999999999,
+    "basis": "J",
     "hook_first": false,
-    "first_anchor_s": 56.04,
+    "first_anchor_s": 51.85,
     "anchor_is_hook": true,
     "hook_count": 2,
-    "resolution": null,
+    "resolution": "reviewer_right",
     "disagreed_on": [
      "first hook time"
     ],
@@ -6546,8 +6546,8 @@
     ],
     "intro_len": 12.96,
     "first_line": 3.78,
-    "first_hook": 14.01,
-    "first_hook_len": 6.3,
+    "first_hook": 12.96,
+    "first_hook_len": 8.4,
     "first_verse_len": 8.1
    }
   }
@@ -7085,19 +7085,19 @@
     "n_lines": 70,
     "first_line_s": 0.61,
     "has_hook": true,
-    "first_hook_s": 52.24,
-    "lines_before_hook": 22,
+    "first_hook_s": 56.17,
+    "lines_before_hook": 24,
     "hook_starts": [
-     52.24,
-     106.91
+     56.17,
+     111.14
     ],
-    "first_hook_len_s": 17.8,
-    "basis": "X",
+    "first_hook_len_s": 13.909999999999997,
+    "basis": "J",
     "hook_first": false,
     "first_anchor_s": 52.24,
-    "anchor_is_hook": true,
+    "anchor_is_hook": false,
     "hook_count": 2,
-    "resolution": null,
+    "resolution": "reviewer_right",
     "disagreed_on": [
      "first hook time"
     ],
@@ -7210,8 +7210,8 @@
     ],
     "intro_len": 8.47,
     "first_line": 0.18,
-    "first_hook": 15.24,
-    "first_hook_len": 5.19,
+    "first_hook": 16.38,
+    "first_hook_len": 4.06,
     "first_verse_len": 6.09
    }
   }
@@ -7773,20 +7773,20 @@
     "n_lines": 81,
     "first_line_s": 23.98,
     "has_hook": true,
-    "first_hook_s": 44.58,
-    "lines_before_hook": 3,
+    "first_hook_s": 56.42,
+    "lines_before_hook": 8,
     "hook_starts": [
-     44.58,
+     56.42,
      145.57,
      223.74
     ],
-    "first_hook_len_s": 33.5,
-    "basis": "X",
-    "hook_first": true,
+    "first_hook_len_s": 21.679999999999993,
+    "basis": "J",
+    "hook_first": false,
     "first_anchor_s": 44.58,
-    "anchor_is_hook": true,
+    "anchor_is_hook": false,
     "hook_count": 3,
-    "resolution": null,
+    "resolution": "reviewer_right",
     "disagreed_on": [
      "first hook time",
      "whether the hook comes within the first three lines"
@@ -7899,8 +7899,8 @@
     ],
     "intro_len": 20.21,
     "first_line": 8.59,
-    "first_hook": 15.97,
-    "first_hook_len": 12.0,
+    "first_hook": 20.21,
+    "first_hook_len": 7.77,
     "first_verse_len": 24.17
    }
   }
@@ -8893,22 +8893,26 @@
     "first_line_spread_s": 1.36,
     "first_hook_spread_s": 1.36,
     "n_lines": 52,
-    "first_line_s": 0.0,
+    "first_line_s": 0,
     "has_hook": true,
-    "first_hook_s": 0.0,
+    "first_hook_s": 0,
     "lines_before_hook": 0,
     "hook_starts": [
-     0.0,
+     0,
+     18.49,
      45.83,
-     100.47
+     64.03,
+     100.47,
+     118.87,
+     127.93
     ],
-    "first_hook_len_s": 27.3,
-    "basis": "X",
+    "first_hook_len_s": 8.72,
+    "basis": "J",
     "hook_first": true,
     "first_anchor_s": 0.0,
     "anchor_is_hook": true,
-    "hook_count": 3,
-    "resolution": null,
+    "hook_count": 7,
+    "resolution": "reviewer_right",
     "disagreed_on": [
      "how many times the hook occurs"
     ],
@@ -9049,7 +9053,7 @@
     "intro_len": 0.0,
     "first_line": 0.0,
     "first_hook": 0.0,
-    "first_hook_len": 11.95,
+    "first_hook_len": 3.82,
     "first_verse_len": 8.12
    }
   }
@@ -9408,7 +9412,7 @@
     "hook_count": 4,
     "resolution": null,
     "disagreed_on": [],
-    "first_line_kind": "sung",
+    "first_line_kind": "unclear",
     "hook_return": "identical",
     "reviewer_confidence": "medium",
     "sections": [
@@ -9445,7 +9449,7 @@
       "start_s": 252.77
      }
     ],
-    "reviewer_note": "File transcribes only the hook, a group chant (from memory a choir, not the credited rappers); the rap verses that fill the 52-78 s gaps are absent, so gaps are mapped as other.",
+    "reviewer_note": "File transcribes only the hook, a group chant; the rap verses that fill the 52-78 s gaps are absent, so gaps are mapped as other.",
     "first_section": "hook",
     "verse_lens_s": [],
     "hook_lens_s": [
@@ -26325,7 +26329,7 @@
       "start_s": 371.47
      }
     ],
-    "reviewer_note": "No hook, three verse parts; first row (2.04) is only the title word, where from memory the audio is a reversed sample, so the first real line is 7.58; a single line recurs at 191.70 and 246.39.",
+    "reviewer_note": "No hook, three verse parts; a single line recurs at 191.70 and 246.39.",
     "first_verse_s": 7.58,
     "first_verse_len_s": 49.27,
     "first_section": "intro",
@@ -27068,7 +27072,7 @@
       "start_s": 198.93
      }
     ],
-    "reviewer_note": "No separate chorus: the hook is the first 8 lines of verse 1, reprised (last line cut off) at 90.06 s just before the beat switch; the second half from 125.3 s has no hook.",
+    "reviewer_note": "No separate chorus: the hook is the first 8 lines of verse 1, reprised (last line cut off) at 90.06 s; the second half from 125.3 s has no hook.",
     "first_verse_s": 33.56,
     "first_verse_len_s": 56.5,
     "first_section": "intro",
@@ -32538,7 +32542,7 @@
     "hook_count": 2,
     "resolution": null,
     "disagreed_on": [],
-    "first_line_kind": "sample_or_other_voice",
+    "first_line_kind": "unclear",
     "hook_return": "identical",
     "reviewer_confidence": "low",
     "sections": [
@@ -32575,7 +32579,7 @@
       "start_s": 286.65
      }
     ],
-    "reviewer_note": "The only recurring block is the looped vocal sample (0.03, 64.84), counted as the hook by the text rule; from memory the song has no chorus by the artist, only verses over that sample.",
+    "reviewer_note": "The only recurring block is the looped vocal sample (0.03, 64.84), counted as the hook by the text rule.",
     "first_verse_s": 14.65,
     "first_verse_len_s": 50.190000000000005,
     "first_section": "hook",

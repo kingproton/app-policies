@@ -102,7 +102,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Examples:** "Evil J0rdan" waits until {{ fl('Evil J0rdan') }} for its first line; "Real Spill" until {{ fl('Real Spill') }}; "Redrum" until {{ fl('Redrum') }}. "Not Like Us", "Houdini" and "Carnival" have a voice inside the first second.{{ fl_under('Not Like Us', 1) }}{{ fl_under('Houdini', 1) }}{{ fl_under('Carnival', 1) }}
 - **Try it [J]:** treat the intro as four felt bars (eight on your 144 grid) with one identity sound in it: a tag, an ad-lib, a chopped phrase. Enter with the lead on bar five. If the record needs more runway, take eight and nothing in between.
 - **Exception:** {{ sm('all','first_section','verse') }} records start on the verse with no intro at all ({{ lst('verse_first_section_list', None, ', ') }}), and {{ sm('all','first_section','hook') }} start on the hook. [J]
-- **Flags:** the lyric record shows the first *transcribed* line. A wordless intro, a beat tag or an instrumental sample before it is invisible here, and the reader judged the kind of line from text, which often cannot tell a sample from the artist.
+- **Flags:** the lyric record shows the first *transcribed* line. A wordless intro, a beat tag or an instrumental sample before it is invisible here. The kind of line is the weakest label in this study: the reader judged it from text, which often cannot tell a sample from the artist, and may have recognized a well-known borrowed lyric. Treat that split as a rough guide (see `05-measurement-method.md`).
 
 ### M-5. Section sizes: hooks of four or eight felt bars, first verses of eight, twelve or sixteen
 

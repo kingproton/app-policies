@@ -18,6 +18,24 @@ def clip_quotes(s):
     return re.sub(r"(')([^']{30,400})(')", cut, s)
 
 
+# A reader's note sometimes carried an aside from recollection instead of from the file. Nothing recorded may rest on
+# recollection, so the aside is cut from the stored note, the record is flagged, and a first-line label that the aside
+# could have influenced (who or what the opening voice is) is set to 'unclear'.
+MEM = re.compile(r'\bmemory\b|\brecall|\bremember|\bwell-known\b|\bfamous', re.I)
+KIND_RESET = {'52', '108', '127'}     # Carnival, United In Grief, Champagne Poetry
+def scrub(note):
+    note = note or ''
+    cut = re.sub(r'\s*\([^()]*(?:memory|recall|remember)[^()]*\)', '', note, flags=re.I)
+    # a lyric record cannot show a beat switch: a mention of one comes from outside the file
+    cut = re.sub(r';\s*no section returns after the beat switch[^;.]*\.?\s*$', '.', cut, flags=re.I)
+    cut = re.sub(r'\s*(?:just )?(?:before|after) the beat switch(?: near [\d.]+ s)?', '', cut, flags=re.I)
+    parts = re.split(r'(?<=[;.])\s+', cut)
+    kept = [p for p in parts if not MEM.search(p)]
+    out = ' '.join(kept).strip()
+    out = re.sub(r';$', '.', out)
+    return out, out != re.sub(r';$', '.', note.strip())
+
+
 def disagreements(a, r):
     """Same rule as the workflow script."""
     out = []; a_has = a['first_hook_s'] is not None
@@ -52,11 +70,19 @@ for cid, rv in readers.items():
              hook_starts=[s['start'] for s in a0['sections'] if s['label'] == 'HOOK'])
     why = disagreements(a, rv)
     rv = dict(rv); rv['note'] = clip_quotes(rv.get('note'))
+    rv['note'], aside = scrub(rv['note'])
+    if aside:
+        rv['recollection_aside_removed'] = True
+        if cid in KIND_RESET: rv['first_line_kind_reader'] = rv.get('first_line_kind'); rv['first_line_kind'] = 'unclear'
     rec = dict(status='agree' if not why else ('adjudicated' if cid in rulings else 'disputed_no_ruling'), why=why, reviewer=rv)
     if why and cid in rulings:
-        ru = dict(rulings[cid]); ru['reason'] = clip_quotes(ru.get('reason')); rec['ruling'] = ru
+        ru = dict(rulings[cid]); ru['reason'] = clip_quotes(ru.get('reason'))
+        ru['reason'], aside2 = scrub(ru['reason'])
+        if aside2: ru['recollection_aside_removed'] = True
+        rec['ruling'] = ru
     out[cid] = rec
 json.dump(out, open(out_path, 'w'), indent=0, ensure_ascii=False)
 import collections
 print(len(out), 'tracks |', dict(collections.Counter(v['status'] for v in out.values())), '| rulings', dict(collections.Counter(v['ruling']['resolution'] for v in out.values() if v.get('ruling'))))
+print('recollection asides removed:', sorted(k for k, v in out.items() if v['reviewer'].get('recollection_aside_removed') or (v.get('ruling') or {}).get('recollection_aside_removed')))
 print('disagreement kinds:', dict(collections.Counter(w for v in out.values() for w in v['why'])))

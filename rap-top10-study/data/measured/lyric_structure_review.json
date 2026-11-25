@@ -1808,7 +1808,8 @@
 }
 ],
 "confidence": "high",
-"note": "No hook, three verse parts; first row (2.04) is only the title word, where from memory the audio is a reversed sample, so the first real line is 7.58; a single line recurs at 191.70 and 246.39."
+"note": "No hook, three verse parts; a single line recurs at 191.70 and 246.39.",
+"recollection_aside_removed": true
 }
 },
 "41": {
@@ -1926,7 +1927,8 @@
 }
 ],
 "confidence": "high",
-"note": "No separate chorus: the hook is the first 8 lines of verse 1, reprised (last line cut off) at 90.06 s just before the beat switch; the second half from 125.3 s has no hook."
+"note": "No separate chorus: the hook is the first 8 lines of verse 1, reprised (last line cut off) at 90.06 s; the second half from 125.3 s has no hook.",
+"recollection_aside_removed": true
 }
 },
 "45": {
@@ -2322,7 +2324,7 @@
 "cid": 52,
 "record_ok": true,
 "first_line_s": 0.19,
-"first_line_kind": "sung",
+"first_line_kind": "unclear",
 "has_recurring_hook": true,
 "first_hook_s": 0.19,
 "first_hook_end_s": 12.93,
@@ -2369,7 +2371,9 @@
 }
 ],
 "confidence": "medium",
-"note": "File transcribes only the hook, a group chant (from memory a choir, not the credited rappers); the rap verses that fill the 52-78 s gaps are absent, so gaps are mapped as other."
+"note": "File transcribes only the hook, a group chant; the rap verses that fill the 52-78 s gaps are absent, so gaps are mapped as other.",
+"recollection_aside_removed": true,
+"first_line_kind_reader": "sung"
 }
 },
 "53": {
@@ -2413,7 +2417,7 @@
 }
 },
 "54": {
-"status": "disputed_no_ruling",
+"status": "adjudicated",
 "why": [
 "first hook time",
 "whether the hook comes within the first three lines"
@@ -2465,6 +2469,20 @@
 ],
 "confidence": "high",
 "note": "First text (23.98 s) is a Portuguese-language sung sample; the artist enters with a one-off lead-in at 53.80 s, then the hook at 56.42 s; the outro from 247.57 s is spoken film dialogue."
+},
+"ruling": {
+"cid": 54,
+"resolution": "reviewer_right",
+"first_line_s": 23.98,
+"has_recurring_hook": true,
+"first_hook_s": 56.42,
+"lines_before_first_hook": 8,
+"hook_starts_s": [
+56.42,
+145.57,
+223.74
+],
+"reason": "The eight-row block that returns verbatim at 145.57 s and 223.74 s first begins at row 9 (56.42 s), after 8 non-empty rows; the 53.80 s lead-in never precedes a later return. A's 44.58 s row is a single word repeated four times inside the sampled intro and never heard again, so it is not the hook."
 }
 },
 "55": {
@@ -2591,7 +2609,7 @@
 }
 },
 "58": {
-"status": "disputed_no_ruling",
+"status": "adjudicated",
 "why": [
 "how many times the hook occurs"
 ],
@@ -2666,10 +2684,28 @@
 ],
 "confidence": "medium",
 "note": "Hook is the sampled title refrain, the first text at 0.00 s, which also loops under the rapped block; if that rapped block plus refrain is read as the chorus, it starts at 8.72 s instead."
+},
+"ruling": {
+"cid": 58,
+"resolution": "reviewer_right",
+"first_line_s": 0,
+"has_recurring_hook": true,
+"first_hook_s": 0,
+"lines_before_first_hook": 0,
+"hook_starts_s": [
+0,
+18.49,
+45.83,
+64.03,
+100.47,
+118.87,
+127.93
+],
+"reason": "The three-line title refrain stands as lead text seven separate times (rows 0, 7, 17, 25, 38, 46, 49); A fused refrain + rapped block + refrain into three runs, but the rapped block is a second recurring block (post-hook under the two-block rule), so each refrain statement is its own occurrence. The refrain's words also sit in parentheses under the rapped rows (8.72, 54.52, 109.35 s); those backing loops are not counted as occurrences."
 }
 },
 "59": {
-"status": "disputed_no_ruling",
+"status": "adjudicated",
 "why": [
 "first hook time",
 "first line time"
@@ -2723,7 +2759,21 @@
 }
 ],
 "confidence": "medium",
-"note": "Hook is a brief 2-line call-and-response chant heard only twice, both before 65 s (9.9 s long, then 6.9 s, so the first start stamp may be early); no section returns after the beat switch near 145 s."
+"note": "Hook is a brief 2-line call-and-response chant heard only twice, both before 65 s (9.9 s long, then 6.9 s, so the first start stamp may be early).",
+"recollection_aside_removed": true
+},
+"ruling": {
+"cid": 59,
+"resolution": "reviewer_right",
+"first_line_s": 2.1,
+"has_recurring_hook": true,
+"first_hook_s": 22.94,
+"lines_before_first_hook": 12,
+"hook_starts_s": [
+22.94,
+57.32
+],
+"reason": "Row 0 (2.10 s) holds non-empty text, a parenthesised vocalization, so it is the first line by definition. The two-line call-and-response that returns at 57.32 s first opens with its call row at 22.94 s (row 12, with 12 rows before it); A's 31.46 s is that block's second row, and the 22.02 s lead-in is not repeated."
 }
 },
 "60": {
@@ -2787,7 +2837,7 @@
 }
 },
 "61": {
-"status": "disputed_no_ruling",
+"status": "adjudicated",
 "why": [
 "first hook time"
 ],
@@ -2837,6 +2887,19 @@
 ],
 "confidence": "high",
 "note": "A sung sample opens the track (15.12 s) and closes it (220.42 s); spoken talk runs from 26.54 s up to the sung hook, which is heard only twice and never after the second verse."
+},
+"ruling": {
+"cid": 61,
+"resolution": "reviewer_right",
+"first_line_s": 15.12,
+"has_recurring_hook": true,
+"first_hook_s": 51.85,
+"lines_before_first_hook": 10,
+"hook_starts_s": [
+51.85,
+117.87
+],
+"reason": "The sung block's opening row at 51.85 …'s wording is not identical in the return."
 }
 },
 "62": {
@@ -2888,7 +2951,7 @@
 }
 },
 "63": {
-"status": "disputed_no_ruling",
+"status": "adjudicated",
 "why": [
 "first hook time"
 ],
@@ -2942,6 +3005,19 @@
 ],
 "confidence": "high",
 "note": "Opens with about 24 s of spoken film dialogue; the hook is the title chant, cued each time by a recurring 4-line pre-hook (49.94 and 103.96 s); the coda from 124.88 s repeats its own 4-line block."
+},
+"ruling": {
+"cid": 63,
+"resolution": "reviewer_right",
+"first_line_s": 0.61,
+"has_recurring_hook": true,
+"first_hook_s": 56.17,
+"lines_before_first_hook": 24,
+"hook_starts_s": [
+56.17,
+111.14
+],
+"reason": "The title chant is word-for-word the same at 56.17 s (row 24) and 111.14 s, while the four rapped rows ahead of it (49.94 and 103.96 s) return with altered wording and are a pre-hook under the two-block rule. A's 52.24 s start is …'s first line."
 }
 },
 "64": {
@@ -4909,7 +4985,7 @@
 "cid": 108,
 "record_ok": true,
 "first_line_s": 0.33,
-"first_line_kind": "sample_or_other_voice",
+"first_line_kind": "unclear",
 "has_recurring_hook": true,
 "first_hook_s": 109.45,
 "first_hook_end_s": 122.72,
@@ -4963,7 +5039,9 @@
 }
 ],
 "confidence": "medium",
-"note": "Hook is the short 'grieve different' refrain (extended on its last return); an 8-line block also repeats (95.58, 168.97), labelled pre_hook. Opening singer is a guest voice per memory, not file."
+"note": "Hook is the short 'grieve different' refrain (extended on its last return); an 8-line block also repeats (95.58, 168.97), labelled pre_hook.",
+"recollection_aside_removed": true,
+"first_line_kind_reader": "sample_or_other_voice"
 },
 "ruling": {
 "cid": 108,
@@ -5743,7 +5821,7 @@
 "cid": 127,
 "record_ok": true,
 "first_line_s": 0.03,
-"first_line_kind": "sample_or_other_voice",
+"first_line_kind": "unclear",
 "has_recurring_hook": true,
 "first_hook_s": 0.03,
 "first_hook_end_s": 14.65,
@@ -5788,7 +5866,9 @@
 }
 ],
 "confidence": "low",
-"note": "The only recurring block is the looped vocal sample (0.03, 64.84), counted as the hook by the text rule; from memory the song has no chorus by the artist, only verses over that sample."
+"note": "The only recurring block is the looped vocal sample (0.03, 64.84), counted as the hook by the text rule.",
+"recollection_aside_removed": true,
+"first_line_kind_reader": "sample_or_other_voice"
 }
 },
 "128": {
