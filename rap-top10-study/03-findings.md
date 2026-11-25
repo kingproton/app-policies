@@ -170,7 +170,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Flags:**
   - Word-level sameness says nothing about the mix. A hook can keep its words and still gain doubles, harmonies or a new bed that this method cannot hear.
   - A hook's length runs to the start of the next section. When the hook is the last section, its end is set two typical line gaps after the last lyric line, so that a fade or instrumental outro is not counted as hook. That choice moves the longer-last-hook count: measured to the end of the record it would be higher.
-  - Drake-credited songs supply 8 of the 8 longer last hooks (8/37, against 0/54 for the rest), and verse 2 runs longer than verse 1 on 21/38 of them against 19/53 elsewhere.
+  - Drake-credited songs supply all 8 longer last hooks (8/37, against 0/54 for the rest), and verse 2 runs longer than verse 1 on 21/38 of them against 19/53 elsewhere.
 
 ### M-7. Documented borrowing: a sample, interpolation or clip on 66 of the 100
 
@@ -260,7 +260,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 
 - **Effect:** arrangement, i.e. what changes at a block boundary and whether to split a song into parts. Ranked eleventh: documented, not measured.
 - **Count:**
-  - A **beat switch** is documented on **18** songs (18 on saved page text): "Ran To Atlanta", "National Treasures", "Dust", "What Did I Miss?", "Gimme A Hug", "Nokia", "TV Off", "Euphoria", "Family Matters", "7 Minute Drill", "First Person Shooter", "Daylight", "Meltdown", "Superhero (Heroes & Villains)", "Rich Flex", "Major Distribution", "Jimmy Cooks", "Champagne Poetry". No page or cited source addresses a switch for the other 81 songs (60 with nothing on file, 21 with only an unverified recollection, 18 of those saying "no"), so 18 is a minimum.
+  - A **beat switch** is documented on **18** songs (all on saved page text): "Ran To Atlanta", "National Treasures", "Dust", "What Did I Miss?", "Gimme A Hug", "Nokia", "TV Off", "Euphoria", "Family Matters", "7 Minute Drill", "First Person Shooter", "Daylight", "Meltdown", "Superhero (Heroes & Villains)", "Rich Flex", "Major Distribution", "Jimmy Cooks", "Champagne Poetry". For 81 of the other 82 songs no page or cited source addresses a switch (60 with nothing on file, 21 with only an unverified recollection, 18 of those saying "no"); the remaining one is "Not Like Us", covered below. So 18 is a minimum.
   - Where the 18 page-based ones come from: 2 rest on a supported verdict, 12 on a partly supported one whose core (that the beat changes) the page states, and 4 on a new page statement.
   - "Not Like Us" is not counted. One search summary mentions a switch, the research record for the same song says no source settles whether its late breakdown is one, and neither saved page mentions it.
   - A page does not always use the words "beat switch". A described change of instrumental partway through is counted: a different sample bed in the second half of "First Person Shooter", a shift into harder production on "Dust", a move into new synths for the outro of "Superhero".
@@ -283,13 +283,13 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Effect:** process (who is in the room, what exists before the vocal) and delivery. Ranked last because it depends on which stories happened to be written down. It is still the only evidence here about the session itself.
 - **Count:** the saved pages carry 140 statements about how 71 of the songs were made that survived the skeptic. Coded by rule (`scripts/corrections.py`):
   - **The beat was made away from the artist and sent, handed over or picked from a batch:** 6 songs ("Fair Trade", "Janice STFU", "Not Like Us", "Sticky (Drake)", "TV Off", "Way 2 Sexy").
-  - **The beat or the song was older, or meant for someone or something else:** 9 ("Big Energy", "Carnival", "Champagne Poetry", "Hey Now", "IDGAF", "Knife Talk").
+  - **The beat or the song was older, or meant for someone or something else:** 9 ("Big Energy", "Carnival", "Champagne Poetry", "Hey Now", "IDGAF", "Knife Talk", "Sticky (Drake)", "Super Gremlin", "TSU").
   - **Built from a sample that came first:** 3 ("Barbie World", "Luther", "Super Freaky Girl").
   - **The hook, melody or title shout came first or already existed:** 5 ("Forever", "Fukumean", "Luther", "Players", "Way 2 Sexy").
-  - **Fast: freestyled, made on the spot or in minutes:** 7 ("7 Minute Drill", "BackOutsideBoyz", "Carnival", "FE!N", "Fukumean", "Players").
-  - **A guest verse added, swapped or recorded apart, after the song existed:** 9 ("All My Life", "All The Way", "Barbie World", "IDGAF", "Like That", "National Treasures").
+  - **Fast: freestyled, made on the spot or in minutes:** 7 ("7 Minute Drill", "BackOutsideBoyz", "Carnival", "FE!N", "Fukumean", "Players", "Silent Hill").
+  - **A guest verse added, swapped or recorded apart, after the song existed:** 9 ("All My Life", "All The Way", "Barbie World", "IDGAF", "Like That", "National Treasures", "Search & Rescue", "Superhero (Heroes & Villains)", "Tomorrow 2").
   - **Tracked in the last day or two before release:** 2 ("First Person Shooter", "Knife Talk").
-  - **Previewed, teased or leaked before release:** 16 ("4X4", "All The Way", "Cinderella", "Enough (Miami)", "Evil J0rdan", "Favorite Song"). That is release strategy, outside the studio.
+  - **Previewed, teased or leaked before release:** 16 (among them "4X4", "All The Way", "Cinderella", "Enough (Miami)", "Evil J0rdan", "Favorite Song"). That is release strategy, outside the studio.
   - 33 songs have a statement that gives only a studio or a date, and 27 have statements that fit none of these headings. A song can appear under more than one heading.
 - **Delivery, as sources describe it:** 54 songs have at least one cited delivery observation, most of them general. The pages add 93 delivery statements on 64 songs.
 - **Named examples (page statements, paraphrased):**

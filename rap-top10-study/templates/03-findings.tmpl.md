@@ -146,6 +146,6 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Flags:**
   - Word-level sameness says nothing about the mix. A hook can keep its words and still gain doubles, harmonies or a new bed that this method cannot hear.
   - A hook's length runs to the start of the next section. When the hook is the last section, its end is set two typical line gaps after the last lyric line, so that a fade or instrumental outro is not counted as hook. That choice moves the longer-last-hook count: measured to the end of the record it would be higher.
-  - Drake-credited songs supply {{ num(g('drake_credit','last_hook_longer')) }} of the {{ num(g('all','last_hook_longer')) }} longer last hooks ({{ g('drake_credit','last_hook_longer') }}, against {{ g('no_drake','last_hook_longer') }} for the rest), and verse 2 runs longer than verse 1 on {{ g('drake_credit','verse2_longer') }} of them against {{ g('no_drake','verse2_longer') }} elsewhere.
+  - Drake-credited songs supply {{ allof(num(g('drake_credit','last_hook_longer')), num(g('all','last_hook_longer')), 'of the') }} longer last hooks ({{ g('drake_credit','last_hook_longer') }}, against {{ g('no_drake','last_hook_longer') }} for the rest), and verse 2 runs longer than verse 1 on {{ g('drake_credit','verse2_longer') }} of them against {{ g('no_drake','verse2_longer') }} elsewhere.
 
 {{ open_template('03-documented.part.md') }}

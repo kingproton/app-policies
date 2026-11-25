@@ -201,8 +201,12 @@ def proc_total(): return MS_ALL['process']['statements']
 def proc_tracks(): return MS_ALL['process']['tracks']
 def proc_n(code): return (MS_ALL['process']['by_code'].get(code) or {}).get('tracks', 0)
 def proc_titles(code, limit=None):
+    """Titles under a process heading; 'among them' is prefixed when the list is cut short of the count."""
     v = [f'"{x}"' for x in (MS_ALL['process']['by_code'].get(code) or {}).get('titles', [])]
-    return ', '.join(v if limit is None else v[:limit])
+    if limit is None or len(v) <= limit:
+        if len(v) != proc_n(code): raise KeyError(f'{code}: {len(v)} titles for a count of {proc_n(code)}')
+        return ', '.join(v)
+    return 'among them ' + ', '.join(v[:limit])
 def fsx(key): return FS[key]
 def bt(kind, i): return (FS['borrow_types'].get(kind) or [0, 0, [], 0])[i]
 def pagefacts(cat, part='tracks'): return (MS_ALL['page_facts'].get(cat) or {}).get(part, 0)
@@ -266,6 +270,12 @@ def po(kind, key): return (MS_ALL['page_origins'].get(kind) or {}).get(key, 0)
 def cs(key): return MS_ALL['claims_summary'][key]
 def fsa(key): return FS['all'][key]
 def sw_recollection(): return FS['all']['switch_no_any'] + FS['all']['switch_yes_rec']
+def sw_unconfirmed_only(title):
+    """Guard: exactly one song holds a 'yes' that no page or cited source confirmed, and it is this one. Prints nothing."""
+    v = [r['title'] for r in rows if (T.get(r['cid']) or {}).get('beat_switch') == 'yes' and T[r['cid']].get('beat_switch_basis') == 'unconfirmed']
+    if v != [title]: raise KeyError(f'unconfirmed beat-switch songs are {v!r}, not [{title!r}]')
+    if bs_n() + FS['all']['switch_unknown'] + sw_recollection() + 1 != len(rows): raise KeyError('beat-switch counts do not add up to the list')
+    return ''
 def UNMEASURED(): return ('where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; '
                           'and what the drums, the 808, the melody and the vocal stack do when a section returns')
 def ex5(title):
@@ -294,6 +304,12 @@ def _grades():
 def n_indirect(): return _grades()[0]
 def n_yearend(): return _grades()[1]
 def bs_climbers(): return sum(1 for r, t in _sw() if not r['debut_in_top10'])
+def allof(a, b, mid='of those'):
+    """'all 8' when the two counts are equal, otherwise '5 of those 8'."""
+    return f'all {b}' if a == b else f'{a} {mid} {b}'
+def bs_page_phrase():
+    """How many of the documented beat switches rest on saved page text."""
+    return 'all on saved page text' if bs_page_n() == bs_n() else f'{bs_page_n()} on saved page text'
 def read_twice(): return sm('all', 'lyric_basis', 'A') + sm('all', 'lyric_basis', 'J')
 def detector_only(): return sm('all', 'lyric_basis', 'G')
 def climbers_by(artist): return sum(1 for r in rows if not r['debut_in_top10'] and artist in r['artists'])

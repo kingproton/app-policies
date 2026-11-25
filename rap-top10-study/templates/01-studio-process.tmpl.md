@@ -41,7 +41,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Under a half-time trap feel, one felt bar = 2 grid bars. At 144 BPM, one grid bar = 1.667 s and one felt bar = 3.333 s.
   - Put markers at every planned block start, colour the hooks, and add a punch track.
   - Trim the loop so the first kick sits on bar 1, beat 1.
-- **Listen for:** with the click on, the snare should land on felt beats 2 and 4, bar after bar. One snare a bar or a snare on every beat means the tempo is an octave out: go back and time the felt bar again.
+- **Listen for:** with the click on, the snare should land on felt beats 2 and 4, bar after bar. On a doubled grid that is grid beat 3 of every grid bar. One snare per felt bar, or a snare on every felt beat, means the felt tempo you wrote down is an octave out: go back and time the felt bar again.
 - **One fix:** if the snare lands on 1 and 3, the tempo is right and the start is wrong. Slide the loop, or the bar start, by one felt beat (half a grid bar, 0.833 s at 144).
 
 ### 1 — Choose the beat and the pocket
@@ -120,9 +120,9 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Listen for:** "same beat for three minutes" fatigue around 1:30, and whether each hook arrival actually lifts.
 - **One fix:** mute the drums for the last felt bar before Hook 2.
 - **What the hits show:**
-  - **[M-6]** The hook's words come back identical or with small changes in {{ sm('all','hook_return','identical') + sm('all','hook_return','minor_variation') }} of {{ num(g('all','has_hook')) }} tracks. The last hook is at least a quarter longer than the first in only {{ g('all','last_hook_longer') }} ({{ num(g('drake_credit','last_hook_longer')) }} of those {{ num(g('all','last_hook_longer')) }} are Drake-credited). Lyric timing cannot hear what surrounds the hook, so whether drums, 808 or doubles change there was not measured; putting the change at the hook's edges is judgment. [J]
+  - **[M-6]** The hook's words come back identical or with small changes in {{ sm('all','hook_return','identical') + sm('all','hook_return','minor_variation') }} of {{ num(g('all','has_hook')) }} tracks. The last hook is at least a quarter longer than the first in only {{ g('all','last_hook_longer') }} ({{ allof(num(g('drake_credit','last_hook_longer')), num(g('all','last_hook_longer'))) }} are Drake-credited). Lyric timing cannot hear what surrounds the hook, so whether drums, 808 or doubles change there was not measured; putting the change at the hook's edges is judgment. [J]
   - **[M-6]** A stretch of 12 seconds or more between transcribed lines appears in {{ g('all','gap_ge_12s') }} tracks. It can be a break or a beat change, but also a passage the transcriber left out, so treat it as a hint.
-  - **[M-11]** {{ bs_n() }} songs have a documented beat switch ({{ bs_page_n() }} on saved page text), {{ bs_by('Drake') + bs_by('Kendrick') }} of them on Drake- or Kendrick Lamar-credited records.
+  - **[M-11]** {{ bs_n() }} songs have a documented beat switch ({{ bs_page_phrase() }}), {{ bs_by('Drake') + bs_by('Kendrick') }} of them on Drake- or Kendrick Lamar-credited records.
   - [J] Treat a full switch as a statement-record move. A one-bar drop is the single-sized version.
 
 ### 6 — Punch the lead (one-session workflow)

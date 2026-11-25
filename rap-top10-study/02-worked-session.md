@@ -232,8 +232,8 @@ Mic and consistency rules for punching:
    - Hook said back at 1:00: **2**
    - "Yes" to hearing the rest: **1**
 5. **Decide:**
-   - Average the scores for each opening (total ÷ the listeners who heard it). The higher average wins.
-   - **Tie:** the opening with more "yes" answers to (c) wins.
-   - **Still tied, or within half a point:** keep both. Use A as the single or short-form edit and B as the album version. They share everything after 1:00, so you lose nothing. The notes from question (a) tell you what each opening plants: usually the title for A and an image for B.
-6. **Only three listeners:** play both openings to each, alternating the order, but score only the first one each person hears. After the second, ask "Which would you keep playing?" and use that as the tie-break.
+   - Average the scores for each opening (total ÷ the listeners who heard it). An opening wins if its average is more than half a point higher.
+   - **Half a point apart or closer:** the opening with more "yes" answers to (c) wins.
+   - **Still tied:** keep both. Use A as the single or short-form edit and B as the album version. They share everything after 1:00, so you lose nothing. The notes from question (a) tell you what each opening plants: usually the title for A and an image for B.
+6. **Only three listeners:** play both openings to each, alternating the order, but score only the first one each person hears. After the second, ask "Which would you keep playing?" and use those answers in place of the (c) count when the averages are half a point apart or closer.
 7. **Testing alone:** you already know both, so recall cannot be scored. Wait at least 12 hours, play each from the top, and note the timestamp where you first feel the urge to skip or check your phone. The opening that pushes that moment later wins.
