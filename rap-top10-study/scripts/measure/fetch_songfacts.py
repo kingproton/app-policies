@@ -2,9 +2,9 @@
 import sys, os, re, json, html, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from netlib import fetch
-from mpaths import SP
+from mpaths import SP, IN
 OUT = SP + 'net/songfacts/'
-F = json.load(open(SP + 'data/final_rows.json'))
+F = json.load(open(IN + 'final_rows.json'))
 def slug(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     s = s.replace('&', ' ').replace("'", '').replace('.', '').replace('!', 'i' if False else '').replace('*', '')

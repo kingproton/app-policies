@@ -48,7 +48,9 @@ def clip(quote, src):
         words = m.group(2).split()
         return m.group(1) + (' '.join(words[:5]) + ' …' if len(words) > 5 else m.group(2)) + m.group(3)
     q = re.sub(r'(["“])([^"”]{1,400})(["”])', cut, quote or '')
-    w = q.split(); lim = 12 if src == 'songfacts' else 30
+    # 30 words only for a quote credited to Wikipedia alone; 12 for Songfacts and for a claim both pages support
+    # (where the words may be Songfacts text)
+    w = q.split(); lim = 30 if src == 'wikipedia' else 12
     return ' '.join(w[:lim]) + (' …' if len(w) > lim else '')
 
 
@@ -88,6 +90,8 @@ json.dump(out, open(out_path, 'w'), indent=0, ensure_ascii=False)
 man = json.load(open(CORPUS + 'manifest.json'))
 summary = dict(tracks=len(out), wikipedia_pages=sum(1 for m in man if m['wikipedia']), songfacts_pages=sum(1 for m in man if m['songfacts']), claims=sum(len(t['verdicts']) for t in out.values()),
                final=dict(tally), skeptic_rulings=len(skeptics), skeptic_upheld=sum(1 for x in skeptics.values() if x['upheld']),
+               verdicts_sent_to_skeptic=sum(1 for t in out.values() for v in t['verdicts'] if v['first_verdict'] != 'not_addressed'),
+               verdicts_first_reader_only=sum(1 for t in out.values() for v in t['verdicts'] if v['first_verdict'] == 'not_addressed'),
                new_facts_by_category=dict(collections.Counter(f['category'] for t in out.values() for f in t['new_facts'])))
 json.dump(summary, open(out_path.replace('.json', '_summary.json'), 'w'), indent=1)
 print(len(out), 'tracks |', dict(tally))

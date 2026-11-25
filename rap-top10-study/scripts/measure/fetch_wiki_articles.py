@@ -3,9 +3,9 @@ Wikipedia's yearly top-ten lists. Extract Billboard chart ids from {{single char
 import sys, os, re, json, unicodedata, difflib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from netlib import wiki_raw
-from mpaths import SP
+from mpaths import SP, IN
 L = json.load(open(SP + 'net/wiki_lists.json'))
-arr = json.load(open(SP + 'data/arrivals.json'))
+arr = json.load(open(IN + 'arrivals.json'))
 def nz(s):
     s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower().replace('&', 'and')
     t = re.sub(r'\(.*?\)', '', s); s = t if re.sub(r'[^a-z0-9]', '', t) else s

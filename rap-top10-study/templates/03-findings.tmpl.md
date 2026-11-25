@@ -5,15 +5,16 @@ These findings describe what the 100 most recent rap Hot 100 top-10 songs have i
 **How to read the counts:**
 - Every count is **k / n assessed**. *n* leaves out tracks where the fact could not be measured or is unknown. Unknown never counts as "no".
 - **Measured** findings (M-1 to M-6, M-9, M-10, and the timing rows of M-8) come from three sources read directly on 2026-11-25: Apple catalog durations, Apple's 30-second preview clips, and time-synced lyric records from LRCLIB. Nobody listened to the recordings; the numbers come from signal analysis of the clips and from reading the lyric records. `05-measurement-method.md` gives the method, the checks and the limits.
-- **Documented** findings (M-7, M-11, M-12, and parts of M-8) come from what published pages say. A claim counts only when page text supports it (**P**) or a cited source was not rejected by the verifier (**S**). Claims that could not be confirmed (**U**) and recollection (**R**) are never counted.
+- **Documented** findings (M-7, M-11, M-12, and parts of M-8) come from what published pages say. A claim counts when saved page text supports it (**P**), or when the pages are silent and its cited source, known only through a web-search summary, was not rejected (**S**). Claims that could not be confirmed (**U**) and recollection (**R**) are never counted. The verifier (the earlier pass, which read web-search summaries) and the skeptic (this pass, which read the saved pages) were AI agents; no person read the pages.
 - **Production judgment is labeled [J]:** every "Try it" block and the final section.
 
 **What was assessed:**
 - **Runtime:** {{ g('all','runtime')['n'] }} of 100 ({{ top('runtime_basis')['catalog'] }} from the Apple catalog, {{ top('runtime_basis').get('cited', 0) }} from cited sources).
-- **Felt tempo:** {{ g('all','n_clip') }} preview clips. {{ g('all','feel_basis')['M'] }} show a clear backbeat; {{ g('all','feel_basis').get('L',0) + g('all','feel_basis').get('I',0) }} more are resolved with a stated caveat; {{ g('all','feel_basis').get('?',0) }} stay open. {{ cnt('clip_missing') }} tracks had no clip.
+- **Felt tempo:** {{ g('all','n_clip') }} preview clips. {{ g('all','feel_basis')['M'] }} show a clear backbeat; {{ g('all','feel_basis').get('L',0) + g('all','feel_basis').get('I',0) }} more are resolved with a stated caveat; {{ g('all','feel_basis').get('?',0) }} stay open ({{ cnt('feel_unresolved') }} where both readings fit, {{ cnt('feel_listing_conflict') }} where an unclear clip reading matches no published tempo). {{ cnt('clip_missing') }} tracks had no clip.
 - **Lyric timing and structure:** {{ g('all','n_lyric') }} tracks have a time-synced lyric record whose length matches the track within 3 seconds. {{ 'Each record was' if not detector_only() else str(read_twice()) + ' of them were' }} read twice, by a repetition detector and by an independent AI reader; where the two disagreed, a second AI reader ruled. No person read them. Timing basis: {{ sm('all','lyric_basis','A') }} agreed (A), {{ sm('all','lyric_basis','J') }} ruled (J){{ ', ' + str(detector_only()) + ' detector only (G)' if detector_only() else '' }}. {{ cnt('lyric_missing') }} tracks had no matching record ({{ lst('lyric_missing', None, ' and ') }}){{ ' and ' + str(cnt('lyric_unusable')) + ' could not be resolved' if cnt('lyric_unusable') else '' }}.
+- **A second run as a check.** The whole reading and ruling was run a second time by separate AI agents. For the {{ sr('compared') }} tracks it also resolved, it agrees on whether there is a hook in {{ sr('has_hook') }}, on the first line within one second in {{ sr('first_line') }}, on the first hook within 2.5 seconds in {{ sr('first_hook') }}, and on hook-before-first-verse in {{ sr('hook_before_first_verse') }}. Softer labels agree less often: the number of verses in {{ sr('n_verses') }}, the kind of first line in {{ sr('first_line_kind') }}, the hook-on-return label in {{ sr('hook_return') }}. The second run never changes a value; table 4b-2 marks each track.
 - **Timestamps** are crowd-synced line times. Where two or more matching records exist ({{ ra('tracks_with_2plus_records') }} tracks), their first-line times agree within one second for {{ ra('first_line_within_1s') }}. Treat every timestamp below as good to about a second, not to the frame.
-- **Not measured:** the silence after a punchline, where ad-libs sit inside a bar, and what the drums and 808 do when a section returns. Line-level lyric timing and a 30-second clip cannot show them. They stay unknown.
+- **Not measured:** {{ UNMEASURED() }}. Line-level lyric timing and a 30-second clip cannot show them, and nobody listened. They stay unknown.
 
 ## Measured counts at a glance
 
@@ -29,7 +30,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 
 ### M-1. The pocket is a slow backbeat: felt {{ q('all','felt_clear','q1','{:.0f}') }}–{{ q('all','felt_clear','q3','{:.0f}') }} BPM in the middle half, whatever the published BPM says
 
-- **Effect:** delivery and writing. The felt pulse sets how long a bar lasts and where the snare answers you. Ranked first because it is the first decision in the session and the best-covered measurement.
+- **Effect:** delivery and writing. The felt pulse sets how long a bar lasts and where the snare answers you. Ranked first because it is the first decision in the session.
 - **Count:**
   - Of {{ g('all','n_clip') }} preview clips, **{{ g('all','feel_basis')['M'] }}** show a clear backbeat (a snare or clap on felt beats 2 and 4).
   - Of those {{ g('all','feel_basis')['M'] }}: **{{ cls('all','feel_class_clear','slow') }} are slow** (felt under 90), **{{ cls('all','feel_class_clear','mid') }} are mid-tempo** (felt {{ fr('mid') }}) and **{{ cls('all','feel_class_clear','fast') }} are fast** (felt {{ fr('fast') }}). Median felt tempo **{{ q('all','felt_clear','median','{:g}') }} BPM**, middle half {{ q('all','felt_clear','q1','{:.0f}') }}–{{ q('all','felt_clear','q3','{:.0f}') }}.
@@ -39,8 +40,11 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
   - *Slow:* "Like That" {{ pf('Like That') }}, "Luther" {{ pf('Luther') }}, "Cinderella" {{ pf('Cinderella') }}, "Pushin P" {{ pf('Pushin P') }}, "Carnival" {{ pf('Carnival') }}, "Wait For U" {{ pf('Wait For U') }}.
   - *Mid:* "Paint The Town Red" {{ pf('Paint The Town Red') }}, "Hey Now" {{ pf('Hey Now') }}, "Squabble Up" {{ pf('Squabble Up') }}, "Circo Loco" {{ pf('Circo Loco') }}, "2 Hard 4 The Radio" {{ pf('2 Hard 4 The Radio') }}, "First Class" {{ pf('First Class') }}.
   - *Fast:* "Houdini" {{ pf('Houdini') }}, "Super Freaky Girl" {{ pf('Super Freaky Girl') }}, "Noid" {{ pf('Noid') }}.
-- **Not resolved ({{ cnt('feel_unresolved') }}):** {{ lst('feel_unresolved', None, ', ') }}. Both readings fit the clip.
-- **Resolved by range only ({{ cnt('feel_range_rule') }}):** the clip did not separate the two readings, and one of them falls outside 55–150 BPM: {{ lst('feel_range_rule', None, ', ') }}.
+- **Leaning ({{ cnt('feel_leaning') }}):** the clip favours one reading by a small margin: {{ lst('feel_leaning', None, ', ') }}.
+- **Resolved by range, not by the clip ({{ cnt('feel_range_rule') }}):** the clip did not separate the two readings, and one of them falls outside 55–150 BPM: {{ lst('feel_range_rule', None, ', ') }}. For {{ cnt('feel_range_lower_score') }} of these the reading shown scored slightly lower in the clip than the one ruled out ({{ lst('feel_range_lower_score', None, ', ') }}).
+- **Not resolved ({{ g('all','feel_basis').get('?',0) }}):**
+  - Both readings fit the clip ({{ cnt('feel_unresolved') }}): {{ lst('feel_unresolved', None, ', ') }}.
+  - An unclear clip reading that no published tempo matches at the same, half or double speed ({{ cnt('feel_listing_conflict') }}): {{ lst('feel_listing_conflict', None, ', ') }}. The clip may have been read on a dotted pulse, or the listing may be wrong; neither is settled here.
 - **Try it [J]:**
   - Before you write, clap 2 and 4 against the loop at the felt tempo and say your central phrase over it. If the clap feels rushed, you are counting the doubled grid.
   - In a slow pocket, aim rhymes at the snare (felt beats 2 and 4) and leave the back half of beat 4 open. That is the room your last word or ad-lib needs.
@@ -48,7 +52,8 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Flags:**
   - Drake-credited songs supply **{{ top('slow_by_artist').get('Drake', 0) }} of the {{ cls('all','feel_class_clear','slow') }}** clear slow readings.
   - A 30-second clip is one section. A beat switch elsewhere in the track is not seen, so a song with two beats has one of them measured.
-  - **Drill:** only two list songs carry a drill tag ("Barbie World" and "Princess Diana"). Nothing about drill can be generalized from two songs.
+  - On {{ len(top('pulse_vs_listings')['disagree_clear']) }} *clear* clips the measured pulse also matches no published tempo ({{ ', '.join(top('pulse_vs_listings')['disagree_clear']) }}). The clip reading is kept because the backbeat is clear; the mismatch is not explained.
+  - **Drill:** only two list songs carry a drill tag ("Barbie World" and "Princess Diana"), and the tempo of one of them is unresolved. Nothing about drill can be generalized from two songs.
 
 ### M-2. Mouth speed holds near four syllables a second; the beat decides how that feels
 
@@ -76,7 +81,7 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Count:**
   - **{{ g('all','has_hook') }}** assessed tracks have a main section that recurs. **{{ g('all','no_hook') }}** have none (see M-9).
   - The first hook starts at a median **{{ q('all','first_hook','median') }}** (middle half {{ q('all','first_hook','q1') }}–{{ q('all','first_hook','q3') }}). It has arrived by 0:30 in {{ g('all','first_hook_le_30s') }} tracks, by 1:00 in {{ g('all','first_hook_le_60s') }}, and comes after 1:30 in {{ g('all','first_hook_gt_90s') }}.
-  - The hook comes **before the first verse** in **{{ g('all','hook_before_first_verse') }}** tracks with a section map. Within the first three lyric lines: {{ g('all','hook_first') }}.
+  - The hook comes **before the first verse** in **{{ g('all','hook_before_first_verse') }}** tracks with a section map. With at most three lyric lines before it: {{ g('all','hook_first') }}.
   - **The first return anchor** (the earliest line of any block that comes back, hook or not) lands at a median {{ q('all','first_anchor','median') }}. In {{ num(g('all','anchor_is_hook')) }} of {{ den(g('all','anchor_is_hook')) }} tracks that anchor is the hook itself; in the rest an intro chant, tag or pre-hook returns first.
   - **By chart path:** songs that **climbed** into the top 10 reach the hook at a median **{{ q('climbers','first_hook','median') }}** (n={{ g('climbers','first_hook')['n'] }}) and put it before the first verse in {{ g('climbers','hook_before_first_verse') }}. Songs that **debuted** there: **{{ q('debuts','first_hook','median') }}** and {{ g('debuts','hook_before_first_verse') }}. Album-bomb cuts: {{ q('album_bomb','first_hook','median') }}; other songs: {{ q('not_bomb','first_hook','median') }}.
 - **Examples with timestamps:**
@@ -88,20 +93,21 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Exception:** "Not Like Us" spent {{ wk10('Not Like Us') }} weeks in the top 10 with its hook at {{ hook('Not Like Us') }}. A late hook did not stop it. [J]
 - **Flags:**
   - "Which block is the hook" is a judgment when two blocks recur. The two readings disagreed on whether there is a hook or when it starts for {{ top('review_summary')['hook_time_disputed'] }} of {{ top('review_summary')['reviewed'] }} tracks before the ruling; those are marked J in table 4b.
+  - The second, separate run of the reading puts the first hook more than 2.5 seconds away on {{ srd('first_hook') - srn('first_hook') }} of {{ srd('first_hook') }} tracks ({{ ', '.join(sr('hook_time_differs')) }}). With its times, the median first hook is {{ sr('with_second_run_values')['median'] }} and {{ sr('with_second_run_values')['le_30s'] }} hooks start by 0:30, against {{ sr('primary')['median'] }} and {{ sr('primary')['le_30s'] }} here; hook-before-first-verse is {{ sr('hook_before_first_verse_second') }} against {{ sr('hook_before_first_verse_primary') }}.
   - Drake-credited songs put the hook before the first verse in {{ g('drake_credit','hook_before_first_verse') }}; the rest in {{ g('no_drake','hook_before_first_verse') }}. Album-bomb weeks pull the whole set toward later hooks.
   - Only {{ g('climbers','n_songs') }} songs climbed. The gap is large, but the group is small and not controlled.
 
-### M-4. The first voice is rarely a rap line, and the intro is four or eight felt bars
+### M-4. The first voice is rarely a rap line, and the intro is most often about four felt bars, with a smaller group at eight
 
 - **Effect:** arrangement (the opening) and delivery (how you enter). Ranked fourth: it governs the first seconds, which is where your A/B test lives.
 - **Count:**
   - The first lyric line starts at a median **{{ q('all','first_line','median','{:.1f}') }} seconds**: within 5 seconds in {{ g('all','first_line_le_5s') }} tracks and after 15 seconds in {{ g('all','first_line_gt_15s') }}.
   - **What that first line is** (the AI reader's call, from the text alone): an ad-lib or vocalization in {{ sm('all','first_line_kind','adlib_or_vocalization') }}, a sample or another voice in {{ sm('all','first_line_kind','sample_or_other_voice') }}, spoken in {{ sm('all','first_line_kind','spoken') }}, sung in {{ sm('all','first_line_kind','sung') }}, a rap line in {{ sm('all','first_line_kind','rap') }}, unclear in {{ sm('all','first_line_kind','unclear') }}.
-  - The record opens on an intro in {{ sm('all','first_section','intro') }} of {{ g('all','n_section_map') }} section maps, on the hook in {{ sm('all','first_section','hook') }} and straight into a verse in {{ sm('all','first_section','verse') }}.
-  - **Intro length** (the time before the first hook or verse): median {{ q('all','intro_len_s','median','{:.0f}') }} seconds, or **{{ q('all','intro_len_bars','median','{:.1f}') }} felt bars** (middle half {{ q('all','intro_len_bars','q1','{:.1f}') }}–{{ q('all','intro_len_bars','q3','{:.1f}') }}).
+  - The first section in the map is an intro in {{ sm('all','first_section','intro') }} of {{ g('all','n_section_map') }} section maps, the hook in {{ sm('all','first_section','hook') }}, a verse in {{ sm('all','first_section','verse') }} and a pre-hook in {{ sm('all','first_section','pre_hook') }}.
+  - **Intro length** (the time before the first hook or verse): median {{ q('all','intro_len_s','median','{:.0f}') }} seconds, or **{{ q('all','intro_len_bars','median','{:.1f}') }} felt bars** (middle half {{ q('all','intro_len_bars','q1','{:.1f}') }}–{{ q('all','intro_len_bars','q3','{:.1f}') }}). About four bars (3 to 5) in {{ sm('all','intro_len_bar_bands','3-5 (about 4)') }} tracks and about eight (7 to 9) in {{ sm('all','intro_len_bar_bands','7-9 (about 8)') }}; under three in {{ sm('all','intro_len_bar_bands','under 3') }}, five to seven in {{ sm('all','intro_len_bar_bands','5-7') }}, nine or more in {{ sm('all','intro_len_bar_bands','9+') }} (of {{ g('all','intro_len_bars')['n'] }} with a resolved felt tempo).
 - **Examples:** "Evil J0rdan" waits until {{ fl('Evil J0rdan') }} for its first line; "Real Spill" until {{ fl('Real Spill') }}; "Redrum" until {{ fl('Redrum') }}. "Not Like Us", "Houdini" and "Carnival" have a voice inside the first second.{{ fl_under('Not Like Us', 1) }}{{ fl_under('Houdini', 1) }}{{ fl_under('Carnival', 1) }}
 - **Try it [J]:** treat the intro as four felt bars (eight on your 144 grid) with one identity sound in it: a tag, an ad-lib, a chopped phrase. Enter with the lead on bar five. If the record needs more runway, take eight and nothing in between.
-- **Exception:** {{ sm('all','first_section','verse') }} records start on the verse with no intro at all ({{ lst('verse_first_section_list', None, ', ') }}), and {{ sm('all','first_section','hook') }} start on the hook. [J]
+- **Exception:** in {{ sm('all','first_section','verse') }} section maps the first transcribed line is already a verse line ({{ lst('verse_first_section_list', None, ', ') }}). These are not cold opens: in the record used, that line comes at {{ fl_any('Gimme A Hug') }}, {{ fl_any('Man At The Garden') }} and {{ fl_any('Sticky (Drake)') }}, so each has a long opening that the lyric record does not show. The matching records for "Gimme A Hug" differ on that time by {{ fl_spread('Gimme A Hug') }} seconds, so treat it as a late entry, not as a measured time.{{ isverse3() }} {{ sm('all','first_section','hook') }} maps start on the hook. [J]
 - **Flags:** the lyric record shows the first *transcribed* line. A wordless intro, a beat tag or an instrumental sample before it is invisible here. The kind of line is the weakest label in this study: the reader judged it from text, which often cannot tell a sample from the artist, and may have recognized a well-known borrowed lyric. Treat that split as a rough guide (see `05-measurement-method.md`).
 
 ### M-5. Section sizes: hooks of four or eight felt bars, first verses of eight, twelve or sixteen
@@ -110,28 +116,36 @@ Ranked by how directly each one changes a writing, arrangement or delivery decis
 - **Count (one reader's section map, {{ g('all','n_section_map') }} tracks; bars need a resolved felt tempo):**
   - **First hook:** median {{ q('all','hook1_len_s_map','median','{:.0f}') }} seconds, **{{ q('all','hook1_len_bars_map','median','{:.1f}') }} felt bars**. About four bars in {{ sm('all','hook1_len_bar_bands_map','3-5 (about 4)') }} tracks and about eight in {{ sm('all','hook1_len_bar_bands_map','7-9 (about 8)') }} (of {{ g('all','hook1_len_bars_map')['n'] }}).
   - **First verse:** median {{ q('all','verse1_len_s_map','median','{:.0f}') }} seconds, **{{ q('all','first_verse_len_bars','median','{:.0f}') }} felt bars**. About eight bars in {{ sm('all','verse_len_bar_bands','6-10 (about 8)') }}, about twelve in {{ sm('all','verse_len_bar_bands','10-14 (about 12)') }}, about sixteen in {{ sm('all','verse_len_bar_bands','14-18 (about 16)') }}, longer in {{ sm('all','verse_len_bar_bands','18-26') + sm('all','verse_len_bar_bands','26+') }} (of {{ g('all','first_verse_len_bars')['n'] }}).
-  - **Verses per song:** two in {{ sm('all','n_verses','2') }}, three in {{ sm('all','n_verses','3') }}, four or more in {{ sm('all','n_verses','4') }}, one in {{ sm('all','n_verses','1') }}.
+  - **Verses per song:** two in {{ sm('all','n_verses','2') }}, three in {{ sm('all','n_verses','3') }}, four or more in {{ sm('all','n_verses','4') }}, one in {{ sm('all','n_verses','1') }}, none in {{ sm('all','n_verses','0') }} ("Carnival", whose record has no verse lines).
   - **Hook occurrences:** two in {{ g('all','hook_count').get('2',0) }} tracks, three in {{ g('all','hook_count').get('3',0) }}, four or more in {{ g('all','hook_count').get('4',0) + g('all','hook_count').get('5+',0) }}.
   - A bridge appears in {{ g('all','has_bridge') }}, a pre-hook in {{ g('all','has_pre_hook') }} and a post-hook in {{ g('all','has_post_hook') }}. The record ends on an outro in {{ sm('all','ends_on','outro') }} maps, on the hook or post-hook in {{ sm('all','ends_on','hook') + sm('all','ends_on','post_hook') }} and on a verse in {{ sm('all','ends_on','verse') }}.
+- **Examples (first hook start; first hook / first verse in felt bars, from tables 4b and 4b-2):**
+  - *Four-bar hook:* {{ ex5('Pussy & Millions') }}, {{ ex5('Whisper My Name') }}.
+  - *Eight-bar hook, eight-bar verse:* {{ ex5('4X4') }}, {{ ex5('Princess Diana') }}, {{ ex5('Puffin On Zootiez') }}.
+  - *Twelve-bar verse:* {{ ex5('All My Life') }}, {{ ex5('Spin Bout U') }}.
+  - *Sixteen-bar verse:* {{ ex5('Houdini') }}, {{ ex5('Outside') }}.
 - **Try it [J]:** plan the demo as intro 4, hook 8, verse 12 or 16, hook 8, verse 8 to 16, hook 8 in felt bars. Double each number on the 144 grid. That is the commonest skeleton in the set, not a rule.
 - **Exception:** "Rich Flex", "Family Matters" and "Meltdown" are built in parts, each with a documented beat switch (M-11), and do not fit the skeleton. [J]{{ needswitch('Rich Flex') }}{{ needswitch('Family Matters') }}{{ needswitch('Meltdown') }}
-- **Flags:** section labels are one reader's call, and a hook sung twice in a row is counted as one long hook. Trap-tagged songs run shorter first verses (median {{ q('style_trap','first_verse_len_bars','median','{:.0f}') }} felt bars) than the set as a whole.
+- **Flags:** section labels are one reader's call, and a hook sung twice in a row is counted as one long hook. Trap-tagged songs run shorter first verses (median {{ q('style_trap','first_verse_len_bars','median','{:.0f}') }} felt bars) than the set as a whole. Two hooks is the usual count on Drake-credited songs ({{ g('drake_credit','hook_count').get('2',0) }} of {{ num(g('drake_credit','has_hook')) }}); elsewhere three is commoner ({{ g('no_drake','hook_count').get('3',0) }} of {{ num(g('no_drake','has_hook')) }}, against {{ g('no_drake','hook_count').get('2',0) }} with two).
 
-### M-6. When the hook comes back it is nearly the same words; change shows up around it
+### M-6. When the hook comes back it is nearly the same words; what changes around it was not measured
 
-- **Effect:** arrangement (transitions) and delivery. Ranked sixth: it says where to spend your variation.
+- **Effect:** arrangement (transitions) and delivery. Ranked sixth: it says where these songs do not spend variation, which is the hook's words.
 - **Count:**
   - The hook returns with **identical words in {{ sm('all','hook_return','identical') }}** tracks and with **minor variation in {{ sm('all','hook_return','minor_variation') }}** (a few words or ad-libs). It comes back extended in {{ sm('all','hook_return','extended') }}, shortened in {{ sm('all','hook_return','shortened') }} and with new lyrics in {{ sm('all','hook_return','new_lyrics') }}.
-  - The last hook is at least a quarter longer than the first in {{ g('all','last_hook_longer') }} tracks and shorter in {{ g('all','last_hook_shorter') }}.
+  - The last hook is at least a quarter longer than the first in {{ g('all','last_hook_longer') }} tracks and at least a quarter shorter in {{ g('all','last_hook_shorter') }}; in the rest it is about the same length.
   - **Verse 2 against verse 1:** shorter in {{ num(g('all','verse2_shorter')) }}, about the same in {{ num(g('all','verse2_similar')) }}, longer in {{ g('all','verse2_longer') }}. There is no "short second verse" rule in this set.
   - A stretch of 12 seconds or more between transcribed lines appears in {{ g('all','gap_ge_12s') }} tracks. It can be a break, a beat change or a sample interlude, but also a passage the transcriber left out, so it is a hint and not a count of breaks.
   - What lyric timing cannot show: drums, 808 and doubles. Documented changes between sections are in M-11.
 - **Examples:**
   - *Same words every time:* {{ sub('hook_return_lists', 'identical', 6) }}.
-  - *Longer on return:* {{ sub('hook_return_lists', 'extended', 5) }}.
-  - *Shorter on return:* {{ sub('hook_return_lists', 'shortened', 5) }}.
+  - *Extended on return (the reader's label for the words):* {{ sub('hook_return_lists', 'extended', 5) }}.
+  - *Shortened on return:* {{ sub('hook_return_lists', 'shortened', 5) }}.
 - **Try it [J]:** keep the hook's words fixed so it reads as the anchor, and move the change to its edges: drop the drums for the last felt bar before it, or add the stack and ad-libs only on the final pass. Give verse 2 the same length as verse 1 unless the song is short of ideas.
 - **Exception:** the hook comes back with new lyrics on {{ sub('hook_return_lists', 'new_lyrics', None, ' and ') }}. [J]
-- **Flags:** word-level sameness says nothing about the mix. A hook can keep its words and still gain doubles, harmonies or a new bed that this method cannot hear.
+- **Flags:**
+  - Word-level sameness says nothing about the mix. A hook can keep its words and still gain doubles, harmonies or a new bed that this method cannot hear.
+  - A hook's length runs to the start of the next section. When the hook is the last section, its end is set two typical line gaps after the last lyric line, so that a fade or instrumental outro is not counted as hook. That choice moves the longer-last-hook count: measured to the end of the record it would be higher.
+  - Drake-credited songs supply {{ num(g('drake_credit','last_hook_longer')) }} of the {{ num(g('all','last_hook_longer')) }} longer last hooks ({{ g('drake_credit','last_hook_longer') }}, against {{ g('no_drake','last_hook_longer') }} for the rest), and verse 2 runs longer than verse 1 on {{ g('drake_credit','verse2_longer') }} of them against {{ g('no_drake','verse2_longer') }} elsewhere.
 
 {{ open_template('03-documented.part.md') }}

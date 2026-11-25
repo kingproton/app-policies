@@ -1,0 +1,279 @@
+{
+"note": "Wikipedia artist discography tables read on 2026-11-25. A dash in a Hot Rap Songs column is not evidence that a song missed the chart: these songs show a dash in one table and a numbered rap peak in another.",
+"tables_read": 65,
+"tables_with_rap_column": 41,
+"songs": [
+{
+"title": "Blasé",
+"hot100_peak": 63,
+"rbhh_peak": 20,
+"rap_peak_pages": [
+[
+"Ty_Dolla_Sign_discography",
+15
+]
+],
+"dash_pages": [
+"Future_singles_discography"
+]
+},
+{
+"title": "Bunce Road Blues",
+"hot100_peak": 34,
+"rbhh_peak": 13,
+"rap_peak_pages": [
+[
+"J._Cole_discography",
+9
+]
+],
+"dash_pages": [
+"Future_singles_discography"
+]
+},
+{
+"title": "Carnival",
+"hot100_peak": 1,
+"rbhh_peak": 1,
+"rap_peak_pages": [
+[
+"Kanye_West_singles_discography",
+1
+],
+[
+"Playboi_Carti_discography",
+1
+],
+[
+"Ty_Dolla_Sign_discography",
+1
+]
+],
+"dash_pages": [
+"Rich_the_Kid_discography"
+]
+},
+{
+"title": "Changed It",
+"hot100_peak": 71,
+"rbhh_peak": 29,
+"rap_peak_pages": [
+[
+"Nicki_Minaj_discography",
+18
+]
+],
+"dash_pages": [
+"Lil_Wayne_singles_discography"
+]
+},
+{
+"title": "Dollaz on My Head",
+"hot100_peak": 38,
+"rbhh_peak": 15,
+"rap_peak_pages": [
+[
+"Gunna_discography",
+13
+]
+],
+"dash_pages": [
+"Young_Thug_discography"
+]
+},
+{
+"title": "Eye 2 Eye",
+"hot100_peak": 65,
+"rbhh_peak": 27,
+"rap_peak_pages": [
+[
+"Quavo_discography",
+25
+]
+],
+"dash_pages": [
+"Travis_Scott_discography"
+]
+},
+{
+"title": "Field Trip",
+"hot100_peak": 48,
+"rbhh_peak": 10,
+"rap_peak_pages": [
+[
+"Don_Toliver_discography",
+8
+],
+[
+"Kanye_West_singles_discography",
+8
+],
+[
+"Playboi_Carti_discography",
+8
+],
+[
+"Ty_Dolla_Sign_discography",
+8
+]
+],
+"dash_pages": [
+"Kodak_Black_discography"
+]
+},
+{
+"title": "Fully Loaded",
+"hot100_peak": 86,
+"rbhh_peak": 33,
+"rap_peak_pages": [
+[
+"Lil_Baby_discography",
+17
+]
+],
+"dash_pages": [
+"Future_singles_discography"
+]
+},
+{
+"title": "Go2DaMoon",
+"hot100_peak": 82,
+"rbhh_peak": 30,
+"rap_peak_pages": [
+[
+"Playboi_Carti_discography",
+24
+]
+],
+"dash_pages": [
+"Kanye_West_singles_discography"
+]
+},
+{
+"title": "Hibachi",
+"hot100_peak": 91,
+"rbhh_peak": 25,
+"rap_peak_pages": [
+[
+"21_Savage_discography",
+17
+]
+],
+"dash_pages": [
+"Kodak_Black_discography"
+]
+},
+{
+"title": "Knife Talk",
+"hot100_peak": 4,
+"rbhh_peak": 2,
+"rap_peak_pages": [
+[
+"21_Savage_discography",
+2
+]
+],
+"dash_pages": [
+"Metro_Boomin_production_discography"
+]
+},
+{
+"title": "Oh U Went",
+"hot100_peak": 19,
+"rbhh_peak": 9,
+"rap_peak_pages": [
+[
+"Young_Thug_discography",
+5
+]
+],
+"dash_pages": [
+"Metro_Boomin_production_discography"
+]
+},
+{
+"title": "Real Friends",
+"hot100_peak": 92,
+"rbhh_peak": 34,
+"rap_peak_pages": [
+[
+"Ty_Dolla_Sign_discography",
+25
+]
+],
+"dash_pages": [
+"Kanye_West_singles_discography"
+]
+},
+{
+"title": "Red Room",
+"hot100_peak": 49,
+"rbhh_peak": 22,
+"rap_peak_pages": [
+[
+"Offset_discography",
+21
+]
+],
+"dash_pages": [
+"Metro_Boomin_production_discography"
+]
+},
+{
+"title": "Run a Train",
+"hot100_peak": 33,
+"rbhh_peak": 12,
+"rap_peak_pages": [
+[
+"J._Cole_discography",
+8
+]
+],
+"dash_pages": [
+"Future_singles_discography"
+]
+},
+{
+"title": "Stay Down",
+"hot100_peak": 73,
+"rbhh_peak": 26,
+"rap_peak_pages": [
+[
+"Young_Thug_discography",
+21
+]
+],
+"dash_pages": [
+"Metro_Boomin_production_discography"
+]
+},
+{
+"title": "Voodoo",
+"hot100_peak": 39,
+"rbhh_peak": 18,
+"rap_peak_pages": [
+[
+"Future_singles_discography",
+16
+]
+],
+"dash_pages": [
+"Kodak_Black_discography"
+]
+},
+{
+"title": "Wash Us in the Blood",
+"hot100_peak": 49,
+"rbhh_peak": 20,
+"rap_peak_pages": [
+[
+"Travis_Scott_discography",
+17
+]
+],
+"dash_pages": [
+"Kanye_West_singles_discography"
+]
+}
+]
+}

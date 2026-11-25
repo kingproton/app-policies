@@ -17,14 +17,14 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 
 | # | Step | Do this | Listen for on playback | If it falls flat (one fix) |
 |---|---|---|---|---|
-| 0 | **Set up** | Set the grid tempo and note the felt tempo. Markers every 8 felt bars. Mark your mic spot. | Click, loop and markers line up on downbeats. | Halve or double the tempo until the snare falls on felt beats 2 and 4. |
-| 1 | **Beat + pocket** | Clap 2 and 4 and name the felt tempo (63 of 72 clear clips are slow, median 72) [M-1]. Rap an old 4 bars laid back, on top and double-time. Keep the beat that leaves a hole for your last word. | Stressed syllable on or just after the snare? A gap at the end of every second felt bar? | Mute the 808 for the last beat of every second felt bar. |
-| 2 | **Central phrase** | Write 10 candidates of 4 words or fewer. Keep the one that is a picture, fits one breath and has an open vowel on a strong beat. Say it 8 times over the loop. [M-7] | Could a stranger say it back after one phone-speaker listen? | Cut a word so it fits one breath. |
-| 3 | **Hook or verse first** | Single: title phrase inside 15 s (climbers' median first hook 0:18) [M-3]. Statement record: sharpest image first, a return anchor by 0:30. Intro of 4 felt bars, or 8 [M-4]. | At 0:15, does a cold listener know the title or one image? | Put a dry, one-bar title phrase in the intro. |
+| 0 | **Set up** | Time one felt bar (snare to the second snare after it): felt BPM = 240 ÷ seconds. Set the grid, note both tempos. Markers at every block start. Mark your mic spot. | Snare on felt beats 2 and 4, bar after bar; markers on downbeats. | Snare on 1 and 3: slide the loop one felt beat. |
+| 1 | **Beat + pocket** | Clap 2 and 4 and name the felt tempo (63 of 72 clear clips are slow; the median of the 72 is 72) [M-1]. Rap an old 4 bars laid back, on top and double-time. Keep the beat that leaves a hole for your last word. | Stressed syllable on or just after the snare? A gap at the end of every second felt bar? | Mute the 808 for the last beat of every second felt bar. |
+| 2 | **Central phrase** | Write 10 candidates of 4 words or fewer. Keep the one that is a picture, fits one breath and has an open vowel on a strong beat. Say it 8 times over the loop. | Could a stranger say it back after one phone-speaker listen? | Cut a word so it fits one breath. |
+| 3 | **Hook or verse first** | Single: title phrase inside 15 s. 9 of 12 climbers have a returning line by 0:15; their median first hook is 0:18 [M-3]. Statement record: sharpest image first, a return anchor by 0:30. Intro of 4 felt bars, or 8 [M-4]. | At 0:15, does a cold listener know the title or one image? | Put a dry, one-bar title phrase in the intro. |
 | 4 | **Verse** | Write in 4-felt-bar units: set-up, set-up, turn, payoff. About 14 syllables a felt bar in a slow pocket [M-2]. Verse 1 of 8, 12 or 16 felt bars [M-5]. One pocket change per verse. | Do internal rhymes blur? Does every 4th bar pay off? | Drop one internal rhyme from a crowded bar. |
-| 5 | **Transitions** | Keep the hook's words fixed and change its edges: drum drop, 808 cut, filter, new bed or new voice [M-6]. Biggest change before the last hook. | Does each hook arrival lift? Fatigue around 1:30? | Mute the drums for the felt bar before Hook 2. |
-| 6 | **Punch the lead** | Hook first, then comp it. Two full verse passes, then punch 4-felt-bar units at breaths with a one-bar pre-roll. Never mid-rhyme-chain. | Energy, mic distance and room tone match; breaths intact; no clipped consonants. | Re-punch the whole 4-bar unit. |
-| 7 | **Ad-libs + doubles** | Ad-libs only in the gap after a last word, at most one per felt bar. Double the title phrase and hook end-words. Full stack on the last hook only. | Any ad-lib on a rhyme or punchline? Doubles smearing consonants? | Delete it or move it to the next gap. |
+| 5 | **Transitions** | Keep the hook's words fixed [M-6]. Change its edges: drum drop, 808 cut, filter, new bed or new voice. Biggest change before the last hook. | Does each hook arrival lift? Fatigue around 1:30? | Mute the drums for the felt bar before Hook 2. |
+| 6 | **Punch the lead** | Hook first, then comp it (verse-first opening: opening verse, then hook). Two full verse passes, then punch 4-felt-bar units at breaths with a one-bar pre-roll. Never mid-rhyme-chain. | Energy, mic distance and room tone match; breaths intact; no clipped consonants. | Re-punch the whole 4-bar unit. |
+| 7 | **Ad-libs + doubles** | Ad-libs only in the gap after a last word, at most one per felt bar. Double the title phrase and hook end-words. Full stack on the last hook only. | Any ad-lib on a rhyme or punchline? Doubles smearing consonants? | Delete it. |
 | 8 | **Rough mix** | Phone speaker, mono, car. Loudness-match the bounces. | Every word clear at low volume; title phrase clearest; 808 not masking the voice. | Dip 2–4 kHz in the beat under the lead. |
 | ✓ | **Done when** | One bounce passes the 0:15 test (title or image) and the 1:00 test (hook said back). | | Re-run the A/B test in `02-worked-session.md`. |
 
@@ -36,12 +36,13 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 
 ### 0 — Session setup
 - **Action:**
-  - Set the DAW to the beat's grid tempo and write the felt tempo next to it.
+  - Find the felt tempo first: time one felt bar, from a snare to the second snare after it. Felt BPM = 240 ÷ that time in seconds (3.33 s is 72). Count snares or claps, not hats.
+  - Set the DAW to the grid tempo you work on (144 for a 72 feel) and write the felt tempo next to it.
   - Under a half-time trap feel, one felt bar = 2 grid bars. At 144 BPM, one grid bar = 1.667 s and one felt bar = 3.333 s.
   - Put markers at every planned block start, colour the hooks, and add a punch track.
   - Trim the loop so the first kick sits on bar 1, beat 1.
-- **Listen for:** the snare should land on felt beats 2 and 4. If it lands on 1 and 3, your felt grid is off by one felt beat (half a grid bar, 0.833 s at 144).
-- **One fix:** set the tempo from the kick spacing, not the hats, then halve or double until the snare falls on felt beats 2 and 4.
+- **Listen for:** with the click on, the snare should land on felt beats 2 and 4, bar after bar. One snare a bar or a snare on every beat means the tempo is an octave out: go back and time the felt bar again.
+- **One fix:** if the snare lands on 1 and 3, the tempo is right and the start is wrong. Slide the loop, or the bar start, by one felt beat (half a grid bar, 0.833 s at 144).
 
 ### 1 — Choose the beat and the pocket
 - **Action:**
@@ -51,15 +52,15 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - kick and 808 hits colliding with your stressed syllables every bar;
   - hi-hat rolls eating your consonants;
   - whether the felt pulse is in a range you can stay articulate in for 16 felt bars.
-- **One fix:** if the last word keeps getting buried, mute the 808 (or the kick) for the last beat of every second felt bar.
+- **One fix:** if the last word keeps getting buried, mute the 808 for the last beat of every second felt bar.
 - **What the hits show [M-1]:**
-  - Measured from 30-second clips: 72 of 96 show a clear backbeat. Of those, **63 are slow** (felt median 72 BPM, middle half 65–81), 6 sit at 100–107 and 3 at 127–143.5.
+  - Measured from 30-second clips: 72 of 96 show a clear backbeat (felt median 72 BPM, middle half 65–81). Of those, **63 are slow**, 6 sit at 100–107 and 3 at 127–143.5.
   - Published BPMs usually show double the felt number (35 of the clear clips that have a listing), which is your 144-grid, 72-feel convention.
   - Drake-credited songs supply 30 of the 63 slow readings, so the slow pocket is partly one artist's habit.
 - **Verse-led vs trap vs drill:**
   - *Verse-led:* only 8 songs carry the tag and just 2 of their clips are clear, so the data says little about their tempo. Sparse midrange lets density read, because the hats aren't fighting you. [J]
-  - *Trap:* 44 of 45 trap-tagged songs with a resolved reading are slow (felt median 71) [M-1]. Cadence, repetition and space for ad-libs matter more than syllable count. [J]
-  - *Drill:* only two drill-tagged hits ("Barbie World", "Princess Diana"). That's too few to call a pattern, so treat this as judgment: syncopated kicks and sliding 808s, lines that start as pickups *before* the downbeat, and space for the 808 slide. [J]
+  - *Trap:* 43 of 44 trap-tagged songs with a resolved reading are slow (felt median 71) [M-1]. Cadence, repetition and space for ad-libs matter more than syllable count. [J]
+  - *Drill:* only two drill-tagged hits ("Barbie World", "Princess Diana"), and the tempo of "Barbie World" is unresolved (clip 108, listed 144). That's too few to call a pattern, so treat this as judgment: syncopated kicks and sliding 808s, lines that start as pickups *before* the downbeat, and space for the 808 slide. [J]
 
 ### 2 — Find the central phrase
 - **Action:**
@@ -78,12 +79,12 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Decide by the record's job.
   - **Single or short-form:** the hook or title phrase should be heard within about the first 15 seconds, as a spoken tag or by going hook-first.
   - **Statement record (verse-led):** open on the sharpest image and give the listener a *return anchor* by about 0:30. That can be a refrain line, a chant, the title as a verse-ending tag, or a beat change.
-  - Keep the intro to four felt bars (eight on your 144 grid), or eight if the record needs runway.
+  - Keep the intro to four felt bars (eight on your 144 grid), or eight if the record needs runway. The worked session uses a two-felt-bar intro as a tight-demo choice [J]; that is shorter than the measured middle half (3.8–8.1 felt bars).
 - **Listen for:** at 0:15, can a cold listener name the song or repeat one image?
 - **One fix:** put a one-felt-bar, dry version of the title phrase into the intro (see Opening A in the worked session).
 - **What the hits show:**
   - **[M-3]** 91/98 assessed tracks have a recurring hook. It starts at a median 0:31 and comes before the first verse in 48/91.
-  - **[M-3]** The 12 songs that *climbed* into the top 10, the closest thing here to an independent single, reach the hook at a median **0:18** and put it before the first verse in 8/11. The songs that debuted there take 0:36.
+  - **[M-3]** The 12 songs that *climbed* into the top 10 reach the hook at a median **0:18** and put it before the first verse in 8/11; 9 of 12 have a returning line by 0:15. The songs that debuted there take 0:36. [J] I treat the climbers as the closest thing here to an independent single; nothing in the data tests that.
   - **[M-4]** The first lyric line arrives within 5 seconds in 74/98 tracks, and it is usually an ad-lib, a sample or a spoken line rather than a rap bar. The intro before the first hook or verse runs a median 4.4 felt bars.
   - **[M-9]** 7/98 have no recurring hook at all; 2 of those are verse-led-tagged records.
 - **Verse-led vs trap vs drill:**
@@ -103,14 +104,14 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Does the pocket change register as a change, or just as "more words"?
 - **One fix:** remove one internal rhyme from each crowded bar.
 - **What the hits show:**
-  - **[M-2]** Verses run at a median 4.1 syllables a second (middle half 3.7–4.5), and that rate hardly changes with tempo. In a slow pocket it works out to about 3.4 syllables a felt beat. Verses are denser than hooks in 72/87 tracks.
-  - **[M-5]** First verses run a median 12 felt bars, clustering near 8 (25 tracks), 12 (15) and 16 (19). Most songs have two verses (50) or three (29).
+  - **[M-2]** Verses run at a median 4.1 syllables a second (middle half 3.7–4.5), and that rate hardly changes with tempo. In a slow pocket it works out to about 3.5 syllables a felt beat. Verses are denser than hooks in 72/87 tracks.
+  - **[M-5]** First verses run a median 12 felt bars, clustering near 8 (25 tracks), 12 (14) and 16 (17). Most songs have two verses (50) or three (29).
   - **[M-6]** Verse 2 is shorter than verse 1 in 23 tracks, similar in 28 and longer in 40 of 91. There is no short-second-verse rule.
   - [J] If you're solo, a register or pocket change is your version of a guest verse, and a bed change under verse 2 is the producer's version.
 - **Verse-led vs trap vs drill:**
-  - *Verse-led:* first verses run long here, a median 19 felt bars across 6 mapped songs [M-5]; flow switches every 8. [J]
-  - *Trap:* a median 9 felt bars [M-5], with repetition and call-and-response with ad-libs. [J]
-  - *Drill:* first verses of 8 and 11.4 felt bars in the two tagged hits [M-5]; front-loaded with pickups, staccato endings. [J]
+  - *Verse-led:* first verses run long here, a median 24 felt bars across 4 mapped songs [M-5]; flow switches every 8. [J]
+  - *Trap:* a median 10 felt bars [M-5], with repetition and call-and-response with ad-libs. [J]
+  - *Drill:* a first verse of 8 felt bars on "Princess Diana" and 25 seconds on "Barbie World" (no bar count: its tempo is unresolved) [M-5]; front-loaded with pickups, staccato endings. [J]
 
 ### 5 — Arrange the transitions
 - **Action:**
@@ -119,13 +120,14 @@ Nothing here claims a technique *causes* chart success. The measured items descr
 - **Listen for:** "same beat for three minutes" fatigue around 1:30, and whether each hook arrival actually lifts.
 - **One fix:** mute the drums for the last felt bar before Hook 2.
 - **What the hits show:**
-  - **[M-6]** The hook's words come back identical or with small changes in most tracks, and the last hook is at least a quarter longer than the first in 19/91. The change is carried by what surrounds the hook, which lyric timing cannot hear.
-  - **[M-11]** 19 songs have a documented beat switch, concentrated on Drake- and Kendrick Lamar-credited records. A gap of 12 seconds or more with no lyric line appears in 21/98 tracks.
+  - **[M-6]** The hook's words come back identical or with small changes in 74 of 91 tracks. The last hook is at least a quarter longer than the first in only 8/91 (8 of those 8 are Drake-credited). Lyric timing cannot hear what surrounds the hook, so whether drums, 808 or doubles change there was not measured; putting the change at the hook's edges is judgment. [J]
+  - **[M-6]** A stretch of 12 seconds or more between transcribed lines appears in 21/98 tracks. It can be a break or a beat change, but also a passage the transcriber left out, so treat it as a hint.
+  - **[M-11]** 18 songs have a documented beat switch (18 on saved page text), 16 of them on Drake- or Kendrick Lamar-credited records.
   - [J] Treat a full switch as a statement-record move. A one-bar drop is the single-sized version.
 
 ### 6 — Punch the lead (one-session workflow)
 - **Action:**
-  - Track the hook first (3 passes), then comp one lead and one double. Paste it into every hook slot.
+  - Track the hook first (3 passes), then comp one lead and one double. Paste it into every hook slot. If the song opens on a verse (Opening B in the worked session), track that opening verse first, then the hook.
   - For each verse, do two full passes for feel, then punch in 4-felt-bar units at marked breath points with a one-felt-bar pre-roll.
   - Punch on rests, never mid-rhyme-chain.
   - Keep the same mic distance (mark the floor) and the same gain all session; crossfade punches at breaths, 10–20 ms. [J]
@@ -143,7 +145,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Leave at least one spot where **silence** answers the punchline instead of an ad-lib.
   - Pan ad-libs 30–60% L/R, sitting 6–10 dB under the lead. [J]
 - **Listen for:** any ad-lib stepping on a rhyme or punchline, and doubles smearing consonants.
-- **One fix:** delete the ad-lib or move it to the next gap.
+- **One fix:** delete the ad-lib that lands on the rhyme or punchline.
 - **What the hits show [M-4]:** the first transcribed line is an ad-lib or vocalization in 35 of 98 tracks, so an ad-lib often *is* the entrance. Placement inside the bar and the silence after punchlines could not be measured from line-level timing: unknown. The placement rules above are **[J]**.
 
 ### 8 — Check the rough mix
@@ -151,7 +153,7 @@ Nothing here claims a technique *causes* chart success. The measured items descr
   - Check on a phone speaker, in mono, and in the car. Bounce loudness-matched versions for A/B (around −12 to −10 LUFS integrated is fine for a demo; this is not mastering).
   - Before you judge, set the basics: high-pass the vocal at 80–100 Hz, de-ess, and ride each punchline up about 1 dB. [J]
 - **Listen for:** every word intelligible at low volume; the title phrase the clearest word in the song; the 808 not masking the 100–250 Hz body of your voice.
-- **One fix:** dip 2–4 kHz in the beat under the lead (or sidechain it lightly).
+- **One fix:** dip 2–4 kHz in the beat under the lead.
 
 ---
 
@@ -161,12 +163,12 @@ Counts are from the style-tagged groups: trap or melodic trap 50 songs, verse-le
 
 | Decision | Verse-led | Trap | Drill |
 |---|---|---|---|
-| Tempo / feel | Too few clear clips to say (2 of 7); 5 of the 6 resolved readings are slow [M-1] | Slow pocket: felt median 71, middle half 64–78 (40 clear clips) [M-1] | Two hits only: "Princess Diana" 148/74 (clear), "Barbie World" 108 (by the range rule) [M-1] |
-| Pocket | 16ths on the grid; rhymes on 2 & 4 plus internal [J] | Triplets and repeated cadences; room for ad-libs [J] | Pickups into the bar; staccato; rests around 808 slides [J] |
+| Tempo / feel | Too few clear clips to say (2 of 7); 3 of the 4 resolved readings are slow [M-1] | Slow pocket: felt median 71, middle half 64–78 (40 clear clips) [M-1] | Two hits only: "Princess Diana" 148/74 (clear); "Barbie World" unresolved (clip 108, listed 144) [M-1] |
+| Pocket | Straight felt 16ths; rhymes on 2 & 4 plus internal [J] | Triplets and repeated cadences; room for ad-libs [J] | Pickups into the bar; staccato; rests around 808 slides [J] |
 | Central phrase | Refrain line, or no hook with a return anchor (2/8 have no hook) [M-9] | Chant or title repetition; hook in 45/48 [M-3] | Ad-lib/catchphrase identity plus a short hook [J] |
 | Opening | Sharpest image first [J] | Hook before verse 1 in 20/45; first hook at a median 0:36 [M-3] | Hook before verse 1 in both tagged hits [M-3]; tag or ad-lib, then pickup into the verse [J] |
-| Verse length | Median 19 felt bars (n=6) [M-5] | Median 9 felt bars (n=42) [M-5] | 8 and 11.4 felt bars in the two hits [M-5] |
-| Density | 4.7 syllables a second [M-2] | 4.0 syllables a second, about 3.5 a felt beat [M-2] | Staccato; leave rests [J] |
+| Verse length | Median 24 felt bars (n=4) [M-5] | Median 10 felt bars (n=41) [M-5] | 8 felt bars on "Princess Diana"; 25 s on "Barbie World" [M-5] |
+| Density | 4.7 syllables a second [M-2] | 4.0 syllables a second, about 3.6 a felt beat [M-2] | Staccato; leave rests [J] |
 | Main change on return | Beat switch or new bed [J] | New voice or beat change; 808/drum drop [J] | 808 pattern/slide change, drum drop [J] |
 | Punching | Longer takes (8 felt bars) to keep momentum [J] | Short punches are fine (cadences repeat) [J] | Punch by phrase *including* the pickup [J] |
 | Ad-libs | Sparse; protect the bars [J] | Frequent; call-and-response [J] | Signature ad-libs in the gaps [J] |
@@ -175,5 +177,5 @@ Counts are from the style-tagged groups: trap or melodic trap 50 songs, verse-le
 ## What this process cannot promise
 
 - **Superstar album launches dominate the reference set.** 88 of the 100 debuted directly in the top 10, 59 spent exactly one week there, and Drake is lead artist on 38. Patterns that come mostly from album-bomb cuts describe what *superstar launches* sound like. The 12 climbers are a closer but small, uncontrolled comparison ([M-8]).
-- **Some listening-level details are still unknown.** Timing, section sizes, density and felt tempo are now measured (`05-measurement-method.md`). The length of the silence after a punchline, where ad-libs sit in the bar, and what the drums and 808 do when a section returns are not: line-level lyric timing and 30-second clips cannot show them.
+- **Some listening-level details are still unknown.** Timing, section sizes, density and felt tempo are now measured (`05-measurement-method.md`). Not measured: where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; and what the drums, the 808, the melody and the vocal stack do when a section returns. Line-level lyric timing and 30-second clips cannot show them.
 - **A clip is one section and a lyric record is one transcription.** Each measured number has a basis code in `04-reference-list.md`, table 4b. Lean on the medians, not on any single track.

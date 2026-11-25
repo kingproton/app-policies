@@ -47,15 +47,15 @@ Total length is **2:56.7**. That deliberately sits at the short end of the measu
 | Block | This map | The measured hits | Finding |
 |---|---|---|---|
 | Felt tempo | 72 on a 144 grid | Median felt {{ q('all','felt_clear','median','{:g}') }} across {{ g('all','felt_clear')['n'] }} clear clips; published BPMs usually show the doubled number | M-1 |
-| Intro | 2 felt bars (6.7 s) | Median {{ q('all','intro_len_bars','median','{:.1f}') }} felt bars, middle half {{ q('all','intro_len_bars','q1','{:.1f}') }}–{{ q('all','intro_len_bars','q3','{:.1f}') }}. This map is on the short side by design | M-4 |
-| First vocal | 0:03.3 (A) or 0:06.5 (B) | First lyric line within 5 s in {{ g('all','first_line_le_5s') }} | M-4 |
-| First hook | 0:06.7 (A) or 0:33.3 (B) | Median {{ q('all','first_hook','median') }} overall; {{ q('climbers','first_hook','median') }} for the songs that climbed. Opening A matches the climbers, Opening B the wider set | M-3 |
+| Intro | 2 felt bars (6.7 s) | Median {{ q('all','intro_len_bars','median','{:.1f}') }} felt bars, middle half {{ q('all','intro_len_bars','q1','{:.1f}') }}–{{ q('all','intro_len_bars','q3','{:.1f}') }}. This map uses two, half the four that step 3 of the process recommends, to keep the demo short [J]. For the standard intro, repeat it to grid bars 1–8 and move everything after it back 4 grid bars (6.7 s) | M-4 |
+| First vocal | 0:03.3 (A) or 0:06.5 (B) | First lyric line within 5 s in {{ g('all','first_line_le_5s') }}. Opening B comes later than that, because nothing is said over its intro | M-4 |
+| First hook | 0:06.7 (A) or 0:33.3 (B) | Median {{ q('all','first_hook','median') }} overall; {{ q('climbers','first_hook','median') }} for the songs that climbed. Opening A is hook-first, like {{ g('climbers','hook_before_first_verse') }} of the climbers, but earlier than their middle half ({{ q('climbers','first_hook','q1') }}–{{ q('climbers','first_hook','q3') }}); Opening B sits near the overall median | M-3 |
 | Hook length | 8 felt bars | About 8 felt bars in {{ sm('all','hook1_len_bar_bands_map','7-9 (about 8)') }} of {{ g('all','hook1_len_bars_map')['n'] }} mapped songs, about 4 in {{ sm('all','hook1_len_bar_bands_map','3-5 (about 4)') }} | M-5 |
-| Verse 1 | 16 felt bars | About 16 in {{ sm('all','verse_len_bar_bands','14-18 (about 16)') }}, about 12 in {{ sm('all','verse_len_bar_bands','10-14 (about 12)') }}, about 8 in {{ sm('all','verse_len_bar_bands','6-10 (about 8)') }} of {{ g('all','first_verse_len_bars')['n'] }} | M-5 |
-| Verse 2 | 8 felt bars (shorter than verse 1) | Verse 2 is shorter in {{ num(g('all','verse2_shorter')) }}, similar in {{ num(g('all','verse2_similar')) }} and longer in {{ num(g('all','verse2_longer')) }} of {{ den(g('all','verse2_longer')) }}. The long version below evens it out | M-6 |
+| Verse 1 | 16 felt bars in one run (A); 8 before Hook 1 and 8 after it (B) | About 16 in {{ sm('all','verse_len_bar_bands','14-18 (about 16)') }}, about 12 in {{ sm('all','verse_len_bar_bands','10-14 (about 12)') }}, about 8 in {{ sm('all','verse_len_bar_bands','6-10 (about 8)') }} of {{ g('all','first_verse_len_bars')['n'] }} | M-5 |
+| Verse 2 | 8 felt bars (A: shorter than verse 1; B: the same length as each 8-bar verse part) | Verse 2 is shorter in {{ num(g('all','verse2_shorter')) }}, similar in {{ num(g('all','verse2_similar')) }} and longer in {{ num(g('all','verse2_longer')) }} of {{ den(g('all','verse2_longer')) }}. The long version below evens it out | M-6 |
 | Hook occurrences | 3, same words, full stack on the last | Two or three in most songs; words identical or nearly so in {{ sm('all','hook_return','identical') + sm('all','hook_return','minor_variation') }} of {{ sm('all','hook_return','identical') + sm('all','hook_return','minor_variation') + sm('all','hook_return','extended') + sm('all','hook_return','shortened') + sm('all','hook_return','new_lyrics') }} | M-6 |
 
-The map was drawn before these measurements and needed no change to fit inside them. Where it leaves the middle of the range (a two-bar intro, a short second verse), that is a choice, marked above. **[J]**
+The map was drawn before these measurements and has not been changed. Where it leaves the middle of the range, that is a choice **[J]**: a two-felt-bar intro, and with it Opening A's early hook and Opening B's 6.5-second first vocal; a short second verse in Opening A; and a runtime just under the 25th percentile. The process (step 3) and M-4 default to a four-felt-bar intro; this demo halves it to keep the A/B test short.
 
 **Long version (3:23.3):** insert a 16-grid-bar Verse 2b (8 felt bars) after grid bar 84, then move the drop, Hook 3 and the outro back 16 grid bars:
 - drop: grid 101–102 (2:46.7–2:50.0);
@@ -90,7 +90,7 @@ Every event before grid bar 85 is unchanged.
 | both | Pocket returns home · punch P4 | 45.1 | 23 | 1:13.3 |
 | both | Breath — end of felt bar 24 | 48.4 | 24 | 1:19.6 |
 | both | Verse 1 punchline — last word on the snare | 51.3 | 26 | 1:24.2 |
-| both | **SILENCE** — vocal and 808 out, hats keep time (≈2.3 s, to 1:26.7) | 51.3½ | 26 | 1:24.4 |
+| both | **SILENCE** — vocal and 808 out, hats and clap keep time (≈2.3 s, to 1:26.7) | 51.3½ | 26 | 1:24.4 |
 | both | HOOK 2 downbeat · paste point P5 (the comped Hook 1) | 53.1 | 27 | 1:26.7 |
 | both | Breath — hook answer bar | 56.4 | 28 | 1:32.9 |
 | both | Breath — hook answer bar | 60.4 | 30 | 1:39.6 |
@@ -130,7 +130,7 @@ Demonstration hook (8 felt bars: four lines, each line in one felt bar with the 
 > Whole city backed up like the Brent Spence — &nbsp;&nbsp;·&nbsp;&nbsp; *wait.*
 
 What it demonstrates:
-- The title phrase lands on the downbeat with an open vowel ("bear").
+- The title phrase starts on the Hook 1 downbeat (grid 5.1): "Load" takes the downbeat, and the open vowel in "bear" follows straight after it.
 - The end words *fold / cold* and *weight / wait* rhyme hard.
 - The last line drops its final word after a beat of space. "Wait" pays off "weight" and the bridge-traffic image together, and the gap lets it land.
 
@@ -145,11 +145,11 @@ Demonstration cold-verse opening (felt bars 3–6):
 
 > Floodwall murals — they ain't never painted *me*
 > So I paint it in the booth, every shade that they ain't *see*
-> Cold con**crete** — they **told** on me, the **load's** on me
+> **Cold** concrete — they **told** on me, the **load's** on me
 > **Hold** the beam while the **whole** street swore it **owed** to me
 
 What it demonstrates:
-- **Dense internal rhyme:** the *-old* chain (cold / told / load's / hold / whole / owed) runs through the middle of the bars, under the *on me / to me* end chain.
+- **Dense internal rhyme:** a long-O chain (cold / told / load's / hold / whole / owed) runs inside the bars, under the *on me / to me* end chain. Cold, told and hold are full rhymes; load's, whole and owed share the vowel without the full rhyme.
 - **Pointed local imagery:** the Covington floodwall murals.
 - **Bars 7–10 build to the title phrase as the last word on felt beat 2 of bar 10.** Felt beats 3–4 then stay empty (≈1.7 s) before the hook downbeat.
 
@@ -158,14 +158,15 @@ What it demonstrates:
 Felt bar at 72 BPM, counted in felt 16ths (one felt 16th = one grid 8th):
 
 ```
-felt beat:   | 1  e  &  a | 2  e  &  a | 3  e  &  a | 4  e  &  a |
+felt beat:   | 1  e  &  a  | 2  e  &  a  | 3  e  &  a  | 4  e  &  a  |
 drums:         K             S             k             S
 home pocket:   x  .  x  x    X  .  x  x    x  .  x  x    X  .  -  -
-                              ^rhyme                     ^last word, then air
+                             ^rhyme                      ^last word, then air
 triplet run:   x x x x x x   x x x x x x   x x x x x x   x x x x x x
-               (16th-note triplets at 72 = grid 8th-note triplets at 144, 7.2 syllables/s)
+               (16th-note triplets at 72 = grid 8th-note triplets at 144; 7.2 syllables/s with every slot filled.
+                In felt bars 20 and 22 leave the last three slots empty for breaths B5 and B6: about 6.8/s over the run.)
 half-density:  x  .  x  .    X  .  x  .    x  .  x  .    X  .  -  .
-                              ^rhyme                     ^rhyme, then air (2.1 syllables/s)
+                             ^rhyme                      ^rhyme, then air (2.1 syllables/s)
 ```
 
 - **Home pocket (verses 1a, 1c, 2):**
@@ -210,7 +211,7 @@ A second, arrangement-level silence comes at **2:20.0–2:23.3** (grid 85–86):
    - Do two full passes for feel, then punch in 4-felt-bar units, each with a one-felt-bar pre-roll: **P2, P2b, P3, P4** (Opening A) or **P1, P1b, P3, P4** (Opening B).
    - Never punch in the middle of an internal-rhyme chain. If one word in a chain is wrong, re-punch the whole 4-felt-bar unit from its punch point.
 4. **Verse 2:** punch at P6 and P7 the same way. P7 is also where pocket change 2 starts, so the punch catches the change cleanly.
-5. **Opening A tag:** record the dry title-phrase line (grid 3.1) **last**, once your voice matches the hook take.
+5. **Opening A tag:** record the dry title-phrase line (grid 3.1) after Verse 2, as the last lead line, once your voice matches the hook take.
 6. **Ad-libs last.** Use only the gaps marked above, at most one per felt bar in the verses. None in the triplet run, none in the half-density bars, and none in the 1:24 silence.
 
 Mic and consistency rules for punching:
@@ -222,21 +223,17 @@ Mic and consistency rules for punching:
 ## Listening test: choose between Opening A and Opening B
 
 1. **Bounce both openings** from 0:00 to 1:00, with the same mix, loudness-matched within 0.5 LU. Play from a phone speaker.
-2. **Get 3–5 cold listeners.** If you're testing yourself instead, wait at least 12 hours and test alone.
-3. **Alternate which opening each listener hears first.**
-4. **Run the test:**
-   - **Stop at 0:15** and ask:
-     - (a) "What do you think the song is called?"
-     - (b) "Say back one line or image you remember."
-   - **Play to 1:00** and ask:
-     - (c) "Say or sing the hook."
-     - (d) "Want to hear the rest?"
-5. **Score each listener:**
-   - Title named at 0:15: **2**
-   - Image recalled at 0:15: **1**
+2. **Get 4 or 6 cold listeners and split them evenly.** Each listener hears **one** opening only. Once someone has heard the title and the hook, the other opening is no longer cold for them.
+3. **Run the test** with each listener:
+   - **Stop at 0:15** and ask: (a) "What do you think the song is called, or what one line or image do you remember?" Note whether they gave the title or an image.
+   - **Play to 1:00** and ask: (b) "Say or sing the hook." (c) "Want to hear the rest?"
+4. **Score each listener** (5 at most, and both openings can earn every point):
+   - Names the title *or* says back a line or image at 0:15: **2**
    - Hook said back at 1:00: **2**
    - "Yes" to hearing the rest: **1**
-6. **Decide:**
-   - The higher total wins.
-   - **Split result** (A wins on title, B on image): use A as the single or short-form edit and B as the album version. They share everything after 1:00, so you lose nothing.
-7. **Testing alone:** note the timestamp where you first feel the urge to skip or check your phone. The opening that pushes that moment later wins.
+5. **Decide:**
+   - Average the scores for each opening (total ÷ the listeners who heard it). The higher average wins.
+   - **Tie:** the opening with more "yes" answers to (c) wins.
+   - **Still tied, or within half a point:** keep both. Use A as the single or short-form edit and B as the album version. They share everything after 1:00, so you lose nothing. The notes from question (a) tell you what each opening plants: usually the title for A and an image for B.
+6. **Only three listeners:** play both openings to each, alternating the order, but score only the first one each person hears. After the second, ask "Which would you keep playing?" and use that as the tie-break.
+7. **Testing alone:** you already know both, so recall cannot be scored. Wait at least 12 hours, play each from the top, and note the timestamp where you first feel the urge to skip or check your phone. The opening that pushes that moment later wins.

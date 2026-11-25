@@ -51,12 +51,19 @@ def genre_tag(o, t):
     other = ' '.join((b or {}).get('other_genre_charts') or []).lower()
     for k, lab in [('country', 'country chart'), ('dance/electronic', 'dance chart'), ('pop airplay', 'pop radio'), ('latin', 'Latin chart')]:
         if k in other: tags.append(lab)
+    # other genre charts shown in Wikipedia's chart table for the song (read directly)
+    for c in status[o['cid']].get('wiki_genre_charts') or []:
+        lab = {'Country': 'country chart', 'Rock & Alt': 'rock chart', 'Dance/Pop': 'dance chart', 'Dance/Electronic': 'dance chart', 'Christian': 'Christian chart',
+               'Afrobeats': 'Afrobeats chart', 'Latin': 'Latin chart'}.get(c)
+        if lab: tags.append(lab)
     return ('Rap — crossover (' + '; '.join(dict.fromkeys(tags)) + ')') if tags else 'Rap'
 def class_source(cid):
     st = status[cid]
     b = best_class(cid)
     url = ''
     if b and b.get('source_urls'): url = b['source_urls'][0]
+    ov = C.CLASSIFICATION_OVERRIDES.get(cid)                      # a targeted re-check replaces the earlier evidence and its URL
+    if ov and ov.get('source_url'): url = ov['source_url']
     if st['basis'].startswith('Year-End'):
         yr = re.search(r'(\d{4})', st['basis']).group(1)
         url = f'https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_Rap_Songs_of_{yr}'
@@ -99,13 +106,22 @@ def measured_cols(t):
     m = (t or {}).get('m') or {}; l = m.get('lyr') or {}; f = m.get('feel') or {}; b = m.get('bars') or {}
     return dict(m_runtime_s=m.get('runtime_s'), m_runtime_edition=m.get('runtime_edition'),
                 m_catalog_track=m.get('runtime_track'), m_catalog_collection=m.get('runtime_collection'), m_catalog_release_date=m.get('runtime_release_date'),
-                m_pulse_bpm=f.get('pulse_bpm'), m_felt_bpm=f.get('felt_bpm'), m_feel_basis=f.get('basis'), m_feel_other_reading_bpm=f.get('other_reading_bpm') if f.get('felt_bpm') == f.get('estimate_bpm') else f.get('estimate_bpm'),
-                m_feel_score=f.get('score'), m_feel_margin=f.get('margin'),
+                m_grid_bpm=f.get('grid_bpm'), m_pulse_bpm=f.get('pulse_bpm'), m_felt_bpm=f.get('felt_bpm'), m_feel_basis=f.get('basis'),
+                m_feel_other_reading_bpm=(f.get('other_reading_bpm') if f.get('felt_bpm') == f.get('estimate_bpm') else f.get('estimate_bpm')) if f.get('felt_bpm') else None,
+                m_feel_readings_bpm=' '.join(f'{x:g}' for x in sorted({round(v, 2) for v in (f.get('estimate_bpm'), f.get('other_reading_bpm')) if v})),
+                m_feel_score=f.get('score'), m_feel_margin=f.get('margin'), m_feel_listing_conflict=f.get('listing_conflict'),
+                m_listed_bpm=' '.join(f'{x:g}' for x in (f.get('listed_bpm') or [])),
                 m_lyric_record=l.get('record_id'), m_lyric_basis=l.get('basis'), m_first_line_s=l.get('first_line_s'), m_first_line_kind=l.get('first_line_kind'),
                 m_has_hook=l.get('has_hook'), m_first_hook_s=l.get('first_hook_s'), m_lines_before_hook=l.get('lines_before_hook'), m_hook_first=l.get('hook_first'),
                 m_hook_count=l.get('hook_count'), m_hook_starts_s=' '.join(f'{x:g}' for x in (l.get('hook_starts') or [])), m_first_hook_len_s=l.get('first_hook_len_s'),
                 m_first_verse_len_s=l.get('first_verse_len_s'), m_hook_return=l.get('hook_return'),
-                m_verse_words_per_s=l.get('verse_words_per_s'), m_hook_words_per_s=l.get('hook_words_per_s'), m_verse_sylls_per_s=l.get('verse_sylls_per_s'),
+                m_verse_words_per_s=l.get('verse_words_per_s'), m_hook_words_per_s=(l.get('hook_words_per_s') if l.get('has_hook') else None),
+                m_verse_sylls_per_s=l.get('verse_sylls_per_s'), m_verse_sylls_per_beat=(m.get('ride') or {}).get('verse_sylls_per_beat'),
+                m_first_anchor_s=l.get('first_anchor_s'), m_anchor_is_hook=l.get('anchor_is_hook'), m_hook_before_first_verse=l.get('hook_before_first_verse'),
+                m_first_section=l.get('first_section'), m_intro_len_s=l.get('intro_len_s'), m_intro_len_bars=b.get('intro_len'), m_n_verses=l.get('n_verses'),
+                m_section_order=' '.join(f"{x['label']}@{x['start_s']:g}" for x in (l.get('sections') or [])),
+                m_verse_lens_s=' '.join(f'{x:g}' for x in (l.get('verse_lens_s') or [])), m_hook_lens_s=' '.join(f'{x:g}' for x in (l.get('hook_lens_s') or [])),
+                m_second_run=l.get('second_run_code'),
                 m_longest_lyric_gap_s=l.get('longest_gap_s'), m_longest_lyric_gap_at_s=l.get('longest_gap_at_s'),
                 m_bar_s=b.get('bar_s'), m_first_hook_bars=b.get('first_hook'), m_first_hook_len_bars=b.get('first_hook_len'), m_first_verse_len_bars=b.get('first_verse_len'))
 mrows = []

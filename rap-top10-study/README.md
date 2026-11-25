@@ -12,18 +12,18 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 
 ## Capability verdict
 
-**ACE WITH CONDITIONS.** The reference list, the process, the worked session and the measurements are complete and usable. The conditions are stated limits, not missing work: the list is provisional at the margins, and three listening-level details could not be measured.
+**ACE WITH CONDITIONS.** The reference list, the process, the worked session and the measurements are complete and usable. The conditions are stated limits, not missing work: the list is provisional at the margins, and the listening-level details in the *Not measured* row below could not be measured.
 
 | Area | Status |
 |---|---|
 | Hot 100 first top-10 dates | **Verified** for 100 of 100 against Wikipedia's yearly top-ten lists. |
-| Hot 100 ranks | **Verified** for 51 of the 51 list songs whose chart week Billboard Canada hosts (from 2023-09-02). The other 49 ranks come from the weekly mirror, which matches Billboard Canada in 161 of 162 hosted weeks. |
-| Rap classification | **86 of 100** rest on a Billboard rap-chart figure read directly from a table. **14** (all Drake album cuts, marked †) rest on Billboard pages known only through search summaries. No dispute found changes the list; see `04-reference-list.md`, 4e. |
+| Hot 100 ranks | **Verified** for 51 of the 51 list songs whose chart week Billboard Canada hosts (from 2023-09-02). The other 49 ranks come from the weekly mirror, which matches Billboard Canada in 161 of 162 hosted weeks (159 on every title, 2 with one title spelled differently). |
+| Rap classification | **86 of 100** rest on a Billboard rap-chart figure read directly from a table. **14** (all Drake album cuts, marked †) rest on Billboard pages known only through search summaries. No dispute found changes the list. Above the cut, 6 excluded candidates rest on indirect evidence and 10 on a deduction from year-end lists; see `04-reference-list.md`, 4d and 4e. |
 | Runtime | **Measured** for 96 from the Apple catalog; cited for the other 4. |
-| Felt tempo (half or full time) | **Measured** from 30-second clips: 72 of 96 clear, 17 resolved with a caveat, 7 open, 4 without a clip. |
-| First vocal line, first hook, hook order, section sizes, density | **Measured** for 98 tracks from time-synced lyric records. Each was read twice (a repetition detector and an AI reader) and ruled on by a second AI reader where the two disagreed. Good to about a second. |
-| Samples, openings, beat switches, how records were made | **Documented.** Earlier claims were re-checked against saved Wikipedia and Songfacts page text; only supported ones are counted. |
-| Silence after punchlines, ad-lib placement in the bar, drum and 808 changes on return | **Not measured.** Line-level lyric timing and a 30-second clip cannot show them. They stay unknown. |
+| Felt tempo (half or full time) | **Measured** from 30-second clips: 72 of 96 clear, 13 resolved with a caveat, 11 open, 4 without a clip. |
+| First lyric line, first hook, hook order, section sizes, density | **Measured** for 98 tracks from time-synced lyric records (density for 97; section sizes in felt bars for the 79 to 83 that also have a resolved felt tempo). Each was read twice (a repetition detector and an AI reader) and ruled on by a second AI reader where the two disagreed. A second, separate run of that reading agrees on the first hook within 2.5 seconds for 83/87. Good to about a second. The first line is the first *transcribed* line, which is not always the lead artist. |
+| Samples, openings, beat switches, how records were made | **Documented.** Earlier claims were re-checked against saved Wikipedia and Songfacts page text. A claim counts if the page text supports it (P), or if the pages are silent and its cited source, known only through a search summary, was not rejected (S). The S share is small: 0 of 18 beat switches and 2 of 66 songs with a borrowing. |
+| Phrase and rhyme placement against the drums, silence after punchlines, ad-lib placement, layer changes on return | **Not measured:** where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; and what the drums, the 808, the melody and the vocal stack do when a section returns. Line-level lyric timing and a 30-second clip cannot show them. They stay unknown. |
 | Process, worked session, demo lyrics | Original work. Production judgment is labeled **[J]**. |
 
 **What I could not verify:** `www.billboard.com` was not read, because its robots.txt bars Anthropic's agents. Billboard chart pages are therefore cited, not opened. The licensed Billboard Canada pages, which you named as the starting issue, were read instead.
@@ -31,13 +31,13 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 ## How the study was built (short)
 
 - **Reference set:** first top-10 week per song, from the full weekly Hot 100 history.
-  - 155 rap and possible-rap candidates were checked song by song. Full year-end Hot Rap Songs lists for 2021–2025 and the Hot Rap Songs columns of 28 artist discography tables were then read directly and applied.
+  - 155 rap and possible-rap candidates were checked song by song. Full year-end Hot Rap Songs lists for 2021–2025 and the Hot Rap Songs columns of artist discography tables (65 pages read, 41 with a rap column, 27 of them listing a top-10 arrival) were then read directly and applied.
   - 209 other top-10 songs were pre-tagged non-rap by artist and genre. A separate audit checked 37 of them and flagged none as rap; none of the excluded songs appears on any year-end rap list.
 - **Measurements (2026-11-25):** Apple catalog durations and preview clips, and LRCLIB time-synced lyric records. No lyric text and no audio is stored; only derived numbers are.
-  - Felt tempo comes from a backbeat estimator that was tested on 24 synthetic drum patterns before use.
-  - Lyric structure was read twice per track, by a repetition detector and by an independent AI reader, with a second AI reader ruling on disagreements.
+  - Felt tempo comes from a backbeat estimator that was tested on 24 synthetic drum patterns before use (24 read correctly).
+  - Lyric structure was read twice per track, by a repetition detector and by an independent AI reader, with a second AI reader ruling on disagreements. The whole reading was run a second time by separate agents as a consistency check.
   - Nobody listened to the recordings and no person read the lyric records or pages. The checks are machine checks, described in file 05.
-- **Documented facts:** the earlier search-based research recorded claims with a basis code. In this pass every claim was checked against saved page text, and a skeptic re-checked every verdict. Basis codes: **P** page text supports it; **S** cited source, not rejected; **U** not confirmed (never counted); **R** recollection (never counted).
+- **Documented facts:** the earlier search-based research recorded claims with a basis code. In this pass every claim was checked against saved page text, and a skeptic re-checked every verdict that asserted support or contradiction (609 of 888; the rest were "not addressed", one reader's call). Basis codes: **P** the page states the fact or names the work (a supported verdict, a partly supported one whose quoted words are on the page, or a new page statement); **S** cited source known through a search summary, not rejected; **U** not confirmed (never counted); **R** recollection (never counted).
 - **Review:** each stage was re-checked by independent agents told to refute it, and the corrections are applied in `scripts/corrections.py`.
 
 ## Data files
@@ -45,16 +45,16 @@ This study looks at the 100 most recent distinct rap songs to reach the U.S. Bil
 | File | Contents |
 |---|---|
 | `data/reference_100.csv` | The 100 songs: date, rank, genre tag, classification basis, evidence tier and sources, chart path (debut or climb, peak, weeks in top 10), album-bomb flag |
-| `data/track_measurements.csv` | Per-track documented facts with basis codes, and the measured columns (`m_…`): runtime, grid and felt tempo, first line, hook timing, section lengths, density |
+| `data/track_measurements.csv` | Per-track documented facts with basis codes, and the measured columns (`m_…`): runtime, `m_grid_bpm` and `m_felt_bpm` (`m_pulse_bpm` is the raw detected pulse; the grid is the larger of pulse and felt), first line, hook timing, section order and lengths, density, and the second-run check. Columns without the `m_` prefix (`grid_bpm`, `felt_bpm`, `hook_before_first_verse`, …) are the earlier search-based research values, not measurements |
 | `data/classification_evidence.csv` | All 155 candidates with final status, evidence tier, year-end ranks and discography rap peaks |
-| `data/measured/` | Derived measurement data: chart checks, Wikipedia list transcriptions, genre tables, Apple catalog matches, lyric structure (detector and review), audio feel, page-claim verdicts |
+| `data/measured/` | Derived measurement data: chart checks, Wikipedia list transcriptions, genre tables, discography dash conflicts, Apple catalog matches, lyric structure (detector, review and the second review run), audio feel and the synthetic-pattern test, page-claim verdicts |
 | `data/raw/` | Frozen research data from the search-based pass, plus the computed statistics (`findings_stats.json`, `measured_stats.json`) |
 | `scripts/` | The build: classification, merges, statistics and renderers. `scripts/measure/` holds the fetch and measurement scripts. `scripts/corrections.py` holds every hand-coded correction |
-| `templates/` | The document templates. Every figure in files 01, 03 and 05 and in this README is filled in from the statistics by `scripts/render_docs.py` |
+| `templates/` | The document templates. Counts and medians in files 01, 02, 03 and 05 and in this README are filled in from the statistics by `scripts/render_docs.py`, and named examples are guarded: the build stops if the data no longer supports one |
 
 ## Re-running the study
 
 - `scripts/run_all.sh` rebuilds `04-reference-list.md`, the CSVs and the statistics from `data/raw/` and `data/measured/`. `scripts/render_docs.py` then fills the templates.
-- `scripts/measure/` re-fetches and re-measures (see `05-measurement-method.md` for the order). Downloads go to a working directory that is not committed.
+- `scripts/measure/` re-fetches and re-measures (see `05-measurement-method.md` for the order and arguments). Downloads go to a working directory that is not committed. The AI-agent steps (the lyric reading and the page check) are not re-runnable from the repository; their outputs are frozen in `data/measured/`.
 - `scripts/fetch_charts.py` downloads the weekly Hot 100 history (about 44 MB, not committed). Then `top10.py`, `candidates.py` and `chartmetrics.py` rebuild the chart dates, ranks and chart paths.
 - `scripts/collect.py` is not re-runnable outside the original session: it read that session's research journals. Its output is frozen in `data/raw/collected.json`.

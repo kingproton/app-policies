@@ -1,0 +1,223 @@
+{
+"note": "Felt-tempo estimator run on synthetic drum patterns with a known felt tempo; correct = within 3%.",
+"correct": 24,
+"patterns": 24,
+"results": [
+{
+"pattern": "trap",
+"true_felt_bpm": 72,
+"estimated_felt_bpm": 72.0,
+"pulse_bpm": 144.0,
+"score": 0.8,
+"margin": 0.793,
+"correct": true
+},
+{
+"pattern": "trap",
+"true_felt_bpm": 81,
+"estimated_felt_bpm": 81.0,
+"pulse_bpm": 162.0,
+"score": 0.942,
+"margin": 0.912,
+"correct": true
+},
+{
+"pattern": "trap",
+"true_felt_bpm": 65,
+"estimated_felt_bpm": 65.0,
+"pulse_bpm": 130.0,
+"score": 1.31,
+"margin": 1.303,
+"correct": true
+},
+{
+"pattern": "trap",
+"true_felt_bpm": 60.5,
+"estimated_felt_bpm": 60.5,
+"pulse_bpm": 121.0,
+"score": 1.295,
+"margin": 1.29,
+"correct": true
+},
+{
+"pattern": "trap",
+"true_felt_bpm": 87,
+"estimated_felt_bpm": 86.99,
+"pulse_bpm": 173.98,
+"score": 0.82,
+"margin": 0.804,
+"correct": true
+},
+{
+"pattern": "boombap",
+"true_felt_bpm": 90,
+"estimated_felt_bpm": 90.01,
+"pulse_bpm": 180.02,
+"score": 0.981,
+"margin": 0.967,
+"correct": true
+},
+{
+"pattern": "boombap",
+"true_felt_bpm": 86,
+"estimated_felt_bpm": 86.01,
+"pulse_bpm": 172.02,
+"score": 1.106,
+"margin": 1.1,
+"correct": true
+},
+{
+"pattern": "bounce",
+"true_felt_bpm": 100,
+"estimated_felt_bpm": 100.0,
+"pulse_bpm": 100.0,
+"score": 1.103,
+"margin": 0.998,
+"correct": true
+},
+{
+"pattern": "bounce",
+"true_felt_bpm": 105,
+"estimated_felt_bpm": 105.0,
+"pulse_bpm": 105.0,
+"score": 1.099,
+"margin": 1.01,
+"correct": true
+},
+{
+"pattern": "bounce",
+"true_felt_bpm": 133,
+"estimated_felt_bpm": 133.0,
+"pulse_bpm": 133.0,
+"score": 0.88,
+"margin": 0.808,
+"correct": true
+},
+{
+"pattern": "drill",
+"true_felt_bpm": 72,
+"estimated_felt_bpm": 72.01,
+"pulse_bpm": 144.02,
+"score": 0.527,
+"margin": 0.502,
+"correct": true
+},
+{
+"pattern": "drill",
+"true_felt_bpm": 74,
+"estimated_felt_bpm": 74.0,
+"pulse_bpm": 148.0,
+"score": 0.428,
+"margin": 0.35,
+"correct": true
+},
+{
+"pattern": "fourfloor",
+"true_felt_bpm": 127,
+"estimated_felt_bpm": 126.98,
+"pulse_bpm": 126.98,
+"score": 0.299,
+"margin": 0.191,
+"correct": true
+},
+{
+"pattern": "fourfloor",
+"true_felt_bpm": 120,
+"estimated_felt_bpm": 120.0,
+"pulse_bpm": 120.0,
+"score": 0.318,
+"margin": 0.228,
+"correct": true
+},
+{
+"pattern": "westbounce",
+"true_felt_bpm": 101,
+"estimated_felt_bpm": 101.0,
+"pulse_bpm": 101.0,
+"score": 0.822,
+"margin": 0.648,
+"correct": true
+},
+{
+"pattern": "westbounce",
+"true_felt_bpm": 96,
+"estimated_felt_bpm": 96.0,
+"pulse_bpm": 96.0,
+"score": 0.864,
+"margin": 0.789,
+"correct": true
+},
+{
+"pattern": "clickboombap",
+"true_felt_bpm": 90,
+"estimated_felt_bpm": 90.0,
+"pulse_bpm": 180.0,
+"score": 0.475,
+"margin": 0.374,
+"correct": true
+},
+{
+"pattern": "clickboombap",
+"true_felt_bpm": 84,
+"estimated_felt_bpm": 84.0,
+"pulse_bpm": 168.0,
+"score": 0.468,
+"margin": 0.374,
+"correct": true
+},
+{
+"pattern": "clicktrap",
+"true_felt_bpm": 70,
+"estimated_felt_bpm": 70.0,
+"pulse_bpm": 140.0,
+"score": 0.528,
+"margin": 0.189,
+"correct": true
+},
+{
+"pattern": "clicktrap",
+"true_felt_bpm": 77,
+"estimated_felt_bpm": 77.0,
+"pulse_bpm": 154.0,
+"score": 0.508,
+"margin": 0.117,
+"correct": true
+},
+{
+"pattern": "drill2",
+"true_felt_bpm": 71,
+"estimated_felt_bpm": 71.0,
+"pulse_bpm": 142.0,
+"score": 1.302,
+"margin": 1.296,
+"correct": true
+},
+{
+"pattern": "drill2",
+"true_felt_bpm": 72.5,
+"estimated_felt_bpm": 72.51,
+"pulse_bpm": 145.02,
+"score": 1.067,
+"margin": 1.058,
+"correct": true
+},
+{
+"pattern": "club",
+"true_felt_bpm": 140,
+"estimated_felt_bpm": 140.0,
+"pulse_bpm": 140.0,
+"score": 0.326,
+"margin": 0.036,
+"correct": true
+},
+{
+"pattern": "club",
+"true_felt_bpm": 72,
+"estimated_felt_bpm": 72.0,
+"pulse_bpm": 144.0,
+"score": 0.44,
+"margin": 0.336,
+"correct": true
+}
+]
+}

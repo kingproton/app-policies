@@ -3,10 +3,10 @@ Everything stays in the working directory."""
 import json, re, os, html, urllib.parse, sys
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from mpaths import SP
+from mpaths import SP, IN
 OUT = SP + 'net/corpus/'; os.makedirs(OUT, exist_ok=True)
-F = json.load(open(SP + 'data/final_rows.json'))
-T = json.load(open(SP + 'data/tracks_merged.json'))
+F = json.load(open(IN + 'final_rows.json'))
+T = json.load(open(IN + 'tracks_merged.json'))
 W = json.load(open(SP + 'net/wiki_articles.json'))
 SF = json.load(open(SP + 'net/songfacts_pages.json')) if os.path.exists(SP + 'net/songfacts_pages.json') else {}
 wiki_by = {(w['date'], w['rank']): w for w in W}

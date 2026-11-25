@@ -13,6 +13,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -32,6 +33,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -53,6 +55,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -75,6 +78,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -100,6 +104,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -121,6 +126,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -140,6 +146,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -159,6 +166,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -178,6 +186,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -197,6 +206,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -216,6 +226,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -237,6 +248,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -258,6 +270,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -277,6 +290,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -298,6 +312,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -317,6 +332,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -336,6 +352,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -355,6 +372,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -376,6 +394,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -395,6 +414,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -416,6 +436,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -441,6 +462,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -462,6 +484,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -487,6 +510,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -508,6 +532,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -529,6 +554,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -550,6 +576,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -571,6 +598,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -592,6 +620,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -613,6 +642,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -635,6 +665,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -656,6 +687,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -677,6 +709,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -696,6 +729,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -717,6 +751,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -736,6 +771,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -755,6 +791,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -774,6 +811,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -795,6 +833,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -816,6 +855,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -837,6 +877,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -858,6 +899,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -879,6 +921,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -905,6 +948,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -926,6 +970,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -952,6 +997,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -983,6 +1029,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1002,6 +1049,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -1031,6 +1079,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1050,6 +1099,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1069,6 +1119,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1088,6 +1139,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1107,6 +1159,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1126,6 +1179,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1145,6 +1199,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1164,6 +1219,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1183,6 +1239,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1202,6 +1259,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1221,6 +1279,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1240,6 +1299,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1259,6 +1319,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1285,6 +1346,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1309,6 +1371,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1328,6 +1391,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1352,6 +1416,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1376,6 +1441,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1400,6 +1466,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1431,6 +1498,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1459,6 +1527,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1490,6 +1559,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1514,6 +1584,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1540,6 +1611,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1566,6 +1638,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1592,6 +1665,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1613,6 +1687,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1644,6 +1719,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1670,6 +1746,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1700,6 +1777,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1735,6 +1813,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1771,6 +1850,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -1794,6 +1874,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -1825,6 +1906,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1856,6 +1938,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -1892,6 +1975,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1920,6 +2004,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -1951,6 +2036,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -1981,6 +2067,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2012,6 +2099,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2038,6 +2126,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2064,6 +2153,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2090,6 +2180,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2116,6 +2207,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -2135,6 +2227,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -2154,6 +2247,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -2177,6 +2271,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2217,6 +2312,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2257,6 +2353,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2297,6 +2394,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2332,6 +2430,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2367,6 +2466,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2402,6 +2502,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2433,6 +2534,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2462,6 +2564,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2502,6 +2605,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2533,6 +2637,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2025,
@@ -2564,6 +2669,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2590,6 +2696,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2618,6 +2725,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -2653,6 +2761,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2681,6 +2790,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2709,6 +2819,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2735,6 +2846,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2763,6 +2875,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2793,6 +2906,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2824,6 +2938,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -2860,6 +2975,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2887,6 +3003,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2913,6 +3030,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -2947,6 +3065,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -2999,6 +3118,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3035,6 +3155,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3066,6 +3187,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -3101,6 +3223,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3131,6 +3254,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3155,6 +3279,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3179,6 +3304,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3203,6 +3329,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3222,6 +3349,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3241,6 +3369,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3260,6 +3389,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3279,6 +3409,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3298,6 +3429,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3317,6 +3449,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3336,6 +3469,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3368,6 +3502,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3389,6 +3524,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3410,6 +3546,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3437,6 +3574,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3480,6 +3618,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 4,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3516,6 +3655,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3538,7 +3678,7 @@
 "title": "Cinderella",
 "artist": "Future, Metro Boomin & Travis Scott",
 "in_final": true,
-"status": "unverified",
+"status": "rap",
 "hot100_peak": 6,
 "discog_rap_peak": 3,
 "discog_rap_pages": [
@@ -3552,6 +3692,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3575,7 +3716,7 @@
 "title": "We Don't Trust You",
 "artist": "Future & Metro Boomin",
 "in_final": true,
-"status": "unverified",
+"status": "rap",
 "hot100_peak": 8,
 "discog_rap_peak": 5,
 "discog_rap_pages": [
@@ -3588,6 +3729,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -3619,6 +3761,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -3649,6 +3792,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3680,6 +3824,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3704,6 +3849,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3742,6 +3888,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -3773,6 +3920,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -3804,6 +3952,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3838,6 +3987,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 4,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -3859,6 +4009,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3887,6 +4038,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -3918,6 +4070,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3946,6 +4099,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -3976,6 +4130,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4004,7 +4159,7 @@
 "title": "Nee-nah",
 "artist": "21 Savage, Travis Scott & Metro Boomin",
 "in_final": true,
-"status": "unverified",
+"status": "rap",
 "hot100_peak": 10,
 "discog_rap_peak": 4,
 "discog_rap_pages": [
@@ -4018,6 +4173,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4049,6 +4205,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4079,6 +4236,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4115,6 +4273,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4134,6 +4293,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -4170,6 +4330,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4206,6 +4367,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4230,6 +4392,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4249,6 +4412,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4270,6 +4434,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4289,6 +4454,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4308,6 +4474,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4327,6 +4494,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4346,6 +4514,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4365,6 +4534,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4384,6 +4554,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4403,6 +4574,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4433,6 +4605,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4471,6 +4644,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4507,6 +4681,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2024,
@@ -4542,6 +4717,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4563,6 +4739,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4584,6 +4761,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4597,7 +4775,7 @@
 "title": "3D",
 "artist": "Jung Kook & Jack Harlow",
 "in_final": false,
-"status": "unverified",
+"status": "not_rap",
 "hot100_peak": 5,
 "discog_rap_peak": null,
 "discog_rap_pages": [],
@@ -4609,6 +4787,7 @@
 "Jack_Harlow_discography"
 ],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4628,6 +4807,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -4658,6 +4838,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4689,6 +4870,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4710,6 +4892,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -4758,6 +4941,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4784,6 +4968,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -4807,6 +4992,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -4850,6 +5036,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -4882,7 +5069,7 @@
 "title": "FE!N",
 "artist": "Travis Scott Featuring Playboi Carti",
 "in_final": true,
-"status": "unverified",
+"status": "rap",
 "hot100_peak": 5,
 "discog_rap_peak": 2,
 "discog_rap_pages": [
@@ -4895,6 +5082,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -4939,6 +5127,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -4971,6 +5160,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5006,6 +5196,7 @@
 "Latto_discography"
 ],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5030,6 +5221,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5056,6 +5248,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -5077,6 +5270,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5105,6 +5299,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5137,6 +5332,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5190,6 +5386,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5234,6 +5431,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5264,6 +5462,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5300,6 +5499,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5332,6 +5532,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5366,6 +5567,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5396,6 +5598,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5432,6 +5635,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5468,6 +5672,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5494,6 +5699,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -5517,6 +5723,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5553,6 +5760,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5583,6 +5791,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5609,6 +5818,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5635,6 +5845,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5665,6 +5876,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5691,6 +5903,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5717,6 +5930,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5741,6 +5955,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5775,6 +5990,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -5811,6 +6027,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5835,6 +6052,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5863,6 +6081,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5889,6 +6108,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -5920,6 +6140,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -5955,6 +6176,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -5990,6 +6212,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6011,6 +6234,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -6044,6 +6268,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -6080,6 +6305,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -6116,6 +6342,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6152,6 +6379,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6182,6 +6410,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6222,6 +6451,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6257,6 +6487,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6292,6 +6523,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6333,6 +6565,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6368,6 +6601,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6401,6 +6635,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6432,6 +6667,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6463,6 +6699,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -6494,6 +6731,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6518,6 +6756,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6542,6 +6781,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6561,6 +6801,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6580,6 +6821,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6599,6 +6841,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6618,6 +6861,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6637,6 +6881,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6655,7 +6900,10 @@
 "discog_rap_dash_pages": [],
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
-"n_rows": 1,
+"n_rows": 0,
+"rows_dropped_other_artist": [
+"Ice_Spice_discography"
+],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6680,6 +6928,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6703,6 +6952,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2023,
@@ -6728,20 +6978,22 @@
 "in_final": true,
 "status": "rap",
 "hot100_peak": 8,
-"discog_rap_peak": 1,
+"discog_rap_peak": 2,
 "discog_rap_pages": [
-"Drake_singles_discography",
-"Kanye_West_singles_discography",
-"Lil_Baby_discography",
-"Lil_Wayne_singles_discography"
+"Lil_Baby_discography"
 ],
 "discog_rap_dash_pages": [],
 "discog_rbhh": [
-2,
 3
 ],
 "discog_rbhh_dash": [],
-"n_rows": 5,
+"n_rows": 1,
+"rows_dropped_other_artist": [
+"Drake_singles_discography",
+"Eminem_singles_discography",
+"Kanye_West_singles_discography",
+"Lil_Wayne_singles_discography"
+],
 "ye_rap": [
 [
 2023,
@@ -6777,6 +7029,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6800,6 +7053,7 @@
 "Doja_Cat_discography"
 ],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -6835,6 +7089,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6867,6 +7122,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -6911,6 +7167,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6937,6 +7194,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -6961,6 +7219,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -6986,6 +7245,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7036,6 +7296,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7059,7 +7320,7 @@
 "title": "Bad Decisions",
 "artist": "benny blanco, BTS & Snoop Dogg",
 "in_final": false,
-"status": "unverified",
+"status": "not_rap",
 "hot100_peak": 10,
 "discog_rap_peak": null,
 "discog_rap_pages": [],
@@ -7069,6 +7330,7 @@
 "Snoop_Dogg_singles_discography"
 ],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7088,6 +7350,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -7128,6 +7391,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7152,6 +7416,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -7188,6 +7453,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7232,6 +7498,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7263,6 +7530,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7285,6 +7553,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7311,6 +7580,7 @@
 "Doja_Cat_discography"
 ],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7339,6 +7609,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7365,6 +7636,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7389,6 +7661,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7408,6 +7681,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7431,6 +7705,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7466,6 +7741,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -7492,6 +7768,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7527,6 +7804,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7562,6 +7840,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7581,6 +7860,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7607,6 +7887,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7633,6 +7914,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7661,6 +7943,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -7692,6 +7975,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7722,6 +8006,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7766,6 +8051,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7806,6 +8092,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -7836,6 +8123,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7855,6 +8143,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -7880,6 +8169,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7916,6 +8206,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -7948,6 +8239,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -7986,6 +8278,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8023,6 +8316,7 @@
 "JID_discography"
 ],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8054,6 +8348,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -8085,6 +8380,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8109,6 +8405,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8138,6 +8435,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -8174,6 +8472,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8198,6 +8497,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8222,6 +8522,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8252,6 +8553,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2022,
@@ -8288,6 +8590,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -8309,6 +8612,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8340,6 +8644,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8364,6 +8669,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8390,6 +8696,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8414,6 +8721,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8445,6 +8753,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8477,6 +8786,7 @@
 "Doja_Cat_discography"
 ],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8505,6 +8815,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8529,6 +8840,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8555,6 +8867,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8595,6 +8908,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -8616,6 +8930,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -8645,6 +8960,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -8693,6 +9009,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -8736,6 +9053,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -8771,6 +9089,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -8808,6 +9127,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -8858,6 +9178,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 3,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8884,6 +9205,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -8905,6 +9227,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8935,6 +9258,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [
 [
@@ -8965,7 +9289,10 @@
 1
 ],
 "discog_rbhh_dash": [],
-"n_rows": 3,
+"n_rows": 2,
+"rows_dropped_other_artist": [
+"The_Weeknd_discography"
+],
 "ye_rap": [
 [
 2021,
@@ -8998,6 +9325,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 0,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -9020,7 +9348,7 @@
 "title": "Jail",
 "artist": "Kanye West",
 "in_final": false,
-"status": "unverified",
+"status": "rap",
 "hot100_peak": 10,
 "discog_rap_peak": 3,
 "discog_rap_pages": [
@@ -9033,6 +9361,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [],
@@ -9057,6 +9386,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,
@@ -9088,6 +9418,7 @@
 "discog_rbhh": [],
 "discog_rbhh_dash": [],
 "n_rows": 1,
+"rows_dropped_other_artist": [],
 "ye_rap": [],
 "ye_rbhh": [],
 "ye_hot100": [
@@ -9116,6 +9447,7 @@
 ],
 "discog_rbhh_dash": [],
 "n_rows": 2,
+"rows_dropped_other_artist": [],
 "ye_rap": [
 [
 2021,

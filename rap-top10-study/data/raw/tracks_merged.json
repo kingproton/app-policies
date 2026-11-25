@@ -54,7 +54,8 @@
     "borrow_type": "interpolation",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: chorus interpolation of Lykke Li's 2011 'I Follow Rivers', and credit (Wikipedia writer line lists Bj\u00f6rn Yttling, Rick Nowels and Lykke Li). Not on either page: that the melody \u2026"
+    "page_note": "Supported: chorus interpolation of Lykke Li's 2011 'I Follow Rivers', and credit (Wikipedia writer line lists Bj\u00f6rn Yttling, Rick Nowels and Lykke Li). Not on either page: that the melody \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -347,6 +348,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 15.1,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 15.1,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.27,
     "hook_words_per_s": 2.01,
     "verse_sylls_per_s": 3.85,
@@ -380,7 +400,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     126
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.67,
@@ -605,6 +629,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": false,
     "intro_len_s": 20.79,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 81.26,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.1,
     "hook_words_per_s": 2.96,
     "verse_sylls_per_s": 3.76,
@@ -639,7 +682,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.64,
@@ -797,7 +842,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 2.49,
@@ -955,6 +1002,7 @@
    "hook_first->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "hook_first_page_note": "The page says what precedes the first verse is a spoken word intro and mentions no chorus anywhere. It does not explicitly state that there is no hook before the \u2026",
   "m": {
    "page": {
@@ -1101,6 +1149,21 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "intro_len_s": 17.48,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.33,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 5.44,
@@ -1131,7 +1194,11 @@
     "basis": "I",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     83.55
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.91,
@@ -1284,6 +1351,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "beat_switch_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -1439,6 +1507,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 28.32,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 28.32,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.05,
     "hook_words_per_s": 2.79,
     "verse_sylls_per_s": 3.7,
@@ -1473,7 +1560,11 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     140
+    ],
+    "pulse_matches_listing": false
    }
   }
  },
@@ -1547,7 +1638,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: heavy sample of 'Glamorous' (Fergie feat. Ludacris, 2006, prod. Polow da Don), use of its chorus, the soft piano bed, and credit (the infobox writers include Stacy Ferguson, Jamal \u2026"
+    "page_note": "Supported: heavy sample of 'Glamorous' (Fergie feat. Ludacris, 2006, prod. Polow da Don), use of its chorus, the soft piano bed, and credit (the infobox writers include Stacy Ferguson, Jamal \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -1793,7 +1885,7 @@
     "hook_lens_s": [
      38.6,
      19.5,
-     44.3
+     36.0
     ],
     "n_verses": 2,
     "section_labels": "I H V H V H",
@@ -1803,6 +1895,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 4.07,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 4.07,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.4,
     "hook_words_per_s": 1.27,
     "verse_sylls_per_s": 4.23,
@@ -1837,7 +1948,13 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     95,
+     107,
+     108
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.37,
@@ -1853,7 +1970,7 @@
     "hook_lens": [
      17.2,
      8.7,
-     19.8
+     16.1
     ],
     "intro_len": 1.81,
     "first_line": 1.09,
@@ -1953,7 +2070,8 @@
     "source": "https://en.wikipedia.org/wiki/Big_Energy",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -2214,6 +2332,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 9.99,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 9.99,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.72,
     "hook_words_per_s": 2.95,
     "verse_sylls_per_s": 4.45,
@@ -2248,7 +2385,12 @@
     "basis": "L",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     106,
+     107
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.52,
@@ -2530,7 +2672,7 @@
     "verse_lens_s": [
      49.4,
      50.2,
-     52.8
+     52.5
     ],
     "hook_lens_s": [
      14.7,
@@ -2545,6 +2687,25 @@
     "ends_on": "verse",
     "hook_before_first_verse": true,
     "intro_len_s": 10.23,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 10.23,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.25,
     "hook_words_per_s": 3.96,
     "verse_sylls_per_s": 3.77,
@@ -2579,7 +2740,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.77,
@@ -2591,7 +2754,7 @@
     "verse_lens": [
      12.4,
      12.6,
-     13.2
+     13.1
     ],
     "hook_lens": [
      3.7,
@@ -2912,7 +3075,7 @@
     "hook_lens_s": [
      11.7,
      6.5,
-     23.3
+     11.9
     ],
     "n_verses": 4,
     "section_labels": "I V V H V H V H",
@@ -2922,6 +3085,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 12.76,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 55.75,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.43,
     "hook_words_per_s": 2.32,
     "verse_sylls_per_s": 3.11,
@@ -2955,7 +3137,14 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     77,
+     78,
+     155,
+     156
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.41,
@@ -2973,7 +3162,7 @@
     "hook_lens": [
      3.8,
      2.1,
-     7.5
+     3.8
     ],
     "intro_len": 4.12,
     "first_line": 0.48,
@@ -3043,7 +3232,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Sample, source title, artist and year are supported. The claim that sources do not say which element is out of date: Wikipedia says it is a vocal sample, at the \u2026"
+    "page_note": "Sample, source title, artist and year are supported. The claim that sources do not say which element is out of date: Wikipedia says it is a vocal sample, at the \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -3143,6 +3333,7 @@
   "return_anchor_sweep": "The sampled vocal returns in each chorus",
   "opening_source_sweep": "https://en.wikipedia.org/wiki/Super_Gremlin: the vocal sample from How to Loot Brazil's 'Errror (We Could Be Superstars)' is heard at the beginning and during the choruses",
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "hook_first_page_note": "Supported only in the weaker sense: the vocal sample that is used in the choruses is also at the beginning. The page does not say a full chorus precedes the \u2026",
   "m": {
    "page": {
@@ -3291,6 +3482,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 26.62,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 54.06,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.66,
     "hook_words_per_s": 2.7,
     "verse_sylls_per_s": 4.76,
@@ -3324,7 +3534,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     73,
+     146
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.91,
@@ -3601,6 +3816,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 14.16,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 55.04,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.5,
     "hook_words_per_s": 2.46,
     "verse_sylls_per_s": 4.5,
@@ -3634,7 +3868,11 @@
     "basis": "L",
     "feel_class": "slow",
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     140
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.85,
@@ -3931,6 +4169,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 30.68,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 30.68,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.63,
     "hook_words_per_s": 2.82,
     "verse_sylls_per_s": 4.52,
@@ -3965,7 +4222,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     140
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.87,
@@ -4289,7 +4550,7 @@
     "hook_lens_s": [
      15.5,
      15.5,
-     50.3
+     14.7
     ],
     "n_verses": 4,
     "section_labels": "I V V p H V H p V H",
@@ -4299,6 +4560,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 25.76,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": false
+     },
+     "first_hook_s": 109.45,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.83,
     "hook_words_per_s": 2.2,
     "verse_sylls_per_s": 5.42,
@@ -4333,7 +4613,12 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     86,
+     87
+    ],
+    "pulse_matches_listing": false
    }
   }
  },
@@ -4412,7 +4697,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the song samples Tems' 'Higher', it is a vocal sample (Songfacts: Tems 'contributes sampled vocals'), and the sample is credited in the writing credits. Contradicted in one detail: the \u2026"
+    "page_note": "Supported: the song samples Tems' 'Higher', it is a vocal sample (Songfacts: Tems 'contributes sampled vocals'), and the sample is credited in the writing credits. Contradicted in one detail: the \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -4691,6 +4977,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 22.47,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 36.06,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.29,
     "hook_words_per_s": 2.19,
     "verse_sylls_per_s": 4.22,
@@ -4724,7 +5029,13 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     83,
+     84,
+     85
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.98,
@@ -4966,7 +5277,7 @@
     "hook_lens_s": [
      30.6,
      30.8,
-     35.9
+     32.7
     ],
     "n_verses": 2,
     "section_labels": "I H V H V H",
@@ -4976,6 +5287,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 14.96,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 14.96,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.62,
     "hook_words_per_s": 4.44,
     "verse_sylls_per_s": 5.62,
@@ -5010,7 +5340,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     125
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 5.4,
@@ -5026,7 +5360,7 @@
     "hook_lens": [
      8.0,
      8.0,
-     9.3
+     8.5
     ],
     "intro_len": 3.9,
     "first_line": 0.4,
@@ -5095,6 +5429,7 @@
     "borrow_type": "sample",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -5268,7 +5603,7 @@
     ],
     "hook_lens_s": [
      29.0,
-     16.6
+     16.2
     ],
     "n_verses": 1,
     "section_labels": "I H q V p H",
@@ -5278,6 +5613,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 13.63,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 13.63,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.84,
     "hook_words_per_s": 3.44,
     "verse_sylls_per_s": 4.53,
@@ -5311,7 +5665,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     147
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.7,
@@ -5325,7 +5683,7 @@
     ],
     "hook_lens": [
      8.9,
-     5.1
+     5.0
     ],
     "intro_len": 4.17,
     "first_line": 3.19,
@@ -5385,6 +5743,7 @@
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -5502,7 +5861,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     144
+    ],
+    "pulse_matches_listing": true
    }
   }
  },
@@ -5576,7 +5939,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported by Songfacts: the sample, 1975, the 1:05 source position and 'throughout'. Wikipedia attributes it to 'Joe Washington' and places it at the start as a 'warped' vocal sample. Not \u2026"
+    "page_note": "Supported by Songfacts: the sample, 1975, the 1:05 source position and 'throughout'. Wikipedia attributes it to 'Joe Washington' and places it at the start as a 'warped' vocal sample. Not \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -5664,6 +6028,7 @@
   ],
   "tempo_outliers_removed": [],
   "beat_switch_page_note": "Wikipedia supports a change of instrumental material located in the second half (a different sample from the opening one), which fits a back-half switch. It does not use the words \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -5808,7 +6173,7 @@
      19.1,
      24.5,
      81.0,
-     92.2
+     82.6
     ],
     "hook_lens_s": [
      9.9,
@@ -5822,6 +6187,25 @@
     "ends_on": "verse",
     "hook_before_first_verse": false,
     "intro_len_s": 3.86,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 22.94,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.61,
     "hook_words_per_s": 2.63,
     "verse_sylls_per_s": 4.44,
@@ -5855,7 +6239,13 @@
     "basis": "L",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     69,
+     122,
+     164
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.37,
@@ -5868,7 +6258,7 @@
      4.8,
      6.2,
      20.6,
-     23.4
+     21.0
     ],
     "hook_lens": [
      2.5,
@@ -5937,7 +6327,8 @@
     "source": "https://www.songfacts.com/facts/drake/idgaf",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -6045,6 +6436,7 @@
   "return_anchor_sweep": "Yeat's entrance, where the beat drops (per Urban Islandz)",
   "opening_source_sweep": "https://urbanislandz.com/?p=306121",
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -6192,7 +6584,7 @@
     "hook_lens_s": [
      14.3,
      14.1,
-     41.5
+     15.7
     ],
     "n_verses": 2,
     "section_labels": "I p x H V H V p H",
@@ -6202,6 +6594,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 92.17,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 92.17,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.98,
     "hook_words_per_s": 3.34,
     "verse_sylls_per_s": 4.67,
@@ -6236,7 +6647,12 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     137,
+     143
+    ],
+    "pulse_matches_listing": true
    }
   }
  },
@@ -6301,7 +6717,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: sample of the unreleased 'Wiseman', written in 2012 (Songfacts), a vocal sample that starts and ends the track (Songfacts, so the open-and-close point no longer rests on low-reliability pages). \u2026"
+    "page_note": "Supported: sample of the unreleased 'Wiseman', written in 2012 (Songfacts), a vocal sample that starts and ends the track (Songfacts, so the open-and-close point no longer rests on low-reliability pages). \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -6351,6 +6768,7 @@
   "research_run": "S2_chunk1",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -6494,6 +6912,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 51.85,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 51.85,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.5,
     "hook_words_per_s": 1.02,
     "verse_sylls_per_s": 3.1,
@@ -6527,7 +6964,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     120
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.1,
@@ -6613,7 +7054,8 @@
     "source": "https://en.wikipedia.org/wiki/Calling_for_You",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "\"Livin Without You\" by Nohelani Cypriano",
@@ -6621,7 +7063,8 @@
     "source": "https://cavac.at/cavacopedia/Calling%20for%20You",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "\"Shake It to the Ground\" by Blaqstarr and Rye Rye",
@@ -6629,7 +7072,8 @@
     "source": "https://blavity.com/rye-rye-accuses-drake-of-stealing-vocals",
     "borrow_type": "sample",
     "credited": false,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -6826,7 +7270,7 @@
     "verse_lens_s": [
      15.3,
      24.0,
-     86.9
+     65.2
     ],
     "hook_lens_s": [],
     "n_verses": 3,
@@ -6836,6 +7280,21 @@
     "has_post_hook": false,
     "ends_on": "verse",
     "intro_len_s": 4.67,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.8,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 3.24,
@@ -6862,30 +7321,18 @@
     "score": 0.133,
     "margin": 0.041,
     "confidence": "unclear",
-    "felt_bpm": 75.99,
-    "basis": "I",
-    "feel_class": "slow",
+    "felt_bpm": null,
+    "basis": "?",
+    "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
-   },
-   "ride": {
-    "verse_sylls_per_beat": 2.56,
-    "hook_sylls_per_beat": null,
-    "verse_line_beats": 2.9
-   },
-   "bars": {
-    "bar_s": 3.158,
-    "verse_lens": [
-     4.8,
-     7.6,
-     27.5
+    "clip_s": 30.0,
+    "listed_bpm": [
+     121
     ],
-    "hook_lens": [],
-    "intro_len": 1.48,
-    "first_line": 0.83,
-    "first_hook": null,
-    "first_hook_len": null,
-    "first_verse_len": 4.85
+    "pulse_matches_listing": false,
+    "basis_from_clip": "I",
+    "felt_bpm_from_clip": 75.99,
+    "listing_conflict": true
    }
   }
  },
@@ -6946,7 +7393,8 @@
     "borrow_type": "audio clip",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: a sampled Tony Montana dialogue clip from Scarface (1983) opens the song. Not stated on either page: whether the sample is credited. The Wikipedia writer line names six people \u2026"
+    "page_note": "Supported: a sampled Tony Montana dialogue clip from Scarface (1983) opens the song. Not stated on either page: whether the sample is credited. The Wikipedia writer line names six people \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -7009,6 +7457,8 @@
    "opening->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
+  "beat_switch_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -7158,6 +7608,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 29.05,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 56.17,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.09,
     "hook_words_per_s": 2.06,
     "verse_sylls_per_s": 4.0,
@@ -7191,7 +7660,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     133
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 3.43,
@@ -7273,6 +7746,7 @@
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -7321,6 +7795,7 @@
   "research_run": "S2_chunk1",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -7469,7 +7944,7 @@
     ],
     "hook_lens_s": [
      13.2,
-     27.5
+     13.5
     ],
     "n_verses": 2,
     "section_labels": "I V x H V H",
@@ -7479,6 +7954,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 3.12,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 44.05,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.57,
     "hook_words_per_s": 3.1,
     "verse_sylls_per_s": 4.17,
@@ -7512,7 +8006,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     77,
+     143
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 3.65,
@@ -7527,7 +8026,7 @@
     ],
     "hook_lens": [
      3.8,
-     7.8
+     3.9
     ],
     "intro_len": 0.89,
     "first_line": 0.3,
@@ -7597,7 +8096,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the sample, and Rolling Stone's 'leans on' wording (quoted on Wikipedia). Not on the pages: the Complex listing and any statement that the sample is credited (the infobox writer \u2026"
+    "page_note": "Supported: the sample, and Rolling Stone's 'leans on' wording (quoted on Wikipedia). Not on the pages: the Complex listing and any statement that the sample is credited (the infobox writer \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "The Shining (1980 film) - 'Here's Johnny!' scene",
@@ -7606,7 +8106,8 @@
     "borrow_type": "audio clip",
     "credited": true,
     "status": "page",
-    "page_note": "Songfacts supports a sample of the film scene and the reversed-'murder' title. Placement is described on both pages: the outro. Wikipedia differs on the method: it says Usher, credited for \u2026"
+    "page_note": "Songfacts supports a sample of the film scene and the reversed-'murder' title. Placement is described on both pages: the outro. Wikipedia differs on the method: it says Usher, credited for \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -7845,6 +8346,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 56.42,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 56.42,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.64,
     "hook_words_per_s": 1.91,
     "verse_sylls_per_s": 3.06,
@@ -7879,7 +8399,12 @@
     "basis": "L",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     148,
+     172
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.14,
@@ -7949,7 +8474,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "The McLaren 'About Her' sample is supported (Songfacts adds that the sampled material is itself a Bessie Smith sample). Not on the pages: the 2004 date, the Last.fm and Complex \u2026"
+    "page_note": "The McLaren 'About Her' sample is supported (Songfacts adds that the sampled material is itself a Bessie Smith sample). Not on the pages: the 2004 date, the Last.fm and Complex \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "Lenny Williams - ''Cause I Love You'",
@@ -8056,6 +8582,7 @@
   ],
   "tempo_outliers_removed": [],
   "opening_page_note": "Songfacts says the track begins with Travis Scott's verse. It does not say whether any sample or instrumental intro precedes his voice.",
+  "hook_first_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -8185,7 +8712,7 @@
     ],
     "hook_lens_s": [
      23.9,
-     35.5
+     26.0
     ],
     "n_verses": 2,
     "section_labels": "I V H V H",
@@ -8195,6 +8722,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 34.4,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 92.41,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.23,
     "hook_words_per_s": 3.3,
     "verse_sylls_per_s": 4.06,
@@ -8228,7 +8774,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 2.95,
@@ -8243,7 +8791,7 @@
     ],
     "hook_lens": [
      8.2,
-     12.2
+     9.0
     ],
     "intro_len": 11.85,
     "first_line": 1.76,
@@ -8323,7 +8871,8 @@
     "source": "https://en.wikipedia.org/wiki/Agora_Hills",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -8627,6 +9176,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 14.28,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 14.28,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.71,
     "hook_words_per_s": 2.25,
     "verse_sylls_per_s": 4.32,
@@ -8661,7 +9229,13 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     100,
+     123,
+     127
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.21,
@@ -8747,7 +9321,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the sample, 1995, both spellings (Wikipedia uses 'Bass Soliloquy' in the lead and 'Bass Solique' in Composition), and the chorus reused as the hook (Songfacts: 'He took the hook \u2026"
+    "page_note": "Supported: the sample, 1995, both spellings (Wikipedia uses 'Bass Soliloquy' in the lead and 'Bass Solique' in Composition), and the chorus reused as the hook (Songfacts: 'He took the hook \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -8994,6 +9569,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 0,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 0,
+     "hook_count": 7,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.43,
     "hook_words_per_s": 3.27,
     "verse_sylls_per_s": 4.16,
@@ -9028,7 +9622,11 @@
     "basis": "I",
     "feel_class": "mid",
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     105
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.38,
@@ -9128,6 +9726,7 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -9253,6 +9852,7 @@
   "opening_source_sweep": "https://www.wikiwand.com/en/articles/Carnival_(%C2%A5$_song)",
   "opening_note": "Re-check: the song opens with a crowd chant by Inter Milan's Curva Nord ultras, recorded in the studio for the track (not a sample) and repeated throughout.",
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "hook_first_page_note": "The page says the song opens with the chants and that the chants are the hook's vocal loop, which implies hook material comes first. It never explicitly states that the \u2026",
   "m": {
    "page": {
@@ -9466,6 +10066,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 0.19,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 0.19,
+     "hook_count": 4,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": null,
     "hook_words_per_s": 3.42,
     "verse_sylls_per_s": null,
@@ -9501,7 +10120,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     148
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": null,
@@ -9583,7 +10206,8 @@
     "source": "https://en.wikipedia.org/wiki/Like_That_(Future,_Metro_Boomin_and_Kendrick_Lamar_song)",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "\"Eazy-Duz-It\" by Eazy-E (1989)",
@@ -9592,7 +10216,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Sample of Eazy-Duz-It (1989) and the Michel'le vocal sample are supported. 'Credited: True' is not stated: the infobox lists Lorenzo Patterson among writers but the page does not tie any \u2026"
+    "page_note": "Sample of Eazy-Duz-It (1989) and the Michel'le vocal sample are supported. 'Credited: True' is not stated: the infobox lists Lorenzo Patterson among writers but the page does not tie any \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -9866,6 +10491,25 @@
     "ends_on": "verse",
     "hook_before_first_verse": false,
     "intro_len_s": 17.54,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 88.45,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.29,
     "hook_words_per_s": 2.7,
     "verse_sylls_per_s": 3.89,
@@ -9900,7 +10544,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     162
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.88,
@@ -10191,6 +10839,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 3.21,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 3.21,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.53,
     "hook_words_per_s": 2.44,
     "verse_sylls_per_s": 3.07,
@@ -10224,7 +10891,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     145
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.54,
@@ -10512,6 +11183,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 28.59,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": false,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 2.74,
+     "hook_count": 4,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "differs: first hook",
     "verse_words_per_s": 2.93,
     "hook_words_per_s": 2.23,
     "verse_sylls_per_s": 3.79,
@@ -10547,7 +11237,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     65,
+     130
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.5,
@@ -10800,6 +11495,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 40.15,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 98.83,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.63,
     "hook_words_per_s": 2.32,
     "verse_sylls_per_s": 3.35,
@@ -10834,7 +11548,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     124
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.24,
@@ -10916,7 +11634,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Sample stated; credit shown in personnel as \"Tony Butler \u2013 songwriter (sample)\". Songfacts calls the bassline sample the track's \"heartbeat\", which supports the core-bed role. The phrase \"Debbie Deb flip\" \u2026"
+    "page_note": "Sample stated; credit shown in personnel as \"Tony Butler \u2013 songwriter (sample)\". Songfacts calls the bassline sample the track's \"heartbeat\", which supports the core-bed role. The phrase \"Debbie Deb flip\" \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -11202,6 +11921,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": false,
     "intro_len_s": 10.05,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 37.23,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.25,
     "hook_words_per_s": 2.62,
     "verse_sylls_per_s": 3.92,
@@ -11236,7 +11974,11 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     104
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.26,
@@ -11317,7 +12059,8 @@
     "source": "https://en.wikipedia.org/wiki/TV_Off",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "'The Black Hole \u2013 Overture' by John Barry (1979 film score)",
@@ -11325,7 +12068,8 @@
     "source": "https://en.wikipedia.org/wiki/TV_Off",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "'Kick in the Door' by The Notorious B.I.G.",
@@ -11333,7 +12077,8 @@
     "source": "https://en.wikipedia.org/wiki/GNX_(album)",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -11477,6 +12222,7 @@
   "tempo_outliers_removed": [],
   "opening_page_note": "Songfacts says the track opens with a Lamar lyric line about the Grand National, which fits a vocal opening. It does not call that line a verse (or say whether \u2026",
   "beat_switch_page_note": "Supported: two parts, beat switch around the two-minute mark, Lamar's scream of Mustard's name as the transition, the meme, and Mustard saying the parts were recorded at two different times, \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -11678,6 +12424,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 10.95,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 10.95,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.12,
     "hook_words_per_s": 2.57,
     "verse_sylls_per_s": 5.1,
@@ -11711,7 +12476,11 @@
     "basis": "I",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     100
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.03,
@@ -11791,7 +12560,8 @@
     "source": "https://en.wikipedia.org/wiki/GNX_(album)",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -11899,6 +12669,7 @@
   "return_anchor_sweep": "The sampled 'If This World Were Mine' line (Lynn/Vandross vocal)",
   "opening_source_sweep": "https://www.songfacts.com/facts/kendrick-lamar/luther",
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "hook_first_page_note": "Wikipedia's order is: opening sample, then Lamar's first verse, a pause, his second verse; the chorus (Lamar and SZA harmonizing) is described after that. So the Lamar/SZA chorus does not \u2026",
   "m": {
    "page": {
@@ -12086,6 +12857,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 12.55,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 53.79,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.49,
     "hook_words_per_s": 1.91,
     "verse_sylls_per_s": 2.8,
@@ -12120,7 +12910,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     138
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.43,
@@ -12258,6 +13052,7 @@
   "research_run": "S1_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -12416,7 +13211,7 @@
     "verse_lens_s": [
      46.3,
      84.6,
-     106.4
+     96.5
     ],
     "hook_lens_s": [
      24.9,
@@ -12430,6 +13225,25 @@
     "ends_on": "verse",
     "hook_before_first_verse": false,
     "intro_len_s": 23.84,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 70.14,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.31,
     "hook_words_per_s": 2.82,
     "verse_sylls_per_s": 4.38,
@@ -12463,7 +13277,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     82
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.21,
@@ -12475,7 +13293,7 @@
     "verse_lens": [
      15.8,
      28.9,
-     36.3
+     33.0
     ],
     "hook_lens": [
      8.5,
@@ -12541,7 +13359,8 @@
     "source": "https://en.wikipedia.org/wiki/Hey_Now_(Kendrick_Lamar_song)",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -12820,6 +13639,25 @@
     "ends_on": "verse",
     "hook_before_first_verse": true,
     "intro_len_s": 19.26,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": false,
+      "hook_count": true,
+      "hook_before_first_verse": false,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 56.78,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "differs: first hook, hook before first verse",
     "verse_words_per_s": 3.36,
     "hook_words_per_s": 2.67,
     "verse_sylls_per_s": 4.09,
@@ -12854,7 +13692,11 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     102
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.4,
@@ -12929,7 +13771,8 @@
     "borrow_type": "interpolation",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the borrowing, that the track runs over the \"Made Niggaz\" instrumental, and the credit (Tupac Shakur and co-writers are in the writer list). Differences: both pages call it a \u2026"
+    "page_note": "Supported: the borrowing, that the track runs over the \"Made Niggaz\" instrumental, and the credit (Tupac Shakur and co-writers are in the writer list). Differences: both pages call it a \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -13023,6 +13866,7 @@
    "opening->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -13170,6 +14014,21 @@
     "has_post_hook": false,
     "ends_on": "verse",
     "intro_len_s": 20.64,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.69,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 5.18,
@@ -13200,7 +14059,11 @@
     "basis": "I",
     "feel_class": "mid",
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     91
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.41,
@@ -13275,7 +14138,8 @@
     "borrow_type": "interpolation",
     "credited": false,
     "status": "page",
-    "page_note": "Supported: the interpolation. The infobox writer list has no Nas credit, which is consistent with \"uncredited\", but the saved page text never uses that word. \"Stillmatic\" is not mentioned on \u2026"
+    "page_note": "Supported: the interpolation. The infobox writer list has no Nas credit, which is consistent with \"uncredited\", but the saved page text never uses that word. \"Stillmatic\" is not mentioned on \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -13491,7 +14355,7 @@
     "hook_lens_s": [
      20.0,
      18.0,
-     20.4
+     9.1
     ],
     "n_verses": 3,
     "section_labels": "V H V H V H",
@@ -13501,6 +14365,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 32.29,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 75.02,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.59,
     "hook_words_per_s": 0.72,
     "verse_sylls_per_s": 4.92,
@@ -13531,34 +14414,18 @@
     "score": 0.126,
     "margin": 0.075,
     "confidence": "unclear",
-    "felt_bpm": 80.54,
-    "basis": "I",
-    "feel_class": "slow",
+    "felt_bpm": null,
+    "basis": "?",
+    "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
-   },
-   "ride": {
-    "verse_sylls_per_beat": 3.67,
-    "hook_sylls_per_beat": 0.65,
-    "verse_line_beats": 2.4
-   },
-   "bars": {
-    "bar_s": 2.98,
-    "verse_lens": [
-     14.3,
-     15.0,
-     18.5
+    "clip_s": 30.0,
+    "listed_bpm": [
+     92
     ],
-    "hook_lens": [
-     6.7,
-     6.0,
-     6.8
-    ],
-    "intro_len": 10.84,
-    "first_line": 10.84,
-    "first_hook": 25.18,
-    "first_hook_len": 6.7,
-    "first_verse_len": 14.34
+    "pulse_matches_listing": false,
+    "basis_from_clip": "I",
+    "felt_bpm_from_clip": 80.54,
+    "listing_conflict": true
    }
   }
  },
@@ -13619,7 +14486,8 @@
     "status": "page",
     "borrow_type": "sample",
     "credited": true,
-    "page_note": "'I Want You, Girl' is supported. 'Welcome to the Hive' does not appear on the page; the second sample it names is 'Nora's Transformation' by Charles Bernstein. Gladys Hayes and \u2026"
+    "page_note": "'I Want You, Girl' is supported. 'Welcome to the Hive' does not appear on the page; the second sample it names is 'Nora's Transformation' by Charles Bernstein. Gladys Hayes and \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "A Megan Thee Stallion composition (credited writers Megan Thee Stallion, J. White Did It, Bobby Sessions); possibly 'Savage', which is an unverified inference",
@@ -13628,7 +14496,8 @@
     "borrow_type": "interpolation",
     "credited": true,
     "status": "page",
-    "page_note": "The 'Savage' inference is confirmed, with writing credits (Megan Pete, Anthony White, Bobby Session Jr. in the infobox). The page says 21 Savage occasionally imitates the flow of 'Savage'."
+    "page_note": "The 'Savage' inference is confirmed, with writing credits (Megan Pete, Anthony White, Bobby Session Jr. in the infobox). The page says 21 Savage occasionally imitates the flow of 'Savage'.",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -13731,8 +14600,10 @@
   "research_run": "S1_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "beat_switch_page_note": "Beat switch, 'over halfway through' and the crashing piano beat are supported. The Vinylz/Billboard detail that Tay Keith made the switch-up beat is not on the page, and the page \u2026",
   "hook_first_page_note": "The page says the track starts (after the spoken intro) with Drake's repeated request, which is the passage on file as the hook. It does not label that passage the \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -13906,6 +14777,10 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 56.51,
+    "second_run": {
+     "status": "no final reading"
+    },
+    "second_run_code": "n/a",
     "verse_words_per_s": 2.67,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 3.08,
@@ -13936,7 +14811,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     153
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.41,
@@ -14008,7 +14887,8 @@
     "source": "https://en.wikipedia.org/wiki/Her_Loss",
     "status": "page",
     "borrow_type": "sample",
-    "credited": true
+    "credited": true,
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -14063,6 +14943,7 @@
   "research_run": "S1_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "beat_switch_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -14208,6 +15089,10 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": false,
     "intro_len_s": 35.41,
+    "second_run": {
+     "status": "no final reading"
+    },
+    "second_run_code": "n/a",
     "verse_words_per_s": 3.08,
     "hook_words_per_s": 1.89,
     "verse_sylls_per_s": 3.94,
@@ -14241,7 +15126,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     131
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.61,
@@ -14494,6 +15383,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 11.55,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 97.05,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.19,
     "hook_words_per_s": 1.97,
     "verse_sylls_per_s": 3.84,
@@ -14527,7 +15435,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     158
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.92,
@@ -14616,7 +15528,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the song samples \"Give Me Your Lovin\" by Oobie. Not in the page: the word \"prominent\" (the claim attributes that description to Wikipedia), and any statement that Oobie is \u2026"
+    "page_note": "Supported: the song samples \"Give Me Your Lovin\" by Oobie. Not in the page: the word \"prominent\" (the claim attributes that description to Wikipedia), and any statement that Oobie is \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -14822,6 +15735,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 14.05,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 58.47,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.41,
     "hook_words_per_s": 1.96,
     "verse_sylls_per_s": 4.03,
@@ -14855,7 +15787,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     108,
+     130
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.72,
@@ -15139,6 +16076,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 1.26,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 1.26,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.59,
     "hook_words_per_s": 2.47,
     "verse_sylls_per_s": 4.47,
@@ -15173,7 +16129,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     122
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.4,
@@ -15377,7 +16337,7 @@
     ],
     "hook_lens_s": [
      26.7,
-     51.4
+     26.8
     ],
     "n_verses": 2,
     "section_labels": "I V H V H",
@@ -15387,6 +16347,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 3.13,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 29.25,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.5,
     "hook_words_per_s": 2.89,
     "verse_sylls_per_s": 3.97,
@@ -15420,7 +16399,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     144
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.31,
@@ -15435,7 +16418,7 @@
     ],
     "hook_lens": [
      8.0,
-     15.4
+     8.0
     ],
     "intro_len": 0.94,
     "first_line": 0.19,
@@ -15507,7 +16490,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "The sample is stated. The page goes further than the claim on two points: it calls it both a sample and an interpolation, and it does describe the treatment, as \u2026"
+    "page_note": "The sample is stated. The page goes further than the claim on two points: it calls it both a sample and an interpolation, and it does describe the treatment, as \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -15710,6 +16694,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 18.38,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 36.78,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.39,
     "hook_words_per_s": 2.5,
     "verse_sylls_per_s": 4.08,
@@ -15743,7 +16746,11 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     104
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.35,
@@ -15856,6 +16863,7 @@
   "research_run": "S1_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -15989,7 +16997,7 @@
     "hook_lens_s": [
      20.3,
      21.2,
-     21.3
+     20.9
     ],
     "n_verses": 2,
     "section_labels": "H V H V H",
@@ -15999,6 +17007,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 3.03,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 3.03,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.95,
     "hook_words_per_s": 3.08,
     "verse_sylls_per_s": 3.49,
@@ -16033,7 +17060,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     142
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.95,
@@ -16049,7 +17080,7 @@
     "hook_lens": [
      6.0,
      6.3,
-     6.3
+     6.2
     ],
     "intro_len": 0.9,
     "first_line": 0.9,
@@ -16222,6 +17253,8 @@
    }
   ],
   "beat_switch_page_note": "Supported: the track has beat switches and both pages compare it to 'Sicko Mode'. Different from the file: the pages describe more than one switch (Wikipedia: three; Songfacts: 'a couple'), \u2026",
+  "beat_switch_page_origin": "partly_supported",
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -16402,7 +17435,7 @@
      4.4,
      11.4,
      3.0,
-     32.4
+     14.3
     ],
     "n_verses": 5,
     "section_labels": "I V H V H V H V H V H",
@@ -16412,6 +17445,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 17.62,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 90.76,
+     "hook_count": 5,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.22,
     "hook_words_per_s": 2.87,
     "verse_sylls_per_s": 4.08,
@@ -16445,7 +17497,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     112,
+     164
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.37,
@@ -16466,7 +17523,7 @@
      1.0,
      2.7,
      0.7,
-     7.6
+     3.3
     ],
     "intro_len": 4.11,
     "first_line": 0.53,
@@ -16826,7 +17883,7 @@
      16.3,
      9.9,
      3.2,
-     7.2
+     6.6
     ],
     "n_verses": 4,
     "section_labels": "I H V p H x V H V H V H",
@@ -16836,6 +17893,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 22.69,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": false,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 22.69,
+     "hook_count": 5,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "differs: hook count",
     "verse_words_per_s": 2.61,
     "hook_words_per_s": 2.96,
     "verse_sylls_per_s": 3.14,
@@ -16870,7 +17946,12 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     75,
+     148
+    ],
+    "pulse_matches_listing": true
    }
   }
  },
@@ -17135,7 +18216,7 @@
     ],
     "hook_lens_s": [
      20.2,
-     18.0
+     17.7
     ],
     "n_verses": 3,
     "section_labels": "I V V H x V H",
@@ -17145,6 +18226,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 8.19,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 86.78,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.13,
     "hook_words_per_s": 2.63,
     "verse_sylls_per_s": 2.67,
@@ -17178,7 +18278,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     121,
+     122
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.65,
@@ -17259,7 +18364,8 @@
     "source": "https://en.wikipedia.org/wiki/4x4_(song)",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -17315,6 +18421,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -17472,6 +18579,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 13.83,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 13.83,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.56,
     "hook_words_per_s": 2.59,
     "verse_sylls_per_s": 2.99,
@@ -17506,7 +18632,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     143
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.51,
@@ -17823,6 +18953,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 13.12,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 13.12,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.88,
     "hook_words_per_s": 2.62,
     "verse_sylls_per_s": 3.43,
@@ -17858,7 +19007,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     117
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.52,
@@ -18041,6 +19194,7 @@
   "tempo_outliers_removed": [],
   "tempo_note": "Only listing is 193 (two aggregators that may share data); the song has two parts, so one value may cover one part.",
   "beat_switch_page_note": "Supported: a beat switch exists (Songfacts; Wikipedia describes a midway transition) and Wraith9 is a credited producer. Not on pages: reviews calling it the main draw or hardest-hitting moment, Wraith9 \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -18180,6 +19334,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 23.01,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 101.84,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.58,
     "hook_words_per_s": 1.85,
     "verse_sylls_per_s": 4.36,
@@ -18213,7 +19386,11 @@
     "basis": "I",
     "feel_class": "mid",
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     193
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.7,
@@ -18297,7 +19474,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: a Roger Ridley sample, and credit (Roger Ridley is on the Wikipedia writer line). Conflict: Songfacts gives the title as 'What Am I' (1979), not 'Who Am I'. The \u2026"
+    "page_note": "Supported: a Roger Ridley sample, and credit (Roger Ridley is on the Wikipedia writer line). Conflict: Songfacts gives the title as 'What Am I' (1979), not 'Who Am I'. The \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "Muchi - 'The Pressure Is on Me'",
@@ -18356,6 +19534,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -18498,6 +19677,21 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "intro_len_s": 14.85,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.37,
     "hook_words_per_s": 0.26,
     "verse_sylls_per_s": 4.46,
@@ -18531,7 +19725,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     80
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 3.22,
@@ -18665,6 +19863,8 @@
   "verifier_applied": [],
   "tempo_outliers_removed": [],
   "beat_switch_page_note": "Supported: a two-part track with a production shift after a softer opening. Differs: Songfacts calls the opening a 'smoother, reflective R&B register' and the second part 'harder trap production', not \u2026",
+  "beat_switch_page_origin": "partly_supported",
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -18810,6 +20010,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 32.79,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 67.14,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.69,
     "hook_words_per_s": 4.92,
     "verse_sylls_per_s": 3.32,
@@ -18844,7 +20063,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     138
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.89,
@@ -18924,7 +20147,8 @@
     "borrow_type": "interpolation",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the title is lifted from Mac Dre's song (both pages), and Wikipedia adds that the cadence is borrowed too. Not stated: the word 'interpolation' or any credit; the infobox \u2026"
+    "page_note": "Supported: the title is lifted from Mac Dre's song (both pages), and Wikipedia adds that the cadence is borrowed too. Not stated: the word 'interpolation' or any credit; the infobox \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "SWV - 'That's What I Need'",
@@ -19107,7 +20331,7 @@
     ],
     "hook_lens_s": [
      34.0,
-     41.6
+     30.5
     ],
     "n_verses": 2,
     "section_labels": "I V H x V H",
@@ -19117,6 +20341,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 18.86,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 54.83,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.35,
     "hook_words_per_s": 2.9,
     "verse_sylls_per_s": 4.0,
@@ -19150,7 +20393,11 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     111
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 2.29,
@@ -19165,7 +20412,7 @@
     ],
     "hook_lens": [
      14.9,
-     18.2
+     13.3
     ],
     "intro_len": 8.25,
     "first_line": 0.6,
@@ -19226,7 +20473,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Sample stated by both pages; Deniece Williams is on the Wikipedia infobox writer line, so the credit is shown. The on-file remark that the use is not described is out \u2026"
+    "page_note": "Sample stated by both pages; Deniece Williams is on the Wikipedia infobox writer line, so the credit is shown. The on-file remark that the use is not described is out \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -19277,6 +20525,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -19436,7 +20685,7 @@
     ],
     "hook_lens_s": [
      22.6,
-     50.6
+     35.7
     ],
     "n_verses": 3,
     "section_labels": "H V V V H",
@@ -19446,6 +20695,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 2.09,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 2.09,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.85,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 3.9,
@@ -19476,7 +20744,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     162
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.89,
@@ -19492,7 +20764,7 @@
     ],
     "hook_lens": [
      7.6,
-     17.1
+     12.0
     ],
     "intro_len": 0.71,
     "first_line": 0.71,
@@ -19625,6 +20897,7 @@
    "returns->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "beat_switch_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -19777,6 +21050,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 22.56,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": false,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": false,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 3.59,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "differs: first hook",
     "verse_words_per_s": 3.33,
     "hook_words_per_s": 2.16,
     "verse_sylls_per_s": 3.99,
@@ -19811,7 +21103,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.83,
@@ -19884,7 +21178,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: both pages say the track is built on the Triggerman beat, and Wikipedia calls it a sample. Not shown: neither page says the sample is credited (the writer list \u2026"
+    "page_note": "Supported: both pages say the track is built on the Triggerman beat, and Wikipedia calls it a sample. Not shown: neither page says the sample is credited (the writer list \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -20109,6 +21404,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 12.92,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 12.92,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.12,
     "hook_words_per_s": 3.15,
     "verse_sylls_per_s": 3.79,
@@ -20143,7 +21457,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 2.84,
@@ -20269,6 +21585,7 @@
   "research_run": "S2_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -20435,6 +21752,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 8.98,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 8.98,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 5.33,
     "hook_words_per_s": 2.53,
     "verse_sylls_per_s": 6.05,
@@ -20469,7 +21805,9 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    }
   }
  },
@@ -20747,6 +22085,21 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "intro_len_s": 72.34,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.43,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 4.14,
@@ -21061,6 +22414,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 5.91,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 5.91,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.76,
     "hook_words_per_s": 2.06,
     "verse_sylls_per_s": 4.41,
@@ -21315,7 +22687,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     129,
+     130
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.74,
@@ -21384,7 +22761,8 @@
     "status": "page",
     "borrow_type": "sample",
     "credited": true,
-    "page_note": "Supported: the sample, stated by both pages (Songfacts dates the Hall song 1994, Wikipedia 1993). Not shown: a credit; the infobox writer line does not include Aaron Hall. Songfacts says \u2026"
+    "page_note": "Supported: the sample, stated by both pages (Songfacts dates the Hall song 1994, Wikipedia 1993). Not shown: a credit; the infobox writer line does not include Aaron Hall. Songfacts says \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "Terrell Grice - 'Sing'",
@@ -21393,7 +22771,8 @@
     "status": "page",
     "borrow_type": "sample",
     "credited": true,
-    "page_note": "Supported: the sample of a Terrell Grice composition titled \"Sing\" (Wikipedia only). Not shown: a credit; Terrell Grice is not on the infobox writer line. How it is used is \u2026"
+    "page_note": "Supported: the sample of a Terrell Grice composition titled \"Sing\" (Wikipedia only). Not shown: a credit; Terrell Grice is not on the infobox writer line. How it is used is \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -21488,6 +22867,7 @@
   ],
   "tempo_outliers_removed": [],
   "beat_switch_page_note": "Supported: the track has a beat switch. Songfacts counts two, not one: the first midway, the second into an upbeat club beat with the Aaron Hall sample. Not on either \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -21664,6 +23044,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 27.66,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": false,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 132.92,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "differs: first hook",
     "verse_words_per_s": 3.45,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 4.5,
@@ -21694,7 +23093,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     70
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.78,
@@ -21779,7 +23182,8 @@
     "status": "page",
     "borrow_type": "sample",
     "credited": true,
-    "page_note": "Supported: the synths sample the Nokia ringtone (Wikipedia); Songfacts says it is sampled throughout the song. Not shown: a credit; the infobox writer line lists only Aubrey Graham and Paul \u2026"
+    "page_note": "Supported: the synths sample the Nokia ringtone (Wikipedia); Songfacts says it is sampled throughout the song. Not shown: a credit; the infobox writer line lists only Aubrey Graham and Paul \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -21890,6 +23294,7 @@
   "return_anchor_sweep": "The names / phone call-and-response refrain",
   "opening_source_sweep": null,
   "tempo_outliers_removed": [],
+  "beat_switch_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -22075,6 +23480,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 0.09,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 0.09,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.9,
     "hook_words_per_s": 2.31,
     "verse_sylls_per_s": 4.38,
@@ -22109,7 +23533,13 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     84,
+     105,
+     114
+    ],
+    "pulse_matches_listing": false
    }
   }
  },
@@ -22176,7 +23606,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: sample of Warwick's 1964 'Walk on By', and Burt Bacharach and Hal David are on the infobox composer line, so it is credited. Not on either page: that the \u2026"
+    "page_note": "Supported: sample of Warwick's 1964 'Walk on By', and Burt Bacharach and Hal David are on the infobox composer line, so it is credited. Not on either page: that the \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -22285,6 +23716,7 @@
     "source": "songdata.io (one of three track pages; Db major)"
    }
   ],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -22443,6 +23875,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 18.73,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 18.73,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.34,
     "hook_words_per_s": 2.39,
     "verse_sylls_per_s": 3.94,
@@ -22477,7 +23928,11 @@
     "basis": "M",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     100
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.36,
@@ -22788,6 +24243,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 14.16,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 14.16,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.52,
     "hook_words_per_s": 2.67,
     "verse_sylls_per_s": 4.42,
@@ -22822,7 +24296,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     130
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.08,
@@ -22896,7 +24374,8 @@
     "source": "https://en.wikipedia.org/wiki/Barbie_World",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -23145,6 +24624,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 3.06,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 3.06,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.56,
     "hook_words_per_s": 3.93,
     "verse_sylls_per_s": 5.23,
@@ -23175,33 +24673,18 @@
     "score": 0.176,
     "margin": 0.02,
     "confidence": "unclear",
-    "felt_bpm": 108.08,
-    "basis": "I",
-    "feel_class": "mid",
+    "felt_bpm": null,
+    "basis": "?",
+    "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
-   },
-   "ride": {
-    "verse_sylls_per_beat": 2.9,
-    "hook_sylls_per_beat": 2.47,
-    "verse_line_beats": 2.98
-   },
-   "bars": {
-    "bar_s": 2.221,
-    "verse_lens": [
-     11.4,
-     12.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     144
     ],
-    "hook_lens": [
-     6.6,
-     6.0,
-     5.9
-    ],
-    "intro_len": 1.38,
-    "first_line": 0.16,
-    "first_hook": 1.38,
-    "first_hook_len": 6.59,
-    "first_verse_len": 11.45
+    "pulse_matches_listing": false,
+    "basis_from_clip": "I",
+    "felt_bpm_from_clip": 108.08,
+    "listing_conflict": true
    }
   }
  },
@@ -23487,7 +24970,7 @@
     "hook_lens_s": [
      26.9,
      25.7,
-     42.5
+     26.9
     ],
     "n_verses": 2,
     "section_labels": "I H V H V H",
@@ -23497,6 +24980,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 20.4,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 20.4,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.98,
     "hook_words_per_s": 1.77,
     "verse_sylls_per_s": 5.17,
@@ -23531,7 +25033,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     124,
+     143
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 4.34,
@@ -23547,7 +25054,7 @@
     "hook_lens": [
      8.0,
      7.7,
-     12.7
+     8.0
     ],
     "intro_len": 6.08,
     "first_line": 0.21,
@@ -23605,7 +25112,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Sample, source song, November 2022 date, 'prominent', beginning-and-end placement (Songfacts) and Manaois's writer/producer credit are all supported. The description of the source song as a gentle, acoustic-guitar ballad is not \u2026"
+    "page_note": "Sample, source song, November 2022 date, 'prominent', beginning-and-end placement (Songfacts) and Manaois's writer/producer credit are all supported. The description of the source song as a gentle, acoustic-guitar ballad is not \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -23857,6 +25365,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 30.7,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 30.7,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.66,
     "hook_words_per_s": 1.92,
     "verse_sylls_per_s": 4.6,
@@ -23892,7 +25419,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 4.76,
@@ -24176,6 +25705,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 13.25,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 13.25,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.64,
     "hook_words_per_s": 5.15,
     "verse_sylls_per_s": 4.35,
@@ -24210,7 +25758,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     148
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.53,
@@ -24291,7 +25843,8 @@
     "borrow_type": "audio clip",
     "credited": true,
     "status": "page",
-    "page_note": "The sampled Kardashian clip about the divorce from Kanye West and its 2021 finale source are supported (pages say 'season finale', not 'series finale'). 'Credited: True' is not shown by \u2026"
+    "page_note": "The sampled Kardashian clip about the divorce from Kanye West and its 2021 finale source are supported (pages say 'season finale', not 'series finale'). 'Credited: True' is not shown by \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -24500,7 +26053,7 @@
     "hook_lens_s": [
      29.2,
      40.1,
-     37.4
+     31.5
     ],
     "n_verses": 2,
     "section_labels": "I p H x V p H V p H",
@@ -24510,6 +26063,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 35.9,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 35.9,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.54,
     "hook_words_per_s": 2.67,
     "verse_sylls_per_s": 3.08,
@@ -24544,7 +26116,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     181
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 2.64,
@@ -24560,7 +26136,7 @@
     "hook_lens": [
      8.5,
      11.7,
-     10.9
+     9.2
     ],
     "intro_len": 10.47,
     "first_line": 0.06,
@@ -24637,7 +26213,8 @@
     "source": "https://en.wikipedia.org/wiki/Players_(Coi_Leray_song)",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -24836,7 +26413,7 @@
     "hook_lens_s": [
      17.6,
      16.9,
-     20.5
+     19.7
     ],
     "n_verses": 2,
     "section_labels": "H V p H V p H",
@@ -24846,6 +26423,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 9.98,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 9.98,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.96,
     "hook_words_per_s": 2.31,
     "verse_sylls_per_s": 4.74,
@@ -24880,7 +26476,12 @@
     "basis": "L",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     105,
+     164
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.71,
@@ -24896,7 +26497,7 @@
     "hook_lens": [
      7.7,
      7.4,
-     9.0
+     8.6
     ],
     "intro_len": 4.37,
     "first_line": 4.37,
@@ -25180,6 +26781,10 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 0.63,
+    "second_run": {
+     "status": "no final reading"
+    },
+    "second_run_code": "n/a",
     "verse_words_per_s": 2.34,
     "hook_words_per_s": 1.73,
     "verse_sylls_per_s": 2.71,
@@ -25213,7 +26818,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     75
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.17,
@@ -25288,7 +26897,8 @@
     "source": "https://www.songfacts.com/facts/eminem/houdini",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -25374,6 +26984,7 @@
   "opening_note": "Re-check: a Paul Rosenberg voicemail skit opens the song, then the sung 'Without Me' callback (Songfacts, Yahoo, HotNewHipHop via search summaries).",
   "tempo_outliers_removed": [],
   "tempo_note": "One listed value; the verifier left the half/double-time reading unresolved.",
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -25530,7 +27141,7 @@
     "hook_lens_s": [
      15.3,
      15.6,
-     16.6
+     15.9
     ],
     "n_verses": 3,
     "section_labels": "I V H V H B V H",
@@ -25540,6 +27151,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 28.99,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 59.27,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.5,
     "hook_words_per_s": 1.27,
     "verse_sylls_per_s": 4.33,
@@ -25574,7 +27204,11 @@
     "basis": "M",
     "feel_class": "fast",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     125
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.05,
@@ -25591,7 +27225,7 @@
     "hook_lens": [
      8.1,
      8.3,
-     8.8
+     8.4
     ],
     "intro_len": 15.34,
     "first_line": 0.01,
@@ -25655,7 +27289,7 @@
   "hook_first_basis": "unverified_recollection",
   "hook_status": "present_unverified",
   "beat_switch": "yes",
-  "beat_switch_basis": "source",
+  "beat_switch_basis": "unconfirmed",
   "beat_switch_detail": "No source says whether the late breakdown counts as a beat switch, or where it falls. Hooktheory's TheoryTab lists only Intro and Verse sections, which looks like a partial transcription.",
   "beat_switch_time": null,
   "producer_tag": "yes",
@@ -25674,7 +27308,8 @@
     "source": "https://www.songfacts.com/facts/kendrick-lamar/not-like-us",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -25744,7 +27379,9 @@
   "verify_confidence": "medium",
   "verified": true,
   "research_run": "S3_chunk2",
-  "verifier_applied": [],
+  "verifier_applied": [
+   "sweep beat_switch->not_settled"
+  ],
   "structure_sweep_used": [
    "opening_element",
    "beat_switch"
@@ -25957,6 +27594,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 7.39,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 74.54,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.75,
     "hook_words_per_s": 2.82,
     "verse_sylls_per_s": 4.75,
@@ -25990,7 +27646,12 @@
     "basis": "I",
     "feel_class": "mid",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     101,
+     102
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.82,
@@ -26067,6 +27728,7 @@
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -26192,8 +27854,10 @@
   "return_anchor_sweep": "No chorus; the song builds section by section instead. Sources count two or three distinct sections, with production growing more eerie and aggressive. Unverified recollection: recurring anaphoric 'I hate the way...' runs are the main repetition device.",
   "opening_source_sweep": "https://en.wikipedia.org/wiki/Euphoria_(Kendrick_Lamar_song) and https://uproxx.com/music/kendrick-lamar-euphoria-reverse-sample-the-wiz: it opens with a reversed audio clip from The Wiz (1978, Richard Pryor as the Wizard). The intro also samples Teddy Pendergrass's 'You're My Latest, My Greatest Inspiration'.",
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "beat_switch_page_note": "The 'yes' is supported: Pitchfork (quoted on Wikipedia) names beat switch-ups, Wikipedia says the beat picks up after the soft start and calls the track a three-beat structure, and Songfacts \u2026",
   "hook_first_page_note": "Supported in a weaker form: Wikipedia has the first verse following the reversed intro directly. Neither page mentions a chorus at all, so the absence of a hook before the \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -26346,6 +28010,21 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "intro_len_s": 7.58,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.77,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 4.81,
@@ -26438,7 +28117,8 @@
     "borrow_type": "self-reuse",
     "credited": false,
     "status": "page",
-    "page_note": "Supported: the 'Push Ups' outro beat is reused for the first verse and the opening. Not on either page: an opening chorus taken from 'Push Ups'. Credit status is not \u2026"
+    "page_note": "Supported: the 'Push Ups' outro beat is reused for the first verse and the opening. Not on either page: an opening chorus taken from 'Push Ups'. Credit status is not \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -26554,7 +28234,9 @@
   "tempo_outliers_removed": [],
   "opening_page_note": "Wikipedia says the song opens with a spoken voice clip from Drake's mother, not a hook or chorus. Songfacts does not describe the opening.",
   "beat_switch_page_note": "The 'yes' is supported, with the GQ line and the three beats (verse 1 on the 'Push Ups' outro beat, verse 2 drill, verse 3 downtempo). Not on the page: \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "opening_recoded_from": "hook_or_chorus",
+  "opening_page_origin": "recoded",
   "m": {
    "page": {
     "verdict_counts": {
@@ -26736,6 +28418,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 3.02,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": false,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 12.5,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "differs: hook before first verse",
     "verse_words_per_s": 3.86,
     "hook_words_per_s": 2.64,
     "verse_sylls_per_s": 4.78,
@@ -26769,7 +28470,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     113,
+     164
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.5,
@@ -26931,6 +28637,7 @@
   "tempo_outliers_removed": [],
   "beat_switch_page_note": "Supported: a second part where Conductor Williams's beat replaces T-Minus's. Not on either page: 'ominous and atmospheric', 'minimal' (Songfacts calls the first beat 'cold'), or the fan speculation about Drake's \u2026",
   "hook_first_page_note": "Songfacts places a chorus at the start, before 'the first verse'. Wikipedia does not describe a chorus.",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -27092,6 +28799,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 11.56,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 11.56,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.38,
     "hook_words_per_s": 3.39,
     "verse_sylls_per_s": 4.32,
@@ -27125,7 +28851,12 @@
     "basis": "I",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     85,
+     167
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.03,
@@ -27383,7 +29114,7 @@
     ],
     "hook_lens_s": [
      27.6,
-     35.3
+     27.9
     ],
     "n_verses": 2,
     "section_labels": "I V p H V p H",
@@ -27393,6 +29124,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 13.73,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 40.99,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.01,
     "hook_words_per_s": 3.18,
     "verse_sylls_per_s": 5.24,
@@ -27426,7 +29176,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 4.52,
@@ -27441,7 +29193,7 @@
     ],
     "hook_lens": [
      8.0,
-     10.2
+     8.1
     ],
     "intro_len": 3.98,
     "first_line": 0.35,
@@ -27511,7 +29263,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the song samples Young Buck's 'Get Buck' (page uses the word 'samples'). Not stated: that the sample is credited. The infobox writer line lists 17 writers but the page \u2026"
+    "page_note": "Supported: the song samples Young Buck's 'Get Buck' (page uses the word 'samples'). Not stated: that the sample is credited. The infobox writer line lists 17 writers but the page \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -27855,6 +29608,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 12.44,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 23.95,
+     "hook_count": 6,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.02,
     "hook_words_per_s": 2.19,
     "verse_sylls_per_s": 4.03,
@@ -27891,7 +29663,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     80
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.01,
@@ -27974,7 +29750,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Credit is supported by the Wikipedia infobox writer line, which lists 'Paul Dobson Nyirongo'. Songfacts says the chorus leans on the sample. The 'heavy-riffing' description and the Fader/Complex attributions are \u2026"
+    "page_note": "Credit is supported by the Wikipedia infobox writer line, which lists 'Paul Dobson Nyirongo'. Songfacts says the chorus leans on the sample. The 'heavy-riffing' description and the Fader/Complex attributions are \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -28240,6 +30017,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 14.45,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 41.5,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.6,
     "hook_words_per_s": 0.73,
     "verse_sylls_per_s": 3.37,
@@ -28273,7 +30069,11 @@
     "basis": "M",
     "feel_class": "fast",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     82
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 1.41,
@@ -28345,7 +30145,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Both pages name the sample as \"Gwen\" by Coco O, so the name is no longer unconfirmed. Songfacts also describes the treatment, a pitched-down and stretched-out vocal sample, which the \u2026"
+    "page_note": "Both pages name the sample as \"Gwen\" by Coco O, so the name is no longer unconfirmed. Songfacts also describes the treatment, a pitched-down and stretched-out vocal sample, which the \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -28389,6 +30190,7 @@
   "research_run": "S3_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -28558,6 +30360,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 12.03,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 71.92,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.02,
     "hook_words_per_s": 3.72,
     "verse_sylls_per_s": 4.93,
@@ -28591,7 +30412,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.65,
@@ -28659,6 +30482,7 @@
     "borrow_type": "sample",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -28702,6 +30526,7 @@
   "research_run": "S3_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -28832,6 +30657,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 23.57,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 73.25,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.17,
     "hook_words_per_s": 3.91,
     "verse_sylls_per_s": 5.34,
@@ -28865,7 +30709,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 4.08,
@@ -28937,7 +30783,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Wikipedia confirms the sample of Dukureh's recording, that she plays Thornton, the 1952 first recording, and Leiber/Stoller in the writer line. Songfacts confirms the Leiber/Stoller credit and calls it an \u2026"
+    "page_note": "Wikipedia confirms the sample of Dukureh's recording, that she plays Thornton, the 1952 first recording, and Leiber/Stoller in the writer line. Songfacts confirms the Leiber/Stoller credit and calls it an \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -29156,6 +31003,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 18.39,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 18.39,
+     "hook_count": 4,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.83,
     "hook_words_per_s": 1.68,
     "verse_sylls_per_s": 4.58,
@@ -29227,6 +31093,7 @@
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -29454,7 +31321,7 @@
     "hook_lens_s": [
      12.2,
      12.0,
-     30.1
+     15.2
     ],
     "n_verses": 2,
     "section_labels": "I V H V H H",
@@ -29464,6 +31331,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 11.38,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": true,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 95.75,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.04,
     "hook_words_per_s": 4.12,
     "verse_sylls_per_s": 4.84,
@@ -29497,7 +31383,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     80
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.63,
@@ -29513,7 +31403,7 @@
     "hook_lens": [
      4.1,
      4.0,
-     10.0
+     5.1
     ],
     "intro_len": 3.79,
     "first_line": 0.21,
@@ -29589,7 +31479,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: sample of Rick James' 'Super Freak', 1981, with James (infobox: James Johnson) and Alonzo Miller credited. Not stated: the album 'Street Songs'. The claim's remark that the lifted elements \u2026"
+    "page_note": "Supported: sample of Rick James' 'Super Freak', 1981, with James (infobox: James Johnson) and Alonzo Miller credited. Not stated: the album 'Street Songs'. The claim's remark that the lifted elements \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -29658,6 +31549,7 @@
   "return_anchor_sweep": "The 'Super Freak'-based title hook (unverified)",
   "opening_source_sweep": null,
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -29837,6 +31729,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 11.43,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 11.43,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.37,
     "hook_words_per_s": 2.9,
     "verse_sylls_per_s": 4.03,
@@ -29871,7 +31782,11 @@
     "basis": "M",
     "feel_class": "fast",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     133
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 1.82,
@@ -29944,7 +31859,8 @@
     "source": "https://en.wikipedia.org/wiki/Staying_Alive_(song) ; https://www.songfacts.com/facts/dj-khaled/staying-alive",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -30029,6 +31945,8 @@
    "hook_first->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
+  "hook_first_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -30093,7 +32011,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    }
   }
  },
@@ -30152,7 +32072,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Direct sample, 1999, opens the production; Ibn Young is in the Wikipedia writer list (the page does not tie him to the sample by name). Not on these pages: Tay \u2026"
+    "page_note": "Direct sample, 1999, opens the production; Ibn Young is in the Wikipedia writer list (the page does not tie him to the sample by name). Not on these pages: Tay \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "'You Were Gone' by Brook Benton (written by Al Goodman, Harry Ray, Walter Morris)",
@@ -30160,7 +32081,8 @@
     "source": "https://www.wikiwand.com/en/articles/Honestly,_Nevermind",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -30289,6 +32211,7 @@
   "opening_source_sweep": "https://wikiwand.com/en/articles/Jimmy_Cooks | https://uproxx.com/music/drake-21-savage-jimmys-cooks-honestly-nevermind",
   "tempo_outliers_removed": [],
   "beat_switch_page_note": "Wikipedia confirms a two-part beat: Playa Fly sample in the introduction, then a switch. Not on these pages: Tay Keith's Rolling Stone statement and the Karaoke Version variable-tempo listing. The \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -30452,6 +32375,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 14.33,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 75.96,
+     "hook_count": 4,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.97,
     "hook_words_per_s": 3.08,
     "verse_sylls_per_s": 3.63,
@@ -30485,7 +32427,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     146,
+     162
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 2.79,
@@ -30557,13 +32504,15 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the material originated with Ry X for Blood Moon, and he is credited (writer Ry Cuming; additional producer). Not stated: that it is a sample, that Ry X sent \u2026"
+    "page_note": "Supported: the material originated with Ry X for Blood Moon, and he is credited (writer Ry Cuming; additional producer). Not stated: that it is a sample, that Ry X sent \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "Virgil Abloh - spoken clip from his 2017 Columbia lecture (closes the song)",
     "borrow_type": "audio clip",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -30778,6 +32727,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 27.48,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 55.02,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.46,
     "hook_words_per_s": 3.11,
     "verse_sylls_per_s": 4.4,
@@ -30812,7 +32780,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.85,
@@ -30885,7 +32855,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "The infobox writer list includes West, Carter, Thornton, Young, Dean, Diggs, Wilson and Michael Dean. 'How and where it is used is not described' is out of date: it is \u2026"
+    "page_note": "The infobox writer list includes West, Carter, Thornton, Young, Dean, Diggs, Wilson and Michael Dean. 'How and where it is used is not described' is out of date: it is \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -30971,6 +32942,7 @@
     "source": "Beatport, as given in a search summary (with 'F Major' and a 2022-12-05 release date). The linked Beatport URL (https://www.beatport.com/track/draco/8992839) has a slug for a different title, so this value may not belong to this track."
    }
   ],
+  "beat_switch_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -31126,6 +33098,10 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 24.81,
+    "second_run": {
+     "status": "no final reading"
+    },
+    "second_run_code": "n/a",
     "verse_words_per_s": 2.91,
     "hook_words_per_s": 3.91,
     "verse_sylls_per_s": 3.86,
@@ -31159,7 +33135,9 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [],
+    "pulse_matches_listing": null
    },
    "ride": {
     "verse_sylls_per_beat": 3.97,
@@ -31236,7 +33214,8 @@
     "source": "https://www.hotnewhiphop.com/703196-drake-way-2-sexy-song",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "Right Said Fred - 'I'm Too Sexy' (interpolation)",
@@ -31244,7 +33223,8 @@
     "source": "https://www.karaoke-version.com/mp3-backingtrack/future/way-2-sexy.html",
     "borrow_type": "interpolation",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -31369,6 +33349,7 @@
   "return_anchor_sweep": "The 'I'm Too Sexy' interpolated chorus",
   "opening_source_sweep": null,
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "hook_first_page_note": "The pages say the sample is placed in front of the hook and describe sample, then Future's chorus, then the verses. Neither page states outright that the chorus comes before \u2026",
   "m": {
    "page": {
@@ -31542,6 +33523,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 14.37,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 14.37,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.51,
     "hook_words_per_s": 2.39,
     "verse_sylls_per_s": 3.27,
@@ -31576,7 +33576,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     136
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.89,
@@ -31662,6 +33666,7 @@
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -31872,6 +33877,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 12.11,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 12.11,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.78,
     "hook_words_per_s": 2.66,
     "verse_sylls_per_s": 4.49,
@@ -31906,7 +33930,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     87
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.1,
@@ -31991,7 +34019,8 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Wikipedia: 'contains samples of \"Mountains\"'. Credit is supported: Songfacts says the 'Mountains' writers are credited because of the sample, and the infobox lists them. The Hypebeast detail about drums and \u2026"
+    "page_note": "Wikipedia: 'contains samples of \"Mountains\"'. Credit is supported: Songfacts says the 'Mountains' writers are credited because of the sample, and the infobox lists them. The Hypebeast detail about drums and \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [
@@ -32073,6 +34102,7 @@
    "opening->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -32244,6 +34274,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": false,
     "intro_len_s": 12.48,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 46.22,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.32,
     "hook_words_per_s": 2.39,
     "verse_sylls_per_s": 4.23,
@@ -32278,7 +34327,11 @@
     "basis": "?",
     "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     168
+    ],
+    "pulse_matches_listing": false
    }
   }
  },
@@ -32334,7 +34387,8 @@
     "source": "https://www.songfacts.com/facts/drake/champagne-poetry",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "'Michelle' (Lennon-McCartney), as heard inside 'Navajo'; which recording is disputed",
@@ -32342,7 +34396,8 @@
     "source": "https://magneticmag.com/2022/08/champagne-poetry-sample/",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "Gabriel Hardeman Delegation - 'Until I Found the Lord (My Soul Couldn't Rest)' (1976)",
@@ -32350,7 +34405,8 @@
     "source": "https://www.songfacts.com/facts/drake/champagne-poetry",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [],
@@ -32439,7 +34495,9 @@
    "returns->unconfirmed"
   ],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "beat_switch_page_note": "The beat switch and its halfway position are supported, as is the Gabriel Hardeman Delegation sample. That the second beat is more soulful and upbeat, and that a choir backs \u2026",
+  "beat_switch_page_origin": "partly_supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -32600,6 +34658,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 0.03,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 0.03,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.08,
     "hook_words_per_s": 2.46,
     "verse_sylls_per_s": 3.9,
@@ -32629,33 +34706,18 @@
     "score": 0.169,
     "margin": 0.099,
     "confidence": "leaning",
-    "felt_bpm": 70.5,
-    "basis": "L",
-    "feel_class": "slow",
+    "felt_bpm": null,
+    "basis": "?",
+    "feel_class": null,
     "displaced_backbeat": true,
-    "clip_s": 30.0
-   },
-   "ride": {
-    "verse_sylls_per_beat": 3.32,
-    "hook_sylls_per_beat": 2.36,
-    "verse_line_beats": 3.38
-   },
-   "bars": {
-    "bar_s": 3.404,
-    "verse_lens": [
-     14.7,
-     12.2,
-     35.3
+    "clip_s": 30.0,
+    "listed_bpm": [
+     87
     ],
-    "hook_lens": [
-     4.3,
-     3.5
-    ],
-    "intro_len": 0.01,
-    "first_line": 0.01,
-    "first_hook": 0.01,
-    "first_hook_len": 4.29,
-    "first_verse_len": 14.74
+    "pulse_matches_listing": false,
+    "basis_from_clip": "L",
+    "felt_bpm_from_clip": 70.5,
+    "listing_conflict": true
    }
   }
  },
@@ -32718,6 +34780,7 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -32781,6 +34844,7 @@
   "return_anchor_sweep": "unknown",
   "opening_source_sweep": null,
   "tempo_outliers_removed": [],
+  "opening_page_origin": "statement",
   "m": {
    "page": {
     "verdict_counts": {
@@ -32952,7 +35016,7 @@
     ],
     "hook_lens_s": [
      25.8,
-     45.1
+     29.6
     ],
     "n_verses": 3,
     "section_labels": "I V V H V x H",
@@ -32962,6 +35026,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 32.81,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 118.77,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.37,
     "hook_words_per_s": 1.51,
     "verse_sylls_per_s": 2.98,
@@ -32995,7 +35078,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     146
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.45,
@@ -33011,7 +35098,7 @@
     ],
     "hook_lens": [
      7.8,
-     13.7
+     9.0
     ],
     "intro_len": 9.98,
     "first_line": 0.08,
@@ -33256,6 +35343,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 13.39,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 13.39,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.09,
     "hook_words_per_s": 2.88,
     "verse_sylls_per_s": 3.8,
@@ -33290,7 +35396,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     143
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.19,
@@ -33368,7 +35478,8 @@
     "source": "https://www.udiscovermusic.com/?p=2645688",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    }
   ],
   "features": [
@@ -33562,6 +35673,21 @@
     "has_post_hook": false,
     "ends_on": "outro",
     "intro_len_s": 30.41,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": null,
+     "hook_count": 0,
+     "has_hook": false,
+     "hook_before_first_verse": null
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.68,
     "hook_words_per_s": null,
     "verse_sylls_per_s": 3.4,
@@ -33592,7 +35718,11 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     140
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.91,
@@ -33670,7 +35800,8 @@
     "source": "https://au.rollingstone.com/music/music-news/drake-r-kelly-sample-tsu-29647",
     "borrow_type": "sample",
     "credited": true,
-    "status": "page"
+    "status": "page",
+    "page_origin": "supported"
    },
    {
     "work": "*NSYNC - 'Sailing' (Christopher Cross song)",
@@ -33687,7 +35818,8 @@
     "status": "page",
     "borrow_type": "sample",
     "credited": true,
-    "page_note": "Supported: Songfacts lists the Timberlake song as sampled, and the Wikipedia infobox credits Justin Timberlake and Timothy Mosley as writers (the article text does not name the song). Not supported \u2026"
+    "page_note": "Supported: Songfacts lists the Timberlake song as sampled, and the Wikipedia infobox credits Justin Timberlake and Timothy Mosley as writers (the article text does not name the song). Not supported \u2026",
+    "page_origin": "partly_supported"
    }
   ],
   "features": [],
@@ -33746,6 +35878,7 @@
   "research_run": "S4_chunk2",
   "verifier_applied": [],
   "tempo_outliers_removed": [],
+  "opening_page_origin": "supported",
   "m": {
    "page": {
     "verdict_counts": {
@@ -33922,6 +36055,25 @@
     "ends_on": "post_hook",
     "hook_before_first_verse": true,
     "intro_len_s": 62.09,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 62.09,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.67,
     "hook_words_per_s": 3.36,
     "verse_sylls_per_s": 3.27,
@@ -33956,7 +36108,12 @@
     "basis": "L",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     130,
+     260
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.02,
@@ -34322,6 +36479,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": false,
     "intro_len_s": 38.28,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 87.34,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": false
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.24,
     "hook_words_per_s": 0.93,
     "verse_sylls_per_s": 3.92,
@@ -34357,7 +36533,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": true,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     85,
+     150
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.13,
@@ -34688,6 +36869,25 @@
     "ends_on": "outro",
     "hook_before_first_verse": true,
     "intro_len_s": 17.05,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": false,
+      "first_section": false,
+      "n_verses": false,
+      "first_line_kind": true
+     },
+     "first_hook_s": 0.58,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.12,
     "hook_words_per_s": 2.09,
     "verse_sylls_per_s": 3.68,
@@ -34723,7 +36923,13 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     111,
+     112,
+     112.1
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 3.94,
@@ -34809,13 +37015,15 @@
     "borrow_type": "sample",
     "credited": true,
     "status": "page",
-    "page_note": "Supported: the source song, that its hook became this chorus, and that it is credited (Vory gets a songwriting credit, Fridayy a production credit). Not stated: the label 'sample'. Songfacts \u2026"
+    "page_note": "Supported: the source song, that its hook became this chorus, and that it is credited (Vory gets a songwriting credit, Fridayy a production credit). Not stated: the label 'sample'. Songfacts \u2026",
+    "page_origin": "partly_supported"
    },
    {
     "work": "DJ Khaled - 'God Did' and Drake - 'Chicago Freestyle'",
     "borrow_type": "interpolation",
     "credited": null,
     "status": "page",
+    "page_origin": "statement",
     "source": "page statement",
     "how_used": ""
    }
@@ -34997,7 +37205,7 @@
     "hook_lens_s": [
      22.8,
      23.9,
-     24.9
+     22.9
     ],
     "n_verses": 2,
     "section_labels": "H V H V H",
@@ -35007,6 +37215,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 1.3,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 1.3,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 4.24,
     "hook_words_per_s": 1.81,
     "verse_sylls_per_s": 5.04,
@@ -35041,7 +37268,12 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     90,
+     107
+    ],
+    "pulse_matches_listing": false
    },
    "ride": {
     "verse_sylls_per_beat": 3.76,
@@ -35057,7 +37289,7 @@
     "hook_lens": [
      7.6,
      8.0,
-     8.4
+     7.7
     ],
     "intro_len": 0.44,
     "first_line": 0.44,
@@ -35265,7 +37497,7 @@
     "hook_lens_s": [
      31.3,
      32.5,
-     49.9
+     31.0
     ],
     "n_verses": 2,
     "section_labels": "I H V H V H",
@@ -35275,6 +37507,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 10.98,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": false
+     },
+     "first_hook_s": 10.98,
+     "hook_count": 3,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 3.37,
     "hook_words_per_s": 3.14,
     "verse_sylls_per_s": 4.21,
@@ -35305,33 +37556,18 @@
     "score": 0.168,
     "margin": 0.07,
     "confidence": "leaning",
-    "felt_bpm": 68.99,
-    "basis": "L",
-    "feel_class": "slow",
+    "felt_bpm": null,
+    "basis": "?",
+    "feel_class": null,
     "displaced_backbeat": false,
-    "clip_s": 30.0
-   },
-   "ride": {
-    "verse_sylls_per_beat": 3.66,
-    "hook_sylls_per_beat": 3.48,
-    "verse_line_beats": 2.97
-   },
-   "bars": {
-    "bar_s": 3.479,
-    "verse_lens": [
-     12.0,
-     17.7
+    "clip_s": 30.0,
+    "listed_bpm": [
+     92
     ],
-    "hook_lens": [
-     9.0,
-     9.3,
-     14.3
-    ],
-    "intro_len": 3.16,
-    "first_line": 0.01,
-    "first_hook": 3.16,
-    "first_hook_len": 9.01,
-    "first_verse_len": 11.99
+    "pulse_matches_listing": false,
+    "basis_from_clip": "L",
+    "felt_bpm_from_clip": 68.99,
+    "listing_conflict": true
    }
   }
  },
@@ -35579,7 +37815,7 @@
     ],
     "hook_lens_s": [
      44.5,
-     49.2
+     48.1
     ],
     "n_verses": 2,
     "section_labels": "H V B V H",
@@ -35589,6 +37825,25 @@
     "ends_on": "hook",
     "hook_before_first_verse": true,
     "intro_len_s": 1.69,
+    "second_run": {
+     "status": "compared",
+     "same": {
+      "has_hook": true,
+      "first_line": true,
+      "first_hook": true,
+      "hook_count": true,
+      "hook_before_first_verse": true,
+      "hook_return": true,
+      "first_section": true,
+      "n_verses": true,
+      "first_line_kind": true
+     },
+     "first_hook_s": 1.69,
+     "hook_count": 2,
+     "has_hook": true,
+     "hook_before_first_verse": true
+    },
+    "second_run_code": "=",
     "verse_words_per_s": 2.69,
     "hook_words_per_s": 1.23,
     "verse_sylls_per_s": 3.29,
@@ -35622,7 +37877,13 @@
     "basis": "M",
     "feel_class": "slow",
     "displaced_backbeat": false,
-    "clip_s": 30.0
+    "clip_s": 30.0,
+    "listed_bpm": [
+     80,
+     83,
+     100
+    ],
+    "pulse_matches_listing": true
    },
    "ride": {
     "verse_sylls_per_beat": 2.47,
@@ -35637,7 +37898,7 @@
     ],
     "hook_lens": [
      14.8,
-     16.4
+     16.0
     ],
     "intro_len": 0.56,
     "first_line": 0.56,

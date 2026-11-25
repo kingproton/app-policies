@@ -156,7 +156,9 @@ for g, f in GROUPS.items():
     hb2 = [b['hook_lens'][0] for r, t, b, l in B if b.get('hook_lens')]
     d['hook1_len_bars_map'] = qd(hb2)
     d['hook1_len_bar_bands_map'] = {k: sum(1 for x in hb2 if lo <= x < hi) for k, lo, hi in (('under 3', 0, 3), ('3-5 (about 4)', 3, 5), ('5-7', 5, 7), ('7-9 (about 8)', 7, 9), ('9-13', 9, 13), ('13+', 13, 999))}
-    d['intro_len_bars'] = qd([b['intro_len'] for r, t, b, l in B if b.get('intro_len') is not None])
+    ib = [b['intro_len'] for r, t, b, l in B if b.get('intro_len') is not None]
+    d['intro_len_bars'] = qd(ib)
+    d['intro_len_bar_bands'] = {k: sum(1 for x in ib if lo <= x < hi) for k, lo, hi in (('under 3', 0, 3), ('3-5 (about 4)', 3, 5), ('5-7', 5, 7), ('7-9 (about 8)', 7, 9), ('9+', 9, 999))}
     d['first_verse_len_bars'] = qd(vb)
     d['verse_len_bar_bands'] = {k: sum(1 for x in vb if lo <= x < hi) for k, lo, hi in (('under 6', 0, 6), ('6-10 (about 8)', 6, 10), ('10-14 (about 12)', 10, 14), ('14-18 (about 16)', 14, 18), ('18-26', 18, 26), ('26+', 26, 999))}
     OUT['groups'][g] = d
@@ -193,9 +195,12 @@ F = [(r, t, M(t).get('feel')) for r, t in R if M(t).get('feel')]
 OUT['clip_missing'] = [f"#{r['n']} {r['title']}" for r, t in R if not M(t).get('feel')]
 OUT['feel_fast'] = [f"#{r['n']} {tag(r)}: felt {hbpm(f['felt_bpm'])} [{f['basis']}]" for r, t, f in F if f['feel_class'] == 'fast']
 OUT['feel_mid'] = [f"#{r['n']} {tag(r)}: felt {hbpm(f['felt_bpm'])} [{f['basis']}]" for r, t, f in F if f['feel_class'] == 'mid']
-OUT['feel_unresolved'] = [f"\"{ttl(r)}\" ({hbpm(min(f['estimate_bpm'], f['other_reading_bpm']))} or {hbpm(max(f['estimate_bpm'], f['other_reading_bpm']))})" for r, t, f in F if f['basis'] == '?']
+OUT['feel_unresolved'] = [f"\"{ttl(r)}\" ({hbpm(min(f['estimate_bpm'], f['other_reading_bpm']))} or {hbpm(max(f['estimate_bpm'], f['other_reading_bpm']))})" for r, t, f in F if f['basis'] == '?' and not f.get('listing_conflict')]
+# an unclear clip reading that no published listing matches (at the same, half or double tempo): shown, not resolved
+OUT['feel_listing_conflict'] = [f"\"{ttl(r)}\" (clip {hbpm(f['felt_bpm_from_clip'])}, listed {' and '.join(f'{v:g}' for v in f['listed_bpm'])})" for r, t, f in F if f.get('listing_conflict')]
+OUT['feel_range_lower_score'] = [f"\"{ttl(r)}\"" for r, t, f in F if f['basis'] == 'I' and f['felt_bpm'] != f['estimate_bpm']]
 OUT['feel_range_rule'] = [f"\"{ttl(r)}\" {hbpm(f['felt_bpm'])} (not {hbpm(f['other_reading_bpm'] if f['felt_bpm'] == f['estimate_bpm'] else f['estimate_bpm'])})" for r, t, f in F if f['basis'] == 'I']
-OUT['feel_leaning'] = [f"\"{ttl(r)}\" {hbpm(f['felt_bpm'])}" for r, t, f in F if f['basis'] == 'L']
+OUT['feel_leaning'] = [f"\"{ttl(r)}\" {hbpm(f['felt_bpm'])} (not {hbpm(f['other_reading_bpm'] if f['felt_bpm'] == f['estimate_bpm'] else f['estimate_bpm'])})" for r, t, f in F if f['basis'] == 'L']
 OUT['feel_displaced'] = [f"#{r['n']} {r['title']}" for r, t, f in F if f['basis'] == 'M' and f.get('displaced_backbeat')]
 OUT['feel_ranges'] = {c: [hbpm(min(f['felt_bpm'] for r, t, f in F if f['basis'] == 'M' and f['feel_class'] == c)), hbpm(max(f['felt_bpm'] for r, t, f in F if f['basis'] == 'M' and f['feel_class'] == c))]
                       for c in ('slow', 'mid', 'fast') if any(f['basis'] == 'M' and f['feel_class'] == c for r, t, f in F)}
@@ -205,14 +210,18 @@ hs = [l['hook_sylls_per_s'] for r, t, l in L if l['has_hook'] and l.get('hook_sy
 OUT['hook_sylls_per_s'] = qd(hs)
 OUT['slow_by_artist'] = dict(collections.Counter(who(r) for r, t, f in F if f['basis'] == 'M' and f['feel_class'] == 'slow').most_common(8))
 # pulse against earlier listings: does any listed BPM sit within 2.5% of the measured pulse, its half or its double?
-agree, disagree, nolist = [], [], []
+agree, disagree, nolist = [], [], []; n_conf_list = 0; clear_dis = []
 for r, t, f in F:
     lv = sorted({float(x['bpm']) for x in t.get('tempo_listed') or [] if x.get('bpm')})
     if not lv: nolist.append(r['title']); continue
     p = f['pulse_bpm']
     ok = any(abs(v - p * k) / (p * k) <= 0.025 for v in lv for k in (0.5, 1.0, 2.0))
     (agree if ok else disagree).append(f"{r['title']} (pulse {p:g}; listed {', '.join(f'{v:g}' for v in lv)})")
-OUT['pulse_vs_listings'] = dict(agree=len(agree), disagree=len(disagree), no_listing=len(nolist), disagree_list=disagree)
+    if not ok:
+        if max(lv) / min(lv) > 1.025: n_conf_list += 1          # the listings themselves disagree
+        if f['basis'] == 'M': clear_dis.append(f"\"{ttl(r)}\"")
+OUT['pulse_vs_listings'] = dict(agree=len(agree), disagree=len(disagree), no_listing=len(nolist), disagree_list=disagree,
+                                disagree_listings_conflict=n_conf_list, disagree_single_listing=len(disagree) - n_conf_list, disagree_clear=clear_dis)
 # how published listings relate to the felt tempo (clear readings only)
 rel = collections.Counter()
 for r, t, f in F:
@@ -261,6 +270,8 @@ for r, t in R:
         if f['category'] != 'recording_process': continue
         n_proc += 1; proc[process_code(r['cid'], f['statement'])].append((r['n'], ttl(r), f['statement'], f['source']))
 OUT['process'] = dict(statements=n_proc, tracks=len({x[0] for v in proc.values() for x in v}),
+                      beat_first_union=len({x[0] for c in ('beat_sent', 'beat_preexisting') for x in proc.get(c, [])}),
+                      beat_or_sample_first_union=len({x[0] for c in ('beat_sent', 'beat_preexisting', 'sample_first') for x in proc.get(c, [])}),
                       by_code={k: dict(statements=len(v), tracks=len({x[0] for x in v}), titles=sorted({x[1] for x in v}),
                                        items=[f"#{x[0]} {x[1]}: {x[2]} [{x[3]}]" for x in v]) for k, v in proc.items()})
 pf = collections.Counter(); pft = collections.defaultdict(set)
@@ -292,6 +303,43 @@ if os.path.exists(cp):
                                  new_facts_by_category=dict(collections.Counter(f['category'] for t in PCL.values() for f in t['new_facts'])))
     sp = cp.replace('.json', '_summary.json')
     if os.path.exists(sp): OUT['claims_summary']['run'] = json.load(open(sp))
+    # how the skeptic step was applied, and where each kind of P came from
+    OUT['claims_summary']['sent_to_skeptic'] = sum(1 for t in PCL.values() for v in t['verdicts'] if v['first_verdict'] != 'not_addressed')
+    OUT['claims_summary']['first_reader_only'] = sum(1 for t in PCL.values() for v in t['verdicts'] if v['first_verdict'] == 'not_addressed')
+    coded = lambda i: i in ('opening', 'beat_switch', 'hook_first') or i.startswith('return_') or i.startswith('delivery_')
+    con = [v['id'] for t in PCL.values() for v in t['verdicts'] if v['final'] == 'contradicted']
+    OUT['claims_summary']['contradicted_with_basis_code'] = sum(1 for i in con if coded(i)); OUT['claims_summary']['contradicted_no_basis_code'] = sum(1 for i in con if not coded(i))
+OUT['page_origins'] = dict(
+    borrowings=dict(collections.Counter(x.get('page_origin') for r, t in R for x in (t.get('samples') or []) if x.get('status') == 'page')),
+    borrowings_search_summary_only=[f"#{r['n']} {r['title']}: {x.get('work', '')[:50]}" for r, t in R for x in (t.get('samples') or []) if x.get('status') == 'confirmed'],
+    beat_switch=dict(collections.Counter(t.get('beat_switch_page_origin') for r, t in R if t.get('beat_switch') == 'yes' and t.get('beat_switch_basis') == 'page')),
+    opening=dict(collections.Counter(t.get('opening_page_origin') for r, t in R if t.get('opening_element') not in (None, 'unknown') and t.get('opening_basis') == 'page')))
+
+# ---- second, separate run of the lyric read and ruling: how often it lands on the same values (consistency check only)
+SRall = [(r, t, l) for r, t, l in L if l.get('second_run')]
+cmp_ = [(r, t, l) for r, t, l in SRall if l['second_run']['status'] == 'compared']
+def _fr(key):
+    xs = [l['second_run']['same'][key] for r, t, l in cmp_ if key in l['second_run']['same']]
+    return f"{sum(xs)}/{len(xs)}"
+def _hookstats(vals):
+    v = sorted(vals)
+    return dict(n=len(v), median=mmss(statistics.median(v)) if v else None, le_30s=sum(1 for x in v if x <= 30), le_60s=sum(1 for x in v if x <= 60))
+prim = [l['first_hook_s'] for r, t, l in L if l['has_hook']]
+alt = [(l['second_run']['first_hook_s'] if (l.get('second_run') or {}).get('status') == 'compared' and l['second_run'].get('has_hook') and l['second_run'].get('first_hook_s') is not None else l['first_hook_s'])
+       for r, t, l in L if l['has_hook']]
+hb_p = [l['hook_before_first_verse'] for r, t, l in L if l['has_hook'] and l.get('hook_before_first_verse') is not None]
+hb_a = [(l['second_run']['hook_before_first_verse'] if (l.get('second_run') or {}).get('status') == 'compared' and l['second_run'].get('hook_before_first_verse') is not None else l['hook_before_first_verse'])
+        for r, t, l in L if l['has_hook'] and l.get('hook_before_first_verse') is not None]
+OUT['second_run'] = dict(
+    tracks=len(SRall), compared=len(cmp_), no_final=len(SRall) - len(cmp_),
+    no_final_list=[f"\"{ttl(r)}\"" for r, t, l in SRall if l['second_run']['status'] != 'compared'],
+    has_hook=_fr('has_hook'), first_line=_fr('first_line'), first_hook=_fr('first_hook'), hook_count=_fr('hook_count'), hook_before_first_verse=_fr('hook_before_first_verse'),
+    first_section=_fr('first_section'), n_verses=_fr('n_verses'), first_line_kind=_fr('first_line_kind'), hook_return=_fr('hook_return'),
+    core_agree=sum(1 for r, t, l in cmp_ if l.get('second_run_code') == '='),
+    differ_list=[f"\"{ttl(r)}\" ({l['second_run_code'].replace('differs: ', '')})" for r, t, l in cmp_ if l.get('second_run_code') != '='],
+    hook_time_differs=[f"\"{ttl(r)}\" ({mmss(l['first_hook_s'])} here, {mmss(l['second_run']['first_hook_s'])} in the second run)" for r, t, l in cmp_ if l['second_run']['same'].get('first_hook') is False],
+    primary=_hookstats(prim), with_second_run_values=_hookstats(alt),
+    hook_before_first_verse_primary=f"{sum(hb_p)}/{len(hb_p)}", hook_before_first_verse_second=f"{sum(hb_a)}/{len(hb_a)}")
 json.dump(OUT, open(WORK + 'measured_stats.json', 'w'), indent=1, default=str)
 if __name__ == '__main__':
     a = OUT['groups']['all']

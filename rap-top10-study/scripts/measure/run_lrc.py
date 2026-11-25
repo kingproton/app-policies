@@ -3,9 +3,9 @@ Writes numbers only: no lyric text leaves this process."""
 import sys, os, json, re, glob, statistics, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lrc_analyze import analyze
-from mpaths import SP
+from mpaths import SP, IN
 M = json.load(open(SP + 'net/itunes_matches.json'))
-T = {int(k): v for k, v in json.load(open(SP + 'data/tracks_merged.json')).items()}
+T = {int(k): v for k, v in json.load(open(IN + 'tracks_merged.json')).items()}
 def nz(s): return re.sub(r'[^a-z0-9]+', ' ', unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower()).strip()
 def lead(a): return re.split(r' Featuring | & | X | With |, ', a.replace('¥$: ', ''))[0].strip()
 out = {}

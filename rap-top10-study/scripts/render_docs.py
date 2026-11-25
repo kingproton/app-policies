@@ -6,6 +6,7 @@ Template syntax: {{ python expression }} evaluated against the helpers below. An
 import json, os, re, sys, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from paths import WORK, REPO
+import shared_facts as SF
 MS_ALL = json.load(open(WORK + 'measured_stats.json'))
 MS = MS_ALL['groups']
 FS = json.load(open(WORK + 'findings_stats.json'))
@@ -49,9 +50,12 @@ def _f(title):
 # ---- per-track helpers (each raises if the value is missing, so a template can never print an empty number)
 def n(title): return _t(title)[0]['n']
 def hook(title):
-    """First hook time for a named example. Refuses a track whose matching lyric records disagree by more than 2.5 s."""
+    """First hook time for a named example. Refuses a track where the second, separate review run put the first hook
+    more than 2.5 s away, and (for tracks the readers agreed on, basis A or G) a track whose matching lyric records
+    disagree by more than 2.5 s. For ruled tracks (basis J) the records' spread is not tested: the ruling chose the block."""
     l = _l(title)
     if not l['has_hook']: raise KeyError(f'{title!r} has no recurring hook')
+    if ((l.get('second_run') or {}).get('same') or {}).get('first_hook') is False: raise KeyError(f'{title!r}: the second review run put the first hook elsewhere')
     if l['basis'] in ('A', 'G') and (l.get('first_hook_spread_s') or 0) > 2.5: raise KeyError(f'{title!r}: lyric records disagree on the hook time by {l["first_hook_spread_s"]} s')
     return mmss(l['first_hook_s'])
 def lbh(title): return _l(title)['lines_before_hook']
@@ -59,6 +63,10 @@ def fl(title):
     if (_l(title).get('first_line_spread_s') or 0) > 2.0: raise KeyError(f'{title!r}: lyric records disagree on the first line time')
     x = _l(title)['first_line_s']
     return mmss(x) if x >= 10 else f"{x:.1f} s"
+def fl_any(title):
+    """First-line time in the record used, with no test of how well the other matching records agree. Use only where the sentence says so."""
+    return mmss(_l(title)['first_line_s'])
+def fl_spread(title): return f"{_l(title).get('first_line_spread_s') or 0:.0f}"
 def hooks(title): return _l(title)['hook_count']
 def basis(title): return _l(title)['basis']
 def felt(title):
@@ -132,13 +140,33 @@ def sub(key, k, limit=None, sep=', '):
 
 _CV = json.load(open(REPO + 'data/measured/chart_verification.json'))['weeks']
 _GT = json.load(open(REPO + 'data/measured/genre_tables.json'))
-def cv_weeks(): return sum(1 for w in _CV if w['status'] == 'compared')
-def cv_full(): return sum(1 for w in _CV if w['status'] == 'compared' and w['titles_matching'] >= w['titles_compared'] - 1 and w['full_rows_matching'] == w['full_rows_compared'])
+def cv_weeks(): return SF.bc_weeks()['hosted']
+def cv_full(): return SF.bc_weeks()['matching']          # every title, or all but one spelling variant, and all 25 detail rows
+def cv_all100(): return SF.bc_weeks()['all100']
+def cv_one_off(): return len(SF.bc_weeks()['one_title_differs'])
+def cv_one_off_dates(): return ', '.join(SF.bc_weeks()['one_title_differs'])
+def cv_other(): return SF.bc_weeks()['other'][0]
+def cv_missing_dates(): return ', '.join(SF.bc_weeks()['missing_later'])
+def inv_min(): return min(SF.yearend_inversions().values())
+def inv_max(): return max(SF.yearend_inversions().values())
+def inv_years(): return ', '.join(f'{y}: {k}' for y, k in sorted(SF.yearend_inversions().items()))
+def dash_n(): return len(SF.dash_conflicts()['songs'])
+def dash_tables(): return SF.dash_conflicts()['tables_with_rap_column']
+def dash_read(): return SF.dash_conflicts()['tables_read']
+def dash_example(title):
+    x = [d for d in SF.dash_conflicts()['songs'] if d['title'] == title]
+    if not x: raise KeyError(f'no dash conflict stored for {title!r}')
+    x = x[0]
+    def poss(p):
+        nm = SF.page_name(p)
+        return nm.replace(' (production)', '') + chr(39) + ('s production' if '(production)' in nm else 's')
+    return (f"\"{x['title']}\" (dash in {' and '.join(poss(p) for p in x['dash_pages'])} table, No. {x['rap_peak_pages'][0][1]} in "
+            f"{', '.join(poss(p) for p, n in x['rap_peak_pages'])})")
 def cv_first(): return min(w['date'] for w in _CV if w['status'] == 'compared')
 def cv_last(): return max(w['date'] for w in _CV if w['status'] == 'compared')
 def cv_missing_later(): return sum(1 for w in _CV if w['status'] != 'compared' and w['date'] >= cv_first())
 def bc_hosted(): return sum(1 for v in CC.values() if v['billboard_canada'] == 'match' or v['billboard_canada'].startswith('differs'))
-def n_rap_tables(): return len({p for g_ in _GT for p in (g_.get('discog_rap_pages') or []) + (g_.get('discog_rap_dash_pages') or [])})
+def n_rap_tables(): return len({p for g_ in _GT for p in (g_.get('discog_rap_pages') or []) + (g_.get('discog_rap_dash_pages') or [])})   # tables that list a top-10 arrival in a rap column
 def _med(v):
     v = sorted(v); n_ = len(v)
     m = v[n_ // 2] if n_ % 2 else (v[n_ // 2 - 1] + v[n_ // 2]) / 2
@@ -230,6 +258,41 @@ def rnote(title, words):
     """Guard: the AI reader's stored note on this track's lyric record contains these words."""
     if words.lower() not in (_l(title).get('reviewer_note') or '').lower(): raise KeyError(f'reader note for {title!r} does not contain {words!r}')
     return ''
+# ---- second review run, page origins, claims summary, beat-switch status
+def sr(key): return MS_ALL['second_run'][key]
+def srn(key): return int(str(MS_ALL['second_run'][key]).split('/')[0])
+def srd(key): return int(str(MS_ALL['second_run'][key]).split('/')[1])
+def po(kind, key): return (MS_ALL['page_origins'].get(kind) or {}).get(key, 0)
+def cs(key): return MS_ALL['claims_summary'][key]
+def fsa(key): return FS['all'][key]
+def sw_recollection(): return FS['all']['switch_no_any'] + FS['all']['switch_yes_rec']
+def UNMEASURED(): return ('where phrases start and stop against the drums and where rhymes land; the silence after a punchline; where ad-libs sit inside a bar; '
+                          'and what the drums, the 808, the melody and the vocal stack do when a section returns')
+def ex5(title):
+    """M-5 example: first hook time, then first hook and first verse lengths in felt bars. Refuses a track that is not basis A with a clear felt tempo."""
+    l = _l(title); f = _f(title)
+    if l['basis'] != 'A' or f['basis'] != 'M': raise KeyError(f'{title!r} is not a both-readings-agree, clear-tempo example')
+    return f"\"{title}\" ({hook(title)}; {bars(title, 'first_hook_len')} / {bars(title, 'first_verse_len')})"
+def isverse3():
+    """Guard for the M-4 exception sentence: the three named records are exactly the maps whose first section is a verse."""
+    want = {'"Gimme A Hug"', '"Man At The Garden"', '"Sticky (Drake)"'}
+    if set(MS_ALL['verse_first_section_list']) != want: raise KeyError(f"verse-first maps are now {MS_ALL['verse_first_section_list']}")
+    return ''
+def nohook_basis(code):
+    return sum(1 for r in rows if ((T.get(r['cid']) or {}).get('m', {}).get('lyr') or {}).get('basis') == code and not T[r['cid']]['m']['lyr']['has_hook'])
+def conflict(title):
+    """'clip X, listed Y' for a track whose unclear clip reading matches no published tempo; refuses any other track."""
+    f = _f(title)
+    if not f.get('listing_conflict'): raise KeyError(f'{title!r} is not a clip-versus-listing conflict')
+    return f"clip {bpm(f['felt_bpm_from_clip'])}, listed {' and '.join(f'{v:g}' for v in f['listed_bpm'])}"
+_SY = json.load(open(REPO + 'data/measured/synthetic_feel_test.json'))
+def synth(key): return _SY[key]
+def _grades():
+    """Exclusion grades as table 4d shows them (written by exclusion_grades.py)."""
+    g_ = json.load(open(WORK + 'exclusion_grades.json')).values()
+    return sum(1 for x in g_ if x in ('indirect', 'unresolved')), sum(1 for x in g_ if x == 'yearend')
+def n_indirect(): return _grades()[0]
+def n_yearend(): return _grades()[1]
 def bs_climbers(): return sum(1 for r, t in _sw() if not r['debut_in_top10'])
 def read_twice(): return sm('all', 'lyric_basis', 'A') + sm('all', 'lyric_basis', 'J')
 def detector_only(): return sm('all', 'lyric_basis', 'G')
@@ -267,10 +330,14 @@ def render(text, name):
 
 
 if __name__ == '__main__':
-    # Render every template before writing any file, so a failed build leaves the previous documents untouched.
+    # Render every template before writing any file, so a failed render leaves the previous 01, 02, 03, 05 and README
+    # untouched. run_all.sh calls this once with --check (render only, write nothing) before 04 is written, so that a
+    # template that cannot fill stops the build while all six documents still agree with each other.
     outs = []
     for tp in sorted(glob.glob(REPO + 'templates/*.tmpl.md')):
         outs.append((REPO + os.path.basename(tp).replace('.tmpl.md', '.md'), render(open(tp).read(), os.path.basename(tp))))
+    if '--check' in sys.argv:
+        print(f'checked {len(outs)} templates: every expression fills'); sys.exit(0)
     for out, text in outs:
         open(out, 'w').write(text)
         print('rendered', os.path.basename(out))

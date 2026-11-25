@@ -13,6 +13,8 @@
  },
  "skeptic_rulings": 1520,
  "skeptic_upheld": 1460,
+ "verdicts_sent_to_skeptic": 609,
+ "verdicts_first_reader_only": 279,
  "new_facts_by_category": {
   "recording_process": 140,
   "delivery": 93,

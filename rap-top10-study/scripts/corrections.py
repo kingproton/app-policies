@@ -136,7 +136,7 @@ ALBUM_MATE_INFERRED = {}   # Reincarnated is on the 2025 year-end Hot Rap Songs 
 VERSION_NOTES = {
     'Evil J0rdan': "album version (MUSIC track 4); a review says it has a new synthesized intro versus the earlier-circulated 'EvilJ0rdan'.",
     'Noid': 'album version (4:44), not the music-video edit, which drops the vocal intro and final verses.',
-    'Carnival': "current explicit streaming version (4:24). The live 'Iron Man' sample is documented only for an earlier version, so it is not counted.",
+    'Carnival': "current explicit streaming version (4:24). The live 'Iron Man' sample is documented only for an earlier version, so it is not counted. Table 4b measures the catalog track on the CARNIVAL PACK EP (4:23, not flagged explicit), one second shorter.",
     'Agora Hills': 'album version (4:25); a 3:39 radio edit exists.',
     'FE!N': 'album version (3:11), not the Chase B remix.',
     'Princess Diana': 'the Nicki Minaj remix, which is the version credited on the chart (2:52); the original solo version is 2:35.',
@@ -195,6 +195,9 @@ SWEEP_VERDICTS = {
     8:   {'hook_before_first_verse': 'partly'},     # Shabang: opener is the line later used as the hook; order vs verse 1 not shown
     27:  {'opening_element': 'partly'},             # Squabble Up: Debbie Deb sample "near the beginning", not shown as first sound
     29:  {'hook_before_first_verse': 'partly'},     # Luther: sampled chorus first; the song's own hook vs verse 1 not placed
+    39:  {'beat_switch': 'not_settled'},            # Not Like Us: one search summary (The Root) mentions a switch; the research record
+                                                    # for the same song says no source settles whether the late breakdown is a switch,
+                                                    # and neither saved page mentions one. Two passes disagree, so it is not counted.
     34:  {'opening_element': 'not_found', 'hook_before_first_verse': 'not_found'},  # Sticky: lyric sites conflict
     45:  {'opening_element': 'partly'},             # Like That: the Songfacts intro line describes 'Eazy-Duz-It', not this song
     52:  {'hook_before_first_verse': 'partly'},     # Carnival: no source gives the chorus vs first-verse order
@@ -225,7 +228,7 @@ GENRE_INFERENCE_EXCLUSIONS = {3: 'Nicole Kidman'}
 # Exclusions backed by a non-rap chart row or a rap-column dash read directly in a Wikipedia table.
 # Evidence grade for these exclusions, set by hand: direct = a non-rap genre-chart row; yearend = deduced from year-end
 # lists; indirect = neither (a dash in a table's rap column can be an unfilled cell).
-NONRAP_GRADE = {1: 'direct', 22: 'yearend', 65: 'indirect', 99: 'indirect'}
+NONRAP_GRADE = {1: 'indirect', 22: 'yearend', 65: 'indirect', 99: 'indirect'}   # 1 Babydoll: a rock-chart listing alone does not rule out rap
 NONRAP_TABLE_EVIDENCE = {1: "Hot Rock & Alternative Songs peak No. 2 (the song's Wikipedia chart table)", 22: 'year-end lists', 65: 'discography table', 99: 'discography table'}
 YEAREND_ABSENCE_EXCLUSIONS = {71: 'Seven', 80: "Boy's A Liar, Pt. 2", 104: 'I Like You (A Happier Song)',
                               120: 'One Right Now', 121: 'Need To Know', 123: 'Thats What I Want'}
@@ -321,7 +324,18 @@ PAGE_SAMPLE_ADD = {
     93: [('God Did', "DJ Khaled - 'God Did' and Drake - 'Chicago Freestyle'", 'interpolation', None)],
 }
 
+# ---- 12. Display-only evidence text for table 4d: cid -> text shown in the evidence cell -----------------------
+# Used where the automatically shortened research text cut off the deciding words or carried a premise the header
+# corrects. The status and the basis on file are not changed.
+EVIDENCE_DISPLAY = {
+    2: "Billboard's 'Chart Highlights for Oct. 17, 2026' and a chart-beat story (also on Yahoo) say 'Solar Eclipse' debuted at No. 1 on "
+       "Hot R&B/Hip-Hop Songs and at No. 1 on Hot R&B Songs (search-result summaries; the Hot Rap Songs page for that week was not seen).",
+    123: "Absent from Billboard's 2022 year-end Hot Rap Songs (top 49 in the summary), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs "
+         "(through No. 49), per search summaries of those pages; most of its top-10 run, fall 2021 into early 2022, falls in that chart year. "
+         "Lil Nas X's 'Industry Baby' is No. 5 on the same rap list.",
+}
+
 # ---- 11. Lyric records the AI reader flagged as incomplete: cid -> note shown under table 4b ------------------
 LYRIC_RECORD_NOTES = {
-    52: "the record transcribes only the hook; the rap verses are missing, so the verse columns are blank and the gaps in it are not breaks",   # Carnival
+    52: "the record transcribes only the hook; the rap verses are missing, so the verse columns show a dash and the gaps in it are not breaks",   # Carnival
 }

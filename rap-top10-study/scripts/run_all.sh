@@ -9,11 +9,13 @@ python3 classify_merge.py > /dev/null
 python3 track_merge.py
 python3 measure_merge.py
 python3 aggregate.py > /dev/null
+python3 exclusion_grades.py > /dev/null
 python3 chart_check.py > /dev/null
 python3 findings_stats.py > /dev/null
 python3 measured_stats.py > /dev/null
 python3 render_counts.py > /dev/null
-python3 render_reference.py
 python3 barmap.py > "${STUDY_WORK:-../data/raw/}barmap_tables.md"
+python3 render_docs.py --check > /dev/null      # stop here, before any document is written, if a template cannot fill
+python3 render_reference.py
 python3 render_docs.py > /dev/null
-echo "done: documents 01, 03, 04, 05 and README, data/*.csv, data/raw/*.json, counts tables and bar-map tables regenerated"
+echo "done: documents 01, 02, 03, 04, 05 and README, data/*.csv, data/raw/*.json, counts tables and bar-map tables regenerated"

@@ -1,17 +1,21 @@
 """Add measured values to each track record (tracks_merged.json, key 'm').
 
 Inputs, all in data/measured/ (derived numbers only: no lyric text, no audio):
-  apple_catalog.json              runtime of the Apple catalog track matched by title and artist
+  apple_catalog.json              runtime of the Apple catalog track matched by title and artist (where several editions
+                                  matched, the one closest to the earlier cited runtime was preferred)
   lyric_structure_algorithm.json  timing and structure from one LRCLIB time-synced lyric record per track (repetition detector)
   lyric_structure_review.json     an independent read of the same record, with a ruling wherever the two readings disagreed
+  lyric_structure_second_run.json a second, separate run of that read and ruling; used only as a consistency check
   audio_feel.json                 pulse tempo and backbeat (felt) tempo of Apple's 30-second preview clip
-  page_claims.json                page-level verdicts on the earlier sourced claims (applied in track_merge, summarised here)
+  page_claims.json                page-level verdicts on the earlier sourced claims (applied here, in apply_page_claims)
 
 Basis codes written here
   lyric timing   A = algorithm and reviewer agree; J = they disagreed and a second reader ruled; G = algorithm only;
                  X = unresolved or unusable record (not counted)
   feel           M = clear in the clip (margin >= 0.15 and score >= 0.25); L = leaning (margin >= 0.07, score >= 0.15);
                  I = unclear in the clip, but only one of the two octave readings lies in 55-150 BPM; ? = unresolved
+                 (an L or I reading whose pulse matches no published listing at the same, half or double tempo is also
+                 set to ?, because an unclear clip reading that the listings contradict is not resolved)
 Nothing in this stage comes from recollection.
 """
 import json, os, sys, statistics
@@ -28,6 +32,7 @@ def load(name, default=None):
 
 T = json.load(open(WORK + 'tracks_merged.json'))
 AP = load('apple_catalog.json', {}); LA = load('lyric_structure_algorithm.json', {}); LR = load('lyric_structure_review.json', {}); AF = load('audio_feel.json', {})
+LR2 = load('lyric_structure_second_run.json', {})
 FELT_RANGE = (55.0, 150.0)
 
 
@@ -47,6 +52,20 @@ def feel_block(a):
     grid = max(a['pulse_bpm'], felt) if felt is not None else max(a['pulse_bpm'], est, alt or 0)
     return dict(pulse_bpm=a['pulse_bpm'], grid_bpm=grid, estimate_bpm=est, other_reading_bpm=alt, score=a['score'], margin=a['margin'], confidence=conf,
                 felt_bpm=felt, basis=basis, feel_class=cls, displaced_backbeat=a.get('displaced_backbeat'), clip_s=a.get('duration_s'))
+
+
+def _run_final(v):
+    """Final values of one review run for a track: the ruling where its readings disagreed, the reader's where they agreed."""
+    rv = (v or {}).get('reviewer') or {}; ru = (v or {}).get('ruling')
+    if (v or {}).get('status') == 'adjudicated' and ru and ru.get('resolution') != 'unresolved': src = ru
+    elif (v or {}).get('status') == 'agree': src = rv
+    else: return None
+    sec = rv.get('sections') or []
+    has = src['has_recurring_hook']; fh = src.get('first_hook_s')
+    return dict(has_hook=has, first_hook_s=fh, first_line_s=src['first_line_s'], hook_count=len(src.get('hook_starts_s') or []) if has else 0,
+                hook_before_first_verse=None if (not has or fh is None) else not any(x['label'] == 'verse' and x['start_s'] < fh - 1.0 for x in sec),
+                first_section=sec[0]['label'] if sec else None, n_verses=sum(1 for x in sec if x['label'] == 'verse'),
+                first_line_kind=rv.get('first_line_kind'), hook_return=rv.get('hook_return'))
 
 
 def lyric_block(cid):
@@ -101,7 +120,10 @@ def lyric_block(cid):
                 break
         b['first_section'] = sec[0]['label'] if sec else None
         # section lengths from the reviewer's coarse map (the last section runs to the end of the record)
-        end = a.get('lrc_duration') or (a.get('last_line_s') or 0) + 4
+        # The last section ends two typical line gaps after the last lyric line (never past the end of the record), so that
+        # an instrumental outro or fade after a final hook is not counted as hook.
+        end_rec = a.get('lrc_duration') or (a.get('last_line_s') or 0) + 4
+        end = min(end_rec, (a.get('last_line_s') or end_rec) + 2 * (a.get('median_line_gap_s') or 2.5))
         dur = [(sct['label'], (sec[i + 1]['start_s'] if i + 1 < len(sec) else end) - sct['start_s']) for i, sct in enumerate(sec)]
         b['verse_lens_s'] = [round(d, 1) for lab, d in dur if lab == 'verse' and d > 0]
         b['hook_lens_s'] = [round(d, 1) for lab, d in dur if lab == 'hook' and d > 0]
@@ -113,6 +135,25 @@ def lyric_block(cid):
             b['hook_before_first_verse'] = not any(s['label'] == 'verse' and s['start_s'] < b['first_hook_s'] - 1.0 for s in sec)
         main = [s['start_s'] for s in sec if s['label'] in ('verse', 'hook')]
         b['intro_len_s'] = min(main) if main else None
+    # second, separate run of the read and ruling (consistency check only: it never changes a value)
+    if cid in LR2 and basis in ('A', 'J'):
+        r2 = _run_final(LR2[cid])
+        if r2 is None: b['second_run'] = dict(status='no final reading'); b['second_run_code'] = 'n/a'
+        else:
+            same = dict(has_hook=r2['has_hook'] == b['has_hook'], first_line=abs(r2['first_line_s'] - b['first_line_s']) <= 1.0)
+            if b['has_hook'] and r2['has_hook'] and b['first_hook_s'] is not None and r2['first_hook_s'] is not None:
+                same['first_hook'] = abs(r2['first_hook_s'] - b['first_hook_s']) <= 2.5
+                same['hook_count'] = abs(r2['hook_count'] - b['hook_count']) <= 1
+                if b.get('hook_before_first_verse') is not None and r2['hook_before_first_verse'] is not None:
+                    same['hook_before_first_verse'] = r2['hook_before_first_verse'] == b['hook_before_first_verse']
+                same['hook_return'] = r2['hook_return'] == b.get('hook_return')
+            same['first_section'] = r2['first_section'] == b.get('first_section')
+            same['n_verses'] = r2['n_verses'] == b.get('n_verses')
+            same['first_line_kind'] = r2['first_line_kind'] == b.get('first_line_kind')
+            core = [same[k] for k in ('has_hook', 'first_line', 'first_hook', 'hook_count', 'hook_before_first_verse') if k in same]
+            b['second_run'] = dict(status='compared', same=same, first_hook_s=r2['first_hook_s'], hook_count=r2['hook_count'], has_hook=r2['has_hook'],
+                                   hook_before_first_verse=r2['hook_before_first_verse'])
+            b['second_run_code'] = '=' if all(core) else 'differs: ' + ', '.join(k.replace('_', ' ') for k in ('has_hook', 'first_line', 'first_hook', 'hook_count', 'hook_before_first_verse') if same.get(k) is False)
     # algorithm-only density metrics (section boundaries from the repetition detector)
     for k in ('verse_words_per_s', 'hook_words_per_s', 'verse_sylls_per_s', 'hook_sylls_per_s', 'verse_median_line_gap_s', 'hook_median_line_gap_s', 'longest_gap_s', 'longest_gap_at_s', 'order'):
         b[k] = a.get(k)
@@ -125,26 +166,31 @@ PC = load('page_claims.json', {})
 
 def apply_page_claims(t, pc):
     """Apply page-level verdicts (first reader + skeptic + mechanical quote check) to the documented fields.
-    supported      -> basis 'page' (P): the saved page text states it
-    contradicted   -> basis 'unconfirmed' (U) with the page's wording kept as a note; never counted
-    partly / none  -> basis unchanged, note kept"""
+    supported         -> basis 'page' (P): the saved page text states it
+    partly supported  -> a borrowing becomes P when the quoted words are in the saved page (the work is on the page; the
+                         detail that is not is kept as a note and not counted); a beat switch becomes P only for the
+                         songs hand-listed in corrections.PAGE_CORE; other fields keep their basis and get a note
+    contradicted      -> opening, hook order, beat switch, return and delivery claims drop to 'unconfirmed' (U); never counted
+    not addressed     -> nothing changes (the pages are silent)
+    new page statements that survived the skeptic can set an unknown field or add a borrowing (corrections section 10)
+    Each P records where it came from in *_page_origin: supported, partly_supported, statement or recoded."""
     log = dict(supported=0, partly_supported=0, contradicted=0, not_addressed=0, other=0)
     vd = {v['id']: v for v in pc.get('verdicts', [])}
     def fin(i): return (vd.get(i) or {}).get('final')
     for i, v in vd.items(): log[v['final'] if v['final'] in log else 'other'] += 1
     for fld, key in (('opening', 'opening_basis'), ('beat_switch', 'beat_switch_basis'), ('hook_first', 'hook_first_basis')):
         f = fin(fld)
-        if f == 'supported' and t.get(key) in ('source', 'unconfirmed', 'unverified_recollection'): t[key] = 'page'
+        if f == 'supported' and t.get(key) in ('source', 'unconfirmed', 'unverified_recollection'): t[key] = 'page'; t[fld + '_page_origin'] = 'supported'
         elif f == 'contradicted' and t.get(key) in ('source', 'unconfirmed', 'unverified_recollection'):
             t[key] = 'unconfirmed'; t[fld + '_page_note'] = vd[fld]['note']
         elif f == 'partly_supported': t[fld + '_page_note'] = vd[fld]['note']
     for k, smp in enumerate(t.get('samples') or []):
         f = fin(f'borrow_{k + 1}')
-        if f == 'supported' and smp.get('status') in ('cited', 'confirmed', 'not_reconfirmed'): smp['status'] = 'page'
+        if f == 'supported' and smp.get('status') in ('cited', 'confirmed', 'not_reconfirmed'): smp['status'] = 'page'; smp['page_origin'] = 'supported'
         elif f == 'partly_supported':
             smp['page_note'] = vd[f'borrow_{k + 1}']['note']
             # the work itself is on the page even where a detail of the claim is not: count the borrowing, keep the note
-            if smp.get('status') in ('cited', 'confirmed', 'not_reconfirmed') and vd[f'borrow_{k + 1}'].get('quote_in_page'): smp['status'] = 'page'
+            if smp.get('status') in ('cited', 'confirmed', 'not_reconfirmed') and vd[f'borrow_{k + 1}'].get('quote_in_page'): smp['status'] = 'page'; smp['page_origin'] = 'partly_supported'
         elif f == 'contradicted': smp['page_note'] = 'page text conflicts: ' + vd[f'borrow_{k + 1}']['note']
     for lst_key, pre in (('returns', 'return_'), ('delivery', 'delivery_')):
         for k, d in enumerate(t.get(lst_key) or []):
@@ -156,21 +202,21 @@ def apply_page_claims(t, pc):
     def has_fact(cat, words): return any(f['category'] == cat and words.lower() in f['statement'].lower() for f in kept)
     cid = t['cid']; applied = []
     if cid in C.PAGE_CORE.get('beat_switch', ()) and fin('beat_switch') == 'partly_supported' and t.get('beat_switch') == 'yes':
-        t['beat_switch_basis'] = 'page'; applied.append('beat switch: core supported by page')
+        t['beat_switch_basis'] = 'page'; t['beat_switch_page_origin'] = 'partly_supported'; applied.append('beat switch: core supported by page')
     if cid in C.PAGE_RECODE:
         fld, val = C.PAGE_RECODE[cid]
         if fin('opening') in ('contradicted', 'partly_supported'):
-            t['opening_recoded_from'] = t.get(fld); t[fld] = val; t['opening_basis'] = 'page'; applied.append(f'opening recoded to {val}')
+            t['opening_recoded_from'] = t.get(fld); t[fld] = val; t['opening_basis'] = 'page'; t['opening_page_origin'] = 'recoded'; applied.append(f'opening recoded to {val}')
     for c2, cat, words, fld, val in C.PAGE_FACT_SET:
         if c2 != cid or not has_fact(cat, words): continue
         bkey = 'beat_switch_basis' if fld == 'beat_switch' else 'opening_basis'
         if t.get(bkey) in ('source', 'page'): continue                       # already sourced: leave it
-        t[fld] = val; t[bkey] = 'page'; applied.append(f'{fld} set to {val} from a page statement')
+        t[fld] = val; t[bkey] = 'page'; t[('beat_switch' if fld == 'beat_switch' else 'opening') + '_page_origin'] = 'statement'; applied.append(f'{fld} set to {val} from a page statement')
     for words, work, btype, credited in C.PAGE_SAMPLE_ADD.get(cid, []):
         if not has_fact('borrowing', words): continue
         if any(words.lower() in (smp.get('work') or '').lower() for smp in t.get('samples') or []): continue
         t.setdefault('samples', []); t['samples'] = (t['samples'] or []) + [dict(work=work, borrow_type=btype, credited=credited,
-                                                                              status='page', source='page statement', how_used='')]
+                                                                              status='page', page_origin='statement', source='page statement', how_used='')]
         applied.append(f'borrowing added: {work[:40]}')
     hd = fin('hook_description')
     return dict(verdict_counts=log, applied=applied, hook_described_on_page=hd in ('supported', 'partly_supported', 'contradicted'),
@@ -193,7 +239,16 @@ for cid, t in T.items():
     ly = lyric_block(cid)
     if ly: m['lyr'] = ly; n_ly += 1
     fe = feel_block(AF.get(cid))
-    if fe: m['feel'] = fe; n_fe += 1
+    if fe:
+        listed = sorted({x.get('bpm') for x in (t.get('tempo_listed') or []) if isinstance(x.get('bpm'), (int, float))})
+        def related(p, l): return any(abs(l - p * k) / (p * k) <= 0.025 for k in (0.5, 1, 2))   # same test as measured_stats
+        fe['listed_bpm'] = listed
+        fe['pulse_matches_listing'] = None if not listed else any(related(fe['pulse_bpm'], l) for l in listed)
+        if fe['basis'] in ('L', 'I') and fe['pulse_matches_listing'] is False:
+            fe['basis_from_clip'] = fe['basis']; fe['felt_bpm_from_clip'] = fe['felt_bpm']
+            fe['basis'] = '?'; fe['felt_bpm'] = None; fe['feel_class'] = None; fe['listing_conflict'] = True
+            fe['grid_bpm'] = max(fe['pulse_bpm'], fe['estimate_bpm'], fe.get('other_reading_bpm') or 0)
+        m['feel'] = fe; n_fe += 1
     # bars on the felt grid (4 felt beats per bar), only where a felt tempo was resolved
     if ly and fe and fe['felt_bpm']:
         bar = 240.0 / fe['felt_bpm']

@@ -2,10 +2,10 @@
 import sys, os, re, json, urllib.parse, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from netlib import fetch
-from mpaths import SP
+from mpaths import SP, IN
 OUT = SP + 'net/lrclib/'
-rows = json.load(open(SP + 'data/final_rows.json'))
-cands = {o['cid']: o for o in json.load(open(SP + 'data/to_verify.json'))}
+rows = json.load(open(IN + 'final_rows.json'))
+cands = {o['cid']: o for o in json.load(open(IN + 'to_verify.json'))}
 EXTRA = [22, 132, 133, 134, 135, 136, 2, 1, 3, 65, 99, 71, 80, 104, 120, 121, 123]
 def lead(a): return re.split(r' Featuring | & | X | With |, ', a.replace('¥$: ', ''))[0].strip()
 def clean_title(t): return re.sub(r'\s*[\(\[].*?[\)\]]', '', t).replace('*', '').strip() or t

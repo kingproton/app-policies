@@ -76,6 +76,8 @@ def render(felt, style, dur=30.0, vocals=True):
                 if rng.random() < 0.62: put(vocal(fb / 4 * rng.uniform(0.6, 1.0)), t0 + k * fb / 4 + rng.normal(0, 0.012))
     y = y[:int(dur * SR)]; return (y / np.abs(y).max() * 0.8).astype(np.float32)
 OUT = SP + 'net/synth/'
+os.makedirs(OUT, exist_ok=True)
+results = []
 ok = 0; tests = [(72, 'trap'), (81, 'trap'), (65, 'trap'), (60.5, 'trap'), (87, 'trap'), (90, 'boombap'), (86, 'boombap'), (100, 'bounce'), (105, 'bounce'), (133, 'bounce'), (72, 'drill'), (74, 'drill'),
     (127, 'fourfloor'), (120, 'fourfloor'), (101, 'westbounce'), (96, 'westbounce'), (90, 'clickboombap'), (84, 'clickboombap'),
     (70, 'clicktrap'), (77, 'clicktrap'), (71, 'drill2'), (72.5, 'drill2'), (140, 'club'), (72, 'club')]
@@ -83,5 +85,11 @@ for felt, style in tests:
     p = OUT + f'{style}_{felt}.wav'; sf.write(p, render(felt, style), SR)
     r = analyze(p)
     good = abs(r['felt_bpm'] - felt) / felt < 0.03; ok += good
+    results.append(dict(pattern=style, true_felt_bpm=felt, estimated_felt_bpm=r['felt_bpm'], pulse_bpm=r['pulse_bpm'], score=r['score'], margin=r['margin'], correct=bool(good)))
     print(f"{style:8} true felt {felt:6} -> est {r['felt_bpm']:7} (pulse {r['pulse_bpm']}, score {r['score']}, margin {r['margin']}, runner-up {r['runner_up']}) {'OK' if good else 'MISS'}  {r['candidates']}")
 print(ok, 'of', len(tests), 'correct')
+# optional argument: a folder to write the result to (data/measured/ in the repository)
+if len(sys.argv) > 1:
+    import json
+    json.dump(dict(note='Felt-tempo estimator run on synthetic drum patterns with a known felt tempo; correct = within 3%.', correct=int(ok), patterns=len(tests), results=results),
+              open(sys.argv[1].rstrip('/') + '/synthetic_feel_test.json', 'w'), indent=0)

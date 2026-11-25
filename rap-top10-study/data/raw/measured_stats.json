@@ -122,9 +122,9 @@
    "verse2_shorter": "23/91",
    "verse2_similar": "28/91",
    "verse2_longer": "40/91",
-   "last_hook_longer": "19/91",
-   "last_hook_shorter": "6/91",
-   "last_hook_similar": "66/91",
+   "last_hook_longer": "8/91",
+   "last_hook_shorter": "7/91",
+   "last_hook_similar": "76/91",
    "has_bridge": "15/98",
    "has_pre_hook": "16/98",
    "has_post_hook": "22/98",
@@ -150,35 +150,35 @@
     "min": 3.2,
     "max": 42.7
    },
-   "n_ride": 87,
+   "n_ride": 83,
    "verse_sylls_per_beat": {
-    "n": 86,
+    "n": 82,
     "median": 3.12,
     "q1": 2.65,
-    "q3": 3.73,
+    "q3": 3.76,
     "min": 1.41,
     "max": 5.4
    },
    "hook_sylls_per_beat": {
-    "n": 80,
-    "median": 2.48,
-    "q1": 1.8,
-    "q3": 3.15,
+    "n": 77,
+    "median": 2.49,
+    "q1": 1.82,
+    "q3": 3.17,
     "min": 0.19,
     "max": 5.38
    },
    "verse_line_beats": {
-    "n": 86,
-    "median": 3.68,
-    "q1": 2.18,
+    "n": 82,
+    "median": 3.73,
+    "q1": 2.15,
     "q3": 3.98,
     "min": 1.8,
     "max": 6.05
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
-    "1.5-2.5 (about 2)": 27,
-    "2.5-3.5": 13,
+    "1.5-2.5 (about 2)": 26,
+    "2.5-3.5": 10,
     "3.5-4.5 (about 4)": 44,
     "4.5+": 2
    },
@@ -191,16 +191,16 @@
     "max": 3.86
    },
    "ride_slow": {
-    "n": 69,
-    "sylls_per_beat": 3.43,
-    "sylls_per_s": 3.97,
-    "line_beats": 3.38
+    "n": 66,
+    "sylls_per_beat": 3.46,
+    "sylls_per_s": 3.98,
+    "line_beats": 3.44
    },
    "ride_mid": {
-    "n": 14,
-    "sylls_per_beat": 2.46,
-    "sylls_per_s": 4.29,
-    "line_beats": 3.98
+    "n": 13,
+    "sylls_per_beat": 2.4,
+    "sylls_per_s": 4.23,
+    "line_beats": 3.99
    },
    "ride_fast": {
     "n": 3,
@@ -279,9 +279,9 @@
    "n_clip": 96,
    "feel_basis": {
     "M": 72,
-    "?": 7,
-    "I": 10,
-    "L": 7
+    "?": 11,
+    "I": 7,
+    "L": 6
    },
    "felt_clear": {
     "n": 72,
@@ -297,7 +297,7 @@
     "fast": 3
    },
    "felt_clear_or_leaning": {
-    "n": 79,
+    "n": 78,
     "median": 72.0,
     "q1": 65.01,
     "q3": 81.0,
@@ -305,51 +305,51 @@
     "max": 143.36
    },
    "feel_class_clear_or_leaning": {
-    "slow": 68,
+    "slow": 67,
     "mid": 8,
     "fast": 3
    },
    "felt_all_resolved": {
-    "n": 89,
-    "median": 73.5,
-    "q1": 66.75,
+    "n": 85,
+    "median": 73.0,
+    "q1": 65.27,
     "q3": 83.29,
     "min": 55.99,
     "max": 143.36
    },
    "feel_class_all_resolved": {
-    "slow": 72,
-    "mid": 14,
+    "slow": 69,
+    "mid": 13,
     "fast": 3
    },
-   "n_bars": 87,
+   "n_bars": 83,
    "first_hook_bars": {
-    "n": 82,
-    "median": 8.86,
-    "q1": 4.08,
-    "q3": 21.35,
+    "n": 79,
+    "median": 8.95,
+    "q1": 4.12,
+    "q3": 21.17,
     "min": 0.0,
     "max": 43.96
    },
    "first_hook_len_bars": {
-    "n": 82,
-    "median": 7.02,
-    "q1": 4.0,
+    "n": 79,
+    "median": 7.5,
+    "q1": 3.99,
     "q3": 8.09,
     "min": 0.96,
     "max": 17.21
    },
    "hook_len_bar_bands": {
     "under 3": 6,
-    "3-5 (about 4)": 27,
-    "5-7": 8,
+    "3-5 (about 4)": 26,
+    "5-7": 6,
     "7-9 (about 8)": 38,
     "9-13": 0,
     "13+": 3
    },
    "hook1_len_bars_map": {
-    "n": 82,
-    "median": 7.1,
+    "n": 79,
+    "median": 7.5,
     "q1": 4.0,
     "q3": 8.1,
     "min": 1.0,
@@ -357,33 +357,40 @@
    },
    "hook1_len_bar_bands_map": {
     "under 3": 5,
-    "3-5 (about 4)": 28,
-    "5-7": 8,
+    "3-5 (about 4)": 27,
+    "5-7": 6,
     "7-9 (about 8)": 38,
     "9-13": 0,
     "13+": 3
    },
    "intro_len_bars": {
-    "n": 87,
-    "median": 4.37,
-    "q1": 3.66,
+    "n": 83,
+    "median": 4.39,
+    "q1": 3.8,
     "q3": 8.14,
     "min": 0.0,
     "max": 20.21
    },
+   "intro_len_bar_bands": {
+    "under 3": 15,
+    "3-5 (about 4)": 30,
+    "5-7": 8,
+    "7-9 (about 8)": 17,
+    "9+": 13
+   },
    "first_verse_len_bars": {
-    "n": 86,
+    "n": 82,
     "median": 11.9,
     "q1": 8.0,
-    "q3": 16.05,
+    "q3": 16.22,
     "min": 2.4,
     "max": 39.6
    },
    "verse_len_bar_bands": {
-    "under 6": 9,
+    "under 6": 8,
     "6-10 (about 8)": 25,
-    "10-14 (about 12)": 15,
-    "14-18 (about 16)": 19,
+    "10-14 (about 12)": 14,
+    "14-18 (about 16)": 17,
     "18-26": 12,
     "26+": 6
    }
@@ -748,6 +755,13 @@
     "min": 0.2,
     "max": 8.63
    },
+   "intro_len_bar_bands": {
+    "under 3": 1,
+    "3-5 (about 4)": 5,
+    "5-7": 0,
+    "7-9 (about 8)": 4,
+    "9+": 0
+   },
    "first_verse_len_bars": {
     "n": 10,
     "median": 9.3,
@@ -887,9 +901,9 @@
    "verse2_shorter": "21/81",
    "verse2_similar": "21/81",
    "verse2_longer": "39/81",
-   "last_hook_longer": "19/80",
-   "last_hook_shorter": "6/80",
-   "last_hook_similar": "55/80",
+   "last_hook_longer": "8/80",
+   "last_hook_shorter": "7/80",
+   "last_hook_similar": "65/80",
    "has_bridge": "14/86",
    "has_pre_hook": "12/86",
    "has_post_hook": "16/86",
@@ -915,35 +929,35 @@
     "min": 3.2,
     "max": 42.7
    },
-   "n_ride": 77,
+   "n_ride": 73,
    "verse_sylls_per_beat": {
-    "n": 76,
+    "n": 72,
     "median": 3.16,
     "q1": 2.72,
-    "q3": 3.69,
+    "q3": 3.71,
     "min": 1.82,
     "max": 5.4
    },
    "hook_sylls_per_beat": {
-    "n": 70,
-    "median": 2.49,
-    "q1": 1.91,
-    "q3": 3.18,
+    "n": 67,
+    "median": 2.5,
+    "q1": 1.92,
+    "q3": 3.19,
     "min": 0.19,
     "max": 5.38
    },
    "verse_line_beats": {
-    "n": 76,
-    "median": 3.68,
-    "q1": 2.21,
-    "q3": 3.97,
+    "n": 72,
+    "median": 3.77,
+    "q1": 2.19,
+    "q3": 3.98,
     "min": 2.01,
     "max": 4.63
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
-    "1.5-2.5 (about 2)": 23,
-    "2.5-3.5": 12,
+    "1.5-2.5 (about 2)": 22,
+    "2.5-3.5": 9,
     "3.5-4.5 (about 4)": 40,
     "4.5+": 1
    },
@@ -956,16 +970,16 @@
     "max": 3.86
    },
    "ride_slow": {
-    "n": 63,
-    "sylls_per_beat": 3.32,
-    "sylls_per_s": 3.92,
-    "line_beats": 3.42
+    "n": 60,
+    "sylls_per_beat": 3.37,
+    "sylls_per_s": 3.93,
+    "line_beats": 3.53
    },
    "ride_mid": {
-    "n": 11,
-    "sylls_per_beat": 2.4,
-    "sylls_per_s": 4.23,
-    "line_beats": 3.96
+    "n": 10,
+    "sylls_per_beat": 2.39,
+    "sylls_per_s": 4.2,
+    "line_beats": 3.98
    },
    "ride_fast": {
     "n": 2,
@@ -1044,9 +1058,9 @@
    "n_clip": 86,
    "feel_basis": {
     "M": 64,
-    "?": 7,
-    "I": 10,
-    "L": 5
+    "?": 11,
+    "I": 7,
+    "L": 4
    },
    "felt_clear": {
     "n": 64,
@@ -1062,59 +1076,59 @@
     "fast": 2
    },
    "felt_clear_or_leaning": {
-    "n": 69,
-    "median": 71.5,
-    "q1": 65.01,
-    "q3": 80.74,
+    "n": 68,
+    "median": 71.51,
+    "q1": 65.0,
+    "q3": 80.86,
     "min": 55.99,
     "max": 132.98
    },
    "feel_class_clear_or_leaning": {
-    "slow": 62,
+    "slow": 61,
     "mid": 5,
     "fast": 2
    },
    "felt_all_resolved": {
-    "n": 79,
-    "median": 73.0,
-    "q1": 68.0,
+    "n": 75,
+    "median": 72.55,
+    "q1": 65.51,
     "q3": 82.68,
     "min": 55.99,
     "max": 132.98
    },
    "feel_class_all_resolved": {
-    "slow": 66,
-    "mid": 11,
+    "slow": 63,
+    "mid": 10,
     "fast": 2
    },
-   "n_bars": 77,
+   "n_bars": 73,
    "first_hook_bars": {
-    "n": 72,
-    "median": 12.22,
-    "q1": 4.09,
-    "q3": 23.44,
+    "n": 69,
+    "median": 12.57,
+    "q1": 4.12,
+    "q3": 22.92,
     "min": 0.0,
     "max": 43.96
    },
    "first_hook_len_bars": {
-    "n": 72,
-    "median": 6.8,
+    "n": 69,
+    "median": 7.13,
     "q1": 3.99,
-    "q3": 8.08,
+    "q3": 8.09,
     "min": 0.96,
     "max": 17.21
    },
    "hook_len_bar_bands": {
     "under 3": 5,
-    "3-5 (about 4)": 25,
-    "5-7": 7,
+    "3-5 (about 4)": 24,
+    "5-7": 5,
     "7-9 (about 8)": 32,
     "9-13": 0,
     "13+": 3
    },
    "hook1_len_bars_map": {
-    "n": 72,
-    "median": 6.65,
+    "n": 69,
+    "median": 7.5,
     "q1": 4.0,
     "q3": 8.1,
     "min": 1.0,
@@ -1122,33 +1136,40 @@
    },
    "hook1_len_bar_bands_map": {
     "under 3": 5,
-    "3-5 (about 4)": 26,
-    "5-7": 6,
+    "3-5 (about 4)": 25,
+    "5-7": 4,
     "7-9 (about 8)": 32,
     "9-13": 0,
     "13+": 3
    },
    "intro_len_bars": {
-    "n": 77,
-    "median": 4.36,
-    "q1": 3.41,
+    "n": 73,
+    "median": 4.39,
+    "q1": 3.79,
     "q3": 8.21,
     "min": 0.0,
     "max": 20.21
    },
+   "intro_len_bar_bands": {
+    "under 3": 14,
+    "3-5 (about 4)": 25,
+    "5-7": 8,
+    "7-9 (about 8)": 13,
+    "9+": 13
+   },
    "first_verse_len_bars": {
-    "n": 76,
+    "n": 72,
     "median": 12.0,
     "q1": 8.0,
-    "q3": 16.9,
+    "q3": 17.77,
     "min": 2.4,
     "max": 39.6
    },
    "verse_len_bar_bands": {
-    "under 6": 8,
+    "under 6": 7,
     "6-10 (about 8)": 21,
-    "10-14 (about 12)": 13,
-    "14-18 (about 16)": 16,
+    "10-14 (about 12)": 12,
+    "14-18 (about 16)": 14,
     "18-26": 12,
     "26+": 6
    }
@@ -1273,9 +1294,9 @@
    "verse2_shorter": "12/51",
    "verse2_similar": "15/51",
    "verse2_longer": "24/51",
-   "last_hook_longer": "11/50",
-   "last_hook_shorter": "5/50",
-   "last_hook_similar": "34/50",
+   "last_hook_longer": "6/50",
+   "last_hook_shorter": "6/50",
+   "last_hook_similar": "38/50",
    "has_bridge": "9/54",
    "has_pre_hook": "7/54",
    "has_post_hook": "12/54",
@@ -1301,9 +1322,9 @@
     "min": 4.7,
     "max": 42.7
    },
-   "n_ride": 50,
+   "n_ride": 47,
    "verse_sylls_per_beat": {
-    "n": 50,
+    "n": 47,
     "median": 3.21,
     "q1": 2.89,
     "q3": 3.67,
@@ -1311,25 +1332,25 @@
     "max": 5.4
    },
    "hook_sylls_per_beat": {
-    "n": 45,
-    "median": 2.49,
-    "q1": 1.92,
-    "q3": 3.17,
+    "n": 43,
+    "median": 2.5,
+    "q1": 1.93,
+    "q3": 3.18,
     "min": 0.19,
     "max": 5.38
    },
    "verse_line_beats": {
-    "n": 50,
-    "median": 3.64,
-    "q1": 2.2,
-    "q3": 3.96,
+    "n": 47,
+    "median": 3.68,
+    "q1": 2.19,
+    "q3": 3.97,
     "min": 2.01,
     "max": 4.24
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
-    "1.5-2.5 (about 2)": 16,
-    "2.5-3.5": 7,
+    "1.5-2.5 (about 2)": 15,
+    "2.5-3.5": 5,
     "3.5-4.5 (about 4)": 27,
     "4.5+": 0
    },
@@ -1342,10 +1363,10 @@
     "max": 3.86
    },
    "ride_slow": {
-    "n": 43,
-    "sylls_per_beat": 3.31,
+    "n": 40,
+    "sylls_per_beat": 3.28,
     "sylls_per_s": 3.9,
-    "line_beats": 3.45
+    "line_beats": 3.64
    },
    "ride_mid": {
     "n": 7,
@@ -1429,9 +1450,9 @@
    "n_clip": 55,
    "feel_basis": {
     "M": 42,
-    "?": 4,
-    "I": 5,
-    "L": 4
+    "?": 7,
+    "I": 3,
+    "L": 3
    },
    "felt_clear": {
     "n": 42,
@@ -1446,56 +1467,56 @@
     "mid": 4
    },
    "felt_clear_or_leaning": {
-    "n": 46,
-    "median": 70.75,
-    "q1": 65.02,
-    "q3": 80.61,
+    "n": 45,
+    "median": 71.0,
+    "q1": 65.01,
+    "q3": 80.74,
     "min": 56.0,
     "max": 105.0
    },
    "feel_class_clear_or_leaning": {
-    "slow": 42,
+    "slow": 41,
     "mid": 4
    },
    "felt_all_resolved": {
-    "n": 51,
-    "median": 72.0,
-    "q1": 65.51,
-    "q3": 81.0,
+    "n": 48,
+    "median": 71.75,
+    "q1": 65.14,
+    "q3": 81.01,
     "min": 56.0,
     "max": 105.0
    },
    "feel_class_all_resolved": {
-    "slow": 44,
+    "slow": 41,
     "mid": 7
    },
-   "n_bars": 50,
+   "n_bars": 47,
    "first_hook_bars": {
-    "n": 46,
+    "n": 44,
     "median": 14.21,
-    "q1": 4.05,
-    "q3": 23.96,
-    "min": 0.01,
+    "q1": 4.1,
+    "q3": 23.22,
+    "min": 0.14,
     "max": 43.96
    },
    "first_hook_len_bars": {
-    "n": 46,
-    "median": 6.48,
-    "q1": 4.01,
-    "q3": 8.1,
+    "n": 44,
+    "median": 6.58,
+    "q1": 4.0,
+    "q3": 8.11,
     "min": 1.89,
     "max": 14.87
    },
    "hook_len_bar_bands": {
     "under 3": 3,
-    "3-5 (about 4)": 17,
-    "5-7": 5,
+    "3-5 (about 4)": 16,
+    "5-7": 4,
     "7-9 (about 8)": 19,
     "9-13": 0,
     "13+": 2
    },
    "hook1_len_bars_map": {
-    "n": 46,
+    "n": 44,
     "median": 6.15,
     "q1": 4.0,
     "q3": 8.1,
@@ -1504,33 +1525,40 @@
    },
    "hook1_len_bar_bands_map": {
     "under 3": 3,
-    "3-5 (about 4)": 18,
-    "5-7": 4,
+    "3-5 (about 4)": 17,
+    "5-7": 3,
     "7-9 (about 8)": 19,
     "9-13": 0,
     "13+": 2
    },
    "intro_len_bars": {
-    "n": 50,
-    "median": 4.63,
-    "q1": 3.75,
-    "q3": 8.3,
-    "min": 0.01,
+    "n": 47,
+    "median": 4.66,
+    "q1": 3.81,
+    "q3": 8.25,
+    "min": 0.32,
     "max": 18.04
    },
+   "intro_len_bar_bands": {
+    "under 3": 8,
+    "3-5 (about 4)": 16,
+    "5-7": 3,
+    "7-9 (about 8)": 12,
+    "9+": 8
+   },
    "first_verse_len_bars": {
-    "n": 50,
-    "median": 11.95,
-    "q1": 7.97,
-    "q3": 15.83,
+    "n": 47,
+    "median": 11.9,
+    "q1": 8.0,
+    "q3": 15.9,
     "min": 3.8,
     "max": 39.6
    },
    "verse_len_bar_bands": {
-    "under 6": 5,
+    "under 6": 4,
     "6-10 (about 8)": 15,
     "10-14 (about 12)": 9,
-    "14-18 (about 16)": 11,
+    "14-18 (about 16)": 9,
     "18-26": 6,
     "26+": 4
    }
@@ -1657,9 +1685,9 @@
    "verse2_shorter": "11/40",
    "verse2_similar": "13/40",
    "verse2_longer": "16/40",
-   "last_hook_longer": "8/41",
+   "last_hook_longer": "2/41",
    "last_hook_shorter": "1/41",
-   "last_hook_similar": "32/41",
+   "last_hook_similar": "38/41",
    "has_bridge": "6/44",
    "has_pre_hook": "9/44",
    "has_post_hook": "10/44",
@@ -1685,26 +1713,26 @@
     "min": 3.2,
     "max": 38.6
    },
-   "n_ride": 37,
+   "n_ride": 36,
    "verse_sylls_per_beat": {
-    "n": 36,
-    "median": 2.98,
-    "q1": 2.44,
-    "q3": 3.89,
+    "n": 35,
+    "median": 3.01,
+    "q1": 2.41,
+    "q3": 3.91,
     "min": 1.41,
     "max": 4.76
    },
    "hook_sylls_per_beat": {
-    "n": 35,
-    "median": 2.38,
-    "q1": 1.62,
-    "q3": 2.93,
+    "n": 34,
+    "median": 2.35,
+    "q1": 1.6,
+    "q3": 2.94,
     "min": 0.6,
     "max": 4.78
    },
    "verse_line_beats": {
-    "n": 36,
-    "median": 3.75,
+    "n": 35,
+    "median": 3.79,
     "q1": 2.13,
     "q3": 3.99,
     "min": 1.8,
@@ -1713,7 +1741,7 @@
    "verse_line_beats_bands": {
     "under 1.5": 0,
     "1.5-2.5 (about 2)": 11,
-    "2.5-3.5": 6,
+    "2.5-3.5": 5,
     "3.5-4.5 (about 4)": 17,
     "4.5+": 2
    },
@@ -1732,10 +1760,10 @@
     "line_beats": 2.67
    },
    "ride_mid": {
-    "n": 7,
-    "sylls_per_beat": 2.52,
-    "sylls_per_s": 4.45,
-    "line_beats": 3.96
+    "n": 6,
+    "sylls_per_beat": 2.45,
+    "sylls_per_s": 4.34,
+    "line_beats": 3.98
    },
    "ride_fast": {
     "n": 3,
@@ -1813,8 +1841,8 @@
    "n_clip": 41,
    "feel_basis": {
     "M": 30,
-    "?": 3,
-    "I": 5,
+    "?": 4,
+    "I": 4,
     "L": 3
    },
    "felt_clear": {
@@ -1844,79 +1872,86 @@
     "mid": 4
    },
    "felt_all_resolved": {
-    "n": 38,
-    "median": 76.37,
-    "q1": 68.37,
-    "q3": 100.25,
+    "n": 37,
+    "median": 75.23,
+    "q1": 67.25,
+    "q3": 93.0,
     "min": 55.99,
     "max": 143.36
    },
    "feel_class_all_resolved": {
     "slow": 28,
     "fast": 3,
-    "mid": 7
+    "mid": 6
    },
-   "n_bars": 37,
+   "n_bars": 36,
    "first_hook_bars": {
-    "n": 36,
-    "median": 6.88,
-    "q1": 4.09,
-    "q3": 20.93,
+    "n": 35,
+    "median": 7.42,
+    "q1": 4.12,
+    "q3": 21.17,
     "min": 0.0,
     "max": 40.56
    },
    "first_hook_len_bars": {
-    "n": 36,
-    "median": 7.58,
+    "n": 35,
+    "median": 7.63,
     "q1": 3.93,
-    "q3": 8.05,
+    "q3": 8.06,
     "min": 0.96,
     "max": 17.21
    },
    "hook_len_bar_bands": {
     "under 3": 3,
     "3-5 (about 4)": 10,
-    "5-7": 3,
+    "5-7": 2,
     "7-9 (about 8)": 19,
     "9-13": 0,
     "13+": 1
    },
    "hook1_len_bars_map": {
-    "n": 36,
-    "median": 7.55,
-    "q1": 3.95,
-    "q3": 8.07,
+    "n": 35,
+    "median": 7.6,
+    "q1": 3.9,
+    "q3": 8.1,
     "min": 1.0,
     "max": 17.2
    },
    "hook1_len_bar_bands_map": {
     "under 3": 2,
     "3-5 (about 4)": 10,
-    "5-7": 4,
+    "5-7": 3,
     "7-9 (about 8)": 19,
     "9-13": 0,
     "13+": 1
    },
    "intro_len_bars": {
-    "n": 37,
-    "median": 4.16,
-    "q1": 3.38,
-    "q3": 7.61,
+    "n": 36,
+    "median": 4.23,
+    "q1": 3.69,
+    "q3": 7.71,
     "min": 0.0,
     "max": 20.21
    },
+   "intro_len_bar_bands": {
+    "under 3": 7,
+    "3-5 (about 4)": 14,
+    "5-7": 5,
+    "7-9 (about 8)": 5,
+    "9+": 5
+   },
    "first_verse_len_bars": {
-    "n": 36,
-    "median": 11.65,
+    "n": 35,
+    "median": 11.9,
     "q1": 8.0,
-    "q3": 16.88,
+    "q3": 17.1,
     "min": 2.4,
     "max": 28.3
    },
    "verse_len_bar_bands": {
     "under 6": 4,
     "6-10 (about 8)": 10,
-    "10-14 (about 12)": 6,
+    "10-14 (about 12)": 5,
     "14-18 (about 16)": 8,
     "18-26": 6,
     "26+": 2
@@ -2043,9 +2078,9 @@
    "verse2_shorter": "9/38",
    "verse2_similar": "8/38",
    "verse2_longer": "21/38",
-   "last_hook_longer": "13/37",
+   "last_hook_longer": "8/37",
    "last_hook_shorter": "3/37",
-   "last_hook_similar": "21/37",
+   "last_hook_similar": "26/37",
    "has_bridge": "5/40",
    "has_pre_hook": "6/40",
    "has_post_hook": "7/40",
@@ -2071,9 +2106,9 @@
     "min": 3.2,
     "max": 42.7
    },
-   "n_ride": 36,
+   "n_ride": 34,
    "verse_sylls_per_beat": {
-    "n": 36,
+    "n": 34,
     "median": 3.15,
     "q1": 2.89,
     "q3": 3.65,
@@ -2081,25 +2116,25 @@
     "max": 4.4
    },
    "hook_sylls_per_beat": {
-    "n": 31,
-    "median": 2.49,
+    "n": 30,
+    "median": 2.56,
     "q1": 1.93,
     "q3": 3.16,
     "min": 0.19,
     "max": 4.89
    },
    "verse_line_beats": {
-    "n": 36,
-    "median": 3.5,
-    "q1": 2.26,
-    "q3": 3.92,
+    "n": 34,
+    "median": 3.58,
+    "q1": 2.25,
+    "q3": 3.94,
     "min": 2.01,
     "max": 4.24
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
     "1.5-2.5 (about 2)": 10,
-    "2.5-3.5": 8,
+    "2.5-3.5": 6,
     "3.5-4.5 (about 4)": 18,
     "4.5+": 0
    },
@@ -2112,10 +2147,10 @@
     "max": 3.86
    },
    "ride_slow": {
-    "n": 33,
+    "n": 31,
     "sylls_per_beat": 3.22,
     "sylls_per_s": 3.9,
-    "line_beats": 3.45
+    "line_beats": 3.6
    },
    "ride_mid": {
     "n": 3,
@@ -2199,9 +2234,9 @@
    "n_clip": 41,
    "feel_basis": {
     "M": 32,
-    "?": 4,
-    "I": 2,
-    "L": 3
+    "?": 6,
+    "I": 1,
+    "L": 2
    },
    "felt_clear": {
     "n": 32,
@@ -2216,91 +2251,98 @@
     "mid": 2
    },
    "felt_clear_or_leaning": {
-    "n": 35,
+    "n": 34,
     "median": 70.0,
-    "q1": 64.99,
-    "q3": 77.99,
+    "q1": 64.49,
+    "q3": 78.25,
     "min": 55.99,
     "max": 105.0
    },
    "feel_class_clear_or_leaning": {
-    "slow": 33,
+    "slow": 32,
     "mid": 2
    },
    "felt_all_resolved": {
-    "n": 37,
+    "n": 35,
     "median": 70.0,
-    "q1": 65.0,
-    "q3": 78.5,
+    "q1": 64.99,
+    "q3": 79.02,
     "min": 55.99,
     "max": 105.0
    },
    "feel_class_all_resolved": {
-    "slow": 34,
+    "slow": 32,
     "mid": 3
    },
-   "n_bars": 36,
+   "n_bars": 34,
    "first_hook_bars": {
-    "n": 33,
-    "median": 12.96,
-    "q1": 4.17,
-    "q3": 21.08,
-    "min": 0.01,
+    "n": 32,
+    "median": 14.33,
+    "q1": 4.3,
+    "q3": 21.12,
+    "min": 0.32,
     "max": 43.96
    },
    "first_hook_len_bars": {
-    "n": 33,
-    "median": 4.29,
-    "q1": 3.83,
+    "n": 32,
+    "median": 4.32,
+    "q1": 3.8,
     "q3": 8.09,
     "min": 0.96,
     "max": 14.87
    },
    "hook_len_bar_bands": {
     "under 3": 5,
-    "3-5 (about 4)": 13,
+    "3-5 (about 4)": 12,
     "5-7": 1,
     "7-9 (about 8)": 12,
     "9-13": 0,
     "13+": 2
    },
    "hook1_len_bars_map": {
-    "n": 33,
-    "median": 4.3,
-    "q1": 3.85,
+    "n": 32,
+    "median": 4.35,
+    "q1": 3.82,
     "q3": 8.1,
     "min": 1.0,
     "max": 15.1
    },
    "hook1_len_bar_bands_map": {
     "under 3": 5,
-    "3-5 (about 4)": 13,
+    "3-5 (about 4)": 12,
     "5-7": 1,
     "7-9 (about 8)": 12,
     "9-13": 0,
     "13+": 2
    },
    "intro_len_bars": {
-    "n": 36,
-    "median": 4.9,
-    "q1": 1.91,
-    "q3": 8.77,
-    "min": 0.01,
+    "n": 34,
+    "median": 5.25,
+    "q1": 3.65,
+    "q3": 8.97,
+    "min": 0.32,
     "max": 18.04
    },
+   "intro_len_bar_bands": {
+    "under 3": 7,
+    "3-5 (about 4)": 9,
+    "5-7": 3,
+    "7-9 (about 8)": 7,
+    "9+": 8
+   },
    "first_verse_len_bars": {
-    "n": 36,
+    "n": 34,
     "median": 10.0,
-    "q1": 7.93,
-    "q3": 15.75,
+    "q1": 7.97,
+    "q3": 15.83,
     "min": 3.2,
     "max": 39.6
    },
    "verse_len_bar_bands": {
-    "under 6": 4,
+    "under 6": 3,
     "6-10 (about 8)": 12,
     "10-14 (about 12)": 7,
-    "14-18 (about 16)": 7,
+    "14-18 (about 16)": 6,
     "18-26": 3,
     "26+": 3
    }
@@ -2425,9 +2467,9 @@
    "verse2_shorter": "14/53",
    "verse2_similar": "20/53",
    "verse2_longer": "19/53",
-   "last_hook_longer": "6/54",
-   "last_hook_shorter": "3/54",
-   "last_hook_similar": "45/54",
+   "last_hook_longer": "0/54",
+   "last_hook_shorter": "4/54",
+   "last_hook_similar": "50/54",
    "has_bridge": "10/58",
    "has_pre_hook": "10/58",
    "has_post_hook": "15/58",
@@ -2453,35 +2495,35 @@
     "min": 8.5,
     "max": 38.6
    },
-   "n_ride": 51,
+   "n_ride": 49,
    "verse_sylls_per_beat": {
-    "n": 50,
+    "n": 48,
     "median": 3.08,
-    "q1": 2.49,
+    "q1": 2.45,
     "q3": 3.86,
     "min": 1.41,
     "max": 5.4
    },
    "hook_sylls_per_beat": {
-    "n": 49,
-    "median": 2.47,
-    "q1": 1.73,
-    "q3": 3.14,
+    "n": 47,
+    "median": 2.48,
+    "q1": 1.77,
+    "q3": 3.18,
     "min": 0.6,
     "max": 5.38
    },
    "verse_line_beats": {
-    "n": 50,
-    "median": 3.84,
-    "q1": 2.1,
+    "n": 48,
+    "median": 3.88,
+    "q1": 2.09,
     "q3": 3.99,
     "min": 1.8,
     "max": 6.05
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
-    "1.5-2.5 (about 2)": 17,
-    "2.5-3.5": 5,
+    "1.5-2.5 (about 2)": 16,
+    "2.5-3.5": 4,
     "3.5-4.5 (about 4)": 26,
     "4.5+": 2
    },
@@ -2494,15 +2536,15 @@
     "max": 3.46
    },
    "ride_slow": {
-    "n": 36,
-    "sylls_per_beat": 3.64,
+    "n": 35,
+    "sylls_per_beat": 3.63,
     "sylls_per_s": 4.32,
-    "line_beats": 2.97
+    "line_beats": 3.33
    },
    "ride_mid": {
-    "n": 11,
-    "sylls_per_beat": 2.52,
-    "sylls_per_s": 4.45,
+    "n": 10,
+    "sylls_per_beat": 2.46,
+    "sylls_per_s": 4.34,
     "line_beats": 4.01
    },
    "ride_fast": {
@@ -2581,8 +2623,8 @@
    "n_clip": 55,
    "feel_basis": {
     "M": 40,
-    "?": 3,
-    "I": 8,
+    "?": 5,
+    "I": 6,
     "L": 4
    },
    "felt_clear": {
@@ -2612,47 +2654,47 @@
     "fast": 3
    },
    "felt_all_resolved": {
-    "n": 52,
-    "median": 79.24,
-    "q1": 70.01,
-    "q3": 97.77,
+    "n": 50,
+    "median": 78.0,
+    "q1": 69.87,
+    "q3": 93.32,
     "min": 56.0,
     "max": 143.36
    },
    "feel_class_all_resolved": {
-    "slow": 38,
-    "mid": 11,
+    "slow": 37,
+    "mid": 10,
     "fast": 3
    },
-   "n_bars": 51,
+   "n_bars": 49,
    "first_hook_bars": {
-    "n": 49,
+    "n": 47,
     "median": 7.8,
-    "q1": 3.99,
-    "q3": 22.92,
+    "q1": 4.08,
+    "q3": 21.88,
     "min": 0.0,
     "max": 31.92
    },
    "first_hook_len_bars": {
-    "n": 49,
-    "median": 7.63,
-    "q1": 4.23,
-    "q3": 8.07,
+    "n": 47,
+    "median": 7.71,
+    "q1": 4.09,
+    "q3": 8.09,
     "min": 2.72,
     "max": 17.21
    },
    "hook_len_bar_bands": {
     "under 3": 1,
     "3-5 (about 4)": 14,
-    "5-7": 7,
+    "5-7": 5,
     "7-9 (about 8)": 26,
     "9-13": 0,
     "13+": 1
    },
    "hook1_len_bars_map": {
-    "n": 49,
+    "n": 47,
     "median": 7.6,
-    "q1": 4.3,
+    "q1": 4.1,
     "q3": 8.1,
     "min": 3.6,
     "max": 17.2
@@ -2660,32 +2702,39 @@
    "hook1_len_bar_bands_map": {
     "under 3": 0,
     "3-5 (about 4)": 15,
-    "5-7": 7,
+    "5-7": 5,
     "7-9 (about 8)": 26,
     "9-13": 0,
     "13+": 1
    },
    "intro_len_bars": {
-    "n": 51,
+    "n": 49,
     "median": 4.31,
-    "q1": 3.79,
-    "q3": 7.8,
+    "q1": 3.81,
+    "q3": 7.77,
     "min": 0.0,
     "max": 20.21
    },
+   "intro_len_bar_bands": {
+    "under 3": 8,
+    "3-5 (about 4)": 21,
+    "5-7": 5,
+    "7-9 (about 8)": 10,
+    "9+": 5
+   },
    "first_verse_len_bars": {
-    "n": 50,
+    "n": 48,
     "median": 12.2,
     "q1": 8.0,
-    "q3": 17.2,
+    "q3": 19.0,
     "min": 2.4,
     "max": 28.3
    },
    "verse_len_bar_bands": {
     "under 6": 5,
     "6-10 (about 8)": 13,
-    "10-14 (about 12)": 8,
-    "14-18 (about 16)": 12,
+    "10-14 (about 12)": 7,
+    "14-18 (about 16)": 11,
     "18-26": 9,
     "26+": 3
    }
@@ -2809,8 +2858,8 @@
    "verse2_shorter": "4/8",
    "verse2_similar": "1/8",
    "verse2_longer": "3/8",
-   "last_hook_longer": "3/6",
-   "last_hook_shorter": "0/6",
+   "last_hook_longer": "2/6",
+   "last_hook_shorter": "1/6",
    "last_hook_similar": "3/6",
    "has_bridge": "1/8",
    "has_pre_hook": "1/8",
@@ -2836,33 +2885,33 @@
     "min": 3.2,
     "max": 22.6
    },
-   "n_ride": 6,
+   "n_ride": 4,
    "verse_sylls_per_beat": {
-    "n": 6,
-    "median": 3.37,
-    "q1": 3.0,
-    "q3": 3.7,
+    "n": 4,
+    "median": 3.22,
+    "q1": 2.92,
+    "q3": 3.69,
     "min": 2.89,
     "max": 3.78
    },
    "hook_sylls_per_beat": {
-    "n": 3,
-    "median": 2.36,
-    "min": 0.65,
+    "n": 1,
+    "median": 2.86,
+    "min": 2.86,
     "max": 2.86
    },
    "verse_line_beats": {
-    "n": 6,
-    "median": 3.93,
-    "q1": 3.14,
-    "q3": 4.08,
-    "min": 2.4,
+    "n": 4,
+    "median": 4.04,
+    "q1": 3.88,
+    "q3": 4.11,
+    "min": 3.84,
     "max": 4.13
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
-    "1.5-2.5 (about 2)": 1,
-    "2.5-3.5": 1,
+    "1.5-2.5 (about 2)": 0,
+    "2.5-3.5": 0,
     "3.5-4.5 (about 4)": 4,
     "4.5+": 0
    },
@@ -2875,10 +2924,10 @@
     "max": 3.22
    },
    "ride_slow": {
-    "n": 5,
-    "sylls_per_beat": 3.32,
+    "n": 3,
+    "sylls_per_beat": 3.03,
     "sylls_per_s": 4.32,
-    "line_beats": 3.84
+    "line_beats": 4.06
    },
    "ride_mid": {
     "n": 1,
@@ -2957,9 +3006,8 @@
    "n_clip": 7,
    "feel_basis": {
     "M": 2,
-    "I": 3,
-    "?": 1,
-    "L": 1
+    "I": 2,
+    "?": 3
    },
    "felt_clear": {
     "n": 2,
@@ -2971,88 +3019,89 @@
     "slow": 2
    },
    "felt_clear_or_leaning": {
-    "n": 3,
-    "median": 71.5,
-    "min": 70.5,
+    "n": 2,
+    "median": 76.25,
+    "min": 71.5,
     "max": 80.99
    },
    "feel_class_clear_or_leaning": {
-    "slow": 3
+    "slow": 2
    },
    "felt_all_resolved": {
-    "n": 6,
-    "median": 80.77,
-    "q1": 71.25,
-    "q3": 86.9,
-    "min": 70.5,
+    "n": 4,
+    "median": 83.25,
+    "q1": 73.87,
+    "q3": 89.69,
+    "min": 71.5,
     "max": 91.09
    },
    "feel_class_all_resolved": {
-    "slow": 5,
+    "slow": 3,
     "mid": 1
    },
-   "n_bars": 6,
+   "n_bars": 4,
    "first_hook_bars": {
-    "n": 5,
+    "n": 3,
     "median": 4.12,
-    "q1": 0.36,
-    "q3": 32.87,
-    "min": 0.01,
+    "min": 0.71,
     "max": 40.56
    },
    "first_hook_len_bars": {
-    "n": 5,
-    "median": 6.7,
-    "q1": 2.62,
-    "q3": 7.73,
+    "n": 3,
+    "median": 7.62,
     "min": 0.96,
     "max": 7.84
    },
    "hook_len_bar_bands": {
     "under 3": 1,
-    "3-5 (about 4)": 1,
-    "5-7": 1,
+    "3-5 (about 4)": 0,
+    "5-7": 0,
     "7-9 (about 8)": 2,
     "9-13": 0,
     "13+": 0
    },
    "hook1_len_bars_map": {
-    "n": 5,
-    "median": 6.7,
-    "q1": 2.65,
-    "q3": 7.7,
+    "n": 3,
+    "median": 7.6,
     "min": 1.0,
     "max": 7.8
    },
    "hook1_len_bar_bands_map": {
     "under 3": 1,
-    "3-5 (about 4)": 1,
-    "5-7": 1,
+    "3-5 (about 4)": 0,
+    "5-7": 0,
     "7-9 (about 8)": 2,
     "9-13": 0,
     "13+": 0
    },
    "intro_len_bars": {
-    "n": 6,
+    "n": 4,
     "median": 5.97,
-    "q1": 0.53,
-    "q3": 8.89,
-    "min": 0.01,
-    "max": 10.84
+    "q1": 1.56,
+    "q3": 8.14,
+    "min": 0.71,
+    "max": 8.24
+   },
+   "intro_len_bar_bands": {
+    "under 3": 1,
+    "3-5 (about 4)": 1,
+    "5-7": 0,
+    "7-9 (about 8)": 2,
+    "9+": 0
    },
    "first_verse_len_bars": {
-    "n": 6,
-    "median": 19.05,
-    "q1": 14.6,
-    "q3": 28.32,
-    "min": 14.3,
+    "n": 4,
+    "median": 24.05,
+    "q1": 18.52,
+    "q3": 28.98,
+    "min": 18.0,
     "max": 29.3
    },
    "verse_len_bar_bands": {
     "under 6": 0,
     "6-10 (about 8)": 0,
     "10-14 (about 12)": 0,
-    "14-18 (about 16)": 2,
+    "14-18 (about 16)": 0,
     "18-26": 2,
     "26+": 2
    }
@@ -3178,9 +3227,9 @@
    "verse2_shorter": "6/44",
    "verse2_similar": "15/44",
    "verse2_longer": "23/44",
-   "last_hook_longer": "10/45",
+   "last_hook_longer": "3/45",
    "last_hook_shorter": "3/45",
-   "last_hook_similar": "32/45",
+   "last_hook_similar": "39/45",
    "has_bridge": "6/48",
    "has_pre_hook": "5/48",
    "has_post_hook": "8/48",
@@ -3206,11 +3255,11 @@
     "min": 4.7,
     "max": 42.7
    },
-   "n_ride": 43,
+   "n_ride": 42,
    "verse_sylls_per_beat": {
-    "n": 42,
-    "median": 3.55,
-    "q1": 2.86,
+    "n": 41,
+    "median": 3.61,
+    "q1": 2.88,
     "q3": 3.91,
     "min": 2.14,
     "max": 5.4
@@ -3224,17 +3273,17 @@
     "max": 5.38
    },
    "verse_line_beats": {
-    "n": 42,
-    "median": 3.12,
-    "q1": 2.1,
-    "q3": 3.95,
+    "n": 41,
+    "median": 3.33,
+    "q1": 2.09,
+    "q3": 3.96,
     "min": 2.01,
     "max": 4.11
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
     "1.5-2.5 (about 2)": 18,
-    "2.5-3.5": 6,
+    "2.5-3.5": 5,
     "3.5-4.5 (about 4)": 18,
     "4.5+": 0
    },
@@ -3247,10 +3296,10 @@
     "max": 3.55
    },
    "ride_slow": {
-    "n": 41,
-    "sylls_per_beat": 3.61,
-    "sylls_per_s": 3.97,
-    "line_beats": 2.9
+    "n": 40,
+    "sylls_per_beat": 3.62,
+    "sylls_per_s": 3.98,
+    "line_beats": 3.03
    },
    "ride_mid": {
     "n": 1,
@@ -3335,8 +3384,8 @@
    "n_clip": 47,
    "feel_basis": {
     "M": 40,
-    "?": 2,
-    "I": 2,
+    "?": 3,
+    "I": 1,
     "L": 3
    },
    "felt_clear": {
@@ -3364,18 +3413,18 @@
     "mid": 1
    },
    "felt_all_resolved": {
-    "n": 45,
-    "median": 71.5,
-    "q1": 64.0,
-    "q3": 78.25,
+    "n": 44,
+    "median": 71.25,
+    "q1": 63.5,
+    "q3": 78.37,
     "min": 55.99,
     "max": 103.98
    },
    "feel_class_all_resolved": {
-    "slow": 44,
+    "slow": 43,
     "mid": 1
    },
-   "n_bars": 43,
+   "n_bars": 42,
    "first_hook_bars": {
     "n": 41,
     "median": 12.57,
@@ -3417,23 +3466,30 @@
     "13+": 1
    },
    "intro_len_bars": {
-    "n": 43,
+    "n": 42,
     "median": 4.12,
-    "q1": 3.79,
+    "q1": 3.8,
     "q3": 7.96,
     "min": 0.06,
     "max": 20.21
    },
+   "intro_len_bar_bands": {
+    "under 3": 9,
+    "3-5 (about 4)": 16,
+    "5-7": 4,
+    "7-9 (about 8)": 7,
+    "9+": 6
+   },
    "first_verse_len_bars": {
-    "n": 42,
-    "median": 9.4,
-    "q1": 7.88,
-    "q3": 15.77,
+    "n": 41,
+    "median": 10.0,
+    "q1": 7.95,
+    "q3": 15.95,
     "min": 2.4,
     "max": 28.1
    },
    "verse_len_bar_bands": {
-    "under 6": 6,
+    "under 6": 5,
     "6-10 (about 8)": 15,
     "10-14 (about 12)": 6,
     "14-18 (about 16)": 7,
@@ -3559,29 +3615,29 @@
     "min": 14.6,
     "max": 26.0
    },
-   "n_ride": 2,
+   "n_ride": 1,
    "verse_sylls_per_beat": {
-    "n": 2,
-    "median": 3.21,
-    "min": 2.9,
+    "n": 1,
+    "median": 3.53,
+    "min": 3.53,
     "max": 3.53
    },
    "hook_sylls_per_beat": {
-    "n": 2,
-    "median": 3.61,
-    "min": 2.47,
+    "n": 1,
+    "median": 4.74,
+    "min": 4.74,
     "max": 4.74
    },
    "verse_line_beats": {
-    "n": 2,
-    "median": 2.5,
+    "n": 1,
+    "median": 2.03,
     "min": 2.03,
-    "max": 2.98
+    "max": 2.03
    },
    "verse_line_beats_bands": {
     "under 1.5": 0,
     "1.5-2.5 (about 2)": 1,
-    "2.5-3.5": 1,
+    "2.5-3.5": 0,
     "3.5-4.5 (about 4)": 0,
     "4.5+": 0
    },
@@ -3598,10 +3654,10 @@
     "line_beats": 2.03
    },
    "ride_mid": {
-    "n": 1,
-    "sylls_per_beat": 2.9,
-    "sylls_per_s": 5.23,
-    "line_beats": 2.98
+    "n": 0,
+    "sylls_per_beat": null,
+    "sylls_per_s": null,
+    "line_beats": null
    },
    "ride_fast": {
     "n": 0,
@@ -3658,7 +3714,7 @@
    },
    "n_clip": 2,
    "feel_basis": {
-    "I": 1,
+    "?": 1,
     "M": 1
    },
    "felt_clear": {
@@ -3680,66 +3736,72 @@
     "slow": 1
    },
    "felt_all_resolved": {
-    "n": 2,
-    "median": 91.03,
+    "n": 1,
+    "median": 73.99,
     "min": 73.99,
-    "max": 108.08
+    "max": 73.99
    },
    "feel_class_all_resolved": {
-    "mid": 1,
     "slow": 1
    },
-   "n_bars": 2,
+   "n_bars": 1,
    "first_hook_bars": {
-    "n": 2,
-    "median": 2.73,
-    "min": 1.38,
+    "n": 1,
+    "median": 4.08,
+    "min": 4.08,
     "max": 4.08
    },
    "first_hook_len_bars": {
-    "n": 2,
-    "median": 7.3,
-    "min": 6.59,
+    "n": 1,
+    "median": 8.02,
+    "min": 8.02,
     "max": 8.02
    },
    "hook_len_bar_bands": {
     "under 3": 0,
     "3-5 (about 4)": 0,
-    "5-7": 1,
+    "5-7": 0,
     "7-9 (about 8)": 1,
     "9-13": 0,
     "13+": 0
    },
    "hook1_len_bars_map": {
-    "n": 2,
-    "median": 7.3,
-    "min": 6.6,
+    "n": 1,
+    "median": 8.0,
+    "min": 8.0,
     "max": 8.0
    },
    "hook1_len_bar_bands_map": {
     "under 3": 0,
     "3-5 (about 4)": 0,
-    "5-7": 1,
+    "5-7": 0,
     "7-9 (about 8)": 1,
     "9-13": 0,
     "13+": 0
    },
    "intro_len_bars": {
-    "n": 2,
-    "median": 2.73,
-    "min": 1.38,
+    "n": 1,
+    "median": 4.08,
+    "min": 4.08,
     "max": 4.08
    },
+   "intro_len_bar_bands": {
+    "under 3": 0,
+    "3-5 (about 4)": 1,
+    "5-7": 0,
+    "7-9 (about 8)": 0,
+    "9+": 0
+   },
    "first_verse_len_bars": {
-    "n": 2,
-    "median": 9.7,
+    "n": 1,
+    "median": 8.0,
     "min": 8.0,
-    "max": 11.4
+    "max": 8.0
    },
    "verse_len_bar_bands": {
     "under 6": 0,
     "6-10 (about 8)": 1,
-    "10-14 (about 12)": 1,
+    "10-14 (about 12)": 0,
     "14-18 (about 16)": 0,
     "18-26": 0,
     "26+": 0
@@ -4100,6 +4162,13 @@
     "min": 3.11,
     "max": 8.25
    },
+   "intro_len_bar_bands": {
+    "under 3": 0,
+    "3-5 (about 4)": 3,
+    "5-7": 0,
+    "7-9 (about 8)": 3,
+    "9+": 0
+   },
    "first_verse_len_bars": {
     "n": 6,
     "median": 13.9,
@@ -4233,9 +4302,9 @@
    "verse2_shorter": "2/9",
    "verse2_similar": "3/9",
    "verse2_longer": "4/9",
-   "last_hook_longer": "1/9",
+   "last_hook_longer": "0/9",
    "last_hook_shorter": "0/9",
-   "last_hook_similar": "8/9",
+   "last_hook_similar": "9/9",
    "has_bridge": "2/9",
    "has_pre_hook": "3/9",
    "has_post_hook": "4/9",
@@ -4477,6 +4546,13 @@
     "q3": 7.43,
     "min": 0.0,
     "max": 15.34
+   },
+   "intro_len_bar_bands": {
+    "under 3": 2,
+    "3-5 (about 4)": 2,
+    "5-7": 2,
+    "7-9 (about 8)": 1,
+    "9+": 1
    },
    "first_verse_len_bars": {
     "n": 8,
@@ -4951,7 +5027,6 @@
   "#29 Not Like Us (Kendrick Lamar): felt 101 [I]",
   "#44 Lovin On Me (Jack Harlow): felt 105 [I]",
   "#51 Paint The Town Red (Doja Cat): felt 100 [M]",
-  "#56 Barbie World (Nicki Minaj): felt 108 [I]",
   "#61 Players (Coi Leray): felt 105 [L]",
   "#70 Circo Loco (Drake): felt 104 [M]",
   "#88 First Class (Jack Harlow): felt 107 [M]",
@@ -4966,26 +5041,35 @@
   "\"United In Grief\" (65.5 or 131.5)",
   "\"Fair Trade\" (58.5 or 117)"
  ],
+ "feel_listing_conflict": [
+  "\"Man At The Garden\" (clip 80.5, listed 92)",
+  "\"Calling For You\" (clip 76, listed 121)",
+  "\"Barbie World\" (clip 108, listed 144)",
+  "\"Champagne Poetry\" (clip 70.5, listed 87)"
+ ],
+ "feel_range_lower_score": [
+  "\"National Treasures\"",
+  "\"Reincarnated\"",
+  "\"Not Like Us\"",
+  "\"Hiss\"",
+  "\"Lovin On Me\""
+ ],
  "feel_range_rule": [
   "\"National Treasures\" 96.5 (not 48.5)",
   "\"TV Off\" 101 (not 50.5)",
   "\"Reincarnated\" 91 (not 182)",
-  "\"Man At The Garden\" 80.5 (not 161)",
   "\"Not Like Us\" 101 (not 50.5)",
   "\"7 Minute Drill\" 85.5 (not 171)",
   "\"Hiss\" 83.5 (not 167)",
-  "\"Lovin On Me\" 105 (not 52.5)",
-  "\"Calling For You\" 76 (not 152)",
-  "\"Barbie World\" 108 (not 54)"
+  "\"Lovin On Me\" 105 (not 52.5)"
  ],
  "feel_leaning": [
-  "\"Redrum\" 86",
-  "\"First Person Shooter\" 61",
-  "\"Players\" 105",
-  "\"N95\" 70",
-  "\"Big Energy\" 106",
-  "\"Champagne Poetry\" 70.5",
-  "\"TSU\" 65"
+  "\"Redrum\" 86 (not 172)",
+  "\"First Person Shooter\" 61 (not 122)",
+  "\"Players\" 105 (not 52.5)",
+  "\"N95\" 70 (not 140)",
+  "\"Big Energy\" 106 (not 53)",
+  "\"TSU\" 65 (not 130)"
  ],
  "feel_displaced": [
   "#26 St. Chroma"
@@ -5048,6 +5132,18 @@
    "United In Grief (pulse 131.46; listed 86, 87)",
    "Fair Trade (pulse 117.1; listed 168)",
    "Champagne Poetry (pulse 141; listed 87)"
+  ],
+  "disagree_listings_conflict": 4,
+  "disagree_single_listing": 12,
+  "disagree_clear": [
+   "\"Make Them Cry\"",
+   "\"2 Hard 4 The Radio\"",
+   "\"Noid\"",
+   "\"Daylight\"",
+   "\"Fear Of Heights\"",
+   "\"Search & Rescue\"",
+   "\"Forever\"",
+   "\"Jimmy Cooks\""
   ]
  },
  "listing_vs_felt": {
@@ -5113,6 +5209,8 @@
  "process": {
   "statements": 140,
   "tracks": 71,
+  "beat_first_union": 14,
+  "beat_or_sample_first_union": 17,
   "by_code": {
    "snippet_first": {
     "statements": 16,
@@ -6145,6 +6243,8 @@
    },
    "skeptic_rulings": 1520,
    "skeptic_upheld": 1460,
+   "verdicts_sent_to_skeptic": 609,
+   "verdicts_first_reader_only": 279,
    "new_facts_by_category": {
     "recording_process": 140,
     "delivery": 93,
@@ -6159,6 +6259,80 @@
     "runtime": 16,
     "tempo_or_key": 5
    }
+  },
+  "sent_to_skeptic": 609,
+  "first_reader_only": 279,
+  "contradicted_with_basis_code": 4,
+  "contradicted_no_basis_code": 26
+ },
+ "page_origins": {
+  "borrowings": {
+   "partly_supported": 41,
+   "supported": 27,
+   "statement": 11
+  },
+  "borrowings_search_summary_only": [
+   "#42 Nee-nah: Lenny Williams - ''Cause I Love You'",
+   "#69 Privileged Rappers: The Isley Brothers - 'Ballad for the Fallen Soldie"
+  ],
+  "beat_switch": {
+   "statement": 4,
+   "partly_supported": 12,
+   "supported": 2
+  },
+  "opening": {
+   "statement": 11,
+   "supported": 19,
+   "recoded": 1
   }
+ },
+ "second_run": {
+  "tracks": 98,
+  "compared": 94,
+  "no_final": 4,
+  "no_final_list": [
+   "\"Just Wanna Rock\"",
+   "\"Superhero (Heroes & Villains)\"",
+   "\"Rich Flex\"",
+   "\"Major Distribution\""
+  ],
+  "has_hook": "94/94",
+  "first_line": "94/94",
+  "first_hook": "83/87",
+  "hook_count": "86/87",
+  "hook_before_first_verse": "85/87",
+  "first_section": "92/94",
+  "n_verses": "83/94",
+  "first_line_kind": "86/94",
+  "hook_return": "80/87",
+  "core_agree": 88,
+  "differ_list": [
+   "\"What Did I Miss?\" (first hook)",
+   "\"Gimme A Hug\" (first hook)",
+   "\"Hey Now\" (first hook, hook before first verse)",
+   "\"Family Matters\" (hook before first verse)",
+   "\"Cinderella\" (first hook)",
+   "\"FE!N\" (hook count)"
+  ],
+  "hook_time_differs": [
+   "\"What Did I Miss?\" (0:23 here, 0:04 in the second run)",
+   "\"Gimme A Hug\" (2:16 here, 2:13 in the second run)",
+   "\"Hey Now\" (0:19 here, 0:57 in the second run)",
+   "\"Cinderella\" (0:29 here, 0:03 in the second run)"
+  ],
+  "primary": {
+   "n": 91,
+   "median": "0:31",
+   "le_30s": 45,
+   "le_60s": 67
+  },
+  "with_second_run_values": {
+   "n": 91,
+   "median": "0:31",
+   "le_30s": 44,
+   "le_60s": 67
+  },
+  "hook_before_first_verse_primary": "48/91",
+  "hook_before_first_verse_second": "48/91"
  }
 }

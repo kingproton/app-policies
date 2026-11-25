@@ -21,7 +21,7 @@
 | Hook before first verse — sourced yes / no | 4 / 5 | 1 / 2 | 3 / 3 | 1 / 1 | 3 / 4 | 2 / 1 | 2 / 4 |
 |   not re-confirmed (U) yes / no | 7 / 4 | 1 / 1 | 6 / 3 | 3 / 0 | 4 / 4 | 3 / 0 | 4 / 4 |
 |   recollection yes / no | 4 / 7 | 2 / 0 | 2 / 7 | 1 / 5 | 3 / 2 | 1 / 2 | 3 / 5 |
-| Beat switch — sourced / U / recollection | 19 / 0 / 3 | 1 / 0 / 0 | 18 / 0 / 3 | 10 / 0 / 3 | 9 / 0 / 0 | 14 / 0 / 2 | 5 / 0 / 1 |
+| Beat switch — sourced / U / recollection | 18 / 1 / 3 | 1 / 0 / 0 | 17 / 1 / 3 | 10 / 0 / 3 | 8 / 1 / 0 | 14 / 0 / 2 | 4 / 1 / 1 |
 | Beat switch unknown | 60 | 5 | 55 | 38 | 22 | 23 | 37 |
 | Sourced change between sections — beat or bed / new voice | 14 / 9 | 3 / 0 | 11 / 9 | 8 / 3 | 6 / 6 | 8 / 1 | 6 / 8 |
 |   in a section that comes back — new voice / bed | 8 / 4 | 0 / 2 | 8 / 2 | 3 / 1 | 5 / 3 | 1 / 2 | 7 / 2 |

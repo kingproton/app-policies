@@ -2,11 +2,11 @@
 import json, re, unicodedata, collections, os, sys
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from mpaths import SP
+from mpaths import SP, IN
 L = json.load(open(SP + 'net/wiki_lists.json'))
 A = json.load(open(SP + 'net/wiki_articles.json'))
-status = {(r['title'], r['date']): r for r in json.load(open(SP + 'data/classification_status.json'))}
-rows = json.load(open(SP + 'data/final_rows.json'))
+status = {(r['title'], r['date']): r for r in json.load(open(IN + 'classification_status.json'))}
+rows = json.load(open(IN + 'final_rows.json'))
 final = {(r['title'], r['first_top10']) for r in rows}
 def nz(s):
     s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower().replace('&', 'and')
@@ -22,7 +22,7 @@ def ye(listname, title, artist):
     return [(e['year'], e['rank']) for e in L[listname] if key(e['title']) == key(title) and art_ok(artist, e['artist'])]
 # year-end Hot 100 lists
 import urllib.parse
-sys.path.insert(0, SP + 'scripts2'); from parse_wiki_lists import rows_of, cell_content, plain, links, strip_markup
+from parse_wiki_lists import rows_of, cell_content, plain, links, strip_markup
 ye100 = []
 for y in range(2021, 2026):
     fn = SP + 'net/wikipedia/' + urllib.parse.quote(f'Billboard Year-End Hot 100 singles of {y}'.replace(' ', '_'), safe='') + '.wiki'

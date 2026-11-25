@@ -1,3 +1,6 @@
 work/
 __pycache__/
 *.pyc
+data/raw/all.json
+data/raw/arrivals.json
+data/raw/candidates.json

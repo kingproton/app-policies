@@ -2,12 +2,12 @@
 
 ### M-8. The {{ g('climbers','n_songs') }} songs that *climbed* into the top 10 look different from the {{ g('debuts','n_songs') }} that debuted there
 
-- **Effect:** arrangement (how soon the hook comes, solo vs guests) and which patterns to weight. Ranked eighth only because the group is small; it is the one comparison inside the set that resembles an independent release.
+- **Effect:** arrangement (how soon the hook comes, solo vs guests) and which patterns to weight. Ranked eighth only because the group is small. [J] I treat the climbers as the nearest comparison for a single released on its own, because they rose over weeks and did not debut in an album week; nothing in the data records label or release type, so that reading is not tested.
 - **Count:** {{ g('climbers','n_songs') }}/100 climbed in; {{ g('debuts','n_songs') }} debuted directly. Compared with the debuts:
   - **First hook:** median **{{ q('climbers','first_hook','median') }}** vs **{{ q('debuts','first_hook','median') }}**; by 0:30 in {{ g('climbers','first_hook_le_30s') }} vs {{ g('debuts','first_hook_le_30s') }}.
   - **Hook before the first verse:** {{ g('climbers','hook_before_first_verse') }} vs {{ g('debuts','hook_before_first_verse') }}.
   - **A second credited vocalist:** **{{ fs('climbers','second_vocalist_credit') }}** vs **{{ fs('debuts','second_vocalist_credit') }}**.
-  - **Documented borrowing:** **{{ fs('climbers','borrow_documented') }}** vs **{{ fs('debuts','borrow_documented') }}**.
+  - **Documented borrowing:** **{{ fs('climbers','borrow_documented') }}** vs **{{ fs('debuts','borrow_documented') }}**. These are floors, not rates: a song with nothing documented is unknown, not "no" (see M-7).
   - **Runtime:** median {{ q('climbers','runtime','median') }} vs {{ q('debuts','runtime','median') }}.
   - **Chart run:** median weeks in the top 10 **{{ ST_climb_weeks() }}** vs **{{ ST_debut_weeks() }}**.
 - **Examples:** {{ climber_examples(6) }}.
@@ -78,7 +78,7 @@
   - Wherever a count above splits by Drake credit, the split is shown, because one artist's habits can pass for a pattern.
 - **Drill:** only **2** tracks are tagged drill, "Barbie World" and "Princess Diana", both with Ice Spice. Every drill-specific recommendation in the process is therefore **judgment [J]**, not a finding.
 - **Verse-led:** only {{ g('style_verse_led','n_songs') }} tracks carry the tag, and {{ num(g('style_verse_led','no_hook')) }} of them have no recurring hook. Their medians are shown for orientation, not as rules.
-- **The rap top-10 drought:** Billboard and the press reported no rap song in the top 10 from "What Did I Miss?" (July 2025) until spring 2026, and no rap song in the top 40 on the charts dated 2025-10-25 and 2025-11-01, a first since 1990. That gap is why the 100 reach back to September 2021.
+- **The rap top-10 drought:** Billboard and the press reported no rap song in the top 10 from "What Did I Miss?" (July 2025) until spring 2026, and no rap song in the top 40 on the charts dated 2025-10-25 and 2025-11-01, a first since 1990 (both known through web-search summaries from the earlier pass; the articles were not opened in this study). That gap is why the 100 reach back to September 2021.
 
 ---
 
@@ -88,14 +88,17 @@
 |---|---|---|
 | Runtime | **Measured** for {{ top('runtime_basis')['catalog'] }}, cited for {{ top('runtime_basis').get('cited',0) }} | Apple catalog duration |
 | Tempo and felt pulse, half and double time normalized | **Measured**: {{ g('all','feel_basis')['M'] }} clear, {{ g('all','feel_basis').get('L',0) + g('all','feel_basis').get('I',0) }} with a caveat, {{ g('all','feel_basis').get('?',0) }} open, {{ cnt('clip_missing') }} no clip | Backbeat in a 30-second preview clip |
-| First lead-vocal entrance | **Measured** for {{ g('all','n_lyric') }} as the first lyric line, to about a second | Time-synced lyric record |
+| First lead-vocal entrance | **Proxy only.** The first transcribed lyric line is measured for {{ g('all','n_lyric') }}, to about a second. Whether that line is the lead artist is a text-only label: a rap or sung line in {{ sm('all','first_line_kind','rap') + sm('all','first_line_kind','sung') }}, an ad-lib or spoken line in {{ sm('all','first_line_kind','adlib_or_vocalization') + sm('all','first_line_kind','spoken') }}, a sample or another voice in {{ sm('all','first_line_kind','sample_or_other_voice') }}, unclear in {{ sm('all','first_line_kind','unclear') }}. The lead-vocal entrance itself was not measured | Time-synced lyric record |
 | First hook or return anchor | **Measured** for {{ g('all','n_lyric') }}; no hook found in {{ num(g('all','no_hook')) }} | Two readings of the same record, ruled where they differed |
-| Section order and lengths in bars | **Measured** for {{ g('all','n_section_map') }} (one reader's map) | Same record plus the felt tempo |
-| How densely the rapper rides the beat | **Measured** as syllables per second and per felt beat for {{ g('all','verse_sylls_per_s')['n'] }} | Same record; syllables estimated from spelling |
+| Section order and lengths | **Measured**: section order and lengths in seconds for {{ g('all','n_section_map') }} (one reader's map, table 4b-2); lengths in felt bars for the {{ min(g('all','hook1_len_bars_map')['n'], g('all','first_verse_len_bars')['n'], g('all','intro_len_bars')['n']) }} to {{ max(g('all','hook1_len_bars_map')['n'], g('all','first_verse_len_bars')['n'], g('all','intro_len_bars')['n']) }} that also have a resolved felt tempo | Same record plus the felt tempo |
+| How densely the rapper rides the beat | **Measured** as syllables per second for {{ g('all','verse_sylls_per_s')['n'] }} and per felt beat for {{ g('all','verse_sylls_per_beat')['n'] }} | Same record; syllables estimated from spelling |
+| Vocal density between sections | **Measured by section type**: verse against hook, words per second, for {{ den(g('all','verse_denser_than_hook')) }} (M-2). Not computed for each return of a section | Same record |
+| How the performance changes between sections | **Documented only**: cited delivery observations on {{ fsx('tracks_with_sourced_delivery') }} songs and page statements on {{ pagefacts('delivery') }} (M-12); return codes in table 4c. Not measured | Page text and cited sources |
 | Where phrases start and stop against the drums; where rhymes land | **Unknown** | Needs word-level timing against the audio |
 | Silence after punchlines | **Unknown for 100/100** | Line-level timing cannot show a gap inside or after a line |
-| Changes in drums, 808, doubles and ad-libs when a section returns | **Unknown** at the layer level; documented descriptions for some tracks (M-11) | Needs the full recording or stems |
-| A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means two readings found no returning block; a blank means no usable record | — |
+| Changes in drums, 808, melody, doubles and ad-libs when a section returns | **Unknown** at the layer level; a documented beat or bed change on {{ fs('all','return_beat') }} tracks (M-11) | Needs the full recording or stems |
+| Which change is audible enough to matter | **Unknown for 100/100** as a listening judgment, because nobody listened. What sources single out is coded for {{ fs('all','return_sourced_tracks') }} tracks in table 4c (M-11) | — |
+| A hook that is absent vs one that is unverified | **Separated**: "none" in table 4b means the record was read and no returning block was accepted ({{ nohook_basis('A') }} where both readings agree, {{ nohook_basis('J') }} where a second reader ruled); "no matching record" means there was no usable record | — |
 
 `05-measurement-method.md` says how each measured row was produced and checked.
 
@@ -103,7 +106,7 @@
 
 - **Rhyme placement:** stressed rhyme syllables on or just after the snare; internal rhymes mid-bar; the last word kept clean with air after it. This is standard rap-writing craft, and the hits neither prove nor disprove it.
 - **Silence before or after the punchline as an accent**, instead of an ad-lib.
-- **The punch-in method:** hook first and comped, 4-felt-bar punch units, one-felt-bar pre-roll, never mid-chain, mic position marked.
+- **The punch-in method:** hook first and comped (the opening verse first when the song opens on a verse), 4-felt-bar punch units, one-felt-bar pre-roll, never mid-chain, mic position marked.
 - **Ad-lib density:** at most one per felt bar in verses, and only in gaps.
 - **One audible change per block boundary**, with the biggest before the last hook.
 - **At least one pocket change per verse.**
@@ -115,7 +118,7 @@
 
 - **Basis codes for measured values** are in table 4b: feel **M / L / I / ?**; lyric timing **A / J / G / X**. Definitions are in `05-measurement-method.md`.
 - **Basis ladder for documented facts:**
-  - **P**: the saved Wikipedia or Songfacts page text states it, a skeptic upheld that, and the quoted words were found in the saved page.
+  - **P**: the saved Wikipedia or Songfacts page text states the fact or names the work, a skeptic upheld that, and the quoted words were found in the saved page. A P can rest on a supported verdict, on a partly supported one (the page states the core; the detail it does not state is not counted), or on a new page statement. `05-measurement-method.md` gives the split.
   - **S**: a cited source supports the claim and the earlier verifier did not reject it. These were read through web-search summaries.
   - **U**: cited but not confirmed, or contradicted by page text. Kept for transparency, never counted.
   - **R**: unverified recollection. Never counted.
@@ -123,7 +126,7 @@
 - **Grid BPM:** the fastest steady pulse that carries the beat, which is what a DAW project would be set to. **Felt BPM:** the backbeat tempo, with the snare or clap on beats 2 and 4. On a slow pocket the grid is double the felt tempo.
 - **Felt bar:** four felt beats. Bar counts in this file are felt bars; double them for a doubled DAW grid.
 - **Hook:** the main block of lyric that comes back in substantially the same words. **Return anchor:** the first line of *any* block that comes back. **Hook before the first verse:** no verse section starts before the first hook; a short intro, tag or sample may come before it.
-- **Borrowings** are typed as sample, interpolation, dialogue clip or self-reuse. Only page-supported, verifier-confirmed and cited credits count; unconfirmed and rejected credits do not.
+- **Borrowings** are typed as sample, interpolation, dialogue clip or self-reuse. Page-supported credits count, as do the {{ len(MS_ALL['page_origins']['borrowings_search_summary_only']) }} credits the earlier verifier added from search summaries and credits cited by research that were not flagged; unconfirmed and rejected credits do not.
 - **Return-change coding** (M-11) is mine, from the cited descriptions. Each song's code is in `scripts/corrections.py` (`RETURN_TYPES`, `RETURNING`).
 - **Second credited vocalist** = the Billboard credit names at least two vocalists. Producer-only credits such as Metro Boomin don't count.
 - **Style tags** (trap, West Coast bounce, boom-bap/verse-led, pop-rap, R&B-rap, drill, Jersey club, rage) were assigned by the research agents from source descriptions and credits. They're descriptive, not Billboard categories.
