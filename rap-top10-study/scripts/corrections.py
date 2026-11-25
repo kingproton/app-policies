@@ -330,6 +330,8 @@ PAGE_SAMPLE_ADD = {
 EVIDENCE_DISPLAY = {
     2: "Billboard's 'Chart Highlights for Oct. 17, 2026' and a chart-beat story (also on Yahoo) say 'Solar Eclipse' debuted at No. 1 on "
        "Hot R&B/Hip-Hop Songs and at No. 1 on Hot R&B Songs (search-result summaries; the Hot Rap Songs page for that week was not seen).",
+    43: "Year-end deduction from lists read directly: 'A Bar Song (Tipsy)' is No. 2 on the 2024 year-end Hot 100 and No. 3 on the 2025 one, but on neither year's Hot Rap Songs list, where a rap title that size would rank near the top. The earlier pass also leaned on a Hypebeast search summary and on recollection; neither is counted.",   # A Bar Song (Tipsy): the deciding lists were read directly, so no search-summary prefix
+    122: "Search summaries (pages not opened): Billboard's R&B Streaming Songs page dated 2021-10-30 lists 'Essence' (Wizkid feat. Tems) at No. 1 with 16 weeks on the chart, and Wikipedia's Hot R&B Songs article says it reached No. 1 there on 2021-09-11. Those dates bracket its first Hot 100 top-10 week (2021-10-16).",   # Essence: label the Billboard page claim as a search summary
     123: "Absent from Billboard's 2022 year-end Hot Rap Songs (top 49 in the summary), Hot R&B/Hip-Hop Songs (through No. 99) and Hot R&B Songs "
          "(through No. 49), per search summaries of those pages; most of its top-10 run, fall 2021 into early 2022, falls in that chart year. "
          "Lil Nas X's 'Industry Baby' is No. 5 on the same rap list.",
